@@ -50,7 +50,7 @@ And for those like me who prefer to work from a printed text,
 
 ## Selected lecture notes {#lectures}
 
-I used to list here over 30 sets of available lecture notes, without much comment. That was perhaps rather unhelpful. So let me now give a rather shorter selection of lecture notes that do seem to me likely to be particularly useful at an introductory level. (But your mileage of course may vary, which is why an updated version of the original longer list [is still available here](/categories/categories-lists/).)
+I used to list here over 30 sets of available lecture notes, without much comment. That was perhaps rather unhelpful. So let me now give a rather shorter selection of lecture notes that do seem to me likely to be particularly useful at an introductory level. (But your mileage of course may vary, which is why an updated version of the original longer list is still available below.)
 
 Notes of P.T. Johnstone’s Lectures for his famed Cambridge Part III course (the topics of later lectures differ from year to year):
 

@@ -46,6 +46,8 @@ a:focus-visible {
 }
 
 blockquote,
-blockquote p {
-  color: inherit;
+.blockquote,
+blockquote p,
+.blockquote p {
+  color: inherit !important;
 }
