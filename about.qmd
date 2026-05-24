@@ -7,12 +7,7 @@ about:
     - icon: bluesky
       text: Bluesky
       href: https://bsky.app/
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-    - icon: github
-      text: Github
-      href: https://github.com
+    
 
 ---
 

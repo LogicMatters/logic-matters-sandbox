@@ -1,0 +1,104 @@
+---
+title: "Categories — fuller list of lecture notes and books"
+description: "A more comprehensive collection of freely available category theory resources."
+---
+
+The links below are to various freely (and legitimately!) available online resources for those interested in category theory at an elementary/intermediate level. On this page, they are presented without much comment, for you to delve into. For a suggested selection, return to the main [category theory page here](/categories).
+
+---
+
+## Lecture notes on Category Theory
+
+Notes of P.T. Johnstone’s Lectures for the Cambridge Part III course:
+<ol>
+  <li>[Notes by Bruce Fontaine](https://pi.math.cornell.edu/~bfontain/cattheory.pdf) (pp. 52: version of Nov. 2011).</li>
+  <li>[Notes by David Mehrle](http://pi.math.cornell.edu/~dmehrle/notes/partiii/cattheory_partiii_notes.pdf) (pp. 80; lectures given 2015, notes revised 2016).</li>
+  <li>[Notes by Qiangru Kuang](http://qk206.user.srcf.net/notes/category_theory.pdf) (pp. 68, 2018).</li>
+  <li>[Notes by Alexis Marchand](https://alexis-marchand.github.io/docs/lecture-notes/PartIII-CategoryTheory.pdf) (pp. 44, 2019).</li>
+  <li>[Notes by Sky Wilshaw](https://zeramorphic.uk/gh/maths-compiled/iii/cat/build/main.pdf) (pp. 69, 2024).</li>
+</ol>
+
+Other online notes An idiosyncratic list of notes/expositions of various styles that I happen to have come across and that might in varying degrees be useful (I’ve only listed the more substantial lecture notes available, which are sufficiently discursive to stand alone without the lectures they were intended to accompany, and which don’t tangle too much/too quickly with more advanced topics). In alphabetical order by author:
+<ol>
+  <li>Benedikt Ahrens and Kobe Wullaert, [Category Theory for Programming](https://arxiv.org/pdf/2209.01259) (pp. 64, plus pp. 50 solutions to exercises, 2026).</li>
+  <li>Steve Awodey and Andrej Bauer, [Category Theory](https://awodey.github.io/catlog/notes/catlog0.pdf) (pp. 57, 2024, primer on category theory in draft textbook-in-progress on categorical logic).</li>
+  <li>John Baez, [Category Theory Course](http://math.ucr.edu/home/baez/qg-winter2016/CategoryTheoryNotes.pdf) (pp. 59, 2019: past course page [here](https://golem.ph.utexas.edu/category/2016/03/category_theory_course.html)).</li>
+  <li>Michael Barr and Charles Wells, [Category Theory Lecture Notes for ESSLLI](https://fldit-www.cs.toronto.edu/~peter/barrwells.pdf) (pp. 128, 1999: a cut down version of their Category Theory for Computing Science which is also available online: see below).</li>
+  <li>Erwan Beurier and Dominique Pastor, [A Crash Course on Category Theory](https://hal.science/hal-02190027/document) (pp. 127, 2019).</li>
+  <li>Mario Cáccamo and Glynn Winskel, [Lecture Notes on Category Theory](http://www.cl.cam.ac.uk/~gw104/catnotes.ps) (postscript file, pp. 74, 2005; [pdf version](/resources/pdfs/Winksel_catnotes.pdf): notes for a course inspired by Martin Hyland’s Part III Mathematics course).</li>
+  <li>Robin Cockett, [Category Theory for Computer Science](http://pages.cpsc.ucalgary.ca/~robin/class/617/notes.pdf) (pp. 107, 2022). And by the same author, a significantly different set of notes [Categories and Computability](http://pages.cpsc.ucalgary.ca/~robin/talks/estonia-winter-2010/estonia-notes.pdf) (pp. 100, 2014).</li>
+  <li>Bob Coecke and Eric Oliver Paquette, [Categories for the Practising Physicist](https://arxiv.org/pdf/0905.3010) (pp. 105, 2009).</li>
+  <li>Daniel Epelbaum and Ashwin Trisa, [Introductory Category Theory Notes](http://web.math.ucsb.edu/~atrisal/category%20theory.pdf) (pp. 56, 2020).</li>
+  <li>Julia Goedecke, [Category Theory](http://www.julia-goedecke.de/pdf/CategoryTheoryNotes.pdf) (pp. 63, lecture notes for her Cambridge Part III Maths course, 2013: related materials on her [website here](http://www.julia-goedecke.de/teaching.html)).</li>
+  <li>Chris Hillman, [A Categorical Primer](https://cdn.preterhuman.net/texts/math/A%20Categorical%20Primer.ps) (pp. 62, 1997).</li>
+  <li>Randal Holmes, [Category Theory](https://web.auburn.edu/holmerr/8970/Textbook/CategoryTheory.pdf) (pp. 99, 2019).</li>
+  <li>Robert Knighten, [Notes on Category Theory](http://robert.knighten.org/Documents/Notes.pdf) (about pp. 160 of unfinished notes, followed by appendices including useful information about many books: 2011).</li>
+  <li>Ryszard Kostecki, [An Introduction to Topos Theory](https://www.fuw.edu.pl/~kostecki/ittt.pdf) (pp. 93, with first half on categories more generally, 2011).</li>
+  <li>Valdis Laan, [Introduction to Category Theory](http://www.algebra.uni-linz.ac.at/Students/Categories/Linzcat.pdf) (pp. 52, 2003).</li>
+  <li>Günter Landsmann, [Basic Theory of Categories](https://www3.risc.jku.at/education/courses/ss2012/alg-alggeo/categories-part1.pdf) (pp. 65, 2012).</li>
+  <li>Bartosz Milewski, [Category Theory for Programmers](http://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/) (series of long blogposts, available in book format, linked below: also see his videos, also linked below).</li>
+  <li>Ed Morehouse, [Basic Category Theory](https://edwardmorehouse.github.io/research/notes/basic_category_theory.pdf) (pp. 77, 2016).</li>
+  <li>Jaap van Oosten, [Basic Category Theory and Topos Theory](http://www.staff.science.uu.nl/~ooste110/syllabi/cattop16.pdf) (pp. 123, Utrecht 2016).</li>
+  <li>Prakash Panangaden, [Brief notes on category theory](http://www.cs.mcgill.ca/~prakash/Pubs/category_theory_notes.pdf) (pp. 36, 2012).</li>
+  <li>Bodo Pareigis, [Category Theory](https://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.pdf) (pp. 90, 2004).</li>
+  <li>Paulo Perrone, [Notes on Category Theory](https://arxiv.org/abs/1912.10642) (pp. 181, 2021).</li>
+  <li>Benjamin Pierce, [A Taste of Category Theory for Computer Scientist](https://people.csail.mit.edu/jgross/personal-website/papers/academic-papers-local/repository.cmu.edu__cgi__viewcontent.cgi_article=2846_context=compsci.pdf) (pp. 75, 1988: earlier version of [this book](https://mitpress.mit.edu/books/basic-category-theory-computer-scientists)).</li>
+  <li>Pavel Safronov, [Category Theory](https://drive.google.com/file/d/0B3Hq3GkR_m3iSkpjcnVuRjhEZFU/view?resourcekey=0-8bO73R8D1pxT2km54afUMA) (pp. 56 — Oxford lecture notes, 2015).</li>
+  <li>Pierre Schapira, [Algebra and Topology](https://webusers.imj-prg.fr/~pierre.schapira/LectNotes/AlTo.pdf) (pp. 157, 2008 — largely category theory).</li>
+  <li>Jakob Scholbach, [Category Theory](https://jakobscholbach.github.io/categories.pdf) (pp. 95, 2022).</li>
+  <li>Thomas Streicher, [Introduction to Category Theory and Categorial Logic](http://www.mathematik.tu-darmstadt.de/~streicher/CTCL.pdf) (pp. 116, 2003/4).</li>
+  <li>Lenny Taelman, [Modules and Categories](https://staff.fnwi.uva.nl/l.d.j.taelman/ca.pdf) (pp. 131, 2023: requires some algebraic background).</li>
+  <li>Daniele Turi, [Category Theory Lecture Notes](http://www.dcs.ed.ac.uk/home/dt/CT/categories.pdf) (pp. 58, Edinburgh, 2001).</li>
+  <li>Ravi Vakil, “Just enough category theory to be dangerous” (pp. 46: from Ch. 1 of [The Rising Sea: Foundations Of Algebraic Geometry Notes](http://math.stanford.edu/~vakil/216blog/), 2025).</li>
+</ol>
+
+---
+
+## Books and Articles on Category Theory
+
+Some books and other longer published works on category theory These are e-copies of paper publications, at introductory or intermediate level, which happen also to be officially available to download. NB I’ll keep this list respectable by passing over in silence those copyright-infringing pdf repositories that, of course, none of us use …
+<ol>
+  <li>Samson Abramsky and Nikos Tzevelekos, [Introduction to Categories and Categorical Logic](http://arxiv.org/pdf/1102.1313v1.pdf) (pp. 101: 2011 arXiv version of their chapter in Bob Coecke, ed. New Structures for Physics, Springer 2010).</li>
+  <li>Jiri Adamek, Horst Herrlich and George Strecker, [Abstract and Concrete Categories: The Joy of Cats](http://www.tac.mta.ca/tac/reprints/articles/17/tr17.pdf) (originally published John Wiley and Sons, 1990: recommended).</li>
+  <li>Andrea Asperti and Giuseppe Longo. [Categories, Types and Structures: Category Theory for the working computer scientist](http://www.di.ens.fr/users/longo/files/CategTypesStructures/book.pdf). MIT Press, 1991.</li>
+  <li>Michael Barr and Charles Wells, [Toposes, Triples and Theories](http://www.tac.mta.ca/tac/reprints/articles/12/tr12.pdf) (originally published Springer, 1985).</li>
+  <li>Michael Barr and Charles Wells, [Category Theory for Computing Science](http://www.tac.mta.ca/tac/reprints/articles/22/tr22.pdf) (originally published Prentice Hall, 1995: particularly clear and useful).</li>
+  <li>George M. Bergman, [An Invitation to General Algebra and Universal Constructions](https://math.berkeley.edu/~gbergman/245/3.2.pdf) (online version of book published by Springer, 2nd end 2015: this is about recurrent ideas in algebra and the way category theory unifies them).</li>
+  <li>Tai-Danae Bradly, Tyler Bryson and John Terilla, [Topology: A Categorial Approach](https://topology.mitpress.mit.edu) (online version of a book published by MIT Press, 2020: a short, elementary, book — the categorial approach is illuminating of both category theory and topology).</li>
+  <li>Brendan Fong and David Spivak, [Seven Sketches in Compositionality: An Invitation to Applied Category Theory](https://arxiv.org/abs/1803.05316) (pp. 341, 2018: published as CUP book in 2019).</li>
+  <li>Peter Freyd, [Abelian Categories](http://www.tac.mta.ca/tac/reprints/articles/3/tr3abs.html) (originally published Harper and Row, 1964: not exactly elementary — but a classic).</li>
+  <li>Robert Goldblatt, [Topoi](https://projecteuclid.org/euclid.bia/1403013939#toc-idx?c=math;idno=gold010) (originally published North-Holland, 1979/1984: an expository classic – also available as cheap Dover book).</li>
+  <li>Horst Herrlich and George Strecker, [Category Theory](http://www.heldermann.de/SSPM/SSPM01/sspm01.htm) (originally published Allyn and Bacon, 1973; third edition 2007: more introductory than their later book with Adamek listed above.)</li>
+  <li>Tom Leinster, [Basic Category Theory](https://arxiv.org/abs/1612.09375) (originally published CUP, 2014).</li>
+  <li>Bartosz Milewski, [Category Theory for Programmers](https://github.com/hmemcpy/milewski-ctfp-pdf/) (book version of his blog posts, 2018).</li>
+  <li>Bartosz Milewski, [The Dao of Functional Programming](https://github.com/BartoszMilewski/DaoFP/blob/master/DaoFP.pdf) (draft book, largely about categories, 2025).</li>
+  <li>Birgit Richter, [From Categories to Homotopy Theory](https://www.math.uni-hamburg.de/home/richter/bookdraft.pdf) (pp. 384 in the PDF version, 2019: published by CUP in 2020 — this gets advanced, but Part I ‘Category Theory’ is very accessible).</li>
+  <li>Emily Riehl, [Category Theory in Context](https://emilyriehl.github.io/files/context.pdf) (pp. 240: 2016 Dover book).</li>
+  <li>Andrei Rodin, [Axiomatic Method and Category Theory](http://arxiv.org/pdf/1210.1478v1.pdf) (2012 arXiv version of book published by Springer 2013: not an exposition of category theory but discusses something of the history and philosophy behind its development).</li>
+  <li>Peter Smith, [Introducing Category Theory](/categories) (pp. 510: 3rd edn. 2026).</li>
+  <li>David I. Spivak, [Category Theory for the Sciences](https://arxiv.org/abs/1302.6946) (2013 arXiv version of book published by MIT Press, 2014).</li>
+  <li>Paul Taylor, [Practical Foundations of Mathematics](http://www.paultaylor.eu/prafm/) (html version of pp. 572 book, CUP 1999).</li>
+</ol>
+
+Some handbook essays on categorial logic in particular
+<ol>
+  <li>Samson Abramsky and Nikos Tzevelekos, [Introduction to Categories and Categorical Logic](http://arxiv.org/pdf/1102.1313v1.pdf) (as above). [Clear intro. to categories: but when it turns to logic rather rushed and oddly focused.]</li>
+  <li>John L. Bell, [The Development of Categorical Logic](http://publish.uwo.ca/~jbell/catlogprime.pdf) (more advanced: published in D.M. Gabbay & Franz Guenthner, eds, Handbook of Philosophical Logic, 2nd edition, Volume 12, Springer 2005).</li>
+  <li>Jean-Pierre Marquis & Gonzalo E. Reyes, [The History Of Categorical Logic 1963-1977](https://marieetgonzalo.files.wordpress.com/2011/04/history-of-categorical-logic-1963-1977-jean-pierre-marquis-and-gonzalo-e-reyes.pdf) (in Dov Gabbay et al., eds, Handbook of the History of Logic Vol 6: Sets and extensions in the twentieth century, North-Holland 2012). [Over-detailed and consequently rather impenetrable: probably only useful if you already know a lot.]</li>
+  <li>Andrew Pitts, [Categorical Logic](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-367.ps.gz) (in S. Abramsky, D. Gabbay, T. Maibaum, eds, Handbook of Logic in Computer Science Vol 5, OUP 2000).</li>
+</ol>
+
+Page of links to reprints, including some classic articles
+<ol>
+  <li>[Reprints in Theory and Applications of Categories](http://www.tac.mta.ca/tac/reprints/)</li>
+</ol>
+
+Web resource
+
+I can’t finish listing text resources without mentioning the massively useful wiki, the [nLab](https://ncatlab.org/nlab/show/HomePage). See in particular [category theory in nLab](https://ncatlab.org/nlab/show/category+theory).
+
+---
+
+I have only listed here substantial enough material of roughly the right level that is, to repeat, officially available online. I don’t plan to be completist — but do please let me know of errors and omissions and newly available lecture notes, etc.
+
+Links last updated 21 May 2026.

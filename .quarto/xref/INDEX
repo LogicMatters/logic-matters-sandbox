@@ -10,5 +10,17 @@
   },
   "about.qmd": {
     "about.html": "c6c8596c"
+  },
+  "books/index.qmd": {
+    "index.html": "d1f636e7"
+  },
+  "categories/index.qmd": {
+    "index.html": "c8d26389"
+  },
+  "categories/categories-lists.qmd": {
+    "categories-lists.html": "8b16a959"
+  },
+  "categories/comments.qmd": {
+    "comments.html": "1ebea560"
   }
 }

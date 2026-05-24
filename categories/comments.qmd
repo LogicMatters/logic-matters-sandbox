@@ -1,0 +1,24 @@
+---
+title: "A few comments on (precursors to) Introducing Category Theory"
+description: "Friendly remarks about early draft PDF versions of Introducing Category Theory."
+---
+
+Let me toot my own trumpet. There are some cheeringly nice remarks about the category theory book (or at least about earlier draft PDF versions) out there in discussion forums, e.g. on Reddit. I’ll quote a few here, at least because they provide *some* evidence that the book could work for other readers.
+
+For example
+
+> “I think Peter Smith’s book on category theory … is probably the best introduction there is. It’s very carefully written (Smith is a logician), and Smith is very good at explaining what is actually going on.”
+> “My favourite introduction to category theory is Peter Smith’s notes. They are *very* gentle, and Smith does a good job of highlighting conceptual and foundational issues without it detracting from the mathematics.”
+> “By far the best place to start, I think, is Peter Smith’s category theory notes.”
+> “If you do struggle with the category theory, I really recommend Peter Smith’s notes. Smith is a logician and philosopher, and he is really good at explicating the conceptual aspects of category theory, not just the technical parts.”
+> “Smith’s notes are probably the best way to begin learning category theory.”
+
+There’s an Amazon review of the book version of Part I:
+
+> “The ideal starting point for category theory. Perfect for beginners. If you’re more seasoned, just read faster and supplement with “industrial-grade” readings.”
+
+And a new Amazon review of the second edition of the whole book says simply (but pleasingly)
+
+> “A superb introduction!”
+
+Those comments are really good to see. I make no claim for the notes other than that they are written up a bit more in the style of an elementary logic text than is usual. *Of course*, they will be (much!) too slow-moving, too pedestrian, for many. And some will think that the order in which I tackle topics is misguided. But it seems that some others, as I hoped, will appreciate my gentle approach.

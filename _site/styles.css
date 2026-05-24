@@ -1,1 +1,51 @@
 /* css styles */
+
+html {
+  font-size: 105%;
+}
+
+body {
+  line-height: 1.5;
+}
+
+/* Anchor offset for fixed header / Safari scroll positioning */
+:target::before {
+  content: "";
+  display: block;
+  height: 8rem;
+  margin-top: -8rem;
+  visibility: hidden;
+}
+
+h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
+  scroll-margin-top: 8rem;
+}
+
+/* Ensure anchored headings are visible below the fixed navbar */
+h1.anchored,
+h2.anchored,
+h3.anchored,
+h4.anchored,
+h5.anchored,
+h6.anchored {
+  scroll-margin-top: 10rem;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+  color: #0d6efd;
+  transition: color 0.2s ease;
+}
+a:hover, a:focus {
+  text-decoration: none;
+  color: #084298;
+}
+a:focus-visible {
+  outline: 2px dashed #084298;
+  outline-offset: 3px;
+}
+
+blockquote,
+blockquote p {
+  color: inherit;
+}
