@@ -1,0 +1,40 @@
+---
+title: "CatWP Archives - Logic Matters"
+---
+
+*
+
+Categories for the Working Philosopher: 1–3
+
+*Categories for the Working Philosopher*, edited by Elaine Landry (OUP), was first published in 2017, and I briefly noted this collection when it came out as seeming to be a very mixed bag. Since my mind is back on matters categorial, and the book has been recently paperbacked, I thought I’d take another look.
+
+Landry describes the first eleven essays as concerning the “use of category theory for mathematical, foundational, and logical purposes”. The remaining seven pieces are on scattered applications of category theory (though there seems to be nothing on why it has come to be of such central concern to theoretical computer science). I’ll probably concentrate here on the earlier essays, and I’ll take them in the published order, starting with the first three.
+
+---
+
+‘The roles of set theories in mathematics’ by Colin McLarty is not the wide-ranging discussion that we get in e.g. Penelope Maddy or John Burgess writing about the role of set theory. McLarty focuses on one familiar claim — namely that ZFC radically overshoots as an account of what ‘ordinary mathematics’ requires by way of background assumptions about sets.
+
+McLarty in particular takes a look at the set-theoretic preliminaries expounded in two classic texts, by Munkres on topology and Lang on algebra, and comments on their relatively modest character. Though I’m not sure that McLarty is a particularly reliable close-reader of their texts. For example, he writes “Of course in ZFC everything is a set, including that the elements of sets are sets. Munkres hardly denies that all objects are sets.” But Munkres does deny just that — his informal set theory explicitly allows urelements which aren’t sets:  “The objects belonging to a set may be of any sort. One can consider the set of all even integers, and the set of all blue-eyed people in Nebraska, and the set of all decks of playing cards in the world.”
+
+Let that pass.  Neither Munkres or Lang gives a regimented summary of his set-theoretic assumptions in axiomatic form: if they did so, what would it look like? Something like the original Zermelo set theory with urelements plus choice, I guess. But McLarty suggests it could look like ETCS, the ‘Elementary Theory of the Category of Sets’ developed by Lawvere. Thus he writes “[Lang’s] account simply says nothing that would distinguish between ZFC and ETCS, because nothing in his book depends on those differences.”
+
+But recall:
+- In ETCS, no element is an element of two distinct sets.
+- And a subset of *X* cannot be a subset of *Y* unless *X* = *Y*.
+- In standard set theory a set can be an element of *X* and a subset of *Y*: in ETCS this can’t happen unless *X = Y.*
+- In standard set theory any two sets *X* and *Y* have an intersection and union: not so in ETCS.
+- In standard set theory an element of a set *X *can itself have elements: not so in ETCS.
+
+And on it goes. Yes, nothing that Munkres or Lang says explicitly rejects the deviant ETCS line. But the plausible explanation is that it just doesn’t cross their minds as an option that needs to be countenanced in an introduction to mainstream set-theoretic ideas to beginning graduate students of topology or algebra. (Any more than they countenance NF-style stratification, say.)
+
+Now true enough, ETCS can be neatly re-packaged in the manner of Tom Leinster in his well-known ‘Rethinking set theory’. Leinster’s aim is, as he puts it, to show that “simply by writing down a few mundane, uncontroversial statements about sets and functions, we arrive at an axiomatization that reflects how sets are used in everyday mathematics.” And Leinster is at pains to point out that the axioms of this theory, in his presentation, do not overtly involve any essentially categorial notions — they just talk about “sets” and “functions” (without reducing the “functions” to “sets”, by the way). He is indeed emphatic that this ETCS-style story about “sets” is, unqualifiedly, a theory about sets as ordinarily thought of by mathematicians. But given the discrepancies such as those noted above between ETCS and routine assumptions about sets, that is tendentious to say the least.
+
+McLarty himself goes on to highlight some of the differences between ETCS and standard ZFC-style theories (with or without urlements): but unlike e.g. Mike Shulman, this doesn’t make him hesitate to call ETCS a set theory. Maybe that’s impolitic. Rather than that the distracting implication (in Lawvere too) that we’ve being doing our set-theory-for-ordinary-applications wrong, I’d say it is better to spin a positive message that a significantly different way of handling pluralities may serve some purposes better (more economically, with less redundancy).
+
+---
+
+The next paper is, by my lights, pretentious arm-waving by David Corfield on ‘Reviving the philosophy of geometry’: you can give this a miss.
+
+Next up, Michael Shulman writing about ‘Homotopy type theory: a synthetic approach to higher equalities’: you can download the paper here. Now, Shulman has elsewhere shown a considerable gift for what you might call the higher exposition — explaining, unifying, organising difficult material. His much-referenced paper ‘Set theory for category theory‘ is indispensable. But this present paper is pretty hard going — surely rather too compressed and allusive (would someone who had never before encountered Einstein’s hole argument get what is going on? more to the point, is the supposedly crucial distinction between the *rules* of a type theory and *axioms* of a set theory made transparently clear?). I’ll certainly not try to summarize, then. But despite its density, the piece is helpful enough to be worth struggling with, if you want to get some glimmer of what the programme of homotopy type theory/univalent foundations is.
+
+However, as Shulman tells us at the outset, HoTT is a “surprising synthesis of constructive intensional type theory and abstract homotopy theory” and neither of those is essentially categorial from the off. Indeed, in the foundational text, *Homotopy Type Theory: Univalent Foundations of Mathematics*, category theory doesn’t get mentioned until p. 377! So we might wonder: interesting though HoTT’s programme is as “a new foundation for mathematics and logic” (in Landry’s words), in what sense exactly is this programme essentially categorial in nature?

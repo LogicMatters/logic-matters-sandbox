@@ -6,11 +6,10 @@ description: "Links to the book and related resources."
 ### Quick links
 
 - [The book and how to get it](#book)
-- [Logic bites and snippets](#podcasts)
 - [Corrections](#corrections)
 - [Exercises and worked answers](#exercises)
 - [On truth trees](#trees)
-- [Legacy pages: the first edition](#first)
+- [Logic bites and snippets](#podcasts)
 - [Other supplementary materials](#supp)
 - [Other books](#other)
 
@@ -60,23 +59,21 @@ Ideally beginners should end up knowing about both ND and truth trees (tableaux)
 - [Trees for propositional logic](pdfs/TruthTreesPL1.pdf) — \[Considerably revised from *IFL1*\]
 - [Trees for quantificational logic](pdfs/QuantifierTreesCM.pdf) — \[Temporary version soon to be revised\]
 
-## The first edition {#first}
-
-For corrections to the first edition and answers to the exercises, [go to this page](/ifl/ifl_1st/).
 
 ## Logic bites and snippets {#podcasts}
 
-In lieu of podcasts introducing chapters or pairs of chapters (it’s too difficult to handle symbols in an audio format!), here’s a series of bitesized informal written introductions giving some orientation in a reasonably relaxed way:
+In lieu of podcasts introducing chapters or pairs of chapters (it’s too difficult to handle symbols in an audio format!), I wrote a series of bitesized informal written introductions giving some orientation in a reasonably relaxed way to early chapters:
 
-- [Logicbites](/ifl/logicbites/) (first twenty now online)
+- [Logicbites](/ifl/logicbites/)
 
-Over the years, I have answered a lot of logic-related questions on the exceedingly useful [math.stackexchange](https://math.stackexchange.com) site. Here are some of my efforts:
 
-- [Logical snippets: over a hundred short answers to queries on elementary logic](/students/logical-snippets/) — apart from the sections on arithmetic and on Gödel’s theorem, mostly accessible to (near) beginners.
+Over the years, I have answered a lot of logic-related questions on the exceedingly useful [math.stackexchange](https://math.stackexchange.com) site. Here are some of my efforts -- and many should be accessible to (near) beginners:
+
+- [Logical snippets: over a hundred short answers to queries on elementary logic](logical-snippets.qmd) —
+
 
 ## Other legacy supplementary materials of various kinds {#supp}
 
-- [Greek alphabet, and symbol sheet](pdfs/Symbols.pdf)
 - [Sets, relations and functions](pdfs/SetsRelationsFunctions.pdf). In *IFL* we really play down the use of set-theoretic notation. In parallel reading, you may well encounter such notation being put to use. This old handout might help to explain.
 - [Proof systems](pdfs/ProofSystems.pdf). It is hinted in *IFL2* that natural deduction can be done in other styles than Fitch’s. For something on this, and on other proof systems, see another legacy handout.
 - ['If' and '⊃'](pdfs/Conditionals.pdf) says more about Grice’s theory of conditionals.

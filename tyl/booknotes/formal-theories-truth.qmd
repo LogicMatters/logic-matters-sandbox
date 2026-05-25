@@ -1,0 +1,13 @@
+---
+title: "Formal Theories of Truth"
+---
+
+*
+
+** No one can say that Jc Beall, Michael Glanzberg and David Ripley have rattled on at self-indulgent length in their new OUP book *Formal Theories of** Tr*uth. Just 119 small pages of main text. My kind of book, these days!
+
+It’s elegantly organized, lively and engaging. First a general but carefully spelt-out version of a Liar Paradox derivation is set out. Then various options for escape are outlined. There’s a chapter on changing our inference rules for connectives, a chapter on restricting the inferences between *P* and *T*[*P*], a chapter on digging into the substructure of our logic, a short chapter on other directions to take. This is one very neat way of putting some order into the ramifying debates of formal treatments of the Liar. (It reads like an extended *Stanford Encylopedia* article — and indeed, that’s in effect what it is.)
+
+The book is aimed, the authors say, at interested readers ‘with a little bit of formal logic training (even a first course in logic) who wish to take a first step into so-called formal theories of truth’. I wonder if those who have taken *just* a first logic course will fully ‘get’ e.g. the snappy claim that a diagonal lemma can be proved in the right settings (pp. 31-32) or will understand talk about limit ordinals (p. 44), etc. I’m not usually one to ask for a *longer* book. But I think this one, in fact, gives a bumpier ride than some of the ‘budding philosophers’ in the target audience will be comfortable with, and could sometimes have gone more slowly. Will the reader who hasn’t already been given an arm-waving lecture explanation really pick up, e.g., the beautiful idea underlying Kripke’s theory?
+
+Still, for readers who are perhaps a little past the budding stage, who have perhaps had some first fleeting encounters with a formal theory of truth or two, and are in need of a way of organizing and interrelating the fragments they know about, in order to get into a good position to move on to tackle more details, this can be warmly recommended as exactly the book they have been wanting.

@@ -1,0 +1,29 @@
+---
+title: "Roy, <i>Symbolic Logic</i>"
+---
+
+*
+
+ 
+
+Tony Roy’s *Symbolic Logic* (self–published in 2023) is an extraordinarily long text,  no less than 810 pp., which the author has made freely available as a PDF download, and also as two minimal-cost print-on-demand paperbacks from Amazon. The webpage for the book is here.
+
+The book is subtitled *An Accessible Introduction to Serious Mathematical Logic. *But that’s perhaps rather misleading, if we read “serious” seriously. The first 500(!) pages are just entry-level first-order logic (up to and including the completeness theorem). There’s a smidgin of elementary model theory in the next 50-odd pages. Then the remainder of the book contains mostly elementary discussion of formal arithmetic, computability, recursive functions and Gödelian incompleteness.
+
+But let’s not worry about the subtitle. I’m all for accessible introductions; and I’m certainly all for this publication model (the freely downloadable PDF, with an inexpensive paperback — or in this case two — for those who prefer to read hard-copy). So, the question is: how well does this book do its limited job?
+
+---
+
+Actually, that’s not quite the right question. I strongly suspect that the student reader who’d appreciate the mostly  very clear but very slow-moving earlier chapters  (mostly the level of a first-year philosophy course, comparable to my *IFL*) is not the same reader who could happily tackle the later chapters (the level of a third-year course, perhaps, comparable to my *IGT*). But again, let’s not worry too much about that. Let’s treat the two  printed volumes separately — the “baby logic” part (introducing propositional logic and FOL up to the completeness theorems); then elementary mathematical logic (completeness, a touch of model theory, a touch of formal arithmetic etc.). Then there are a pair of questions, one for each part. How well do they separately work?
+
+---
+
+The first part of course enters a very crowded field. I can’t say it shines. There are considerable longeurs. I can be wordy (some complain!): but Roy is often much more so. And the balance of discussions can be unhelpful, for example seriously over-emphasising the business of discovering Fitch-style natural deduction proofs (after a certain point, really who cares? it’s just not — or at least shouldn’t be — the point). Then there’s an idiosyncratic and messy Chapter 7, which seems to be in wandering in the same neck of the woods as is inhabited by elegant proofs using semantic tableaux, but is to my mind quite unclear. I’m not moved to go into more details (you can inspect the text for yourself).  But this entry-level material is assuredly presented better elsewhere (in one register, for less mathematical beginners as in my *IFL*, in another register for the those happier with a more mathematical idiom as in e.g. the earliest chapters of Dag Westerståhl’s *Foundations of Logic*). We need some zip and zest as well as clarity.
+
+Likewise for the second part. The reader will have certainly have more fun and get more enlightenment from the alternatives on Gödelian incompleteness and related matters recommended in the Study Guide (now adding in to the approved list the last two parts of Westerståhl’s excellent text).
+
+A symptomatic episode: Roy hacks through *forty* pages establishing the second and third derivability condition for PA. Really? What *mathematical illumination* does this bring over and above *IGT*’s arm-waving three pages? Or, if you insist, over e.g. Rautenberg’s seven pages? None at all, say I. Indeed, Roy’s presentational style overall won’t, I fear, do much to engender that key thing, the mathematical/logical maturity that enables the student to tell the difference between tedious joining-up-the-dots and the significant proof-ideas. Which is a great pity given all the effort which has gone into the book.
+
+(In the final section of the book, Roy does engage in a friendly way with my speculative line on Church’s Thesis: I might return to comment on this.)
+
+Executive summary: this is not one for the Study Guide.

@@ -1,0 +1,17 @@
+---
+title: "TTP Archives - Logic Matters"
+---
+
+*
+
+*Truth Through Proof*, 0. Preamble
+
+I am eventually going to be writing a (short) review for  *Mind* of Alan Weir’s new book  *Truth Through Proof: A Formalist Foundation for Mathematics* (OUP, 2010). The blurb on the publisher’s website gives  you an idea what of what the book is about. The clue is in the subtitle — but note, this is a philosophy book, not a technical book in foundational studies.
+
+To help fix my ideas,  I’ll be posting a (much longer) series of discussion notes here, as I sporadically work through the book. Given other commitments, however, I’ll have to take things pretty slowly over the coming weeks.
+
+As with similar series of postings on other books, I expect that these notes will weave around and about Weir’s book (henceforth  *TTP*) in a more free-ranging way than would be appropriate in a review: but I’ll try to make it clear when I’m summarizing *TTP*, when I’m  directly commenting on Weir’s views, and when I am striking out more on my own account. And more generally, I’ll try to keep things accessible to students, even if that sometimes means including more background explanations than some other readers here will feel they need.  All comments as we go along will be very gratefully received!
+
+After the Introduction, Weir’s chapters are divided into sections numbered off with roman numerals: so here ‘3.III’ means Chapter 3, §III. Double quotation marks are reserved to signal quotations from *TTP *(and otherwise unattributed page numbers of course refer to the book too).
+
+OK. With that by way of brisk preamble, let’s dive in … tomorrow!

@@ -1,0 +1,17 @@
+---
+title: "Logic Works?"
+---
+
+*
+
+I can hardly complain about people adding unnecessarily to the over-supply of introductory logic books, having done it myself. But here’s yet another one, *Logic Works: A Rigorous Introduction to Formal Logic* by Lorne Falkenstein, Scott Stapleford and Molly Kao (published just six months ago by Routledge). I’ve been asked what I think of it. Having now taken a look at the book, I’ll save you the trouble of doing the same. It’s pretty bad. Not that I’ve struggled through all 645 pages. But you’ll forgive me that: life is short and patience limited.
+
+That’s a strange subtitle, no? As if introductions to formal logic aren’t usually rigorous. Or at least, as rigorous as they need to be — and as they say, “sufficient unto the day is the rigour thereof”. You might be tempted to worry, then, that a book that especially advertises itself as “rigorous” is likely to be unnecessarily laboured. You’d be right. And actually it is worse than that. It’s not just heavy-handed in explaining the technicalities, but quite generally the long-winded prose is depressingly clotted and terminally uninviting. I pity the poor students who have this inflicted on them!
+
+Two sample episodes. Chapter 6 presents a Fitch-style deduction system for propositional logic. Good choice (though the system isn’t as streamlined as it could be). But the authors plod through a turgid presentation, without zip and zest, making very heavy going of things. It is really pretty difficult to imagine a reader coming to appreciate that by doing things Fitch-style we can arrive at a really rather elegant, natural, and highly user-friendly system. Things aren’t helped by the printed pages being a typographical mess. 
+
+The same applies in spades to the grimly laborious chapters introducing the language of predicate logic. Who would ever guess from these longueurs that the beautiful and compelling basic idea of a quantifier/variable notation for expressions of generality is so *very* neat and attractive once explained that it can be introduced well enough to convey a reading knowledge to any beginning mathematics student in half a lecture? (I was surprised to see that one of the authors does have some mathematical background — yet the writing throughout gives no sense of the aesthetic attractions of rigorous mathematical ideas.)
+
+I could go into more detail, but I won’t. A rather depressing read, then, which I can’t recommend at all. If you want a good introduction to formal logic which also ranges quite widely, I’d stick to Nick Smith’s!
+
+[*Added* And see Phil’s comment!]

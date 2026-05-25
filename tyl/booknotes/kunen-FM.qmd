@@ -1,0 +1,23 @@
+---
+title: "Kunen, The Foundations of Mathematics"
+---
+
+*
+
+ 
+
+I’m going to avert my gaze from some of the philosophical asides in Kenneth Kunen’s *The Foundations of Mathematics *(College Publications, revised edn., 2009). He writes, for example,** Presumably, you know that set theory is important. You may not know that set theory is all-important. That is:
+- All abstract mathematical concepts are set-theoretic.
+- All concrete mathematical objects are specific sets.
+
+Abstract concepts all reduce to set theory.
+
+Really? *Really?* … Well, fortunately you don’t at all need to buy into such obiter dicta (or into the brief philosophical Ch. III) to find many of Kunen’s technical expositions interesting and helpful.
+
+Very briefly, Ch. I (77 pp.) is on set theory, shaped by presenting the axioms of ZFC, unfolding their content and significance, getting as far as talking about ordinals and cardinals, choice, the role of the axiom of foundation, etc. As you’d hope from the author of two fine books on set theory, this is clearly done. So this chapter could suit mathematicians already a little familiar with sets-in-use from their algebra or topology courses, and/or can be recommended as a sharp and useful follow-up — one step more sophisticated but still relatively elementary — if tackled after an entry-level set-theory introduction like Enderton’s.
+
+Ch. II (100 pp.) goes on to discusses some model theory and proof theory. It treats first-order syntax and semantics, introduces a Hilbert-style proof system, and proves the completeness theorem. So far so routine, and perfectly respectable of course; but in headline terms I really didn’t find the treatment of this standard material as accessible and helpful as in the previous chapter. However, the later sections of Ch. II (from §11 onwards) become more interesting, e.g. in the longer §II.17 ‘Definabiity and Absoluteness’ where model theory meets set theory
+
+Ch. IV (50 pp.) is on recursion theory. And here a key link is made with the first chapter by construing the inputs and outputs of computable functions as hereditarily finite sets. This is a neat device that puts us in the neck of the woods explored by Melvin Fitting’s lovely book *Incompleteness in the Land of Sets*. Though in fact, you’ll probably get much more out of tackling Kunen’s interesting chapter by reading Fitting first (as well as there getting a more conventional introduction to recursion theory).
+
+In briefest terms, the first and last chapter in particular are certainly recommendable to readers with enough ‘mathematical maturity’ as they say.

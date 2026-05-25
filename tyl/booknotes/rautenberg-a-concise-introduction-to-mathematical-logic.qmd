@@ -1,0 +1,27 @@
+---
+title: "Rautenberg: A Concise Introduction to Mathematical Logic"
+---
+
+*
+
+ 
+
+The first German edition of Wolfgang Rautenberg’s book was published in 1995: the second edition was translated and published in English in 2006 as *A Concise Introduction to Mathematical Logic*. A slightly expanded third edition appeared in 2010 (Springer: pp. 319). You can read the first couple of chapters of the latest edition at the author’s website, linked here.
+
+As you will see from that long excerpt, the book becomes brisk and increasingly compressed. Rautenberg says that his aim is ‘to portray simple things simply and concisely’. This makes the book action-packed. After the early pages, it would certainly be tough reading as your *first* serious logic book.
+
+---
+
+Chapter 1 is a snappy treatment of propositional logic. The formal calculus of sequents offered is a close cousin of the one in Ebbinghaus, Flum and Thomas text, except where they take $\neg$ and $\lor$ to be primitive, Rautenberg has $\neg$ and $\land$. In both texts, given the paucity of basic operators, the respective authors are not really aiming for natural deduction in sequent form; nor are they aiming for a classical system which nicely relates to an intuitionistic subsystem. But this is all crisply done, and could make for good revision material.
+
+Chapter 2 starts with section on structures, which will probably go too fast for those not already familiar with the ideas. Then the rest of the chapter discusses, again at pace, the syntax and semantics of FOL languages, the relevant idea of semantic consequence, and the idea of theories. It is all perfectly respectable of course, but not really recommendable as an attractive treatment. The same goes for Chapter 3, whose main focus is the completeness theorem. We get a dense account (which deals with FOL with identity and with uncountable languages from the start), and not enough intuitive motivation for my money.
+
+Things are already pretty hard going, but then, as the Preface frankly says, ‘‘Starting from Chapter 4, the demands on the reader begin to grow. … The density of information in the text is rather high; a newcomer may need one hour for one page.” That’s hardly an advertisement for the sort of book that appeals to me, and I rather doubt the book will overall appeal to many who aren’t mathematical masochists. Chapter 4 is a rapid look at Herbrand’s Theorem, unification, and “the foundations of logic programming”, and Chapter 5 zips through some “elements of model theory” at speed. There are surely more accessible and illuminating treatments of this material, both for a first pass through, and for higher-level consolidation/further exploration.
+
+Chapter 6, however, is much more approachable, on recursive functions, incompleteness and undecidability, and could well be helpful (though probably not as your first encountner with these topics). The next chapter continues the incompleteness theme by starting with an unusually detailed account of how you prove the derivability conditions for PA. Then there are sections on Gödel’s second theorem and Löb’s theorem. Like Ch. 6, again useful.
+
+But Chapter 7 (and the book) concludes with some sections giving a rather dense/opaque discussion of provability logic which I can’t recommend.
+
+---
+
+Concise by name, concise by nature. Too concise as an introduction, by my lights. And mostly not particularly reader-friendly for revision/consolidation purposes either. However, Chapter 6 and the first half of Chapter 7 on recursive functions and incompleteness etc. could well make for useful further reading once you already know the basics.

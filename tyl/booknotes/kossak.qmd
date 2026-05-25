@@ -1,0 +1,25 @@
+---
+title: "Kossak, Mathematical Logic"
+---
+
+*
+
+ 
+
+What do you make of this?** Think of a number, say 123. What is 123? It is a sequence of digits. To know what this sequence represents, we need to understand the decimal system. The symbols 1, 2, and 3 are digits. Digits represent the first ten counting numbers (starting with zero). The number corresponding to 123 is 1 . 100 + 2 . 10 + 3 . 1. In this representation, the number has been split into groups: three ones (units), two tens, and one hundred.
+
+I’d worry that someone who wrote that is hopelessly confused between numerals (expressions which represent) and numbers (what the numerals represent). And just how can a number (that very thing which is represented) be “split into groups”?
+
+Or what about this, following some examples of equinumerous collections?** All those equinumerous collections have their individual features, but there is one thing that they all have in common. That is this *one thing* that we call the size. This common feature is the size of the collection and of all other collections that are equinumerous with it. Now we can introduce the following, more formal definition: a counting number is the size of a finite collection.
+
+So numbers are “features”, i.e. *properties*? A moment ago they were things that can be split into groups! (Great-uncle Frege is not resting quietly …)
+
+Let’s put this sort of thing down to a certain arm-waving carelessness rather than confusion: still, it doesn’t exactly inspire confidence in the more conceptual/philosophical remarks in Roman Kossak’s *Mathematical Logic* (Springer 2018).
+
+Actually, this book is mis-titled. There is little core logic here. The early chapter entitled ‘First-Order Logic’ is a fleeting introduction to first-order languages, too fast for real newbies, and the idea of a formal deductive system is only mentioned, and then without elaboration, at p.132 (and the book has just 155 pages before the final summary chapter and the appendices start). What the book is in fact centrally about is signalled by its subtitle: “On Numbers, Sets, Structures, and Symmetry”.
+
+As Kossak says in his final summary, his “aim in this book was to explain the concept of mathematical structure, and to show examples of techniques that are used to study them. It would be hard to do it honestly without introducing some elements of logic and set theory.” The examples of structures are near all numerical ones. So Part I is an introduction to the construction of the integers, rationals and reals from the naturals, and a lightning tour of some of the presupposed set theory. This is done in with a fair amount of motivational chat, so some credit for that. But I still think the beginner would be notably better off reading one of the usual introductions to these ideas in elementary set theory books like Enderton’s or Goldrei’s. Charitably, the author is rushing on to get to what really does interest him, the book’s distinctive content in the seventy-odd pages of Part II.
+
+And this Part, to get much more positive, is a very approachable introduction to some simple model theoretic ideas, but taking a rather different route than in some more familiar texts.  So Kossack explores some of the first-order definable features of various structures defined over the natural numbers, the integers, the rationals, the reals, and the complex numbers, and he nicely brings out some of the perhaps unexpected complications. He helps himself to the compactness theorem and e.g. the Tarski–Seidenberg theorem (which are not proved) to give partial demonstrations of various results. And along the way, the reader is introduced not only to basic notions like that of an elementary extension but also somewhat more sophisticated ideas like being a minimal structure. This is done with a light touch, helpful examples, and again a good amount of motivational chat. I’m not sure that some of the sketched proofs are quite as clear as they could be, and there can be philosophical wobbles in the commentaries. But this Part of Kossack’s book does, I think, get across some basic model theoretic ideas without too many tears, in an unusually accessible way, making connections that aren’t often brought out; and (those wobbles apart) I enjoyed it and learnt from it.
+
+Since this book, however, Kossak has published his excellent *Model Theory for Beginners: 15 Lectures* (College Publications, 2021). You should probably read that instead!

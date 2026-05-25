@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Manzano Model Theory – logic-matters-sandbox</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">logic-matters-sandbox</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../books/index.html"> 
+<span class="menu-text">Five Big Red (Open Access) Logic Books</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://bsky.app/"> <i class="bi bi-bluesky" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Manzano Model Theory</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><img src="covers/no-cover.png" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;"></p>
+<article class="post-5948 page type-page status-publish ast-article-single" id="post-5948" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
+<div class="entry-content clear" itemprop="text">
+<p>
+María Manzano’s <i>Model Theory</i> (OUP, 1999) goes at a modest pace, is reasonably short (the main text is just 220 pages), is reasonably&nbsp;clearly written, and in its coverage bridges the gap nicely between the fragmentary initial treatments of model-theoretic topics that we get in some first-order logic texts and the more sophisticated complexities of e.g.&nbsp;Wilfrid Hodges’s <i>Shorter Model Theory</i> or David Marker’s <i>Model Theory</i>. The book is therefore an obvious candidate recommendation for someone with a background knowledge of FOL who wants to ease into studying this area of mathematical logic.
+</p>
+<p>
+Manzano’s text is translated from a Spanish original; the translation is sadly peppered with not-quite-English sentences which shouldn’t, however, cause most readers any trouble. That aside, how well does the book work?
+</p>
+<hr>
+<p>
+Ch. 1, ‘Basic notions: universal algebra’ is on structures and relations between structures (homomorphisms, embeddings, etc.). The examples are the usual ones, and will be very familiar to mathematicians (if not to philosophers, who might have appreciated a few slightly more filled-out explanations). There are some slightly odd choices of notation in the examples, and a minor presentational glitch when the first examples of <i>types</i> (signatures) of structures on p.&nbsp;7 don’t match the official definition on the previous page (the official definition treats a type as an ordered pair of <i>functions</i> from labels to numbers which give the adicity of the labelled functions and relations which go to make up a structure: but examples, in an unannounced way, treat types as a pair of sequences of the <i>values</i> taken by these functions).
+</p>
+<p>
+It perhaps bears comment that Manzano defines a structure at the outset starting like this:
+</p>
+<blockquote class="blockquote">
+<p>
+<img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-513479dc3198e99444ee9aae2f6e269c_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathfrak{A}" title="Rendered by QuickLaTeX.com" height="14" width="13" style="vertical-align: -1px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-513479dc3198e99444ee9aae2f6e269c_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathfrak{A}" title="Rendered by QuickLaTeX.com" height="14" width="13" style="vertical-align: -1px;"></noscript> is a structure iff <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-67ff17daa80c389fe3caa16ffe26ad15_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathfrak{A} = \langle A, \langle f_i\rangle_{i \in I}, \langle R_j\rangle_{j \in J}\rangle" title="Rendered by QuickLaTeX.com" height="20" width="186" style="vertical-align: -6px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-67ff17daa80c389fe3caa16ffe26ad15_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathfrak{A} = \langle A, \langle f_i\rangle_{i \in I}, \langle R_j\rangle_{j \in J}\rangle" title="Rendered by QuickLaTeX.com" height="20" width="186" style="vertical-align: -6px;"></noscript> with two associated functions <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-0734b4137fd58659b2863d3abe526abe_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mu \colon I \to \mathbb{N}" title="Rendered by QuickLaTeX.com" height="16" width="73" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-0734b4137fd58659b2863d3abe526abe_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mu \colon I \to \mathbb{N}" title="Rendered by QuickLaTeX.com" height="16" width="73" style="vertical-align: -4px;"></noscript> and <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-c4c084c76daad1790330faeec7083f69_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\delta \colon J \to \mathbb{N} - 0" title="Rendered by QuickLaTeX.com" height="14" width="104" style="vertical-align: -1px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-c4c084c76daad1790330faeec7083f69_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\delta \colon J \to \mathbb{N} - 0" title="Rendered by QuickLaTeX.com" height="14" width="104" style="vertical-align: -1px;"></noscript> such that …
+</p>
+</blockquote>
+<p>
+Now: if it passes muster to talk of a triple being associated with a pair of functions, why not adopt this way of talking more generally? So why not say: a structure consists in some objects associated with (or, as they say, equipped with) some functions and relations, etc.? Exactly what work does invoking the formal set talk which Manzano uses do here? And if it is necessary work, where does that leave the informal talk of ‘associating’ a triple with two functions?
+</p>
+<p>
+It would be most unfair to pick out Manzano for especial criticism here, but she is glossing over something worth discussing: namely, we should distinguish (i) the mathematician’s informal notion of a structure (objects associated with/equipped with some functions and relations, etc.) and (ii) the idea of a set-theoretic model of a structure — which starts by forming the set of the relevant objects (or should that be: form a set of set-representatives of the original objects?), then models the functions and relations as themselves special sets, and then puts things into tuples, etc. You might have thought that <i>model</i> theorists would want to talk about this at least a little at the outset!
+</p>
+<p>
+One other minor comment. Manzano cheerfully asserts without comment that e.g.&nbsp;<img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-9479affd13ee68a2b673d36bc88210d0_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\langle\mathbb{N}, <\rangle" title="Rendered by QuickLaTeX.com" height="19" width="46" style="vertical-align: -5px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-9479affd13ee68a2b673d36bc88210d0_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\langle\mathbb{N}, <\rangle" title="Rendered by QuickLaTeX.com" height="19" width="46" style="vertical-align: -5px;"></noscript> is a substructure of <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-8232457b1df32599d7b7e6d85fa273bd_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\langle\mathbb{R}, <\rangle" title="Rendered by QuickLaTeX.com" height="19" width="46" style="vertical-align: -5px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-8232457b1df32599d7b7e6d85fa273bd_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\langle\mathbb{R}, <\rangle" title="Rendered by QuickLaTeX.com" height="19" width="46" style="vertical-align: -5px;"></noscript> — thereby assuming that natural numbers are just some of the real numbers. Readers who have already been taught to identify <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-bc8e16cdad5408a0b540d2bc0098bcfb_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathbb{N}" title="Rendered by QuickLaTeX.com" height="12" width="13" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-bc8e16cdad5408a0b540d2bc0098bcfb_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathbb{N}" title="Rendered by QuickLaTeX.com" height="12" width="13" style="vertical-align: 0px;"></noscript> and <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-a6e421454947c585b8fb5ae10299f873_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathbb{R}" title="Rendered by QuickLaTeX.com" height="12" width="13" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-a6e421454947c585b8fb5ae10299f873_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathbb{R}" title="Rendered by QuickLaTeX.com" height="12" width="13" style="vertical-align: 0px;"></noscript> with certain sets will balk at that. Others of her readers (better brought up?) who have come to think of the mathematical universe as strongly typed will balk for other reasons. It strikes me as odd in a book that is all about structures not at least to flag up that there are issues here that might worry those with a structuralist bent. Better, perhaps, just to keep everyone happy by saying that <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-9479affd13ee68a2b673d36bc88210d0_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\langle\mathbb{N}, <\rangle" title="Rendered by QuickLaTeX.com" height="19" width="46" style="vertical-align: -5px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-9479affd13ee68a2b673d36bc88210d0_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\langle\mathbb{N}, <\rangle" title="Rendered by QuickLaTeX.com" height="19" width="46" style="vertical-align: -5px;"></noscript> is isomorphic to a substructure of <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-8232457b1df32599d7b7e6d85fa273bd_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\langle\mathbb{R}, <\rangle" title="Rendered by QuickLaTeX.com" height="19" width="46" style="vertical-align: -5px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-8232457b1df32599d7b7e6d85fa273bd_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\langle\mathbb{R}, <\rangle" title="Rendered by QuickLaTeX.com" height="19" width="46" style="vertical-align: -5px;"></noscript>, and the like.
+</p>
+<p>
+Ch. 2 is on ‘First-order languages: semantics’, and introduces the usual sort of general story about syntax and one standard brand of semantics (essentially Tarski’s later model-theoretic account). Manzano then describes some specific languages, and proves a few results — e.g.&nbsp;that isomorphic models assign the same values to sentences. Some of the ‘book-keeping’ results get rather laboriously detailed proofs, but this is done tolerably clearly.
+</p>
+<p>
+The obvious point to pause over is Manzano’s definitions of validity and consequence (as it happens, for formulae in general, not just for sentences — though I’m not sure she explains the point of giving the more general account). She writes, as you would expect, that a formula <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-275e3ff85c541772575a0f466b91d2c4_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\varphi" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-275e3ff85c541772575a0f466b91d2c4_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\varphi" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: -4px;"></noscript> is valid just if for every structure and every assignment the structure together with the assignment satisfies <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-275e3ff85c541772575a0f466b91d2c4_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\varphi" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-275e3ff85c541772575a0f466b91d2c4_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\varphi" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: -4px;"></noscript>. But what entitles Manzano to the assumption that the quantification ‘every structure’ is well-defined? Officially, a structure is a triple whose first member is a non-empty set: but she never says outright these have to be non-empty <i>pure</i> sets. And indeed, she has structures whose domains contain natural numbers, symbols, truth-values, etc. and we aren’t told here that such objects are themselves all pure sets — though see §6.4.1. So, at least at this point in the book, in quantifying over all structures we seem to be quantifying over tuples built from impure sets; but what impure sets are there? That depends, presumably, what objects there are to put into impure sets. But the very idea of an object here is, to say the least murky. So it seems that talk over ‘every structure’ is going to be correspondingly indeterminate. Well, that might not matter: but it isn’t <i>obvious</i> at the outset that it won’t matter (if you believe in more objects than I do, you have more structures to play with than I have, so couldn’t it be that you will be able to find a structure which invalidates a sentence which looks valid to me? and if that can’t happen, shouldn’t it be explained why not?). I suspect that Manzano would want to avoid such troubles by officially going set-theoretically reductionist — again see §6.4.1: but she really ought to have addressed such questions explicitly.
+</p>
+<p>
+Ch. 3 proves the completeness theorem. First, of course, Manzano has to give a deductive system to prove complete! She choses to adopt the sequent calculus from Ebbinghaus, Flum and Thomas. Oddly, Manzano says that an advantage of her choice is that ‘the soundness proof is much simpler’ — simpler than what?
+</p>
+<p>
+As an aside, I have to say I don’t like her choice of calculus. A minor quibble is that, instead of writing a sequent as ‘<img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-c484be3f374d2a50bcdad2debc523638_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma \vdash \varphi" title="Rendered by QuickLaTeX.com" height="16" width="43" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-c484be3f374d2a50bcdad2debc523638_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma \vdash \varphi" title="Rendered by QuickLaTeX.com" height="16" width="43" style="vertical-align: -4px;"></noscript>’, or ‘<img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-d555c40c921a1f499d34d4d156c60755_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma \Rightarrow \varphi" title="Rendered by QuickLaTeX.com" height="16" width="50" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-d555c40c921a1f499d34d4d156c60755_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma \Rightarrow \varphi" title="Rendered by QuickLaTeX.com" height="16" width="50" style="vertical-align: -4px;"></noscript>’, or even ‘<img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-9ba9f679352101ec2e1cbcaf3a3921d5_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma \colon \varphi" title="Rendered by QuickLaTeX.com" height="16" width="35" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-9ba9f679352101ec2e1cbcaf3a3921d5_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma \colon \varphi" title="Rendered by QuickLaTeX.com" height="16" width="35" style="vertical-align: -4px;"></noscript>’, Manzano follows EFT in just writing an unpunctuated ‘<img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-f884a3b31ee3f74d26720d7062ba6fd4_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma\ \varphi" title="Rendered by QuickLaTeX.com" height="16" width="28" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-f884a3b31ee3f74d26720d7062ba6fd4_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma\ \varphi" title="Rendered by QuickLaTeX.com" height="16" width="28" style="vertical-align: -4px;"></noscript>’. Much more seriously, many would say that their shared system of rules runs together a classical logical rule for the connectives with a structural rule in an unprincipled way that hides e.g.&nbsp;the relation between classical and intuitionistic logic. [To be more specific, they introduce a classical ‘Proof by Cases’ rule that takes us from the sequents (in their notation) <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-423fcc7cc14fa25667a7ed8f5b972e72_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma\ \psi\ \varphi" title="Rendered by QuickLaTeX.com" height="16" width="46" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-423fcc7cc14fa25667a7ed8f5b972e72_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma\ \psi\ \varphi" title="Rendered by QuickLaTeX.com" height="16" width="46" style="vertical-align: -4px;"></noscript> and <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-9995e7e3b15257abf72c0819dba1ef29_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma\ \neg\psi\ \varphi" title="Rendered by QuickLaTeX.com" height="16" width="58" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-9995e7e3b15257abf72c0819dba1ef29_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma\ \neg\psi\ \varphi" title="Rendered by QuickLaTeX.com" height="16" width="58" style="vertical-align: -4px;"></noscript> to <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-f884a3b31ee3f74d26720d7062ba6fd4_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma\ \varphi" title="Rendered by QuickLaTeX.com" height="16" width="28" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-f884a3b31ee3f74d26720d7062ba6fd4_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma\ \varphi" title="Rendered by QuickLaTeX.com" height="16" width="28" style="vertical-align: -4px;"></noscript>, and then show that this almost immediately yields Cut as a derived rule. This seems to me to muddy waters that usual presentations of the sequent calculus strive to keep clear.] However, but let’s not fuss about this. What matters in the present context is that we are dealing with a deductive calculus — elegant and nicely motivated or otherwise — which has certain key features which allow the completeness proof to go through. In fact, I guess a nice approach for a book concentrating on model theory would in fact be to highlight those key features to give a general theorem of the kind ‘any deductive system satisfying conditions <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-378cba9f1677bbb0acfb815adc6a55dc_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="C_1, C_2, C_3, \ldots" title="Rendered by QuickLaTeX.com" height="16" width="104" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-378cba9f1677bbb0acfb815adc6a55dc_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="C_1, C_2, C_3, \ldots" title="Rendered by QuickLaTeX.com" height="16" width="104" style="vertical-align: -4px;"></noscript> is semantically complete’. But Manzano, not unusually, just offers one deductive system in a take-it-or-leave-it spirit, and proves completeness for <i>that</i>.
+</p>
+<p>
+And how does the Henkin-style proof go? Manzano first proves that if <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"></noscript> is syntactically consistent — where <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"></noscript> is set of formulas of a countable language, and with only a finite number of variables occurring free — then <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"></noscript> has a countable model. Why the uncommon initial restriction to a finite number of free variables? Because this enables her, in the usual sort of construction, to add a witness for an existential wff <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-137ac7d34a93498f57e613ac2703179f_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\exists\xi\varphi(\xi)" title="Rendered by QuickLaTeX.com" height="19" width="51" style="vertical-align: -5px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-137ac7d34a93498f57e613ac2703179f_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\exists\xi\varphi(\xi)" title="Rendered by QuickLaTeX.com" height="19" width="51" style="vertical-align: -5px;"></noscript> of the form <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-a34915fbf0a0bd780a5c4467788b3d2c_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\varphi(y)" title="Rendered by QuickLaTeX.com" height="19" width="34" style="vertical-align: -5px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-a34915fbf0a0bd780a5c4467788b3d2c_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\varphi(y)" title="Rendered by QuickLaTeX.com" height="19" width="34" style="vertical-align: -5px;"></noscript> where <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-0af556714940c351c933bba8cf840796_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="y" title="Rendered by QuickLaTeX.com" height="12" width="9" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-0af556714940c351c933bba8cf840796_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="y" title="Rendered by QuickLaTeX.com" height="12" width="9" style="vertical-align: -4px;"></noscript> is the first variable that doesn’t yet appear free as we augment <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"></noscript> — assuming that only finitely many variables appear free at the outset means that we have unlimitedly many more variables remaining to play with. That rather neatly avoids the usual dodge of having to add infinitely many new names to the language by instead using the infinite supply of variables which are there already. If she cares about this neatness, it is a pity that when Manzano moves on to lift the restriction on the number of variables initially appearing free in <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"></noscript> she <i>now</i> adds an infinite number of names. What she should have done, of course, is double the indices of all the variables occurring in <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"></noscript> to get an equi-consistent <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-1a3f50c645252dd777ba0de235644eda_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma\prime" title="Rendered by QuickLaTeX.com" height="12" width="16" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-1a3f50c645252dd777ba0de235644eda_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma\prime" title="Rendered by QuickLaTeX.com" height="12" width="16" style="vertical-align: 0px;"></noscript>, and then she’d have all the odd-indexed variables to play with.
+</p>
+<p>
+Otherwise, the proof goes in pretty much the familiar way, i.e.&nbsp;by overkill — rather than add <i>just enough</i> truth-makers to <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"></noscript> to get a Hintikka set, we order all the wffs and go along the sequence throwing each and every wff into an augmented <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"></noscript> so long as it doesn’t produce an inconsistency with what’s gone before. Then a term model is produced — and Manzano (likes many authors) goes immediately for a normal model for a language with identity which adds a layer of complexity taking quotients. This isn’t how I would do things, but there is a lot of signposting (e.g.&nbsp;at Figure 3.3) and a real effort is made to try to ensure the proof is understandable.
+</p>
+<p>
+With the <i>countable</i> case proved, Manzano then explains rather well what has to be done to extend the proof to show that a consistent set of wffs <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-4f420945e64069f30b66c3d17e2f98ac_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma" title="Rendered by QuickLaTeX.com" height="12" width="11" style="vertical-align: 0px;"></noscript> from an <i>uncountable</i> language has a model. What she doesn’t explain, however, is why we might be interested in theories framed in uncountable languages.
+</p>
+<p>
+Apart perhaps from the rather richer diet of examples of structures, what we have so far will be broadly familiar to readers who have done a serious FOL course which goes up to the completeness proof. In Ch. 4, we start on ‘Basic notions: model theory’, concentrating first on the standard ideas of elementary equivalence, elementary substructure and elementary embeddings. The chapter then continues to discuss the notion of a theory, the ideas of a theory of a class of models and the class of models of a theory, and finishes with a first look at the notion of a diagram of a theory. All this is reasonably clearly done, though a few more examples and perhaps significantly more motivational chat would have been nice, both about why we should care and about why some of the more laborious proofs are mere ‘book-keeping’, checking results that should intuitively hold once you’ve grasped the relevant ideas. (One presentational glitch I noticed: on p.&nbsp;105 where we are asked to ‘remember’ that quantifiers can be eliminated from the theory of dense orders without endpoints — when we don’t meet this result until a later chapter.)
+</p>
+<p>
+The next two chapters are really the core of the book: Ch. 5 is on ‘The compactness theorem and its mathematical implications’ and then Ch. 6 covers ‘Löwenheim-Skolem theorems and their consequences’.
+</p>
+<p>
+So Ch. 5 starts with some preliminaries about the notions of axiomatizable properties, classes of structures and theories. Then we get a new proof of compactness that doesn’t go via the completeness proof but still involves a Henkin-like construction on diagrams. There follows the usual catalogue of initial consequences of compactness (e.g.&nbsp;the notion of finiteness is not axiomatizable, if a class of structures is finitely axiomatizable iff both it and its complement are axiomatizable, arithmetic has non-standard models, an infinite grpah is 4-colourable iff all its finite subgraphs are 4-colourable). There are a few typos in the statements of definitions and theorems which shouldn’t cause any trouble. Again a little more motivational chat at various points might have been nice, and the remarks on second-order theories at the top of p.&nbsp;132 are too fast to be any use (and indeed I’d quibble about the use of the idea of a ‘second-order structure’). But overall a decent treatment.
+</p>
+<p>
+Then, half-way through §5.4, there’s something of a change in gear as the discussion turns to the ‘amalgamation’ of embeddings, and a proof that if a theory admits quantifier elimination then the class of substructures of its models is ‘amalgamable’. The discussion proceeds without any explanation of why this should be significant or other motivational pointers.
+</p>
+<p>
+Finally in Ch. 5, the compactness theorem is proved again, this time via Loś’s theorem and ultraproducts. At the risk of getting repetitious, it has to be said that Manzano again delivers this with only a little motivational guidance as she goes along: most readers would welcome rather more help to guide intuition here. Also it would have been good to pause for some discussion comparing the different explanatory gains from the different approaches to the compactness theorem.
+</p>
+<p>
+Ch. 6 starts with very general versions of the Downward and Upward Löwenheim-Skolem Theorems, presented as results about elementary embeddings — given a language of a certain cardinality and a structure <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-513479dc3198e99444ee9aae2f6e269c_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathfrak{A}" title="Rendered by QuickLaTeX.com" height="14" width="13" style="vertical-align: -1px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-513479dc3198e99444ee9aae2f6e269c_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathfrak{A}" title="Rendered by QuickLaTeX.com" height="14" width="13" style="vertical-align: -1px;"></noscript> of a certain cardinality there will be a smaller [larger] structure <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-bc81348514c84b47ec0ad4968398869f_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathfrak{B}" title="Rendered by QuickLaTeX.com" height="14" width="15" style="vertical-align: -1px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-bc81348514c84b47ec0ad4968398869f_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathfrak{B}" title="Rendered by QuickLaTeX.com" height="14" width="15" style="vertical-align: -1px;"></noscript> such that <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-bc81348514c84b47ec0ad4968398869f_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathfrak{B}" title="Rendered by QuickLaTeX.com" height="14" width="15" style="vertical-align: -1px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-bc81348514c84b47ec0ad4968398869f_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathfrak{B}" title="Rendered by QuickLaTeX.com" height="14" width="15" style="vertical-align: -1px;"></noscript> elementarily embeds into <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-513479dc3198e99444ee9aae2f6e269c_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathfrak{A}" title="Rendered by QuickLaTeX.com" height="14" width="13" style="vertical-align: -1px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-513479dc3198e99444ee9aae2f6e269c_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathfrak{A}" title="Rendered by QuickLaTeX.com" height="14" width="13" style="vertical-align: -1px;"></noscript> [<img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-513479dc3198e99444ee9aae2f6e269c_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathfrak{A}" title="Rendered by QuickLaTeX.com" height="14" width="13" style="vertical-align: -1px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-513479dc3198e99444ee9aae2f6e269c_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathfrak{A}" title="Rendered by QuickLaTeX.com" height="14" width="13" style="vertical-align: -1px;"></noscript> elementarily embeds into <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-bc81348514c84b47ec0ad4968398869f_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathfrak{B}" title="Rendered by QuickLaTeX.com" height="14" width="15" style="vertical-align: -1px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-bc81348514c84b47ec0ad4968398869f_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathfrak{B}" title="Rendered by QuickLaTeX.com" height="14" width="15" style="vertical-align: -1px;"></noscript>]. I think it would have helped understanding to work up to these more general versions from more familiar versions rather than derive the latter as corollaries, but that’s perhaps just a presentational preference. Manzano has a nice discussion of the very idea of non-standard models at the beginning of §6.3, before giving admirable accounts of non-standard models of arithmetic and non-standard models of the reals with infinitesimal elements.
+</p>
+<p>
+The chapter concludes with a section on Skolem’s paradox which perhaps makes rather heavy weather of the key point. But notable here is Manzano’s §6.4.1 where she says outright that ‘concepts of natural number, function, structure, and homomorphism’ can be ‘reduced to the concept of set’, and context makes it clear she is thinking of pure sets as described by the ZF axioms. That explains, perhaps, her earlier insouciance about e.g.&nbsp;quantifying over all structures as if that makes determinate sense.
+</p>
+<p>
+Finally, Ch. 7 discusses completeness, categoricity and <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-fabd261e8193c24891d87ffde60251f5_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\kappa" title="Rendered by QuickLaTeX.com" height="9" width="10" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-fabd261e8193c24891d87ffde60251f5_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\kappa" title="Rendered by QuickLaTeX.com" height="9" width="10" style="vertical-align: 0px;"></noscript>-categoricity and proves the usual introductory results and gives Vaught’s test etc. Manzano then moves on to define the notion of a theory’s admitting quantifier elimination, gives some examples without proof, proves a general test for quantifier elimination, which is then used — at last — to show some specific theories do admit quantifier elimination. I’m not sure this approach works ideally well: by my lights, it would probably have been significantly better to work through a simple example by way of motivating the general story.
+</p>
+<p>
+Manzano then goes on to discuss Robinson’s notion of model completeness. And the book ends with a detailed discussion of the completeness and decidable of the theory for the structure of natural numbers with successor. (There is no concluding afterword reviewing where we’ve been, or giving pointers ahead.)
+</p>
+<hr>
+<p>
+So to a summary verdict:
+</p>
+<ul>
+<li>
+Standing back from the details, I do very much like the way that Manzano has <i>structured</i> her book. The sequencing of chapters makes for a very natural path through her material, and the coverage seems very appropriate for a book at her intended level.
+</li>
+<li>
+The general level of difficulty remains broadly constant through the book: students who can cope with the first half of the book will be able to press on to the very end without getting out of their depth. The presentations are in themselves mostly pretty clear if you work at them (mathematicians should have few problems, while philosophers who have happily managed a serious FOL course but lack much mathematical background might need to resort to Wikipedia occasionally but should otherwise cope too).
+</li>
+<li>
+I do think, however, that the discussions at quite a few&nbsp;points would have benefitted from quite a bit more informal commentary. It isn’t that Manzano doesn’t pause to offer general historical remarks, etc. (so far so good!): but when it comes down to explaining key formal concepts and proofs, more motivation for various choices, more ‘Look at it like this ….’ classroom-style explanations, would have helped a lot.
+</li>
+<li>
+In short,&nbsp;&nbsp;key ideas are too often not sufficiently well-motivated nor are they ideally well&nbsp;explained.&nbsp;And the separation between key results and tedious ‘book-keeping’ proofs&nbsp;should have been better signalled. So while, by the standards of many mathematical logic books, this is quite a reader-friendly text, it could have been quite a bit more so.
+</li>
+<li>
+Still, though not ideal (few books are!), Manzano’s introduction to model theory at this level compares pretty well with alternatives and remains a good option for beginning work in this area of logic.
+</li>
+</ul>
+</div>
+</article>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/your-website-url\.example\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

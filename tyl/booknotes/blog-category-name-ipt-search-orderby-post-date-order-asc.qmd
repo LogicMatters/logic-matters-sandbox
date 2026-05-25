@@ -1,0 +1,23 @@
+---
+title: "Blog - Logic Matters"
+---
+
+*
+
+An Introduction to Proof Theory, Ch. 1
+
+It’s arrived! Ever since it was announced, I’ve been very much looking forward to seeing this new book by Paolo Mancosu, Sergio Galvan and Richard Zach. As they note in their preface, most proof theory books are written at a fairly demanding level. So there is certainly a gap in the market for a book that presents some basic proof theory taking up themes from Gentzen in a more widely accessible way, covering e.g. proof normalization, cut-elimination, and a proof of the consistency of arithmetic using ordinal induction. *An Introduction to Proof Theory* (OUP, newly published) aims to be that book.
+
+Back in the day, when I’d finished my Gödel book, I had it in mind for a while to write a Gentzen book a bit like *IPT* (as I’ll refer to it) though in parts a couple of notches more technical. But when I got down to work, I quickly realized that my grip on the area was really quite embarrassingly shallow in places, and I lost all confidence. What I should have done was downsize my ambitions and tried instead to write a book more like this present one. So I have a particular personal interest in seeing how Mancosu, Galvan and Zach write up their project. I’m cheering them on!
+
+Some brisk notes, then, as I read through …
+
+---
+
+*Chapter 1: Introduction * has three brisk sections, on ‘Hilbert’s consistency program’, ‘Gentzen’s proof theory’ and ‘Proof theory after Gentzen’.
+
+The scene-setting here is done very cogently and reliably as far as it goes (just as you’d expect). However, on balance I do think that — given the intended readership — the first section in particular could have gone rather more slowly. Hilbert’s program really *was* a great idea, and a bit more could have been said to  explore and illuminate its attractions. On the other hand, an expanded version of the third section would probably have sat more naturally as a short valedictory chapter at the end of the book.
+
+But then, one thing I’ve learnt from writing my own introductory books is that you aren’t going to satisfy everyone — indeed,  probably not even a majority of your hoped-for readers will be happy. Wherever you set the dial, many will complain that you take things at far too slow a pace, while others will complain that you lost them only a few chapters in. So, in particular, these questions of how much initial scene-setting to provide are very much a judgement call.
+
+*To be continued**.*

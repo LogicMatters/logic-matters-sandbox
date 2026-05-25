@@ -1,0 +1,21 @@
+---
+title: "Bridge: Beginning Model Theory"
+---
+
+*
+
+ 
+
+Jane Bridge’s *Beginning Model Theory* (Clarendon Press, 1977) was the first volume published in the Oxford Logic Guides. Very regrettably, the book was printed in that brief period when publishers thought it a bright idea to save money by photographically reproducing texts produced on electric typewriters. Accustomed as we now are to mathematical texts being beautifully $\LaTeX$-ed, the look of Bridges’s book really is horribly off-putting. Yet perhaps you shouldn’t let appearances entirely put you off, for this is a unique book: just 136 pages of text (and I guess it would have been less if conventionally printed), it is indeed a genuine stand-alone small-scale introduction to, as the subtitle has it, ‘The Completeness Theorem and Some Consequences’, and indeed to just a little more.
+
+There is a brief Introduction fixing some set-theoretic ideas. Then Ch. 1 introduces relational structures, giving some simple examples, defines a first-order language, and explains how to interpret such a language in a relational structure. This is done pretty crisply and clearly (maybe, both here and later, one or two ‘book-keeping’ lemmas checking that this or that definition or construction works as intended are unnecessarily laboured — given the overall length of the book the space  could have been used instead for a few more motivational remarks).
+
+Ch. 2 gives a Hilbert-style axiomatic formal system for the predicate calculus (since the official basic connectives are $\land$ and $\neg$, the system isn’t quite the usual one). Next, the first four sections of Ch. 3 prove completeness theorems via a standard Henkin-style proof for countable first-order languages, countable languages with identity, and uncountable languages (Bridge, however, doesn’t explain up front why we might be interested in humanly-unusable uncountable languages). Then §3.5 is about compactness and some first applications. (Somewhat oddly, having got that far, the chapter ends by returning to the question of completeness for the *propositional* calculus.)
+
+Up to this point, how far does the book diverge from the coverage of an introductory text on first-order logic? There is a little more about structures and relations between structures (homomorphisms and isomorphisms) at the outset: the discussion ventures into uncountable languages, and then there is the perhaps more detailed discussion of consequences of compactness. But really, the treatment of model theory proper is indeed confined to the final, forty page, Ch. 4,  called ‘Beginning Model Theory’.
+
+This final chapter starts as you’d expect, with the downward and upward Löwenheim-Skolem theorems. Then there is some really rather nicely organised material on categoricity and completeness. So by p. 111 we have met examples of (i) theories $\kappa$-categorical in every infinite $\kappa$, (ii) theories which are $\aleph_0$-categorical but not e.g. $2^{\aleph_0}$ categorical, and (iii) theories that are $\kappa$-categorical for some uncountable $\kappa$ but not  $\aleph_0$-categorical. Bridge then mentions (but of course does not prove) Morley’s theorem, and then moves on to consider how categoricity relates to completeness. We get Vaught’s Test, and then a discussion of elementary embeddings, diagrams etc., leading up to results like Robinson’s Prime Model Test, Robinson’s Model-Completeness Test, and more about model-completeness etc. This is swiftly but pretty clearly done given the space constraints.
+
+Some of the examples pre-suppose a (very) little mathematical background — e.g. a very slight acquaintance with the notion of a field. But perhaps with a small amount of skipping if you are coming from a philosophical rather than mathematical background, the discussion in the final chapter should be quite accessible given familiarity with an elementary first-order logic text like Chiswell and Hodges: just take things slowly.
+
+I doubt whether — almost forty years on from publication — this would still the best place for beginners to start (even forgetting about the rebarbative type-setting). However, you could still profitably read the last chapter for consolidation/revision after some other elementary treatment of the very first steps into model theory.

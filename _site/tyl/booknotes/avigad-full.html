@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Avigad’s MLC: The full story … – logic-matters-sandbox</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">logic-matters-sandbox</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../books/index.html"> 
+<span class="menu-text">Five Big Red (Open Access) Logic Books</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://bsky.app/"> <i class="bi bi-bluesky" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Avigad’s MLC: The full story …</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><img src="covers/51P08fnxeL-214x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;"></p>
+<p>I have at last returned to finish reading Jeremy Avigad’s <em>Mathematical Logic and Computation</em>, which was published last year by CUP. Here, now put together into one post, are some thoughts about the book (increasingly less per chapter, as I came to realise that — despite Avigad’s intentions and despite the many virtues of the book — this isn’t really a book for beginners, and so it won’t in the end feature largely in main part of the <em>Beginning Mathematical Logic</em> Study Guide).</p>
+<hr>
+<p>The first seven chapters, some 190 pages, form a book within the book, on core FOL topics but with an unusually and distinctively proof-theoretic flavour. This is well worth having. But a reader who is going to happily navigate and appreciate the treatments of topics here will typically need significantly more background in logic than Avigad implies. The exposition is often <em>very</em> brisk, and the amount of motivational chat is variable and sometimes minimal. So — to jump to a first verdict — some parts of this book-within-a-book will indeed be recommended in the <em>Guide</em>, but as supplementary reading for those who have already tackled one of the standard FOL texts.</p>
+<p>To get down to details. Chapter 1 of <em>MLC</em> is on “Fundamentals”, aiming to “develop a foundation for reasoning about syntax”. So we get the usual kinds of definitions of inductively defined sets, structural recursion, definitions of trees, etc. and applications of the abstract machinery to defining the terms and formulas of FOL languages, proving unique parsing, etc., but all done in a quite hard-core way. But as Avigad notes, the reader can skim and skip and return to the details later on a need-to-know basis.</p>
+<p>But there is one stand-out decision that is perhaps worth commenting on. Take the two expressions <span class="math inline">\(\forall xFx\)</span> and <span class="math inline">\(\forall yFy.\)</span> The choice of bound variable is of course arbitrary. It seems we have two choices here: - Just live with the arbitrariness. Allow such expressions as distinct formulas, but prove that &nbsp;formulas like these which are can be turned into each other by the renaming of bound variables (formulas which are <span class="math inline">\(\alpha\)</span>-equivalent, as they say) are always interderivable, are logically equivalent too. - Say that formulas proper are what we get by quotienting expressions by <span class="math inline">\(\alpha\)</span>-equivalence, and lift our first-shot definitions of e.g.&nbsp;wellformedness for expressions of FOL to become definitions of wellformedness for the more abstract formulas proper of FOL.</p>
+<p>Now, as Avigad says, there is in the end not much difference between these two options; but he plumps for the second option, and for a reason. The thought is this. If we work at expression level, we will need a story about allowable substitutions of terms for variables that blocks unwanted variable-capture. And it is suggested there are three ways of doing this, none of which is entirely free from trouble according to him. - Distinguish free from bound occurrences of variables, define what it is for a term to be free for a variable, and only allow a term to be substituted when it is free to be substituted. Trouble: “involves inserting qualiﬁcations everywhere and checking that they are maintained.” - Modify the definition of substitution so that bound variables first get renamed as needed — so that the result of substituting <span class="math inline">\(y + 1\)</span> for <span class="math inline">\(x\)</span> in <span class="math inline">\(\exists y(y &gt; x)\)</span> is something like <span class="math inline">\(\exists z(z &gt; y + 1)\)</span>. Trouble: “Even though we can ﬁx a recipe for executing the renaming, the choice is somewhat arbitrary. Moreover, because of the renamings, statements we make about substitutions will generally hold only up to <span class="math inline">\(\alpha\)</span>-equivalence, cluttering up our statements.” - Maintain separate stocks of free and bound variables, so that the problem never arises. Trouble: “Requires us to rename a variable whenever we wish to apply a binder.”</p>
+<p>But the supposed trouble counting against the third option is, by my lights, no trouble at all. Why so?</p>
+<p>Avigad is arguably quite misdescribing what is going on in that case. Taking the Gentzen line, we distinguish constants with their fixed interpretations, parameters or temporary names whose interpretation can vary, and bound variables which are undetachable parts of a quantifier-former we might represent ‘<span class="math inline">\(\forall x \ldots\ x\ldots \ x\ldots\)</span>’. And when we quantify <span class="math inline">\(Fa\)</span> to get <span class="math inline">\(\forall xFx\)</span> we are not “renaming a variable” (a trivial synactic change) but we are — in one go, so to speak replacing the parameter with a variable and prefixing a linked quantifier, and that complex makes a single semantic unit which has a quite different semantic role from a parameter. There’s a good Fregean principle, use different bits of syntax to mark different semantic roles: and that’s what is happening here when we replace the ‘<span class="math inline">\(a\)</span>’ by the ‘<span class="math inline">\(x\)</span>’ and at the same time bind with the quantifier ‘<span class="math inline">\(\forall x\)</span>’.</p>
+<p>So its seems to me that option 1c is in fact very markedly more attractive than Avigad has it (it handles issues about substitution nicely, and meshes with the elegant story about semantics which has <span class="math inline">\(\forall xFx\)</span> true on an interpretation when <span class="math inline">\(Fa\)</span> is true however we extend that interpretation to give a referent to the temporary name <span class="math inline">\(a\)</span>). The simplicity of 1c compared with option 2 in fact gets the deciding vote for me.</p>
+<hr>
+<p>After the chapter of preliminaries, <em>MLC</em> has two chapters on propositional logic (substantial chapters too, some fifty-five large format pages between them, and they range much more widely than the usual sort of introductions to PL in math logic books).</p>
+<p>Avigad’s general approach foregrounds syntax and proof theory. So these two chapters start with §2.1 quickly reviewing the syntax of the language of PL (with <span class="math inline">\(\land, \lor, \to, \bot\)</span> as basic — so negation has to be defined by treating <span class="math inline">\(\neg A\)</span> as <span class="math inline">\(A \to \bot\)</span>). §2.2 presents a Hilbert-style axiomatic deductive system for minimal logic, which is augmented to give systems for intuitionist and classical PL. §2.3 says more about the provability relations for the three logics (initially defined in terms of the existence of a derivation in the relevant Hilbert-style system). §2.4 then introduces natural deduction systems for the same three logics, and outlines proofs that we can redefine the same provability relations as before in terms of the availability of natural deductions. §2.5 notes some validities in the three logics and §2.6 is on normal forms in classical logic. §2.7 then considers translations between logics, e.g.&nbsp;the Gödel-Gentzen double-negation translation between intuitionist and classical logic. Finally §2.8 &nbsp;takes a <em>very</em> brisk look at other sorts of deductive system, and issues about decision procedures.</p>
+<p>As you’d expect, this is all technically just fine. But I strongly suspect an amount of prior knowledge will be pretty essential if you are really going get much out the discussions here. Yes,&nbsp;the point of the exercise isn’t to get the reader to be a whizz at knocking off complex Gentzen-style natural deduction proofs (for example); but are there quite enough worked examples for the genuine newbie to get a good feel for the claimed naturalness of such proofs? Is a single illustration of a Fitch-style alternative helpful? I’m very doubtful.</p>
+<p>To continue, Chapter 3 is on semantics. We get the standard two-valued semantics for classical PL, along with soundness and completeness proofs, in §3.1. Then we get interpretations in Boolean algebras in §3.2. Next, §3.3 introduces Kripke semantics for intuitionistic (and minimal) logic — as I said, Avigad is indeed casting his net significantly more widely that usual in introducing PL. §3.4 gives algebraic and topological interpretations for intuitionistic logic. And the chapter ends with a pretty challenging §3.5, ‘Variations’, introducing a generalized Beth semantics. As you can see, a lot is going on here!</p>
+<p>Still, I think that for someone coming to <em>MLC</em> who already <em>does</em> have enough logical background (perhaps a bit half-baked, perhaps rather fragmentary) and who is mathematically adept enough, these chapters — perhaps initially minus their last sections — should bring a range of technical material into a nicely organised story in a very helpful way, giving a good basis for pressing on through the book.</p>
+<hr>
+<p>The next two chapters of <em>MLC</em> are on the syntax and proof systems for FOL — in three flavours again, minimal, intuitionstic, and classical — and then on semantics and a smidgin of model theory. Again, things proceed at considerable pace, and ideas come thick and fast.</p>
+<p>So in a bit more detail, how do Chapters 4 and 5 proceed? Broadly following the pattern of the two chapters on PL, in §4.1 we find a brisk presentation of FOL syntax (in the standard form, with no syntactic distinction made between variables-as-bound-by-quantifiers and variables-standing-freely). Officially, recall, wffs that result from relabelling bound variables are identified. But this seems to make little difference: I’m not sure what the gain is, at least here in these chapters, in a first encounter with FOL.</p>
+<p>§4.2 presents axiomatic and ND proof systems for the quantifiers, adding to the systems for PL in the standard ways. §4.3 deals with identity/equality and says something about the “equational fragment” of FOL. §4.4 says more than usual about equational and quantifier-free subsystems of FOL, noting some (un)decidability results. §4.5 briefly touches on prenex normal form. §4.6 picks up the topic (dealt with in <em>much</em> more detail than usual) of translations between minimal, intuitionist, and classical logic. §4.7 is titled “Definite Descriptions” but isn’t as you might expect about how to add a description operator, a Russellian iota, but rather about how — when we can prove <span class="math inline">\(\forall x\exists! yA(x, y)\)</span> — we can add a function symbol <span class="math inline">\(f\)</span> such that <span class="math inline">\(f(x) = y\)</span> holds when <span class="math inline">\(A(x, y)\)</span>, and all goes as we’d hope. Finally, §4.8 treats two topics: first, how to mock up sorted quantifiers in single-sorted FOL; and second, how to augment our logic to deal with partially defined terms. That last subsection is very brisk: if you <em>are</em> going to treat any varieties of free logic (and I’m all for that in a book at this level, with this breadth) there’s more worth saying.</p>
+<p>Then, turning to semantics, §5.1 is the predictable story about full classical logic with identity, &nbsp;with soundness and completeness theorems, all crisply done. §5.2 tells us more about equational and quantifier-free logics. &nbsp;§5.3 extends Kripke semantics to deal with quantified intuitionistic logic. We then get algebraic semantics for classical and intuitionistic logic in §5.4 (so, as before, Avigad is casting his net more widely than usual — though the treatment of the intuitionistic case is indeed pretty compressed). The chapter finishes with a fast-moving 10 pages giving us two sections on model theory. §5.5 deals with some (un)definability results, and talks briefly about non-standard models of true arithmetic. §5.6 gives us the L-S theorems and some results about axiomatizability. So that’s a great deal packed into this chapter. And at a sophisticated level too — it is perhaps rather telling that the note at the end of the chapter gives Peter Johnstone’s hard-core book on <em>Stone Spaces</em> as a “good reference” for one of the constructions!</p>
+<p>The same judgement applies, I think, as to the chapters on PL: very good material for someone already on top of the basics, and wanting to consolidate and expand their knowledge, but not the place to start.</p>
+<p>One minor comment: I note that models for a FOL language are defined in the standard way as having a <em>set</em> for quantifiers to range over, &nbsp;but with a function (of the right arity) over that set as interpretation for each function symbol, and a relation (of the right arity) over that set as interpretation for each relation symbol. My attention might have flickered, but Avigad seems happy to treat functions and relations as they come, not explicitly trading them in for set-theoretic surrogates (sets of ordered tuples). But then it is interesting to ask — if we treat functions and relations as they come, without going in for a set-theoretic story, then why not treat the quantifiers as they come, as running over some objects plural? That way we can interpret e.g.&nbsp;the first-order language of set theory (whose quantifiers run over more than set-many objects) without wriggling. Avigad does in general seem to nicely downplay the unnecessary invocation of sets — though not quite consistently. I’d go for consistently avoiding unnecessary set talk from the off — thus making it much easier for the beginner at serious logic to see when set theory starts doing some real work for us. Three cheers for sets: but in their proper place!</p>
+<hr>
+<p><em>MLC</em> continues, then, with Chapter 6 on Cut Elimination. And the order of explanation here is, I think, interestingly and attractively novel.</p>
+<p>Yes, things begin in a familiar way. §6.1 introduces a standard sequent calculus for (minimal and) intuitionistic FOL logic without identity. §6.2 then, again in the usual way, gives us a sequent calculus for classical logic by adopting Gentzen’s device of allowing more than one wff to the right of the sequent sign. But then Avigad notes that we can trade in <em>two-sided</em> sequents, which allow sets of wffs on both sides, for <em>one-sided</em> sequents where everything originally on the left gets pushed to the right of sequent side (being negated as it goes). These one-sided sequents (if that’s really the best label for them) are, if I recall, not treated at all in Negri and von Plato’s lovely book on structural proof theory; and they are mentioned as something of an afterthought at the end of the relevant chapter on Gentzen systems in Troelstra and Schwichtenberg. But here in <em>MLC</em> they are promoted to centre stage.</p>
+<p>So in §6.2 we are introduced to a calculus for classical FOL using such one-sided, disjunctively-read, sequents (we can drop the sequent sign as now redundant) — and it is taken that we are dealing with wffs in ‘negation normal form’, i.e.&nbsp;with conditionals eliminated and negation signs pushed as far as possible inside the scope of other logical operators so that they attach only to atomic wffs. This gives us a very lean calculus. There’s the rule that any <span class="math inline">\(\Gamma, A, \neg A\)</span> with <span class="math inline">\(A\)</span> atomic counts as an axiom. There’s just one rule each for <span class="math inline">\(\land\)</span>, <span class="math inline">\(\lor\)</span>, <span class="math inline">\(\forall\)</span>, <span class="math inline">\(\exists\)</span>. There also is a cut rule, which tells us that from <span class="math inline">\(\Gamma, A\)</span> and <span class="math inline">\(\Gamma, {\sim}{A}\)</span> we can infer <span class="math inline">\(\Gamma\)</span> (here <span class="math inline">\({\sim}{A}\)</span> is notation for the result of putting the negation of <span class="math inline">\(A\)</span> in negation normal form).</p>
+<p>And Avigad now proves twice over that this cut rule is eliminable. So first in §6.3 we get a semantics-based proof that the calculus without cut is already sound and complete. Then in §6.4 we get a proof-theoretic argument that cuts can be eliminated one at a time, starting with cuts on the most complex formulas, with a perhaps exponential increase in the depth of the proof at each stage — you know the kind of thing! Two comments: - The details of the semantic proof will strike many readers as familiar — closely related to the soundness and completeness proofs for a Smullyan-style tableaux system for FOL. And indeed, it’s an old idea that Gentzen-style proofs and certain kind of tableaux can be thought of as essentially the same, though conventionally written in opposite up-down directions (see Ch XI of Smullyan’s 1968 classic&nbsp;<em>First-Order Logic</em>). In the present case, Avigad’s one-sided sequent calculus without cut is in effect a block tableau system for negation normal formulas where every wff is signed <span class="math inline">\(F\)</span>. Given that those readers whose background comes from logic courses &nbsp;for philosophers will probably be familiar with tableaux (truth-trees), and indeed given the elegance of Smullyan systems, I think it is perhaps a pity that Avigad misses the opportunity to spend a little time on the connections. - The sparse one-sided calculus does make for a nicely minimal context in which to run a bare-bones proof-theoretic argument for the eliminability of the cut rule, where we have to look at a very small number of different cases in developing the proof instead of having to hack through the usual clutter. That’s a very nice device! I do have to report though that, to my mind, Avigad’s mode of presentation doesn’t really make the proof any more accessible than usual. In fact, once again &nbsp;the compression makes for quite hard going (even though I came to it knowing in principle what was supposed to be going on, I often had to re-read). Even just a few more examples along the way of cuts being moved would surely have helped.</p>
+<p>To continue (and I’ll be briefer) §6.5 looks at proof-theoretic treatments of cut elimination for intuitionistic logic, and §6.6 adds axioms for identity into the sequent calculi and proves cut elimination again. §6.7 is called ‘Variations on Cut Elimination’ with a first look at what can happen with theories other than the theory of identity when presented in sequent form. Finally §6.8 returns to intuitionistic logic and (compare §6.5) this time gives a nice semantic argument for the eliminability of cut, going via a generalization of Kripke models.</p>
+<p>This is all very good stuff, and I learnt from this. But I hope it doesn’t sound too ungrateful to say that a student new to sequent calculi and cut-elimination proofs would still do best to read the initial chapters of Negri and von Plato (for example) first, if they are later to be able get a lively appreciation of §6.4 and the following sections of <em>MLC</em>.</p>
+<hr>
+<p>Following on from the very interesting Chapter 6 on cut-elimination, <em>MLC</em> has one further chapter on FOL, Chapter 7 on “Properties of First-Order Logic”. There are sections on Herbrand’s Theorem, on the Disjunction Property for intuitionistic logic, on the Interpolation Lemma, on Indefinite Descriptions and on Skolemization. This does nicely follow on from the previous chapter, as the proofs here mostly rely on the availability of cut-elimination. I’m not going to dwell on this chapter, though, which I think most readers will find pretty hard going. Hard going in part because, apart from perhaps the interpolation lemma, it won’t this time be obvious from the off what the <em>point</em> of various theorems are.</p>
+<p>Take for example the section on Skolemization. This goes at pace. And the only comment we get about why this might all matter is at the end of the section, where we read: “The reduction of classical first-order logic to quantifier-free logic with Skolem functions is&nbsp;also mathematically and philosophically interesting. Hilbert viewed such functions&nbsp;(more precisely, epsilon terms, which are closely related) as representing the ideal&nbsp;elements that are added to finitistic reasoning to allow reasoning over infinite&nbsp;domains.” So that’s just one sentence expounding on the wider interest &nbsp;— which is hardly likely to be transparent to most readers! It would have been good to hear more.</p>
+<p>Avigad’s sections in this chapter are of course technically just fine and crisply done, and can certainly be used as a source to consolidate and develop your grip on their cluster of topics if you already have met the key ideas. But once more I can’t recommend starting here.</p>
+<hr>
+<p>So much then, for the book-within-a-book on FOL. I’m now going to be speeding up somewhat. For &nbsp;a start, I won’t pause long over Ch. 8, as the basic facts about p.r. functions aren’t wonderfully exciting! Avigad dives straight into the general definition of p.r. functions, and then it’s shown that the familiar recursive definitions of addition, exponentiation, and lots more, fit the bill. We then see how to handle finite sets and sequences in a p.r. way. §8.4 discusses other recursion principles which keep us within the set of p.r. functions, and §8.5 discusses recursion along well-founded relations — these two sections are tersely abstract, and it would surely have been good to have more by way of motivating examples. Finally §8.6 tells us about diagonalizing out of the p.r. functions to get a computable but not primitive recursive function, and says just a little about fast-growing functions. All this is technically fine, it goes without saying; though once again I suspect that many students will find this chapter more useful if they have had a preliminary warm-up with a gentler first introduction to the topic first.</p>
+<p>But while Ch. 8 might be said to be relatively routine (albeit quite forgiveably so!), Ch. 9 is anything but. It is the most detailed and helpful treatment of Primitive Recursive Arithmetic that I know.</p>
+<p>Avigad first presents an axiomatization of PRA in the context of a classical quantifier-free first-order logic. Hence - The logic has the propositional connectives, axioms for equality, plus a substitution rule (wffs with variables are treated as if universally quantified, so from <span class="math inline">\(A(x)\)</span> we can infer <span class="math inline">\(A(t)\)</span> for any term). - We then&nbsp;have a symbol for each p.r. function — and we can think of these added iteratively, so as each new p.r. function is defined by composition or primitive recursion from existing functions, a symbol for the new function is introduced along with its appropriate defining quantifier-free equations in terms of already-defined functions. &nbsp; - We also have a quantifer-free induction rule: from <span class="math inline">\(A(0)\)</span> and <span class="math inline">\(A(x) \to A(Sx)\)</span>, infer <span class="math inline">\(A(t)\)</span> for any term.</p>
+<p>§§9.1–9.3 explore this version of PRA in some detail, deriving a lot of arithmetic, showing e.g.&nbsp;that PRA proves that if <span class="math inline">\(p\)</span> is prime, and <span class="math inline">\(p \mid xy\)</span> then either <span class="math inline">\(p \mid x\)</span> or <span class="math inline">\(p \mid y\)</span>, and noting along the way that we could have used an intuitionistic version of the logic without changing what’s provable.</p>
+<p>Then the next two sections very usefully discuss two variant presentations of PRA. §9.4 <em>enriches</em> the language and the logic by allowing quantifiers, though induction is still just for quantifier-free formulas. It is proved that this is conservative over quantifier-free PRA for quantifier-free sentences. And there’s a stronger result. Suppose full first-order PRA proves the <span class="math inline">\(\Pi_2\)</span> sentence <span class="math inline">\(\forall x \exists y A(x, y)\)</span>, then for some p.r. function symbol <span class="math inline">\(f\)</span>, quantifier-free PRA proves <span class="math inline">\(A(x, f(x))\)</span> (and we can generalize to more complex <span class="math inline">\(\Pi_2\)</span> sentences).</p>
+<p>All this is done in an exemplary way, I think. Perhaps Avigad is conscious that in this chapter he is travelling over ground that it is significantly less well-trodden in other textbooks, and so here he allows himself to be rather more expansive in his motivating explanations, which works well.</p>
+<p>The following Ch. 10 is the longest in the book, some forty two pages on ‘First-Order Arithmetic’. Or rather, the chapter is on arithmetics, plural — for as well as the expected treatment of first-order Peano Arithmetic, with nods to Heyting Arithmetic, &nbsp;there is also a perhaps surprising amount here about subsystems of classical PA.</p>
+<p>In more detail, §10.1 briefly introduces PA and HA. You might expect next to get a section explaining how PA (with rather its minimal vocabulary) can be in fact seen as extending the PRA which we’ve just met (with all its built-in p.r. functions). But we have to wait until &nbsp;§10.4 to get the story about how to define p.r. functions using some version of the beta-function trick. In between, there are two longish sections on the arithmetical hierarchy of wffs, and on subsystems of PA with induction restricted to some level of the hierarchy. Then §10.5 shows e.g.&nbsp;how truth for <span class="math inline">\(\Sigma_n\)</span> sentences can be defined in a <span class="math inline">\(\Sigma_n\)</span> way, and shows e.g.&nbsp;that I<span class="math inline">\(\Sigma_{n+1}\)</span> (arithmetic with induction for <span class="math inline">\(\Sigma_{n + 1}\)</span> wffs) can prove the consistency of I<span class="math inline">\(\Sigma_{n}\)</span>, and also — again using truth-predicates — it is shown e.g.&nbsp;that I<span class="math inline">\(\Sigma_{n}\)</span> is finitely axiomatizable. (There’s a minor glitch. In the proof of 10.3.5 there is a reference to the eighth axiom of <span class="math inline">\(Q\)</span> — but Robinson arithmetic isn’t in fact introduced until Chapter 12.)</p>
+<p>The material here is all stuff that is very good to know. Your won’t be surprised by this stage to hear that the discussion is a bit dense in places; but up to this point it should all be pretty manageable because the ideas are, after all, straightforward enough.</p>
+<p>However, the chapter ends with another ten pages whose role in the book I’m not at all so sure about. §10.6 proves three theorems using cut elimination arguments, namely (1) that I<span class="math inline">\(\Sigma_{1}\)</span> is conservative over PRA for <span class="math inline">\(\Pi_2\)</span> formulas; (2) Parikh’s Theorem, (3) that so-called B<span class="math inline">\(\Sigma_{n+1}\)</span> is conservative over I<span class="math inline">\(\Sigma_{n}\)</span> for <span class="math inline">\(\Pi_{n+2}\)</span> wffs. What gives these results, in particular the third, enough interest to labour through them? They are, as far as I can see, never referred to again in later chapters of the book. And yet §10.7 then proves the same theorems again using model theoretic arguments. I suppose that these pages give us samples of the kinds of conservation results we can achieve and some methods for proving them. But I’m not myself convinced they really deserve this kind of substantial treatment in a book at this level.</p>
+<hr>
+<p>Now moving on, Ch. 11 is on computability. §§11.1–11.6 are a fast-track introduction to the basics of the theory of partial recursive functions together with a look at Turing machines. We get to Rice’s theorem in ten pages, which tells you how very fast things go. So this really whizzes by. Still, at its level, it is very clear and nicely motivated, so we can certainly put this down as useful revision material.</p>
+<p>§11.7, however, takes an even faster six-page look at the untyped lambda calculus. And to be honest I found this section very strange: I really do have to wonder what someone genuinely new to the topic could actually get out of this compressed presentation. And then, after a section on relative computability, Ch. 11 ends with a pretty hard-core section on computability and infinite binary trees.</p>
+<p>We get back to basics for most of Ch. 12 on undecidability and incompleteness. My sense is that there is rather more motivational chat here that in some episodes in the book, &nbsp;and I do think §§12.1–12.4 really do work very nicely (I do hope this judgement doesn’t just reflect the fact that it is covering ground I know particular well!). Again, §§12.1–12.4 can be recommended reading in the Study Guide. &nbsp;The final section of the chapter, §12.5, however, is a terse discussion of theories that can be shown to be complete by arguments using quantifier elimination results — I found the mode of presentation to be distinctly less reader-friendly again.</p>
+<p>There is a considerable jolt upwards in level of difficulty as we move to the next two chapters, though. Ch. 13 is on the simply typed lambda calculus, combinatory logic and more: the discussion is too compressed to be very useful, I would judge. Most readers brand new to the topic would surely struggle. Very much the same goes for Ch. 14 on reliability, the Dialectica interpretation and more, though this is interesting and helpful reading if you already know enough.</p>
+<hr>
+<p>That was brisk, and I am going to be even briefer on the remaining three chapters. Ch. 15 is on second-order logic and arithmetic. Once again, this goes at a cracking pace, and would be pretty tough (unnecessarily tough, say I) for someone’s first exposure to SOL. However, these early sections might well make for higher-level revision, if you’d first taken things more slowly in some other presentation. But heavens, by §15.6 we are talking about the second-order typed lambda calculus …</p>
+<p>Ch. 16 is on subsystems of second-order arithmetic. And of course, I’m all for seeing this topic covered in a text like this. Though — stuck record though I am proving to me — I find myself again wanting to say that this surely all goes a bit too densely for a first exposure to the topic. Though yes, a good read perhaps if you have already tackled the more accessible first chapter of Simpson’s now classic book.</p>
+<p>Finally, <em>MLC</em> has a concluding chapter on “Foundations” — a very speedy 16 page tour through simple type theory, set theory, dependent type theory and more. This sits rather oddly with what’s gone before.</p>
+<p>I have kept remarking on the differences in level (sometimes quite radical) between different chapters, and quite often between sections within a chapter. They do make me wonder. Does this book in fact have a number of different archaeological layers, with different parts having their ultimate origins in handouts for differently paced, different level courses? I wonder! It certainly makes, as I said before, for an uneven ride. But there is, for all that, a great deal of highly interesting material here in <em>MLC</em>: you’ll just need to be primed to a suitable level (different for different episodes) to really appreciate it.← Previous PostNext Post → 3 comments: - <strong>Philippe Eyssidieux</strong> April 20, 2025 at 2:22 pm</p>
+<p>I am reading this very good book. You’re right, it is way too hard for beginners.</p>
+<p>It is a terrible mistake to give a first course on logic featuring natural deduction, and even sequent calculi, for minimal, intuitionnistic and classical Fol.</p>
+<p>My daughter, who is majoring in philosophy and knows no mathematics beyond the elementary level, had to follow such a course this year and was utterly disgusted. It seems that every student in her class was. She would have benefited much more from a simple-minded course approaching classical Fol semantically finishing with just enough proof theory to state without proof Gödel’s completeness theorem. And perhaps the first incompleteness theorems. Reply - <strong>Emanuele</strong> November 3, 2025 at 12:37 am</p>
+<p>Hi Professor Smith** I noticed that this book is nowhere recommend in the proof theory section of your guide.** Since its proof theorical approach and, even if its not really beginning level, i was wondering if you recommend this book to a mathematical minded student interested in proof theory and, if so, where to place this reads respect the others cited in your guide (IPL and structural proof theory).** Thank you for your work.** Best regards Reply - <strong>Peter Smith</strong> November 3, 2025 at 10:03 pm</p>
+<p>Avigad’s book is not recommended in the current edition of the Guide because it was published after that edition was finalised. But it will certainly get mentioned and recommended in the next edition — though I’d need to take another look at the book to decide where it best fits in with other readings. If I remember it rightly, is perhaps a little more challenging than the early chapters of IPL and of Negri &amp; von Plato. Reply</p>
+<p>Leave a Comment Cancel Reply</p>
+<p>Your email address will not be published. Required fields are marked <em>Type here. You can use </em>italics* and <strong>bold</strong>. To use LaTeX, start your comment with the shortcode [latexpage].</p>
+<p>Name* *</p>
+<p>Email* *</p>
+<p>Website *</p>
+<ul>
+<li>Save my name, email, and website in this browser for the next time I comment.</li>
+</ul>
+<hr>
+<ul>
+<li></li>
+</ul>
+<p>Δ* SubscribeGet email notifications ** RSS feedSocial networksFollow on Mastodon ** Follow on BlueskyRecent comments - Daniel M Gessel on On the mathematical abilities of LLMs - Rowsety Moid on On the mathematical abilities of LLMs - Rowsety Moid on Proof-reading, with a bit of help from LLMs - Márcio Palmares on On the mathematical abilities of LLMs - Daniel M Gessel on On the mathematical abilities of LLMs - Rowsety Moid on Great expectations - Peter Smith on Another categorical update - Rowsety Moid on Another categorical update - Nico Formánek on Categorical update - Peter Smith on Categorical update</p>
+<p>Site newsMay 17. Revised PDF of <em>ICT</em> uploaded. New paperback available.</p>
+<p>May 15. Corrections page for first printing of <em>ICT </em> further expanded.</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/your-website-url\.example\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

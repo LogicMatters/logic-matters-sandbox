@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Ebbinghaus, Flum, and Thomas: Mathematical Logic – logic-matters-sandbox</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">logic-matters-sandbox</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../books/index.html"> 
+<span class="menu-text">Five Big Red (Open Access) Logic Books</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://bsky.app/"> <i class="bi bi-bluesky" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Ebbinghaus, Flum, and Thomas: Mathematical Logic</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><img src="covers/51jRP9hNKDL-199x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;"></p>
+<article class="post-5758 page type-page status-publish ast-article-single" id="post-5758" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
+<div class="entry-content clear" itemprop="text">
+<p>
+<img fetchpriority="high" decoding="async" class="alignleft size-medium wp-image-16098 lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/uploads/2023/08/51jRP9hNKDL-199x300.jpg" alt="" width="199" height="300"><noscript><img decoding="async" class="alignleft size-medium wp-image-16098 lazyload" src="https://www.logicmatters.net/wp-content/uploads/2023/08/51jRP9hNKDL-199x300.jpg" alt="" width="199" height="300" srcset="https://www.logicmatters.net/wp-content/uploads/2023/08/51jRP9hNKDL-199x300.jpg 199w, https://www.logicmatters.net/wp-content/uploads/2023/08/51jRP9hNKDL-680x1024.jpg 680w, https://www.logicmatters.net/wp-content/uploads/2023/08/51jRP9hNKDL-768x1157.jpg 768w, https://www.logicmatters.net/wp-content/uploads/2023/08/51jRP9hNKDL-scaled.jpg 796w" sizes="(max-width: 199px) 100vw, 199px"></noscript><em>Mathematical Logic</em> by H.-D. Ebbinghaus, J. Flum and W. Thomas (Springer, 3rd edition 2021, pp.&nbsp;304) was first published in German in 1978. A second edition appeared in English in 1994, in a series ‘Undergraduate Texts in Mathematics’. The latest 2021 edition, adding just a little new material, is now in Springer’s series ‘Graduate Texts in Math- ematics’, which I think better reflects the level of quite a bit of the book.
+</p>
+<p>
+EFT’s book is often praised and is I believe quite widely used. But revisiting the latest edition, I can’t find myself wanting to recommend it as a particularly good place to start, whether for philosophers or for mathematicians. The presentation of the core material on the syntax and semantics of first-order logic in the first half of the book is done more elegantly elsewhere. In the second half of the book, the chapters do range widely across interesting material. But again most of the discussions will probably go too quickly if you haven’t encountered the topics before, and – if you want revision/amplification of what you already know – you will mostly do better elsewhere. I’ll pick out the later chapters which can be most recommended.
+</p>
+<hr>
+<p>
+<em>Some details about Part A &nbsp;</em>The book is divided into two parts. EFT start Part A with a gentle opening chapter talking about a couple of informal mathematical theories (group theory, the theory of equivalence relations), giving a couple of simple informal proofs in those theories. <span style="font-size: 16px;">They then stand back to think about what goes on in the proofs (where an arbitrary item in a domain is selected, a result proved and then universally generalized); and they introduce the project of formalization. So far, so nice.</span>
+</p>
+<p>
+Ch. 2 describes the syntax of first-order languages, and proves some unique parsing results relatively painlessly. (EFT take the usual line of using the same symbols for both free and bound variables which causes the usual extra work. Also, a minor annoyance, they use ‘<img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-ad30fe0ea17eb541c54d33b4223a3278_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\equiv" title="Rendered by QuickLaTeX.com" height="8" width="13" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-ad30fe0ea17eb541c54d33b4223a3278_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\equiv" title="Rendered by QuickLaTeX.com" height="8" width="13" style="vertical-align: 0px;"></noscript>‘ rather than ‘<img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-b8690b7efd237bfe32a6e92e3b699b96_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="=" title="Rendered by QuickLaTeX.com" height="5" width="13" style="vertical-align: 2px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-b8690b7efd237bfe32a6e92e3b699b96_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="=" title="Rendered by QuickLaTeX.com" height="5" width="13" style="vertical-align: 2px;"></noscript>‘ as the object language sign for identity.)
+</p>
+<p>
+Ch. 3 does the semantics for FOL. The presentation goes at a fairly gentle pace, with some useful asides (e.g.&nbsp;on handling the many-sorted languages of informal mathematics using a many-sorted calculus vs.&nbsp;use restricted quantifiers in a single-sorted calculus). EFT though do make quite heavy work of some points of detail, but overall this is an approachable version of a standard story.
+</p>
+<p>
+Ch. 4 is called ‘A Sequent Calculus’. And here I am less happy. For a start (albeit a minor point, but one that badly affects readability), instead of writing a sequent as ‘<img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-c484be3f374d2a50bcdad2debc523638_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma \vdash \varphi" title="Rendered by QuickLaTeX.com" height="16" width="43" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-c484be3f374d2a50bcdad2debc523638_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma \vdash \varphi" title="Rendered by QuickLaTeX.com" height="16" width="43" style="vertical-align: -4px;"></noscript>’, or ‘<img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-d555c40c921a1f499d34d4d156c60755_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma \Rightarrow \varphi" title="Rendered by QuickLaTeX.com" height="16" width="50" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-d555c40c921a1f499d34d4d156c60755_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma \Rightarrow \varphi" title="Rendered by QuickLaTeX.com" height="16" width="50" style="vertical-align: -4px;"></noscript>’, or even ‘<img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-9ba9f679352101ec2e1cbcaf3a3921d5_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma \colon \varphi" title="Rendered by QuickLaTeX.com" height="16" width="35" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-9ba9f679352101ec2e1cbcaf3a3921d5_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma \colon \varphi" title="Rendered by QuickLaTeX.com" height="16" width="35" style="vertical-align: -4px;"></noscript>’,, EFT just write an unpunctuated ‘<img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-f884a3b31ee3f74d26720d7062ba6fd4_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma\ \varphi" title="Rendered by QuickLaTeX.com" height="16" width="28" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-f884a3b31ee3f74d26720d7062ba6fd4_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma\ \varphi" title="Rendered by QuickLaTeX.com" height="16" width="28" style="vertical-align: -4px;"></noscript>’,. They even write the unpunctuated ‘<img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-3e9b1cdaa0689118e5f4581b4475ad80_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma, \varphi, \psi" title="Rendered by QuickLaTeX.com" height="16" width="50" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-3e9b1cdaa0689118e5f4581b4475ad80_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma, \varphi, \psi" title="Rendered by QuickLaTeX.com" height="16" width="50" style="vertical-align: -4px;"></noscript>’, for ‘<img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-6be98f4300f064c8ed19ec40be30f0c6_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma, \varphi, \vdash \psi" title="Rendered by QuickLaTeX.com" height="16" width="66" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-6be98f4300f064c8ed19ec40be30f0c6_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\Gamma, \varphi, \vdash \psi" title="Rendered by QuickLaTeX.com" height="16" width="66" style="vertical-align: -4px;"></noscript>’. Strange!
+</p>
+<p>
+EFT have by this point decided to take only <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-02b57b44656a6f38d6417b8946f6c356_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\neg" title="Rendered by QuickLaTeX.com" height="5" width="11" style="vertical-align: 1px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-02b57b44656a6f38d6417b8946f6c356_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\neg" title="Rendered by QuickLaTeX.com" height="5" width="11" style="vertical-align: 1px;"></noscript>, <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-cb4e3b5713ed5f87ccfc17749950935d_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\lor" title="Rendered by QuickLaTeX.com" height="11" width="11" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-cb4e3b5713ed5f87ccfc17749950935d_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\lor" title="Rendered by QuickLaTeX.com" height="11" width="11" style="vertical-align: 0px;"></noscript>, and <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-ab5c559ae93b1d0e5686136f623fdf7a_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\exists" title="Rendered by QuickLaTeX.com" height="12" width="9" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-ab5c559ae93b1d0e5686136f623fdf7a_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\exists" title="Rendered by QuickLaTeX.com" height="12" width="9" style="vertical-align: 0px;"></noscript> as basic, and give rules just for these. Given the paucity of basic operators, EFT are not aiming for natural deduction in sequent form; nor are they aiming for a classical system which nicely relates to an intuitionistic subsystem. Proofs are simple linear sequences of sequents (no Gentzen-style trees). The resulting system is economical, and we quickly e.g.&nbsp;get a cut rule for free. But the distinction between structural and operation rules usually highlighted by presentations of a sequent calculus is arguably somewhat glossed over. So I’m not sure that I’d recommend this as the first-proof system to encounter.
+</p>
+<p>
+Ch. 5 gives a Henkin completeness proof for first-order logic. For my money, there’s too much symbol-bashing and not enough motivating chat here. And I don’t think it is good exegetical policy to complicate matters as EFT do by going straight for a proof for the predicate calculus with identity, though they are not alone in this.
+</p>
+<p>
+Ch. 6 is rather briskly about The Löwenheim-Skolem Theorem, compactness, and elementarily equivalent structures (clear enough, and would be good revision material).
+</p>
+<p>
+Ch. 7, ‘The Scope of First-Order Logic’ is really rather odd. It briskly argues that first-order logic is the logic for mathematics (readers of Shapiro’s book on second-order logic won’t be so quickly convinced!). The reason given is that we can reconstruct (nearly?) all mathematics in first-order ZF set theory – which the authors then proceed to give the axioms for. These few pages surely wouldn’t help if you have never seen the axioms before and don’t already know about the project of doing-maths-inside-set-theory.
+</p>
+<p>
+Finally in Part A, there’s rather ill-written chapter on normal forms, on extending theories by definitions, and (badly explained) on what the authors call ‘syntactic interpretations’.
+</p>
+<hr>
+<p>
+<em>Some details about Part B &nbsp;</em>This part of the book discusses a number of rather scattered topics. It kicks off with a rather nice little chapter on extensions of first-order logic, more specifically on second-order logic, on <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-b6b77c58089d41c197d76c53c37346ef_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathcal{L}_{\omega_1\omega}" title="Rendered by QuickLaTeX.com" height="16" width="37" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-b6b77c58089d41c197d76c53c37346ef_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathcal{L}_{\omega_1\omega}" title="Rendered by QuickLaTeX.com" height="16" width="37" style="vertical-align: -4px;"></noscript> (which allows infinitely long conjunctions and disjunctions), and <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-adde673c82a54286885f8f99dc7e3254_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathcal{L}_Q" title="Rendered by QuickLaTeX.com" height="18" width="23" style="vertical-align: -6px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-adde673c82a54286885f8f99dc7e3254_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\mathcal{L}_Q" title="Rendered by QuickLaTeX.com" height="18" width="23" style="vertical-align: -6px;"></noscript> (logic with quantifier <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-6cf9b207323474a94268c318e295e6b9_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="Qx" title="Rendered by QuickLaTeX.com" height="16" width="24" style="vertical-align: -4px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-6cf9b207323474a94268c318e295e6b9_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="Qx" title="Rendered by QuickLaTeX.com" height="16" width="24" style="vertical-align: -4px;"></noscript>, ‘there are uncountably many <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-ede05c264bba0eda080918aaa09c4658_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="x" title="Rendered by QuickLaTeX.com" height="8" width="10" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-ede05c264bba0eda080918aaa09c4658_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="x" title="Rendered by QuickLaTeX.com" height="8" width="10" style="vertical-align: 0px;"></noscript> such that ’). Modest ambition, clearly done.
+</p>
+<p>
+Then Ch. 10 is on ‘Limitations of the Formal Method’, and is decidedly over-ambitious. In 35 pages, EFT aim to talk about register machines, the halting problem for such machines, the undecidability of first-order logic, Trakhtenbrot’s theorem and the incompleteness of second-order logic, Gödel’s incompleteness theorems, and more. This would surely just be too rushed if you’d not seen this material before. And — while this is pretty clear — if you have seen these themes explored before there are better sources for revising/consolidating/extending your knowledge. The latest edition then adds a new section on the decidability of Presberger Arithmetic and a substantial (but rather out of place?) section on the decidability of a form of successor arithmetic.
+</p>
+<p>
+Ch. 11 is another hefty fifty pages, on ‘Free Models and Logic Programming’. This starts with Herbrand’s Theorem and some related matters. And then — at last — we meet some basics of propositional logic that we haven’t met before, and get introduced to propositional resolution. Then we get more first-order resolution and logic programme. I can’t say I found these discussions attractive.
+</p>
+<p>
+Ch. 12 is back to core model theory, Fraïssé’s Theorem and Ehrenfeucht Games: but you’ll again find better treatments elsewhere, this time in books dedicated to model theory.
+</p>
+<p>
+Finally, there is an interesting (though quite tough) concluding chapter on Lindström’s Theorems which show that there is a sense in which standard first-order logic occupies a unique place among logical theories.
+</p>
+<hr>
+<p>
+<em>Summary verdict &nbsp;</em>This is a perfectly respectable book, but the core material in Part A of the book is covered better (more accessibly, more elegantly) elsewhere.
+</p>
+<p>
+Of the supplementary chapters in Part B, the two chapters that stand out as worth looking at are perhaps Ch. 9 on extensions of first-order logic, and Ch. 13 (though not easy) on Lindstrom’s Theorems.
+</p>
+</div>
+</article>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/your-website-url\.example\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

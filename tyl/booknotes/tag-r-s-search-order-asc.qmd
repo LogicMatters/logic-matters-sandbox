@@ -1,0 +1,17 @@
+---
+title: "R&S Archives - Logic Matters"
+---
+
+*
+
+Restall & Standefer, Logical Methods
+
+ A new introductory logic textbook has just arrived, Greg Restall and Shawn Standefer’s *Logical Methods* (MIT).
+
+This promises to be an intriguing read. It is announced as “a rigorous but accessible introduction to philosophical logic” — though, perhaps more accurately,  it could be said to be an introduction to some aspects of formal logic that are of particular philosophical interest.
+
+The balance of the book is unusual. The first 113 pages are on propositional logic. There follow 70 pages on (propositional) modal logic — this, no doubt, because of its philosophical interest. Then there are just 44 pages on standard predicate logic, with the book ending with a short coda on quantified modal logic. To be honest, I can’t imagine too many agreeing that this reflects the balance they want in a first logic course.
+
+Proofs are done in Gentzen natural deduction style, and proof-theoretic notions are highlighted early: so we meet e.g. ideas about reduction steps for eliminating detours as early as p. 22, so we hear about normalizing proofs before we get to encounter valuations and truth tables. Another choice that not everyone will want to follow.
+
+However, let’s go with the flow and work with the general approach. Then, on a first browse-and-random-dipping, it does look (as you’d predict) that this is written very attractively, philosophically alert and enviably clear. So I really look forward to reading at least parts of *Logical Methods* more carefully soon. I’m turning over in my mind ideas for a third edition of *IFL *and it is always interesting and thought-provoking to see how good authors handle their introductory texts.

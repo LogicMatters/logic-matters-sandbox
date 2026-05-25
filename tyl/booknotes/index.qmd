@@ -1,0 +1,93 @@
+---
+title: "Book Notes on Logic and the Philosophy of Mathematics"
+description: "A local mirror of the old Logic Matters Book Notes page, with PDF assets stored under tyl/pdfs."
+---
+
+Over the years, I have written over a hundred short notes (or occasionally rather long) notes on a variety of books, either as posts on the blog or as entries to the Appendix to the Study Guide; some are perhaps interesting enough to be worth listing here. So this page in fact has two lists. The first one contains links to webpages on the books that appear in that Appendix so these books are, roughly speaking, wider-ranging texts on mathematical logic ([a PDF version of the complete Appendix, differently ordered, can also be downloaded here](../pdfs/Appendix.pdf)). The second list contains links mostly to blog posts on a variety of other logic books or books on the philosophy of mathematics.
+
+---
+
+### Some wider-ranging mathematical logic books
+
+1. [Avigad, _Mathematical Logic and Computation_, 2023.](avigad-full.qmd)
+2. [Bell & Machover, _A Course in Mathematical Logic_, 1977](bellmach.qmd)
+3. [Chiswell & Hodges, _Mathematical Logic_, 2007.](chiswellandhodges.qmd)
+4. [Cori & Lascar, _Mathematical Logic_, 1993, 2000.](cori-lascar-mathematical-logic.qmd)
+5. [Ebbinghaus, Flum & Thomas, _Mathematical Logic_, 1978, 2021.](eft.qmd)
+6. [Enderton, _A Mathematical Introduction to Logic_, 1972, 2002.](enderton.qmd)
+7. [Forster, _Logic, Induction and Sets_, 2003.](forster.qmd)
+8. [Goldstern & Judah, _The Incompleteness Phenomenon: A New Course in Mathematical Logic_, 1995.](goldsternandjudah.qmd)
+9. [Halbeisen & Kraft, _Gödel’s Theorems and Zermelo’s Axioms_, 2020.](halbeisen-krapf-g-del-s-theorems-and-zermelo-s-axioms.qmd)
+10. [Hedman, _A First Course in Logic_, 2004.](hedman.qmd)
+11. [Hinman, _Fundamentals of Mathematical Logic_, 2005.](hinman.qmd)
+12. [Hodel, _An Introduction to Mathematical Logic_, 1995.](hodel.qmd)
+13. [Johnstone, _Notes on Logic and Set Theory_, 1987.](johnstone.qmd)
+14. [Kleene, _Introduction to Metamathematics_, 1952.](kleene-metamath.qmd)
+15. [Kleene, _Mathematical Logic_, 1967.](kleene_ml.qmd)
+16. [Kossak, _Mathematical Logic_, 2018.](kossak.qmd)
+17. [Kunen, _Foundations of Mathematics_, 2009, 2012.](kunen-FM.qmd)
+18. [Leary & Kristiansen, _A Friendly Introduction to Mathematical Logic_, 2015.](leary.qmd)
+19. [Machover, _Set Theory, Logic and their Limitations_, 1996](machover.qmd)
+20. [Marker, _An Invitation to Mathematical Logic_, 2024.](marker-an-invitation-to-mathematical-logic.qmd)
+21. [Mendelson, _Introduction to Mathematical Logic_, 1964, 2015.](Mendelson.qmd)
+22. [Mileti, _Modern Mathematical Logic_, 2023.](mileti-modern-mathematical-logic.qmd)
+23. [O’Leary, _A First Course in Mathematical Logic and Set Theory_, 2016.](oleary-a-first-course-in-mathematical-logic-and-set-theory.qmd)
+24. [Prestel & Delzell, _Mathematical Logic and Model Theory_, 1986, 2011.](prestelldelzell.qmd)
+25. [Rautenberg, _A Concise Introduction to Mathematical Logic_, 1995, 2010.](rautenberg-a-concise-introduction-to-mathematical-logic.qmd)
+26. [Robbin, _Mathematical Logic: A First Course_, 1969.](robbin.qmd)
+27. [Shoenfield, _Mathematical Logic_, 1967.](schoenfield.qmd)
+28. [Smullyan, _A Beginner’s Guide to Mathematical Logic_, 2014.](smullyan-a-beginners-guide-to-mathematical-logic.qmd)
+29. [Srivastava, _A Course on Mathematical Logic_, 2008, 2013.](srivastava-a-course-on-mathematical-logic.qmd)
+30. [Van Dalen, _Logic and Structure_, 1980, 2012.](vdalen.qmd)
+31. [Westerståhl, _Foundations of Logic_, 2024.](westerstahl.qmd)
+
+---
+
+### Other books on logic, the philosophy of mathematics, etc.
+
+1. [Baaz et al. (eds), _Kurt Gödel and the Foundations of Mathematics: Horizons of Truth_, 2011.](../pdfs/Baaz-Godelreview.pdf) See also [the earlier blog posts.](tag-kgfm-search-order-asc.qmd)
+2. [Beall, Glanzberg & Ripley, _Formal Theories of Truth_, 2018.](formal-theories-truth.qmd)
+3. [Berto, _There’s Something About Gödel_, 2009.](berto.qmd)
+4. [Bridge, _Beginning Model Theory_, 1977.](bridge.qmd)
+5. [Burgess, _Set Theory_, 2022.](john-burgess-set-theory.qmd)
+6. [Buechner, _Gödel, Putnam, and Functionalism_, 2007.](buechner.qmd)
+7. [Csirmaz & Gyenis, _Mathematical Logic: Exercises and Solutions_, 2022.](mathematical-logic-exercises-and-solutions.qmd)
+8. [Colyvan, _An Introduction to the Philosophy of Mathematics_, 2012.](colyvan.qmd)
+9. [Falkenstein, Stapleford & Kao, _Logic Works: A Rigorous Introduction to Formal Logic_, 2021.](logic-works.qmd)
+10. [Florio & Linnebo, _The One and The Many: A Philosophical Study of Plural Logic_, 2021.](tag-f-l-search-order-asc.qmd)
+11. [Franks, _The Autonomy of Mathematical Knowledge_, 2009.](tag-autonomy-search-order-asc.qmd)
+12. [Halbach, _Axiomatic Theories of Truth_, 2011.](../pdfs/Halbach-Horsten.pdf)
+13. [Hellman & Shapiro, _Mathematical Structuralism_, 2018.](hellman-and-shapiro-on-mathematical-stucturalism.qmd)
+14. [Hilbert, _Lectures on the Foundations of Arithmetic and Logic 1917-1933_, 2013.](hilberts-foundationslogic-lectures.qmd)
+15. [Hills & Loeser, _A First Journey through Logic_, 2019.](hills-loeser.qmd)
+16. [Horsten, _The Tarskian Turn: Deflationism and Axiomatic Truth_, 2011.](../pdfs/Halbach-Horsten.pdf)
+17. [Incurvati, _Conceptions of Set and the Foundations of Mathematics_, 2020.](category-books-conceptions_of_set-search-order-asc.qmd)
+18. [Jacquette, _Frege: A Philosophical Biography_, 2019.](jacquettes-frege.qmd)
+19. [Kaye, _The Mathematics of Logic_, 2007.](kaye-the-mathematics-of-logic.qmd)
+20. [Kirby, _An Invitation to Model Theory_, 2019.](kirby.qmd)
+21. [Kossak, _Model Theory for Beginners: 15 Lectures_, 2021.](roman-kossaks-model-theory-for-beginners.qmd)
+22. [Krömer, _Tool and Object: A History and Philosophy of Category Theory_, 2007.](kromer.qmd)
+23. [Landry, E. (ed), _Categories for the Working Philosopher_, 2017.](tag-catwp-search-order-asc.qmd)
+24. [Loveland, Hodel & Sterrett, _Three Views of Logic_, 2013.](loveland-hodel-sterrett-three-views-of-logic.qmd)
+25. [Maddy, _Defending the Axioms: On the Philosophical Foundations of Set Theory_, 2011.](../pdfs/MaddyReview.pdf)
+26. [Mancosu, Galvan & Zach, _An Introduction to Proof Theory_, 2021.](blog-category-name-ipt-search-orderby-post-date-order-asc.qmd)
+27. [Manzano, _Model Theory_, 1999.](manzano.qmd)
+28. [Moerdijk & van Oosten, _Sets, Models and Proofs_, 2018.](moerdijk-and-van-oosten-sets-models-and-proofs.qmd)
+29. [Moore, _Gödel’s Theorem: A Very Short Introduction_, 2022.](adrian-moore-on-godels-theorem-briefly.qmd)
+30. [Olszewski et al. (eds), _Church’s Thesis after 70 Years_, 2006.](../pdfs/CTT.pdf)
+31. [Parsons, _Mathematical Thought and Its Objects_, 2008.](../pdfs/ParsonsReview.pdf) Much longer (52 page!) [review notes](../pdfs/ParsonsLongReview.pdf).
+32. [Pollard, _A Mathematical Prelude to the Philosophy of Mathematics_, 2014.](quick-book-note-pollard.qmd)
+33. [Prince, _The Annotated Gödel_, 2022.](the-annotated-godel.qmd)
+34. [Rayo & Uzquiano (eds), _Absolute Generality_, 2006.](../pdfs/AbsGenReviewBSL.pdf) Also see [a long series of blog posts](tag-absgen-search-order-asc.qmd).
+35. [Restall & Standefer, _Logical Methods_, 2022.](tag-r-s-search-order-asc.qmd)
+36. [Restall, _Proofs and Models in Philosophical Logic_, 2022.](greg-restall-proofs-and-models-in-philosophical-logic.qmd)
+37. [Roy, _Symbolic Logic_, 2023.](roy-symbolic-logic.qmd)
+38. [Rush, _The Metaphysics of Logic_, 2014.](the-metaphysics-of-logic.qmd)
+39. [Shapiro, _Varieties of Logic_, 2014.](shapirov.qmd)
+40. [Sider, _Logic for Philosophy_, 2012.](sider.qmd)
+41. [Smith, N., _Logic: The Laws of Truth_, 2012.](smith-the-laws-of-truth.qmd)
+42. [de Swart, H., _Philosophical and Mathematical Logic_, 2018.](de-swart.qmd)
+43. [Robert Trueman, _Properties and Propositions_, 2021.](properties-propositions-and-the-concept-horse.qmd)
+44. [Weingartner & Leeb, _Kreisel’s Interests: On the Foundations of Logic and Mathematics_, 2020.](kreisels-interests.qmd)
+45. [Weir, _A Truth Through Proof_, 2010.](../pdfs/WeirReview.pdf) Also see [a series of blog posts](tag-ttp-search-order-asc.qmd).
+46. [Zach, et al. _Open Logic Text_, 2015.](zach.qmd)

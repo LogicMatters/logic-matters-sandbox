@@ -1,0 +1,23 @@
+---
+title: "Loveland, Hodel & Sterrett, <I>Three Views of Logic</I>"
+---
+
+*
+
+ 
+
+I thought I should take a look at this book for two main reasons. First, it is aimed at beginners, hence at possible readers of the *Study Guide*: “Demonstrating the different roles that logic plays in the disciplines of computer science, mathematics, and philosophy, this concise undergraduate textbook covers select topics from three different areas of logic: proof theory, computability theory, and nonclassical logic.” Second, one of the authors has already written a widely admired textbook on mathematical logic. 
+
+The three parts of this book are written quite separately and are of very different characters. The longest and by far the best part (125 pp.) is by Hodel, and provides a conventional, well-written, very accessible introduction to computability theory. To be honest, I’m not sure the world really needed yet another one; but this can certainly be recommended, even though — as I’ll note in a moment — it stops in an unsatisfyingly abrupt way.
+
+We start with a very clear informal introduction to ideas of algorithms, computability, decidability, semi-decidability etc. Then we meet one machine model of computability in terms of register machines, leading up to showing the the decision problem for FOL is unsolvable as is Thue’s word problem.
+
+Next we get a mathematical account of computability in terms of recursive functions, and a proof that these are RM-computable, before going on to isolate the primitive recursive functions, introduce Kleene’s *T*-predicate, and the idea of Gödel-coding, preparing for a proof that all the RM-computable functions are recursive.
+
+So far, so good! Everything is going quite swimmingly until Hodel (I guess) hits his page limit, and we get a *very* rushed couple of pages on incompleteness and the story is then perhaps rather annoyingly left hanging, with a pointer to its continuation in his earlier *An Introduction to Mathematical Logic*.
+
+What about the other two parts of book? You can/should certainly ignore Loveland’s contribution, a presentation (92 pp.) of propositional and predicate logic using a resolution system: this is not done well, and there are much clearer accounts to be found elsewhere. (You would grimace, too, at his opening confusion concerning the regimentation of ‘so’ or ‘therefore’, about which the less said the better.)
+
+The last part of the book (pp. 94) is an account of one brand of relevance logic. I’m highly resistant to the supposed charm of such deviations from mainstream logic.  And fifty years after Anderson and Belnap (the heroes here) wrote — as some of us would say, muddying the waters about the difference between bare conditional claims and claims about stronger implication relations — and after fifty years of insightful work on conditionals, I don’t find their approach, pretty uncritically rehearsed by Sterrett, any more persuasive. But OK, suppose we do want to explore down that rabbit-hole. Then to be fair, Sterrett unfolds the story pretty clearly: some might indeed find this helpful.
+
+Equally, however, as epicycles begin to pile up, e.g. complicating the intuitive elegance of a Fitch-style deductive system, the project — for most sensible readers! — will seem increasingly unattractive. After all, formalizing a logical system is a cost-benefit game, as we reap the benefits of a simple, easy to handle, systematizion of some inferential practice at the costs of collapsing some distinctions we might want to preserve in other contexts and generating some initially unintuitive results at the margins. The classical logician aiming to regiment standard mathematical reasoning, faced with Sterrett’s non-classical alternative, will judge that the supposed benefits aren’t worth the cost.  But there it is.

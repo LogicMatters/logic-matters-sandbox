@@ -1,0 +1,19 @@
+---
+title: "Kromer, Tool and Object"
+---
+
+*
+
+ 
+
+It is inevitably going to be difficult to write illuminatingly about the history of category theory. For this is entangled with the distinctly complicated history of mid-twentieth-century topology. Colin McLarty sees the difficulty like this:** For even a rough understanding of [just some of] the problems [topologists] faced we would have to go into the array of homology theories at the time and the forefront of 1940s abstract algebra, and we would do this without using category theory, and we would waste a lot of time on things category theory has now made much easier. We could give a few trivial examples just before reversing the order of discovery to define categories, functors, and natural transformations but precisely the examples serious enough to have motivated the definitions are too hard to be worth giving now without benefit of categorical hindsight.
+
+Is that too pessimistic? Well, this much is surely true. It would take rather exceptional expositional skills, combined with an exceptional depth of mathematical understanding, to be able to helpfully isolate and explore critical moments in the development of category theory, while doing this in a way that is both interestingly detailed and yet also still quite widely accessible.
+
+For different reasons, it is a challenge too to write illuminatingly about the philosophy of category theory. Working out what is really novel about categorical concepts and approaches isn’t easy. Working out in what senses category theory does or does not provide a new kind of foundation for mathematics isn’t easy. And we are not exactly  helped by the fact that some category theorists are wont to make distractingly sweeping claims about the philosophical significance of what they are up to, claims which are hard to deconstruct. So it would take a different set of skills, beginning with a serious feel for the philosophy of mathematics more generally, to tackle the philosophy of category theory.
+
+It is highly ambitious of anyone, then, to take on writing a book which is intended to be both ‘A History and Philosophy of Category Theory’. But that’s the subtitle of Ralf Krömer’s 2007 book *Tool and Obj*ect. This has been on my ‘must read one day’ list for quite a while. I’ve at last had time to take a serious look at it. How well does Krömer succeed at the daunting dual task?
+
+I found the book a very considerable disappointment, even allowing for the difficulties we’ve just mentioned. Life being short and all that, I’ve decided against a chapter-by-chapter commentary here, as it would take a lot more time than it would be worth, either for me as writer or for you as reader. But in headline terms, the philosophical bits are just far too arm-waving for someone of my analytic tastes; and I found the historical mathematical exposition just too unhelpful, even for someone coming to the party with a decent amount of mathematical background.
+
+The exception, perhaps, is Chapter 6, ‘Categories as sets: problems and solutions’ which is more closely focused on one familar issue, and is quite a useful guide to some of the discussions on “The possibilities and problems attendant on the construction of a set-theoretical foundation for CT and the relevance of such foundations”. And forgive me if I leave it at that. Your mileage may vary of course; but I can’t recommend the rest of this book.

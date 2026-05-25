@@ -1,0 +1,49 @@
+---
+title: "Ebbinghaus, Flum, and Thomas: Mathematical Logic"
+---
+
+*
+
+ 
+
+*Mathematical Logic* by H.-D. Ebbinghaus, J. Flum and W. Thomas (Springer, 3rd edition 2021, pp. 304) was first published in German in 1978. A second edition appeared in English in 1994, in a series ‘Undergraduate Texts in Mathematics’. The latest 2021 edition, adding just a little new material, is now in Springer’s series ‘Graduate Texts in Math- ematics’, which I think better reflects the level of quite a bit of the book.
+
+EFT’s book is often praised and is I believe quite widely used. But revisiting the latest edition, I can’t find myself wanting to recommend it as a particularly good place to start, whether for philosophers or for mathematicians. The presentation of the core material on the syntax and semantics of first-order logic in the first half of the book is done more elegantly elsewhere. In the second half of the book, the chapters do range widely across interesting material. But again most of the discussions will probably go too quickly if you haven’t encountered the topics before, and – if you want revision/amplification of what you already know – you will mostly do better elsewhere. I’ll pick out the later chapters which can be most recommended.
+
+---
+
+*Some details about Part A  *The book is divided into two parts. EFT start Part A with a gentle opening chapter talking about a couple of informal mathematical theories (group theory, the theory of equivalence relations), giving a couple of simple informal proofs in those theories. They then stand back to think about what goes on in the proofs (where an arbitrary item in a domain is selected, a result proved and then universally generalized); and they introduce the project of formalization. So far, so nice.
+
+Ch. 2 describes the syntax of first-order languages, and proves some unique parsing results relatively painlessly. (EFT take the usual line of using the same symbols for both free and bound variables which causes the usual extra work. Also, a minor annoyance, they use ‘$\equiv$‘ rather than ‘$=$‘ as the object language sign for identity.)
+
+Ch. 3 does the semantics for FOL. The presentation goes at a fairly gentle pace, with some useful asides (e.g. on handling the many-sorted languages of informal mathematics using a many-sorted calculus vs. use restricted quantifiers in a single-sorted calculus). EFT though do make quite heavy work of some points of detail, but overall this is an approachable version of a standard story.
+
+Ch. 4 is called ‘A Sequent Calculus’. And here I am less happy. For a start (albeit a minor point, but one that badly affects readability), instead of writing a sequent as ‘$\Gamma \vdash \varphi$’, or ‘$\Gamma \Rightarrow \varphi$’, or even ‘$\Gamma \colon \varphi$’,, EFT just write an unpunctuated ‘$\Gamma\ \varphi$’,. They even write the unpunctuated ‘$\Gamma, \varphi, \psi$’, for ‘$\Gamma, \varphi, \vdash \psi$’. Strange!
+
+EFT have by this point decided to take only $\neg$, $\lor$, and $\exists$ as basic, and give rules just for these. Given the paucity of basic operators, EFT are not aiming for natural deduction in sequent form; nor are they aiming for a classical system which nicely relates to an intuitionistic subsystem. Proofs are simple linear sequences of sequents (no Gentzen-style trees). The resulting system is economical, and we quickly e.g. get a cut rule for free. But the distinction between structural and operation rules usually highlighted by presentations of a sequent calculus is arguably somewhat glossed over. So I’m not sure that I’d recommend this as the first-proof system to encounter.
+
+Ch. 5 gives a Henkin completeness proof for first-order logic. For my money, there’s too much symbol-bashing and not enough motivating chat here. And I don’t think it is good exegetical policy to complicate matters as EFT do by going straight for a proof for the predicate calculus with identity, though they are not alone in this.
+
+Ch. 6 is rather briskly about The Löwenheim-Skolem Theorem, compactness, and elementarily equivalent structures (clear enough, and would be good revision material).
+
+Ch. 7, ‘The Scope of First-Order Logic’ is really rather odd. It briskly argues that first-order logic is the logic for mathematics (readers of Shapiro’s book on second-order logic won’t be so quickly convinced!). The reason given is that we can reconstruct (nearly?) all mathematics in first-order ZF set theory – which the authors then proceed to give the axioms for. These few pages surely wouldn’t help if you have never seen the axioms before and don’t already know about the project of doing-maths-inside-set-theory.
+
+Finally in Part A, there’s rather ill-written chapter on normal forms, on extending theories by definitions, and (badly explained) on what the authors call ‘syntactic interpretations’.
+
+---
+
+*Some details about Part B  *This part of the book discusses a number of rather scattered topics. It kicks off with a rather nice little chapter on extensions of first-order logic, more specifically on second-order logic, on $\mathcal{L}_{\omega_1\omega}$ (which allows infinitely long conjunctions and disjunctions), and $\mathcal{L}_Q$ (logic with quantifier $Qx$, ‘there are uncountably many $x$ such that \ldots’). Modest ambition, clearly done.
+
+Then Ch. 10 is on ‘Limitations of the Formal Method’, and is decidedly over-ambitious. In 35 pages, EFT aim to talk about register machines, the halting problem for such machines, the undecidability of first-order logic, Trakhtenbrot’s theorem and the incompleteness of second-order logic, Gödel’s incompleteness theorems, and more. This would surely just be too rushed if you’d not seen this material before. And — while this is pretty clear — if you have seen these themes explored before there are better sources for revising/consolidating/extending your knowledge. The latest edition then adds a new section on the decidability of Presberger Arithmetic and a substantial (but rather out of place?) section on the decidability of a form of successor arithmetic.
+
+Ch. 11 is another hefty fifty pages, on ‘Free Models and Logic Programming’. This starts with Herbrand’s Theorem and some related matters. And then — at last — we meet some basics of propositional logic that we haven’t met before, and get introduced to propositional resolution. Then we get more first-order resolution and logic programme. I can’t say I found these discussions attractive.
+
+Ch. 12 is back to core model theory, Fraïssé’s Theorem and Ehrenfeucht Games: but you’ll again find better treatments elsewhere, this time in books dedicated to model theory.
+
+Finally, there is an interesting (though quite tough) concluding chapter on Lindström’s Theorems which show that there is a sense in which standard first-order logic occupies a unique place among logical theories.
+
+---
+
+*Summary verdict  *This is a perfectly respectable book, but the core material in Part A of the book is covered better (more accessibly, more elegantly) elsewhere.
+
+Of the supplementary chapters in Part B, the two chapters that stand out as worth looking at are perhaps Ch. 9 on extensions of first-order logic, and Ch. 13 (though not easy) on Lindstrom’s Theorems.

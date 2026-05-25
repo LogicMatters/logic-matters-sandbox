@@ -15,7 +15,7 @@ title-block-banner: true
 
 **[CATEGORY THEORY](categories)** Links to resources at an introductory/intermediate level, such as lecture notes and freely available books, including my *Introducing Category Theory*.
 
-**[THE STUDY GUIDE AND BOOK NOTES](https://www.logicmatters.net/tyl)** You will find here the much-downloaded *Beginning Mathematical Logic: A Study Guide*, its *Appendix* reviewing some of the wider-ranging books on mathematical logic, together with links to some forty further book notes.
+**[THE STUDY GUIDE AND BOOK NOTES](tyl)** You will find here the much-downloaded *Beginning Mathematical Logic: A Study Guide*, its *Appendix* reviewing some of the wider-ranging books on mathematical logic, together with links to some forty further book notes.
 
 **[ARCHIVE](https://www.logicmatters.net/yet-more-logic)** Links to various old blog posts, papers, more reviews and other pieces.
 

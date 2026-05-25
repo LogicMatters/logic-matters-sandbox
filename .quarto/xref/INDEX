@@ -31,5 +31,233 @@
   },
   "ifl/exercises.qmd": {
     "exercises.html": "af81f269"
+  },
+  "students/logical-snippets.qmd": {
+    "logical-snippets.html": "6a758c47"
+  },
+  "ifl/logical-snippets.qmd": {
+    "logical-snippets.html": "74ca15ad"
+  },
+  "tyl/index.qmd": {
+    "index.html": "ab29d46d"
+  },
+  "tyl/booknotes/index.qmd": {
+    "index.html": "4c59548b"
+  },
+  "tyl/booknotes/chiswellandhodges.qmd": {
+    "chiswellandhodges.html": "75fb8f26"
+  },
+  "tyl/booknotes/kirby.qmd": {
+    "kirby.html": "79da20a2"
+  },
+  "tyl/booknotes/bridge.qmd": {
+    "bridge.html": "e0d8e6b2"
+  },
+  "tyl/booknotes/berto.qmd": {
+    "berto.html": "4a8b1b39"
+  },
+  "tyl/booknotes/buechner.qmd": {
+    "buechner.html": "5352a84e"
+  },
+  "tyl/booknotes/colyvan.qmd": {
+    "colyvan.html": "95c0b6c1"
+  },
+  "tyl/booknotes/robbin.qmd": {
+    "robbin.html": "5e6e7be4"
+  },
+  "tyl/booknotes/kunen-FM.qmd": {
+    "kunen-FM.html": "d0a8f613"
+  },
+  "tyl/booknotes/westerstahl.qmd": {
+    "westerstahl.html": "9fa761d8"
+  },
+  "tyl/booknotes/loveland-hodel-sterrett-three-views-of-logic.qmd": {
+    "loveland-hodel-sterrett-three-views-of-logic.html": "69a003d4"
+  },
+  "tyl/booknotes/shapirov.qmd": {
+    "shapirov.html": "3b767ee7"
+  },
+  "tyl/booknotes/goldsternandjudah.qmd": {
+    "goldsternandjudah.html": "5ba36413"
+  },
+  "tyl/booknotes/rautenberg-a-concise-introduction-to-mathematical-logic.qmd": {
+    "rautenberg-a-concise-introduction-to-mathematical-logic.html": "24c49a3e"
+  },
+  "tyl/booknotes/hinman.qmd": {
+    "hinman.html": "f2734155"
+  },
+  "tyl/booknotes/srivastava-a-course-on-mathematical-logic.qmd": {
+    "srivastava-a-course-on-mathematical-logic.html": "dcd21a82"
+  },
+  "tyl/booknotes/forster.qmd": {
+    "forster.html": "0d1bcefa"
+  },
+  "tyl/booknotes/eft.qmd": {
+    "eft.html": "c79f7596"
+  },
+  "tyl/booknotes/oleary-a-first-course-in-mathematical-logic-and-set-theory.qmd": {
+    "oleary-a-first-course-in-mathematical-logic-and-set-theory.html": "a6f79eef"
+  },
+  "tyl/booknotes/kleene-metamath.qmd": {
+    "kleene-metamath.html": "229f6719"
+  },
+  "tyl/booknotes/roy-symbolic-logic.qmd": {
+    "roy-symbolic-logic.html": "28a78318"
+  },
+  "tyl/booknotes/zach.qmd": {
+    "zach.html": "f17c42ae"
+  },
+  "tyl/booknotes/schoenfield.qmd": {
+    "schoenfield.html": "370412af"
+  },
+  "tyl/booknotes/kromer.qmd": {
+    "kromer.html": "b22d33db"
+  },
+  "tyl/booknotes/Mendelson.qmd": {
+    "Mendelson.html": "79ec92b4"
+  },
+  "tyl/booknotes/mileti-modern-mathematical-logic.qmd": {
+    "mileti-modern-mathematical-logic.html": "1593838a"
+  },
+  "tyl/booknotes/hills-loeser.qmd": {
+    "hills-loeser.html": "88a83b61"
+  },
+  "tyl/booknotes/hodel.qmd": {
+    "hodel.html": "b6a8e2cb"
+  },
+  "tyl/booknotes/smith-the-laws-of-truth.qmd": {
+    "smith-the-laws-of-truth.html": "1a666d31"
+  },
+  "tyl/booknotes/johnstone.qmd": {
+    "johnstone.html": "b9689ee9"
+  },
+  "tyl/booknotes/manzano.qmd": {
+    "manzano.html": "7f88bae8"
+  },
+  "tyl/booknotes/moerdijk-and-van-oosten-sets-models-and-proofs.qmd": {
+    "moerdijk-and-van-oosten-sets-models-and-proofs.html": "cc41d28b"
+  },
+  "tyl/booknotes/de-swart.qmd": {
+    "de-swart.html": "5f673bb6"
+  },
+  "tyl/booknotes/sider.qmd": {
+    "sider.html": "137276b1"
+  },
+  "tyl/booknotes/prestelldelzell.qmd": {
+    "prestelldelzell.html": "b122b1b5"
+  },
+  "tyl/booknotes/vdalen.qmd": {
+    "vdalen.html": "685ddffa"
+  },
+  "tyl/booknotes/kossak.qmd": {
+    "kossak.html": "8f4319f5"
+  },
+  "tyl/booknotes/cori-lascar-mathematical-logic.qmd": {
+    "cori-lascar-mathematical-logic.html": "317e144a"
+  },
+  "tyl/booknotes/leary.qmd": {
+    "leary.html": "77b56ae5"
+  },
+  "tyl/booknotes/hedman.qmd": {
+    "hedman.html": "651575cd"
+  },
+  "tyl/booknotes/kleene_ml.qmd": {
+    "kleene_ml.html": "79a2f510"
+  },
+  "tyl/booknotes/enderton.qmd": {
+    "enderton.html": "1570fbf5"
+  },
+  "tyl/booknotes/avigad-full.qmd": {
+    "avigad-full.html": "252e4ac5"
+  },
+  "tyl/booknotes/bellmach.qmd": {
+    "bellmach.html": "c983b5fd"
+  },
+  "tyl/booknotes/adrian-moore-on-godels-theorem-briefly.qmd": {
+    "adrian-moore-on-godels-theorem-briefly.html": "fce4bc48"
+  },
+  "tyl/booknotes/formal-theories-truth.qmd": {
+    "formal-theories-truth.html": "e8d9ce85"
+  },
+  "tyl/booknotes/jacquettes-frege.qmd": {
+    "jacquettes-frege.html": "9ff05bb8"
+  },
+  "tyl/booknotes/properties-propositions-and-the-concept-horse.qmd": {
+    "properties-propositions-and-the-concept-horse.html": "3a59b941"
+  },
+  "tyl/booknotes/kreisels-interests.qmd": {
+    "kreisels-interests.html": "026638b8"
+  },
+  "tyl/booknotes/greg-restall-proofs-and-models-in-philosophical-logic.qmd": {
+    "greg-restall-proofs-and-models-in-philosophical-logic.html": "5b0399d2"
+  },
+  "tyl/booknotes/john-burgess-set-theory.qmd": {
+    "john-burgess-set-theory.html": "699a67c8"
+  },
+  "tyl/booknotes/quick-book-note-pollard.qmd": {
+    "quick-book-note-pollard.html": "8f01c774"
+  },
+  "tyl/booknotes/tag-r-s-search-order-asc.qmd": {
+    "tag-r-s-search-order-asc.html": "7f991027"
+  },
+  "tyl/booknotes/machover.qmd": {
+    "machover.html": "f4cd4619"
+  },
+  "tyl/booknotes/tag-ttp-search-order-asc.qmd": {
+    "tag-ttp-search-order-asc.html": "5949eea6"
+  },
+  "tyl/booknotes/smullyan-a-beginners-guide-to-mathematical-logic.qmd": {
+    "smullyan-a-beginners-guide-to-mathematical-logic.html": "72931081"
+  },
+  "tyl/booknotes/kaye-the-mathematics-of-logic.qmd": {
+    "kaye-the-mathematics-of-logic.html": "04a5eb75"
+  },
+  "tyl/booknotes/the-metaphysics-of-logic.qmd": {
+    "the-metaphysics-of-logic.html": "1fe59d4e"
+  },
+  "tyl/booknotes/category-books-conceptions_of_set-search-order-asc.qmd": {
+    "category-books-conceptions_of_set-search-order-asc.html": "2ade8da2"
+  },
+  "tyl/booknotes/mathematical-logic-exercises-and-solutions.qmd": {
+    "mathematical-logic-exercises-and-solutions.html": "cde32762"
+  },
+  "tyl/booknotes/logic-works.qmd": {
+    "logic-works.html": "a0e8ad4c"
+  },
+  "tyl/booknotes/tag-f-l-search-order-asc.qmd": {
+    "tag-f-l-search-order-asc.html": "8aea0a3a"
+  },
+  "tyl/booknotes/hellman-and-shapiro-on-mathematical-stucturalism.qmd": {
+    "hellman-and-shapiro-on-mathematical-stucturalism.html": "bec6b4de"
+  },
+  "tyl/booknotes/roman-kossaks-model-theory-for-beginners.qmd": {
+    "roman-kossaks-model-theory-for-beginners.html": "4538a565"
+  },
+  "tyl/booknotes/halbeisen-krapf-g-del-s-theorems-and-zermelo-s-axioms.qmd": {
+    "halbeisen-krapf-g-del-s-theorems-and-zermelo-s-axioms.html": "b50834ec"
+  },
+  "tyl/booknotes/marker-an-invitation-to-mathematical-logic.qmd": {
+    "marker-an-invitation-to-mathematical-logic.html": "a4befca5"
+  },
+  "tyl/booknotes/tag-kgfm-search-order-asc.qmd": {
+    "tag-kgfm-search-order-asc.html": "49b9f877"
+  },
+  "tyl/booknotes/the-annotated-godel.qmd": {
+    "the-annotated-godel.html": "330286fc"
+  },
+  "tyl/booknotes/tag-autonomy-search-order-asc.qmd": {
+    "tag-autonomy-search-order-asc.html": "0481653d"
+  },
+  "tyl/booknotes/tag-catwp-search-order-asc.qmd": {
+    "tag-catwp-search-order-asc.html": "12a52b16"
+  },
+  "tyl/booknotes/tag-absgen-search-order-asc.qmd": {
+    "tag-absgen-search-order-asc.html": "c6474237"
+  },
+  "tyl/booknotes/hilberts-foundationslogic-lectures.qmd": {
+    "hilberts-foundationslogic-lectures.html": "cf911e3e"
+  },
+  "tyl/booknotes/blog-category-name-ipt-search-orderby-post-date-order-asc.qmd": {
+    "blog-category-name-ipt-search-orderby-post-date-order-asc.html": "a05831d9"
   }
 }

@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Logic Matters page mirroring short logic answers and math.stackexchange links.">
+
+<title>Logical snippets – logic-matters-sandbox</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">logic-matters-sandbox</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../books/index.html"> 
+<span class="menu-text">Five Big Red (Open Access) Logic Books</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://bsky.app/"> <i class="bi bi-bluesky" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Logical snippets</h1>
+</div>
+
+<div>
+  <div class="description">
+    Logic Matters page mirroring short logic answers and math.stackexchange links.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>For a number of years now, I’ve been a sporadic visitor to the very useful question-and-answer site, <a href="https://math.stackexchange.com">math.stackexchange.com</a> — this is a student-orientated forum, not to be confused with the truly wonderful <a href="https://mathoverflow.net">mathoverflow.net</a> which is its research-level counterpart. OK, you can think of these visits as (hopefully) constructive procrastination on my part …</p>
+<p>Of course, many of the questions on the site, including many I’ve found myself answering, are very ephemeral or very localized or based on very specific confusions. But a proportion of the exchanges to which I’ve contributed might, for one reason or another, be of some interest/use to other students — or at least, to beginners and near beginners in logic.</p>
+<p>Do read other people’s answers of course, which are sometimes more interesting than mine! I’ve included a few exchanges where all I contribute is a reference to something interesting in the literature. Do explore other logic and related questions on the math.stackexchange site too. And why not register so you can occasionally “vote up” answers you get something out of, as the feedback encourages good authors — and there are a significant number there — to keep posting to the general benefit.</p>
+<section id="beginning-logic" class="level2">
+<h2 class="anchored" data-anchor-id="beginning-logic">Beginning logic</h2>
+<ul>
+<li><a href="https://math.stackexchange.com/questions/4745388/what-exactly-is-meant-by-sentence-and-expression/4745396#4745396">What is meant by “sentence”?</a></li>
+<li><a href="http://math.stackexchange.com/questions/275683/why-is-axiomatic-system-needed-in-propositional-logic">Why bother to study deductive systems for propositional logic?</a></li>
+<li><a href="http://math.stackexchange.com/questions/370342/language-set-and-sentential-calculus">Introductions to logic talk about sets of atomic formulae, etc. But doesn’t set theory in turn depend on logic? Isn’t this circular?</a></li>
+<li><a href="http://math.stackexchange.com/questions/202066/difference-between-elementary-logic-and-formal-logic/202085#202085">Elementary logic, formal logic, metalogic — what are they?</a></li>
+<li><a href="http://math.stackexchange.com/questions/927881/what-are-the-different-approachs-to-logic">How are different approaches to logic related?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2192585/proving-that-neg-forall-x-neg-ga-x-vdash-exists-xga-x/2192681#2192681">Sermon: Questions of the form ‘How do I prove X by natural deduction?’ are ill-posed</a></li>
+<li><a href="http://math.stackexchange.com/questions/366122/disjunction-why-did-the-inclusive-or-become-the-convention">Disjunction: why did the inclusive “or” become the convention?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2652868/intuition-behind-exclusive-or">Is natural language “or” ambiguous?</a></li>
+<li><a href="https://math.stackexchange.com/a/3598800/35151">More on inclusive/exclusive “or”</a></li>
+<li><a href="https://math.stackexchange.com/a/3600800/35151">What does “contradiction” mean in logic?</a></li>
+<li><a href="http://math.stackexchange.com/questions/658262/what-is-the-correct-reading-of-bot">What is the “correct” reading of ⊥?</a></li>
+<li><a href="https://math.stackexchange.com/questions/4745885/does-false-logically-entails-everything/4745972#4745972">Does false entail everything?</a></li>
+<li><a href="http://math.stackexchange.com/questions/206786/what-does-classical-logic-mean/206812#206812">What does “classical logic” mean?</a></li>
+<li><a href="http://math.stackexchange.com/questions/348685/why-do-we-prefer-classical-logic-over-non-classical-logic">Why do we prefer classical logic over e.g.&nbsp;relevant logic?</a></li>
+<li><a href="http://math.stackexchange.com/questions/209156/motivation-behind-theory-of-relations/209213#209213">Why is “traditional logic” inadequate?</a></li>
+<li><a href="https://math.stackexchange.com/questions/3670578/is-there-a-formalization-of-syllogistic-logic/3676661#3676661">Is there a formalization of syllogistic logic?</a></li>
+<li><a href="https://math.stackexchange.com/questions/236583/deducing-some-are-from-all-are/239112#239112">Does <em>All A are B</em> imply <em>Some A are B</em>?</a></li>
+<li><a href="https://math.stackexchange.com/a/3002997/35151">Why not allow empty domains?</a></li>
+<li><a href="http://math.stackexchange.com/questions/769205/what-is-the-purpose-of-free-variables-in-first-order-logic/769338#769338">What is the role of free variables in first-order logic?</a></li>
+<li><a href="http://math.stackexchange.com/questions/323571/why-do-the-clauses-in-a-semantics-for-quantifiers-mention-free-variables">Why do the clauses in a semantics for quantifiers mention free variables?</a></li>
+<li><a href="http://math.stackexchange.com/questions/471865/in-a-first-order-theory-with-multiple-sorts-is-there-any-reason-not-to-throw-aw">Should we prefer to use first-order theories with multiple sorts?</a></li>
+<li><a href="http://math.stackexchange.com/questions/363168/first-order-logic-without-equality">Can we replace the identity sign in first-order logic by the convention that different variables get assigned different values?</a></li>
+<li><a href="http://math.stackexchange.com/questions/432482/best-method-to-determine-if-a-first-order-formula-is-logically-valid">What’s the best method to determine whether a first order formula is logically valid or not?</a></li>
+<li><a href="http://math.stackexchange.com/questions/873237/relations-and-functions-with-valence-0/873385#873385">What is a zero-place predicate? a 0-adic function, etc.?</a></li>
+<li><a href="http://math.stackexchange.com/questions/505239/do-semantic-tableaux-show-syntactic-or-semantic-entailment">Do tableaux proofs show syntactic or semantic entailment?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2694701/is-there-a-purely-syntactic-proof-of-modus-ponens-with-tableau">How do we prove for a tableaux system that if (S X) and (S X Y) that (S Y)?</a></li>
+<li><a href="http://math.stackexchange.com/questions/577072/virtues-of-presentation-of-fo-logic-in-kleenes-mathematical-logic/577175#577175">How about marrying the axiomatic approach and natural deduction as Kleene does</a></li>
+<li><a href="http://math.stackexchange.com/questions/432522/object-language-and-meta-language">How does the meta-language relate to the object-language?</a></li>
+<li><a href="http://math.stackexchange.com/questions/311871/what-are-the-rules-for-the-use-of-dots-rather-than-parentheses-in-logical-formul">What are the rules for the use of dots rather than parentheses in logical formulae?</a></li>
+<li><a href="http://math.stackexchange.com/questions/780114/unique-readability/780545#780545">Some definitions of the idea of a wff make unique readability trivial: why not use such a definition?</a></li>
+</ul>
+</section>
+<section id="explaining-the-material-conditional-etc." class="level2">
+<h2 class="anchored" data-anchor-id="explaining-the-material-conditional-etc.">Explaining the material conditional, etc.</h2>
+<ul>
+<li><a href="http://math.stackexchange.com/questions/232309/how-to-interpret-material-conditional-and-explain-it-to-freshmen/232490#232490">Why do we use the material conditional in logic?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2611358/when-does-material-implication-supposedly-not-work">When does material implication supposedly not “work?”</a></li>
+<li><a href="http://math.stackexchange.com/questions/1243056/reconstructing-the-conditionals-truth-table-from-natural-deduction">Do the usual natural deduction rules for the conditional determine its truth-table?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2596766/arguments-pro-material-implication/2596921#2596921">Why is <em>if P then Q</em> equivalent to (P Q)?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2611358/when-does-material-implication-supposedly-not-work/2611456#2611456">Why is <em>if P then Q</em> not equivalent to (P Q)?</a></li>
+<li><a href="http://math.stackexchange.com/questions/287142/modus-ponens-implication-versus-entailment/287179#287179">Can we replace the modus ponens rule with a conditional proposition?</a></li>
+<li><a href="http://math.stackexchange.com/questions/244001/whats-the-sense-in-implies-logic/244027#244027">What’s the sense of ‘implies’ in logic?</a></li>
+<li><a href="http://math.stackexchange.com/questions/539096/difference-between-if-vdash-p-then-vdash-q-and-vdashp-rightarrow-q">What is the difference between “if (P), then (Q)” and “((P Q))”?</a></li>
+<li><a href="http://math.stackexchange.com/questions/238872/difference-between-implies-and-therefore/238952#238952">What is the difference between (,&nbsp;,&nbsp;) etc. (i)?</a></li>
+<li><a href="http://math.stackexchange.com/questions/286077/implies-vs-entails-vs-provable/286106#286106">What is the difference between (,&nbsp;,&nbsp;) etc. (ii)?</a></li>
+</ul>
+</section>
+<section id="help-for-beginners-with-translation-into-first-order-logic" class="level2">
+<h2 class="anchored" data-anchor-id="help-for-beginners-with-translation-into-first-order-logic">Help for beginners with translation into first-order logic</h2>
+<ul>
+<li><a href="http://math.stackexchange.com/questions/583214/predicate-logic-difference-between-who-and-if-in-symbolization">How to translate “Any A who is B is C”</a></li>
+<li><a href="http://math.stackexchange.com/questions/243699/misinterpreting-logic-expression/243729#243729">Translate “Every person who dislikes all vegetarians is smart”</a></li>
+<li><a href="http://math.stackexchange.com/questions/499021/nested-quantifiers-in-english-translation/499097#499097">Translate “There is exactly one person whom everybody can fool”</a></li>
+<li><a href="http://math.stackexchange.com/questions/695742/some-ql-translations/695946#695946">Translate “Anyone who knows everyone Alma knows knows Alma”</a></li>
+<li><a href="http://math.stackexchange.com/questions/312238/trivial-question-about-nested-quantifiers/312727#312727">Can we translate ‘Everyone loves themself’ as (xy(x = y Lxy))?</a></li>
+<li><a href="http://math.stackexchange.com/questions/635299/formalising-definite-description-russell/635545#635545">When regimenting an argument with a definite description in first-order logic, when must we use Russell’s theory of descriptions?</a></li>
+</ul>
+</section>
+<section id="help-for-beginners-with-natural-deduction-proofs-etc.-how-to-think-strategically" class="level2">
+<h2 class="anchored" data-anchor-id="help-for-beginners-with-natural-deduction-proofs-etc.-how-to-think-strategically">Help for beginners with natural deduction proofs etc.: how to think strategically!</h2>
+<ul>
+<li><a href="http://math.stackexchange.com/questions/203995/proof-p-vdash-q-rightarrow-p/204010#204010">How to show (P Q P)</a></li>
+<li><a href="http://math.stackexchange.com/questions/82188/propositional-logic-proof-of-vdash-lnot-p-supset-q-supset-p-land-lnot/305560#305560">How to show ((P Q) (P Q))</a></li>
+<li><a href="http://math.stackexchange.com/questions/477313/natural-deduction-proof/477432#477432">How to show ((P Q) R) and (P (Q R)) are equivalent</a></li>
+<li><a href="http://math.stackexchange.com/questions/516291/prove-using-inference-rules/516329#516329">How to show ((P (Q R)) (Q (R P)))</a></li>
+<li><a href="http://math.stackexchange.com/questions/207185/tautology-proof-without-truth-table/207207#207207">How to show (((P Q) R) (R (P Q)))</a></li>
+<li><a href="http://math.stackexchange.com/questions/693711/a-couple-natural-deduction-proofs/693739#693739">How to show ((P P))</a></li>
+<li><a href="http://math.stackexchange.com/questions/1139873/⊢p-land-q-to-p-to-q-natural-deduction-proof-confusion">How to show ((P Q) (P Q))</a></li>
+<li><a href="http://math.stackexchange.com/questions/519711/natural-deduction-p-lor-q-to-r-vdash-p-to-r-and-p-to-neg-q-leftrightarro">How to show (P(Q(RS)),S(PQ)R)</a></li>
+<li><a href="http://math.stackexchange.com/questions/222160/how-to-prove-the-distributive-property-without-using-truth-tables/222186#222186">How to show ((P (Q R)) ((P Q) (P R)))</a></li>
+<li><a href="http://math.stackexchange.com/questions/670607/logic-formal-proofs/670731#670731">How to show ((A B) C, C (D A), B (A E) E F)</a></li>
+<li><a href="https://math.stackexchange.com/questions/2529653/using-natural-deduction-to-prove-p-rightarrow-q-wedge-r-vdash-q-rightarrow/2530062#2530062">How to show (p (q r) (q r) (p r))</a></li>
+<li><a href="http://math.stackexchange.com/questions/432388/t-f-vdash-ndfol-forall-xb-to-a-to-exists-x-b-to-a/432400#432400">How to show (x((x) P) (x(x) P))</a></li>
+<li><a href="https://math.stackexchange.com/a/3016485/35151">How to show (x((x) P))</a> entails ((x(x) P))</li>
+<li><a href="https://math.stackexchange.com/questions/3593034/prove-exists-x-exists-yay-to-ax-is-a-theorem/3593579#3593579">How to show (x (yA(y) A(x))) is a theorem.</a></li>
+<li><a href="http://math.stackexchange.com/questions/573458/proof-of-exists-x-exists-y-varphix-rightarrow-psiy-rightarrow-exist/573921#573921">How to show (x y ((x) (y)) x ((x) (x)))</a></li>
+<li><a href="http://math.stackexchange.com/questions/520775/natural-deduction-and-identity/521369#521369">How to show (x y,x = y x y,x = y)</a></li>
+<li><a href="http://math.stackexchange.com/questions/761818/how-to-prove-vdash-forall-v-1-exists-v-2-fv-1-v-2/761846#761846">How to prove (xy f(x) = y) in FOL</a></li>
+<li><a href="http://math.stackexchange.com/questions/767862/proofs-for-relational-predicate-logic-difficult-question/767970#767970">How to show (x(y Rxy yRyx), Rab xy Rxy)</a></li>
+<li><a href="https://math.stackexchange.com/a/3032651/35151">Strategy for another tricky proof with multiple quantifiers!</a></li>
+<li><a href="http://math.stackexchange.com/questions/882850/deriving-a-rightarrow-b-rightarrow-c-rightarrow-a-rightarrow-b-r/883080#883080">How to derive (A (B C) ((A B) (A C))) in the sequent calculus</a></li>
+</ul>
+</section>
+<section id="paradoxes" class="level2">
+<h2 class="anchored" data-anchor-id="paradoxes">Paradoxes</h2>
+<ul>
+<li><a href="http://math.stackexchange.com/questions/636467/paradoxes-in-logic/636942#636942">What makes something a paradox?</a></li>
+<li><a href="http://math.stackexchange.com/questions/209805/logic-nonsense-paradox/209844#209844">A: B is true. B: A is false. Nonsense? Paradox?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2189436/why-is-the-barbers-paradox-a-paradox">Is the Barber’s paradox a paradox?</a></li>
+<li><a href="https://math.stackexchange.com/questions/4381029/formalizing-russels-paradox-in-fol/4381047#4381047">Why is Russell’s Paradox a paradox? (i)</a></li>
+<li><a href="http://math.stackexchange.com/questions/496029/russells-paradox">Why is Russell’s Paradox a paradox? (ii)</a></li>
+</ul>
+</section>
+<section id="theories" class="level2">
+<h2 class="anchored" data-anchor-id="theories">Theories</h2>
+<ul>
+<li><a href="https://math.stackexchange.com/questions/2184030/how-are-primitive-mathematical-objects-chosen/2188475#2188475">Why are we interested in models as well as formal axioms for theories?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2191479/interpretation-vs-model/2191959#2191959">What’s the difference between an interpretation and a model of a theory?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2254328/relationship-of-consistency-axiomatizability-and-decidability">What is the relationship between the consistency, axiomatizability, and decidability of a theory?</a></li>
+<li><a href="http://math.stackexchange.com/questions/1187438/what-are-the-uses-of-cross-theoretic-identifications-within-mathematics">What is the use of identifying objects in different mathematical theories?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2624907/non-standard-model-of-arithmetic-why-is-adding-new-constants-to-the-model-acce">How is it legitimate to add non-standard elements to a model of arithmetic?</a></li>
+</ul>
+</section>
+<section id="arithmetic-and-computability" class="level2">
+<h2 class="anchored" data-anchor-id="arithmetic-and-computability">Arithmetic and computability</h2>
+<ul>
+<li><a href="http://math.stackexchange.com/questions/1259198/what-are-numbers">Natural numbers, real numbers, complex numbers, p-adic numbers …. what makes them all numbers?</a></li>
+<li><a href="http://math.stackexchange.com/questions/259584/why-dont-we-define-imaginary-numbers-for-every-impossibility">We allow “imaginary” numbers such as (x^2 = -1); why not other imaginary numbers such that (x + 1 = 1)?</a></li>
+<li><a href="http://math.stackexchange.com/questions/338370/is-there-an-numeric-arithmetic-with-a-single-operator">Can we define the usual arithmetic operations in terms of a single operator?</a></li>
+<li><a href="http://math.stackexchange.com/questions/195556/examples-of-partial-functions-outside-recursive-function-theory/195573#195573">Are partial functions interesting (outside recursion theory)?</a></li>
+<li><a href="http://math.stackexchange.com/questions/415725/how-is-the-standard-model-of-number-theory-specified-and-why-cant-we-use-that">How is the standard model of number theory specified and why can’t we use that?</a></li>
+<li><a href="http://math.stackexchange.com/questions/215846/how-do-you-prove-that-proof-by-induction-is-a-proof">How do you prove that proof by induction is a proof?</a></li>
+<li><a href="https://math.stackexchange.com/a/2984946/35151">Do we just have to take proofs by induction on faith?</a></li>
+<li><a href="http://math.stackexchange.com/questions/275405/clarification-of-a-remark-of-j-steel-on-the-independence-of-goldbach-from-zfc/275495#275495">If you prove Goldbach’s conjecture is independent of ZFC, that proves Goldbach’s conjecture is true: why?</a></li>
+<li><a href="http://math.stackexchange.com/questions/398535/what-is-the-relationship-between-recursive-or-recursively-enumerable-sets-an">What is the relationship between the idea of a “recursive” set and the concept of recursion in the sense of a function calling itself?</a></li>
+<li><a href="http://math.stackexchange.com/questions/694845/proving-undecidability-of-first-order-logic-without-first-proving-it-for-arithme/694887#694887">‘I would like a proof that first order logic is undecidable, but without using arithmetic’</a></li>
+<li><a href="http://math.stackexchange.com/questions/246429/question-about-computability-of-true-provable-formulas/246461#246461">Why is the set of truths of arithmetic not effectively enumerable?</a></li>
+<li><a href="http://math.stackexchange.com/questions/402934/why-do-we-believe-the-church-turing-thesis">Why do we believe the Church-Turing Thesis?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2185847/can-every-partially-computable-function-be-extended-to-a-total-computable-functi">Can every partially computable function be extended to a total computable function?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2975305/inverse-of-a-primitive-recursive-bijection/2979596">Is the inverse of a primitive recursive bijection on the natural numbers primitive recursive?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2704636/what-is-the-difference-between-impredicativity-and-recursion/">Do recursive definitions and impredicative definitions both involve self-reference?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2190125/what-is-the-link-between-churchs-theorem-and-the-undecidability-of-predicate-lo">What is the link between Church’s theorem and the undecidability of predicate logic?</a></li>
+</ul>
+</section>
+<section id="gödels-incompleteness-theorems" class="level2">
+<h2 class="anchored" data-anchor-id="gödels-incompleteness-theorems">Gödel’s incompleteness theorem(s)</h2>
+<ul>
+<li><a href="http://math.stackexchange.com/questions/205518/what-is-the-prerequisite-knowledge-for-learning-godels-incompleteness-theorem">What background knowledge do you need for understanding Gödel’s Theorem?</a></li>
+<li><a href="http://math.stackexchange.com/questions/453503/can-someone-explain-godels-incompleteness-theorems-in-layman-terms">Can someone explain Gödel’s incompleteness theorems in layman terms?</a> [Notable for other people’s answers!]</li>
+<li><a href="http://math.stackexchange.com/questions/280642/sequent-calculus-and-first-incompletness-theorem/280701#280701">Don’t Gödel’s completeness and incompleteness theorems contradict each other? (i)</a></li>
+<li><a href="http://math.stackexchange.com/questions/435963/dont-godels-completeness-and-incompleteness-theorems-contradict-each-other">Don’t Gödel’s completeness and incompleteness theorems contradict each other? (ii)</a></li>
+<li><a href="https://math.stackexchange.com/questions/4481855/regarding-godels-arithmetic-technique-in-incompleteness-theorem/4481974#4481974">Does Gödel’s theorem show that some things are never provable?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2617872/what-axioms-g%c3%b6del-is-using-if-any">What axioms is Gödel using to prove his theorem?</a></li>
+<li><a href="http://math.stackexchange.com/questions/730017/how-to-explain-the-power-of-pa-to-non-logicians/730055#730055">What’s so great about showing that Peano Arithmetic is incomplete?</a></li>
+<li><a href="http://math.stackexchange.com/questions/169319/what-does-the-completeness-of-a-system-mean-for-the-provability-of-certain-statm/169373#169373">What’s so great about Gödel’s Theorem, since incompleteness is pervasive?</a></li>
+<li><a href="https://math.stackexchange.com/users/35151/peter-smith?tab=answers&amp;sort=newest">What is meant by saying that a Gödel sentence is “true in arithmetic”?</a></li>
+<li><a href="http://math.stackexchange.com/questions/845569/criticism-on-truth-of-gödel-sentence-in-standard-interpretation/845583#845583">Are Gödel sentences always true?</a></li>
+<li><a href="http://math.stackexchange.com/questions/884959/godel-incompleteness-theorem/884969#884969">Is there an algorithm for producing undecidable sentences for any given theory?</a></li>
+<li><a href="http://math.stackexchange.com/questions/171863/is-there-a-proof-of-godels-incompleteness-theorem-without-self-referential-stat">Is there a proof of Gödel’s Theorem without self-referential statements?</a></li>
+<li><a href="http://math.stackexchange.com/questions/182961/is-the-negation-of-the-godel-sentence-always-unprovable-too">Is the negation of the Gödel sentence always unprovable too?</a></li>
+<li><a href="http://math.stackexchange.com/questions/448527/are-the-proofs-of-incompleteness-theorems-valid-for-both-classical-and-intuitionis">Are the proofs of incompleteness theorems valid for an intuitionist?</a></li>
+<li><a href="http://math.stackexchange.com/questions/203299/are-there-non-standard-models-of-arithmetic-in-second-order-arithmetic/203372#203372">Does Gödel’s Theorem also show that are non-standard models of second-order arithmetic?</a></li>
+<li><a href="http://math.stackexchange.com/questions/228806/does-godels-incompleteness-theorem-really-say-anything-about-the-limitations-of">What’s so great about Gödel’s Theorem, since incompleteness is pervasive?</a></li>
+<li><a href="http://math.stackexchange.com/questions/372037/is-there-more-than-one-rosser-sentence">Is there more than one Rosser sentence?</a></li>
+</ul>
+</section>
+<section id="sets-and-functions" class="level2">
+<h2 class="anchored" data-anchor-id="sets-and-functions">Sets and functions</h2>
+<ul>
+<li><a href="http://math.stackexchange.com/questions/366463/any-branch-of-math-can-be-expressed-within-set-theory-is-the-reverse-true">What’s so special about set theory?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2721461/set-theoretic-concepts-in-first-order-logic/2721975">Do we need to use set-theoretic concepts in theorizing about first order logic? 1</a></li>
+<li><a href="https://math.stackexchange.com/a/3024322/35151">Do we need to use set-theoretic concepts in theorising about first order logic? 2</a></li>
+<li><a href="http://math.stackexchange.com/questions/910305/how-much-set-theory-is-necessary-for-serious-logic">How much set theory is needed for serious logic?</a></li>
+<li><a href="http://math.stackexchange.com/questions/245828/validity-of-empty-sets/245882#245882">Why suppose there is such a set as the empty set?</a></li>
+<li><a href="https://math.stackexchange.com/questions/823643/subsets-and-sets/823651#823651">Why is the empty set a subset of any set?</a></li>
+<li><a href="https://math.stackexchange.com/questions/4484662/definition-of-ordered-pair-and-intuition/4484694#4484694">What is an ordered pair really?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2189860/do-functions-have-truth-values/2189909#2189909">Is a function a relation?</a></li>
+<li><a href="https://math.stackexchange.com/questions/4492753/function-and-graph/4495420#4495420">Can we identify a function with its graph?</a></li>
+<li><a href="http://math.stackexchange.com/questions/442522/difference-between-a-function-and-a-graph-of-a-function">Is a function a set? (i)</a></li>
+<li><a href="http://math.stackexchange.com/questions/479936/in-what-manner-are-functions-sets">Is a function a set? (ii)</a></li>
+<li><a href="http://math.stackexchange.com/questions/271613/why-is-a-function-defined-as-having-only-one-y-value-output/271619#271619">Why is a function defined as having only one y value output?</a></li>
+<li><a href="http://math.stackexchange.com/questions/499299/the-use-of-individuals-in-set-theory">Should we allow individuals (urelemente) in set theory? (i)</a></li>
+<li><a href="https://math.stackexchange.com/questions/4384354/how-do-we-formally-describe-mathematical-modelling-using-set-theory/4384386#4384386">Should we allow individuals (urelemente) in set theory? (ii)</a></li>
+<li><a href="http://math.stackexchange.com/questions/222970/how-is-cantors-diagonal-argument-related-to-russells-paradox-in-naive-set-theo">How is Cantor’s diagonal argument related to Russell’s paradox in naive set theory?</a></li>
+<li><a href="http://math.stackexchange.com/questions/193619/if-it-takes-infinite-steps-to-prove-a-statement-is-that-a-valid-proof/193635#193635">If it takes infinite steps to prove a statement is that a valid proof?</a></li>
+<li><a href="http://math.stackexchange.com/questions/1087022/is-the-domain-of-discourse-in-axiomatic-set-theory-also-a-set">Is the domain of discourse in axiomatic set theory also a set?</a></li>
+<li><a href="http://math.stackexchange.com/questions/209484/what-does-it-mean-to-say-that-a-set-is-equipped-with-a-function">What does it mean to say that a set is equipped with a function?</a></li>
+<li><a href="http://math.stackexchange.com/questions/208682/formalizing-the-idea-of-a-set-a-together-with-the-operations-cdot/208758#208758">How do we formalize the idea of set together with some other operations?</a></li>
+<li><a href="http://math.stackexchange.com/questions/676121/are-there-sets-a-and-b-such-that-a-in-b-and-b-in-a">Are there sets A and B such that A ∈ B and B ∈ A?</a></li>
+<li><a href="http://math.stackexchange.com/questions/361320/neatest-proof-that-set-of-finite-subsets-is-countable">What is the neatest proof that the set of finite subsets of a countable set is countable?</a></li>
+<li><a href="http://math.stackexchange.com/questions/476076/the-purpose-of-the-sf-zfc-axiom-of-infinity">What is the purpose of the Axiom of Infinity</a></li>
+<li><a href="http://math.stackexchange.com/questions/193198/why-use-zf-over-nfu">Why use ZF over NFU?</a></li>
+<li><a href="http://math.stackexchange.com/questions/836537/set-theoretic-realism/837448#837448">Should we be realists about set theory?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2622162/why-doesnt-the-independence-of-the-continuum-hypothesis-immediately-imply-that">Why doesn’t the independence of the continuum hypothesis immediately imply that ZFC is unsatisfactory?</a></li>
+</ul>
+</section>
+<section id="history-of-logic" class="level2">
+<h2 class="anchored" data-anchor-id="history-of-logic">History of Logic</h2>
+<ul>
+<li><a href="http://math.stackexchange.com/questions/685927/building-logic-on-geometry">Why did the later Frege appeal to geometry to found arithmetic?</a></li>
+<li><a href="http://math.stackexchange.com/questions/252608/what-does-russell-mean-when-he-defines-the-posterity-with-respect-to-the-immed">What does Russell mean when he defines the “Posterity… with respect to the immediate predecessor”?</a></li>
+<li><a href="http://math.stackexchange.com/questions/460683/where-specifically-did-principia-mathematica-fail">Where, specifically, did Principia Mathematica fail?</a></li>
+<li><a href="http://math.stackexchange.com/questions/203179/origin-of-the-notion-of-a-well-formed-formula/203325#203325">Who first defined the notion of a wff?</a></li>
+<li><a href="http://math.stackexchange.com/questions/667377/when-and-where-the-concept-of-valid-logic-formula-was-defined">When and where was the concept of valid logic formula was defined?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2187518/understanding-hilberts-programme/2188380#2188380">Was Hilbert trying to eliminate the infinite from maths?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2976716/why-godels-theorem-influences-hilberts-programme/2976913#2976913">How does Gödel’s theorem impact on Hilbert’s Programme?</a></li>
+</ul>
+</section>
+<section id="varia" class="level2">
+<h2 class="anchored" data-anchor-id="varia">Varia</h2>
+<ul>
+<li><a href="http://math.stackexchange.com/questions/1180235/logic-in-philosophy-vs-mathematical-logic">How does logic-for-philosophers relate to mathematical logic?</a></li>
+<li><a href="http://math.stackexchange.com/questions/191770/what-are-some-good-math-specific-study-habits/191825#191825">What are some good maths/logic study-habits?</a></li>
+<li><a href="http://math.stackexchange.com/questions/226381/the-maths-necessary-to-understand-logic-model-theory-and-set-theory-to-a-very-h">How much maths is necessary to understand logic and set theory?</a></li>
+<li><a href="http://math.stackexchange.com/questions/264371/fun-but-serious-mathematics-books-to-gift-advanced-undergraduates">What are fun but serious mathematics books?</a></li>
+<li><a href="http://math.stackexchange.com/questions/556147/how-much-math-does-one-need-to-know-to-do-philosophy-of-math">How much math does one need to know to do philosophy of math?</a></li>
+<li><a href="http://math.stackexchange.com/questions/200848/please-help-great-confusion-about-the-two-levels-of-discourse-mathematical-l/201027#201027">Is mathematics a formal game with symbols?</a> [see esp.&nbsp;Henning Makholm’s answer]</li>
+<li><a href="https://math.stackexchange.com/questions/3948302/paradigm-shifts-in-mathematics/3948344#3948344">Are there paradigm shifts in mathematics?</a></li>
+<li><a href="http://math.stackexchange.com/questions/264913/book-on-the-rigorous-foundations-of-mathematics-logic-and-set-theory/265346#265346">Should we look to Bourbaki for rigorous foundations of mathematics?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2711289/reference-of-the-connection-of-category-theory-and-logicfoundation-of-mathemati/2711473">What is there to read on the relation between category theory and logic?</a></li>
+<li><a href="http://math.stackexchange.com/questions/467640/categorical-interpretation-of-quantification">How might we think about quantification in category-theoretic terms?</a></li>
+<li><a href="https://math.stackexchange.com/questions/722011/there-is-a-second-order-sentence-that-is-valid-in-standard-semantics-but-not-val/722113#722113">What’s an example of a sentence valid in standard second-order logic but not in Henkin semantics?</a> [see esp.&nbsp;Carl Mummert’s answer]</li>
+<li><a href="http://math.stackexchange.com/questions/561020/minimal-difference-between-classical-and-intuitionistic-sequent-calculus">What is the minimal difference between classical and intuitionistic sequent calculus?</a></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/your-website-url\.example\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

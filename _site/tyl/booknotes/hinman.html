@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Hinman: Fundamentals of Mathematical Logic – logic-matters-sandbox</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">logic-matters-sandbox</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../books/index.html"> 
+<span class="menu-text">Five Big Red (Open Access) Logic Books</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://bsky.app/"> <i class="bi bi-bluesky" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Hinman: Fundamentals of Mathematical Logic</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><img src="covers/413mkeIR49L.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;"></p>
+<article class="post-5707 page type-page status-publish ast-article-single" id="post-5707" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
+<div class="entry-content clear" itemprop="text">
+<p>
+Now for a really <em>big</em> Big Book – Peter G. Hinman’s <em>Fundamentals of Mathematical Logic</em> (A.K.Peters, 2005: pp.&nbsp;878). The author says the book was written over a period of twenty years, as he tried out various approaches ‘to enable students with varying levels of interest and ability tocome to a deep understanding of this beautiful subject’.
+</p>
+<p>
+But I suspect that you will need to be mathematically quite strong to really cope with this book: whatever Hinman’s intentions for a wider readership, this is not for the fainthearted. The book’s daunting size is due to its very wide coverage rather than a slow pace – so after a long introduction to first-order logic (or more accurately, to its model theory) and a discussion of the theory of recursive functions and incompleteness and related results, there follows a <em>very</em> substantial survey of set theory, and then lengthy essays on more advanced model theory and on recursion theory. As too often, proof theory is the poor relation here – indeed Hinman is very little interested in deductive systems for logic, which don’t make an appearance until over two hundred pages into the book.
+</p>
+<p>
+Let me mention at the outset what strikes me as a pretty unfortunate global notational convention, which might puzzle casual browsers or readers who want to start some way through the book, Given the two-way borrowing of notation between informal mathematics and the formal languages in which logicians regiment that mathematics, it is good to have some way of visually distinguishing the formal from the informal (so we don’t just rely on context). One common method is font selection. Thus, even in an informal context, we may snappily say that addition commutes by writing e.g.&nbsp;<span class="math">∀<em>x</em>∀<em>y</em> <em>x</em> + <em>y</em> = <em>y</em> + <em>x</em></span>; the counterpart wff for expressing this in a fully formalized language by writing the same in &nbsp;sans serif (or using another font selection). Hinman, however, prefers using an ‘(informal)mathematical sign with a dot over it to represent a formal symbol in a formallanguage which denotes the informal object’, so he’d write <span class="math inline">\(latex \forall x\forall y\, x\,\dot{+}\,y \ \dot{=}\ y\,\dot{+}x\)</span> for the formal wff. As you can imagine, this convention eventually leads to really nasty rashes of dots – for example, to take a relatively tame example from p.&nbsp;459, we get
+</p>
+<blockquote class="blockquote">
+<p>
+<span class="math inline">\(latex \dot{\bigcup}\ x\ \dot{=}\ \dot{\{} z \colon \exists v [v\,\dot{\in}\,x \land z\,\dot{\in}\,v]\}\)</span>
+</p>
+</blockquote>
+<p>
+(note how even opening braces in formal set-former notation get dotted). This dottiness quite surely isn’t a happy choice!
+</p>
+<hr>
+<p>
+<em>Some details&nbsp;</em>Hinman himself in his Preface gives some useful pointers to routes through the book, depending on your interests.The Introduction gives a useful and approachable overview of some key notions tied up with the mathematical logician’s project of formalization (and talks about a version of Hilbert’s program as setting the scene for some early investigations).
+</p>
+<p>
+Ch.&nbsp;1 is on ‘Propositional Logic and other fundamentals’. §§1.1, 1.3 and 1.4 are devoted to the language of propositional logic, and give the usual semantics, define the notion tautological entailment and explore its properties, giving a proof of the compactness theorem. But note, there is no discussion at all here – or in the other sections of this chapter – of a proof-system for propositional logic. §1.2 is a rather general treatment of proofs by induction and the definition of functions by recursion (signposted as skippable at this early stage – and indeed the generality doesn’t make for a particularly easy read for a section so early in the book). §§1.6 and 1.7 also cover more advanced material, mainly introducing ideas for later use: the first briskly deals e.g.&nbsp;with ultrafilters and ultraproducts (we get another take on compactness), and the second relates compactness to topological ideas and also introduces the idea of a Boolean algebra.
+</p>
+<p>
+Ch.&nbsp;2, ‘First-order logic’, presents the syntax and semantics of first-order languages, and then talks about first-order structures (isomorphisms, embeddings, extensions, etc), and proves the downward L-S theorem. We then get a general discussion of theories (thought of as sets of sentences closed under <em>semantic</em> consequence), and an extended treatment of some examples (the theory of equality, the theory of dense linear orders, and various strengths of arithmetic). There’s some quite sophisticated stuff here, including discussion of quantifier elimination. But there is still no discussion yet of a proof-system for first-order logic, so the chapter could as well, if not better, have been called ‘Elements of model theory’.Ch.&nbsp;3, ‘Completeness and compactness’, starts with a compactness proof for countable languages. Then we at last have a <em>very</em> brisk presentation of an old-school axiomatic system for first-order logic (I told you that Hinman is not interested in proof-systems!), and a proof of completeness using the Henkin construction that has already been used in the compactness proof. We next get – inter alia – an algebraic proof of compactness for first-order consequence via ultraproducts, and a return to Boolean algebras and e.g.&nbsp;the Rasiowa-Sikorski theorem (§3.3); an extension of the compactness and completeness results to uncountable languages (§3.4); and some heavy-duty applications of compactness (§3.5). Finally in this action-packed chapter, we have some rather unfriendly treatments of higher-order logic (§3.6) and infinitary logic (§3.7).
+</p>
+<p>
+Let’s pause for breath. We are now a bit over 300 pages into the book. Things have already got pretty tough. The book is not quite a relentless march along a chain of definitions/theorems/corollaries; there are just enough pauses for illustrations and helpful remarks en route to make it a bearable. But Hinman does have a taste for going straight for abstractly general formulations (and his notational choices can sometimes be unhappy too). So as indicated in my preamble, the book will probably only appeal to mathematicians already used to this sort of fairly hardcore approach. In sum, therefore, I’d only recommend the first part of the book to the mathematically minded who already know their first-order logic and a bit of model theory; but such readers might then find it quite helpful as a beginning/mid-level model theory resource.
+</p>
+<p>
+On we go. Next we have two chapters (almost 150 pages between them) on recursive functions, Gödelian incompleteness, and related matters. Perhaps it is because these topics are conceptually easier, more ‘concrete’, than what’s gone before, or perhaps it is because the topics are closer to Hinman’s heart, but these chapters seem to me to work better as an introduction to their topics. In particular, while not my favourite treatment, Ch.&nbsp;4 is clear, very sensibly structured, and should be accessible to anyone with some background in logic and who isn’t put off by a certain amount of mathematical abstraction. The chapter opens with informal proofs of the undecidability of consistent extensions of <span class="math">Q</span>, the first incompleteness theorem and Tarski’s theorem on the undefinability of truth (as well as taking a first look at the second incompleteness theorem). These informal proofs depend on the hypothesis that effectively calculable functions are expressible or the hypothesis that such functions are representable (we don’t yet have a formal story about these functions). Unsurprisingly, given I do something in the same ball-park in my Gödel book, I too think this is a good way to start and to motivate the ensuing development. There follows, as you’d expect, the necessary account of the effectively calculable in terms of recursiveness, and then we get proofs that recursive functions can be expressed/represented in arithmetic, leading on to formal versions of the theorems about undecidable and incompleteness. This presentation takes a different-enough path through the usual ideas to be worth reading even if you’ve already encountered the material a couple of times before.
+</p>
+<p>
+Ch.&nbsp;5 is called ‘Topics in definability’ and, unlike the previous rather tightly organised chapter, is something of a grab-bag of topics. §5.1 says something about the arithmetical hierarchy; §5.2 discusses inter alia the indexing of recursive functions and the halting problem; §5.3 explains how the second incompleteness theorem is proved, and – while not attempting a full proof – there is rather more detail than usual about how you can show that the HBL derivability conditions are satisfied in PA. Then §5.4 gives more evidence for Church’s Thesis by considering a couple of other characterisations of computability (by equation manipulation and by abstract machines) and explains why they again pick out the recursive functions. §5.5 discusses ‘Applications to other languages and theories’ (e.g.&nbsp;the application of incompleteness to a theory like ZF which is not initially about arithmetic). These various sections are all relatively clearly done.
+</p>
+<p>
+Pausing for breath again, we might now try to tackle Ch.&nbsp;6 on set theory (whose 200 pages amount by themselves to an almost-stand-alone book). The menu covers the basics of ZF, the way we can construct mathematics inside set theory, ordinals and cardinals, then models and independence proofs, the constructible universe, models and forcing, large cardinals and determinacy. But even from the outset, this does seem quite relentlessly hard going, too short on motivation and illustrations of concepts and constructions. Dense, to say the least. The author says of the chapter that his particular mode of presentation means that ‘for each of the instances where one wants to verify that something is a class model – the intuitive universe of sets <span class="math">V</span>, the constructible universe <span class="math">L</span> and a forcing extension <span class="math">m[<em>G</em>]</span> – …&nbsp;the proofs …&nbsp; exhibit more of the underlying unity.’ So enthusiasts who know their set theory might want to do a fast read of the chapter to see if they can glean new insights. But I can’t recommend this as a way into set theory when compared with the standard set theory texts mentioned in the&nbsp;Guide.
+</p>
+<p>
+Ch.&nbsp;7 returns to more advanced model theory for another 80 pages, getting as far Morley’s theorem. Again, if you want a more accessible initial treatment, you’ll go for Hodges’s <em>Shorter Model Theory</em>. And then why not tackle Marker’s book if you are a graduate mathematician?
+</p>
+<p>
+Finally, there’s another equally long chapter on recursion theory. The opening sections on degrees and Turing reducibility are pretty approachable. The rest of the chapter gets more challenging but (at least compared with the material on model theory and set theory) should still be tolerably accessible to those willing to put in the work.
+</p>
+<hr>
+<p>
+<em>Summary verdict&nbsp;</em>It is <em>very</em> ambitious to write a book with this range and depth of coverage (as it were, an expanded version of Shoenfield, forty years on – but now when there is already a wealth of textbooks on the various areas covered, at various levels of sophistication). After such a considerable labour from a good logician, it seems very churlish to say it, but the treatments of, respectively, (i) first-order logic, (ii) model theory, (iii) computability theory and incompleteness, and (iv) set theory aren’t as good as the best of the familiar stand-alone textbooks on the four areas. And I can’t see that these shortcomings are balanced by any conspicuous advantage in having the accounts in a single text, rather than a handful of different ones. Still, the text should be in any university library, as enthusiasts might well find parts of it quite useful supplementary/reference material. Chapters 4, 5 and 8 on computability and recursion work the best.
+</p>
+</div>
+</article>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/your-website-url\.example\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

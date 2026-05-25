@@ -1,0 +1,25 @@
+---
+title: "AbsGen Archives - Logic Matters"
+---
+
+*
+
+Absolute Generality 1: Kit Fine and the All in One Principle
+
+OK, time to make a start on blogviewing Absolute Generality, edited by Augustín Rayo and Gabriel Uzquiano (OUP, 2006).
+
+As in the Church’s Thesis volume, the editors take the easy line of printing the papers in alphabetical order by the authors’ names, and they don’t offer any suggestions as to what might make a sensible reading order. So we’ll just have to dive in and see what happens. First up is a piece by Kit Fine called “Relatively Unrestricted Quantification”.
+
+And it has to be said straight away that this is, presentationally, pretty awful. Length issues aside, no way would something written like this have got into Analysis when I was editing it. This isn’t just me being captious: sitting down with three very bright and knowledgeable graduate students and a recent PhD, we all struggled to make sense of it. There really isn’t any excuse for writing this kind of philosophy with less than absolute clarity and plain speaking directness. It could well be, then, that my comments — such as they are — are based on misunderstandings. But if so, I’m not sure this is entirely my fault!
+
+Fine holds that if there is a good case to be made against absolutely unrestricted quantification, then it will be based on what he calls “the classic argument from indefinite extendibility”. So the paper kicks off by presenting a version of the argument. Suppose the ‘universalist’ purports to use a (first-order) quantifier ∀ that ranges over everything. Then, the argument goes, “we can come to an understanding of a quantifier according to which there is an object … of which every object, in his sense of the quantifier, is a member”. Then, by separation, we can define another object R whose members are all and only the things in the universalist’s domain which are not members of themselves —  and on pain of the Russell paradox, this object cannot be in the original domain. So we can introduce a quantifier ∀+ that runs over this too, and hence the universalist’s quantifier wasn’t absolute general.
+
+Well, this general line of argument is of course very familiar. What I initially found a bit baffling is Fine’s claim that it doesn’t involve an appeal to what Cartwright calls the All in One principle. Here’s a statement of the principle at the end of Cartwright’s paper:** Any objects that can be taken to be the values of the variables of a first-order language constitute a domain.
+
+where a domain is something set-like. Which looks to be exactly the principle appealed to in the first step of Fine’s argument. So why does Fine say otherwise?
+
+Well, Fine picks up on Cartwright’s initial statement of the principle:** to quantify over certain objects is to presuppose that those objects constitute a ‘collection’ or a ‘completed collection’ — some one thing of which those objects are members.
+
+And then Fine leans heavily on the word ‘presuppose’, saying that extendibility argument isn’t claiming that an understanding of the universalist’s ∀ already presupposes a conception of the domain-as-object and hence an understanding of ∀+; it’s the other way around — an understanding of ∀+ presupposes an understanding of ∀. Well, sure. But Cartwright was not saying otherwise, but at worst slightly mis-spoke. His idea, as the rest of his paper surely makes clear, is that the extendibility argument relies on the thought that where there is quantification over certain objects then we must be be able to take those objects as a completed collection — but Cartwright isn’t saying that understanding quantification presupposes thinking of the the objects quantified over constitute another object. Anyone persuaded by Cartwright’s paper, then, won’t find Fine’s version of the extendibility argument any more convincing than usual.
+
+[To be continued]

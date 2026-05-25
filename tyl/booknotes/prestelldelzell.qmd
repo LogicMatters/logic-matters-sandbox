@@ -1,0 +1,13 @@
+---
+title: "Prestell and Delzell: Mathematical Logic and Model Theory"
+---
+
+*
+
+ 
+
+Alexander Prestell and Charles N. Delzell’s *Mathematical Logic and Model Theory: A Brief Introduction* (Springer, 1986; English version 2011: pp. 193) is advertised as offering a ‘streamlined yet easy-to-read introduction to mathematical logic and basic model theory’. Easy-to-read, perhaps, for those who already have a fair amount of mathematical background in algebra, for – as the Preface makes clear – the aim of the book is make available to interested mathematicians ‘the best known model theoretic results in algebra’. And indeed, the last part of the book develops a complete proof of Ax and Kochen’s work on Artin’s conjecture about Diophantine properties of *p*-adic number fields. So this book is not really aimed at a likely reader of this Guide.
+
+Still, Ch. 1 is a crisp and clean 60 page introduction to first-order logic, that could indeed be used as brisk and helpful revision material. And Ch. 2, ‘Model constructions’ gives a nice if pretty pacey introduction to some basic model theoretic notions: again  it could serve well to consolidate and somewhat extend ideas if you have already encountered at least some of this material before, based on the reading in Model Theory chapter of the Guide.
+
+The remaining two chapters however, ‘Properties of Model Classes’ and ‘Model Theory of Several Algebraic Theories’, are tougher going, and belong with advanced reading like Marker’s book. But, for those who want to work through this material, it does strike me as well presented.
