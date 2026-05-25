@@ -1,0 +1,113 @@
+---
+title: "IFL2: Exercises and answers"
+description: "End-of-chapter exercises and worked answers."
+---
+
+```{=html}
+<style>
+/* Remove faint heading underline/pseudo-decoration on this page so only the table header rule remains. */
+h2, h2[id], h2.anchored,
+h2::before, h2::after,
+h2.anchored::before, h2.anchored::after {
+  border: none !important;
+  box-shadow: none !important;
+  background-image: none !important;
+  content: none !important;
+}
+
+/* Remove top table borders that create an extra faint line above the header row. */
+table, table tbody, table thead, table tr, table th, table td {
+  border-top: none !important;
+}
+
+table {
+  border-collapse: collapse !important;
+  table-layout: fixed !important;
+  width: 100% !important;
+}
+
+table thead th {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7) !important;
+}
+
+table th:nth-child(1),
+table td:nth-child(1) {
+  width: 70% !important;
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+  width: 30% !important;
+}
+</style>
+```
+
+In the left columns in each table there are links to PDFs to sets of end-of-chapter exercises for *IFL2* (the numbers correspond to chapters, so there are gaps corresponding to chapters without exercises). The question sets may, however, also be useful to others using different textbooks. Occasionally the preambles to the questions here are tweaked so that they make more sense independently of the book.
+
+In the right columns there are links to PDFs with worked answers. Many of these answers are elaborated at some length. But experience suggests that different people can get stuck in different ways, or need different points to be repeated.
+
+## Introductory exercises
+
+| Exercises | Answers |
+|------------------------------------|------------------------------------|
+| [Exercises 1](pdfs/Exercises_for_web_01.pdf) (Some informal arguments) | [Answers to Exercises 1](pdfs/Exercises_solutions_01.pdf) |
+| [Exercises 2](pdfs/Exercises_for_web_02.pdf) (Validity, soundness, etc.) | [Answers to Exercises 2](pdfs/Exercises_solutions_02.pdf) |
+| [Exercises 3](pdfs/Exercises_for_web_03.pdf) (Forms of argument) | [Answers to Exercises 3](pdfs/Exercises_solutions_03.pdf) |
+| [Exercises 4](pdfs/Exercises_for_web_04.pdf) (Informal proofs) | [Answers to Exercises 4](pdfs/Exercises_solutions_04.pdf) |
+| [Exercises 5](pdfs/Exercises_for_web_05.pdf) (Counterexamples) | [Answers to Exercises 5](pdfs/Exercises_solutions_05.pdf) |
+| [Exercises 6](pdfs/Exercises_for_web_06.pdf) (Logical validity) | [Answers to Exercises 6](pdfs/Exercises_solutions_06.pdf) |
+| [Exercises 7](pdfs/Exercises_for_web_07.pdf) (Propositions) | [Answers to Exercises 7](pdfs/Exercises_solutions_07.pdf) |
+
+## Propositional logic introduced
+
+| Exercises | Answers |
+|------------------------------------|------------------------------------|
+| [Exercises 8](pdfs/Exercises_for_web_08.pdf) (Negation and other connectives) | [Answers to Exercises 8](pdfs/Exercises_solutions_08.pdf) |
+| [Exercises 9](pdfs/Exercises_for_web_09.pdf) (PL syntax: parse trees) | [Answers to Exercises 9](pdfs/Exercises_solutions_09.pdf) |
+| [Exercises 10](pdfs/Exercises_for_web_10.pdf) (PL semantics: evaluating wffs) | [Answers to Exercises 10](pdfs/Exercises_solutions_10.pdf) |
+| [Exercises 11](pdfs/Exercises_for_web_11.pdf) (Quotation) | [Answers to Exercises 11](pdfs/Exercises_solutions_11.pdf) |
+| [Exercises 12](pdfs/Exercises_for_web_12.pdf) (Truth-functions and truth-tables) | [Answers to Exercises 12](pdfs/Exercises_solutions_12.pdf) |
+| [Exercises 13](pdfs/Exercises_for_web_13.pdf) (Expressive adequacy) | [Answers to Exercises 13](pdfs/Exercises_solutions_13.pdf) |
+| [Exercises 14](pdfs/Exercises_for_web_14.pdf) (Tautologies) | [Answers to Exercises 14](pdfs/Exercises_solutions_14.pdf) |
+| [Exercises 15](pdfs/Exercises_for_web_15.pdf) (Tautological entailment) | [Answers to Exercises 15](pdfs/Exercises_solutions_15.pdf) |
+| [Exercises 16](pdfs/Exercises_for_web_16.pdf) (More on tautological entailment) | [Answers to Exercises 16](pdfs/Exercises_solutions_16.pdf) |
+| [Exercises 17](pdfs/Exercises_for_web_17.pdf) (Absurdity) | [Answers to Exercises 17](pdfs/Exercises_solutions_17.pdf) |
+| [Exercises 18](pdfs/Exercises_for_web_18.pdf) (The truth-functional conditional) | [Answers to Exercises 18](pdfs/Exercises_solutions_18.pdf) |
+| [Exercises 19](pdfs/Exercises_for_web_19.pdf) (“If”s and “→”s) | [Answers to Exercises 19](pdfs/Exercises_solutions_19.pdf) |
+
+## Natural deduction for propositional logic
+
+| Exercises | Answers |
+|------------------------------------|------------------------------------|
+| [Summary of PL natural deduction rules](pdfs/PLrulespage.pdf) |  |
+| [Combined exercises on PL natural deduction](pdfs/Exercises_and_solutions_20-23-combo-1.pdf) |  |
+| [Exercises 20](pdfs/Exercises_for_web_20.pdf) (PL proofs: conjunction and negation) | [Answers to Exercises 20](pdfs/Exercises_solutions_20.pdf) |
+| [Exercises 21](pdfs/Exercises_for_web_21.pdf) (PL proofs: disjunction) | [Answers to Exercises 21](pdfs/Exercises_solutions_21.pdf) |
+| [Exercises 22](pdfs/Exercises_for_web_22.pdf) (PL proofs: conditionals) | [Answers to Exercises 22](pdfs/Exercises_solutions_22.pdf) |
+| [Exercises 23](pdfs/Exercises_for_web_23.pdf) (PL proofs: theorems) | [Answers to Exercises 23](pdfs/Exercises_solutions_23.pdf) |
+
+## Quantificational languages
+
+| Exercises | Answers |
+|------------------------------------|------------------------------------|
+| [Exercises 28](pdfs/Exercises_for_web_28.pdf) (A first QL language) | [Answers to Exercises 28](pdfs/Exercises_solutions_28.pdf) |
+| [Exercises 29](pdfs/Exercises_for_web_29.pdf) (Simple QL translation exercises) | [Answers to Exercises 29](pdfs/Exercises_solutions_29.pdf) |
+| [Exercises 30](pdfs/Exercises_for_web_30.pdf) (Yet more QL translations) | [Answers to Exercises 30](pdfs/Exercises_solutions_30.pdf) |
+
+## Quantificational logic: natural deduction and semantics
+
+| Exercises | Answers |
+|------------------------------------|------------------------------------|
+| [Summary of QL natural deduction rules](pdfs/QLrulespage.pdf) |  |
+| [Exercises 31](pdfs/Exercises_for_web_31.pdf) (Informal quantifier arguments) | [Answers to Exercises 31](pdfs/Exercises_solutions_31-1.pdf) |
+| [Exercises 32](pdfs/Exercises_for_web_32.pdf) (Formal QL proofs) | [Answers to Exercises 32](pdfs/Exercises_solutions_32.pdf) |
+| [Exercises 33](pdfs/Exercises_for_web_33.pdf) (More QL proofs) | [Answers to Exercises 33](pdfs/Exercises_solutions_33.pdf) |
+| [Exercises 35](pdfs/Exercises_for_web_35.pdf) (QL-valuations) | [Answers to Exercises 35](pdfs/Exercises_solutions_35.pdf) |
+| [Exercises 36](pdfs/Exercises_for_web_36.pdf) (QL validity) | [Answers to Exercises 36](pdfs/Exercises_solutions_36.pdf) |
+
+## Adding identity to QL
+
+| Exercises | Answers |
+|------------------------------------|------------------------------------|
+| [Exercises 38](pdfs/Exercises_for_web_38.pdf) (Identity) | [Answers to Exercises 38](pdfs/Exercises_solutions_38.pdf) |
+| [Exercises 41](pdfs/Exercises_for_web_41-1.pdf) (QL= proofs) | [Answers to Exercises 41](pdfs/Exercises_solutions_41.pdf) |

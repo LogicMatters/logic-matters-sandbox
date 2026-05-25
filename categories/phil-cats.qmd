@@ -1,0 +1,75 @@
+---
+title: "Category Theory for Philosophers"
+description: "A short guide to category theory readings and resources for philosophers."
+---
+
+## Introduction
+
+Philosophers will have come across claims that category theory – or in particular, that division of it which is topos theory – provides a new foundation, or a different sort of foundation, to mathematics, in some sense rivalling set theory in its sweep and generality. So philosophers with foundational interests may well want to know what the fuss is about. (OK, the cool kids may now think that that ‘homotopy type theory’ is where the foundational action really is: but you will still need to have some background in category theory to understand all that.)
+
+But perhaps ‘foundations’ is the wrong metaphor for category theory. Thus Tom Leinster has written as a two-sentence characterization,
+
+> Category theory takes a bird’s eye view of mathematics. From high in the sky, details become invisible, but we can spot patterns that were impossible to detect from ground level.
+
+So this would have category theory *organizing* mathematics (with sweep and generality, indeed) by finding unifying patterns, but not necessarily by seeing mathematics as reducible to, or embeddable into, or *underpinned* by, one grand foundational story.
+
+"It is too soon to worry about ‘foundations vs unifying overview’, however, before we even see category theory at work! But Leinster’s remark does point up why many philosophers, in particular, might find category theory hard work: for it is indeed often presented against an assumed wide-ranging knowledge of modern mathematics, and by drawing out patterns in a background which philosophers may well lack. But perhaps we can edge our way in."
+
+The Stanford Encyclopedia of Philosophy has a brisk introductory encyclopaedia article notionally addressed to philosophers by Jean-Pierre Marquis, ‘[Category Theory](http://plato.stanford.edu/entries/category-theory/)’. But while this piece is a useful source of pointers forward to different areas of interest, I suspect most beginners won’t be enlightened at all, as it is already pretty abstract (and indeed will probably only reinforce the impression that you need to know a *lot* of mathematics before you can get to grips with categories — not so). Better to return to this article once you are already moderately acquainted with category theory.
+
+
+
+## Entry-level expositions of category theory
+
+I’ll start with three introductory books with different virtues, in something like order of difficulty:
+
+- F. William Lawvere and Stephen H. Schanuel, *Conceptual Mathematics: A First Introduction to Categories* (CUP 2nd edn. 2009). A genuinely gentle introduction that slowly introduces you to new categorial ways of thinking about some familiar things. In fact, you might well find the book rather too slow and a bit condescending at the outset (does the likely reader really need to have it explained, at length, over a hundred pages into the book, that *if P then Q* and *if not-Q then not-P* are equivalent?). However, if you can ignore such irritations, you do end up after a pretty painless journey having learnt rather more than you realize. (The second edition is notably more useful than the first because it adds chapters that ease the transitions to more advanced topics.)
+
+Still, many/most might prefer to start a step up and work through the first hundred or so pages of an older, more conventional book:
+
+- Robert Goldblatt, *Topoi: The Categorial Analysis of Logic* (North-Holland 1979, very inexpensively reprinted by Dover 2009, and also [available online](https://projecteuclid.org/euclid.bia/1403013939)). Overall, this book (as the title suggests) is angled towards aspects of category theory of particular interest to logicians. It eventually covers a good deal of ground (with the difficulty level then going up accordingly, of course), but for the moment I’m suggesting you start off by just reading the *first three chapters* which cover much of what you’d pick up from Lawvere and Schanuel in far fewer pages. As mathematical exposition, this still strikes me as first rate. (I’m inclined to say that if you don’t find these opening chapters accessible and intriguing, then category theory is probably not for you. If you *do* like them, then at some later point you’ll no doubt want to read more of the book.)
+
+- Harold Simmons, *An Introduction to Category Theory* (CUP, 2011) is also highly accessible, and introduces some central notions of category theory you won’t find in Lawvere and Schanuel or in the opening three chapters of Goldblatt. In particular, it will give you a first handle on the key notion of adjoint functors. This is written for self-study with a lot of exercises (there are [online solutions here](https://www.cambridge.org/cr/files/1813/6680/4928/SIMMONS-CATS-BIGSOL.pdf)). It still has as something of the conversational tone of the lecture room, and you could very well find it an engaging and helpful introduction. Try the *first five chapters*.
+
+Also starting from scratch, and at something like the same level of accessibility of Goldblatt’s early chapters and/or Simmons’s book, there is:
+
+- My [Introducing Category Theory](/categories) aims to be rather more discursive/explanatory at various points. The coverage eventually goes further than Simmons and goes in a different direction to Goldblatt. Since I also try to keep the required mathematical background down to a bare minimum, this hopefully will be particularly useful to philosophers and others.
+
+A book which is often highly recommended as an entry-point for beginners is
+
+- Steve Awodey, *Category Theory*, Oxford Logic Guides 49 (OUP 2nd ed, 2010).
+
+However, I should say that a reading group with a few very smart maths students who had already done a category theory course confirmed my impressions this is a very considerably bumpier ride than the author intends (and indeed that was one spur to me writing my own notes). It is too often a bit less than ideally clear, and some of the expositional choices seem to me debatable. However, it should work well if you have e.g. already read those early chapters from Goldblatt.
+
+What next? Here is another book which is again intended for relative beginners — but this time as in beginning graduate students who haven’t previously met category theory but can be assumed to be mathematically pretty competent. So this is somewhat tougher, being a bit brisker and more compressed. But I do think that this text is a model of brilliant exposition at its level.
+
+- Tom Leinster, [*Basic Category Theory*](https://arxiv.org/abs/1612.09375) (CUP, 2014).
+
+Finally, I should certainly mention a book which is not strictly speaking a general introduction to category theory but it introduces enough category theory for its purposes, and you’ll probably want to read it quite early in your explorations of category theory.
+
+- F. William Lawvere and Robert Rosebrugh, *Sets for Mathematics* (CUP 2003) presents a different way of thinking about sets, and shows that an approach via category theory can throw new light on familiar territory. However I do find this quite badly written (philosophers will find too much sloppy talk — you have to read past that).
+
+
+
+## Some philosophical discussions
+
+The Stanford Encyclopaedia article by Marquis mentioned at the start also has lots of references to philosophical discussions. There are also two substantial books which promise some extended philosophical discussions:
+
+- Ralf Krömer, *Tool and Object: A History and Philosophy of Category Theory* (Birkaüser, 2007)
+- Jean-Pierre Marquis, *From a Geometrical Point of View: Study of the History and Philosophy of Category Theory* (Springer, 2009).
+
+Maybe at some point I’ll write book notes on both, but for the moment I’ll list them just with the comment that neither is easy! Some of the essays in
+
+- Giandomenico Sica (ed), *What is Category Theory?* (Polimetrica, 2006)
+
+will also be of interest to philosophers. And the recent
+
+- Elaine Landry (ed), *Categories for the Working Philosopher* (OUP, 2017)
+
+has articles (of various degrees of accessibility) on aspects of category, pure and applied, of philosophical interest.
+
+---
+
+[Back to the main category theory page](/categories/)
+
+*Page updated 9 July 2023*

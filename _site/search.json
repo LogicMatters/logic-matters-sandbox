@@ -152,5 +152,145 @@
     "title": "A few comments on (precursors to) Introducing Category Theory",
     "section": "",
     "text": "Let me toot my own trumpet. There are some cheeringly nice remarks about the category theory book (or at least about earlier draft PDF versions) out there in discussion forums, e.g. on Reddit. I’ll quote a few here, at least because they provide some evidence that the book could work for other readers.\nFor example\n\n“I think Peter Smith’s book on category theory … is probably the best introduction there is. It’s very carefully written (Smith is a logician), and Smith is very good at explaining what is actually going on.” “My favourite introduction to category theory is Peter Smith’s notes. They are very gentle, and Smith does a good job of highlighting conceptual and foundational issues without it detracting from the mathematics.” “By far the best place to start, I think, is Peter Smith’s category theory notes.” “If you do struggle with the category theory, I really recommend Peter Smith’s notes. Smith is a logician and philosopher, and he is really good at explicating the conceptual aspects of category theory, not just the technical parts.” “Smith’s notes are probably the best way to begin learning category theory.”\n\nThere’s an Amazon review of the book version of Part I:\n\n“The ideal starting point for category theory. Perfect for beginners. If you’re more seasoned, just read faster and supplement with “industrial-grade” readings.”\n\nAnd a new Amazon review of the second edition of the whole book says simply (but pleasingly)\n\n“A superb introduction!”\n\nThose comments are really good to see. I make no claim for the notes other than that they are written up a bit more in the style of an elementary logic text than is usual. Of course, they will be (much!) too slow-moving, too pedestrian, for many. And some will think that the order in which I tackle topics is misguided. But it seems that some others, as I hoped, will appreciate my gentle approach."
+  },
+  {
+    "objectID": "categories/phil-cats.html",
+    "href": "categories/phil-cats.html",
+    "title": "Category Theory for Philosophers",
+    "section": "",
+    "text": "Philosophers will have come across claims that category theory – or in particular, that division of it which is topos theory – provides a new foundation, or a different sort of foundation, to mathematics, in some sense rivalling set theory in its sweep and generality. So philosophers with foundational interests may well want to know what the fuss is about. (OK, the cool kids may now think that that ‘homotopy type theory’ is where the foundational action really is: but you will still need to have some background in category theory to understand all that.)\nBut perhaps ‘foundations’ is the wrong metaphor for category theory. Thus Tom Leinster has written as a two-sentence characterization,\n\nCategory theory takes a bird’s eye view of mathematics. From high in the sky, details become invisible, but we can spot patterns that were impossible to detect from ground level.\n\nSo this would have category theory organizing mathematics (with sweep and generality, indeed) by finding unifying patterns, but not necessarily by seeing mathematics as reducible to, or embeddable into, or underpinned by, one grand foundational story.\n“It is too soon to worry about ‘foundations vs unifying overview’, however, before we even see category theory at work! But Leinster’s remark does point up why many philosophers, in particular, might find category theory hard work: for it is indeed often presented against an assumed wide-ranging knowledge of modern mathematics, and by drawing out patterns in a background which philosophers may well lack. But perhaps we can edge our way in.”\nThe Stanford Encyclopedia of Philosophy has a brisk introductory encyclopaedia article notionally addressed to philosophers by Jean-Pierre Marquis, ‘Category Theory’. But while this piece is a useful source of pointers forward to different areas of interest, I suspect most beginners won’t be enlightened at all, as it is already pretty abstract (and indeed will probably only reinforce the impression that you need to know a lot of mathematics before you can get to grips with categories — not so). Better to return to this article once you are already moderately acquainted with category theory."
+  },
+  {
+    "objectID": "categories/phil-cats.html#introduction",
+    "href": "categories/phil-cats.html#introduction",
+    "title": "Category Theory for Philosophers",
+    "section": "",
+    "text": "Philosophers will have come across claims that category theory – or in particular, that division of it which is topos theory – provides a new foundation, or a different sort of foundation, to mathematics, in some sense rivalling set theory in its sweep and generality. So philosophers with foundational interests may well want to know what the fuss is about. (OK, the cool kids may now think that that ‘homotopy type theory’ is where the foundational action really is: but you will still need to have some background in category theory to understand all that.)\nBut perhaps ‘foundations’ is the wrong metaphor for category theory. Thus Tom Leinster has written as a two-sentence characterization,\n\nCategory theory takes a bird’s eye view of mathematics. From high in the sky, details become invisible, but we can spot patterns that were impossible to detect from ground level.\n\nSo this would have category theory organizing mathematics (with sweep and generality, indeed) by finding unifying patterns, but not necessarily by seeing mathematics as reducible to, or embeddable into, or underpinned by, one grand foundational story.\n“It is too soon to worry about ‘foundations vs unifying overview’, however, before we even see category theory at work! But Leinster’s remark does point up why many philosophers, in particular, might find category theory hard work: for it is indeed often presented against an assumed wide-ranging knowledge of modern mathematics, and by drawing out patterns in a background which philosophers may well lack. But perhaps we can edge our way in.”\nThe Stanford Encyclopedia of Philosophy has a brisk introductory encyclopaedia article notionally addressed to philosophers by Jean-Pierre Marquis, ‘Category Theory’. But while this piece is a useful source of pointers forward to different areas of interest, I suspect most beginners won’t be enlightened at all, as it is already pretty abstract (and indeed will probably only reinforce the impression that you need to know a lot of mathematics before you can get to grips with categories — not so). Better to return to this article once you are already moderately acquainted with category theory."
+  },
+  {
+    "objectID": "categories/phil-cats.html#entry-level-expositions-of-category-theory",
+    "href": "categories/phil-cats.html#entry-level-expositions-of-category-theory",
+    "title": "Category Theory for Philosophers",
+    "section": "Entry-level expositions of category theory",
+    "text": "Entry-level expositions of category theory\nI’ll start with three introductory books with different virtues, in something like order of difficulty:\n\nF. William Lawvere and Stephen H. Schanuel, Conceptual Mathematics: A First Introduction to Categories (CUP 2nd edn. 2009). A genuinely gentle introduction that slowly introduces you to new categorial ways of thinking about some familiar things. In fact, you might well find the book rather too slow and a bit condescending at the outset (does the likely reader really need to have it explained, at length, over a hundred pages into the book, that if P then Q and if not-Q then not-P are equivalent?). However, if you can ignore such irritations, you do end up after a pretty painless journey having learnt rather more than you realize. (The second edition is notably more useful than the first because it adds chapters that ease the transitions to more advanced topics.)\n\nStill, many/most might prefer to start a step up and work through the first hundred or so pages of an older, more conventional book:\n\nRobert Goldblatt, Topoi: The Categorial Analysis of Logic (North-Holland 1979, very inexpensively reprinted by Dover 2009, and also available online). Overall, this book (as the title suggests) is angled towards aspects of category theory of particular interest to logicians. It eventually covers a good deal of ground (with the difficulty level then going up accordingly, of course), but for the moment I’m suggesting you start off by just reading the first three chapters which cover much of what you’d pick up from Lawvere and Schanuel in far fewer pages. As mathematical exposition, this still strikes me as first rate. (I’m inclined to say that if you don’t find these opening chapters accessible and intriguing, then category theory is probably not for you. If you do like them, then at some later point you’ll no doubt want to read more of the book.)\nHarold Simmons, An Introduction to Category Theory (CUP, 2011) is also highly accessible, and introduces some central notions of category theory you won’t find in Lawvere and Schanuel or in the opening three chapters of Goldblatt. In particular, it will give you a first handle on the key notion of adjoint functors. This is written for self-study with a lot of exercises (there are online solutions here). It still has as something of the conversational tone of the lecture room, and you could very well find it an engaging and helpful introduction. Try the first five chapters.\n\nAlso starting from scratch, and at something like the same level of accessibility of Goldblatt’s early chapters and/or Simmons’s book, there is:\n\nMy Introducing Category Theory aims to be rather more discursive/explanatory at various points. The coverage eventually goes further than Simmons and in a different direction to Goldblatt. Since I also try to keep the required mathematical background down to a bare minimum, this hopefully will be particularly useful to philosophers and others.\n\nA book which is often highly recommended as an entry-point for beginners is\n\nSteve Awodey, Category Theory, Oxford Logic Guides 49 (OUP 2nd ed, 2010).\n\nHowever, I should say that a reading group with a few very smart maths students who had already done a category theory course confirmed my impressions this is a very considerably bumpier ride than the author intends (and indeed that was one spur to me writing my own notes). It is too often a bit less than ideally clear, and some of the expositional choices seem to me debatable. However, it should work well if you have e.g. already read those early chapters from Goldblatt.\nWhat next? Here is another book which is again intended for relative beginners — but this time as in beginning graduate students who haven’t previously met category theory but can be assumed to be mathematically pretty competent. So this is somewhat tougher, being a bit brisker and more compressed. But I do think that this text is a model of brilliant exposition at its level.\n\nTom Leinster, Basic Category Theory (CUP, 2014).\n\nFinally, I should certainly mention a book which is not strictly speaking a general introduction to category theory but it introduces enough category theory for its purposes, and you’ll probably want to read it quite early in your explorations of category theory.\n\nF. William Lawvere and Robert Rosebrugh, Sets for Mathematics (CUP 2003) presents a different way of thinking about sets, and shows that an approach via category theory can throw new light on familiar territory. However I do find this quite badly written (philosophers will find too much sloppy talk — you have to read past that)."
+  },
+  {
+    "objectID": "categories/phil-cats.html#some-philosophical-discussions",
+    "href": "categories/phil-cats.html#some-philosophical-discussions",
+    "title": "Category Theory for Philosophers",
+    "section": "Some philosophical discussions",
+    "text": "Some philosophical discussions\nThe Stanford Encyclopaedia article by Marquis mentioned at the start also has lots of references to philosophical discussions. There are also two substantial books which promise some extended philosophical discussions:\n\nRalf Krömer, Tool and Object: A History and Philosophy of Category Theory (Birkaüser, 2007)\nJean-Pierre Marquis, From a Geometrical Point of View: Study of the History and Philosophy of Category Theory (Springer, 2009).\n\nMaybe at some point I’ll write book notes on both, but for the moment I’ll list them just with the comment that neither is easy! Some of the essays in\n\nGiandomenico Sica (ed), What is Category Theory? (Polimetrica, 2006)\n\nwill also be of interest to philosophers. And the recent\n\nElaine Landry (ed), Categories for the Working Philosopher (OUP, 2017)\n\nhas articles (of various degrees of accessibility) on aspects of category, pure and applied, of philosophical interest.\n\nBack to the main category theory page\nPage updated 9 July 2023"
+  },
+  {
+    "objectID": "ifl/index.html",
+    "href": "ifl/index.html",
+    "title": "An Introduction to Formal Logic",
+    "section": "",
+    "text": "The book and how to get it\nLogic bites and snippets\nCorrections\nExercises and worked answers\nOn truth trees\nLegacy pages: the first edition\nOther supplementary materials\nOther books"
+  },
+  {
+    "objectID": "ifl/index.html#book",
+    "href": "ifl/index.html#book",
+    "title": "An Introduction to Formal Logic",
+    "section": "The book and how to get it",
+    "text": "The book and how to get it\n\nAn Introduction to Formal Logic was originally published by Cambridge University Press (1st edition 2003; 2nd edition 2020). It began life as lecture notes for a course for first-year philosophers which I taught for many years. As a small contribution to students in the tough Covid era, a corrected version of the second edition is now available as a freely downloadable PDF.\nMany people, however, prefer to work from a physical book. And you can get a print-on-demand copy of IFL as an inexpensive large-format paperback from Amazon: UK link or US link or find on your local Amazon by using the ASIN identifier B08GB4BDPG in their search field.\nThere is also a slightly nicer but still inexpensive hardback version intended for libraries, available from bookshops and library suppliers as well as from online sellers, with the ISBN 978-1916906327.\n\nThis second edition has been very extensively revised and rewritten, and one particular difference from the first edition should be highlighted here. The book now focuses on a natural deduction proof system done Fitch-style, while the previous edition introduced so-called truth trees (tableaux). However, revised versions of the old chapters on truth trees for propositional and for predicate logic are still available, but now as freely available online supplements here; so those teaching a tree-based course based on the first edition aren’t being cut adrift.\nIf you want to get an idea of the way the book proceeds without skimming the whole PDF, then the section-by-section table of contents should give you a good indication:\n\nSection-by-section table of contents for IFL2\n\nIf you want to know about the particular natural deduction system adopted — since no two books seem to use exactly the same ND system — you’ll get a good idea from:\n\nDiagrammatic summary of PL natural deduction rules used in IFL2\nDiagrammatic summary of QL natural deduction rules used in IFL2"
+  },
+  {
+    "objectID": "ifl/index.html#podcasts",
+    "href": "ifl/index.html#podcasts",
+    "title": "An Introduction to Formal Logic",
+    "section": "Logic bites and snippets",
+    "text": "Logic bites and snippets\nIn lieu of podcasts introducing chapters or pairs of chapters (it’s too difficult to handle symbols in an audio format!), here’s a series of bitesized informal written introductions giving some orientation in a reasonably relaxed way:\n\nLogicbites (first twenty now online)\n\nOver the years, I have answered a lot of logic-related questions on the exceedingly useful math.stackexchange site. Here are some of my efforts:\n\nLogical snippets: over a hundred short answers to queries on elementary logic — apart from the sections on arithmetic and on Gödel’s theorem, mostly accessible to (near) beginners."
+  },
+  {
+    "objectID": "ifl/index.html#corrections",
+    "href": "ifl/index.html#corrections",
+    "title": "An Introduction to Formal Logic",
+    "section": "Corrections!",
+    "text": "Corrections!\nInevitably — it is a law of book-writing! — there will be typos (and possibly thinkos too) which need correction. They are listed on the following page:\n\nIFL2 corrections page\n\nThere are currently about twenty typos which need correction of which only two or three are likely to cause puzzlement. Printed and PDF versions of the book will be intermittently updated when enough corrections accrue."
+  },
+  {
+    "objectID": "ifl/index.html#exercises",
+    "href": "ifl/index.html#exercises",
+    "title": "An Introduction to Formal Logic",
+    "section": "The exercises, and worked answers",
+    "text": "The exercises, and worked answers\nThere is a (fairly modest) set of exercises at the end of most chapters. There are standalone versions for most of the question sets and (often very detailed) worked answers here:\n\nEnd-of chapter exercises from IFL2, and their solutions.\n\nIf you are looking for answers to the exercises in the first edition, then go to this page."
+  },
+  {
+    "objectID": "ifl/index.html#trees",
+    "href": "ifl/index.html#trees",
+    "title": "An Introduction to Formal Logic",
+    "section": "On truth trees",
+    "text": "On truth trees\nIdeally beginners should end up knowing about both ND and truth trees (tableaux); different teachers will make different choices of which to do first. If you want to use the book for a tree-based course, or want to find out about trees later, here are some more chapters! (Relevant exercises will follow.)\n\nTrees for propositional logic — [Considerably revised from IFL1]\nTrees for quantificational logic — [Temporary version soon to be revised]"
+  },
+  {
+    "objectID": "ifl/index.html#first",
+    "href": "ifl/index.html#first",
+    "title": "An Introduction to Formal Logic",
+    "section": "The first edition",
+    "text": "The first edition\nFor corrections to the first edition and answers to the exercises, go to this page."
+  },
+  {
+    "objectID": "ifl/index.html#supp",
+    "href": "ifl/index.html#supp",
+    "title": "An Introduction to Formal Logic",
+    "section": "Other legacy supplementary materials of various kinds",
+    "text": "Other legacy supplementary materials of various kinds\n\nGreek alphabet, and symbol sheet\nSets, relations and functions. In IFL we really play down the use of set-theoretic notation. In parallel reading, you may well encounter such notation being put to use. This old handout might help to explain.\nProof systems. It is hinted in IFL2 that natural deduction can be done in other styles than Fitch’s. For something on this, and on other proof systems, see another legacy handout.\n‘If’ and ‘⊃’ says more about Grice’s theory of conditionals.\nHow to read Dummett on Quantifiers.\nIntentional Contexts expands on some themes briefly skirted around in the book.\nRussell’s Theory of Descriptions expands on some themes in the book’s chapter."
+  },
+  {
+    "objectID": "ifl/index.html#other",
+    "href": "ifl/index.html#other",
+    "title": "An Introduction to Formal Logic",
+    "section": "Other books?",
+    "text": "Other books?\nThere are many other first introductions to logic at a similar level to IFL, some terrible, some mediocre, and a few very good. For a short freely downloadable text, see versions of forall X.\nI think the best traditional book alternative is my namesake Nick Smith’s excellent work, but the focus of this page is on the local IFL materials and their supplements."
+  },
+  {
+    "objectID": "ifl/exercises.html",
+    "href": "ifl/exercises.html",
+    "title": "IFL2: Exercises and answers",
+    "section": "",
+    "text": "In the left columns in each table there are links to PDFs to sets of end-of-chapter exercises for IFL2 (the numbers correspond to chapters, so there are gaps corresponding to chapters without exercises). The question sets may, however, also be useful to others using different textbooks. Occasionally the preambles to the questions here are tweaked so that they make more sense independently of the book.\nIn the right columns there are links to PDFs with worked answers. Many of these answers are elaborated at some length. But experience suggests that different people can get stuck in different ways, or need different points to be repeated."
+  },
+  {
+    "objectID": "ifl/exercises.html#introductory-exercises",
+    "href": "ifl/exercises.html#introductory-exercises",
+    "title": "IFL2: Exercises and answers",
+    "section": "Introductory exercises",
+    "text": "Introductory exercises\n\n\n\nExercises\nAnswers\n\n\n\n\nExercises 1 (Some informal arguments)\nAnswers to Exercises 1\n\n\nExercises 2 (Validity, soundness, etc.)\nAnswers to Exercises 2\n\n\nExercises 3 (Forms of argument)\nAnswers to Exercises 3\n\n\nExercises 4 (Informal proofs)\nAnswers to Exercises 4\n\n\nExercises 5 (Counterexamples)\nAnswers to Exercises 5\n\n\nExercises 6 (Logical validity)\nAnswers to Exercises 6\n\n\nExercises 7 (Propositions)\nAnswers to Exercises 7"
+  },
+  {
+    "objectID": "ifl/exercises.html#propositional-logic-introduced",
+    "href": "ifl/exercises.html#propositional-logic-introduced",
+    "title": "IFL2: Exercises and answers",
+    "section": "Propositional logic introduced",
+    "text": "Propositional logic introduced\n\n\n\nExercises\nAnswers\n\n\n\n\nExercises 8 (Negation and other connectives)\nAnswers to Exercises 8\n\n\nExercises 9 (PL syntax: parse trees)\nAnswers to Exercises 9\n\n\nExercises 10 (PL semantics: evaluating wffs)\nAnswers to Exercises 10\n\n\nExercises 11 (Quotation)\nAnswers to Exercises 11\n\n\nExercises 12 (Truth-functions and truth-tables)\nAnswers to Exercises 12\n\n\nExercises 13 (Expressive adequacy)\nAnswers to Exercises 13\n\n\nExercises 14 (Tautologies)\nAnswers to Exercises 14\n\n\nExercises 15 (Tautological entailment)\nAnswers to Exercises 15\n\n\nExercises 16 (More on tautological entailment)\nAnswers to Exercises 16\n\n\nExercises 17 (Absurdity)\nAnswers to Exercises 17\n\n\nExercises 18 (The truth-functional conditional)\nAnswers to Exercises 18\n\n\nExercises 19 (“If”s and “→”s)\nAnswers to Exercises 19"
+  },
+  {
+    "objectID": "ifl/exercises.html#natural-deduction-for-propositional-logic",
+    "href": "ifl/exercises.html#natural-deduction-for-propositional-logic",
+    "title": "IFL2: Exercises and answers",
+    "section": "Natural deduction for propositional logic",
+    "text": "Natural deduction for propositional logic\n\n\n\nExercises\nAnswers\n\n\n\n\nSummary of PL natural deduction rules\n\n\n\nCombined exercises on PL natural deduction\n\n\n\nExercises 20 (PL proofs: conjunction and negation)\nAnswers to Exercises 20\n\n\nExercises 21 (PL proofs: disjunction)\nAnswers to Exercises 21\n\n\nExercises 22 (PL proofs: conditionals)\nAnswers to Exercises 22\n\n\nExercises 23 (PL proofs: theorems)\nAnswers to Exercises 23"
+  },
+  {
+    "objectID": "ifl/exercises.html#quantificational-languages",
+    "href": "ifl/exercises.html#quantificational-languages",
+    "title": "IFL2: Exercises and answers",
+    "section": "Quantificational languages",
+    "text": "Quantificational languages\n\n\n\nExercises\nAnswers\n\n\n\n\nExercises 28 (A first QL language)\nAnswers to Exercises 28\n\n\nExercises 29 (Simple QL translation exercises)\nAnswers to Exercises 29\n\n\nExercises 30 (Yet more QL translations)\nAnswers to Exercises 30"
+  },
+  {
+    "objectID": "ifl/exercises.html#quantificational-logic-natural-deduction-and-semantics",
+    "href": "ifl/exercises.html#quantificational-logic-natural-deduction-and-semantics",
+    "title": "IFL2: Exercises and answers",
+    "section": "Quantificational logic: natural deduction and semantics",
+    "text": "Quantificational logic: natural deduction and semantics\n\n\n\nExercises\nAnswers\n\n\n\n\nSummary of QL natural deduction rules\n\n\n\nExercises 31 (Informal quantifier arguments)\nAnswers to Exercises 31\n\n\nExercises 32 (Formal QL proofs)\nAnswers to Exercises 32\n\n\nExercises 33 (More QL proofs)\nAnswers to Exercises 33\n\n\nExercises 35 (QL-valuations)\nAnswers to Exercises 35\n\n\nExercises 36 (QL validity)\nAnswers to Exercises 36"
+  },
+  {
+    "objectID": "ifl/exercises.html#adding-identity-to-ql",
+    "href": "ifl/exercises.html#adding-identity-to-ql",
+    "title": "IFL2: Exercises and answers",
+    "section": "Adding identity to QL",
+    "text": "Adding identity to QL\n\n\n\nExercises\nAnswers\n\n\n\n\nExercises 38 (Identity)\nAnswers to Exercises 38\n\n\nExercises 41 (QL= proofs)\nAnswers to Exercises 41"
   }
 ]

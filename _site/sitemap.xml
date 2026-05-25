@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://your-website-url.example.com/index.html</loc>
-    <lastmod>2026-05-24T15:09:41.099Z</lastmod>
+    <lastmod>2026-05-25T10:41:49.339Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/posts/welcome/index.html</loc>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://your-website-url.example.com/categories/index.html</loc>
-    <lastmod>2026-05-24T17:11:05.928Z</lastmod>
+    <lastmod>2026-05-25T10:15:02.882Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/categories/categories-lists.html</loc>
@@ -30,6 +30,18 @@
   </url>
   <url>
     <loc>https://your-website-url.example.com/categories/comments.html</loc>
-    <lastmod>2026-05-24T16:59:19.421Z</lastmod>
+    <lastmod>2026-05-24T20:21:26.516Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/categories/phil-cats.html</loc>
+    <lastmod>2026-05-25T09:39:26.067Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/ifl/index.html</loc>
+    <lastmod>2026-05-25T12:38:56.410Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/ifl/exercises.html</loc>
+    <lastmod>2026-05-25T12:56:13.481Z</lastmod>
   </url>
 </urlset>

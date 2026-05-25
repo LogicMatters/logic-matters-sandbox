@@ -11,7 +11,7 @@ The links below are to a selection of freely (and legitimately!) available onlin
 - [Some selected books and hand-book articles](#books)
 - [A more comprehensive list of online lecture notes and books](categories-lists.qmd).
 - [A few videos](#videos)
-- [Introductory readings for philosophers](/tyl/category-theory/)
+- [Introductory readings for philosophers](phil-cats.qmd)
 
 
 
@@ -34,8 +34,8 @@ Part I of the notes says something about what can be found inside individual cat
 
 I have gone for a fairly conventional mode of presentation but at a very gentle (painfully slow?) pace. This makes for a long book — but I make no apology for that: faster-track alternatives are available if you want them! The current version is linked here:
 
-- [Introducing Category Theory](../pdfs/SmithCat.pdf) (3rd edition, version 3.4a, May 2026: pp. xvii+510).
-- [A corrections page](../pdfs/corrections_ICT3_1.pdf) for the first printing of 3rd edition (version 3.1, January 2026).
+- [Introducing Category Theory](SmithCat.pdf) (3rd edition, version 3.4a, May 2026: pp. xvii+510).
+- [A corrections page](corrections_ICT3_1.pdf) for the first printing of 3rd edition (version 3.1, January 2026).
 
 For encouragement to dip into the PDF to see whether the book might work for you,
 

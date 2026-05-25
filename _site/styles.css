@@ -8,6 +8,11 @@ body {
   line-height: 1.5;
 }
 
+h1, h2, h3, h4, h5, h6,
+h1.title, h2.title, h3.title, h4.title, h5.title, h6.title {
+  color: #5353ac !important;
+}
+
 /* Anchor offset for fixed header / Safari scroll positioning */
 :target::before {
   content: "";
@@ -19,7 +24,6 @@ body {
 
 h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
   scroll-margin-top: 8rem;
-  color: #5353ac;
 }
 
 /* Ensure anchored headings are visible below the fixed navbar */

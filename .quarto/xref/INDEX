@@ -22,5 +22,14 @@
   },
   "categories/comments.qmd": {
     "comments.html": "1ebea560"
+  },
+  "categories/phil-cats.qmd": {
+    "phil-cats.html": "b8c77cdb"
+  },
+  "ifl/index.qmd": {
+    "index.html": "5c0aab1a"
+  },
+  "ifl/exercises.qmd": {
+    "exercises.html": "af81f269"
   }
 }
