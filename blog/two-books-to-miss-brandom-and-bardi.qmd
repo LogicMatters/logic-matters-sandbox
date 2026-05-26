@@ -1,0 +1,61 @@
+---
+title: "Two books to miss? Brandom and Bardi"
+date: "2026-01-04"
+categories: ["Books"]
+---
+
+
+<p>More than twenty years ago, Robert Brandom wrote <em>Making it Explicit</em>, a 762 page ramble of hand-waving pretentiousness. The sort of philosophical tome I detest. His shortened version <em>Articulating Reasons</em> just exposed how creaky the whole Brandomian edifice is -- my esteemed colleague Alex Oliver had fun <a href="https://www.lrb.co.uk/the-paper/v22/n21/alex-oliver/pink-elephants">taking a bash in the <em>LRB</em></a>. </p>
+
+
+
+<p>Brandom has produced a great deal since, including fairly recentl<a href="https://www.amazon.co.uk/Reasons-Logic-Pragmatics-Semantics-Conceptual/dp/1032360763/ref=sr_1_4?crid=37QWBI0SKI4L&amp;dib=eyJ2IjoiMSJ9.H6Z-huMHTZF9eiNhPuByHIPmFkfeBggcGBNMLc3x9WEl90J_dLusSCe__X8Dk5ZMdtscUPmn-Jy-Lappz0fBzAf7mWUoHvDq05cRE6fRgJV_zUNm-_7izbkUpNAeqvpKoQeqLRC_wMi22njSQLdiVg.5e1IRzsitBKxSJLTW2nkJV2Cg2kkwP49SMWeqCWPq64&amp;dib_tag=se&amp;keywords=robert+brandom+logic&amp;qid=1767527131&amp;sprefix=robert+brandom+logic%2Caps%2C95&amp;sr=8-4" target="_blank" rel="noreferrer noopener">y </a><em>Reasons for Logic, Logic for Reasons</em>, co-written with Ulf Hlobil. I‘ve been asked what I think of its line on logic. Well, I haven’t read the book. But I have looked at the <em>Outline</em> that Brandom has put <a href="https://sites.pitt.edu/~rbrandom/Courses/2022%20Phil%20of%20Language/Reasons%20texts/Brandom%20Intro%20to%20RLLR%2022-8-14%20a.pdf">online here</a>. He tells us, e.g., that</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>Logic does not provide a substantive standard for right reasoning in the sense of dictating the correct reason relations of implication and incompatibility: what really follows from or rules out what. It provides expressive tools that let practitioners make explicit the inferential (implicational and incompatibility) commitments that are implicit in their reasoning practices—whatever those commitments are. Here “making explicit” means “putting in the thinkable, assertible form expressed by declarative sentences.” What is explicitly expressed by declarative sentences can in turn be understood as what can both serve as and stand in need of reasons: what can play the role both of premise and of conclusion in inferential relations. Prelogical vocabulary lets us make doxastic commitments explicit. Logical vocabulary lets us make explicit inferential commitments relating them. The benefit of being able to do that is that logical vocabulary makes it possible to bring the inferential commitments that govern practices of giving and asking for reasons (defending and challenging claims) into those practices as themselves things for which reasons can be given and asked for. Logical vocabulary makes it possible to be critical about inferential connections between claimables in virtue of which they play the role they do in reasoning practices, and in that sense mean what they do. Logic should accordingly be understood not as a prescriptive canon for right reasoning, but as an expressive organon: not as providing a standard governing assessments of the correctness of reasoning but as making possible critical investigation and discussion of the credentials of moves as well as positions, inferences as well as claims. Logic should be understood as an organ of critical inferential self- consciousness, and so of critical semantic self-consciousness.</p>
+</blockquote>
+
+
+
+<p>Really? Logic as an organ of critical semantic self-consciousness eh? Well, that’s us told, and with transparent clarity too.</p>
+
+
+
+<p>I am certainly not averse to taking inferentialism seriously as an account of the meaning of logical constants: but served up Brandom-style? I think not. So I am frankly not in the least inclined to give the book any more time. But you can take a look at the <em>Outline</em> and make your own judgement.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+
+
+
+<p>Another book I’ve been asked about is Jason Socrates Bardi’s <em>The Great Math War: How Three Brilliant Minds Fought for the Foundations of Mathematics </em>about Russell, Hilbert and Brouwer. As the title suggests, this is not a hard core academic book but a more journalistic effort. Fine. I am not averse to such books either. </p>
+
+
+
+<p>But I suspect it is very likely to be poor stuff. Partly on inductive grounds. Bardi earlier wrote a book <em>The Calculus Wars: Newton, Leibniz, and the Greatest Mathematical Clash of All Time</em> which apparently is hopelessly inaccurate as history. There is an excoriating review by <a href="https://www.ams.org/notices/200905/rtx090500602p.pdf">Brian E. Blank in the <em>Notices of the AMS</em></a> -- a lengthy piece which is actually itself very interesting if, like me, you only have a feeble grip on the Newton/Leibniz priority issue (hat tip to @Theoremoftheday on mathstodon).</p>
+
+
+
+<p>Has Bardi done better on the foundational disputes at the beginning of the twentieth century? Well, I’m told that on  on p 288, he says Gödel “develops a second incompleteness theorem, which says that if a system is inconsistent, it cannot be proven consistent using its own inconsistent means” (hat tip to Rowsety Moid). </p>
+
+
+
+<p>Well, if it is inconsistent, a system can’t be proved consistent by any means, and that triviality has nothing to do with Gödel. Perhaps Bardi means that an inconsistent theory can’t prove its own canonical consistency sentence. But of course that’s absurdly wrong too. Suppose PA* is PA + 0 =1. Then PA* is inconsistent, has a classical logic, so we can derive from its axioms ANY sentence in its language, including the arithmetic Con(PA*) formed on a par with Con(PA).  </p>
+
+
+
+<p>This kind of elementary foul-up by Bardi, “not even wrong” as they say,  inspires zero confidence. So, unless I hear otherwise,  another book not to spend time on, methinks.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+
+
+
+<p>For something, however, that <em>is</em> so very worth your time, the quite wondrous Alina Ibragimova, playing the great Chaconne from Bach's Partita no. 2. </p>
+
+
+https://youtu.be/557OWzYkHv8?si=aWkqxz2t9twq2Bge

@@ -1,0 +1,37 @@
+---
+title: "Proof-reading, with a bit of help from LLMs"
+date: "2026-05-17"
+categories: ["This and that"]
+---
+
+
+<p>What have I learnt over recent weeks, preparing a corrected version of <em>Introducing Category Theory</em>, invoking -- at various stages -- my friends Claude, Gemini and ChatGPT as proof-reading assistants?<br><br>Not very helpfully, the take-home message is that LLMs are both extremely useful and also surprisingly bad at proof-reading. To explain ...</p>
+
+
+
+<p>Let me backtrack. At the beginning of the year I called a halt to tinkering with a revised version of my notes <em>Introducing Category Theory</em>, and set-up a new Amazon print-on-demand paperback, officially as a third edition. In putting together that edition I had made use of all three of those LLMs, uploading the LaTeX files a chapter at a time, asking to hear in particular about (1) definite typos, definite grammatical errors, (2) obscure/ill-written sentences, and (3) mathematical and other errors. I made it clear that the relaxed prose style was entirely intentional, which didn't stop the LLMs giving a lot of stylistic advice which I largely ignored. </p>
+
+
+
+<p>I was (foolishly it turns out) fairly confident that the book was in good shape as far as typos and elementary thinkos were concerned. And so I’d planned to set up a hardback-for-libraries version as well. But (for reasons that don’t at all matter here) this got delayed. But eventually, in early April, I found myself starting to re-check the third edition of&nbsp;<em>Introducing Category Theory</em> before making a hardback edition.&nbsp;Initially I returned to Claude (and remember it was looking at files that had already been checked over by three LLMs, including an earlier version of itself). Rather depressingly, it found more errors. Speculatively, I then asked Gemini, giving it the same uncorrected files, which found <em>more</em> errors (with markedly less than 50% overlap). Hey ho! Off we go again ...</p>
+
+
+
+<p>So over recent weeks the whole book was checked again by both Claude and Gemini. On the positive side, they both spotted errors that were not exactly trivial (if a human proof-reader had spotted them, you would say that showed some level of understanding of what was supposed to be going on). On the downside, the failure of the two LLMs to spot the <em>same</em> mistakes wasn’t exactly confidence-inspiring. </p>
+
+
+
+<p>So (neurotically?) when I’d cross-checked to the end of the book again, I decided to spot sample a couple of chapters with ChatGPT. The prompt was brisk, basically “Please let me know about any definite typos, grammatical mistakes, logical or mathematical errors.” And back came a list of yet <em>more</em> errors missed by Claude and Gemini. So we went through the whole book yet again. Sigh. (Oddly, ChatGPT couldn't stably settle on a format for its chapter-by-chapter reports -- successive reports could be arranged quite differently. Claude, I think, wins the prize for elegant usability.)<br><br>A list of the worst mistakes in the original printing of the third edition, meaning mistakes that could have led a reader astray or caused puzzlement, <a href="https://www.logicmatters.net/resources/pdfs/corrections_ICT3_1.pdf">is online her</a>e. That final trawl using ChatGPT is responsible for over a quarter of the long list, so -- tedious though it was --  I am glad I made that effort. </p>
+
+
+
+<p>Along with those listed mistakes, our LLMs also found about three times as many trivial mistakes -- missing punctuation, inverted word order, etc., the kind of mistake which it is so easy for a human reader to miss and which will cause no trouble. But remember, Claude and co. <em>were</em> working from a source text which they had already checked over previously.  How come they had missed these errors before?<br><br>I am embarrassed (a little, anyway) that that printed third edition had so many errors. But at least my LLM friends found few outright thinkos. So there you have it. The LLMs were indeed very useful and found lots of typos, and also those few thinkos, mistakes that I had repeatedly missed (or which I had introduced by making other changes). And some of their reports of unnecessary obscurities were helpful too, leading to expositional improvements. But each of the three LLMs was  quite surprisingly unreliable at finding even bog basic elementary typos: their pattern-matching skills are far from stunningly accurate.</p>
+
+
+
+<p>My advice, then, if you <em>are</em> faced with a proof-reading task, is: use all three LLMs (certainly don’t rely on just one). And if it is a book-length and/or maths-heavy task, do get a Pro-level subscription to each for a month or so.</p>
+
+
+
+<p>And, after all that, a new cleaner version of <em>ICT </em>(paperback, hardback and free PDF) will be out shortly. I can then get back to real logical matters ...</p>
+

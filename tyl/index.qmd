@@ -1,6 +1,5 @@
 ---
 title: "The Study Guide and Book Notes"
-description: "A locally mirrored version of the old Logic Matters TYL page with guide and appendix PDFs."
 ---
 
 ### A Study Guide
@@ -9,7 +8,7 @@ A re-titled, expanded version of the old *Teach Yourself Logic* study guide. Thi
 
 - [Beginning Mathematical Logic: A Study Guide](pdfs/LogicStudyGuide.pdf) _"Beginning Mathematical Logic: A Study Guide"_ [corrected reprint 5 Jan 2024]
 
-The *Guide* is also available as a very "inexpensive paperback, about the price of a couple of coffees, but only direct from Amazon (sorry!) as this minimizes the price for you: ISBN 1916906338."
+The *Guide* is also available as a very inexpensive paperback, about the price of a couple of coffees, but only direct from Amazon (sorry!) as this minimizes the price for you: ISBN 1916906338.
 
 - [Corrections to early 2022 printed version.](pdfs/Corrections_BML.pdf)
 

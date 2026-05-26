@@ -2,7 +2,7 @@
 title: "Mathematical  Logic:  Exercises and Solutions"
 ---
 
-*
+<img src="covers/51dDuma3M1L._AC_UY436_QL65_-211x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
  In a  recent addition to the Springer series ‘Problem Books in Mathematics. Laszlo Csirmaz and Zalán Gyenis have put together a fairly challenging collection *Mathematical Logic: Exercises and Solutions*. From the Preface:** Problems in this volume have been collected over more than 30 years of teaching undergraduate students Mathematical Logic at Eötvös Loránd University, Budapest. The problems come in great variety: routine applications of a newly introduced technique, checking whether the conditions of a particular theorem are really necessary, extending or ﬁnding the limitations of various methods, to amusing puzzles and interesting applications of established results. They range from easy questions and riddles to proving hard theorems when all the necessary ingredients are—hopefully—available.
 

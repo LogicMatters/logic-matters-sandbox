@@ -2,7 +2,7 @@
 title: "Hellman and Shapiro on Mathematical Structuralism"
 ---
 
-*
+<img src="covers/9781108456432.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 CUP are publishing a series of short books (about 100 pages) under the title Cambridge Elements in the Philosophy of Mathematics. The blurb says that the series “provides an extensive overview of the philosophy of mathematics in its many and varied forms. Distinguished authors will provide an up-to-date summary of the results of current research in their fields and give their own take on what they believe are the most significant debates influencing research, drawing original conclusions.” Which *sounds* ambitious. So far, just two Elements have been published, *Mathematical Stucturalism* (2018) by Geoffrey Hellman and Stewart Shapiro, and *A Concise History of Mathematics for Philosophers* (2019) by John Stillwell.
 

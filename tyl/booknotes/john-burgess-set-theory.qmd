@@ -2,7 +2,7 @@
 title: "John Burgess, Set Theory"
 ---
 
-*
+<img src="covers/9781108986915.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 Like other books in the Cambridge *Elements* series, this John Burgess’s contribution on *Set Theory* is about seventy, not-very-packed, pages (perhaps 30K words?). More than an encyclopedia article, or a handbook chapter, but half the length of a short book like my *Gödel Without Tears*. Books in the series are aimed at providing “a dynamic reference resource for graduate students [and] researchers”. And that’s already a tall order for a book on *this* topic, at any rate: for most graduate students in philosophy (even if logic-minded) are likely to be pretty much beginners when it comes to tackling some set theory — and a book accessible to such beginners isn’t likely to also to be of much interest to researchers.
 

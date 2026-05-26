@@ -15,10 +15,8 @@ website:
         href: https://bsky.app/
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
+    mainfont: "STIX Two Text, serif"
+    fontsize: 1.1em
     css: styles.css
-
-
 

@@ -2,7 +2,7 @@
 title: "Avigad’s MLC: The full story …"
 ---
 
-*
+<img src="covers/51P08fnxeL-214x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 I have at last returned to finish reading Jeremy Avigad’s *Mathematical Logic and Computation*, which was published last year by CUP. Here, now put together into one post, are some thoughts about the book (increasingly less per chapter, as I came to realise that — despite Avigad’s intentions and despite the many virtues of the book — this isn’t really a book for beginners, and so it won’t in the end feature largely in main part of the *Beginning Mathematical Logic* Study Guide).
 

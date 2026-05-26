@@ -1,0 +1,57 @@
+---
+title: "Gödel, Lean, Fra Angelico, Schubert"
+date: "2026-01-26"
+categories: ["Gödel's theorems", "This and that"]
+---
+
+
+<p>So far -- but then I am still in the foothills, tinkering with early chapters -- I have found just a couple of minor expositional stumbles in <em>An Introduction to Gödel’s Theorems</em>. I have spotted, though, quite a few places where I can make the text run just that bit more smoothly. And my friend Gemini Pro has also chipped in with perhaps two or three helpful small suggestions per chapter. </p>
+
+
+
+<p>There is just one passage in the book, however, which now strikes me as just wrong. It’s not a technical error (phew!). But I do write on p. 25, talking about projects of formalization, that “outside the logic classroom we almost never set out deductive arguments in fully formalized versions”. That was perhaps more or less true enough when I first wrote it about twenty years ago; but it certainly isn’t today, with the exponential growth of work using formal computer proof assistants like Lean.</p>
+
+
+
+<p>So I have just been looking around for a reference or two to Lean and its cousins for a possible footnote. And I found <a href="https://arxiv.org/abs/2411.11885">this piece by Jeremy Avigad and others</a> which appeared last year in <em>Notices of the AMS</em>, which I thought was enlightening and might be of wider interest.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+
+
+
+<figure class="wp-block-image alignleft size-large is-resized"><a href="https://www.logicmatters.net/wp-content/uploads/2026/01/61ZnXmdzTNL._SL1245_-scaled.jpg"><img src="../images/2026/61znxmdztnl-_sl1245_-680x1024-jpg.jpg" alt="" class="wp-image-19040" style="width:auto;height:360px"/></a></figure>
+
+
+
+<p>I’m much enjoying getting back into thinking a little about Gödelian matters. And as I get to the point of revising the main chapters on the arguments for the first incompleteness theorem, one task for me will be actually to read Gödel 1931 again to see if I want to add more references to the paper. I must also take another look at the volume Jan von Plato published in 2020, as the result of his detective work grappling with Gödel’s shorthand notes written in the months leading up to his publishing the epoch-making paper. (Apart from a review by John Dawson in <em>Philosophia Mathematica</em>, that volume seems to have received surprisingly little attention. Perhaps because it does seem to take some effort to dig out the more interesting material -- I’ll perhaps write something brief about that here.)</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+
+
+
+<figure class="wp-block-image alignright size-full is-resized"><a href="https://www.logicmatters.net/wp-content/uploads/2026/01/71LIQDLzwbL._SL1000_.jpg"><img src="../images/2026/71liqdlzwbl-_sl1000_-jpg.jpg" alt="" class="wp-image-19042" style="width:auto;height:360px"/></a></figure>
+
+
+
+<p>So it turned out that we couldn’t get to the Fra Angelico exhibition at Palazzo Strozzi and the convent of San Marco. By all accounts, it was wonderful to see -- there is <a href="https://www.lrb.co.uk/the-paper/v48/n01/anna-mcgee/at-the-palazzo-strozzi">a very readable piece by Anna McGee in the <em>London Review of Books</em> here</a>.</p>
+
+
+
+<p>Getting the volume published to accompany the exhibition is -- of course -- a poor second best. Though it is wonderful to have. There are some very interesting essays. And you can revisit more often and can pause longer over some of the works in splendid illustrations (though the decisions over which panels and which frescos get really detailed reproductions are sometimes frustrating too). </p>
+
+
+
+<p>But though the exhibition finishes, San Marco of course remains, and we must return one day.  And as Anna McGee writes, “The convent and its art encourage a sort of contemplation different from that of a museum. Henry James, who visited in 1873, put it well: ‘You may be as little of a formal Christian as Fra Angelico was much of one, you yet feel admonished by spiritual decency to let so yearning a view of the Christian story work its utmost will on you.’”</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+
+
+
+<p>We didn’t get to Imogen Cooper’s last solo recital at Wigmore Hall a week ago either. But we knew that was going to be recorded. And here she is, playing Schubert -- the composer who has meant the most to her -- his two sets of impromptus: <em>Video  no longer available</em>.</p>
+

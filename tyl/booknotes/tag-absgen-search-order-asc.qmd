@@ -2,7 +2,7 @@
 title: "AbsGen Archives - Logic Matters"
 ---
 
-*
+<img src="covers/Unknown.jpeg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 Absolute Generality 1: Kit Fine and the All in One Principle
 

@@ -2,7 +2,7 @@
 title: "Westerståhl: Foundations of Logic – Completeness, Incompleteness, Computability"
 ---
 
-*
+<img src="covers/51EVVyQsVXL._SL1200_.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
  
 

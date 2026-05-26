@@ -2,7 +2,7 @@
 title: "Forster: Logic, Induction and Sets"
 ---
 
-*
+<img src="covers/9780511810282i.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
  
 

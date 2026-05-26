@@ -2,7 +2,7 @@
 title: "Mileti, Modern Mathematical Logic"
 ---
 
-*
+<img src="covers/Mileti-209x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
  
 

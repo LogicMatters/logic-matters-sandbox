@@ -1,0 +1,31 @@
+---
+title: "Gödel's Theorems (and logicisms) revisited"
+date: "2026-01-19"
+categories: ["This and that"]
+---
+
+
+<p>I didn’t at all intend to return to my <em>Introduction to Gödel’s Theorems</em> (which I’ve not really read for a dozen years, apart from correcting a small handful of typos in the PDF). But I had occasion to look something up, and -- hey, ho! -- I’ve found myself over the last week beginning to tinker with early chapters (so far in very minor ways, for added clarity). And having started, I guess I’ll continue. Not that I’m planning any major changes: I much like the structure of the book as it is. I’ll just be maximising accessibility, and perhaps adding footnotes pointing to a few more recent publications. </p>
+
+
+
+<p>But I wonder, I wonder, ... I can envisage a tempting project, a follow-up <em>Incomplete Variations</em> (say) with a series of independent essays on specific topics. As well as more technical fun, there could be chapters on ‘What actually happens in Gödel 1931?’, ‘Ten different ways of proving the first incompleteness theorem’, ‘How to prove the second theorem’, ‘Wittgenstein on Gödel’ (oh dear!), ‘Gödel and the dialetheists’ (really?!), ‘Kripke and Gödel’, maybe ‘Gödel’s disjunction’ (i.e. more about Gödel, minds and machines), ‘What should a contemporary logicist about arithmetic make of incompleteness?’, etc. Oh, what to prioritize?</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+
+
+
+<p>By coincidence, Richard Kimberly Heck has just posted a comment today on an old blogpost on the last topic I just mentioned, about how someone who is still inclined to find truth in logicism should respond to the incompleteness theorems. <a href="https://www.logicmatters.net/2022/12/17/logicisms-and-godels-theorem/">I do find Heck’s line here congenial</a>.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+
+
+
+<p>Let me add another musical interlude. There were some starry performers at the  XX Cartagena Festival de Música earlier this month, including the Pavel Haas Quartet -- and not least Elisabeth Brauß, who played her favourite Mozart Piano Concerto, the 23rd. Here she is, very engaging as always [from 39.20].</p>
+
+
+<p>https://www.youtube.com/watch?v=rX5cienR_Ek&t=2360s</p>

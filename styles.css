@@ -1,11 +1,10 @@
 /* css styles */
 
-html {
-  font-size: 105%;
-}
+
 
 body {
   line-height: 1.5;
+  background-color: #f4f7fb;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -55,4 +54,21 @@ blockquote,
 blockquote p,
 .blockquote p {
   color: inherit !important;
+}
+
+main.content {
+  background-color: #ffffff;
+  border: 1px solid #dfe4ea;
+  border-radius: 0.85rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  padding: 1.75rem 1.75rem 1rem;
+  align-self: start;
+}
+
+main.content p:first-child {
+  margin-top: 0;
+}
+
+main.content p:last-child {
+  margin-bottom: 0;
 }

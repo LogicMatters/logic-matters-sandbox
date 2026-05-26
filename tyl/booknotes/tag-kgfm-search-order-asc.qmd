@@ -2,7 +2,7 @@
 title: "KGFM Archives - Logic Matters"
 ---
 
-*
+<img src="covers/Unknown.jpeg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 *KGFM* 1: Macintyre on the impact of incompleteness on maths
 

@@ -2,7 +2,7 @@
 title: "Greg Restall, Proofs and Models in Philosophical Logic"
 ---
 
-*
+<img src="covers/41xuSXSnEML._SX428_BO1204203200_-199x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 There does seem little consistency in the level/intended audience of the various books in the Cambridge *Elements* series. John Bell’s book on type theory is pretty hard-core graduate level, and mathematical in style and approach. John Burgess’s book on set theory I found to be a bit of a mixed bag: the earlier sections are nicely approachable at an introductory level; but the later overview of topics in higher set theory — though indeed interesting and well done — seems written for a different, significantly more mathematically sophisticated, audience. It is good to report, then, that Greg Restall — as his title promises — does keep philosophers and philosophical issues firmly in mind; he writes with great clarity at a level that should be pretty consistently accessible to someone who has done a first formal logic course.
 

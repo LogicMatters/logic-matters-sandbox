@@ -2,7 +2,7 @@
 title: "Kreisel’s Interests?"
 ---
 
-*
+<img src="covers/314XMmK4acL._SX331_BO1204203200_-200x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 College Publications is indeed a decidedly peculiar outfit. On the one hand, they publish a lot of books on logic (broadly construed), and the books appear as very inexpensive print-on-demand paperbacks (excellent!). On the other hand, the quality control seems entirely unreliable, and many books must surely fall more or less stone dead from the press with tiny sales. Moreover, the press seem to make no real effort to spread the word: there is a very amateurish, ill-organized, website which often has only uselessly minimal information about the publications. As far as I can see, there is nothing like e.g. a quarterly newsletter that librarians and the rest of us can sign up for. It’s not surprising then that few of their books seem to end up even in the vast Cambridge university library system.
 

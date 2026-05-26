@@ -2,7 +2,7 @@
 title: "Srivastava, A Course on Mathematical Logic"
 ---
 
-*
+<img src="covers/Srivastava-200x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
  
 

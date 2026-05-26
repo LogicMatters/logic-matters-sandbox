@@ -1,0 +1,53 @@
+---
+title: "The Big Red Logic Books – last year, this year."
+date: "2026-01-01"
+categories: ["This and that"]
+---
+
+
+<p>As I have said more than once before, self-publishing was exactly appropriate for the Big Red Logic Books. I am way past the stage of needing the brownie points that are gained by continuing conventional publication. The books are aimed at students, so why not make them available as widely as can be? — free to download as PDFs, for those happy to work from their screens, and at minimal-cost as print-on-demand paperbacks for the still significant number who (faced with a long text) prefer to work from a physical copy. What’s not to like?</p>
+
+
+
+<p>How did downloads and sales go in 2025? The headline news is that downloads of PDFs significantly increased (in the case of <em>IFL</em> almost doubled in two years); while sales of paperbacks were down (a bit over 30% in the same period). I’m pleased enough by the former, and not at all surprised by the latter (if only because fewer and fewer students buy books quite generally, while more and more must surely arrive at university totally used to reading everything onscreen, and with better and better screens to work on too).</p>
+
+
+
+<p>Last year <em>IFL</em> was the most often downloaded, but was closely followed by both the Study Guide and by <em>ICT</em>. I look at the absolute download numbers with a little scepticism. But I’m told that, for example, 741 different individuals downloaded the category theory book last month (some multiple times). Who knows how many actually read very much of the file they requested; but enough, let’s hope, to make it all worthwhile.</p>
+
+
+
+<p>So what are the plans for 2026? </p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+
+
+
+<p>In January, I really <em>must</em> finish proof-reading and checking the revised second edition of <em>ICT</em>. And at the moment I am well on schedule (says he, tempting fate). Then I can set aside categories once and for all, and get back to more central logical matters!</p>
+
+
+
+<p>Given world enough and time, there are a couple of new books I would have liked to take on, but who am I kidding at this stage of life? No, being realistic, I’m going to relax and tinker with a couple of the old ones. The <em>Beginning Mathematical Logic Study Guide</em> gets more readers than I could have predicted, steadily downloaded by over 500 individuals a month (and it has rather startlingly now sold over 2000 paperbacks). So a first priority will be to improve and update that currently rather uneven effort. And, as I’ve found before, working on <em>BML</em> is quite a stress-free project: there are no classic models to follow, no previous paradigms to keep comparing my own efforts to.</p>
+
+
+
+<p>What else? I’m not inclined to revisit the two Gödel books right now. But I must do something with my intro logic book. One issue with the current version of <em>IFL</em> is that it inherits the not-entirely-satisfactory dual nature of my first year Cambridge lectures for philosophers. There’s a pre-formal chunk introducing ideas like deduction vs induction, validity, ‘form’, proof, counterexample and the like. Then this is yoked together with a basic treatment of the propositional calculus and quantificational logic, served up natural deduction style. It would make quite a bit of sense to carve this into two separate books -- a short stand-alone pre-formal book, and then an introduction to core formal logic. The main more formal book could then be made suitable for readers coming from a range of backgrounds who don’t need to revisit the pre-formal stuff at any length. I’ll cogitate about this some more, but at the moment I really quite like this plan. &nbsp;Whatever happens, though, I’ll leave the current version of <em>IFL</em> available and in print, as it would be very annoying for those who have adopted the text if I dropped it!</p>
+
+
+
+<p>So onwards ... <em>Deo volente</em>.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+
+
+
+<p>Happy New Year! And if you need some joyous distraction from these troubled times then you can’t do better than watch and listen to the ever-more-engaging Noa Wildschut playing a Mozart violin concerto. Here she is, from a concert in Frankfurt earlier in the year:</p>
+
+
+
+<p>https://youtu.be/uEiczVQnvE8?si=Jv47hJU1Xii8LsDV</p>
+

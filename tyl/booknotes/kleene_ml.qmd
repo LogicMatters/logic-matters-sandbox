@@ -2,7 +2,7 @@
 title: "Kleene: Mathematical Logic"
 ---
 
-*
+<img src="covers/41xMOxaB+cL.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
  
 

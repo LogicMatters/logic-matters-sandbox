@@ -2,7 +2,7 @@
 title: "Pollard’s Mathematical Prelude to the Philosophy of Maths"
 ---
 
-*
+<img src="covers/Unknown.jpeg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
  “This book is based on two premises: one cannot understand philosophy of mathematics without understanding mathematics and one cannot understand mathematics without doing mathematics.” Thus the blurb of Stephen Pollard’s recent book *A Mathematical Prelude to the Philosophy of Mathematics* (Springer, 2014: xi + 202pp).
 

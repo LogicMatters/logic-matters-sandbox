@@ -2,7 +2,7 @@
 title: "Enderton: A Mathematical Introduction to Logic"
 ---
 
-*
+<img src="covers/A-Mathematical-Introduction-to-Logic-Enderton-Herbert-EB9780080496467.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
  
 

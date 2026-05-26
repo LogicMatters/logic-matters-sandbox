@@ -1,0 +1,17 @@
+---
+title: "A new version of ICT"
+date: "2026-05-14"
+categories: ["This and that"]
+---
+
+
+<p>The end is in sight. I have just uploaded <a href="/resources/pdfs/SmithCat.pdf">another PDF of <em>Introducing Category Theory</em></a> (now identified as Version 3.4 on the verso of the title page -- you might need to clear your brower's cache to force a download of the latest, greatest, version). <br><br>Never say never, but I hope no further significant changes will be needed before I set up a paperback version. Fingers crossed.</p>
+
+
+
+<p>I have yet to do a final visual check for layout issues. But meanwhile, I will write a separate post about my rather mixed experiences with using LLMs as proof-reading assistants, which might be of some more general interest to others with academic book projects.</p>
+
+
+
+<p></p>
+

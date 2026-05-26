@@ -1,0 +1,29 @@
+---
+title: "Gödel, slowly ..."
+date: "2026-02-28"
+categories: ["Gödel's theorems", "Music"]
+---
+
+
+<p>As I said some weeks ago, I am slowly revising my <em>Introduction to Gödel’s Theorems</em>; I am still only about a third of the way through. I haven’t yet spotted any real horrors, but I’ve found some ways of re-arranging the material for the better, and there are quite a few sections which now strike me as not quite as relaxed and accessible as they should be. I started off planning a mildly revised reprint; but it looks as though the book will end up sufficiently changed for the result to count as a new edition later this year. </p>
+
+
+
+<p>I suppose, then, that if there <em>is</em> going to be a new edition, I should revisit the question of whether, this time around, to give a full-dress proof of the second incompleteness theorem for PA. It could a nice expository challenge to see how smooth I can make this ... I’ll need to do some homework!</p>
+
+
+
+<p>This project is proving a really rather enjoyable one as there is no time pressure, I am happy with the book’s existing basic framework and, while the material is not exactly challenging, it is certainly more than interesting enough to be worth revisiting and thinking about again. And it gives me something productive to do between the mornings spent doing the serious stuff, redecorating my study ...</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+
+
+
+<p>Some music recommendations. Radu Lupu is one of my favourite pianists of all time and there are some sheer marvels in the new box set of his <em>Unreleased Recordings</em>, including absolutely compelling performances of Schubert’s D. 840 and D. 850 sonatas.</p>
+
+
+
+<p>And the ever-more-impressive Elisabeth Brauß has been on BBC Radio in three concerts.  Her <a href="https://www.bbc.co.uk/programmes/m002rf42">Wigmore Hall concert this week with the exceptional young violinist Hana Chang </a>included pieces by Clara Schumann, Brahms, Lili Boulanger, working up to a terrific performance of the César Franck Sonata. Also Elisabeth’s recent much acclaimed Manchester performance of the <a href="https://www.bbc.co.uk/programmes/m002rhtt">Ravel Piano Concerto with the BBC Philharmonic</a> is now online (from 14.10). And not least, for a few more days, you can also hear an excerpt from another recital with Hana Chang, where<a href="https://www.bbc.co.uk/sounds/play/m002qh4t">they play Mozart’s B flat Sonata K. 454</a> (from 23.00) -- quite outstanding.</p>
+

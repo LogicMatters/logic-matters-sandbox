@@ -2,7 +2,7 @@
 title: "Rautenberg: A Concise Introduction to Mathematical Logic"
 ---
 
-*
+<img src="covers/Rautenberg-209x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
  
 

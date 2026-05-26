@@ -2,7 +2,7 @@
 title: "Adrian Moore, on Gödel’s Theorem, briefly"
 ---
 
-*
+<img src="covers/51I1ciAqpRL-193x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 There has just been published another in the often splendid OUP series of “Very Short Introductions”: this time, it’s the Oxford philosopher Adrian Moore, writing on *Gödel’s Theorem*. I thought I should take a look.
 

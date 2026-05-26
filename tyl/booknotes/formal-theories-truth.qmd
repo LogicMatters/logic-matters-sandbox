@@ -2,7 +2,7 @@
 title: "Formal Theories of Truth"
 ---
 
-*
+<img src="covers/9780198815686-193x300.jpeg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 ** No one can say that Jc Beall, Michael Glanzberg and David Ripley have rattled on at self-indulgent length in their new OUP book *Formal Theories of** Tr*uth. Just 119 small pages of main text. My kind of book, these days!
 

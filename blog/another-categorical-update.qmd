@@ -1,0 +1,21 @@
+---
+title: "Another categorical update"
+date: "2026-05-07"
+categories: ["Category theory"]
+---
+
+
+<figure class="wp-block-image size-full"><a href="https://www.logicmatters.net/wp-content/uploads/2026/05/C_61_1927.jpg"><img src="../images/2026/c_61_1927-jpg.jpg" alt="" class="wp-image-19231"/></a></figure>
+
+
+
+<p>The Victorian floor of my tiny study slopes and dips quite badly and it would have been expensive to engineer a flat, level, surface. So, to finish the redecoration, it has had to be new carpet. No majolica tiles for me. Not like this one (now in the Fitzwilliam Museum), from the series which Isabella d'Este used in her <i>stu</i><em><i>dio</i>lo</em>.</p>
+
+
+
+<p>As I said, when first back to work in my own much improved <i>stu</i><em><i>dio</i>lo</em>, I decided to check through the third edition of the category theory notes again before making a hardback edition. I am very glad that I did. With (indispensable) help from both Claude and Gemini, I have found over 75 errors in the printed paperback version (Version 3.1) that are <em>not</em> just trivial and obvious spelling errors, grammatical mishaps, omitted punctuation etc. Not too many should cause real confusion, I hope: but that’s still a rather embarrassing number (with careless cutting’n’pasting responsible for too many mistakes).</p>
+
+
+
+<p>So the state of play is this. There is a PDF Version 3.3 now freely available for download. There is a corrections list, also linked on the categories page. No doubt if I now asked ChatGPT to do another late proof-reading, I could discover more (micro?) errors -- but I think my patience is exhausted. But I will now do a visual check for bad page breaks and so forth (which of course are not caught by AI looking at LaTeX code). And then I will have to take a deep breath and send a revised paperback and new hardback out into the world.</p>
+

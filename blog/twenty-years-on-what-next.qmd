@@ -1,0 +1,21 @@
+---
+title: "Twenty years on, what next?"
+date: "2026-05-23"
+categories: ["This and that"]
+---
+
+
+<p>The Logic Matters blog started on 9 March 2006. Bother! -- I missed its twentieth birthday. Raise a belated glass, as that was a milestone of sorts.</p>
+
+<p>I do plan to continue with the blog and website. But I am going to experiment (initially in a local sandbox) with moving from having an expensively hosted WordPress site to using a Static Site Generator like Quarto for a site freely hosted on Github. Three reasons:</p>
+
+<ul class="wp-block-list">
+<li>As I say, expense. Hosting plus various paid WordPress plug-ins for security etc. costs in the region of £400 a year. This cost is only partially met by the small royalties I get from the Logic Matters books (the prices are set at the minimum possible, just rounded up, and I’d like to continue that student-friendly policy).  </li>
+
+<li>WordPress bloat. Managing and trouble-shooting can occasionally be annoying.</li>
+
+<li>But mainly, future-proofing. A legacy Github website can continue to serve up Logic Matters pdfs for as long as there is any interest, without needing someone to maintain an expensive WordPress site.</li>
+</ul>
+
+<p>Predictably, after twenty years, there is a real mess behind the scenes here, and Something Ought To Be Done to tidy things up. A year or two ago I wouldn’t have wanted to devote the time and learning effort to moving to Github, wrangling with CSS, and the like. But one thing that Gemini and friends really excel at is patiently holding your hand through such nerdy tasks. So I think now could be the time at least to experiment.</p>
+

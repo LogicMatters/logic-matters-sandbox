@@ -1,0 +1,65 @@
+---
+title: "Great expectations"
+date: "2026-04-02"
+categories: ["This and that"]
+---
+
+
+<figure class="wp-block-image size-full"><a href="https://www.logicmatters.net/wp-content/uploads/2026/03/574FC2C3-BCF0-4E48-BF65-A7A34FA32A74_1_105_c.jpeg"><img src="../images/2026/574fc2c3-bcf0-4e48-bf65-a7a34fa32a74_1_105_c-jpeg.jpg" alt="" class="wp-image-19130"/></a></figure>
+
+
+
+<p>Well, that all took rather longer than expected ... A <em>lot</em> of repairing and filling and preparation (the joys of a late Victorian house). But at last the miniature room that counts as my study is redecorated. A carpet remains to be laid in ten days, but I’ll be able to reshelve the books in logic corner before then, once the new paint is safely “cured”. A pity to hide the William Morris wallpaper mutters Mrs Logic Matters: but needs must.</p>
+
+
+
+<p>It <em>will</em> be good to have the room back, and my spendid decorative efforts will no doubt inspire some equally splendid writing. I have great expectations ...</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+
+
+
+<p>An early task, when my desk is re-assembled and the Mac mini and monitor are back in action, will be to fire up the software I use for cover design and set up the promised hardback-for-libraries version of <em>Introducing Category Theory</em>. If I can trust at least the comparative stats, this was in fact the most downloaded of the Big Red Logic Books this month, and the paperback is selling tolerably. I can only hope that the intended readers are finding it useful.</p>
+
+
+
+<p>Then it is back to work on the Gödel book. I seem now to be entangled in a rather more substantial rewrite than I originally planned -- not (yet!) changing the general structure and the chapter-by-chapter take-home messages, but I hope significantly improving the presentation. For whatever reason, the first two editions tended to weave (sometimes rather rough and ready) definitions into the general prose between theorems: the discipline of giving numbered definitions in a more conventional textbook style is forcing some greater clarity at a few key points (but I’m trying to achieve this without losing readability). As an expository challenge, so far, so enjoyable.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+
+
+
+<p>Some aspects of the writing are being made noticeably easier with a bit of help from my friends Gemini and Claude. They offer patient, repeated, proof-reading as I go, check for consistency of terminology and tone, comment on accessibility, help clean up the LaTeX: I’m increasingly impressed. Using the LLMs is psychologically interesting too -- I find it very difficult not to say “please” and “thank you”, and note that I am cheered to an irrational degree by positive feed-back. I see how users can only too easily get hooked.</p>
+
+
+
+<p>On the more serious use of AI, I spotted a blog post by Terence Tao about a piece he has just written (with Tanya Klowden) for a forthcoming <em>Blackwell Companion to the Philosophy of Mathematics</em> on “Mathematical methods and human thought in the age of AI”. <a href="https://arxiv.org/abs/2603.26524">There is an unabridged version here on the arXiv</a>. But to my surprise this seems a surprisingly thin and insubstantial piece. Am I missing something?</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+
+
+
+<p>Three months of the year gone already. What have I been reading? </p>
+
+
+
+<p>The non-fiction I have most enjoyed (and learnt the most from) is Stephen Greenblatt’s immensely readable <em>The Swerve </em>about the rediscovery of Lucretius’ <em>De Rerum Natura</em>. I had been meaning to read the book for a while, so thanks to James Marriott’s always-interesting Substack <a href="https://jmarriott.substack.com"><em>Cultural Capital</em></a> for providing the final prompt to get a copy. The book has its critics, but I found it gripping and hugely enlightening.  </p>
+
+
+
+<p>And new fiction? I much enjoyed Ali Smith’s <em>Glyph</em> -- and that prompted me to reread, with great pleasure, what I still think is her best book, <em>How to be Both</em>. Evidently, though, Ali Smith divides her readers -- she is one of the few authors that Mrs Logic Matters and I just don’t at all see eye to eye on. </p>
+
+
+
+<p>I also raced through Julian Barnes’ latest book <em>Departure(s)</em> -- I have long been a great fan of  Barnes’ writing, fiction and non-fiction alike. And reading this -- his last book (or so he announces) -- I realised that we had never got a copy of Barnes’ first book, <em>Metroland</em>. The omission has been rectified. And period piece though it is, we  both very much enjoyed it.</p>
+
+
+
+<p>But the stand-out book for me in the last months of winter was this year’s Dickens, <em>Great Expectations</em>. There just are so many wonderful set pieces, episodes that really demand to be declaimed and read out loud round a fire ... I resisted, while hugely admiring. The very ending, however? Dickens’ first thoughts were surely the truer.</p>
+

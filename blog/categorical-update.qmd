@@ -1,0 +1,31 @@
+---
+title: "Categorical update"
+date: "2026-05-02"
+categories: ["This and that"]
+---
+
+
+<p>I am still working again through the third edition of the category theory book, correcting typos in the first printed version (fortunately, relatively few are possibly misleading), correcting thinkos (cheeringly not many), rewording a few too-contorted sentences (again pleasingly few), slightly improving some sign-posting, and deleting a few over enthusiastic exclamation marks and the like. </p>
+
+
+
+<p>I’m three quarters of the way through (I have reached the end of Chapter 42). And the right thing to do is to now post <a href="https://www.logicmatters.net/resources/pdfs/SmithCat.pdf">an updated PDF (version 3.2</a>) and also to temporarily halt the availability of the paperback. I have reached the tipping point where I know about too many errors (even if minor ones) to feel comfortable about people buying a printed copy when a new corrected version of the whole book should be available within a month or so.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+
+
+
+<p>As I’ve said, my companion in the proof-reading task is the estimable Claude. I’m ignoring the great majority of stylistic suggestions which would make my authorial tone of voice more conservative, and the prose occasionally leaden. But my AI assistant -- as you would hope! -- patiently spots typos and notational inconsistencies (and hallucinated errors are notably fewer than even six months ago). The proof-checking is often impressively good. But what sometimes startles me are the more general comments that Claude offers. For just one recent example, and far from the most surprising, what about this?</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>The closing §40.7&nbsp;is brief but philosophically interesting and provides a genuinely satisfying end to the chapter. The honest acknowledgement that the abstract categorical notion of “initial/terminal in a category of elements” may not illuminate the intuitive idea of a universal mapping property as much as one might hope is exactly the kind of meta-mathematical honesty that distinguishes these notes.</p>
+</blockquote>
+
+
+
+<p>Nice to hear, of course! But <em>how</em> does Claude reach this sort of judgement? It isn’t universal praise-giving (on the contrary, assessments chapter by chapter are pretty judicious). It isn’t pattern-matching on some local chunks of text (as when “following” a standard proof in elementary category theory that can found in a dozen textbooks). The first sentence might be near routine boiler-plate stuff. But the second is picking up on a thought that Claude won’t have encountered elsewhere, and relates the thought to other distant episodes in the book where I offer similarly deflationary appraisals of some categorial claims. This is not mere stochastic parroting! But nor does it seem to be the kind of thing that is going to be the direct result of focused training to make Claude (say) good at coding or other constrained tasks. I’d like to understand more about what’s going on!</p>
+

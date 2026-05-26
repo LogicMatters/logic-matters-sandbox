@@ -1,0 +1,28 @@
+@media (min-width: 768px) {
+  /* Shrinks the column holding the date and author */
+  .quarto-listing-default .quarto-post .metadata {
+    flex-basis: 15%;
+    max-width: 15%;
+  }
+  
+  /* Expands the column holding the title and preview text */
+  .quarto-listing-default .quarto-post .body {
+    flex-basis: 85%;
+    max-width: 85%;
+  }
+}
+/* Changes the color of the blog post titles in the feed */
+.quarto-listing-default .listing-title,
+.quarto-listing-default .listing-title a {
+  color: #5353ac;
+  transition: color 0.2s ease-in-out; /* Makes hover effects smoother */
+}
+
+/* Optional: Adds a slightly darker shade when you hover over the title */
+.quarto-listing-default .listing-title a:hover {
+  color: #3b3b7a; 
+}
+/* Adds an extra line of spacing under each blog post title */
+.quarto-listing-default .listing-title {
+  margin-bottom: 1.25rem; 
+}

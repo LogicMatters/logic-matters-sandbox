@@ -2,7 +2,7 @@
 title: "Bell & Machover: A Course in Mathematical Logic"
 ---
 
-*
+<img src="covers/71jnggh-2IL._SL1478_-scaled.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
  
 

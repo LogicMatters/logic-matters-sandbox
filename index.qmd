@@ -1,17 +1,16 @@
 ---
 title: "Logic Matters"
-description: "The homepage for Logic Matters, linking to logic books, blog posts, and resources."
 page-layout: article
 title-block-banner: true
 ---
 
 **[THE FIVE BIG RED LOGIC BOOKS](books)** The headline news — they are open access.
 
-**[LOGIC MATTERS BLOG](https://www.logicmatters.net/blog)** Peter Smith’s occasional blog posts on logic, music, and other enthusiasms. Most recent posts: ‘[Felicity Lott, 1947 – 2026](https://www.logicmatters.net/2026/05/18/felicity-lott-1947-2026/)’ (May 18); ‘[ICT paperback is out!](https://www.logicmatters.net/2026/05/18/ict-paperback-is-out/)’ (May 18); ‘[Twenty years on, what next?](https://www.logicmatters.net/2026/05/23/twenty-years-on-what-next/)’ (May 23).
+**[LOGIC MATTERS BLOG](blog)** Peter Smith’s occasional blog posts on logic, music, and other enthusiasms. Most recent posts: ‘[Felicity Lott, 1947 – 2026](https://www.logicmatters.net/2026/05/18/felicity-lott-1947-2026/)’ (May 18); ‘[ICT paperback is out!](https://www.logicmatters.net/2026/05/18/ict-paperback-is-out/)’ (May 18); ‘[Twenty years on, what next?](https://www.logicmatters.net/2026/05/23/twenty-years-on-what-next/)’ (May 23).
 
 **[INTRO TO FORMAL LOGIC](ifl)**. A corrected version of the second edition of *An Introduction to Formal Logic* is freely available here. There are also links to answers to exercises and to various supplementary materials.
 
-**[GÖDEL’S THEOREMS](https://www.logicmatters.net/igt)**. Two books are freely available here, *An Introduction to Gödel’s Theorems* and the much shorter *Gödel Without (Too Many) Tears*, along with related materials.
+**[GÖDEL’S THEOREMS](igt)**. Two books are freely available here, *An Introduction to Gödel’s Theorems* and the much shorter *Gödel Without (Too Many) Tears*, along with related materials.
 
 **[CATEGORY THEORY](categories)** Links to resources at an introductory/intermediate level, such as lecture notes and freely available books, including my *Introducing Category Theory*.
 
@@ -20,5 +19,3 @@ title-block-banner: true
 **[ARCHIVE](https://www.logicmatters.net/yet-more-logic)** Links to various old blog posts, papers, more reviews and other pieces.
 
 **[LaTeX FOR LOGICIANS](https://www.logicmatters.net/latex-for-logicians)** Pages pointing to a wide range of resources of interest to logicians, philosophers and others using LaTeX.
-
-

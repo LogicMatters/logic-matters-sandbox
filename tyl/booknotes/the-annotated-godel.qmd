@@ -2,7 +2,7 @@
 title: "The Annotated Gödel"
 ---
 
-*
+<img src="covers/B0BB5YQ8NR.01._SCLZZZZZZZ_SX500_-201x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 Some years ago, Charles Petzold published his *The Annotated Turing* which, as its subtitle tells us, provides a guided tour through Alan Turing’s epoch-making 1936 paper. I was prompted at the time to wonder about putting together a similar book, with an English version of Gödel’s 1931 paper interspersed with explanatory comments and asides. But I thought I foresaw too many problems. For a start, not having any German, I’d have had to use one of the existing translations, which would lead to copyright issues, and presumably extra problems if I wanted to depart from the adopted translation by e.g. rendering *Bew* by *Prov*, etc. And then I felt it wouldn’t be at all easy to find a happy level at which to pitch the commentary.
 

@@ -2,7 +2,7 @@
 title: "Berto: There’s Something About Gödel"
 ---
 
-*
+<img src="covers/41EJhaVXheL.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
  
 

@@ -1,0 +1,25 @@
+---
+title: "ICT, the third edition"
+date: "2026-01-13"
+categories: ["Books", "Category theory"]
+---
+
+
+<figure class="wp-block-image alignleft size-large is-resized"><a href="https://www.logicmatters.net/wp-content/uploads/2026/01/5141-6iZrrL._SL1436_-scaled.jpg"><img src="../images/2026/5141-6izrrl-_sl1436_-713x1024-jpg.jpg" alt="" class="wp-image-19005" style="width:auto;height:360px"/></a></figure>
+
+
+
+<p>There comes a tipping point, when the prospect of yet another round of proof-reading becomes intolerable and you think, dammit, the book as it is will now just have to do! So I have drawn a line, put the <a href="https://www.logicmatters.net/resources/pdfs/SmithCat.pdf">latest version of <em>Introducing Category Theory</em> online</a>, set up the printing of a paperback, and will organize a hardback too.</p>
+
+
+
+<p>I asked Gemini, Claude and ChatGPT whether the result should be deemed a ‘Revised second edition’ or a ‘Third edition’. I had inclined to the first option. But the original second edition is error-strewn just enough for me not want to students to use it any more. And the shared opinion of my wise friends is that, in such a case,  it is good practice to signal that the old version has been not just polished but superseded by calling the new version a third edition. Who am I to  disagree?</p>
+
+
+
+<p>As I have said before, I should apologize for putting (partial or full) earlier versions of these notes out into the world as paperbacks in a half-baked state. But my excuse is that, first with a major heart operation looming, and then in its aftermath, I wanted to have <em>something</em> done, not knowing what the future would hold. Hopefully, this third edition can now rest in a stable state. And I can move on!</p>
+
+
+
+<p>You can find the paperback on your local Amazon, with the ISBN 1068346728. The price remains within pennies/cents of the very minimum possible. (So it is a large-format 500 page book for not much more than the cost of a throw-away airport novel. And yes, if you prefer working from a printed copy, it <em>is</em> worth buying the update even if you have an earlier edition. Honest!)</p>
+

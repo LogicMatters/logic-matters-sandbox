@@ -2,7 +2,7 @@
 title: "O’Leary, A First Course in Mathematical Logic and Set Theory"
 ---
 
-*
+<img src="covers/OLeary-189x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
  
 

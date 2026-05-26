@@ -2,7 +2,7 @@
 title: "Marker, An Invitation to Mathematical Logic"
 ---
 
-*
+<img src="covers/51BwGVPsyEL._SL1246_-scaled.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
  
 

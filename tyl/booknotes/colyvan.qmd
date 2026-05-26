@@ -2,7 +2,7 @@
 title: "Colyvan: An Introduction to the Philosophy of Mathematics"
 ---
 
-*
+<img src="covers/510SqHm1Q5L.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
  
 

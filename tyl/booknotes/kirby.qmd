@@ -2,7 +2,7 @@
 title: "Kirby: An Invitation to Model Theory"
 ---
 
-*
+<img src="covers/Unknown.jpeg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
  
 

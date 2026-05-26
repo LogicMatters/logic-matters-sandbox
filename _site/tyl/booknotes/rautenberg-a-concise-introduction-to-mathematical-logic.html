@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-24ad8c588ed2a251297cdedaee1e3337.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -145,36 +174,16 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><img src="covers/Rautenberg-209x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;"></p>
-<article class="post-16358 page type-page status-publish ast-article-single" id="post-16358" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
-<div class="entry-content clear" itemprop="text">
-<p>
-<img fetchpriority="high" decoding="async" class="alignleft size-medium wp-image-16359 lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/uploads/2023/08/Rautenberg-209x300.jpg" alt="" width="209" height="300"><noscript><img decoding="async" class="alignleft size-medium wp-image-16359 lazyload" src="https://www.logicmatters.net/wp-content/uploads/2023/08/Rautenberg-209x300.jpg" alt="" width="209" height="300" srcset="https://www.logicmatters.net/wp-content/uploads/2023/08/Rautenberg-209x300.jpg 209w, https://www.logicmatters.net/wp-content/uploads/2023/08/Rautenberg-712x1024.jpg 712w, https://www.logicmatters.net/wp-content/uploads/2023/08/Rautenberg-768x1104.jpg 768w, https://www.logicmatters.net/wp-content/uploads/2023/08/Rautenberg-scaled.jpg 835w" sizes="(max-width: 209px) 100vw, 209px"></noscript>The first German edition of Wolfgang Rautenberg’s book was published in 1995: the second edition was translated and published in English in 2006 as <em>A Concise Introduction to Mathematical Logic</em>. A slightly expanded third edition appeared in 2010 (Springer: pp.&nbsp;319). You can read the first couple of chapters of the latest edition at the author’s website, <a href="https://tinyurl.com/rautlog">linked here.</a>
-</p>
-<p>
-As you will see from that long excerpt, the book becomes brisk and increasingly compressed. Rautenberg says that his aim is ‘to portray simple things simply and concisely’. This makes the book action-packed. After the early pages, it would certainly be tough reading as your <em>first</em> serious logic book.
-</p>
+<p>The first German edition of Wolfgang Rautenberg’s book was published in 1995: the second edition was translated and published in English in 2006 as <em>A Concise Introduction to Mathematical Logic</em>. A slightly expanded third edition appeared in 2010 (Springer: pp.&nbsp;319). You can read the first couple of chapters of the latest edition at the author’s website, linked here.</p>
+<p>As you will see from that long excerpt, the book becomes brisk and increasingly compressed. Rautenberg says that his aim is ‘to portray simple things simply and concisely’. This makes the book action-packed. After the early pages, it would certainly be tough reading as your <em>first</em> serious logic book.</p>
 <hr>
-<p>
-Chapter 1 is a snappy treatment of propositional logic. The formal calculus of sequents offered is a close cousin of the one in Ebbinghaus, Flum and Thomas text, except where they take <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-02b57b44656a6f38d6417b8946f6c356_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\neg" title="Rendered by QuickLaTeX.com" height="5" width="11" style="vertical-align: 1px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-02b57b44656a6f38d6417b8946f6c356_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\neg" title="Rendered by QuickLaTeX.com" height="5" width="11" style="vertical-align: 1px;"></noscript> and <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-cb4e3b5713ed5f87ccfc17749950935d_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\lor" title="Rendered by QuickLaTeX.com" height="11" width="11" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-cb4e3b5713ed5f87ccfc17749950935d_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\lor" title="Rendered by QuickLaTeX.com" height="11" width="11" style="vertical-align: 0px;"></noscript> to be primitive, Rautenberg has <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-02b57b44656a6f38d6417b8946f6c356_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\neg" title="Rendered by QuickLaTeX.com" height="5" width="11" style="vertical-align: 1px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-02b57b44656a6f38d6417b8946f6c356_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\neg" title="Rendered by QuickLaTeX.com" height="5" width="11" style="vertical-align: 1px;"></noscript> and <img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-376949f066e697a3d73bd5356467f416_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\land" title="Rendered by QuickLaTeX.com" height="11" width="11" style="vertical-align: 0px;"><noscript><img decoding="async" src="https://www.logicmatters.net/wp-content/ql-cache/quicklatex.com-376949f066e697a3d73bd5356467f416_l3.png" class="ql-img-inline-formula quicklatex-auto-format lazyload" alt="\land" title="Rendered by QuickLaTeX.com" height="11" width="11" style="vertical-align: 0px;"></noscript>. In both texts, given the paucity of basic operators, the respective authors are not really aiming for natural deduction in sequent form; nor are they aiming for a classical system which nicely relates to an intuitionistic subsystem. But this is all crisply done, and could make for good revision material.
-</p>
-<p>
-Chapter 2 starts with section on structures, which will probably go too fast for those not already familiar with the ideas. Then the rest of the chapter discusses, again at pace, the syntax and semantics of FOL languages, the relevant idea of semantic consequence, and the idea of theories. It is all perfectly respectable of course, but not really recommendable as an attractive treatment. The same goes for Chapter 3, whose main focus is the completeness theorem. We get a dense account (which deals with FOL with identity and with uncountable languages from the start), and not enough intuitive motivation for my money.
-</p>
-<p>
-Things are already pretty hard going, but then, as the Preface frankly says, ‘‘Starting from Chapter 4, the demands on the reader begin to grow. … The density of information in the text is rather high; a newcomer may need one hour for one page.” That’s hardly an advertisement for the sort of book that appeals to me, and I rather doubt the book will overall appeal to many who aren’t mathematical masochists. Chapter 4 is a rapid look at Herbrand’s Theorem, unification, and “the foundations of logic programming”, and Chapter 5 zips through some “elements of model theory” at speed. There are surely more accessible and illuminating treatments of this material, both for a first pass through, and for higher-level consolidation/further exploration.
-</p>
-<p>
-Chapter 6, however, is much more approachable, on recursive functions, incompleteness and undecidability, and could well be helpful (though probably not as your first encountner with these topics). The next chapter continues the incompleteness theme by starting with an unusually detailed account of how you prove the derivability conditions for PA. Then there are sections on Gödel’s second theorem and Löb’s theorem. Like Ch. 6, again useful.
-</p>
-<p>
-But Chapter 7 (and the book) concludes with some sections giving a rather dense/opaque discussion of provability logic which I can’t recommend.
-</p>
+<p>Chapter 1 is a snappy treatment of propositional logic. The formal calculus of sequents offered is a close cousin of the one in Ebbinghaus, Flum and Thomas text, except where they take <span class="math inline">\(\neg\)</span> and <span class="math inline">\(\lor\)</span> to be primitive, Rautenberg has <span class="math inline">\(\neg\)</span> and <span class="math inline">\(\land\)</span>. In both texts, given the paucity of basic operators, the respective authors are not really aiming for natural deduction in sequent form; nor are they aiming for a classical system which nicely relates to an intuitionistic subsystem. But this is all crisply done, and could make for good revision material.</p>
+<p>Chapter 2 starts with section on structures, which will probably go too fast for those not already familiar with the ideas. Then the rest of the chapter discusses, again at pace, the syntax and semantics of FOL languages, the relevant idea of semantic consequence, and the idea of theories. It is all perfectly respectable of course, but not really recommendable as an attractive treatment. The same goes for Chapter 3, whose main focus is the completeness theorem. We get a dense account (which deals with FOL with identity and with uncountable languages from the start), and not enough intuitive motivation for my money.</p>
+<p>Things are already pretty hard going, but then, as the Preface frankly says, ‘‘Starting from Chapter 4, the demands on the reader begin to grow. … The density of information in the text is rather high; a newcomer may need one hour for one page.” That’s hardly an advertisement for the sort of book that appeals to me, and I rather doubt the book will overall appeal to many who aren’t mathematical masochists. Chapter 4 is a rapid look at Herbrand’s Theorem, unification, and “the foundations of logic programming”, and Chapter 5 zips through some “elements of model theory” at speed. There are surely more accessible and illuminating treatments of this material, both for a first pass through, and for higher-level consolidation/further exploration.</p>
+<p>Chapter 6, however, is much more approachable, on recursive functions, incompleteness and undecidability, and could well be helpful (though probably not as your first encountner with these topics). The next chapter continues the incompleteness theme by starting with an unusually detailed account of how you prove the derivability conditions for PA. Then there are sections on Gödel’s second theorem and Löb’s theorem. Like Ch. 6, again useful.</p>
+<p>But Chapter 7 (and the book) concludes with some sections giving a rather dense/opaque discussion of provability logic which I can’t recommend.</p>
 <hr>
-<p>
-Concise by name, concise by nature. Too concise as an introduction, by my lights. And mostly not particularly reader-friendly for revision/consolidation purposes either. However, Chapter 6 and the first half of Chapter 7 on recursive functions and incompleteness etc. could well make for useful further reading once you already know the basics.
-</p>
-</div>
-</article>
+<p>Concise by name, concise by nature. Too concise as an introduction, by my lights. And mostly not particularly reader-friendly for revision/consolidation purposes either. However, Chapter 6 and the first half of Chapter 7 on recursive functions and incompleteness etc. could well make for useful further reading once you already know the basics.</p>
 
 
 

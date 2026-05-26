@@ -2,7 +2,7 @@
 title: "Jacquette’s Frege"
 ---
 
-*
+<img src="covers/9780521863278.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 Oscar Murillo’s terrific new exhibition in Cambridge is called “Violent Amnesia”. And I too have obviously been afflicted by a bad temporary bout of amnesia!
 

@@ -1,0 +1,14 @@
+---
+title: "Blog"
+css: styles.css
+listing:
+  contents: "."      # Tells Quarto where to look for the posts
+  sort: "date desc"  # Replicates the reverse chronological order
+  type: default      # Gives you that classic stream-of-posts look
+  max-description-length: 600  # Increases the text snippet length
+  page-size: 8       # Creates pagination with 8 posts per page
+  fields: [date, title, author, description]
+  categories: true   # Optional: Adds a clickable category list on the side
+  sort-ui: false     # Hides the sort dropdown menu
+  filter-ui: false   # Hides the search bar
+---

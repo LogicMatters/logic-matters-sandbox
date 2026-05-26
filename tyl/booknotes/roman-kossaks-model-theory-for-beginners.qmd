@@ -2,7 +2,7 @@
 title: "Roman Kossak’s Model Theory for Beginners"
 ---
 
-*
+<img src="covers/616h6g3xamL._AC_UY436_QL65_-200x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 Following on from his *Mathematical Logic *(2018), Roman Kossak has now published *Model Theory for Beginners: 15 Lectures* (College Publications, 2021). As the title indicates, the fifteen chapters of this short book — just 138 pages — have their origin in introductory lectures given to graduate students in CUNY. Roughly speaking, the topics of the first half of this new book overlap quite closely with the second half of his previous book. And after grumbling a bit about Part I of that earlier book, I did warm considerably to the model-theoretic Part II, which I think makes for a very approachable elementary introduction to a cluster of issues about definability.
 

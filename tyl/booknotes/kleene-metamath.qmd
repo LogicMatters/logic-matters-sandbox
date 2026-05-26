@@ -2,7 +2,7 @@
 title: "Kleene: <em>Introduction to Metamathematics</em>"
 ---
 
-*
+<img src="covers/Introduction-to-Metamathematics.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
  
 

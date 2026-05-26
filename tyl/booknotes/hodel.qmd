@@ -2,7 +2,7 @@
 title: "Hodel: An Introduction to Mathematical Logic"
 ---
 
-*
+<img src="covers/41++sCYWNaL._.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
  
 

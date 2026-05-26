@@ -2,7 +2,7 @@
 title: "Logic Works?"
 ---
 
-*
+<img src="covers/9780367460297-220x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 I can hardly complain about people adding unnecessarily to the over-supply of introductory logic books, having done it myself. But here’s yet another one, *Logic Works: A Rigorous Introduction to Formal Logic* by Lorne Falkenstein, Scott Stapleford and Molly Kao (published just six months ago by Routledge). I’ve been asked what I think of it. Having now taken a look at the book, I’ll save you the trouble of doing the same. It’s pretty bad. Not that I’ve struggled through all 645 pages. But you’ll forgive me that: life is short and patience limited.
 

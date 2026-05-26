@@ -1,0 +1,14 @@
+---
+title: "On the mathematical abilities of LLMs"
+date: "2026-05-09"
+categories: ["This and that"]
+---
+
+
+<p><a href="https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/">A very interesting new blog post by Tim Gowers</a> on his recent experiences with ChatGPT 5.5 Pro. A headline: 
+"I would judge the level of the result that ChatGPT found in under two hours to be that of a perfectly reasonable chapter in a combinatorics PhD." Well worth reading.</p>
+
+
+
+<p><em>Added</em>. Of the comments to Gowers' post, <a href="https://chadtopaz.com/essays/gowers-response">the most sensible I have so far seen is this one</a> by Chad Topaz.</p>
+
