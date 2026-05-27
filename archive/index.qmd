@@ -7,7 +7,7 @@ The blog here started in March 2006, and since then there have been over 1850 po
 
 - [Book notes on logic and the philosophy of mathematics](../tyl/booknotes/)
 - [Further logical pieces from the blog, and a few papers](more-logic.qmd)
-- [More writing from the blog](https://www.logicmatters.net/yet-more-logic/more-from-the-blog/)
+- [More writing from the blog](blog-writing.qmd)
 
 In just a little more detail:
 
@@ -22,7 +22,7 @@ The blog occasionally has had argumentative pieces on topics large or small in l
 
 ### More writing from the blog
 
-Along with the book notes and other posts on logical matters, there have been posts on a variety of other topics, a few of them perhaps still worth reading if the topic interests you! [Here's a selection.](https://www.logicmatters.net/yet-more-logic/more-from-the-blog/) 
+Along with the book notes and other posts on logical matters, there have been posts on a variety of other topics, a few of them perhaps still worth reading if the topic interests you! [Here's a selection.](blog-writing.qmd) 
 
 <hr>
 

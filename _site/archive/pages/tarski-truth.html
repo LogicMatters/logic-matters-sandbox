@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2018-11-05">
 
-<title>Archive: Book notes, papers, blog posts – logic-matters-sandbox</title>
+<title>Tarski on truth – a thumbnail sketch – logic-matters-sandbox</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +27,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-24ad8c588ed2a251297cdedaee1e3337.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-24ad8c588ed2a251297cdedaee1e3337.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -82,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">logic-matters-sandbox</span>
     </a>
   </div>
@@ -93,11 +94,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../books/index.html"> 
+    <a class="nav-link" href="../../books/index.html"> 
 <span class="menu-text">Five Big Red (Open Access) Logic Books</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -127,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Archive: Book notes, papers, blog posts</h1>
+<h1 class="title">Tarski on truth – a thumbnail sketch</h1>
 </div>
 
 
@@ -135,6 +136,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 5, 2018</p>
+    </div>
+  </div>
   
     
   </div>
@@ -144,29 +151,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The blog here started in March 2006, and since then there have been over 1850 posts. Of course, most of these have been of merely fleeting interest (if that!). But over the years, there have been some posts, or series of posts, perhaps still worth reading. I also posted along the way a few old papers and seminar handouts with something still to say. How best to organize pointers to what’s perhaps worth (re)visiting? I’ll gather them under three main headings:</p>
+<p>A couple of days ago, someone wanting brief headline-news-for-non-experts asked me about Tarski’s views on truth – in “The Concept of Truth in Formalized Languages” – and about how these ideas related to what was going on in the Vienna Circle at the time when Tarski presented those views in 1935. By coincidence<a href="https://logicmatters.net/wp-content/uploads/2018/11/Fig-B-Alfred-Tarski.png"></a>, I was thinking a bit about some related Tarskian issues in redrafting sections of <em>IFL</em>; so I was happy to pause and to try to gather together some (very) brief thoughts. I’m certainly no expert myself; but for whatever it is worth, here is a version of what I said in reply, in case anyone else might find the rather arm-waving remarks interesting/helpful.</p>
+<p>The <em>Tractatus</em>&nbsp;– which of course much influenced central figures in the Circle – &nbsp;offers what looks like a correspondence theory of truth, with true propositions picturing facts. However, the very notion of “facts” seems metaphysically loaded in a way that the positivists were deeply unhappy about; so Neurath, for example, argues that sentences can only be compared with other sentences, coming close (it might seem) to an outright coherence theory of truth. A very interesting and accessible thing to read here, revealing something of the state-of-play pre-Tarski in debates between Neurath, Carnap and Schlick, is Carl Hempel’s short paper “<a href="https://www.jstor.org/stable/3326781">On the Logical Positivist’s Theory of Truth</a>” in <em>Analysis</em> 1935. &nbsp;So yes, an obvious question is now: how does Tarski – presenting his ideas in 1935 – &nbsp;fit into the story?</p>
+<p>In fact, Tarski is coming from outside these inner-Circle debates. His problematic and his approach arise from inside the Polish philosophy/logic tradition. &nbsp;Three themes worth remarking on:</p>
 <ul>
-<li><a href="../tyl/booknotes/">Book notes on logic and the philosophy of mathematics</a></li>
-<li><a href="../archive/more-logic.html">Further logical pieces from the blog, and a few papers</a></li>
-<li><a href="../archive/blog-writing.html">More writing from the blog</a></li>
+<li><p>From Leśniewski, Tarski acquires a scepticism about naive treatments of semantic ideas, and the idea that the notion of truth applied without restraint in natural language contexts will inevitably entangle us with the Liar paradox.</p></li>
+<li><p>From Kotarbiński, Tarski gets the two thoughts (a) that the classic idea that to be true is to correspond with reality can come to no more than this: &nbsp;the Copernican theory is true — or &nbsp;the assertion that the earth goes round the sun is true — just in case the earth goes round the sun (K’s example), and so on through other cases. &nbsp;But also (b) this weak understanding of what correspondence amounts to doesn’t mean that the notion of truth is redundant.</p></li>
+<li><p>From&nbsp;Leśniewski&nbsp;(3) again, Tarski gets a conception of how we should go about pinning down a troublesome concept – not by attempting to give a snappy “analysis”, but by setting out in a tidily organized deductive system or “theory” systematizing a whole body of intuitive truths in which that concept is deployed, in enough detail to thereby fix what that concept has to be, in order to play the displayed role in the theory. In this sense, the theory as a whole can be said to define the concept in question. (If it is to be elucidatory, we’ll need to be able to grasp this deductively organized theory, which means that, inter alia, it will need to be finite!)</p></li>
 </ul>
-<p>In just a little more detail:</p>
-<section id="book-notes-from-the-blog" class="level3">
-<h3 class="anchored" data-anchor-id="book-notes-from-the-blog">Book notes from the blog</h3>
-<p>Over the years, I have written up over sixty short notes on a variety of books on logic broadly construed, either as posts on the blog or as entries to the Appendix to the Study Guide. <a href="../tyl/booknotes/">The book notes page has two lists.</a> The first contains links to webpages on the books that appear in that Appendix, i.e.&nbsp;wider ranging texts on mathematical logic. The second list contains links mostly to webpages on a variety of other logic books or books on the philosophy of mathematics.</p>
-</section>
-<section id="other-logical-notes-and-papers" class="level3">
-<h3 class="anchored" data-anchor-id="other-logical-notes-and-papers">Other logical notes and papers</h3>
-<p>The blog occasionally has had argumentative pieces on topics large or small in logic or the philosophy of mathematics. <a href="../archive/more-logic.html">This page of logical blog notes</a> links to some of the more interesting(?) ones, and to a few old papers or seminar handouts dating from my final teaching days which aren’t linked elsewhere.</p>
-</section>
-<section id="more-writing-from-the-blog" class="level3">
-<h3 class="anchored" data-anchor-id="more-writing-from-the-blog">More writing from the blog</h3>
-<p>Along with the book notes and other posts on logical matters, there have been posts on a variety of other topics, a few of them perhaps still worth reading if the topic interests you! <a href="../archive/blog-writing.html">Here’s a selection.</a></p>
-<hr>
-<p>These lists are very much a work in progress, and I will be adding to them over time.</p>
+<p>So (1), (2) and (3) set the scene for Tarski’s pivotal paper. &nbsp;Do note by the way, it is about truth for “formalized” – not “formal” – languages. That’s rather crucial. If by “formal” one means more or less de-interpreted, then Tarski explicitly rules out formal languages from &nbsp;consideration in his 1935 paper. Now, many mathematical languages are at least partially de-interpreted: thus a group theorist might use “+” for a group operation, without giving any particular intended interpretation. But it is not until much later that Tarski explicitly deals with the model theory of such partially de-interpreted language. In 1935, then, Tarski is concerned with some fully interpreted languages. They are formalized in the sense of having a tidy syntax, lacking structural or lexical ambiguities etc. etc. so we can easily theorise about them. (But it is &nbsp;a matter of taste and convenience whether these languages introduce symbolic shorthand too — the use of symbols isn’t really of the essence at all, although Tarski’s examples are languages deploying symbolic shorthand.)</p>
+<p>As I say,&nbsp;(1), (2) and (3) set the scene. What we find, then, is Tarski continuing to endorse (1), arguing at the beginning of his paper that accepting (2a) and applying it across the board to all ordinary language, where self-reference is possible, leads us inevitably to the liar paradox. If we accept all T-biconditionals, for the moment in the form <em>“p” is true if and only if p,</em>&nbsp;but allow suitably self-referential instances of <em>p</em>, then trouble ensues!&nbsp;So we have to rein in our ambition.</p>
+<p>Tarski’s aim then will be to show how a notion of truth can consistently be applied to limited fragments of language which lack troublesome self-reference and lack a truth-predicate. So now we will have to distinguish the limited fragment we are (at any point) theorising about from the ambient language in which we are doing the theorizing. Hence the introduction of the distinction between the language which is the current object of investigation and the metalanguage in which we are going to be doing the investigation.</p>
+<p>So how is Tarski going to do the investigation? <em>Exactly in accord with (3)</em>. To pin down the notion of truth for sentences in the language L under investigation Tarski is not (he explicitly says he is not) going to try for an analysis or philosopher’s-style definition. He aims for a tidily organized deductive system or “theory” (in a suitable metalanguage) systematizing a whole body of intuitive truths in which the metalanguistic concept of true-sentence-of-L is deployed. Which intuitive truths? As in (2a) – i.e.&nbsp;what we now call T-sentences of the shape “S is true if and only if p” where “S” denotes a sentence of L, and “p” stands in for a sentence of our metalanguage which gives the content of S (except that Tarski symbolizes the theory in the metalanguage too, but that’s not of the essence either). Note, what makes giving a tidy deductive theory of this kind feasible is that L is itself sufficiently tidily organized — formalized, as we said. In this way, we get to define* true-in-L* — define, that is, in the rather distinctive sense of (3).</p>
+<p>For any interesting L, there will be infinitely many T-sentences for our finite truth-theory/truth-definition to entail, so the theory will have to proceed by paying attention to the structure of L-sentences (it will proceed by recursion, as we say, on the structure). The novel work done by Tarski is to show us how to do the recursion in the case of languages L with quantificational structure — with the recursion done not in terms of the notion of truth, but in terms of a notion of true-of (or rather its converse, satisfaction). Note though that it isn’t that Tarski is helping himself to the notion of satisfaction and taking that as already understood: rather the whole theory is now to be taken as defining satisfaction-in-L (of which truth-in-L is a special case).</p>
+<p>So how did all this go down with the Vienna Circle? Some, e.g.&nbsp;Neurath, thought it just didn’t help with what they were worried about — for in the end satisfaction is a word/world relation which must be just as suspect as the classical notion of truth we started off with. But others thought this was point-missing. Tarski showed how we can happily talk about truth in what we would now think of as a deflationist spirit (at least for tamely well-behaved languages L), telling us about truth without getting embroiled in facts, structural correspondence with the facts, etc., coherence, or ideas of that ilk. It’s not so much a rival theory of truth, but a pinning down of what the notion of truth does for us which shows – as the redundancy theory in a cruder way aims to show – that we don’t &nbsp;need a theory of the traditional sort. That debate about the significance of theories like Tarski’s continues …</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

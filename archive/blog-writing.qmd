@@ -1,0 +1,44 @@
+---
+title: "More writing from the blog"
+page-layout: article
+---
+
+Along with the book notes and other posts on logic and the philosophy of mathematics, there have been a lot of other posts, a few perhaps still worth reading if the topic interests you! Here's a selection.
+
+#### Readings
+
+- [Murray & Rea, *Intro to the Philosophy of Religion* (2008)](https://www.logicmatters.net/tag/MurrayRea/?search&order=asc) [Extended lambasting ..!]
+- [Turgenev at 200](pages/forgetting-turgenev.qmd) (2018)
+- [*The Meaning of Travel*](pages/meaning-of-travel.qmd) (2021)
+- [Lockdown recommendations](pages/lockdown-recommendations.qmd) (2020)
+- [A few books of the year](pages/books-2021.qmd) (2021)
+- [Meeting Leibniz on the white road](pages/leibniz-white-road.qmd) (2022)
+- [Jonathan Raban](pages/jonathan-raban.qmd) (2023)
+- [Some books of the year](pages/books-2025.qmd) (2025)
+
+#### Philosophy
+
+- [So what is it all about then?](pages/whats-it-all-about.qmd)
+- [What should philosophy PhDs have read?](pages/phd-readings.qmd)
+- [C.D. Broad's advice on writing](pages/broads-advice.qmd) [very short but invaluable, say I!]
+- [Hemlock all round?](pages/hemlock-all-round.qmd)
+
+#### Academia
+
+- [*What Universities are For*](pages/university-reforms.qmd)
+- [What's the use of video lectures?](pages/video-lectures.qmd)
+
+#### Music
+
+- [Schubert's piano music](pages/schuberts-piano.qmd)
+- [The Pavel Haas Quartet's Schubert](pages/phq.qmd)
+- [Peter Cropper, 1945–2015](pages/peter-cropper.qmd)
+
+#### Life
+
+- [The book problem](pages/book-problem.qmd)
+- [Serendipity](pages/serendipity.qmd)
+- [Postcards from Siena](pages/postcards-siena.qmd)
+- [The last dance](pages/last-dance.qmd)
+- [Going, gone](pages/larkin.qmd)
+- [Until the lights go out](pages/lights-go-out.qmd)

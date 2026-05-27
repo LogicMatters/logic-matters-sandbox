@@ -1,0 +1,21 @@
+---
+title: "What's the use of video lectures?"
+date: "2021-01-05"
+page-layout: article
+---
+
+*I wrote this some time ago: but left it unpublished -- not because I changed my mind after writing it, but because I thought it was rather too tactless and unhelpful at a time when so many were being forced to produce such lectures. But many months have past, so let's ask again: what's the use of video lectures?*
+
+Probably not a lot.
+
+Or at least, not nearly as much as university admin (or some lecturers) like to think.
+
+There’s a rightly famous book by Donald Bligh, first published fifty(!) years ago, *What’s the Use of Lectures?*  Bligh took a serious look at the available research and concluded that traditional lectures are just not very effective at promoting critical thought, inspiring students, or changing attitudes. What they *are* potentially good for is conveying information. But only if very carefully organized, taking account of people's capacity for concentrating over a period of time while absorbing new info. And even then, lectures are no more effective than other ways of teaching information -- giving careful guidance pointing the student to appropriate chunks of decent textbooks, say.
+
+Why suppose recorded video lectures -- which so many university students under lockdown are being subjected to  -- are any better than traditional lectures? After all, there’s not even the small sense of occasion, or the pleasure of being in the classroom with your friends with the chance to chat after. And more seriously, there’s not the useful discipline of being forced to pay close attention and organize your note writing in real time, because you can always rewind the video. So why suppose -- and I guess it is university managers who are driving this -- that very hard-pressed university teachers’ time is being best used in recording these lectures? It is very difficult to believe it is. (I’d probably say the same for ‘live’ large-class Zoom lectures too.)
+
+To be sure, if you find some well-done online videos out there which you'd like to recommend to students as a possible resource, fine. But is it worth producing your own? The answer isn't obviously ‘yes’.
+
+It may vary from subject to subject. But when I’ve been trying to learn a new area of mathematics in recent years, I’ve found (of course) good textbooks invaluable. But I’ve also learnt a *great* deal from less formal lecture notes or handouts or relaxed expository papers which people have posted online,  from blog posts, and not least from the question-and-answer sites math.stackexchange and mathoverflow. I’m immensely grateful to all those who have put effort into *these* sorts of resources (and I've tried to do my bit in turn). But video lectures come *way* down the list of what I've found useful. For a start, they are usually a tediously *slow* way of conveying information; and to be honest, most people aren’t terrifically good at giving them (a student view too, in my admittedly very limited experience).
+
+I’ve sometimes been asked whether I’d do some videos myself. But if I have any pedagogic skills, I'm quite sure they are better deployed elsewhere than adding to the pool of not-very-good straight lectures. The one video enterprise that I might be tempted to take on is *examples classes*. Yes, talking through examples -- explaining why so-and-so might be a good proof strategy, backtracking from dead ends, with the proof developing onscreen in real time  -- could indeed be useful and instructive for students. Video lectures, not so much.

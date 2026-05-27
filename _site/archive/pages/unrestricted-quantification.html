@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2017-08-14">
 
-<title>Archive: Book notes, papers, blog posts – logic-matters-sandbox</title>
+<title>Begriffsschrift and absolutely unrestricted quantification – logic-matters-sandbox</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +27,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-24ad8c588ed2a251297cdedaee1e3337.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-24ad8c588ed2a251297cdedaee1e3337.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,8 +72,37 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -82,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">logic-matters-sandbox</span>
     </a>
   </div>
@@ -93,11 +123,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../books/index.html"> 
+    <a class="nav-link" href="../../books/index.html"> 
 <span class="menu-text">Five Big Red (Open Access) Logic Books</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -127,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Archive: Book notes, papers, blog posts</h1>
+<h1 class="title">Begriffsschrift and absolutely unrestricted quantification</h1>
 </div>
 
 
@@ -135,6 +165,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 14, 2017</p>
+    </div>
+  </div>
   
     
   </div>
@@ -144,29 +180,24 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The blog here started in March 2006, and since then there have been over 1850 posts. Of course, most of these have been of merely fleeting interest (if that!). But over the years, there have been some posts, or series of posts, perhaps still worth reading. I also posted along the way a few old papers and seminar handouts with something still to say. How best to organize pointers to what’s perhaps worth (re)visiting? I’ll gather them under three main headings:</p>
+<p>We owe to Frege in <em>Begriffsschrift&nbsp;</em>our modern practice of taking unrestricted quantification (in one sense) &nbsp;as basic. I mean, he taught us how to rephrase restricted quantifications by using unrestricted quantifiers plus connectives in the now familiar way, so that e.g.&nbsp;“Every&nbsp;<em>F</em> is <em>G</em>” &nbsp;is regimented as &nbsp;“Everything is such that, if it is <em>F</em>, then&nbsp;it is <em>G</em>” , and some “Some&nbsp;<em>F</em> is <em>G</em>” &nbsp;is regimented as &nbsp;“Something is such that it is <em>F</em> and it is <em>G</em>” – with the quantifier prefix in each case now running over everything. And we think the gain in formal simplicity in working with unrestricted quantifiers outweighs the small departure from the logical forms of natural language (and quirks to do with existential import, etc.).</p>
+<p>But what counts as the “everything” which our unrestricted quantifiers run over? In informal discourse, we cheerfully let the current domain of quantification be set by context (“I’ve packed everything”, &nbsp;“Everyone is now here, so we can begin”). And we are adepts at following conversational exchanges where the domain shifts as we go along.</p>
+<p>In the context of using a formal first-order language, we require that the domain, i.e.&nbsp;what counts as “everything”, is fixed once and for all, up front: no shifts are then allowed, at least while that language with that interpretation is in force. All changes of what we want to generalize about are to be made by explicitly restricting the complex predicates our quantifiers apply to, as Frege taught us. &nbsp;The quantifiers themselves stay unrestrictedly about the whole domain</p>
+<p>What about Frege in&nbsp;<em>Begriffsschrift</em>, however?<em>&nbsp;</em>There’s nothing there explicit about domains. Is that because he thinks that the quantifiers are always to be taken as ranging, not over this or that domain, but over absolutely everything – over all objects that there are?</p>
+<p>Some have taken this to be Frege’s view. In particular, when Dummett talks about Frege and unrestricted quantification in <em>Frege: Philosophy of Language,&nbsp;</em>he is firmly of the view that “When these individual variables are those of Frege’s symbolic language, then their domain is to be taken as simply the totality of all objects” (p.&nbsp;529).</p>
+<p>But it isn’t obvious to me that&nbsp;Frege <em>is</em> committed to an idea of absolutely general quantification, at least in <em>Begriffsschrift</em>. (Re)reading the appropriate bits of that book plus the two other contemporary pieces published in Bynum’s <em>Conceptual Notation</em>, and the two contemporary pieces in <em>Posthumous Writings</em>, there doesn’t seem to be a clear commitment to the view.</p>
+<p>OK, Frege will write variations on: “<span class="math inline">\(\forall x(Fx \to Gx)\)</span>” means that whatever you put in place of the “<span class="math inline">\(x\)</span>”, “<span class="math inline">\((Fx \to Gx)\)</span>” is correct. But note that here he never gives daft instantiations of the variable, totally inappropriate to the e.g.&nbsp;arithmetic meaning of <em>F</em> and <em>G</em>.</p>
+<p>This is not quite his example, but he does the equivalent of remarking that “<span class="math inline">\(\forall x(x\)</span> is even <span class="math inline">\(\to x^2\)</span> is even)” isn’t refuted by “<span class="math inline">\((1\ \textrm{is even} \to 1^2\ \textrm{is even})\)</span>” because (given the truth-table for “<span class="math inline">\(\to\)</span>”), that comes out true. But he never, as he should if the quantifiers are truly absolutely unrestricted, consider instances such as “The Eiffel Tower is even <span class="math inline">\(\to\)</span> &nbsp;The Eiffel Towe<span class="math inline">\(\textrm{r}^2\)</span> is even” – which indeed is problematic as the consequent looks nonsense.</p>
+<p>Similarly, in <em>PW</em>, p.&nbsp;27, Frege cheerfully writes “The numbers … are subject to no conditions other than <span class="math inline">\(\vdash n = n + 0\)</span>, etc.”. There’s not a flicker of concern <em>here</em> about instances – as they would be if the implicit quantifier here were truly universal – such as “<span class="math inline">\(\vdash \textrm{Napoleon} = \textrm{Napoleon} + 0\)</span>”. Rather it seems clear that here Frege’s quantifiers are intended to be running over … numbers! (Later, in <em>Grundgesetze</em>, Frege does talk about extending addition to be defined over non-numbers: but &nbsp;it is far from clear that the Frege of&nbsp;<em>Begriffsschrift </em>has &nbsp;already bitten the bullet and committed himself&nbsp;to the view that every function is defined for the whole universe.)</p>
+<p>Earlier in&nbsp;<em>PW</em>, p.&nbsp;13, Frege talks about the concept script “supplementing the signs of mathematics with a formal element” to replace verbal language. And this connects with what has always struck me as one way of reading <em>Begriffsschrift</em>.</p>
 <ul>
-<li><a href="../tyl/booknotes/">Book notes on logic and the philosophy of mathematics</a></li>
-<li><a href="../archive/more-logic.html">Further logical pieces from the blog, and a few papers</a></li>
-<li><a href="../archive/blog-writing.html">More writing from the blog</a></li>
+<li><p>Yes it is <em>all purpose</em>, in that the logical apparatus can be added to any suitable base language (the signs of mathematics, the signs of chemistry, etc. and as we get cleverer and unify more science, some more inclusive languages too). And then too we have the resources to do conceptual analysis using that apparatus (e.g.&nbsp;replace informal mathematical notions with precisely defined versions) – making it indeed a concept-script. But what the quantifiers, in any particular application, quantify over will depend on what the original language aimed to be about: for the original language of arithmetic or chemistry or whatever already had messy vernacular expressions of generality, which we are in the course of replacing by the concept script.</p></li>
+<li><p>Yes, the quantifiers will then <em>unrestrictedly</em>&nbsp;quantify over all numbers, or all chemical whatnots, or …, whichever objects the base language from which we start aims to be about (or as we unify science, some more inclusive domain set by more inclusive language).</p></li>
+<li><p>And yes, Frege’s explanation of the quantifiers – for the reasons Dummett spells out – requires us to have a <em>realist</em> conception of objects (from whichever domain) as objects which determinately satisfy or don’t satisfy a given predicate, even if we have no constructive way of identifying each particular object or of deciding which predicates they satisfy. Etc.</p></li>
 </ul>
-<p>In just a little more detail:</p>
-<section id="book-notes-from-the-blog" class="level3">
-<h3 class="anchored" data-anchor-id="book-notes-from-the-blog">Book notes from the blog</h3>
-<p>Over the years, I have written up over sixty short notes on a variety of books on logic broadly construed, either as posts on the blog or as entries to the Appendix to the Study Guide. <a href="../tyl/booknotes/">The book notes page has two lists.</a> The first contains links to webpages on the books that appear in that Appendix, i.e.&nbsp;wider ranging texts on mathematical logic. The second list contains links mostly to webpages on a variety of other logic books or books on the philosophy of mathematics.</p>
-</section>
-<section id="other-logical-notes-and-papers" class="level3">
-<h3 class="anchored" data-anchor-id="other-logical-notes-and-papers">Other logical notes and papers</h3>
-<p>The blog occasionally has had argumentative pieces on topics large or small in logic or the philosophy of mathematics. <a href="../archive/more-logic.html">This page of logical blog notes</a> links to some of the more interesting(?) ones, and to a few old papers or seminar handouts dating from my final teaching days which aren’t linked elsewhere.</p>
-</section>
-<section id="more-writing-from-the-blog" class="level3">
-<h3 class="anchored" data-anchor-id="more-writing-from-the-blog">More writing from the blog</h3>
-<p>Along with the book notes and other posts on logical matters, there have been posts on a variety of other topics, a few of them perhaps still worth reading if the topic interests you! <a href="../archive/blog-writing.html">Here’s a selection.</a></p>
-<hr>
-<p>These lists are very much a work in progress, and I will be adding to them over time.</p>
+<p>But the crucial Fregean ingredients (1) to (3) don’t add up to any kind of commitment to conceiving of the formalised quantifiers as absolutely unrestricted. He is, to be sure, inexplicit here – but it not&nbsp;obvious to me that a charitable reading of <em>Begriffsschrift </em>at any rate has to have&nbsp;Frege as treating his quantifiers&nbsp;as absolutely unrestricted.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

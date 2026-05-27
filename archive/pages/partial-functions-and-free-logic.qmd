@@ -4,8 +4,6 @@ date: "2022-01-08"
 page-layout: article
 ---
 
-[latexpage]
-
 How much should a mathematical logician care about free logic? Worries about empty domains or empty names aren't going to give the mathematician much pause. But there is a more interesting case.
 
 The standard semantic story treats function expressions of a FOL language as denoting total functions -- for any object of the domain as input, the function yields a value in the domain as output. Mathematically, however, we often work with partial functions: that's particularly the case in computability theory, where the notion of a partial recursive function is pivotal. Partial recursive functions, recall, are defined by allowing the application of a minimization or least search operator, which is basically a definite description operator which may fail to return a value. So, it might well seem that in order to reason about computable functions we will need a logic which can accommodate partial functions and definite descriptions that fail to refer, and this means we will need a free logic.
@@ -14,9 +12,9 @@ Or at least, this is a claim often made by proponents of free logic. And the cla
 
 I think we have to distinguish two quite different claims:
 
- 	- Suppose we want to revise the usual first-order language of arithmetic to allow partial recursive functions, and then construct a formal theory in which we can e.g. do computations of the values of the partial recursive functions (when they have one) in the way we can do simpler formal computations as derivations inside $\mathsf{PA}$ (or inside $\mathsf{PRA}$, formal Primitive Recursive Arithmetic). Then this formal theory with its partial functions will need to be equipped with a free logic to allow for reference failures.
+- Suppose we want to revise the usual first-order language of arithmetic to allow partial recursive functions, and then construct a formal theory in which we can e.g. do computations of the values of the partial recursive functions (when they have one) in the way we can do simpler formal computations as derivations inside $\mathsf{PA}$ (or inside $\mathsf{PRA}$, formal Primitive Recursive Arithmetic). Then this formal theory with its partial functions will need to be equipped with a free logic to allow for reference failures.
 
- 	- When, it comes to proving general results *about* partial recursive functions in our usual informal mathematical style, we need to deploy reasoning which presumes a free logic.
+- When, it comes to proving general results *about* partial recursive functions in our usual informal mathematical style, we need to deploy reasoning which presumes a free logic.
 
 Now, (1) may be true. But mathematicians in fact seem to have very little interest in that formalization project (though some computer scientists have written around the topic, though what I have read has been pretty unclear). What they care about is the general theory of computability.
 

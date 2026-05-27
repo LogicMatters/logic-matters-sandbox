@@ -454,6 +454,54 @@
   </url>
   <url>
     <loc>https://your-website-url.example.com/archive/index.html</loc>
-    <lastmod>2026-05-27T15:59:51.200Z</lastmod>
+    <lastmod>2026-05-27T18:36:52.431Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/archive/pages/unrestricted-quantification.html</loc>
+    <lastmod>2026-05-27T18:14:28.101Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/archive/pages/five-books-phil-logic.html</loc>
+    <lastmod>2026-05-27T15:56:14.126Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/archive/pages/hintikka.html</loc>
+    <lastmod>2026-05-27T15:56:14.100Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/archive/pages/partial-functions-and-free-logic.html</loc>
+    <lastmod>2026-05-27T18:14:28.100Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/archive/pages/tarski-truth.html</loc>
+    <lastmod>2026-05-27T18:09:14.958Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/archive/pages/frege-nose.html</loc>
+    <lastmod>2026-05-27T18:14:28.100Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/archive/more-logic.html</loc>
+    <lastmod>2026-05-27T16:01:56.664Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/archive/pages/frege-kripke.html</loc>
+    <lastmod>2026-05-27T15:56:14.109Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/archive/pages/does-maths-need-philosophy.html</loc>
+    <lastmod>2026-05-27T18:14:28.100Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/archive/pages/countability.html</loc>
+    <lastmod>2026-05-27T18:09:14.958Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/archive/pages/phil-maths-reading-list.html</loc>
+    <lastmod>2026-05-27T18:09:14.958Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/archive/pages/negative-type-theory.html</loc>
+    <lastmod>2026-05-27T15:56:14.095Z</lastmod>
   </url>
 </urlset>

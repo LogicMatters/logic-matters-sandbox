@@ -12,11 +12,11 @@ Yet mathematicians -- at least when writing in fairly elementary contexts -- che
 
 Well, no. Elementary talk about the countable tends (doesn't it?) to feature  in three sorts of context:
 
-	- There are claims that certain objects are indeed countable, defended by showing that the objects in question are unproblematically counted by producing a nice enumerating function. (Consider, for a familiar simple example, how we show that the positive rationals *m/n* are countable by actually constructing the ‘zig-zag’ enumerating function for ordered pairs *m, n*, and so counting them.)
+- There are claims that certain objects are indeed countable, defended by showing that the objects in question are unproblematically counted by producing a nice enumerating function. (Consider, for a familiar simple example, how we show that the positive rationals *m/n* are countable by actually constructing the ‘zig-zag’ enumerating function for ordered pairs *m, n*, and so counting them.)
 
-	- There are claims that certain objects are uncountable, defended by reducing the assumption that they can be counted to absurdity. (Consider, for another familiar simple example, the usual diagonal argument that the infinite binary sequences are uncountable.)
+- There are claims that certain objects are uncountable, defended by reducing the assumption that they can be counted to absurdity. (Consider, for another familiar simple example, the usual diagonal argument that the infinite binary sequences are uncountable.)
 
-	- There are conditional claims of the kind *if X are countable, then ...,* supported by general arguments that are insensitive to how exactly we delimit (or fail to delimit) the countable.
+- There are conditional claims of the kind *if X are countable, then ...,* supported by general arguments that are insensitive to how exactly we delimit (or fail to delimit) the countable.
 
 (The second is a special case of the third, of course, but perhaps worth highlighting.) In none of *these* kinds of case, at any rate, does such indeterminacy as we might be leaving in the extent of the countable become problematic. So if we proceed with due caution – restrict ourselves to these cases -- we can continue to talk about the (un)countable safely enough. And in elementary contexts we do exercise such caution.
 

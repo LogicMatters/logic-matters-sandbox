@@ -1,0 +1,13 @@
+---
+title: "Hemlock all round?"
+date: "2007-06-08"
+page-layout: article
+---
+
+I remember Geoffrey Hunter (the author of the rather good [Metalogic](http://www.amazon.com/Metalogic-Introduction-Metatheory-Standard-First/dp/0520023560))  telling me years ago that at the beginning of his intro logic course, having explained the idea of a valid argument, he gave out a sheet of examples to see which arguments beginners naively judged to be valid and which not. Then, at the end of the course, he gave out the same example sheet, asked which arguments were valid ... and people on average did worse.
+
+Well, you can see why. Students learn some shiny new tools and are then tempted to apply the tools mindlessly, so e.g. faced with inferences involving conditionals, despite all your warnings, they crank a truth-table, and out comes a silly answer.
+
+Likewise, students uncorrupted by philosophy could of course reel off a list of scientific theories that have been seriously proposed in the past but which -- they'd agree -- have been shown to be wrong (the phlogiston theory of combustion, the plum pudding model of the atom, and so on and so forth). But teach students some philosophy of science and ask them if you can falsify a theory and they now firmly tell you that it can't be done (merrily arguing from the flaws of Popper's falsificationism to the impossibility of showing any theory is false). Sigh. Of course, the same students will -- in another answer -- also tell you that scientific realism is in deep trouble because of the pessimistic induction from all those false past theories ...
+
+We try not to addle our students' brains, but I fear we do.

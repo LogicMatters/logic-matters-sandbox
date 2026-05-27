@@ -1,0 +1,25 @@
+---
+title: "Those suggested readings for PhD students? A sceptical response"
+date: "2015-01-29"
+page-layout: article
+---
+
+Earlier this month, at the usually highly admirable [The Philosopher's Stone](http://robertpaulwolff.blogspot.co.uk/2015/01/the-25-must-read-philosophy-books-for.html), Robert Paul Wolff posted a list of “twenty-five books by great philosophers that every grad student should read by the time he or she gets the PhD”. The list was remarkably well received -- there were quibbles, of course, about what should be on it, but the principle of the thing seemed well supported.
+
+Well, after a forty year career of sorts in philosophy, as far as I can recall I've read two of the listed books (for note, the list stops before Frege, Russell and Wittgenstein!).
+
+Should I feel abashed? Inadequate? Am I letting the side down? Not at all. The suggestion that every philosopher (let alone every PhD student) should work through that list is of course complete tosh.
+
+Or at least, it is if “read” means any more than skimming and skipping, pausing over a few particularly interesting/famous passages, and rounding things out from some decent second-hand outlines.
+
+Now, I'm all for students having, say, a fifty lecture course giving the headline news about Wolff's listed books. Or perhaps better,  there is the do-it-yourself equivalent of reading the relevant twenty-five Stanford Encyclopedia articles, one a fortnight for a year, interspersed with chasing up a few choice passages for instruction and pleasure. That could be both fun and educational. But much more, for non-historians, is likely to be not only beyond the call of duty but of no particular use -- except for at most two or three books (which books those are will depend of course on your interests).
+
+To be sure, a modern ethicist would probably do well to read carefully a fair amount of the Nicomachean Ethics (say). And a modern metaphysician might get something out of  struggling with some of Aristotle's Metaphysics -- or then again might not (I know a world-class metaphysician or three who seem to have managed very well without). But two or three books isn't twenty five.
+
+I've always been struck by these words of the great Cambridge classicist, Francis Cornford, in the preface from his book on Thucydides:
+
+> In every age the common interpretation of the world of things is controlled by some scheme of unchallenged and  unsuspected presupposition; and the mind of any individual, however little he may think himself to be in sympathy  with his contemporaries, is not an insulated compartment,  but more like a pool in one continuous medium -- the circumambient atmosphere of his place and time. This element of thought is always, of course, most difficult to detect and  analyse, just because it is a constant factor which underlies all the differential characters of many minds.
+
+That is one central reason why it can be so revealing to engage closely with one of the Great Dead Philosophers. By working our way into some measure of real understanding of what is going on in their texts, by finding what they take for granted, and the unspoken presumptions which  shape the seeming-oddities of their position, our own unspoken presumptions can be thrown into relief and indeed challenged. It widens our sense of the range of possible approaches and positions. However, and this is the important point, to get to the stage where you can work far enough into a distant intellectual framework in this way takes considerable amounts of time and effort (and takes skills and aptitudes that many philosophers don't have). If you have the time and the aptitude, then yes, seriously engage with a favourite work from the more distant past. But this is certainly not something you can do for twenty-five books by long-dead authors while getting on with your the day-job of writing a PhD on some contemporary topic.
+
+So I agree: even for non-historians, if you find your interests meshing enough with those of some particular long-dead author, there can be pleasure and instruction to be had from trying to tackle some of the author's work at first-hand in a moderately serious way. But as for the *rest* of the Great Dead Philosophers, the sensible course for the PhD student (the course which you might actually profit from in some small ways) is to stand on the shoulders of the serious scholars, take in the SEP articles or whatever which will tell you just a little about voyages to those alternative intellectual landscapes, and dip just here and there into (translations of) the original texts. But don't even begin to try to really *read* those twenty five books while you are a student. And good luck to you if you ever find the time later.

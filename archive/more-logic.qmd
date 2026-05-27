@@ -3,7 +3,6 @@ title: "Logical blog notes and papers"
 page-layout: article
 ---
 
-## Logical notes and papers
 
 ### Some logical blog pieces
 

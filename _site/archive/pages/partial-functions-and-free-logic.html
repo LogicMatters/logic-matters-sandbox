@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2022-01-08">
 
-<title>Archive: Book notes, papers, blog posts – logic-matters-sandbox</title>
+<title>Partial functions and free logic – logic-matters-sandbox</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +27,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-24ad8c588ed2a251297cdedaee1e3337.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-24ad8c588ed2a251297cdedaee1e3337.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,8 +72,37 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -82,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">logic-matters-sandbox</span>
     </a>
   </div>
@@ -93,11 +123,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../books/index.html"> 
+    <a class="nav-link" href="../../books/index.html"> 
 <span class="menu-text">Five Big Red (Open Access) Logic Books</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -127,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Archive: Book notes, papers, blog posts</h1>
+<h1 class="title">Partial functions and free logic</h1>
 </div>
 
 
@@ -135,6 +165,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 8, 2022</p>
+    </div>
+  </div>
   
     
   </div>
@@ -144,29 +180,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The blog here started in March 2006, and since then there have been over 1850 posts. Of course, most of these have been of merely fleeting interest (if that!). But over the years, there have been some posts, or series of posts, perhaps still worth reading. I also posted along the way a few old papers and seminar handouts with something still to say. How best to organize pointers to what’s perhaps worth (re)visiting? I’ll gather them under three main headings:</p>
+<p>How much should a mathematical logician care about free logic? Worries about empty domains or empty names aren’t going to give the mathematician much pause. But there is a more interesting case.</p>
+<p>The standard semantic story treats function expressions of a FOL language as denoting total functions – for any object of the domain as input, the function yields a value in the domain as output. Mathematically, however, we often work with partial functions: that’s particularly the case in computability theory, where the notion of a partial recursive function is pivotal. Partial recursive functions, recall, are defined by allowing the application of a minimization or least search operator, which is basically a definite description operator which may fail to return a value. So, it might well seem that in order to reason about computable functions we will need a logic which can accommodate partial functions and definite descriptions that fail to refer, and this means we will need a free logic.</p>
+<p>Or at least, this is a claim often made by proponents of free logic. And the claim is vigorously pressed e.g.&nbsp;by Oliver and Smiley in Ch. 11 of their <em>Plural Logic</em> (as they set up the singular logic on which they are going to build their plural logic). Yet O&amp;S give no examples at all of places where mathematical reasoners doing recursive function theory actually use arguments that need to be regimented by changing our standard logic. And if we turn to mainstream theoretical treatments of partial recursive functions in books on computability – including those by philosophically minded authors like Enderton, Epstein &amp; Carnielli or Boolos &amp;Jeffrey – we find not a word about needing to revise our standard logic and adopt a free logic. So what’s going on here?</p>
+<p>I think we have to distinguish two quite different claims:</p>
 <ul>
-<li><a href="../tyl/booknotes/">Book notes on logic and the philosophy of mathematics</a></li>
-<li><a href="../archive/more-logic.html">Further logical pieces from the blog, and a few papers</a></li>
-<li><a href="../archive/blog-writing.html">More writing from the blog</a></li>
+<li><p>Suppose we want to revise the usual first-order language of arithmetic to allow partial recursive functions, and then construct a formal theory in which we can e.g.&nbsp;do computations of the values of the partial recursive functions (when they have one) in the way we can do simpler formal computations as derivations inside <span class="math inline">\(\mathsf{PA}\)</span> (or inside <span class="math inline">\(\mathsf{PRA}\)</span>, formal Primitive Recursive Arithmetic). Then this formal theory with its partial functions will need to be equipped with&nbsp;a free logic to allow for reference failures.</p></li>
+<li><p>When, it comes to proving general results <em>about</em> partial recursive functions in our usual informal mathematical style, we need to deploy reasoning which presumes a free logic.</p></li>
 </ul>
-<p>In just a little more detail:</p>
-<section id="book-notes-from-the-blog" class="level3">
-<h3 class="anchored" data-anchor-id="book-notes-from-the-blog">Book notes from the blog</h3>
-<p>Over the years, I have written up over sixty short notes on a variety of books on logic broadly construed, either as posts on the blog or as entries to the Appendix to the Study Guide. <a href="../tyl/booknotes/">The book notes page has two lists.</a> The first contains links to webpages on the books that appear in that Appendix, i.e.&nbsp;wider ranging texts on mathematical logic. The second list contains links mostly to webpages on a variety of other logic books or books on the philosophy of mathematics.</p>
-</section>
-<section id="other-logical-notes-and-papers" class="level3">
-<h3 class="anchored" data-anchor-id="other-logical-notes-and-papers">Other logical notes and papers</h3>
-<p>The blog occasionally has had argumentative pieces on topics large or small in logic or the philosophy of mathematics. <a href="../archive/more-logic.html">This page of logical blog notes</a> links to some of the more interesting(?) ones, and to a few old papers or seminar handouts dating from my final teaching days which aren’t linked elsewhere.</p>
-</section>
-<section id="more-writing-from-the-blog" class="level3">
-<h3 class="anchored" data-anchor-id="more-writing-from-the-blog">More writing from the blog</h3>
-<p>Along with the book notes and other posts on logical matters, there have been posts on a variety of other topics, a few of them perhaps still worth reading if the topic interests you! <a href="../archive/blog-writing.html">Here’s a selection.</a></p>
-<hr>
-<p>These lists are very much a work in progress, and I will be adding to them over time.</p>
+<p>Now, (1) may be true. But mathematicians in fact seem to have very little interest in that formalization project (though some computer scientists have written around the topic, though what I have read has been pretty unclear). What they care about is the general theory of computability.</p>
+<p>And there seems no good reason for supposing (2) is true.&nbsp;Work through a mathematical text on the general theory of computability, and you’ll see that some care is taken to handle cases where a function has no output. For example, we introduce the notation <span class="math inline">\(f(x){\downarrow}\)</span> to indicate that <span class="math inline">\(f\)</span> indeed has an output for input <span class="math inline">\(x\)</span>; and we introduce the notation <span class="math inline">\(f(x) \approx g(x)\)</span> to indicate that either (i) both <span class="math inline">\(f(x){\downarrow}\)</span> and <span class="math inline">\(g(x){\downarrow}\)</span> and <span class="math inline">\(f(x) = g(x)\)</span> or (ii) neither <span class="math inline">\(f(x)\)</span> nor <span class="math inline">\(g(x)\)</span> is defined. And then our theorems are framed using this sort of notation to ensure that the mathematical propositions which are stated and proved or disproved are straightforwardly true or false (and aren’t threatened with e.g.&nbsp;truth-valueness because of possibly empty terms). In sum, reflection on the arguments actually deployed by Enderton etc. suggests that the silence of those authors on the question of revising our logic is in fact entirely appropriate. Theorists of computability don’t need a free logic.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

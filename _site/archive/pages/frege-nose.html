@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2018-02-27">
 
-<title>Archive: Book notes, papers, blog posts – logic-matters-sandbox</title>
+<title>On Frege seeing what is in front of his nose – logic-matters-sandbox</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +27,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-24ad8c588ed2a251297cdedaee1e3337.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-24ad8c588ed2a251297cdedaee1e3337.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,8 +72,37 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -82,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">logic-matters-sandbox</span>
     </a>
   </div>
@@ -93,11 +123,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../books/index.html"> 
+    <a class="nav-link" href="../../books/index.html"> 
 <span class="menu-text">Five Big Red (Open Access) Logic Books</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -127,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Archive: Book notes, papers, blog posts</h1>
+<h1 class="title">On Frege seeing what is in front of his nose</h1>
 </div>
 
 
@@ -135,6 +165,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 27, 2018</p>
+    </div>
+  </div>
   
     
   </div>
@@ -144,29 +180,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The blog here started in March 2006, and since then there have been over 1850 posts. Of course, most of these have been of merely fleeting interest (if that!). But over the years, there have been some posts, or series of posts, perhaps still worth reading. I also posted along the way a few old papers and seminar handouts with something still to say. How best to organize pointers to what’s perhaps worth (re)visiting? I’ll gather them under three main headings:</p>
-<ul>
-<li><a href="../tyl/booknotes/">Book notes on logic and the philosophy of mathematics</a></li>
-<li><a href="../archive/more-logic.html">Further logical pieces from the blog, and a few papers</a></li>
-<li><a href="../archive/blog-writing.html">More writing from the blog</a></li>
-</ul>
-<p>In just a little more detail:</p>
-<section id="book-notes-from-the-blog" class="level3">
-<h3 class="anchored" data-anchor-id="book-notes-from-the-blog">Book notes from the blog</h3>
-<p>Over the years, I have written up over sixty short notes on a variety of books on logic broadly construed, either as posts on the blog or as entries to the Appendix to the Study Guide. <a href="../tyl/booknotes/">The book notes page has two lists.</a> The first contains links to webpages on the books that appear in that Appendix, i.e.&nbsp;wider ranging texts on mathematical logic. The second list contains links mostly to webpages on a variety of other logic books or books on the philosophy of mathematics.</p>
-</section>
-<section id="other-logical-notes-and-papers" class="level3">
-<h3 class="anchored" data-anchor-id="other-logical-notes-and-papers">Other logical notes and papers</h3>
-<p>The blog occasionally has had argumentative pieces on topics large or small in logic or the philosophy of mathematics. <a href="../archive/more-logic.html">This page of logical blog notes</a> links to some of the more interesting(?) ones, and to a few old papers or seminar handouts dating from my final teaching days which aren’t linked elsewhere.</p>
-</section>
-<section id="more-writing-from-the-blog" class="level3">
-<h3 class="anchored" data-anchor-id="more-writing-from-the-blog">More writing from the blog</h3>
-<p>Along with the book notes and other posts on logical matters, there have been posts on a variety of other topics, a few of them perhaps still worth reading if the topic interests you! <a href="../archive/blog-writing.html">Here’s a selection.</a></p>
-<hr>
-<p>These lists are very much a work in progress, and I will be adding to them over time.</p>
+<p>Take a mathematician of Frege’s generation, accustomed to writing the likes</p>
+<blockquote class="blockquote">
+<ol type="1">
+<li><p><span class="math inline">\(x^2 - y^2 = (x + y)(x - y)\)</span></p></li>
+<li><p>If <span class="math inline">\(x^2 - 4x + 3 = 0\)</span>, then <span class="math inline">\(x = 1\)</span> or <span class="math inline">\(x = 3\)</span>,</p></li>
+</ol>
+</blockquote>
+<p>– and fancier things, of course!</p>
+<p>Whatever unclear thoughts about ‘variables’ people may or may not have had once upon a time, they have surely been dispelled well before the 1870s, if not by Balzano’s 1817 <em>Rein analytischer Beweis</em> (though perhaps that was not widely enough read?), at least by Cauchy’s 1821 <em>Cours d’analyse</em> which everyone serious will have read. Both Bolzano and Cauchy take claims like (1) and (2) to be true just if each instance is true, plain and simple, and clearly gloss various claims written with variables as claims holding ’for any value of <em>x</em>’. Maybe it is worth noting, then, that the mathematicians of the day, at least when on their best behaviour, could be very decently clear about this!</p>
+<p>But then it seems to be only the tiniest of steps to say outright that an ideal notation for such claims might have the form ‘for any value of <span class="math inline">\(x\)</span>, <span class="math inline">\(C(\ldots x\ldots x\ldots)\)</span>’, and that such an explicit form is true when’<span class="math inline">\(C(\ldots n\ldots n\ldots)\)</span>’ is true whatever ’<span class="math inline">\(n\)</span>’ names. So – looked at from this angle – the wonder is not that Frege came up with his basic account of the logical form of expressions of mathematical generality like (1) and (2), but that no one had quite said as much before.</p>
+<p>If you go back to Bolzano’s 1810 <em>Beyträge</em>, what happens there (with hindsight) seems very odd indeed. After all, here is someone who within a few years – in his 1816 <em>Der binomische Lehrsatz</em> and (even more) the 1817 <em>Rein analytischer Beweis</em> – is very clear indeed about variables and their use, when making essential practical use of quantification in talking about continuity etc. Yet in the earlier <em>Beyträge</em>, his <em>Contributions to a Better-Grounded Presentation of Mathematics</em>, when Bolzano turns to talking about logic and the principles of deduction, he looks quite antediluvian – and as far as I know he never revisited the logical basics to try to do better. OK, he says the mathematician will need more principles than we’ll find in the traditional syllogistic, and your hopes rise just for a moment: but the additional principles he comes up with are such a very limited and disappointing lot – the likes of <em>A is an M, A is an N, so A is an M-and-N</em>. It seems that the Bolzano of the <em>Beyträge</em> is – despite his disagreements and amendments – so thoroughly soaked in Kant and in broadly Aristotlean logic that he just can’t see what is right in front of his nose in the mathematician’s use of variables.</p>
+<p>At least here, then, Frege’s originality – it might be said – is not depth of insight but his unabashed willingness to take the mathematician’s usage of the likes of (1) and (2) at bald face value, and to not try to shoehorn such generalizations into the canonical forms sanctioned by received wisdom. It is as if his now standard treatment of generality is a very happy result of Frege’s knowing rather little of previous logic and philosophy.</p>
+<p>I have often wondered, then, if Frege’s <em>philosophical</em> commentators have seen his basic discovery of a quantifier(-for-scoping)/variable notation as more exotic than it is. Take the pre-Frege usage of mathematician’s variables-of-generality at face value, without preconceptions (“don’t think, look” as Wittgenstein might say). Then note that we must distinguish generalizing a negation (<span class="math inline">\(x \neq x + 1\)</span>) and negating a generalization (it’s not true in general that <span class="math inline">\(2x = x^2\)</span>) – so if we are going to use a symbol for negation we are going to somehow have to mark relative scopes. And we are already more or less there!</p>
+<p>Now, in <em>Begriffsschrift</em> and pieces written around that time, Frege’s concern seems to be very much with regimenting mathematical language (formalizing the logical bits of it to go along with the common formal expressions we use for the non-logical bits, showing how adding the logical bits allows us to neatly cut down on the non-logical primitives by giving us the resources to define more complex concepts out of simpler ones, etc. etc.). He says remarkably little – except in using a few toy examples like the ‘Cato killed Cato’ one – about ordinary, non-mathematical, language more generally. So e.g.&nbsp;Dummett’s reading of Frege from the very beginning as aiming for a story about the real underlying structure of ordinary language generalizations is arguably considerable over-interpretation: Frege seems at least in <em>Begriffsschrift</em> to be more in the business of giving us a tidied up <em>replacement</em> for informal ways of talking, useful in regimenting science – one modelled, to borrow his phrase, upon the formula language of arithmetic.</p>
+<p>Saying all this is of course not for a moment to underplay the depth of Frege’s reflections consequent on his discovery of the quantifier/variable notation! But I would very much like to know if there are any discussions in the history of maths or history of logic literatures on the how variables were regarded in 19th century mathematics.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

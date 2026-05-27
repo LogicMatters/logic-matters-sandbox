@@ -343,5 +343,41 @@
   },
   "archive/index.qmd": {
     "index.html": "7bdf1fe4"
+  },
+  "archive/more-logic.qmd": {
+    "more-logic.html": "b2e4bacd"
+  },
+  "archive/pages/frege-nose.qmd": {
+    "frege-nose.html": "9edb0095"
+  },
+  "archive/pages/frege-kripke.qmd": {
+    "frege-kripke.html": "0c8c3236"
+  },
+  "archive/pages/tarski-truth.qmd": {
+    "tarski-truth.html": "aa498b13"
+  },
+  "archive/pages/does-maths-need-philosophy.qmd": {
+    "does-maths-need-philosophy.html": "20e9d952"
+  },
+  "archive/pages/partial-functions-and-free-logic.qmd": {
+    "partial-functions-and-free-logic.html": "5daefc40"
+  },
+  "archive/pages/countability.qmd": {
+    "countability.html": "a7812784"
+  },
+  "archive/pages/hintikka.qmd": {
+    "hintikka.html": "13a90f15"
+  },
+  "archive/pages/phil-maths-reading-list.qmd": {
+    "phil-maths-reading-list.html": "6a25a960"
+  },
+  "archive/pages/five-books-phil-logic.qmd": {
+    "five-books-phil-logic.html": "2d3c6890"
+  },
+  "archive/pages/negative-type-theory.qmd": {
+    "negative-type-theory.html": "5d6209b4"
+  },
+  "archive/pages/unrestricted-quantification.qmd": {
+    "unrestricted-quantification.html": "0d8084ec"
   }
 }
