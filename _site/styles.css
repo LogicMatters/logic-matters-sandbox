@@ -72,3 +72,25 @@ main.content p:first-child {
 main.content p:last-child {
   margin-bottom: 0;
 }
+/* Style the homepage recent posts list */
+#recent-posts .quarto-listing-table {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+/* Hide the table headers (Title, Date) */
+#recent-posts .quarto-listing-table thead {
+  display: none !important;
+}
+
+/* Remove borders and padding to make it blend into the page */
+#recent-posts .quarto-listing-table td {
+  border: none !important;
+  padding: 0.25rem 0 !important;
+}
+
+/* Give the date column a slight color shift and push it right */
+#recent-posts .quarto-listing-table td.listing-date {
+  color: #666;
+  text-align: right;
+}

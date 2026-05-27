@@ -1,5 +1,6 @@
 project:
   type: website
+  pre-render: recent_posts.py
 
 website:
   description: "A blog built with Quarto"

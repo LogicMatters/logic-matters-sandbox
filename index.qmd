@@ -4,9 +4,12 @@ page-layout: article
 title-block-banner: true
 ---
 
+
 **[THE FIVE BIG RED LOGIC BOOKS](books)** The headline news — they are open access.
 
-**[LOGIC MATTERS BLOG](blog)** Peter Smith’s occasional blog posts on logic, music, and other enthusiasms. Most recent posts: ‘[Felicity Lott, 1947 – 2026](https://www.logicmatters.net/2026/05/18/felicity-lott-1947-2026/)’ (May 18); ‘[ICT paperback is out!](https://www.logicmatters.net/2026/05/18/ict-paperback-is-out/)’ (May 18); ‘[Twenty years on, what next?](https://www.logicmatters.net/2026/05/23/twenty-years-on-what-next/)’ (May 23).
+**[LOGIC MATTERS BLOG](blog)** Peter Smith’s occasional blog posts on logic, music, and other enthusiasms.
+
+{{< include _recent_posts.md >}}
 
 **[INTRO TO FORMAL LOGIC](ifl)**. A corrected version of the second edition of *An Introduction to Formal Logic* is freely available here. There are also links to answers to exercises and to various supplementary materials.
 

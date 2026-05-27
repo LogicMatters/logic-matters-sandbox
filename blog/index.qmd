@@ -1,3 +1,5 @@
+Welcome to the new-style blog. Click on a title to see the post.
+
 ---
 title: "Blog"
 css: styles.css

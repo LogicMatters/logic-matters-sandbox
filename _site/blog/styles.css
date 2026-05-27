@@ -22,7 +22,29 @@
 .quarto-listing-default .listing-title a:hover {
   color: #3b3b7a; 
 }
-/* Adds an extra line of spacing under each blog post title */
-.quarto-listing-default .listing-title {
-  margin-bottom: 1.25rem; 
+/* Force extra spacing beneath the title */
+.quarto-listing-default .quarto-post .body .listing-title {
+  margin-bottom: .75rem !important;
+}
+/* Force preview paragraphs to flow together without line breaks */
+.quarto-listing-default .quarto-post .body .listing-description p {
+  display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Adds a single space between the merged paragraphs so words don't glue together */
+.quarto-listing-default .quarto-post .body .listing-description p:not(:last-child)::after {
+  content: " ";
+}
+/* Change the background and border color of the active/current page box */
+.pagination .page-item.active .page-link {
+  background-color: #5353ac !important;
+  border-color: #5353ac !important;
+  color: #ffffff !important; /* Keeps the page number text white for high contrast */
+}
+
+/* Optional: Changes the subtle blue glow around the buttons when clicked */
+.pagination .page-link:focus {
+  box-shadow: 0 0 0 0.25rem rgba(83, 83, 172, 0.25) !important;
 }
