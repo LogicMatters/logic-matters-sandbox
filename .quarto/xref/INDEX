@@ -334,5 +334,14 @@
   },
   "blog/great-expectations.qmd": {
     "great-expectations.html": "994724b4"
+  },
+  "igt/exercises/index.qmd": {
+    "index.html": "3cf54cdc"
+  },
+  "igt/what-else.qmd": {
+    "what-else.html": "656ec4b7"
+  },
+  "archive/index.qmd": {
+    "index.html": "7bdf1fe4"
   }
 }

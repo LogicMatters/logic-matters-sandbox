@@ -1,0 +1,23 @@
+---
+title: "Partial functions and free logic"
+date: "2022-01-08"
+page-layout: article
+---
+
+[latexpage]
+
+How much should a mathematical logician care about free logic? Worries about empty domains or empty names aren't going to give the mathematician much pause. But there is a more interesting case.
+
+The standard semantic story treats function expressions of a FOL language as denoting total functions -- for any object of the domain as input, the function yields a value in the domain as output. Mathematically, however, we often work with partial functions: that's particularly the case in computability theory, where the notion of a partial recursive function is pivotal. Partial recursive functions, recall, are defined by allowing the application of a minimization or least search operator, which is basically a definite description operator which may fail to return a value. So, it might well seem that in order to reason about computable functions we will need a logic which can accommodate partial functions and definite descriptions that fail to refer, and this means we will need a free logic.
+
+Or at least, this is a claim often made by proponents of free logic. And the claim is vigorously pressed e.g. by Oliver and Smiley in Ch. 11 of their *Plural Logic* (as they set up the singular logic on which they are going to build their plural logic). Yet O&S give no examples at all of places where mathematical reasoners doing recursive function theory actually use arguments that need to be regimented by changing our standard logic. And if we turn to mainstream theoretical treatments of partial recursive functions in books on computability -- including those by philosophically minded authors like Enderton, Epstein & Carnielli or Boolos &Jeffrey -- we find not a word about needing to revise our standard logic and adopt a free logic. So what's going on here?
+
+I think we have to distinguish two quite different claims:
+
+ 	- Suppose we want to revise the usual first-order language of arithmetic to allow partial recursive functions, and then construct a formal theory in which we can e.g. do computations of the values of the partial recursive functions (when they have one) in the way we can do simpler formal computations as derivations inside $\mathsf{PA}$ (or inside $\mathsf{PRA}$, formal Primitive Recursive Arithmetic). Then this formal theory with its partial functions will need to be equipped with a free logic to allow for reference failures.
+
+ 	- When, it comes to proving general results *about* partial recursive functions in our usual informal mathematical style, we need to deploy reasoning which presumes a free logic.
+
+Now, (1) may be true. But mathematicians in fact seem to have very little interest in that formalization project (though some computer scientists have written around the topic, though what I have read has been pretty unclear). What they care about is the general theory of computability.
+
+And there seems no good reason for supposing (2) is true. Work through a mathematical text on the general theory of computability, and you'll see that some care is taken to handle cases where a function has no output. For example, we introduce the notation $f(x){\downarrow}$ to indicate that $f$ indeed has an output for input $x$; and we introduce the notation $f(x) \approx g(x)$ to indicate that either (i) both $f(x){\downarrow}$ and $g(x){\downarrow}$ and $f(x) = g(x)$ or (ii) neither $f(x)$ nor $g(x)$ is defined. And then our theorems are framed using this sort of notation to ensure that the mathematical propositions which are stated and proved or disproved are straightforwardly true or false (and aren't threatened with e.g. truth-valueness because of possibly empty terms). In sum, reflection on the arguments actually deployed by Enderton etc. suggests that the silence of those authors on the question of revising our logic is in fact entirely appropriate. Theorists of computability don't need a free logic.

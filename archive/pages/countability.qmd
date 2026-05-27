@@ -1,0 +1,23 @@
+---
+title: "A query about countability"
+date: "2013-09-25"
+page-layout: article
+---
+
+Suppose we are working in an elementary  context where e.g. we don't want to rush to invoke infinitary choice principles, and want to keep background assumptions modest. What should our attitude be to the idea of countability? Countability is defined by a quantification – *X* are countable if there is a function *f : N → X *which enumerates them. But quantification over which functions?
+
+I'm not raising Skolemite concerns here. Even if you fully buy into a rich set-theoretic background, taken at face value, different set theories will supply different enumerating functions. Thus the so-called constructible reals are uncountable according to the theory ‘ZFC + V = L’ but countable according to the theory ‘ZFC + there exists a Ramsey cardinal’. More needs to be said even by the orthodox who identify functions with sets, if it isn’t to be left somewhat indeterminate what objects are countable. But suppose we fall short of  endorsing the orthodoxy because we don't (in the context, anyway) want definitely to buy into the wildly infinitary assumptions of set theory: we might initially *seem* to be in danger of making the notion of countability too indeterminate to be comfortable with. For if we are leaving it open just which functions we are prepared to countenance, we leave it correspondingly open which enumerating functions we are aiming to quantify over when we say that some objects are countable.
+
+Yet mathematicians -- at least when writing in fairly elementary contexts -- cheerfully talk about the countable as if that's unproblematic. How come? Is that just carelessness?
+
+Well, no. Elementary talk about the countable tends (doesn't it?) to feature  in three sorts of context:
+
+	- There are claims that certain objects are indeed countable, defended by showing that the objects in question are unproblematically counted by producing a nice enumerating function. (Consider, for a familiar simple example, how we show that the positive rationals *m/n* are countable by actually constructing the ‘zig-zag’ enumerating function for ordered pairs *m, n*, and so counting them.)
+
+	- There are claims that certain objects are uncountable, defended by reducing the assumption that they can be counted to absurdity. (Consider, for another familiar simple example, the usual diagonal argument that the infinite binary sequences are uncountable.)
+
+	- There are conditional claims of the kind *if X are countable, then ...,* supported by general arguments that are insensitive to how exactly we delimit (or fail to delimit) the countable.
+
+(The second is a special case of the third, of course, but perhaps worth highlighting.) In none of *these* kinds of case, at any rate, does such indeterminacy as we might be leaving in the extent of the countable become problematic. So if we proceed with due caution – restrict ourselves to these cases -- we can continue to talk about the (un)countable safely enough. And in elementary contexts we do exercise such caution.
+
+Or at least, so it seems. Query: is that a fair description of 'ordinary' mathematical practice in elementary, non-set-theoretic, areas? If not, what is going on? While if I'm right, can you think of some texts which overtly ’fess up to the need for this element of caution?

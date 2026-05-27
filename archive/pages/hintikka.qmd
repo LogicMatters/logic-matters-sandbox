@@ -1,0 +1,19 @@
+---
+title: "Revisiting an old result of Hintikka's"
+date: "2013-04-25"
+page-layout: article
+---
+
+The pedagogic habit dies very hard. In recent months I've been hanging out quite a bit at [math.stackexchange.com](http://math.stackexchange.com), and answering logicky questions when the mood has taken me (which seems to have been quite often ...). You can find over 250 (oops!) of my answers [here](http://math.stackexchange.com/users/35151/peter-smith?tab=answers). But a lot of them are really concerned with baby logic and/or clearing up horrible confusions and won't be of any interest at all to readers of Logic Matters.
+
+However, a few questions on math.stackexchange have raised more interesting issues. For example, recently someone posed a question which came to this:
+
+> Can we do without equality in first order logic, and get something equally expressive using a language with the semantics for quantifiers tweaked so that different variables get assigned different values?
+
+Unbeknownst to the questioner, who conjectured (on the basis of some examples) that the answer is 'yes', the proposal here in fact goes back to Wittgenstein's *Tractatus* 5.53, where he writes, ‘Identity of the object I express by identity of the sign and not by means of a sign of identity. Difference of the objects by difference of the signs.’ OK: can this proposal, not really developed out by Wittgenstein, be made to work?
+
+The answer is it that it can, as I recalled was shown by Hintikka in 1956 ('Identity, Variables, and Impredicative Definitions', *Journal of Symbolic Logic*). Hintikka distinguishes the usual 'inclusive' reading of the variables (i.e. we are allowed to assign the same object to distinct variables) from the 'exclusive' reading, and then proves the key theorem (summarized on his p. 235):
+
+> [E]verything expressible in terms of the inclusive quantifiers and identity may also be expressed by means of the weakly exclusive quantifiers without using a special symbol for identity.
+
+So the questioner's conjecture is right. This result is nice and probably deserves to be better known, but what was new to me --- googling around as you then do -- is that Hintikka's result has of late been revisited (in the context of the seemingly never-ending project of interpreting the *Tractatus*, of course). See for example. Kai F. Wehmeier's interesting 'How to Live without Identity - And Why', *Australasian Journal of Philosophy*, 2012, [downloadable here](http://www.academia.edu/949632/How_to_live_without_identity_--_and_why).

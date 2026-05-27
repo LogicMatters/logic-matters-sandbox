@@ -1,0 +1,51 @@
+---
+title: "Philosophy of mathematics --  a reading list"
+date: "2020-11-16"
+page-layout: article
+---
+
+*A few people recently have quite independently asked me to recommend some introductory reading on the philosophy of mathematics. I have in fact previously posted here *a short list in the ‘Five Books’ style*. But here’s a more expansive draft list of suggestions.*
+
+Let’s begin with an entry-level book first published twenty years ago but not yet superseded or really improved on:
+
+ 	- Stewart Shapiro, *Thinking About Mathematics* (OUP, 2000). After introductory chapters setting out some key problems and sketching some history, there is a group of chapters on what Shapiro calls ‘The  Big Three’, meaning the three programmatic ideas that shaped so much philosophical thinking about mathematics for the first half of the twentieth century -- i.e. varieties of logicism, formalism, and intuitionism. Then there follows a group of chapters on ‘The Contemporary Scene’, on varieties of realism, fictionalism, and structuralism. This might be said to be a rather conservative menu -- but then I think this is just what is needed for a very first introduction to the area, and Shapiro writes with very admirable clarity.
+
+By comparison, Mark Colyvan’s *An Introduction to the Philosophy of Mathematics* (CUP, 2012) is [far too rushed to be useful](http://www.peters259.sg-host.com/tyl/booknotes/colyvan/). And I would say much the same of Øystein Linnebo’s *Philosophy of Mathematics *(Princeton UP, 2017). David Bostock’s *Philosophy of Mathematics: An Introduction *(Wiley-Blackwell, 2009) is more accessible, but -- apart from a chapter on predicativism -- covers similar ground to the earlier parts of Shapiro’s book, but has little about more recent debates.
+
+A second entry-level book, narrower in focus, that can also be warmly recommended is
+
+ 	- Marcus Giaquinto, *The Search for Certainty *(OUP, 2002). Modern philosophy of mathematics is still in part shaped by debates starting well over a century ago, springing from the work of Frege and Russell, from Hilbert’s alternative response to the  “crisis in foundations”, and from the impact of Gödel’s work on the logicist and Hibertian programmes. Giaquinto explores this with enviable clarity: this is really exemplary exposition and critical assessment. A terrific book.
+
+Then, before moving on, I have to mention that most accessible of modern classics:
+
+ 	- Imre Lakatos, *Proofs and Refutations* (originally published in 1963-64, and then in expanded book form by CUP, 1976). Textbooks tend to present developed chunks of mathematics in a take-it-or-leave-it spirit, the current polished surface hiding away the earlier rough versions, the conceptual developments, the false starts. *Proofs and Refutations* makes for a wonderful counterbalance. A classic exploration in dialogue form of the way that mathematical concepts are refined, and mathematical knowledge grows. We may wonder how far the morals that Lakatos draws can be generalized; but this remains a fascinating read (I’ve not known a good student who didn’t enjoy it).
+
+Next, having got from Shapiro a sense of some of the core problems, you should certainly sample some classic papers. Here are two extremely useful sourcebooks taking us up to the turn of the century:
+
+ 	- Paul Benacerraf & Hilary Putnam (eds), *Philosophy of Mathematics: Selected Readings  *(CUP: NB you want the 1983 2nd edition of this classic collection).
+
+ 	- Dale Jacquette (ed), *Philosophy of Mathematics: An Anthology* (Blackwell, 2002).
+
+Then, for further discussions of debates old and new, the obvious next place to look is:
+
+ 	- Stewart Shapiro (ed.) *The Oxford Handbook of Philosophy of Mathematics and Logic* (OUP, 2005). The editor’s introductory essay is in fact called ‘Philosophy of mathematics and its logic’, which should surely also have been the whole *Handbook*’s title -- for of the twenty-six essays here, twenty are straight philosophy of mathematics, and the logic essays are mostly closely relevant to mathematics too. Large handbooks of this general type can often be very mixed bags, containing essays of decidedly varying quality; but this one really is a triumph. Some of the essays are very substantial, and as I recall it none is a makeweight. There are often pairs of essays taking divergent approaches (e.g. to contemporary logicism, to intuitionism, to structuralism). Of course, there are variations in the accessibility of the individual essays: but Shapiro seems to have done wonderful work in keeping his very well-selected authors under control! So for any serious student now -- perhaps beginning graduate student -- this must be *the* place to start explorations of issues in more recent philosophy of mathematics.
+
+Following up interesting-seeming references in the *Handbook* essays will enable you to begin to explore the then-state-of-play in various areas in as much detail as you want: I therefore needn't add more references here to important earlier work by a whole range of philosophers. And so, with a gesture towards the amazing resource that is the *[Stanford Encyclopaedia of Philosophy](https://plato.stanford.edu) -- *which has some characteristically excellent long entries on various topics in the philosophy of mathematics, all with many further references -- we could stop an introductory list at this point. Except I should perhaps mention another giant handbook. After all, if you are interested in the philosophy of maths, it helps to know some maths! For a guide with some wonderfully lucid essays, see the masterful
+
+ 	- Timothy Gowers (et al., eds) *The Princeton Companion to Mathematics* (Princeton UP, 2008).
+
+---
+
+As I said, I have surely provided more than enough introductory reading! Still, let’s ask: what has been published since around the time of the *Handbook *which is both of note and is also reasonably accessible? There was a short collection edited by Otávio Bueno and Øystein Linnebo called *New Waves in the Philosophy of Mathematics* (Palgrave, 2009), which has moderate interest. Some of the papers collected in Paolo Mancosu (ed.) *The Philosophy of Mathematical Practice *(OUP, 2008) are worth reading. And of course, the journal *Philosophia Mathematica* continues to publish many good articles. But what of books?
+
+Ian Hacking’s *Why is There Philosophy of Mathematics At All* (CUP, 2014) is an idiosyncratic though quite engaging ramble by an always-interesting philosopher. Penelope Maddy, who has a paper on ‘naturalism’ about mathematics in the *Handbook* has published two characteristically readable works developing her position, *Second Philosophy* (OUP, 2007) and *Defending the Axioms: On the Philosophical Foundations of Set Theory* (OUP, 2011). One position under-represented in the *Handbook* is outright fictionalism: Mary Leng’s *Mathematics and Reality* (OUP, 2010) mounts a defence. She argues that we have no reason to believe that mathematical objects exist, and then takes on the task of explaining how it can still be that mathematics can be crucially useful in the formulation of scientific theories. You might well not end up agreeing: but thinking through Leng’s lucidly presented arguments will force you to get clear about a range of central issues.
+
+We are now perhaps going up a level in difficulty. Charles Parsons has been one of the most insightful philosophers of mathematics for half a century. His early collection of papers *Mathematics in Philosophy* (OUP, 1983) is still well worth reading. But his long-awaited major book *Mathematical Thought and Its Objects* (CUP, 2008) is quite tough going -- it is not easy to work out the subtle position he is trying to develop as he negotiates his way between different kinds of structuralism. But there is a good deal to think about here.
+
+Every philosopher of mathematics should at some point read Michael Dummett*’*s *Frege: Philosophy of Mathematics* (Duckworth, 1991). The later neo-Fregean project of Crispin Wright and Bob Hale’s *The Reason’s Proper Study* (OUP 2001) has rather run out of steam. But it did inspire important work on Frege -- see in particular Richard Heck’s two books of papers *Frege’s Theorem* (OUP, 2011) and *Reading Frege’s Grundgesetze* (OUP, 2012). For more on post-Fregean themes see also the more approachable John Burgess, *Fixing Frege* (Princeton UP, 2005).
+
+Philosophers continue to worry about the foundations of set theory -- having, let’s hope, done their initial homework on Michael Potter’s excellent *Set Theory and Its Philosophy* (OUP, 2004), and perhaps also on José Ferreirós’ historical *Labyrinths of Thought* (Birkhäuser, 2007). We’ve mentioned Maddy’s work. For a new discussion see Luca Incurvati's lucid *Conceptions of Set and the Foundations of Mathematics* (Cambridge, 2020). A smaller number of philosophers worry about the foundations of category theory: you’ll find some scattered papers with further references in *Philosophia Mathematica*.
+
+My sense, though, is that after a period in which the philosophy of mathematics really flourished, there has perhaps been something of a lull more recently. However let me finish by mentioning a stand-out recent achievement, a little more wide-ranging than just philosophy of mathematics (though a considerably bumpier ride than perhaps the authors intended, so only just squeezing into what started out as an introductory list!) -- namely Tim Button & Sean Walsh, *Philosophy and Model Theory* (OUP, 2018).
+
+*And let me leave it there for the moment. What would you add?*

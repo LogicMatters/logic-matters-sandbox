@@ -5,42 +5,44 @@ page-layout: article
 
 ### Quick links
 
-- Download PDF of *An Introduction to Gödel’s Theorems*.
-- Download PDF of *Gödel Without (Too Many) Tears*.
+- [Download PDF of *An Introduction to Gödel’s Theorems*](pdfs/GodelBookLM.pdf).
+- [Download PDF of *Gödel Without (Too Many) Tears*](pdfs/GWT2edn.pdf).
 
 ### The big book
+
+<img src="../books/book-covers/SmithIGT.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 *An Introduction to Gödel’s Theorems* was first published by CUP in 2007 with the second edition appearing in 2013.
 
 A corrected version of the second edition is now [available as a freely downloadable PDF](pdfs/GodelBookLM.pdf).
 
-Many people, however, prefer if possible to work from a physical book. So you can also get a print-on-demand copy of this version as a very inexpensive large format book from Amazon: [US link](https://www.amazon.com/dp/B08GB4L9JT); [UK link](https://www.amazon.co.uk/dp/B08GB4L9JT/). Find on your local Amazon by using the ASIN identifier B08GB4BDPG in their search field.
+Many people, however, prefer if possible to work from a physical book. So you can also get a print-on-demand copy of this version as a very inexpensive large format book from Amazon: [US link](https://www.amazon.com/dp/B08GB4L9JT); [UK link](https://www.amazon.co.uk/dp/B08GB4L9JT/), or find on your local Amazon by using the ASIN identifier B08GB4BDPG in their search field.
+
+<img src="CUPcover-sm.jpg" style="float: right; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 The book previously appeared in the series ‘Cambridge Introductions to Philosophy’ from CUP. But don’t let that mislead you! *IGT* is actually a fairly techie logic book, originally intended for advanced philosophy undergraduates and postgraduates. It is quite long (388 pp.) and is full of theorems — so many mathematics students should find it useful too. Still, it does aim to give a relatively relaxed and approachable exposition of the technicalities around and about the incompleteness theorems and related results, and it does also provide a modest amount of more philosophical commentary on the interpretation and significance of the theorems.
 
 ### A shorter book
 
+<img src="../books/book-covers/SmithGWT.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
+
 *Gödel Without (Too Many) Tears* is a much shorter book (146 pp.) based on my notes for the lectures I used to give to undergraduate philosophers taking the Mathematical Logic paper in Cambridge. You can think of this as a cut-down version of the longer book, aiming to give some of the key technical facts about the incompleteness theorems without too many digressions. It is still full of technical exposition and quite short on philosophical asides — the main aim is to put a reader in a position where they can begin to understand what’s going on in discussions of supposed philosophical implications of the incompleteness theorems.
 
 This book is now in a second edition and is [available as a freely downloadable PDF](pdfs/GWT2edn.pdf).
 
-But again, many will find it easier to work from the decently produced but *extremely* inexpensive print-on-demand paperback, with the ISBN 1916906341.
+But again, many will find it easier to work from the decently produced but *extremely* inexpensive Amazon print-on-demand paperback, with the ISBN 1916906341.
 
 ### Corrections to current versions
 
 - *IGT*: For just a handful of minor known corrections for the current downloadable PDF/print-on-demand Amazon version, [see here](pdfs/CorrectionsLM.pdf).
-- *GWT*: Again for just a handful of minor known corrections for the current editions, both PDF and printed, [see here](pdfs/CorrectionsGWT2.pdf).
+- *GWT*: Again for just a handful of minor known corrections for the current versions, both PDF and printed, [see here](pdfs/CorrectionsGWT2.pdf).
 
-### Corrections to older versions
+Since the second editions of both books are freely available to download, I deem the earlier editions to be obsolete, and will no longer be maintaining lists of corrections for them
 
-- If you are the proud owner of the 2007 first edition of *An Introduction to Gödel’s Theorems, IGT1*, you are very warmly encouraged to upgrade to the much better second edition! For the many needed corrections to the various printings of *IGT1*, [see here](/igt/godel-the-first-edition).
-- For relatively minor corrections to the 2013 CUP printed version of *IGT2*, [see here](pdfs/Corrections2.pdf).
-- For corrections to the very short-lived earliest printed version of *GWT*, [see here](pdfs/Corrections1.pdf).
-- For corrections for the main first edition of *GWT*, [see here](pdfs/GWTCorrections2.pdf).
 
 ### Exercises
 
-There are exercises with solutions for early chapters in *IGT2*. I still plan to add further exercises one day, but this isn’t a top priority:
+There are exercises with solutions for early chapters in *IGT2*. I may add further exercises one day, but this isn’t a top priority:
 
 - [Exercises for *IGT2*.](exercises/)
 
@@ -57,4 +59,4 @@ There are exercises with solutions for early chapters in *IGT2*. I still plan to
 - [Church’s Thesis After 70 Years](pdfs/CTT.pdf). Discusses papers in a volume of essays on Church’s Thesis (amplifying some remarks in the final chapter.)
 - [The MRDP Theorem](pdfs/MRDP.pdf). Introductory discussion of the MRDP Theorem and another route to proving the first incompleteness theorem.
 - [Tennenbaum’s Theorem](pdfs/TennenbaumTheorem.pdf). Introductory discussion of Tennenbaum’s Theorem (not so closely tied to issues about incompleteness, perhaps, but still interesting as giving us a key insight about models of PA.)
-- [What to read before, after, or instead of *IGT2*](further-notes/what-to-read-before-after-or-instead-of-igt/).
+- [What to read before, after, or instead of *IGT2*](what-else.qmd).

@@ -1,0 +1,30 @@
+---
+title: "Archive: Book notes, papers, blog posts"
+page-layout: article
+---
+
+The blog here started in March 2006, and since then there have been over 1850 posts. Of course, most of these have been of merely fleeting interest (if that!). But over the years, there have been some posts, or series of posts, perhaps still worth reading. I also posted along the way a few old papers and seminar handouts with something still to say. How best to organize pointers to what's perhaps worth (re)visiting? I'll gather them under three main headings:
+
+- [Book notes on logic and the philosophy of mathematics](../tyl/booknotes/)
+- [Further logical pieces from the blog, and a few papers](more-logic.qmd)
+- [More writing from the blog](https://www.logicmatters.net/yet-more-logic/more-from-the-blog/)
+
+In just a little more detail:
+
+### Book notes from the blog
+
+Over the years, I have written up over sixty short notes on a variety of books on logic broadly construed, either as posts on the blog or as entries to the Appendix to the Study Guide. [The book notes page has two lists.](/tyl/booknotes/) The first contains links to webpages on the books that appear in that Appendix, i.e. wider ranging texts on mathematical logic. The second list contains links mostly to webpages on a variety of other logic books or books on the philosophy of mathematics.
+
+### Other logical notes and papers
+
+The blog occasionally has had argumentative pieces on topics large or small in logic or the philosophy of mathematics. [This page of logical blog notes](more-logic.qmd) links to some of the more interesting(?) ones, and to a few old papers or seminar handouts dating from my final teaching days which aren't linked elsewhere. 
+
+
+### More writing from the blog
+
+Along with the book notes and other posts on logical matters, there have been posts on a variety of other topics, a few of them perhaps still worth reading if the topic interests you! [Here's a selection.](https://www.logicmatters.net/yet-more-logic/more-from-the-blog/) 
+
+<hr>
+
+
+These lists are very much a work in progress, and I will be adding to them over time.

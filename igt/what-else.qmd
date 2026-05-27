@@ -1,0 +1,68 @@
+---
+title: "What to read before, after, or instead of *IGT*"
+page-layout: article
+---
+
+I'm sometimes asked for recommendations about what to read before or after *IGT* — or indeed, what to read *instead* of tackling *IGT* if you are looking for something less weighty, or alternatively looking for something more like a conventional mathematical text. So here are some suggestions, for different kinds of audiences.
+
+### 1. What do I need to know before I can read *IGT*?
+
+I am afraid that you do need *some* logical background to tackle my book (and likewise for most alternative presentations). But you don't need very much background: a reading knowledge of standard logical symbolism, the idea of a formal system for first-order logic, the ideas of soundness and completeness, the idea of a formal axiomatized theory ...
+
+I suppose you could try reading *IGT* and filling in logical background (from Wikipedia, for example) on a need-to-know basis. But better, check out the [Teach Yourself Logic Guide](../tyl) for suggestions for elementary logical reading.
+
+### 2. There are a lot of symbols in *IGT*! What should I read if I want something shortish but reliable that will just give me some headline news without all the hard work?
+
+As so often, the Stanford Encyclopedia of Philosophy is a good place to start: the [entry on Kurt Gödel](http://plato.stanford.edu/entries/goedel/) by Juliette Kennedy gives a brisk account of the incompleteness theorems, and then there is of course lots more in the entry specifically on [Gödel's Incompleteness Theorems](http://plato.stanford.edu/entries/goedel-incompleteness/) by Panu Raatikainen (though there are quite a few symbols there too). But if you want/need a slower introduction, you probably won't do better than the excellent and rightly much admired
+
+> Torkel Franzén, *Gödel's Theorem: An Incomplete Guide to its Use and Abuse* (A.K. Peters, 2005)
+
+which explains the incompleteness theorems and how they are proved, and gives some indication of why they might matter. Franzén is also excellent at pouring cold water on some ludicrous abuses/misinterpretations of Gödel's result. A different approach, which some will love, is to be found in one of Smullyan's classic books exploring logic through puzzles:
+
+> Raymond Smullyan, *Forever Undecided: A Puzzle Guide to Gödel* (OUP pbk 1998).
+
+### 3. What if I want more detail than Franzén gives, but still something a lot shorter than *IGT*?
+
+Well, there are my own notes (which at least are both a lot shorter and a lot cheaper than *IGT*, but unsurprisingly run along very similar lines):
+
+> [*Gödel Without (Too Many) Tears*](index.qmd)
+
+Or, if you are a bit more mathematical and can cope with a certain degree of terse elegance, there is the simply wonderful
+
+> Raymond Smullyan, *Gödel's Incompleteness Theorems* (OUP, 1992).
+
+which weighs in at a meagre 135 pages.
+
+### 4. I'm reading/have just read *IGT* and would like some parallel reading at about the same level.
+
+The obvious two recommendations, apart from the Smullyan book just mentioned, have to be
+
+> Richard L. Epstein and Walter A. Carnielli, *Computability: Computable functions, logic, and the foundations of mathematics* (Wadsworth, 3rd edn 2008).
+
+> George Boolos and Richard C. Jeffrey, *Computability and Logic* (CUP, 3rd edn 1989).
+
+The fourth and fifth editions of the latter book have John Burgess as a third author. But many would agree that the later additions and amendments are not all for the best, and the book has become notably longer in the process. For a third suggestion, I can also recommend the insightful but non-standard approach of
+
+> Melvin Fitting, *Incompleteness in the Land of Sets* (College Publications, 2007).
+
+### 5. I'm a graduate student, want to learn about Gödel's theorems in detail, have some logical background, and so could handle more than a 'Cambridge Introduction to Philosophy'.
+
+Don't be put off *IGT* by the series it appears in (I happily agreed to its inclusion because it led to the paperback being comparatively very cheap). The book is in fact of the same kind of level as the compressed Smullyan or the more expansive Boolos/Jeffrey, for example, so would e.g. be as apt for an introductory graduate-level reading group as those books are. But if you want alternatives, I've just mentioned three.
+
+### 6. I've read *IGT* and would like to push on from there.
+
+One direction to go is to read more on the theory of computable functions in a more general and systematic way. I'd recommend the following pair of texts (the first is rightly something of a modern classic, the second seems the best of a later crop):
+
+> N. J. Cutland, *Computability: An Introduction to Recursive Function Theory* (CUP, 1980).
+>
+> S. Barry Cooper, *Computability Theory* (Chapman & Hall/CRC Mathematics 2004).
+
+There's also a more recent book by Herb Enderton, *Computability Theory: An Introduction to Recursion Theory* (Academic Press, 2011) which is excellent too, though doesn't go as far. Another direction to go, more specifically tied to the incompleteness phenomenon, is to consider what happens if you e.g. add to PA its unprovable consistency sentence to get PA+Con, and then add the consistency sentence of that, and so on. On this and related matters, see
+
+> Torkel Franzén, *Inexhaustibility: A Non-exhaustive Treatment* (Association of Symbolic Logic/A. K. Peters 2004).
+
+And in a rather different direction again, there is another modern classic
+
+> George Boolos, *The Logic of Provability* (CUP, 1993).
+
+Enjoy!

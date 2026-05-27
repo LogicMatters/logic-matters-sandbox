@@ -1,0 +1,21 @@
+---
+title: "Exercises for *IGT2*"
+page-layout: article
+---
+
+*IGT1* was already a long book: *IGT2* is a bit longer still. That's one major reason for not including exercises in the book itself. But another, equally important, reason is that I didn't want to discourage not-so-mathematical philosophers by adding daunting end-of-chapter lists of problems.
+
+Still, some readers might appreciate exercises to help test their understanding, and (occasionally) to expand their knowledge too. Note, it *isn't* required that you do *any* of the exercises to follow the book. But here's a (very slowly growing) selection to make use of as you will.
+
+I've given answers to most of the exercises as set. All references to Chapters, Sections, Theorems etc. are to the Second Edition.
+
+| Ch. | Topic | Answers | Updated |
+|:---:|-------|:-------:|:-------:|
+| 2 | [Functions](../pdfs/godelexercises/Functions.pdf) | [Ans](../pdfs/godelexercises/Functions_solutions.pdf) | 25 Jul 2014 |
+| 2 | [Equinumerosity](../pdfs/godelexercises/Equinum.pdf) | [Ans](../pdfs/godelexercises/Equinum_solutions.pdf) | 15 Feb 2013 |
+| 3 | [Computability](../pdfs/godelexercises/Compfunctions.pdf) | [Ans](../pdfs/godelexercises/Compfunctions_solutions.pdf) | 16 Feb 2013 |
+| 4 | [Theories](../pdfs/godelexercises/Theories.pdf) | [Ans](../pdfs/godelexercises/Theories_solutions.pdf) | 22 Feb 2013 |
+| 5 | [The language L~A~](../pdfs/godelexercises/LanguageLA.pdf) | [Ans](../pdfs/godelexercises/LanguageLA_solutions.pdf) | 7 Mar 2013 |
+| 6, 7 | [Sufficiently expressive/strong theories](../pdfs/godelexercises/ElemIncomp.pdf) | [Ans](../pdfs/godelexercises/ElemIncomp_solutions.pdf) | 12 Jan 2014 |
+| 9 | [Induction, informally](../pdfs/godelexercises/Induction.pdf) | [Ans](../pdfs/godelexercises/Induction_solutions.pdf) | 5 Mar 2014 |
+| 10, 11 | [Arithmetics without induction](../pdfs/godelexercises/ArithWoInd.pdf) | [Ans](../pdfs/godelexercises/ArithWoInd_solutions.pdf) | 24 Jul 2014 |

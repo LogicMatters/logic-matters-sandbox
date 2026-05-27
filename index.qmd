@@ -5,11 +5,13 @@ title-block-banner: true
 ---
 
 
-**[THE FIVE BIG RED LOGIC BOOKS](books)** The headline news — they are open access.
-
 **[LOGIC MATTERS BLOG](blog)** Peter Smith’s occasional blog posts on logic, music, and other enthusiasms.
 
 {{< include _recent_posts.md >}}
+
+<hr>
+
+**[THE FIVE BIG RED LOGIC BOOKS](books)** The headline news — they are open access.
 
 **[INTRO TO FORMAL LOGIC](ifl)**. A corrected version of the second edition of *An Introduction to Formal Logic* is freely available here. There are also links to answers to exercises and to various supplementary materials.
 
@@ -19,6 +21,6 @@ title-block-banner: true
 
 **[THE STUDY GUIDE AND BOOK NOTES](tyl)** You will find here the much-downloaded *Beginning Mathematical Logic: A Study Guide*, its *Appendix* reviewing some of the wider-ranging books on mathematical logic, together with links to some forty further book notes.
 
-**[ARCHIVE](https://www.logicmatters.net/yet-more-logic)** Links to various old blog posts, papers, more reviews and other pieces.
+**[ARCHIVE](archive)** Links to various old blog posts, papers, more reviews and other pieces.
 
 **[LaTeX FOR LOGICIANS](https://www.logicmatters.net/latex-for-logicians)** Pages pointing to a wide range of resources of interest to logicians, philosophers and others using LaTeX.

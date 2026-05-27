@@ -1,0 +1,45 @@
+---
+title: "Logical blog notes and papers"
+page-layout: article
+---
+
+## Logical notes and papers
+
+### Some logical blog pieces
+
+1. [Philosophy of maths: a reading list](pages/phil-maths-reading-list.qmd)
+1. [Does mathematics need a philosophy?](pages/does-maths-need-philosophy.qmd)
+1. [Philosophical logic: five books from the back catalogue](pages/five-books-phil-logic.qmd)
+1. [On Frege seeing what is in front of his nose](pages/frege-nose.qmd)
+1. [Begriffsschrift and absolutely unrestricted quantification](pages/unrestricted-quantification.qmd)
+1. [What Frege didn't tell you](pages/frege-kripke.qmd)
+1. [Tarski on truth — a thumbnail sketch](pages/tarski-truth.qmd)
+1. [Partial functions and free logic](pages/partial-functions-and-free-logic.qmd)
+1. [Revisiting an old result of Hintikka's](pages/hintikka.qmd)
+1. [A query about countability](pages/countability.qmd)
+1. [Negative type theory](pages/negative-type-theory.qmd)
+
+### A few papers and handouts
+
+These old pieces written round about the time I retired are of very varying levels of sophistication, difficulty and interest: but I haven't tried to impose any more order on the list other than a rough (reverse) chronological order.
+
+1. [Notes on 'the contemporary conception of logic'](pdfs/TextbooksOnLogic.pdf) gives evidence against a claim by Goldfarb (endorsed by some others) about the supposedly dominant conception of logic as dealing in schemata. (2013)
+1. [Tennenbaum's Theorem](pdfs/tennenbaum_new.pdf) (a rewritten version of a reasonably accessible proof, with the old short discussion of its sometimes supposed conceptual significance which fed into the joint paper with Tim Button). 2013, revised 2014.
+1. [Is 'no' a force-indicator? Sometimes, possibly](pdfs/SmithIncurvati.pdf) (with Luca Incurvati) *Analysis* 2012.
+1. [The philosophical significance of Tennenbaum's Theorem](pdfs/SmithButton.pdf) (with Tim Button) *Philosophia Mathematica* 2011.
+1. [Squeezing arguments](pdfs/KreiselSqueezing.pdf) (on Kreisel's argument — what it does and doesn't show: expanding a bit on part of the Squeezing Church's Thesis talk). Draft of paper in *Analysis* 2011.
+1. [The MRDP Theorem](pdfs/MRDP.pdf) (introduction to what it says and why it matters).
+1. [Cuts, consistency and axiomatized theories](pdfs/Negri_Plato6.pdf) (a short and naive introduction to the chapter in Negri and von Plato's *Structural Proof Theory* on cut-elimination for certain kinds of theories — though you don't have to have read the book to follow the story).
+1. [On chs 5 & 6 of Mary Leng's *Mathematics and Reality*](pdfs/LengComments5and6.pdf) (concerning naturalism about mathematics).
+1. [The Galois connection between syntax and semantics](pdfs/Galois.pdf) (explains Lawvere's remark about 'the familiar Galois connection between sets of axioms and classes of models, for a fixed [signature]').
+1. [Field on truth: how complex is *too* complex?](pdfs/Field2.pdf) (worries sceptically about the conceptual significance of Field's intricate constructions).
+1. [Curry's paradox, Lukasiewicz and Field](pdfs/CurryParadox2.pdf) (some cheerfully naive notes introducing Ch. 4 of Field's *Saving Truth from Paradox*, for a reading group).
+1. [Kleene's Normal Form Theorem entails Gödel's Incompleteness Theorem](pdfs/KleeneProof.pdf) (explained in just two pages).
+1. [Squeezing Church's Thesis again](pdfs/SqueezingChr.pdf) (a talk given a few times in New Zealand, explaining what I was up to at the end of my Gödel book, but a little better!)
+1. [Induction and predicativity](pdfs/InductionAndPredicativity2.pdf) (another talk given in New Zealand, for a non-expert audience).
+1. [Entailment, with nods to Lewy and Smiley](pdfs/Entailment.pdf) (an introductory talk to a seminar, something of an exercise in Cambridge piety).
+1. [Rejection and valuations](pdfs/Bilateralism.pdf) (with Luca Incurvati, draft of *Analysis* paper published in Jan 2010).
+1. [Wittgenstein on mathematics and games](pdfs/MathsAsGame.pdf) (discussing §108 of the *Big Typescript*).
+1. [There are sea-serpents, Jim, but not as we know them](pdfs/Believingin.pdf) (talk given to a metaphysics group in Cambridge, commenting on Zoltan Szabo's "Believing in things").
+1. [Ancestral arithmetic and Isaacson's thesis](pdfs/Isaacson_paper.pdf) (stand-alone paper published in *Analysis*, reworking ideas in my Gödel book).
+1. [Induction, more or less](pdfs/SubsystemsRevised.pdf) (expanded version of talk given at Dan Isaacson's seminar in Oxford in 2007, mostly on ACA~0~).
