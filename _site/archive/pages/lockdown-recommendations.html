@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2023-10-20">
+
+<title>Lockdown recommendations – logic-matters-sandbox</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-24ad8c588ed2a251297cdedaee1e3337.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">logic-matters-sandbox</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../books/index.html"> 
+<span class="menu-text">Five Big Red (Open Access) Logic Books</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://bsky.app/"> <i class="bi bi-bluesky" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Lockdown recommendations</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 20, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>In 2020, I wrote a number of lockdown blogposts “from a small corner of Cambridge”. As I said at the time, we were very fortunately placed compared with many, very comfortably housed, with Midsummer Common and the river almost on our doorstep, and used to quiet life. There was little really to add about our minimal doings as the months rolled on under various degrees of constraint. However, along the way, I did comment on various things we’d been watching, listening to, or reading. So here is some of what I said …</p>
+<hr>
+<p><em>When I put Emily Thomas’s excellent </em>The Meaning of Travel<em>&nbsp;away alongside other travel books, I found a copy of Eric Newby’s </em>Love and War in the Appenines.* I couldn’t remember ever having read it before. Here’s one of the advantages of age; amnesia happily makes your bookshelves renew themselves!</p>
+<p>Newby tells of his adventures as a prisoner of war and then afterwards, when he takes to the mountains, sheltered by courageous Italian peasants, in the process meeting Wanda who later becomes his wife. This perhaps isn’t one of the reflective, philosophically-coloured, travel books: but Newby’s story is very engaging as he draws some memorable characters, and sketches both a landscape and a lost way of life. I rattled through it in a few days; a very enjoyable distraction from these differently troubled times.</p>
+<hr>
+<p>We were much looking forward to a Wigmore Hall concert a couple of days ago with the countertenor Iestyn Davies and the lutenist Thomas Dunford. But that of course was cancelled like all London concerts. To see what we missed, there are some really nice videos of Iestyn Davies singing <a href="http://www.iestyndavies.com/watch/2017/11/16/iestyn-davies-npr-music-tiny-desk-concert">on his site here</a>. And looking ahead we’ve had to cancel our usual spring stay in Cornwall, which is a sad (apart from other reasons, they are now rightly strongly asking visitors to stay away). With that missed trip at the front of my mind, I picked up again, and read from end to end, a book (not Cornish but at least West Country in theme) that we bought on one trip in <a href="https://www.falmouth-bookseller.co.uk">the delightful indie bookshop in Falmouth</a> – namely Alice Oswald’s&nbsp;<em>Dart</em>, that follows the river and its people from source to sea. This is a wonderfully ambitious &nbsp;many-layered, many-voiced, poetic journey full of allusion and mythic echoes and observation of nature and more: no wonder it won the T.S. Eliot Prize. This week’s warm recommendation!</p>
+<hr>
+<p>In the London Review of Books a couple of issues ago, there was <a href="https://www.lrb.co.uk/the-paper/v42/n04/erin-maglaque/inclined-to-putrefaction">a strangely timely review</a> of a book on the plague in Florence in the early seventeenth century. The plague approached the city, only temporarily halted by the natural barrier of the Appenines</p>
+<blockquote class="blockquote">
+<p>On the other side of the mountains, Florence braced itself. The officials of the Sanità, the city’s health board, wrote anxiously to their colleagues in Milan, Verona, Venice, in the hope that studying the patterns of contagion would help them protect their city. Reports came from Parma that its ‘inhabitants are reduced to such a state that they are jealous of those who are dead’. The Sanità learned that, in Bologna, officials had forbidden people to discuss the <em>peste</em>, as if they feared you could summon death with a word. Plague was thought to spread through corrupt air, on the breath of the sick or trapped in soft materials like cloth or wood, so in June 1630 the Sanità stopped the flow of commerce and implemented a <em>cordon sanitaire</em> across the mountain passes of the Apennines. But they soon discovered that the boundary was distressingly permeable. Peasants slipped past bored guards as they played cards. In the dog days of the summer, a chicken-seller fell ill and died in Trespiano, a village in the hills above Florence. The city teetered on the brink of&nbsp;calamity.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>By August, Florentines were dying. The archbishop ordered the bells of all the churches in the city to be rung while men and women fell to their knees and prayed for divine intercession. In September, six hundred people were buried in pits outside the city walls. As panic mounted, rumours spread: about malicious ‘anointers’, swirling infection through holy water stoups, about a Sicilian doctor who poisoned his patients with rotten chickens. In October, the number of plague burials rose to more than a thousand. The Sanità opened <em>lazaretti</em>, quarantine centres for the sick and dying, commandeering dozens of monasteries and villas across the Florentine hills. In November, 2100 plague dead were buried. A general quarantine seemed the only answer. In January 1631, the Sanità ordered the majority of citizens to be locked in their homes for forty days under threat of fines and&nbsp;imprisonment.</p>
+</blockquote>
+<p>And so it went (the review is really gripping). And so, with some rather marked similarities though a thankfully less vicious infection, it goes. The coronavirus lockdown has now reached Cambridge. Surely some days after it should have done, and surely it is still less stringent that it ought to be, given the experience of Italy now. The English, or rather too many of them it seems, are not conducting themselves well. Some national myths are being unmade as we watch. Grim times.</p>
+<hr>
+<p>And there has been much to divert us – a nice mix of the occasional streamed High Culture and fun (the <em>Così </em>from the Royal Opera House scored very well on both counts!).&nbsp;Hilary Mantel’s&nbsp;<em>The Mirror and the Light</em> arrived a couple of weeks ago, but we haven’t yet tackled that, because we both decided we wanted to re-read from the beginning of the trilogy. So Mrs Logic Matters has been diving back into&nbsp;<em>Wolf Hall </em>with great enjoyment.&nbsp;And I’ve just finished re-reading another weighty book – Arnold Bennett’s <em>The Old Wives Tale.&nbsp;</em>Is Bennett much regarded these days? But he writes so well — with irony yes, but insight – about ordinary lives, the way our upbringings so constrain us, about the passing of the years, the compromises we make. He creates a very human world that you find yourself swept up in. &nbsp;This week’s warm recommendation, then.</p>
+<hr>
+<p><a href="https://logicmatters.net/wp-content/uploads/2020/03/71rmA65LocL._AC_SY679_.jpg"></a>Distractions are needed. There’s a lot of High Culture being provided free online as various opera houses open up their back catalogue of recorded performances for streaming. For instance, we &nbsp;caught the <em>Swan Lake</em> from Paris Opera.&nbsp;&nbsp;But mostly we are in the mood for unchallenging comfort viewing. So we watched the 2009 BBC adaption of <em>Emma </em>again. We enjoyed it enormously (thinking it even better on a second viewing). Of course you can cavil. You can argue that no filmed version can do even a quarter justice to Austen’s knowing narration as she slips in and out of her character’s minds. You can complain that, in this <em>Emma,&nbsp;</em>Hartfield is too grand, Mr Elton too caricatured, and the like. But as Austen adaptations go, this is surely as true to its original as any. And Romola Garai is terrific in capturing Emma’s vivacity and youth and fundamental good-heartedness (and shortcomings!). So that is&nbsp;this week’s recommendation for something to distract you!</p>
+<hr>
+<p>It was my birthday a couple of weeks ago. Once upon a time in olden days, BC, we’d thought of going up to London to visit the Artemisia exhibition at the National Gallery. Well, that didn’t happen, either the exhibition or the visit. But as a present I did get<a href="https://www.nationalgallery.co.uk/products/artemisia-catalogue/p_1048656">the catalogue</a> which has been published and is terrific. In fact, aren’t many art exhibition catalogues these days just wonderful? Quite beautifully produced, with often very readable and illuminating essays (which, judging by the characteristic pages of endnotes, are grounded in a huge amount of scholarship lightly worn), and all for the price of a couple of exhibition entry tickets. This book is no exception. We saw the <a href="http://www.museodiroma.it/en/mostre_ed_eventi/mostre/artemisia_gentileschi_e_il_suo_tempo">Artemisia exhibition in Rome</a> a few years ago; and yes of course it is a great pity not to experience again the visual impact of some of those dramatic canvasses face to face (and that seems the appropriate description). But this catalogue is much more than a small consolation: it’s an art-work in itself and very enjoyable. So that’s this week’s lockdown book recommendation!</p>
+<hr>
+<p>We can, of course, get books delivered here by post. But where’s the fun in that? One small everyday pleasure we really miss is getting to second-hand charity bookshops; we much enjoy the serendipity, the chance discoveries. The wonderfully well-run and well-stocked Oxfam bookshop in Walden is a particular favourite, and in normal times we drop in there every three weeks or so. And when in Cornwall [ah, those were the days!], there is a terrific bookshop at the National Trust house at Trelissick near St.&nbsp;Mawes. A couple of years ago, we happened to be there when someone came in to donate a paperback set of Helen Dunmore’s first ten novels (obviously brand new); I snapped them up within a minute, having by chance just finished and much admired one of her later novels, <em>Exposure</em>. I have been reading those earlier novels with great pleasure over the intervening months. And I’ve just finished <em>Counting the Stars,&nbsp;</em>Dunmore’s imagining of Catullus and his obsession with Clodia. I’m not sure that this is her <em>most</em> successful novel; and arguably her Catullus – for all his obsession – seems a mite too tame, lacking some of the fury and satiric energy that drives the poetry. But I can still recommend it for a spring evening read, far from Rome!</p>
+<hr>
+<p>I imagine that we won’t be going to concerts, for example, for many months. It’s really good to see, then, that Wigmore Hall are planning a series of twenty lunchtime concerts (one or two performers and no audience, broadcast live and then available for video streaming) for a month. &nbsp; I wonder, though, if they are trying to tell us something in having the series culminating &nbsp;by rending our hearts in a performance of <em>Winterreise</em>? In the meantime, though, some unalloyed musical pleasure. The Chiaroscuro Quartet have released a disc of the first three of Haydn’s late great Op. 76 quartets. This is wonderful music and here played with same insight and verve and delight and (appropriately!) light and shade as the Chiaroscuro’s earlier recording of the Op. 20 quartets. Something, then, to relieve the gloom of these troubled days for an hour, and for more hours of repeated listening! Warmly recommended.</p>
+<hr>
+<p>The latest issue of the London Review of Books* arrives. Of course, I could already have read it on the iPad. But there still is something very pleasing about sitting over coffee with the elegantly produced paper edition (even if this is at home rather than out at a café). Yes, the <em>LRB</em> can be idiosyncratic and provoking (though mostly in a good way). I will usually dive into most of it. Sometimes – though, trying to be realistic, not as often as I’d like – I’m even spurred on to buy one of the books reviewed. A piece in the current issue entices me to send off for a copy of the poet A. E. Stalling’s recent collection <em>Like</em>. I confess I had not heard of her before. [Added 2023: I loved the book – and enthusiastically recommend her selected poems <em>This Afterlife</em>.]</p>
+<p>In the same post as the <em>LRB</em>, a copy of the newly paperbacked <em>Fleishman is in Trouble</em> by Taffy Brodesser-Akner. Praise was heaped when first published. But Mrs Logic Matters, fifty-something pages in, is not at all impressed; she rarely gives up on a book, but has already passed it on to my pile. [Added 2023: She was dead right.]</p>
+<p>I’ve just been looking for our copy of Tony Judt’s wonderful <em>The Memory Chalet</em>. Where can it possibly have gone? It surely can’t accidentally have been given away in one of those many piles of books that have gone to Oxfam in the last few years. I find losing or misplacing a book that I’ve been emotionally affected by to be strangely dismaying, even if the copy can be readily replaced. We’ve both searched high and low, and still no sign. [Added 2023: I did buy another copy. So, of course, now we have two copies.]</p>
+<hr>
+<p><em>I’ve been struck by some of Vassily Kandinsky’s paintings for a long time. But I knew really embarrassingly little about his background, life and thought when I chose his </em>Blue Painting<em>&nbsp;for the cover of </em>IFL2<em>. So I’ve been reading the large illustrated book of essays&nbsp;edited by Helmut Friedel and Annegret Hoberg. Which perhaps tells me just a bit </em>more* than I needed to know.</p>
+<p>But, with some judicious skimming, the essays are indeed fascinating for someone as ignorant as I am about the birth of modernism and its roots. And the book’s many reproductions of paintings and other artworks are terrific. Art books these days can be produced to a wonderful standard – cheaply too, at least for someone used to academic book prices, even for student texts.</p>
+<hr>
+<p>No concerts to go to. Wigmore Hall’s series of streamed concerts has included some wonderful occasions, most recently Mitsuko Uchida’s playing of two Schubert sonatas. Initially, being able to see so many concerts online in lockdown seemed terrific: but lately, I’ve been feeling that they somehow emphasized what we were missing by not being able to go to a live performance shared with an audience. Others have said the same.</p>
+<p>Of CDs released in recent months, I’ve kept coming back to Supraphon’s boxed set of the <a href="https://www.supraphon.com/articles/307-beethoven-s-complete-string-quartets-by-the-smetana-quartet">Smetana Quartet playing the Beethoven quartets</a>&nbsp;(recorded between 1976&nbsp;and 1985), playing of the greatest humanity and insight. The tradition of Czech string quartets is indeed extraordinary.</p>
+<hr>
+<p>The third instalment of Hilary Mantel’s Tudor trilogy remains on the coffee table. But it’s &nbsp;time to decide who is going to read it first, as we have now both read Wolf Hall* and <em>Bring Up The Bodies</em> again. And we have independently both been <em>very</em> struck by how much we’ve got out of rereading them – appreciating them, if anything, even more the second time around. The writing really is stunningly good. So that’s this week’s (<em>very</em> unoriginal) semi-lockdown reading recommendation: if you have been wondering about rereading those first two books of Hilary Mantel’s trilogy, don’t hesitate any longer. You’ll really enjoy it! …</p>
+<p>… Having got so much out of revisiting&nbsp;<em>Wolf Hall</em> and <em>Bring Up the Bodies</em>, I’m at last launched into the final part of Hilary Mantel’s trilogy, <em>The Mirror and the Light.&nbsp;</em>Best, I think, to treat this massive volume as itself another three books (and anyway, I don’t want to finish it too quickly). So having read the first two parts of the new book, I’m pausing – and really enjoying re-reading Kate Atkinson’s <em>Case Histories</em>. That’s the first of her Jackson Brodie novels, which are both wonderfully well written and also entertaining enough detective stories. What’s not to like? If you don’t know the series, warmly recommended for when you need distracting but not mindless reading!</p>
+<hr>
+<p>On my desk, dipped into at random times, have been some of Alice Oswald’s books of poetry. I do not find her at all easy or comfortable to read. But her work is deep and challenging and rewarding. My (shamingly belated) poetry discovery of the year.</p>
+<p>But so many books to read. And re-read. Indeed, I mostly seem to have been re-reading since lockdown. But this [written in December] is the season when all those lists of Books of the Year are published, depressingly emphasizing how few recent books have come our way. I certainly won’t be adding to those lists of obscure titles you mostly have never head of. Among the books which <em>were</em> published this year, I’ve in fact most enjoyed two that very many others have equally enjoyed: Maggie O’Farrell’s <em>Hamnet</em>&nbsp;is very fine and I thought terrific. And then, again, Hilary Mantel’s <em>The Mirror and the Light </em> is in a league of its own. Which hardly counts as insightful literary criticism – but take those as hearfelt recommendations!</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/your-website-url\.example\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

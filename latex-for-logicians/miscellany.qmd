@@ -1,0 +1,42 @@
+---
+title: "Logicians’ miscellany"
+page-layout: article
+---
+
+**Help for generating truth-tables**
+
+Of the available resources, this has been recommended:
+
+- [Truth Table Generator](http://mrieppel.net/prog/truthtable.html) (Michael Rieppel) is a webpage containing a JavaScript program which generates full truth-tables for one or more wffs, and also the LaTeX code for them.
+
+**Laying out theorems, lemmas etc., and marking succeeding proofs:**
+
+- [amsthm.sty](http://www.ctan.org/pkg/amsthm) (the theorem setup of the AMS document classes amsart, amsbook, etc., in stand-alone package form, which should be in any LaTeX distribution) defines environments which are much more configurable than the basic LaTeX 'theorem' environment. There's [a description here](http://anorien.csc.warwick.ac.uk/mirrors/CTAN/macros/latex/required/amscls/doc/amsthdoc.pdf).
+
+- [ntheorem.sty](http://www.ctan.org/pkg/ntheorem) (Wolfgang May and Andreas Schedler) is another, even more flexible, package.
+
+- The [thmtools bundle](https://ctan.org/pkg/thmtools) (Ulrich M. Schwarz 2010, Yukai Chou 2023)) contains a number of useful packages, in particular thm-restate.sty which allows you to label a theorem and then restate it later (with the same number).
+
+- If you just need a correctly-placed end-of-proof marker, then [QED.sty](http://www.ctan.org/pkg/qed) (Paul Taylor, 1993-2003) supplies right-justified marks.
+
+**Setting algorithms**
+
+- Use [algorithms.sty](http://www.ctan.org/tex-archive/macros/latex/contrib/algorithms/) (Peter Williams, 1996, 2004, Rogério Brito 2005) for laying out algorithms in a standard form).
+
+**Branching  quantifiers**
+
+- The neatest way of setting these is suggested by Colin McClarty: use the pmatrix structure available in amsmath package, illustrated here: [branching quantifiers](/resources/branching.html).
+
+**Back to Frege**
+
+- [begriff.sty](http://www.ctan.org/pkg/begriff) (Josh Parsons, 2003) sets Begriffsschrift-style expressions.
+
+- [frege.sty](https://ctan.org/pkg/frege) (Quirin Pamp, 2012) loosely based on the begriff.sty pack­age, and of­fers a num­ber of im­prove­ments.
+
+- [grundgesetze.sty](https://ctan.org/pkg/grundgesetze) (Mar­cus Ross­berg 2016-21), com­mands for type­set­ting Got­t­lob Frege’s con­cept-script in the style of his “Grundge­setze der Arith­metik”
+
+**Counting**
+
+- For word counting, [TeXcount ](https://ctan.org/pkg/texcount)has been recommended (allows you to do things like mark bits of a document to be omitted from the word count). (Einar Andreas Rødland, 2008-18)
+
+*Links checked 8 October 2024*

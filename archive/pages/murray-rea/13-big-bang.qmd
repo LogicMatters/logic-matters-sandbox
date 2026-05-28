@@ -1,0 +1,21 @@
+---
+title: "Philosophy of Religion 13: Big Bang vs Steady State"
+date: "2008-04-28"
+page-layout: article
+---
+
+In the 1950s and earlier 1960s, there was quite wide support for the Hoyle/Gold/Bondi "steady state" cosmology as a rival to what we now think of as a Big Bang model. The basic idea is that the universe, on the big scale, "looks the same" at every time, as well as in every direction. And this temporal isotropy is reconciled with the observed recession of the galaxies by postulating the continuous creation of matter, to keep the matter density of the universe constant over time. (The creation rate needed is surprisingly low: about one hydrogen atom in the volume of a skyscraper per hundred years.)  This  is one of those beautiful ideas in physics which ought to have been true. But the discovery in the later 1960s of the cosmic microwave background radiation -- not easy to reconcile with steady state theory, but predicted as the "echo" of the Big Bang on the standard cosmology -- led to the abandonment of the theory by all except a few diehards. (Qn: has anyone written a Lakatosian history of this episode?)
+
+I don't at all see that the steady state theory is incompatible with ideas about divine creation, if you buy a view of an eternal God who is "outside" our universe's time frame. But I suppose that the Big Bang theory fits more immediately with a biblical view of creation (taking the Genesis story about "days" of creation with a huge pinch of salt!).
+
+Suppose a religious apologist noted that the Big Bang theory (compatible with the bible) was eventually preferred to the steady state theory, and wrote:
+
+> Here is a case in which a conflict between science and religion was resolved by science retreating and adopting a position more congenial to a religious persective.
+
+That would, of course, be an utterly absurd way of describing the situation, pathetically clutching at straws. "Science" in no way "retreated" (and certainly didn't retreat "in a conflict between science and religion", as if religion won the day). The steady state theory was never the only scientific game in town, and it was of course more scientific work that settled the battle of conjectures in favour of an inflationary cosmology. No retreat at all, but a resounding triumph for the theoretical cosmologists to be able to develop their hugely general theories to the point where esoteric empirical findings could get traction.
+
+That claim above, however, is actually a quotation from Murray and Rea (p. 196, in case you think I'm making this up). To find that in a philosophy book is really quite extraordinary, and beggars belief.
+Well, they do qualify their claim:
+
+> Of course, scientists did not retreat from the steady state model because it was incompatible with religion. ... Nonetheless, this case shows us just one somewhat recent instance in which conflict between science and religion was resolved and in which religion did not simply back down and revise its claims.
+But that's still a bizarre way of describing the situation. A scientific theory that was inconsistent (let's suppose) with biblical stories about creation was proposed and then pretty quickly refuted -- all without reference to religious concerns. That's not a case of "resolving a conflict", which suggests give and take between battling factions. Rather a scientific theory came and went, and it turned out that one particular potential locus of conflict wasn't there after all. To talk here of science "retreating" remains an outrageous misdescription.

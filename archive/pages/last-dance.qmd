@@ -4,7 +4,8 @@ date: "2014-12-31"
 page-layout: article
 ---
 
-[embed]http://youtu.be/BsFzxPzlqQA[/embed]
+{{< video https://www.youtube.com/watch?v=BsFzxPzlqQA >}}
+
 
 It isn't all High Culture chez Logic Matters. Oh no. Perish the thought. For a start, from September to December we are devotees of *Strictly. *
 

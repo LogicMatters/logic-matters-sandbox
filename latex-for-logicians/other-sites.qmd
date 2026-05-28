@@ -1,0 +1,22 @@
+---
+title: "Other sites"
+page-layout: article
+---
+
+If you are still considering whether to change to LaTeX, you might be interested in
+
+- [A philosophy blog exchange](http://philosophysmoker.blogspot.co.uk/2010/06/title-latex.html) about the pros and cons.
+
+Next, here is another discipline-related LaTeX site that might be of particular interest to logicians and philosophers:
+
+- [LaTeX for Linguists](http://www.essex.ac.uk/linguistics/external/clmt/latex4ling/) is an extensive site comparable with LaTeX for Logicians.
+
+TeXies will already know about
+
+- [The Comprehensive TeX Archive](http://ctan.org/), the place to get everything LaTeX-related you want (and a vast amount you probably will never want too).
+
+- [A TeX and LaTeX related "StackExchange"](http://tex.stackexchange.com/) (that means a question and answer forum like the wonderful [MathOverflow](http://mathoverflow.net/)).
+
+- The Wikibooks [LaTeX Wiki](http://en.wikibooks.org/wiki/LaTeX).
+
+*Links checked 19 October 2014*

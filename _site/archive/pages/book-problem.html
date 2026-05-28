@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2016-02-23">
+
+<title>Encore #12: Advice on the book problem – logic-matters-sandbox</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-24ad8c588ed2a251297cdedaee1e3337.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">logic-matters-sandbox</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../books/index.html"> 
+<span class="menu-text">Five Big Red (Open Access) Logic Books</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://bsky.app/"> <i class="bi bi-bluesky" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Encore #12: Advice on the book problem</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 23, 2016</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><em>During&nbsp;the lifetime of the blog, I have retired, which has meant that I lost&nbsp;the use of a university office to keep books&nbsp;– and indeed I lost all the shelves in an adjacent teaching&nbsp;room which I also used. A major book cull had to follow, and then another. I posted my sorrows a number of times. Some&nbsp;excerpts … leading to some wise advice about how to downsize your library!</em></p>
+<p>I’m having to try to sort out my philosophy library – I can’t start shelving yet another wall at home – and that’s a painful business. It’s not just that there is a ridiculous number to sort through. It’s also a matter of encountering long-past philosophical selves, and not quite wanting to wave them goodbye. In the seventies, I was mostly interested in the philosophy of language (though there are also many ancient philosophy books dating from then, and a lot of Wittgenstein-related stuff); from the eighties there is a great number of books on the philosophy of mind; from the nineties a lot of philosophy of science and metaphysics. Digging through these archeological layers I’m reminded of past enthusiasms – not just of mine, but often quite widely shared enthusiasms which seemed philosophically rewarding at the time, but some of which now seem rather remote and even in some cases quite odd misdirections of energy. What creatures of fashion we are!</p>
+<p>But at least in those more academically relaxed days I could follow my then interests wherever they led or didn’t lead (I never got&nbsp;bored). Young colleagues now don’t have the luxury: to get even their first permanent job they have to specialize, concentrate their resources, carve out a niche, build a research profile: and it takes more of the same to get promoted. Some feel constrained, lucky to have a job but trapped. The structures that we philosophers have allowed to be imposed on “the profession” (as we are now supposed to think of it) have thus come to be in real tension with the free-ranging cast of mind that gets many people into philosophy in the first place. What Marxists used to call a contradiction …</p>
+<hr>
+<p>I’m still trying to sort out my (tiny) study at home. It all takes ridiculously long. Not just because I have to decide what to give to the library/students/Oxfam (though that’s difficult enough). But I find it impossible not to keep stopping over a book I haven’t opened in years and begin reading. I’m of the same mind as Churchill, who wrote</p>
+<blockquote class="blockquote">
+<p>If you cannot read all your books, at any rate handle, or as it were, fondle them – peer into them, let them fall open where they will, read from the first sentence that arrests the eye, set them back on the shelves with your own hands, arrange them on your own plan so that if you do not know what is in them, you at least know where they are. Let them be your friends; let them at any rate be your acquaintances. If they cannot enter the circle of your life, do not deny them at least a nod of recognition.</p>
+</blockquote>
+<p>And those nods of recognition as I move the books from one shelf to another all take so much time!</p>
+<hr>
+<p>[caption id=“attachment_7610” align=“aligncenter” width=“500”] Chez Logic Matters, approximately[/caption]</p>
+<p>So you start buying books – I mean academic, work-related, books of one kind or another – in your late teens. As retirement age looms you’ve been doing it for the better part of fifty&nbsp;&nbsp;years. Suppose you average a couple of books a month. Not very difficult to do! You buy a few current books on topics that you are working on; books for reference; books you feel you should read anyway, given the ripples they are producing; books for seminars or reading groups you belong to; books it is useful to have to hand for teaching (the textbooks the kids are reading, or just useful collections of articles, before the days when everything was online). It very soon mounts up. Add in a few review copies, freebies, books given by friends, serendipitous finds rescued from the back of obscure second-hand bookshops (I got a set of&nbsp;Principia Mathematica&nbsp;that way). Then without any effort at all your modest library is steadily growing at over thirty books a year or more. But go figure: that’s&nbsp;already&nbsp;around 1500 books as you get to the end of your career. I’ve been a bit more incontinent than some, but actually not a lot (especially as my interests have rather jumped about). Say I’ve acquired 1750 over the years. I’ve got rid of a few books from time to time, of course, though I’ve been absurdly reluctant to let them go: but overall, I’ve&nbsp;still&nbsp;probably got not far short of 1600. Which, I agree, is a quite stupid number to end up with – but (as we’ve seen!) it’s easy enough to end up there without a ridiculously self-indulgent rate of book-buying as you go along.</p>
+<p>Soon enough, I’m going to finally lose an office; and we’re trying to declutter at home anyway. So over the coming weeks and months I need to cut that number down.&nbsp;A lot. Halving is the order of the day. What to do?</p>
+<p>Most of the Great Dead Philosophers and the commentaries can go – I can’t see myself ever being overwhelmed by a desire to re-read Locke’s&nbsp;Essay, for example (and anyway I can always get the text online). But that doesn’t make much of a dent, as I was never much into the history of philosophy anyway. I can get rid of some of the books-for-teaching, and old collections of articles whose contents are now instantly available on Jstor. But that doesn’t help particularly either. So now it gets difficult.</p>
+<p>It could&nbsp;just&nbsp;be neurotic attachment of course! But I like to think that there is a bit more to it than that. I’m sure I’m never going to seriously work on chaos again, so – though it was great fun at the time – I guess I will let the chaotic dynamics books go fairly easily. I’m also pretty sure that I’m never going to seriously work on the philosophy of mind again, and I’ve never done anything in epistemology: but just axing the phil. mind and theory of knowledge books seems to go clean against how I think of philosophy, as the business of trying to understand “how things in the broadest possible sense of the term hang together in the broadest sense of the term” as Sellars puts it. And anyway, some of the issues I’d like to understand better in the philosophy of mathematics seem to hang together with broader issues about representation and about knowledge. So perhaps I need to hang on to more of&nbsp;&nbsp;the mind and knowledge books after all ….?</p>
+<p>No, no, that way madness lies (or at any rate, swamping by unnecessary books). After all, Cambridge is not exactly short of libraries, even if I do dump something I later find myself wanting to read again! So, I’m just going to have to be brutal. A few old friends apart, if I haven’t opened it in twenty years, it can certainly go. If it is just too remote from broadly logicky/phil mathsy stuff, it really better go too. Sigh.</p>
+<hr>
+<p>… But now it is getting harder. I’m slowing down, and it is all getting more discombobulating.&nbsp;In some cases it is a matter of regretfully having to acknowledge that – being realistic – I am never going to have a year or so to really get my head again round&nbsp;<em>X</em>&nbsp;or&nbsp;<em>Y.&nbsp;</em>I’d love to really get to the point where I was back on top of the state of play in the philosophy of quantum mechanics (say); but it is never going to happen – or at least, it’s never going to happen if I am to have half a chance of finishing some logicky projects. So that whole area will have to remain a closed book, or rather a small pile of closed books. A cheering reminder of faded hopes, eh?</p>
+<p>Then there are the books to which I still feel an odd attachment and find difficult to let go for no reason I can easily articulate. Irrational, as I’ve not read them for decades, and I’m surrounded by Cambridge libraries. For instance, I’ve just found myself rereading some of &nbsp;Cornford’s&nbsp;<em>Unwritten Philosophy</em>, which I must have bought in 1967, and not had occasion to read much since. I’m sure it is all very creaky: ancient philosophy has come such a very long way since when Cornford was writing (the essays date from the thirties and forties). I’ve long since lost touch, and my Greek has quite disappeared. And yet, and yet … The charm of his writing still weaves its magic. No;&nbsp;<em>this</em>&nbsp;I think I will keep, just for a bit longer.</p>
+<p>Back to the pile for sorting …</p>
+<hr>
+<p>Hello. My name is Peter and I am a bookaholic …</p>
+<p>Well, perhaps it isn’t quite as bad as that. But I’ve certainly bought&nbsp;<em>far</em>&nbsp;too many books over the years. I’ve now given a great number away, but retiring and losing office space means there is still a serious Book Problem at home. We want to do some re-organization, which will mean losing book shelving there too. So lots more must go. Dammit, the house is for us, not the books. One hears tell of retiring academics who have built an extension at home for their library or converted a garage into a book store. But that way madness lies (not to mention considerable expense).</p>
+<p>“A little library, growing larger every year, is an honourable part of a man’s history. It is a man’s duty to have books. A library is not a luxury, but one of the necessaries of life.” Yes. But let “little” be the operative word!</p>
+<p>Or so I now tell myself. Still it was – at the beginning – not exactly painless to let old friends go, or relinquish books that I’d never got that friendly with but always meant to, or give away those reproachful books that I&nbsp;<em>ought</em>&nbsp;to have read, and all the rest. After all, there goes my philosophical past, or at any rate the past I would have wanted to have (and similar rather depressing thoughts).</p>
+<p>But I think I’ve now got a grip&nbsp;(<em>so at last, here’s my advice to anyone else in the same position, needing to downsize</em>).&nbsp;It’s a question of stopping looking backwards and instead thinking, realistically, about what I might want to think about seriously over the coming few years, and then aiming to cut right down to (a still generous) working library around and about&nbsp;<em>that</em>. So instead of daunting shelves of books reminding me about what I’m not going to do, there’ll be a much smaller and more cheering collection of books to encourage me in what I might really want to do. The power of positive thinking, eh?</p>
+<p>At least, that’s the plan. I’ll let you know how it goes.</p>
+<p><em>And in the event, I surprised myself. A few years on, I can remember only one occasion when I’ve been kicking myself, really regretting&nbsp;some book I got rid of. Though I confess I do seem to have acquired more books. Can’t imagine how that happened. Time, I suppose, for another sort-out …&nbsp;</em></p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/your-website-url\.example\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

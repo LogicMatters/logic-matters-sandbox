@@ -1,0 +1,28 @@
+---
+title: "At the conference, in the classroom"
+page-layout: article
+---
+
+**Presentations with Beamer**
+
+- It isn’t the only such package, but by far the most widely used/widely recommended LaTeX presentation package is [beamer.cls](http://www.ctan.org/pkg/beamer) (originally Till Tantau, 2003: maintained by Vedran Miletić and Joseph Wright 2024).
+
+    The Beamer manual is long and complicated (reflecting the power and flexibility of the package). There is a really minimal old LaTeX for Logicians [User Guide](pdfs/SimpleBeamer.pdf) to the absolute basics.
+
+- Here's [another shorter guide](http://heather.cs.ucdavis.edu/%7Ematloff/beamer.html), by Norm Matloff. And [here’s a quick tutorial](https://www.overleaf.com/learn/latex/Beamer_Presentations:_A_Tutorial_for_Beginners_(Part_1)—Getting_Started). There are links to further tutorials on this [Wikipedia Beamer page](http://en.wikipedia.org/wiki/Beamer_(LaTeX)).
+
+- [Mathfonts.pdf](pdfs/MathFonts.pdf): beamer presentation showing usage of various fonts in presentations.
+
+- The Beamer theme that I use is[ logictheme.sty](/resources/logictheme.sty).
+
+**Problem sets**
+
+- [probsoln.sty](https://www.ctan.org/pkg/probsoln?lang=en) (Nicola Talbot, 2000-17): simple package for generating problems sheets -- and answer sheets -- by selecting from problems and solutions defined in another file).
+
+- [exercise.sty](http://www.ctan.org/tex-archive/macros/latex/contrib/exercise/) (Paul Pichaureau 2004-14): flexible package for setting out exercises/answers in various documents.
+
+- [exam.sty](http://www.ctan.org/tex-archive/macros/latex/contrib/exam) (Philip Hirschhorn 1994-2023): a nice option if you want to maintain a single document which, with a single toggle,  both prints a preamble-and-exercises set, and a set of exercises-and-solutions.
+
+- [xsim.sty](https://ctan.org/pkg/xsim) (Clemens Niederberger, 2017–22) is another option for creating exercises and the corresponding solutions, probably with more features that you will ever need.
+
+*Links checked 8 October 2024*

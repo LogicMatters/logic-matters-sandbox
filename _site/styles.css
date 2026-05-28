@@ -72,3 +72,13 @@ main.content p:first-child {
 main.content p:last-child {
   margin-bottom: 0;
 }
+
+.hanging p:first-child {
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+.hanging p + p {
+  padding-left: 2em;
+  margin-top: -0.75em;
+}

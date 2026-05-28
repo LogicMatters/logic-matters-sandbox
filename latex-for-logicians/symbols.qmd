@@ -1,0 +1,51 @@
+---
+title: "Logic Symbols"
+page-layout: article
+---
+
+[latexpage]**Basics on symbols**
+
+- Here’s a [minimal list of common symbols and the Greek alphabet](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols). (You will find a lot of useful information from the sidebar of this Overleaf site.)
+
+- Consult the [AMS short guide to maths setting](http://tug.ctan.org/info/short-math-guide/short-math-guide.pdf) for lots of basic symbols!
+
+- A quick way of finding symbols is provided by [Detexify](http://detexify.kirelabs.org/classify.html) -- you draw a symbol in a box in your browser, and it cleverly finds LaTeX matches!
+
+**The symbol bible**
+
+- Scott Pakin's wonderful [Comprehensive LaTeX Symbol List](https://www.ctan.org/tex-archive/info/symbols/comprehensive/?lang=en)-- now a mere 20000+ to choose from. For example, consult the List's massive index under ...
+
+    "definite description" for two solutions for an inverted iota definite description operator (or a slight tweak is to put \usepackage{ kpfonts} in the preamble and then use {\text{\rotatebox[origin=c]{180}{$\iotaup$}}).
+
+- "par" for inverted "&" for linear logicians.
+
+- "iddots" for [mathdots](https://www.ctan.org/pkg/mathdots?lang=en) command to get three dots going up from south-west to north-east.
+
+- "alphabets, math" for more alphabets for symbols [in particular, note the package mathrsfs which provides script capitals]..
+
+**Special symbol solutions**
+
+- *Symbol spacing* [The gn-logic package](https://www.ctan.org/tex-archive/macros/latex/contrib/gene/logic?lang=en) offers some enhancements, in particular more generously spaced logic symbols in formulae.
+
+- *Negation*: To use old-style "~" for negation, define a command (e.g. "\oldneg") in the preamble  by "\newcommand*{\oldneg}{\mathord{\sim}}". The \sim symbol is pre-defined as a relation symbol and writing "$\sim P$" will produce an unwanted space between the symbols, while "$\oldneg P$" will now, as wanted, produce $latex \sim\!\!P$.
+
+- *Corner quotes*: A page on how to set [corner quotes](corner-quotes.qmd) (e.g. for Gödel numbers) at the right height (Sam Buss, Heiko Oberdiek).
+
+- *More conditionals*: e.g. the "strictif" for the fish-hook sign for strict implication, "boxright" for Lewis's symbol for the counterfactual, and other Lewisian symbols. These are part of the txfonts and pxfonts packages, which are intended for use with the Times Roman and Palatino fonts, respectively. But (thanks to Richard Zach for this), you can access them e.g. while still using Computer Modern by having the txfont package available and putting this in the preamble to declare the commands \strictif and \boxright:
+
+> \DeclareSymbolFont{symbolsC}{U}{txsyc}{m}{n}
+> \DeclareMathSymbol{\strictif}{\mathrel}{symbolsC}{74}
+> \DeclareMathSymbol{\boxright}{\mathrel}{symbolsC}{128}
+> \DeclareMathSymbol{\boxRight}{\mathrel}{symbolsC}{136} % Lewis's stronger 'would' counterfactual
+> \DeclareMathSymbol{\diamondRight}{\mathrel}{symbolsC}{140} % Lewis's stronger 'might' counterfactual
+> \DeclareMathSymbol{\diamonddot}{\mathord}{symbolsC}{144} % Lewis's inner necessity
+
+Similarly of course for invoking other symbols you want. To get the number for a symbol to use with \DeclarMathSymbol you can use the method described [here](http://tex.stackexchange.com/questions/32769/find-out-the-number-of-a-symbol-to-access-it).
+
+- *A triple turnstile* to match the usual single and double turnstiles?  A [solution here](https://tex.stackexchange.com/questions/502411/triple-turnstile-symbol/502415#502415).
+
+- *Other turnstiles*: For constructing a considerable variety of turnstile symbol, there is a dedicated [turnstile](https://www.ctan.org/pkg/turnstile?lang=en) package. If you want a mirror-image of  a turnstile (or indeed other symbols) [see also here](http://tex.stackexchange.com/questions/114364/what-command-to-use-for-reversed-vdash/). For the squiggly turnstile for non-monotonic consequence, and other symbols, there are [some solutions here](http://gregorywheeler.org/latex/phil-style2.html) from Gregory Wheeler.
+
+- Note the ongoing [STIX project](http://stixfonts.org) for providing a huge range of Unicode symbols designed to fit with a Times text font, [STIX2 fonts](https://ctan.org/pkg/stix2-otf).
+
+*Updated 8 October 2024*

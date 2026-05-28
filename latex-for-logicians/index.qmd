@@ -1,0 +1,22 @@
+---
+title: "LaTeX for Logicians"
+page-layout: article
+---
+
+There is a wealth of general material available online about LaTeX (you can easily find general beginners’ guides suitable for your circumstances). These pages assemble links to more specific resources of particular interest to logicians, philosophers and others using LaTeX to produce papers or presentations, teaching materials, theses or books, and perhaps wanting to include logical matter such as natural deduction proofs.
+
+- *[Logic symbols](symbols.qmd)*. For lists of available logic and other symbols.
+
+- *[Natural deduction proofs](nd.qmd)*. Packages for laying out natural deduction and sequent proofs in Gentzen style, and natural deduction proofs in Fitch style.
+
+- *[Tree/tableau proofs](trees.qmd)*. Packages for downward-branching trees.
+
+- *[Diagrams](diagrams.qmd)*. General programs for diagram construction. How to produce commutative diagrams for category theory in particular.
+
+- *[At the conference, in the classroom](classroom.qmd)*. This page gives links to resources which are especially useful for lectureroom and classroom use (e.g., packages for producing slides for data projectors, for constructing problem sheets, etc.).
+
+- *[Logicians' miscellany](miscellany.qmd)*. Links to a variety of other resources which could be particularly useful for logicians.
+
+- *[Fonts, etc.](fonts.qmd)* Links to additional information about fonts suitable for texts with a substantial amount of maths/symbols. Also a note on resources for long documents.
+
+Thanks to all past contributors! Suggestions for relevant additions always most welcome: [email to Logic Matters](mailto:peter_smith@logicmatters.net)

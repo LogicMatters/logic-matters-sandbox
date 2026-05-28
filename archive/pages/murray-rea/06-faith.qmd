@@ -1,0 +1,22 @@
+---
+title: "Philosophy of Religion 6: Faith"
+date: "2008-04-01"
+page-layout: article
+---
+
+Onwards! Chapter 4 of the Murray/Rea Introduction is entitled 'Faith and Rationality'. There's quite a bit in this chapter. I don't have faith in any of it. Let's start with faith itself.
+
+They are interested in faith in that sense in which it is, as they put it, "just a kind of belief" ("believing by faith" rather than "believing by reason"):
+> To say that a person S has faith in a proposition p is to say that S believes p despite the fact that (a) there are alternatives to p which are compatible with whatever evidence supports S's belief that p, and (b) there is genuine and somewhat weighty evidence in favor of one or more of those alternatives.
+
+Murray and Rea say that, as a welcome consequence of this characterization, faith comes in degrees because the extent to which p is underdetermined by the data/the weight of counterevidence comes in degrees. But they seem to forget entirely that, more basically,  belief comes in degrees. What level of credence in p is required for 'faith'? They don't say.
+
+Take the case of the scientist who endorses theory T, although the theory is underdetermined by the evidence, and there is some evidence for a rival theory. Murray and Rea offer this as a case of rationally "believing by faith" (to support their case that faith can be rational, because scientists are surely rational!). But of course, the normal situation here is that the scientist has a certain high degree of credence in T; she is prepared to bet, perhaps quite heavily in terms of her research time and energy, on T's truth; but equally, good scientist that she is, she still aims as best she can to apportion her degree of belief to the evidence. So if the cognitive situation of our scientist here is the model, then to "believe by faith" is just to have a suitable high degree of credence apportioned to the non-conclusive evidence. Now that is indeed a cognitively virtuous state, to be sure: but the proffered label now seems an entirely unhelpful one (we are just left with the difference between credence based on conclusive reasons and credence based on non-conclusive reasons -- two modes of "believing by reason").
+
+Perhaps, however, the idea is that having faith in a proposition is having a degree of belief that is higher than that which appropriate given the balance of evidence? It is, so to speak, to bet more heavily than the evidence warrants. This would seem to chime with Murray and Rea's talk of "believing by faith" as being compatible with having some good reasons, but as going beyond "believing by reason". But they don't give any grounds for supposing that this is ever a cognitively virtuous state to be in. You might well think that failing to apportion your credence levels to the evidence is, to the extent that you do so, exactly to fail as an ideally  rational agent (and certainly isn't what the well-trained scientist does).
+
+Now, true, some degree of irrational excess faith by individuals in their pet theories can sometimes promote the rational growth of knowledge by ensuring that initially unpromising theories don't get killed off prematurely. But we certainly shouldn't be going round encouraging excess faith, given our natural human proclivities already to love our own brain-children far too much don't need any help at all! So it surely remains the case that our scientist should do her best not to have excess faith, but should continue, as best she can, to apportion credence to the balance of evidence.
+
+So the situation is this. If "faith in a proposition" for Murray and Rea involves having a high degree of belief that exceeds that warranted by the evidence, then they fail to give any reason at all for supposing this is ever a cognitive state to be encouraged and recommended. While if, to have "faith in a proposition" is to have a high level of credence which is rationally apportioned to the weight of non-decisive evidence, then "faith" is just a misnomer for ... believing to a degree appropriate to the weight of (non-conclusive) evidence.
+
+What we don't end up with, then, is a concept of faith (qua kind of belief) that is both properly so called and which picks out a state appropriate to a rational agent. Which is hardly a surprise.

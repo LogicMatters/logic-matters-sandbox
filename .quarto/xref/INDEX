@@ -1,383 +1,530 @@
 {
-  "index.qmd": {
-    "index.html": "e2ba9db3"
+  "latex-for-logicians/symbols.qmd": {
+    "symbols.html": "48775234"
   },
-  "posts/post-with-code/index.qmd": {
-    "index.html": "449025d9"
+  "latex-for-logicians/miscellany.qmd": {
+    "miscellany.html": "7c46dc21"
   },
-  "posts/welcome/index.qmd": {
-    "index.html": "380ff413"
+  "latex-for-logicians/corner-quotes.qmd": {
+    "corner-quotes.html": "4375d3b2"
   },
-  "about.qmd": {
-    "about.html": "c6c8596c"
+  "latex-for-logicians/other-sites.qmd": {
+    "other-sites.html": "fadc3aa9"
   },
-  "books/index.qmd": {
-    "index.html": "d1f636e7"
+  "latex-for-logicians/index.qmd": {
+    "index.html": "29e14fd8"
   },
-  "categories/index.qmd": {
-    "index.html": "c8d26389"
+  "latex-for-logicians/diagrams.qmd": {
+    "diagrams.html": "f9ea0ba9"
   },
-  "categories/categories-lists.qmd": {
-    "categories-lists.html": "8b16a959"
+  "latex-for-logicians/general.qmd": {
+    "general.html": "fcb60f2f"
   },
-  "categories/comments.qmd": {
-    "comments.html": "1ebea560"
+  "latex-for-logicians/nd.qmd": {
+    "nd.html": "92eeaa8c"
   },
-  "categories/phil-cats.qmd": {
-    "phil-cats.html": "b8c77cdb"
+  "latex-for-logicians/classroom.qmd": {
+    "classroom.html": "48a52514"
   },
-  "ifl/index.qmd": {
-    "index.html": "5c0aab1a"
+  "latex-for-logicians/trees.qmd": {
+    "trees.html": "fff073b8"
   },
-  "ifl/exercises.qmd": {
-    "exercises.html": "af81f269"
+  "latex-for-logicians/fonts.qmd": {
+    "fonts.html": "27fe6f95"
   },
-  "students/logical-snippets.qmd": {
-    "logical-snippets.html": "6a758c47"
-  },
-  "ifl/logical-snippets.qmd": {
-    "logical-snippets.html": "74ca15ad"
-  },
-  "tyl/index.qmd": {
-    "index.html": "ab29d46d"
-  },
-  "tyl/booknotes/index.qmd": {
-    "index.html": "4c59548b"
-  },
-  "tyl/booknotes/chiswellandhodges.qmd": {
-    "chiswellandhodges.html": "75fb8f26"
-  },
-  "tyl/booknotes/kirby.qmd": {
-    "kirby.html": "79da20a2"
-  },
-  "tyl/booknotes/bridge.qmd": {
-    "bridge.html": "e0d8e6b2"
-  },
-  "tyl/booknotes/berto.qmd": {
-    "berto.html": "4a8b1b39"
-  },
-  "tyl/booknotes/buechner.qmd": {
-    "buechner.html": "5352a84e"
-  },
-  "tyl/booknotes/colyvan.qmd": {
-    "colyvan.html": "95c0b6c1"
-  },
-  "tyl/booknotes/robbin.qmd": {
-    "robbin.html": "5e6e7be4"
-  },
-  "tyl/booknotes/kunen-FM.qmd": {
-    "kunen-FM.html": "d0a8f613"
-  },
-  "tyl/booknotes/westerstahl.qmd": {
-    "westerstahl.html": "9fa761d8"
-  },
-  "tyl/booknotes/loveland-hodel-sterrett-three-views-of-logic.qmd": {
-    "loveland-hodel-sterrett-three-views-of-logic.html": "69a003d4"
-  },
-  "tyl/booknotes/shapirov.qmd": {
-    "shapirov.html": "3b767ee7"
-  },
-  "tyl/booknotes/goldsternandjudah.qmd": {
-    "goldsternandjudah.html": "5ba36413"
-  },
-  "tyl/booknotes/rautenberg-a-concise-introduction-to-mathematical-logic.qmd": {
-    "rautenberg-a-concise-introduction-to-mathematical-logic.html": "24c49a3e"
-  },
-  "tyl/booknotes/hinman.qmd": {
-    "hinman.html": "f2734155"
-  },
-  "tyl/booknotes/srivastava-a-course-on-mathematical-logic.qmd": {
-    "srivastava-a-course-on-mathematical-logic.html": "dcd21a82"
-  },
-  "tyl/booknotes/forster.qmd": {
-    "forster.html": "0d1bcefa"
-  },
-  "tyl/booknotes/eft.qmd": {
-    "eft.html": "c79f7596"
-  },
-  "tyl/booknotes/oleary-a-first-course-in-mathematical-logic-and-set-theory.qmd": {
-    "oleary-a-first-course-in-mathematical-logic-and-set-theory.html": "a6f79eef"
-  },
-  "tyl/booknotes/kleene-metamath.qmd": {
-    "kleene-metamath.html": "229f6719"
-  },
-  "tyl/booknotes/roy-symbolic-logic.qmd": {
-    "roy-symbolic-logic.html": "28a78318"
-  },
-  "tyl/booknotes/zach.qmd": {
-    "zach.html": "f17c42ae"
-  },
-  "tyl/booknotes/schoenfield.qmd": {
-    "schoenfield.html": "370412af"
-  },
-  "tyl/booknotes/kromer.qmd": {
-    "kromer.html": "b22d33db"
-  },
-  "tyl/booknotes/Mendelson.qmd": {
-    "Mendelson.html": "79ec92b4"
-  },
-  "tyl/booknotes/mileti-modern-mathematical-logic.qmd": {
-    "mileti-modern-mathematical-logic.html": "1593838a"
-  },
-  "tyl/booknotes/hills-loeser.qmd": {
-    "hills-loeser.html": "88a83b61"
-  },
-  "tyl/booknotes/hodel.qmd": {
-    "hodel.html": "b6a8e2cb"
-  },
-  "tyl/booknotes/smith-the-laws-of-truth.qmd": {
-    "smith-the-laws-of-truth.html": "1a666d31"
-  },
-  "tyl/booknotes/johnstone.qmd": {
-    "johnstone.html": "b9689ee9"
-  },
-  "tyl/booknotes/manzano.qmd": {
-    "manzano.html": "7f88bae8"
-  },
-  "tyl/booknotes/moerdijk-and-van-oosten-sets-models-and-proofs.qmd": {
-    "moerdijk-and-van-oosten-sets-models-and-proofs.html": "cc41d28b"
-  },
-  "tyl/booknotes/de-swart.qmd": {
-    "de-swart.html": "5f673bb6"
-  },
-  "tyl/booknotes/sider.qmd": {
-    "sider.html": "137276b1"
-  },
-  "tyl/booknotes/prestelldelzell.qmd": {
-    "prestelldelzell.html": "b122b1b5"
-  },
-  "tyl/booknotes/vdalen.qmd": {
-    "vdalen.html": "685ddffa"
-  },
-  "tyl/booknotes/kossak.qmd": {
-    "kossak.html": "8f4319f5"
-  },
-  "tyl/booknotes/cori-lascar-mathematical-logic.qmd": {
-    "cori-lascar-mathematical-logic.html": "317e144a"
-  },
-  "tyl/booknotes/leary.qmd": {
-    "leary.html": "77b56ae5"
-  },
-  "tyl/booknotes/hedman.qmd": {
-    "hedman.html": "651575cd"
-  },
-  "tyl/booknotes/kleene_ml.qmd": {
-    "kleene_ml.html": "79a2f510"
-  },
-  "tyl/booknotes/enderton.qmd": {
-    "enderton.html": "1570fbf5"
-  },
-  "tyl/booknotes/avigad-full.qmd": {
-    "avigad-full.html": "252e4ac5"
-  },
-  "tyl/booknotes/bellmach.qmd": {
-    "bellmach.html": "c983b5fd"
-  },
-  "tyl/booknotes/adrian-moore-on-godels-theorem-briefly.qmd": {
-    "adrian-moore-on-godels-theorem-briefly.html": "fce4bc48"
-  },
-  "tyl/booknotes/formal-theories-truth.qmd": {
-    "formal-theories-truth.html": "e8d9ce85"
-  },
-  "tyl/booknotes/jacquettes-frege.qmd": {
-    "jacquettes-frege.html": "9ff05bb8"
-  },
-  "tyl/booknotes/properties-propositions-and-the-concept-horse.qmd": {
-    "properties-propositions-and-the-concept-horse.html": "3a59b941"
-  },
-  "tyl/booknotes/kreisels-interests.qmd": {
-    "kreisels-interests.html": "026638b8"
-  },
-  "tyl/booknotes/greg-restall-proofs-and-models-in-philosophical-logic.qmd": {
-    "greg-restall-proofs-and-models-in-philosophical-logic.html": "5b0399d2"
-  },
-  "tyl/booknotes/john-burgess-set-theory.qmd": {
-    "john-burgess-set-theory.html": "699a67c8"
-  },
-  "tyl/booknotes/quick-book-note-pollard.qmd": {
-    "quick-book-note-pollard.html": "8f01c774"
-  },
-  "tyl/booknotes/tag-r-s-search-order-asc.qmd": {
-    "tag-r-s-search-order-asc.html": "7f991027"
-  },
-  "tyl/booknotes/machover.qmd": {
-    "machover.html": "f4cd4619"
-  },
-  "tyl/booknotes/tag-ttp-search-order-asc.qmd": {
-    "tag-ttp-search-order-asc.html": "5949eea6"
-  },
-  "tyl/booknotes/smullyan-a-beginners-guide-to-mathematical-logic.qmd": {
-    "smullyan-a-beginners-guide-to-mathematical-logic.html": "72931081"
-  },
-  "tyl/booknotes/kaye-the-mathematics-of-logic.qmd": {
-    "kaye-the-mathematics-of-logic.html": "04a5eb75"
-  },
-  "tyl/booknotes/the-metaphysics-of-logic.qmd": {
-    "the-metaphysics-of-logic.html": "1fe59d4e"
-  },
-  "tyl/booknotes/category-books-conceptions_of_set-search-order-asc.qmd": {
-    "category-books-conceptions_of_set-search-order-asc.html": "2ade8da2"
-  },
-  "tyl/booknotes/mathematical-logic-exercises-and-solutions.qmd": {
-    "mathematical-logic-exercises-and-solutions.html": "cde32762"
-  },
-  "tyl/booknotes/logic-works.qmd": {
-    "logic-works.html": "a0e8ad4c"
-  },
-  "tyl/booknotes/tag-f-l-search-order-asc.qmd": {
-    "tag-f-l-search-order-asc.html": "8aea0a3a"
-  },
-  "tyl/booknotes/hellman-and-shapiro-on-mathematical-stucturalism.qmd": {
-    "hellman-and-shapiro-on-mathematical-stucturalism.html": "bec6b4de"
-  },
-  "tyl/booknotes/roman-kossaks-model-theory-for-beginners.qmd": {
-    "roman-kossaks-model-theory-for-beginners.html": "4538a565"
-  },
-  "tyl/booknotes/halbeisen-krapf-g-del-s-theorems-and-zermelo-s-axioms.qmd": {
-    "halbeisen-krapf-g-del-s-theorems-and-zermelo-s-axioms.html": "b50834ec"
-  },
-  "tyl/booknotes/marker-an-invitation-to-mathematical-logic.qmd": {
-    "marker-an-invitation-to-mathematical-logic.html": "a4befca5"
-  },
-  "tyl/booknotes/tag-kgfm-search-order-asc.qmd": {
-    "tag-kgfm-search-order-asc.html": "49b9f877"
-  },
-  "tyl/booknotes/the-annotated-godel.qmd": {
-    "the-annotated-godel.html": "330286fc"
-  },
-  "tyl/booknotes/tag-autonomy-search-order-asc.qmd": {
-    "tag-autonomy-search-order-asc.html": "0481653d"
-  },
-  "tyl/booknotes/tag-catwp-search-order-asc.qmd": {
-    "tag-catwp-search-order-asc.html": "12a52b16"
-  },
-  "tyl/booknotes/tag-absgen-search-order-asc.qmd": {
-    "tag-absgen-search-order-asc.html": "c6474237"
-  },
-  "tyl/booknotes/hilberts-foundationslogic-lectures.qmd": {
-    "hilberts-foundationslogic-lectures.html": "cf911e3e"
-  },
-  "tyl/booknotes/blog-category-name-ipt-search-orderby-post-date-order-asc.qmd": {
-    "blog-category-name-ipt-search-orderby-post-date-order-asc.html": "a05831d9"
-  },
-  "igt/index.qmd": {
-    "index.html": "f54c94d9"
-  },
-  "blog/another-categorical-update.qmd": {
-    "another-categorical-update.html": "d200f6bf"
-  },
-  "blog/proof-reading-with-a-bit-of-help-from-llms.qmd": {
-    "proof-reading-with-a-bit-of-help-from-llms.html": "8f066e6f"
-  },
-  "blog/since-it-is-the-feast-of-the-annunciation.qmd": {
-    "since-it-is-the-feast-of-the-annunciation.html": "68abbff9"
-  },
-  "blog/felicity-lott-1947-2026.qmd": {
-    "felicity-lott-1947-2026.html": "fa38bebc"
-  },
-  "blog/twenty-years-on-what-next.qmd": {
-    "twenty-years-on-what-next.html": "d5c3f654"
-  },
-  "blog/godel-slowly.qmd": {
-    "godel-slowly.html": "02019c58"
-  },
-  "blog/categorical-update.qmd": {
-    "categorical-update.html": "65239df6"
-  },
-  "blog/two-books-to-miss-brandom-and-bardi.qmd": {
-    "two-books-to-miss-brandom-and-bardi.html": "b25c694a"
-  },
-  "blog/new-issue-journal-for-the-philosophy-of-mathematics.qmd": {
-    "new-issue-journal-for-the-philosophy-of-mathematics.html": "8d7b9160"
-  },
-  "blog/the-big-red-logic-books-last-year-this-year.qmd": {
-    "the-big-red-logic-books-last-year-this-year.html": "cb594b4b"
-  },
-  "blog/no-toast.qmd": {
-    "no-toast.html": "05ac647e"
-  },
-  "blog/partial-functions-and-churchs-thesis.qmd": {
-    "partial-functions-and-churchs-thesis.html": "3ee1f8ca"
-  },
-  "blog/index.qmd": {
-    "index.html": "0a4ffc31"
-  },
-  "blog/ict-the-third-edition.qmd": {
-    "ict-the-third-edition.html": "ae7bc602"
-  },
-  "blog/a-wittgenstein-problem.qmd": {
-    "a-wittgenstein-problem.html": "5235b023"
-  },
-  "blog/ict-paperback-is-out.qmd": {
-    "ict-paperback-is-out.html": "17931a60"
-  },
-  "blog/ex-america-bona-quaedam.qmd": {
-    "ex-america-bona-quaedam.html": "f7320b80"
-  },
-  "blog/on-the-mathematical-abilities-of-llms.qmd": {
-    "on-the-mathematical-abilities-of-llms.html": "898b7ee5"
-  },
-  "blog/hoffmann-limits-of-mathematics.qmd": {
-    "hoffmann-limits-of-mathematics.html": "2c444181"
-  },
-  "blog/a-new-version-of-ict.qmd": {
-    "a-new-version-of-ict.html": "c8e1e30a"
-  },
-  "blog/categorically-diverted.qmd": {
-    "categorically-diverted.html": "6d4184f9"
-  },
-  "blog/godel-lean-fra-angelico-schubert.qmd": {
-    "godel-lean-fra-angelico-schubert.html": "7b341070"
-  },
-  "blog/godels-theorems-and-logicisms-revisited.qmd": {
-    "godels-theorems-and-logicisms-revisited.html": "13c7b53a"
-  },
-  "blog/great-expectations.qmd": {
-    "great-expectations.html": "994724b4"
-  },
-  "igt/exercises/index.qmd": {
-    "index.html": "3cf54cdc"
-  },
-  "igt/what-else.qmd": {
-    "what-else.html": "656ec4b7"
-  },
-  "archive/index.qmd": {
-    "index.html": "7bdf1fe4"
+  "archive/blog-writing.qmd": {
+    "blog-writing.html": "f58aebb8"
   },
   "archive/more-logic.qmd": {
-    "more-logic.html": "b2e4bacd"
+    "more-logic.html": "0fd3e110"
+  },
+  "archive/index.qmd": {
+    "index.html": "95f66784"
   },
   "archive/pages/frege-nose.qmd": {
-    "frege-nose.html": "9edb0095"
+    "frege-nose.html": "c6fdf812"
+  },
+  "archive/pages/peter-cropper.qmd": {
+    "peter-cropper.html": "ce5bf2ee"
+  },
+  "archive/pages/book-problem.qmd": {
+    "book-problem.html": "780fea29"
+  },
+  "archive/pages/murray-rea/10-anti-theistic-arguments.qmd": {
+    "10-anti-theistic-arguments.html": "8de49cc2"
+  },
+  "archive/pages/murray-rea/03-trinity.qmd": {
+    "03-trinity.html": "dfc60f7b"
+  },
+  "archive/pages/murray-rea/intro.qmd": {
+    "intro.html": "86310ecf"
+  },
+  "archive/pages/murray-rea/12-evil-ad-hoc.qmd": {
+    "12-evil-ad-hoc.html": "a71a319d"
+  },
+  "archive/pages/murray-rea/06-faith.qmd": {
+    "06-faith.html": "4e1f40d3"
+  },
+  "archive/pages/murray-rea/01-ability-to-sin.qmd": {
+    "01-ability-to-sin.html": "6117a14c"
+  },
+  "archive/pages/murray-rea/15-enough-already.qmd": {
+    "15-enough-already.html": "1b7af533"
+  },
+  "archive/pages/murray-rea/02-eternity.qmd": {
+    "02-eternity.html": "46391d30"
+  },
+  "archive/pages/murray-rea/index.qmd": {
+    "index.html": "7dc258a2"
+  },
+  "archive/pages/murray-rea/05-incarnation.qmd": {
+    "05-incarnation.html": "3d60d70a"
+  },
+  "archive/pages/murray-rea/11-problem-of-evil.qmd": {
+    "11-problem-of-evil.html": "6c9b0aeb"
+  },
+  "archive/pages/murray-rea/09-theistic-arguments.qmd": {
+    "09-theistic-arguments.html": "b685d825"
+  },
+  "archive/pages/murray-rea/08-pluralism.qmd": {
+    "08-pluralism.html": "8bfe9b60"
+  },
+  "archive/pages/murray-rea/04-lord-liar-lunatic.qmd": {
+    "04-lord-liar-lunatic.html": "775527c3"
+  },
+  "archive/pages/murray-rea/13-big-bang.qmd": {
+    "13-big-bang.html": "87884c2b"
+  },
+  "archive/pages/murray-rea/14-miracles.qmd": {
+    "14-miracles.html": "36c61606"
+  },
+  "archive/pages/murray-rea/aside.qmd": {
+    "aside.html": "902586e7"
+  },
+  "archive/pages/murray-rea/07-religious-experience.qmd": {
+    "07-religious-experience.html": "8b1802d4"
   },
   "archive/pages/frege-kripke.qmd": {
-    "frege-kripke.html": "0c8c3236"
+    "frege-kripke.html": "5b31a84f"
   },
   "archive/pages/tarski-truth.qmd": {
-    "tarski-truth.html": "aa498b13"
+    "tarski-truth.html": "6579572d"
+  },
+  "archive/pages/jonathan-raban.qmd": {
+    "jonathan-raban.html": "62d43f91"
+  },
+  "archive/pages/meaning-of-travel.qmd": {
+    "meaning-of-travel.html": "83487fc2"
+  },
+  "archive/pages/schuberts-piano.qmd": {
+    "schuberts-piano.html": "fbd66e22"
+  },
+  "archive/pages/books-2025.qmd": {
+    "books-2025.html": "72a2bfe2"
+  },
+  "archive/pages/hemlock-all-round.qmd": {
+    "hemlock-all-round.html": "945aef1d"
+  },
+  "archive/pages/phd-readings.qmd": {
+    "phd-readings.html": "c62a72f6"
+  },
+  "archive/pages/leibniz-white-road.qmd": {
+    "leibniz-white-road.html": "11f8fa1e"
+  },
+  "archive/pages/larkin.qmd": {
+    "larkin.html": "019e1c72"
+  },
+  "archive/pages/last-dance.qmd": {
+    "last-dance.html": "ac1fab4d"
+  },
+  "archive/pages/whats-it-all-about.qmd": {
+    "whats-it-all-about.html": "839f4b63"
+  },
+  "archive/pages/books-2021.qmd": {
+    "books-2021.html": "365eecf4"
+  },
+  "archive/pages/video-lectures.qmd": {
+    "video-lectures.html": "1926f083"
+  },
+  "archive/pages/broads-advice.qmd": {
+    "broads-advice.html": "691de5ab"
   },
   "archive/pages/does-maths-need-philosophy.qmd": {
-    "does-maths-need-philosophy.html": "20e9d952"
+    "does-maths-need-philosophy.html": "50421d44"
+  },
+  "archive/pages/lockdown-recommendations.qmd": {
+    "lockdown-recommendations.html": "9268848d"
+  },
+  "archive/pages/phq.qmd": {
+    "phq.html": "f6aadf4d"
+  },
+  "archive/pages/forgetting-turgenev.qmd": {
+    "forgetting-turgenev.html": "a3a43f29"
   },
   "archive/pages/partial-functions-and-free-logic.qmd": {
-    "partial-functions-and-free-logic.html": "5daefc40"
+    "partial-functions-and-free-logic.html": "ae2086d1"
+  },
+  "archive/pages/lights-go-out.qmd": {
+    "lights-go-out.html": "eaa7a5da"
   },
   "archive/pages/countability.qmd": {
-    "countability.html": "a7812784"
+    "countability.html": "4c0b9d1a"
   },
   "archive/pages/hintikka.qmd": {
-    "hintikka.html": "13a90f15"
+    "hintikka.html": "814f2dd9"
   },
   "archive/pages/phil-maths-reading-list.qmd": {
-    "phil-maths-reading-list.html": "6a25a960"
+    "phil-maths-reading-list.html": "c22a9ff9"
+  },
+  "archive/pages/postcards-siena.qmd": {
+    "postcards-siena.html": "98757fbe"
   },
   "archive/pages/five-books-phil-logic.qmd": {
-    "five-books-phil-logic.html": "2d3c6890"
+    "five-books-phil-logic.html": "35706278"
+  },
+  "archive/pages/serendipity.qmd": {
+    "serendipity.html": "826dd838"
+  },
+  "archive/pages/university-reforms.qmd": {
+    "university-reforms.html": "75aabcfa"
   },
   "archive/pages/negative-type-theory.qmd": {
-    "negative-type-theory.html": "5d6209b4"
+    "negative-type-theory.html": "9fc904f2"
   },
   "archive/pages/unrestricted-quantification.qmd": {
-    "unrestricted-quantification.html": "0d8084ec"
+    "unrestricted-quantification.html": "2f0db712"
+  },
+  "tyl/booknotes/buechner.qmd": {
+    "buechner.html": "27b86999"
+  },
+  "tyl/booknotes/colyvan.qmd": {
+    "colyvan.html": "77a83490"
+  },
+  "tyl/booknotes/bellmach.qmd": {
+    "bellmach.html": "9140c97a"
+  },
+  "tyl/booknotes/adrian-moore-on-godels-theorem-briefly.qmd": {
+    "adrian-moore-on-godels-theorem-briefly.html": "7230c4fb"
+  },
+  "tyl/booknotes/formal-theories-truth.qmd": {
+    "formal-theories-truth.html": "cc2f5d55"
+  },
+  "tyl/booknotes/kirby.qmd": {
+    "kirby.html": "378655b4"
+  },
+  "tyl/booknotes/bridge.qmd": {
+    "bridge.html": "f2d168a3"
+  },
+  "tyl/booknotes/robbin.qmd": {
+    "robbin.html": "9e8bb145"
+  },
+  "tyl/booknotes/kunen-FM.qmd": {
+    "kunen-FM.html": "40595bb8"
+  },
+  "tyl/booknotes/jacquettes-frege.qmd": {
+    "jacquettes-frege.html": "2ccccfb4"
+  },
+  "tyl/booknotes/properties-propositions-and-the-concept-horse.qmd": {
+    "properties-propositions-and-the-concept-horse.html": "7f2ee578"
+  },
+  "tyl/booknotes/westerstahl.qmd": {
+    "westerstahl.html": "9cf41ff0"
+  },
+  "tyl/booknotes/loveland-hodel-sterrett-three-views-of-logic.qmd": {
+    "loveland-hodel-sterrett-three-views-of-logic.html": "f9734295"
+  },
+  "tyl/booknotes/kreisels-interests.qmd": {
+    "kreisels-interests.html": "20e6457b"
+  },
+  "tyl/booknotes/shapirov.qmd": {
+    "shapirov.html": "1eb8939b"
+  },
+  "tyl/booknotes/greg-restall-proofs-and-models-in-philosophical-logic.qmd": {
+    "greg-restall-proofs-and-models-in-philosophical-logic.html": "fbca63f5"
+  },
+  "tyl/booknotes/john-burgess-set-theory.qmd": {
+    "john-burgess-set-theory.html": "c9a60206"
+  },
+  "tyl/booknotes/goldsternandjudah.qmd": {
+    "goldsternandjudah.html": "20378cb1"
+  },
+  "tyl/booknotes/rautenberg-a-concise-introduction-to-mathematical-logic.qmd": {
+    "rautenberg-a-concise-introduction-to-mathematical-logic.html": "19a309f6"
+  },
+  "tyl/booknotes/hinman.qmd": {
+    "hinman.html": "e01f34c9"
+  },
+  "tyl/booknotes/quick-book-note-pollard.qmd": {
+    "quick-book-note-pollard.html": "8c7778c4"
+  },
+  "tyl/booknotes/tag-r-s-search-order-asc.qmd": {
+    "tag-r-s-search-order-asc.html": "48fd77bf"
+  },
+  "tyl/booknotes/index.qmd": {
+    "index.html": "9c5db46a"
+  },
+  "tyl/booknotes/srivastava-a-course-on-mathematical-logic.qmd": {
+    "srivastava-a-course-on-mathematical-logic.html": "feb97165"
+  },
+  "tyl/booknotes/chiswellandhodges.qmd": {
+    "chiswellandhodges.html": "89726978"
+  },
+  "tyl/booknotes/machover.qmd": {
+    "machover.html": "7e557395"
+  },
+  "tyl/booknotes/forster.qmd": {
+    "forster.html": "34158032"
+  },
+  "tyl/booknotes/eft.qmd": {
+    "eft.html": "75701dea"
+  },
+  "tyl/booknotes/oleary-a-first-course-in-mathematical-logic-and-set-theory.qmd": {
+    "oleary-a-first-course-in-mathematical-logic-and-set-theory.html": "5fdf10b9"
+  },
+  "tyl/booknotes/tag-ttp-search-order-asc.qmd": {
+    "tag-ttp-search-order-asc.html": "7bfc8be3"
+  },
+  "tyl/booknotes/kleene-metamath.qmd": {
+    "kleene-metamath.html": "ecc03f8f"
+  },
+  "tyl/booknotes/roy-symbolic-logic.qmd": {
+    "roy-symbolic-logic.html": "2aa8284b"
+  },
+  "tyl/booknotes/smullyan-a-beginners-guide-to-mathematical-logic.qmd": {
+    "smullyan-a-beginners-guide-to-mathematical-logic.html": "514bc278"
+  },
+  "tyl/booknotes/kaye-the-mathematics-of-logic.qmd": {
+    "kaye-the-mathematics-of-logic.html": "715c1816"
+  },
+  "tyl/booknotes/the-metaphysics-of-logic.qmd": {
+    "the-metaphysics-of-logic.html": "0115d1e0"
+  },
+  "tyl/booknotes/category-books-conceptions_of_set-search-order-asc.qmd": {
+    "category-books-conceptions_of_set-search-order-asc.html": "f8310746"
+  },
+  "tyl/booknotes/mathematical-logic-exercises-and-solutions.qmd": {
+    "mathematical-logic-exercises-and-solutions.html": "bf1818d2"
+  },
+  "tyl/booknotes/zach.qmd": {
+    "zach.html": "81bbfd05"
+  },
+  "tyl/booknotes/logic-works.qmd": {
+    "logic-works.html": "9f5ee23d"
+  },
+  "tyl/booknotes/avigad-full.qmd": {
+    "avigad-full.html": "f7641c1f"
+  },
+  "tyl/booknotes/tag-f-l-search-order-asc.qmd": {
+    "tag-f-l-search-order-asc.html": "856fa2e3"
+  },
+  "tyl/booknotes/hellman-and-shapiro-on-mathematical-stucturalism.qmd": {
+    "hellman-and-shapiro-on-mathematical-stucturalism.html": "6fb2c42a"
+  },
+  "tyl/booknotes/schoenfield.qmd": {
+    "schoenfield.html": "1b38c212"
+  },
+  "tyl/booknotes/kromer.qmd": {
+    "kromer.html": "63ed3e4d"
+  },
+  "tyl/booknotes/Mendelson.qmd": {
+    "Mendelson.html": "25cd47b2"
+  },
+  "tyl/booknotes/roman-kossaks-model-theory-for-beginners.qmd": {
+    "roman-kossaks-model-theory-for-beginners.html": "439e98da"
+  },
+  "tyl/booknotes/halbeisen-krapf-g-del-s-theorems-and-zermelo-s-axioms.qmd": {
+    "halbeisen-krapf-g-del-s-theorems-and-zermelo-s-axioms.html": "47fa3ad9"
+  },
+  "tyl/booknotes/marker-an-invitation-to-mathematical-logic.qmd": {
+    "marker-an-invitation-to-mathematical-logic.html": "244ceba3"
+  },
+  "tyl/booknotes/mileti-modern-mathematical-logic.qmd": {
+    "mileti-modern-mathematical-logic.html": "89390178"
+  },
+  "tyl/booknotes/tag-kgfm-search-order-asc.qmd": {
+    "tag-kgfm-search-order-asc.html": "dc442dd6"
+  },
+  "tyl/booknotes/hills-loeser.qmd": {
+    "hills-loeser.html": "a0772317"
+  },
+  "tyl/booknotes/the-annotated-godel.qmd": {
+    "the-annotated-godel.html": "7b6015fc"
+  },
+  "tyl/booknotes/hodel.qmd": {
+    "hodel.html": "17fefd38"
+  },
+  "tyl/booknotes/tag-autonomy-search-order-asc.qmd": {
+    "tag-autonomy-search-order-asc.html": "7d7a48f6"
+  },
+  "tyl/booknotes/smith-the-laws-of-truth.qmd": {
+    "smith-the-laws-of-truth.html": "9b9385e5"
+  },
+  "tyl/booknotes/johnstone.qmd": {
+    "johnstone.html": "b5171387"
+  },
+  "tyl/booknotes/manzano.qmd": {
+    "manzano.html": "3fb5f024"
+  },
+  "tyl/booknotes/moerdijk-and-van-oosten-sets-models-and-proofs.qmd": {
+    "moerdijk-and-van-oosten-sets-models-and-proofs.html": "537f26cc"
+  },
+  "tyl/booknotes/de-swart.qmd": {
+    "de-swart.html": "c766d414"
+  },
+  "tyl/booknotes/sider.qmd": {
+    "sider.html": "06d2f7eb"
+  },
+  "tyl/booknotes/prestelldelzell.qmd": {
+    "prestelldelzell.html": "392c7c79"
+  },
+  "tyl/booknotes/vdalen.qmd": {
+    "vdalen.html": "da9d4893"
+  },
+  "tyl/booknotes/kossak.qmd": {
+    "kossak.html": "feed6a20"
+  },
+  "tyl/booknotes/cori-lascar-mathematical-logic.qmd": {
+    "cori-lascar-mathematical-logic.html": "3982220b"
+  },
+  "tyl/booknotes/leary.qmd": {
+    "leary.html": "6d25de57"
+  },
+  "tyl/booknotes/hedman.qmd": {
+    "hedman.html": "d841f3b2"
+  },
+  "tyl/booknotes/tag-catwp-search-order-asc.qmd": {
+    "tag-catwp-search-order-asc.html": "f1aaa4e1"
+  },
+  "tyl/booknotes/tag-absgen-search-order-asc.qmd": {
+    "tag-absgen-search-order-asc.html": "fe5f649f"
+  },
+  "tyl/booknotes/berto.qmd": {
+    "berto.html": "d0d5d758"
+  },
+  "tyl/booknotes/kleene_ml.qmd": {
+    "kleene_ml.html": "1f6458c2"
+  },
+  "tyl/booknotes/enderton.qmd": {
+    "enderton.html": "07455a2b"
+  },
+  "tyl/booknotes/hilberts-foundationslogic-lectures.qmd": {
+    "hilberts-foundationslogic-lectures.html": "96265a5f"
+  },
+  "tyl/booknotes/blog-category-name-ipt-search-orderby-post-date-order-asc.qmd": {
+    "blog-category-name-ipt-search-orderby-post-date-order-asc.html": "8c4b8e86"
+  },
+  "tyl/index.qmd": {
+    "index.html": "64702c2c"
+  },
+  "books/index.qmd": {
+    "index.html": "ef6ddd30"
+  },
+  "index.qmd": {
+    "index.html": "082e1450"
+  },
+  "blog/another-categorical-update.qmd": {
+    "another-categorical-update.html": "52b71feb"
+  },
+  "blog/proof-reading-with-a-bit-of-help-from-llms.qmd": {
+    "proof-reading-with-a-bit-of-help-from-llms.html": "8c096fbb"
+  },
+  "blog/since-it-is-the-feast-of-the-annunciation.qmd": {
+    "since-it-is-the-feast-of-the-annunciation.html": "ed00a3b0"
+  },
+  "blog/felicity-lott-1947-2026.qmd": {
+    "felicity-lott-1947-2026.html": "6a9f2614"
+  },
+  "blog/twenty-years-on-what-next.qmd": {
+    "twenty-years-on-what-next.html": "8299242e"
+  },
+  "blog/godel-slowly.qmd": {
+    "godel-slowly.html": "43f4d484"
+  },
+  "blog/categorical-update.qmd": {
+    "categorical-update.html": "7f15d516"
+  },
+  "blog/two-books-to-miss-brandom-and-bardi.qmd": {
+    "two-books-to-miss-brandom-and-bardi.html": "76dfcbe2"
+  },
+  "blog/new-issue-journal-for-the-philosophy-of-mathematics.qmd": {
+    "new-issue-journal-for-the-philosophy-of-mathematics.html": "0b2fc60c"
+  },
+  "blog/the-big-red-logic-books-last-year-this-year.qmd": {
+    "the-big-red-logic-books-last-year-this-year.html": "2cfd46c9"
+  },
+  "blog/no-toast.qmd": {
+    "no-toast.html": "40131f2e"
+  },
+  "blog/partial-functions-and-churchs-thesis.qmd": {
+    "partial-functions-and-churchs-thesis.html": "04169ca0"
+  },
+  "blog/index.qmd": {
+    "index.html": "b35655a0"
+  },
+  "blog/ict-the-third-edition.qmd": {
+    "ict-the-third-edition.html": "4dbfed39"
+  },
+  "blog/a-wittgenstein-problem.qmd": {
+    "a-wittgenstein-problem.html": "f95e339f"
+  },
+  "blog/ict-paperback-is-out.qmd": {
+    "ict-paperback-is-out.html": "872c7b54"
+  },
+  "blog/ex-america-bona-quaedam.qmd": {
+    "ex-america-bona-quaedam.html": "2d440ddf"
+  },
+  "blog/on-the-mathematical-abilities-of-llms.qmd": {
+    "on-the-mathematical-abilities-of-llms.html": "04e56c44"
+  },
+  "blog/hoffmann-limits-of-mathematics.qmd": {
+    "hoffmann-limits-of-mathematics.html": "7e953b87"
+  },
+  "blog/a-new-version-of-ict.qmd": {
+    "a-new-version-of-ict.html": "5c9c7de5"
+  },
+  "blog/categorically-diverted.qmd": {
+    "categorically-diverted.html": "f6031729"
+  },
+  "blog/godel-lean-fra-angelico-schubert.qmd": {
+    "godel-lean-fra-angelico-schubert.html": "619e8d40"
+  },
+  "blog/godels-theorems-and-logicisms-revisited.qmd": {
+    "godels-theorems-and-logicisms-revisited.html": "8aa770c9"
+  },
+  "blog/great-expectations.qmd": {
+    "great-expectations.html": "8ab42dca"
+  },
+  "about.qmd": {
+    "about.html": "53bdf4b5"
+  },
+  "igt/index.qmd": {
+    "index.html": "49f139cf"
+  },
+  "igt/what-else.qmd": {
+    "what-else.html": "1d620fae"
+  },
+  "igt/exercises/index.qmd": {
+    "index.html": "6e39f1ed"
+  },
+  "ifl/logical-snippets.qmd": {
+    "logical-snippets.html": "a5309cd1"
+  },
+  "ifl/index.qmd": {
+    "index.html": "4b1d2d84"
+  },
+  "ifl/exercises.qmd": {
+    "exercises.html": "1dc0a5d1"
+  },
+  "categories/comments.qmd": {
+    "comments.html": "4d0cb6ae"
+  },
+  "categories/phil-cats.qmd": {
+    "phil-cats.html": "ee43bc44"
+  },
+  "categories/categories-lists.qmd": {
+    "categories-lists.html": "184f85e5"
+  },
+  "categories/index.qmd": {
+    "index.html": "7402745b"
   }
 }

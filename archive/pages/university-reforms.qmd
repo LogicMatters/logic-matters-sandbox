@@ -1,5 +1,5 @@
 ---
-title: "Encore #2: University \"reforms\""
+title: "University \"reforms\""
 date: "2016-02-04"
 page-layout: article
 ---

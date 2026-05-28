@@ -7,7 +7,7 @@ Along with the book notes and other posts on logic and the philosophy of mathema
 
 #### Readings
 
-- [Murray & Rea, *Intro to the Philosophy of Religion* (2008)](https://www.logicmatters.net/tag/MurrayRea/?search&order=asc) [Extended lambasting ..!]
+- [Murray & Rea, *Intro to the Philosophy of Religion* (2008)](pages/murray-rea/index.qmd) [Extended lambasting ..!]
 - [Turgenev at 200](pages/forgetting-turgenev.qmd) (2018)
 - [*The Meaning of Travel*](pages/meaning-of-travel.qmd) (2021)
 - [Lockdown recommendations](pages/lockdown-recommendations.qmd) (2020)

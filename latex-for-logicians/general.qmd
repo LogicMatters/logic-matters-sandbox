@@ -1,0 +1,30 @@
+---
+title: "General LaTeX information"
+page-layout: article
+---
+
+**For the curious** These pages are really intended for those who already have some familiarity with LaTeX. But if you have reached this page and are curious, then read this classic LaTeX advocacy (and for more advocacy about the beauty of the output see here). My quite short [introductory guide to the 'LaTeX Philosophy'](pdfs/LaTeXphilosophy.pdf) will help give you a clearer sense of what it is all about.
+
+---
+
+**Getting started ** [Getting Started with LaTeX](https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/GSWLaTeX.pdf) is short and introductory: but there is a great deal of similar material out there. Go, for example, to this Cambridge intro page of useful links. There is also a mass of on-line documentation [linked at the TeX User Group](http://www.tug.org/interest.html#doc).
+
+**Learning more**  For help if you want to go beyond the basics, there is a mass of online documentation, as those "Getting started" links already show.  But it is perhaps worth highlighting especially [The Not So Short Introduction to LaTeX](http://tug.ctan.org/info/lshort/english/lshort.pdf) and the [LaTeX wikibook](http://en.wikibooks.org/wiki/LaTeX). And for a lot more, in book form, there is a 4th edition of Kopka and Daly’s [*Guide to LaTeX*](http://www.amazon.com/exec/obidos/tg/detail/-/0321173856/ref=pd_bxgy_img_2/103-0352813-2023037?v=glance&s=books) and a giant 2nd edition of [*The LaTeX Companion*](http://www.amazon.com/exec/obidos/tg/detail/-/0201362996/qid=1087579286/sr=1-1/ref=sr_1_1/103-0352813-2023037?v=glance&s=books). While neither is perfect, both can be recommended if you want to start making use of the more sophisticated capabilities of LaTeX.
+
+**When you need help **Not to be used before you have consulted the plentiful online documentation linked at sources mentioned above. But there is an exceedingly helpful question/answer forum  for LaTeX users at [http://tex.stackexchange.com.](http://tex.stackexchange.com)
+
+---
+
+**A better LaTeX class** [The memoir class](https://www.ctan.org/tex-archive/macros/latex/contrib/memoir/?lang=en) (Peter Wilson, Lars Madsen, 2001 - 2020) is a major LaTeX add-on which is well worth highlighting here as it (a) is not covered in the Companion, but (b) is especially useful for anyone involved in writing long documents, logician or not. Its very long [manual](http://www.ctan.org/tex-archive/macros/latex/contrib/memoir/memman.pdf) is full of good advice on digital typography. Here are [illustrations of some chapter styles](https://www.ctan.org/pkg/memoirchapterstyles?lang=en).
+
+**More fonts** If you want a LaTeX document not to look like a standard LaTeX document use the memoir class to redesign the standard page layouts; and then use some fonts other than the default Computer Modern. For a review of what is available free, see [The LaTeX font catalogue](http://www.tug.dk/FontCatalogue/) from the Danish TeX User Group. See also this page on [recent LaTeX fonts](http://math.ucsd.edu/~msharpe/RecentTexFonts.pdf) (Michael Sharpe, 2014).
+
+**XeTeX/LuaLaTeX** You do have to do some work to get standard LaTeX to play nicely with fonts beyond a narrow range. Eventually, you might want a version of LaTeX which handles your favourite fonts more easily. XeTeX was designed to do this, while still handling (most) LaTeX commands. Here’s the [XeTeX page](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=xetex); and a [XeTeX Companion](http://xml.web.cern.ch/XML/lgc2/xetexmain.pdf). [LuaLaTeX](https://ctan.org/tex-archive/info/luatex/lualatex-doc) builds on XeTeX capabilities and again handles fonts nicely. (If you are puzzled by the proliferation of versions of LaTeX, [this may or may not help](https://www.overleaf.com/learn/latex/Articles/The_TeX_family_tree%3A_LaTeX%2C_pdfTeX%2C_XeTeX%2C_LuaTeX_and_ConTeXt)!)
+
+---
+
+**LaTeX without tears** Lyx is a front-end which allows you produce LaTeX documents without actually learning LaTeX. You can use it pretty much like a normal (though rather more intelligent) wordprocessor, and so it has a less steep learning curve than Latex. In addition Lyx has features which ordinary LaTeX editors lack, such as a document outliner, and change tracking. Some swear by it. Find out about it [here](http://www.lyx.org/).
+
+**Online and collaborative LaTeX Editors** Many recommend the current version of [Overleaf ](https://www.overleaf.com) which combines the best of the old Overleaf and ShareLaTeX. But it isn't free.
+
+*Updated** 25 January 2023*

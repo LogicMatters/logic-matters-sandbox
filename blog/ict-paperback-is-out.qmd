@@ -5,11 +5,10 @@ categories: ["Books", "Category theory"]
 ---
 
 
-<figure class="wp-block-image alignleft size-large is-resized"><a href="https://www.logicmatters.net/wp-content/uploads/2026/01/5141-6iZrrL._SL1436_-1-scaled.jpg"><img src="../images/2026/5141-6izrrl-_sl1436_-1-713x1024-jpg.jpg" alt="" class="wp-image-19009" style="width:auto;height:360px"/></a></figure>
+<img src="../books/book-covers/SmithICT.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 
-
-<p>The revised/corrected third edition of <em>Introducing Category Theory</em> is now available as a paperback. To keep the cost minimal, this is again via print-on-demand from <a href="https://www.amazon.com/Introducing-Category-Theory-Peter-Smith/dp/1068346728/">Amazon US</a>, <a href="https://www.amazon.co.uk/Introducing-Category-Theory-Peter-Smith/dp/1068346728/ref=sr_1_1?crid=13HO9ZAP3CSM1&amp;dib=eyJ2IjoiMSJ9.Ry-ED_Jei-yfO8nRUwZRiWkDoiBYAQ_gQCU-ae6ki-qAfLcDQPEswrJasJHOw4MLYQxQRgxB8uwx8xspIlV1fQ.12yzmNLq9TgVTOZ3x8cTRSZinoXDEdo9UW1B07aETUE&amp;dib_tag=se&amp;keywords=peter+smith+category+theory&amp;qid=1779133252&amp;sprefix=smith+category+theory%2Caps%2C336&amp;sr=8-1">Amazon UK</a>, and of course other Amazons too, with ISBN 1068346728.</p>
+<p>The revised/corrected third edition of <em>Introducing Category Theory</em> is now available as a paperback. To keep the cost minimal, this is again via print-on-demand from <a href="https://www.amazon.com/Introducing-Category-Theory-Peter-Smith/dp/1068346728/">Amazon US</a>, <a href="https://www.amazon.co.uk/Introducing-Category-Theory-Peter-Smith/dp/1068346728/">Amazon UK</a>, and of course other Amazons too, with ISBN 1068346728.</p>
 
 
 

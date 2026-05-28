@@ -1,0 +1,24 @@
+---
+title: "Murray & Rea: *An Introduction to the Philosophy of Religion* — a reading"
+page-layout: article
+---
+
+Murray and Rea's *An Introduction to the Philosophy of Religion* (CUP, 2008) is a textbook. These posts from March–April 2008 work through it chapter by chapter, at some length, with a fairly critical eye.
+
+- [Introduction: Religion and the philosophy of religion](intro.qmd)
+- [1. The ability to sin](01-ability-to-sin.qmd)
+- [2. Eternity](02-eternity.qmd)
+- [3. The Trinity](03-trinity.qmd)
+- [4. Lord, Liar, Lunatic](04-lord-liar-lunatic.qmd)
+- [5. Incarnation](05-incarnation.qmd)
+- [6. Faith](06-faith.qmd)
+- [7. Religious experience](07-religious-experience.qmd)
+- [An aside](aside.qmd)
+- [8. Pluralism](08-pluralism.qmd)
+- [9. Theistic arguments](09-theistic-arguments.qmd)
+- [10. Anti-theistic arguments](10-anti-theistic-arguments.qmd)
+- [11. Which problem of evil?](11-problem-of-evil.qmd)
+- [12. Evil and the ad hoc](12-evil-ad-hoc.qmd)
+- [13. Big Bang vs Steady State](13-big-bang.qmd)
+- [14. Miracles?](14-miracles.qmd)
+- [15. Enough already!](15-enough-already.qmd)
