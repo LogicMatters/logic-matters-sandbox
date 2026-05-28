@@ -5,7 +5,7 @@ categories: ["Category theory"]
 ---
 
 
-<figure class="wp-block-image size-full"><a href="https://www.logicmatters.net/wp-content/uploads/2026/05/C_61_1927.jpg"><img src="../images/2026/c_61_1927-jpg.jpg" alt="" class="wp-image-19231"/></a></figure>
+![](2026/Isabella-tile.jpg)
 
 
 
