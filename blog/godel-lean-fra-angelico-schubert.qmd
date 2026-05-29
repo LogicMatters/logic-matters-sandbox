@@ -20,20 +20,11 @@ categories: ["Gödel's theorems", "This and that"]
 <hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
 
 
-
-<figure class="wp-block-image alignleft size-large is-resized"><a href="https://www.logicmatters.net/wp-content/uploads/2026/01/61ZnXmdzTNL._SL1245_-scaled.jpg"><img src="../images/2026/61znxmdztnl-_sl1245_-680x1024-jpg.jpg" alt="" class="wp-image-19040" style="width:auto;height:360px"/></a></figure>
-
-
-
 <p>I’m much enjoying getting back into thinking a little about Gödelian matters. And as I get to the point of revising the main chapters on the arguments for the first incompleteness theorem, one task for me will be actually to read Gödel 1931 again to see if I want to add more references to the paper. I must also take another look at the volume Jan von Plato published in 2020, as the result of his detective work grappling with Gödel’s shorthand notes written in the months leading up to his publishing the epoch-making paper. (Apart from a review by John Dawson in <em>Philosophia Mathematica</em>, that volume seems to have received surprisingly little attention. Perhaps because it does seem to take some effort to dig out the more interesting material -- I’ll perhaps write something brief about that here.)</p>
 
 
 
 <hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
-
-
-
-<figure class="wp-block-image alignright size-full is-resized"><a href="https://www.logicmatters.net/wp-content/uploads/2026/01/71LIQDLzwbL._SL1000_.jpg"><img src="../images/2026/71liqdlzwbl-_sl1000_-jpg.jpg" alt="" class="wp-image-19042" style="width:auto;height:360px"/></a></figure>
 
 
 

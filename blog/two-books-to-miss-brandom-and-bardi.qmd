@@ -57,5 +57,4 @@ categories: ["Books"]
 
 <p>For something, however, that <em>is</em> so very worth your time, the quite wondrous Alina Ibragimova, playing the great Chaconne from Bach's Partita no. 2. </p>
 
-
-https://youtu.be/557OWzYkHv8?si=aWkqxz2t9twq2Bge
+{{< video https://www.youtube.com/watch?v=557OWzYkHv8 >}}

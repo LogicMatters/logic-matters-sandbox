@@ -19,6 +19,8 @@ categories: ["This and that"]
 
 <p>Predictably, after twenty years, there is a real mess behind the scenes here, and Something Ought To Be Done to tidy things up. A year or two ago I wouldn’t have wanted to devote the time and learning effort to moving to Github, wrangling with CSS, and the like. But one thing that Gemini and friends really excel at is patiently holding your hand through such nerdy tasks. So I think now could be the time at least to experiment.</p>
 
+<hr>
+
 ::: {.hanging}
 *Aron T comments:* Congrats on this twentieth anniversary. I have only been following you for less than half that time, but this site and all your work is fantastic. Thanks so much and wishing you many more productive years.
 
