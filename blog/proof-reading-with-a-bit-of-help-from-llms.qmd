@@ -28,6 +28,8 @@ categories: ["This and that"]
 
 <p>And, after all that, a new cleaner version of <em>ICT </em>(paperback, hardback and free PDF) will be out shortly. I can then get back to real logical matters ...</p>
 
+<hr>
+
 ::: {.hanging}
 
 *Rowsety Moid comments:* When “Claude and co. were working from a source text which they had already checked over previously”, was it the very same, character-by-character identical, text, or had some changes been made (such as fixing the errors they’d found earlier)? (If think it would be an interesting experiment to give them the very same, unaltered, text, if you haven’t already done that.)

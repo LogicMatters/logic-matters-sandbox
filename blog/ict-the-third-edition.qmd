@@ -5,7 +5,8 @@ categories: ["Books", "Category theory"]
 ---
 
 
-<figure class="wp-block-image alignleft size-large is-resized"><a href="https://www.logicmatters.net/wp-content/uploads/2026/01/5141-6iZrrL._SL1436_-scaled.jpg"><img src="../images/2026/5141-6izrrl-_sl1436_-713x1024-jpg.jpg" alt="" class="wp-image-19005" style="width:auto;height:360px"/></a></figure>
+
+<img src="../books/book-covers/SmithICT.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 
 

@@ -5,7 +5,7 @@ categories: ["This and that"]
 ---
 
 
-<p>I didn’t at all intend to return to my <em>Introduction to Gödel’s Theorems</em> (which I’ve not really read for a dozen years, apart from correcting a small handful of typos in the PDF). But I had occasion to look something up, and -- hey, ho! -- I’ve found myself over the last week beginning to tinker with early chapters (so far in very minor ways, for added clarity). And having started, I guess I’ll continue. Not that I’m planning any major changes: I much like the structure of the book as it is. I’ll just be maximising accessibility, and perhaps adding footnotes pointing to a few more recent publications. </p>
+<p>I didn’t at all intend to return to my <em>Introduction to Gödel’s Theorems</em> (which I’ve not really read for a dozen years, apart from correcting a small handful of typos in the PDF). But I had occasion to look something up, and -- hey, ho! -- I’ve found myself over the last week beginning to tinker with early chapters (so far in very minor ways, for added clarity). And having started, I guess will intermittently continue. Not that I’m planning any major changes: I much like the structure of the book as it is. I’ll just be maximising accessibility, and perhaps adding footnotes pointing to a few more recent publications. </p>
 
 
 
@@ -28,4 +28,4 @@ categories: ["This and that"]
 <p>Let me add another musical interlude. There were some starry performers at the  XX Cartagena Festival de Música earlier this month, including the Pavel Haas Quartet -- and not least Elisabeth Brauß, who played her favourite Mozart Piano Concerto, the 23rd. Here she is, very engaging as always [from 39.20].</p>
 
 
-<p>https://www.youtube.com/watch?v=rX5cienR_Ek&t=2360s</p>
+{{< video https://www.youtube.com/watch?v=rX5cienR_Ek&t=2360s >}}

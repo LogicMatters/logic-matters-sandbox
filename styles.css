@@ -82,3 +82,21 @@ main.content p:last-child {
   padding-left: 2em;
   margin-top: -0.75em;
 }
+
+.hanging .quoted + p {
+  padding-left: 2em;
+}
+
+.hanging .quoted {
+  margin-left: 4em;
+  margin-right: 2em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.hanging .quoted p:first-child,
+.hanging .quoted p + p {
+  padding-left: 0;
+  text-indent: 0;
+  margin-top: 0;
+}

@@ -21,7 +21,7 @@ categories: ["Books", "This and that"]
 
 
 
-<blockquote class="wp-block-quote">
+<blockquote>
 <p>“A little library, growing larger every year, is an honourable part of a man’s history. It is a man’s duty to have books. A library is not a luxury, but one of the necessaries of life.” Yes. But let “little” be the operative word!</p>
 
 
