@@ -80,7 +80,7 @@ main.content p:last-child {
 
 .hanging p + p {
   padding-left: 2em;
-  margin-top: -0.75em;
+  margin-top: -0.50em;
 }
 
 .hanging .quoted + p {

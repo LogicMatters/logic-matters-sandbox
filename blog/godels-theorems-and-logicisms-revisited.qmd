@@ -29,3 +29,63 @@ categories: ["This and that"]
 
 
 {{< video https://www.youtube.com/watch?v=rX5cienR_Ek&t=2360s >}}
+
+<hr>
+
+::: {.hanging}
+
+*Daniel Nagase comments:* Speaking of which, what are your impressions on the recent scholarship viz. Gödel’s relationship with von Neumann, particularly the claim that (1) Gödel got the ida of arithmetization from him and (2) Gödel never really had a proof of the 2nd incompleteness theorem and so kind of lied or at least seriously misled von Neumann in their correapondence, so that he wouldn’t publish his results?
+
+:::
+<p></p>
+
+::: {.hanging}
+*PS replies:* Does von Plato (whose work on the Gödel notes and drafts I guess you are referring to) say anything as strong as (1)?
+
+On (2), the evidence von Plato gives does look strong. As the cautious John Dawson in his Philosophia Mathematica review puts it “In his correspondence with von Neumann … [Gödel’s] circumspection with regard to the second incompleteness theorem in the original manuscript he sent to the printer —- despite his having forthrightly announced the formal unprovability of consistency in his Anzeiger abstract — was due to his discovery, after receiving von Neumann’s letter, that a detailed formal proof of that theorem was much harder to execute than he had anticipated.”
+
+:::
+<p></p>
+
+::: {.hanging}
+*Rowsety Moid comments:* ’m wondering who it is who thinks Gödel got the idea of arithmetization from von Neumann? Or (which seems to be what (2) suggests) that Gödel didn’t know how to prove the 2nd incompleteness theorem?
+
+A search turned up a two-part blog post by Ananyo Bhattacharya, the author of The Man from the Future: The Visionary Life of John von Neumann:
+
+Was Gödel’s second incompleteness theorem really von Neumann’s? Part I
+Was Gödel’s second incompleteness theorem really von Neumann’s? Part II
+
+He makes both claims. I can’t say I find his reasoning convincing, though, especially on (1), and I don’t think he quite understands what Gödel was doing.
+
+:::
+<p></p> 
+
+::: {.hanging}
+*PS replies:* See Jan von Plato’s book, Can Mathematics be Proved Consistent (Springer), which very interestingly translates Gödel’s shorthand notes, and also translates the original typescript of the incompleteness paper. The book can be freely downloaded here.
+
+On (1), it does seem that the way that Gödel handled arithmetization changed after a conversation with von Neumann — see von Plato pp. 16-17. But the change isn’t a deep one.
+
+However, on (2), von Plato concludes (p. 27) that indeed Gödel “was unable to prove the second theorem to his satisfaction”. And he also concludes that Gödel wasn’t straightforwardly honest in his exchanges with von Neumann: “Gödel panicked at the prospect of von Neumann publishing his second theorem”. The evidence does seem to point that way.
+
+:::
+<p></p>
+
+::: {.hanging}
+*Anderson Nakano comments:* This is a very enticing list of possibilities! I was particularly struck by the mention of a chapter on “Wittgenstein on Gödel” (oh dear indeed…). By coincidence, a paper of mine (co-authored with Rafael Ongaratto) on Wittgenstein’s remarks on Gödel’s theorems has just been published today, where I try to disentangle some persistent misunderstandings in the literature and to offer a more charitable reconstruction of Wittgenstein’s position.
+
+If that topic does make it onto your list of priorities, you might find the paper of interest:
+https://www.scielo.br/j/man/a/jcN8DxrL97NpYHYTTxBY7sJ/?lang=en
+
+In any case, the idea of a follow-up volume with focused essays ranging from technical proofs to broader philosophical reactions sounds extremely attractive. I very much look forward to seeing where this tinkering leads.
+
+:::
+<p></p>
+
+::: {.hanging} 
+*Rowsety Moid comments:* “On (1), it does seem that the way that Gödel handled arithmetization changed after a conversation with von Neumann — see von Plato pp. 16-17. But the change isn’t a deep one.”
+
+I’m not completely sure what the change is thought to be. My best guess is that it’s the change from using a series of numbers to represent a formula (and a series of series for a proof) to using single numbers for such things (by employing “the famous Gödel numbering through the uniqueness of prime decomposition”, as it’s put on von Plato’s p 17).
+
+If so, then it looks like another part of p 17 shows Godel did not get that idea from von Neumann at the Königsberg conference:
+
+“The cancelled page 329L, written well before the Königsberg meeting, develops the idea of Gödel numbering, with the comment that by the mapping of series of numbers to numbers through a product of powers of primes, “metamathematical concepts earlier defined that concern the system S, go over into properties and relations between natural numbers.” This mapping is put aside, however, and series of numbers continue to represent formulas and proofs until the final shorthand version that was written after the Königsberg meeting. There, on pages 254L-R, Gödel writes that by taking products of powers of primes, “a natural number is associated in a one-to-one way, not just to each basic sign but also to each finite series of basic signs” – an idea described as “trivial” in Gödel’s recollections about his meeting with von Neumann.”
