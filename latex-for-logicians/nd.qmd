@@ -1,6 +1,9 @@
 ---
 title: "Proofs"
 page-layout: article
+format:
+  html:
+    include-before-body: _lfl-nav.html
 ---
 
 For a document on bussproofs for Gentzen-style proofs, two Fitch-style packages, and also mentioning Lemmon style proofs, see [Proofs in LaTeX](http://www.actual.world/resources/tex/doc/Proofs.pdf) (Alex Kocurek 2019).

@@ -1,6 +1,9 @@
 ---
 title: "Logicians’ miscellany"
 page-layout: article
+format:
+  html:
+    include-before-body: _lfl-nav.html
 ---
 
 **Help for generating truth-tables**

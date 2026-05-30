@@ -1,6 +1,9 @@
 ---
 title: "Other sites"
 page-layout: article
+format:
+  html:
+    include-before-body: _lfl-nav.html
 ---
 
 If you are still considering whether to change to LaTeX, you might be interested in

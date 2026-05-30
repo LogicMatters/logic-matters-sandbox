@@ -1,0 +1,12 @@
+<div id="site-nav">
+<p><a href="/blog/index.html">BLOG</a>&nbsp;·&nbsp;<a href="/ifl/index.html">IFL</a>&nbsp;·&nbsp;<a href="/igt/index.html">GÖDEL</a>&nbsp;·&nbsp;<a href="/categories/index.html">CATEGORIES</a>&nbsp;·&nbsp;<a href="/archive/index.html">ARCHIVE</a>&nbsp;·&nbsp;<a href="/latex-for-logicians/index.html">LATEX</a></p>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var nav = document.getElementById('site-nav');
+  var content = document.getElementById('quarto-content');
+  if (nav && content) {
+    content.parentNode.insertBefore(nav, content);
+  }
+});
+</script>

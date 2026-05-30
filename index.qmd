@@ -1,7 +1,10 @@
 ---
-title: "Logic Matters"
+pagetitle: "Logic Matters"
 page-layout: article
-title-block-banner: true
+format:
+  html:
+    include-before-body: _site-nav.html
+    include-after-body: _site-footer.html
 ---
 
 

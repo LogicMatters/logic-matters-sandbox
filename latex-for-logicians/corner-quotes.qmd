@@ -1,6 +1,9 @@
 ---
 title: "Corner quotes for Gödel numbers"
 page-layout: article
+format:
+  html:
+    include-before-body: _lfl-nav.html
 ---
 
 **1. The problem**

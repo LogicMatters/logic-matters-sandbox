@@ -37,4 +37,3 @@ categories: ["Gödel's theorems", "This and that"]
 
 
 <p>But though the exhibition finishes, San Marco of course remains, and we must return one day.  And as Anna McGee writes, “The convent and its art encourage a sort of contemplation different from that of a museum. Henry James, who visited in 1873, put it well: ‘You may be as little of a formal Christian as Fra Angelico was much of one, you yet feel admonished by spiritual decency to let so yearning a view of the Christian story work its utmost will on you.’”</p>
-

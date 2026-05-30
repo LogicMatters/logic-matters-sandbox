@@ -7,8 +7,9 @@ about:
     - icon: bluesky
       text: Bluesky
       href: https://bsky.app/
-    
-
+format:
+  html:
+    include-after-body: _site-footer.html
 ---
 
 About this blog

@@ -1,6 +1,9 @@
 ---
 title: "Tree proofs"
 page-layout: article
+format:
+  html:
+    include-before-body: _lfl-nav.html
 ---
 
 *A non-closing tree*

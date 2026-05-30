@@ -1,6 +1,9 @@
 ---
 title: "Fonts, etc."
 page-layout: article
+format:
+  html:
+    include-before-body: _lfl-nav.html
 ---
 
 You can fritter away an inordinate amount of time deciding what combinations of fonts and what page layouts to use for longer documents. So read this at your peril ...!

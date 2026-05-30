@@ -1,6 +1,9 @@
 ---
 title: "General LaTeX information"
 page-layout: article
+format:
+  html:
+    include-before-body: _lfl-nav.html
 ---
 
 **For the curious** These pages are really intended for those who already have some familiarity with LaTeX. But if you have reached this page and are curious, then read this classic LaTeX advocacy (and for more advocacy about the beauty of the output see here). My quite short [introductory guide to the 'LaTeX Philosophy'](pdfs/LaTeXphilosophy.pdf) will help give you a clearer sense of what it is all about.

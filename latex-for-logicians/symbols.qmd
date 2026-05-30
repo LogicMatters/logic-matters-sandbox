@@ -1,6 +1,9 @@
 ---
 title: "Logic Symbols"
 page-layout: article
+format:
+  html:
+    include-before-body: _lfl-nav.html
 ---
 
 [latexpage]**Basics on symbols**

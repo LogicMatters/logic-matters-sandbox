@@ -1,6 +1,9 @@
 ---
 title: "At the conference, in the classroom"
 page-layout: article
+format:
+  html:
+    include-before-body: _lfl-nav.html
 ---
 
 **Presentations with Beamer**
