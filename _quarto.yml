@@ -14,7 +14,7 @@ website:
       - icon: github
         href: https://github.com/
       - icon: bluesky
-        href: https://bsky.app/
+        href: https://bsky.app/profile/logicmatters.bsky.socialquarto
 format:
   html:
     theme: cosmo
