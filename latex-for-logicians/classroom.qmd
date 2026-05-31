@@ -6,6 +6,8 @@ format:
     include-before-body: _lfl-nav.html
 ---
 
+This is a legacy page
+
 **Presentations with Beamer**
 
 - It isn’t the only such package, but by far the most widely used/widely recommended LaTeX presentation package is [beamer.cls](http://www.ctan.org/pkg/beamer) (originally Till Tantau, 2003: maintained by Vedran Miletić and Joseph Wright 2024).

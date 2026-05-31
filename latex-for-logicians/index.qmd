@@ -6,7 +6,7 @@ format:
     include-before-body: _lfl-nav.html
 ---
 
-There is a wealth of general material available online about LaTeX (you can easily find general beginners’ guides suitable for your circumstances). These pages assemble links to more specific resources of particular interest to logicians, philosophers and others using LaTeX to produce papers or presentations, teaching materials, theses or books, and perhaps wanting to include logical matter such as natural deduction proofs.
+There is a wealth of general material available online about LaTeX (and AI assistants can offer invaluable help too). So these pages assemble links to more specific resources of particular interest to logicians, philosophers and others using LaTeX to produce papers, teaching materials, theses or books, and perhaps wanting to include logical matter such as natural deduction proofs.
 
 - *[Logic symbols](symbols.qmd)*. For lists of available logic and other symbols.
 
@@ -22,4 +22,4 @@ There is a wealth of general material available online about LaTeX (you can easi
 
 - *[Fonts, etc.](fonts.qmd)* Links to additional information about fonts suitable for texts with a substantial amount of maths/symbols. Also a note on resources for long documents.
 
-Thanks to all past contributors! Suggestions for relevant additions always most welcome: [email to Logic Matters](mailto:peter_smith@logicmatters.net)
+Thanks to all past contributors! Suggestions for relevant additions always most welcome.
