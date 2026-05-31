@@ -8,7 +8,9 @@ website:
   title: "Logic Matters"
   navbar:
     right:
-      - about.qmd
+      - text: "About"
+        href: about.qmd
+      - site-news.qmd
       - icon: github
         href: https://github.com/
       - icon: bluesky

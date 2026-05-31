@@ -1,6 +1,9 @@
 ---
 title: "Gödel’s Theorems"
 page-layout: article
+format:
+  html:
+    include-before-body: _site-nav.html
 ---
 
 ### Quick links

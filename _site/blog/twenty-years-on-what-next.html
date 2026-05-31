@@ -97,6 +97,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../site-news.html"> 
+<span class="menu-text">Site news</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
 </i> 
@@ -125,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="../blog/index.html">BLOG</a>&nbsp;·&nbsp;<a href="../ifl/index.html">IFL</a>&nbsp;·&nbsp;<a href="../igt/index.html">GÖDEL</a>&nbsp;·&nbsp;<a href="../categories/index.html">CATEGORIES</a>&nbsp;·&nbsp;<a href="../archive/index.html">ARCHIVE</a>&nbsp;·&nbsp;<a href="../latex-for-logicians/index.html">LATEX</a></p>
 </div>
 <script>
-document.addEventListener('DOMContentLoaded', function () {
+window.addEventListener('load', function () {
   var nav = document.getElementById('site-nav');
   var content = document.getElementById('quarto-content');
   if (nav && content) {
@@ -192,9 +196,9 @@ Predictably, after twenty years, there is a real mess behind the scenes here, an
 <div class="hanging">
 <p><em>PS replies:</em> Thanks, Aron. Glad you find the site useful!</p>
 <p>I’m using Gemini for general guidance and hand-holding for the site rebuild, and heavily using Claude Code for the actual coding in VS Code – which is frankly pretty amazing to a newbie. (I can say, roughly, duplicate such-and-such chunk of the existing site, making new pages, preserving links, tidying away all the Wordpress cruft, and lo and behold, off it goes and does the job, with only a few minor tweaks needed to get it right. I just can’t imagine doing this without an LLM assistant.)</p>
-
-
 </div>
+
+
 
 </main> <!-- /main -->
 <div id="site-footer">

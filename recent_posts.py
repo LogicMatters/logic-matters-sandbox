@@ -46,5 +46,13 @@ for post in posts[:3]:
     date_fmt = dt.strftime("%-d %B %Y")
     parts.append(f"[{post['title']}](blog/{post['slug']}.qmd) ({date_fmt})")
 
-with open("_recent_posts.md", "w", encoding="utf-8") as f:
-    f.write("Recent posts: " + ", ".join(parts) + "\n")
+new_content = "Recent posts: " + ", ".join(parts) + "\n"
+try:
+    with open("_recent_posts.md", "r", encoding="utf-8") as f:
+        old_content = f.read()
+except FileNotFoundError:
+    old_content = ""
+
+if new_content != old_content:
+    with open("_recent_posts.md", "w", encoding="utf-8") as f:
+        f.write(new_content)

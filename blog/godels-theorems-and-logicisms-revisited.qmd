@@ -77,7 +77,6 @@ If that topic does make it onto your list of priorities, you might find the pape
 https://www.scielo.br/j/man/a/jcN8DxrL97NpYHYTTxBY7sJ/?lang=en
 
 In any case, the idea of a follow-up volume with focused essays ranging from technical proofs to broader philosophical reactions sounds extremely attractive. I very much look forward to seeing where this tinkering leads.
-
 :::
 <p></p>
 
@@ -89,3 +88,4 @@ I’m not completely sure what the change is thought to be. My best guess is tha
 If so, then it looks like another part of p 17 shows Godel did not get that idea from von Neumann at the Königsberg conference:
 
 “The cancelled page 329L, written well before the Königsberg meeting, develops the idea of Gödel numbering, with the comment that by the mapping of series of numbers to numbers through a product of powers of primes, “metamathematical concepts earlier defined that concern the system S, go over into properties and relations between natural numbers.” This mapping is put aside, however, and series of numbers continue to represent formulas and proofs until the final shorthand version that was written after the Königsberg meeting. There, on pages 254L-R, Gödel writes that by taking products of powers of primes, “a natural number is associated in a one-to-one way, not just to each basic sign but also to each finite series of basic signs” – an idea described as “trivial” in Gödel’s recollections about his meeting with von Neumann.”
+:::

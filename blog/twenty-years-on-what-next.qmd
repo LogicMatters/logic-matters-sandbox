@@ -30,4 +30,5 @@ I would highly encourage you to work with an LLM in setting up a GitHub site. I 
 ::: {.hanging}
 *PS replies:* Thanks, Aron. Glad you find the site useful! 
 
-I'm using Gemini for general guidance and hand-holding for the site rebuild, and heavily using Claude Code for the actual coding in VS Code -- which is frankly pretty amazing to a newbie. (I can say, roughly, duplicate such-and-such chunk of the existing site, making new pages, preserving links, tidying away all the Wordpress cruft, and lo and behold, off it goes and does the job, with only a few minor tweaks needed to get it right. I just can’t imagine doing this without an LLM assistant.)
+I’m using Gemini for general guidance and hand-holding for the site rebuild, and heavily using Claude Code for the actual coding in VS Code -- which is frankly pretty amazing to a newbie. (I can say, roughly, duplicate such-and-such chunk of the existing site, making new pages, preserving links, tidying away all the Wordpress cruft, and lo and behold, off it goes and does the job, with only a few minor tweaks needed to get it right. I just can’t imagine doing this without an LLM assistant.)
+:::

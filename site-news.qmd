@@ -1,0 +1,10 @@
+---
+title: "Site news"
+page-layout: article
+format:
+  html:
+    include-before-body: _site-nav.html
+    include-after-body: _site-footer.html
+---
+
+News updates about the site will be posted here. 
