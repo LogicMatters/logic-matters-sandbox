@@ -6,7 +6,7 @@ format:
     include-before-body: _lfl-nav.html
 ---
 
-There is a wealth of general material available online about LaTeX (and AI assistants can offer invaluable help too). So these pages assemble links to more specific resources of particular interest to logicians, philosophers and others using LaTeX to produce papers, teaching materials, theses or books, and perhaps wanting to include logical matter such as natural deduction proofs.
+There is a wealth of general material available online about LaTeX (and AI assistants can now offer invaluable help too). So these pages focus on assembling links to specific resources of particular interest to logicians, philosophers and others using LaTeX to produce papers, teaching materials, theses or books, and perhaps needing to include logical matter such as natural deduction proofs.
 
 - *[Logic symbols](symbols.qmd)*. For lists of available logic and other symbols.
 
@@ -16,10 +16,10 @@ There is a wealth of general material available online about LaTeX (and AI assis
 
 - *[Diagrams](diagrams.qmd)*. General programs for diagram construction. How to produce commutative diagrams for category theory in particular.
 
-- *[At the conference, in the classroom](classroom.qmd)*. This page gives links to resources which are especially useful for lectureroom and classroom use (e.g., packages for producing slides for data projectors, for constructing problem sheets, etc.).
+- *[In the classroom](classroom.qmd)*. This page gives links to resources which are especially useful for lectureroom and classroom use (e.g., packages for producing slides for data projectors, for constructing problem sheets, etc.).
 
 - *[Logicians' miscellany](miscellany.qmd)*. Links to a variety of other resources which could be particularly useful for logicians.
 
 - *[Fonts, etc.](fonts.qmd)* Links to additional information about fonts suitable for texts with a substantial amount of maths/symbols. Also a note on resources for long documents.
 
-Thanks to all past contributors! Suggestions for relevant additions always most welcome.
+LaTeX for Logicians started mid 2004: thanks to all the contributors over the years! Suggestions for relevant additions always most welcome.
