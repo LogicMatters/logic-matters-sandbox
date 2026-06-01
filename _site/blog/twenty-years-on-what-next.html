@@ -125,18 +125,6 @@ ul.task-list li input[type="checkbox"] {
     
 <!-- main -->
 <main class="content" id="quarto-document-content">
-<div id="site-nav">
-<p><a href="../blog/index.html">BLOG</a>&nbsp;·&nbsp;<a href="../ifl/index.html">IFL</a>&nbsp;·&nbsp;<a href="../igt/index.html">GÖDEL</a>&nbsp;·&nbsp;<a href="../categories/index.html">CATEGORIES</a>&nbsp;·&nbsp;<a href="../archive/index.html">ARCHIVE</a>&nbsp;·&nbsp;<a href="../latex-for-logicians/index.html">LATEX</a></p>
-</div>
-<script>
-window.addEventListener('load', function () {
-  var nav = document.getElementById('site-nav');
-  var content = document.getElementById('quarto-content');
-  if (nav && content) {
-    content.parentNode.insertBefore(nav, content);
-  }
-});
-</script>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -197,10 +185,39 @@ Predictably, after twenty years, there is a real mess behind the scenes here, an
 <p><em>PS replies:</em> Thanks, Aron. Glad you find the site useful!</p>
 <p>I’m using Gemini for general guidance and hand-holding for the site rebuild, and heavily using Claude Code for the actual coding in VS Code – which is frankly pretty amazing to a newbie. (I can say, roughly, duplicate such-and-such chunk of the existing site, making new pages, preserving links, tidying away all the Wordpress cruft, and lo and behold, off it goes and does the job, with only a few minor tweaks needed to get it right. I just can’t imagine doing this without an LLM assistant.)</p>
 </div>
+<p>
+</p>
+<div class="hanging">
+<p><em>Rowsety Moid comments</em> I’m curious about what coding Claude did and what language(s) it used.</p>
+<p>Also, how understandable is the code.</p>
+<p>(I’m not a fan of “coding” as a term, btw. It’s largely replaced “programming” but makes the whole thing sound like low-level clerical work.)</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>PS replies</em> Claude’s coding tasks were mainly (I think) writing Python scripts to bulk process old WordPress posts, using the data to build new nice Markdown files, and otherwise to wrangle with CSS. Low level tasks no doubt, but beyond my pay grade!</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>Aron T comments</em> As someone who has worked in the software technology field for over fifty years, the “coding” vs “programming” distinction you make is actually an excellent way to describe the difference between LLMs and humans. LLMs are extremely useful at taking over low-level clerical tasks from programmers. Human programmers are the thinkers, architects and designers. The increase in productivity LLMs bring is equivalent to the large increase in productivity I felt in college when I moved from punched cards to green screen terminals. The hype that LLMs will replace human programmers is just that-hype.</p>
+</div>
 
 
 
 </main> <!-- /main -->
+<div id="site-nav">
+<p><a href="../blog/index.html">BLOG</a>&nbsp;·&nbsp;<a href="../ifl/index.html">IFL</a>&nbsp;·&nbsp;<a href="../igt/index.html">GÖDEL</a>&nbsp;·&nbsp;<a href="../categories/index.html">CATEGORIES</a>&nbsp;·&nbsp;<a href="../tyl/index.html">STUDY GUIDE</a>&nbsp;·&nbsp;<a href="../archive/index.html">ARCHIVE</a>&nbsp;·&nbsp;<a href="../latex-for-logicians/index.html">LATEX</a></p>
+</div>
+<script>
+window.addEventListener('load', function () {
+  var nav = document.getElementById('site-nav');
+  var content = document.getElementById('quarto-content');
+  if (nav && content) {
+    content.parentNode.insertBefore(nav, content);
+  }
+});
+</script>
 <div id="site-footer">
 <p>Send comments via Bluesky or email ps [at] logicmatters [dot] net</p>
 </div>

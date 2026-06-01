@@ -29,3 +29,18 @@ categories: ["This and that"]
 
 <p>Nice to hear, of course! But <em>how</em> does Claude reach this sort of judgement? It isn’t universal praise-giving (on the contrary, assessments chapter by chapter are pretty judicious). It isn’t pattern-matching on some local chunks of text (as when “following” a standard proof in elementary category theory that can found in a dozen textbooks). The first sentence might be near routine boiler-plate stuff. But the second is picking up on a thought that Claude won’t have encountered elsewhere, and relates the thought to other distant episodes in the book where I offer similarly deflationary appraisals of some categorial claims. This is not mere stochastic parroting! But nor does it seem to be the kind of thing that is going to be the direct result of focused training to make Claude (say) good at coding or other constrained tasks. I’d like to understand more about what’s going on!</p>
 
+<hr>
+
+::: {.hanging}
+
+*Aron T comments* It’s not reaching a judgement. Don’t get too excited! I have the similar experiences but it’s just a variant of its pattern matching capabilities and intrinsic need to please. Here is the pattern: I ask Claude to research a particular topic. I push back on its initial mainstream take. It even explains (when pushed) why it gives that take (a majority of its sources obviously follow the “mainstream’.). I ask it to find more sources and evidence and slowly it emerges there is evidence to support my view, and there are, indeed, other scholars who take a similar view. Then, when we move onto another related topic and it sees the pattern of how the evidence there can also match my hypothesis, it pats me on the back with a comment praising my brilliant insight, looping back to my original hypothesis, along with using domain terminology to make the praise seem “real”. It’s still a sycophantic pattern matching parrot, just a bit more sophisticated going about it.
+
+:::
+
+<p></p>
+
+::: {.hanging}
+
+*PS replies* Oh I’m not too excited! “Nice to hear, of course” was tongue in cheek, of course. Sycophantic pattern matching parrot, maybe — but then the question arises: how far are we too (usually keen to please) pattern matching parrots?
+
+:::

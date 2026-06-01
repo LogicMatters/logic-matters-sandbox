@@ -5,8 +5,8 @@ categories: ["This and that"]
 ---
 
 
-<figure class="wp-block-image alignleft size-large is-resized"><a href="https://www.logicmatters.net/wp-content/uploads/2026/04/61XlrwunvYL._SL1500_-scaled.jpg"><img src="../images/2026/61xlrwunvyl-_sl1500_-681x1024-jpg.jpg" alt="" class="wp-image-19181" style="width:auto;height:350px"/></a></figure>
 
+<img src="../images/Andre.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 
 <p>With my mind partly on revising the Study Guide, I have been browsing through three relatively recently published logic books. None of them impress as candidates for self-study. I will be brief (unfairly? life is short ...).</p>
@@ -16,8 +16,7 @@ categories: ["This and that"]
 <p>Robert André's <em>Set Theory: An Introduction to Axiomatic Reasoning</em> was published at an outrageous price by CRC Press in 2025. The world is not short of attractively written, reader-friendly, introductions to set theory. But this effort seems clumsily written, and decidedly tedious. A pointless addition that we can ignore.</p>
 
 
-
-<figure class="wp-block-image alignright size-large is-resized"><a href="https://www.logicmatters.net/wp-content/uploads/2026/04/617kOnEpszL._SL1360_-scaled.jpg"><img src="../images/2026/617konepszl-_sl1360_-644x1024-jpg.jpg" alt="" class="wp-image-19182" style="width:auto;height:350px"/></a></figure>
+<img src="../images/Cenzer.jpg" style="float: right; width: 200px; margin-left: 20px; margin-bottom: 10px;">
 
 
 
@@ -25,7 +24,7 @@ categories: ["This and that"]
 
 
 
-<figure class="wp-block-image alignleft size-large is-resized"><a href="https://www.logicmatters.net/wp-content/uploads/2026/04/61NAa4jh0eL._SL1246_-1-scaled.jpg"><img src="../images/2026/61naa4jh0el-_sl1246_-1-680x1024-jpg.jpg" alt="" class="wp-image-19200" style="width:auto;height:350px"/></a></figure>
+<img src="../images/Rizza.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 
 

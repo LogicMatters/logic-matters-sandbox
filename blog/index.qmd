@@ -1,5 +1,3 @@
-Welcome to the new-style blog. Click on a title to see the post.
-
 ---
 title: "Blog"
 css: styles.css
@@ -14,3 +12,7 @@ listing:
   sort-ui: false     # Hides the sort dropdown menu
   filter-ui: false   # Hides the search bar
 ---
+
+Welcome to the new-style blog. Click on a title to see the full post.
+
+<hr>

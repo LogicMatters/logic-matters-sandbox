@@ -19,7 +19,7 @@ categories: ["Gödel's theorems", "This and that"]
 
 <hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
 
-
+<img src="../images/MathProvedCon.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 <p>I’m much enjoying getting back into thinking a little about Gödelian matters. And as I get to the point of revising the main chapters on the arguments for the first incompleteness theorem, one task for me will be actually to read Gödel 1931 again to see if I want to add more references to the paper. I must also take another look at the volume Jan von Plato published in 2020, as the result of his detective work grappling with Gödel’s shorthand notes written in the months leading up to his publishing the epoch-making paper. (Apart from a review by John Dawson in <em>Philosophia Mathematica</em>, that volume seems to have received surprisingly little attention. Perhaps because it does seem to take some effort to dig out the more interesting material -- I’ll perhaps write something brief about that here.)</p>
 
 

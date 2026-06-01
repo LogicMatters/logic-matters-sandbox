@@ -5,7 +5,7 @@ categories: ["This and that"]
 ---
 
 
-<figure class="wp-block-image alignright size-large is-resized"><img src="../images/2026/cover_issue_155_en_us-jpg.jpg" alt="" style="width:auto;height:360px"/></figure>
+<img src="../images/JPhilMath.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
 
 

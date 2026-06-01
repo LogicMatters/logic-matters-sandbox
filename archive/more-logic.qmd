@@ -15,6 +15,7 @@ page-layout: article
 1. [Tarski on truth — a thumbnail sketch](pages/tarski-truth.qmd)
 1. [Partial functions and free logic](pages/partial-functions-and-free-logic.qmd)
 1. [Revisiting an old result of Hintikka's](pages/hintikka.qmd)
+1. [Logicisms and Godel's Theorems](pages/logicism-godel.qmd)
 1. [A query about countability](pages/countability.qmd)
 1. [Negative type theory](pages/negative-type-theory.qmd)
 

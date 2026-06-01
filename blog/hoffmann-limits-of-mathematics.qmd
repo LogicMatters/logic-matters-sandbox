@@ -5,11 +5,11 @@ categories: ["Books", "Logic"]
 ---
 
 
-<figure class="wp-block-image alignleft size-large is-resized"><a href="https://www.logicmatters.net/wp-content/uploads/2026/03/71NMpc6rZCL._SL1500_-scaled.jpg"><img src="../images/2026/71nmpc6rzcl-_sl1500_-856x1024-jpg.jpg" alt="" class="wp-image-19108" style="width:auto;height:300px"/></a></figure>
+<img src="../images/Hoffman.jpg" style="float: left; width: 240px; margin-right: 20px; margin-bottom: 10px;">
 
 
 
-<p>[latexpage] In the last couple of years, Dirk Hoffmann has published English translations of two of his books which originally appeared in German. In 2024, he gave us <em>Gödel’s Incompleteness Theorems</em> (Springer), which I will discuss in a future post. And then last year he published <em>Limits of Mathematics: A Journey Through the Key Areas of Mathematical Logic </em>(Springer), translating the third edition of his <em>Grenzen der Mathematik</em>. </p>
+<p>In the last couple of years, Dirk Hoffmann has published English translations of two of his books which originally appeared in German. In 2024, he gave us <em>Gödel’s Incompleteness Theorems</em> (Springer), which I will discuss in a future post. And then last year he published <em>Limits of Mathematics: A Journey Through the Key Areas of Mathematical Logic </em>(Springer), translating the third edition of his <em>Grenzen der Mathematik</em>. </p>
 
 
 
@@ -121,3 +121,11 @@ categories: ["Books", "Logic"]
 
 <p>My impression of some of the later chapters is much the same. They are quite good in parts (perhaps particularly the computability chapter) but better options are available -- though the distinctive chapter on algorithmic information theory has few competitors (and I’ll want to revisit that for the next version of the <em>Study Guide</em>). I can imagine some weaker students finding the book helpful preliminary reading, but overall I can’t be rushing to recommend it.</p>
 
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+
+::: {.hanging}
+
+*Tankut Beygu comments:* 
+Overall, Hoffmann’s textbooks are quite good at accessibility: they are markedly clear in design, example-rich, and engaging to read. These qualities make them particularly valuable for self-study and for readers seeking an intuitive entry into complex subjects. His strong emphasis on diagrams and visual learning—methods more commonly associated with earlier stages of education—can feel out of place in expositions of relatively advanced subjects. Nonetheless, diagrammatic expositions have pedagogic merit on their own and also make the books reader-friendly. While his effort to include historical pointers is commendable and often helpful for orientation, his judgements on historical matters are unnecessary and Hoffmann could do just as well without them. So, Hoffmann’s books are perhaps best used in tandem with more rigorous and scholarly texts.
+
+:::

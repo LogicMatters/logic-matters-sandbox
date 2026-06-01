@@ -5,7 +5,8 @@ categories: ["This and that"]
 ---
 
 
-<figure class="wp-block-image size-full"><a href="https://www.logicmatters.net/wp-content/uploads/2026/03/574FC2C3-BCF0-4E48-BF65-A7A34FA32A74_1_105_c.jpeg"><img src="../images/2026/574fc2c3-bcf0-4e48-bf65-a7a34fa32a74_1_105_c-jpeg.jpg" alt="" class="wp-image-19130"/></a></figure>
+![](../images/room-decor.jpg)
+
 
 
 
@@ -63,3 +64,54 @@ categories: ["This and that"]
 
 <p>But the stand-out book for me in the last months of winter was this year’s Dickens, <em>Great Expectations</em>. There just are so many wonderful set pieces, episodes that really demand to be declaimed and read out loud round a fire ... I resisted, while hugely admiring. The very ending, however? Dickens’ first thoughts were surely the truer.</p>
 
+<hr>
+
+::: {.hanging} 
+
+*Andrei comments* There is also Ada Palmer’s more scholarly treatment of the Lucretius story in
+
+https://www.adapalmer.com/publication/reading-lucretius-renaissance/
+
+:::
+
+<p></p>
+
+::: {.hanging} 
+
+*Rowsety Moid comments* One concern I’d have about using an LLM as a writing assistant is that you’d be subtly led towards blandness, and towards losing any distinctive style.
+
+However, it hadn’t occurred to me that LLMs might “insert themselves into the narrative unsolicited”, as Klowden and Tao say happened to them while using “three different digital agents” and “standard tools”. (They don’t say which tools or how or why those agents were allowed to modify their text.)
+
+In any case, I find it hard to see how anyone who cared about mathematics could propose using it as a “sandbox” for AI use. Proposing it suggests they either don’t care what damage might be done to mathematics or don’t understand what a “sandbox” is supposed to be. (The idea is that things can go wrong in the sandbox without causing wider or real-world damage; things inside the sandbox can still be damaged or destroyed.)
+
+That paper’s discussion of “Modern AI” (pp 4-5) is also questionable. They start by saying that the ability of modern AI to “automate large portions of the creative process … has created an unprecedented decoupling between the outward form of such products, and the values and thought processes used to create these products.” Perhaps that’s so (though I’d question whether AI has automated any part of the creative process rather than using a different process).
+
+However, their example is that “A diffusion model may now create an aesthetically pleasing landscape … which was not directly inspired by any particular location in the physical world”. Wait a minute! That’s not unprecedented. Human artists can do that too, and have done so. So why is that the example?
+
+The important difference about diffusion models isn’t that they create pictures “not directly inspired by any particular location”: it’s that when they create pictures no values or thought processes are involved at all. It’s strange that they come so close to saying that but still, somehow, don’t.
+
+Or perhaps it’s not so strange, given what they say elsewhere. For they deploy rhetorical artillery against the idea that there’s a fundamental difference between the ways that humans and AIs accomplish what they do: “ineffable special status”, “No True Scotsman”, ” human-chauvinistic”, “God of the Gaps” (p 22), and “geocentric model” (p 24).
+
+Back in the section on “Modern AI”, they talk of “goalposts” being moved.
+
+Now let’s be clear: saying someone moved the goalposts is saying they cheated. It’s not how you describe something you regard as a legitimate move. What actually happened, though, with chess for example?
+
+There were people who thought that playing chess well required intelligence. There may even have been people who thought that, if computers could be made to play chess well, the same approach would work in other areas. No one thought that a program that could play chess well would be intelligent in any other way. So it was at most a test for intelligence of a very limited sort. (We can compare this to tests used with animals: running mazes, for example, or extracting food from a complicated box. There we do think the mouse or crow or whatever will show intelligence in other ways.)
+
+And part of thinking that playing chess well required intelligence was thinking it couldn’t be done through brute-force search. When it turned out that it could be done through brute-force search after all, that showed that chess didn’t actually require intelligence. Finding that a test didn’t actually test for what you thought it did is a perfectly legitimate move, not cheating.
+
+(It’s telling, imo, that the authors don’t give any reference for their claim that there was a “chess test” for intelligence or that we moved the goalposts “on what intelligence, understanding, and creativity actually are”. And one of their references for discussion of the Turning Test — the unpublished preprint by H. Chen et al — mistakenly claims the person in the Chinese Room just used “a look-up table to determine an appropriate written response in Chinese”. No, the person in the room follows instructions written in English that can be equivalent to whatever program you’d like.)
+
+The paper uses chess in another way as well: as a precedent for “emerging paradigms of cooperation and complementary coexistence between humans and AI agents.” (p 23). (Here again there is no reference for any of the claims.) It explains that, even though chess engines can defeat even the best human chess players, “chess remains a popular and thriving human activity”. It’s worth reflecting on why this is so and on what it suggests for mathematics.
+
+It suggests that people could continue to learn and play maths for fun or as intellectual exercise. There could still be competitions such as Olympiads. There could even be competitions and other activities (analogous to ‘advanced’ / ‘centaur’ chess) that allowed degrees of AI assistance. However, at the highest leves of human chess competition, AI is not allowed during matches. It can be used in training and to analyse games, but a player using it during a match would be cheating.
+
+How would that work in maths? Would mathematicians somehow be barred from using AI to prove significant new theorems, allowing it only for practice and to analyse proofs that have already been made? Would they be allowed to use AI for proving such theorems but then be barred from getting a Fields Medal or Abel Prize? Would there somehow be an AI-free where, if an AI had proved a theorem, human mathematicians would act as if it hadn’t been proved?
+
+Chess is not a good model for what might happen in mathematics, and I think that people who are sanguine about the effects of AI on mathematics either don’t care how little of the development of new mathematics continues to be done by human mathematicians or else are thinking AI won’t get much better.
+
+It’s still easy, for now, to think the interesting parts of developing new mathematics will continue to be done by humans. They’ll have the key insights and big ideas; they’ll make the bold conjectures and devise the main steps in important proofs. Sure, there might occasionally be a stubborn theorem that’s proved by an AI after human mathematicians failed; there might sometimes be a key idea in such a proof that mathematicians kick themselves for failing to notice. But that will be the exception. Human mathematicians won’t be reduced to trying to understand the mathematics being developed by machines.
+
+I hope that remains true. I’m not sure it will.
+
+:::

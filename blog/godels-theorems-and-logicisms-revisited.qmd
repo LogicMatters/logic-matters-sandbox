@@ -17,7 +17,7 @@ categories: ["This and that"]
 
 
 
-<p>By coincidence, Richard Kimberly Heck has just posted a comment today on an old blogpost on the last topic I just mentioned, about how someone who is still inclined to find truth in logicism should respond to the incompleteness theorems. <a href="https://www.logicmatters.net/2022/12/17/logicisms-and-godels-theorem/">I do find Heck’s line here congenial</a>.</p>
+<p>By coincidence, Richard Kimberly Heck has just posted a comment today on an old blogpost on the last topic I just mentioned, about how someone who is still inclined to find truth in logicism should respond to the incompleteness theorems. <a href="../archive/pages/logicism-godel.qmd">I do find Heck’s line here congenial</a>.</p>
 
 
 

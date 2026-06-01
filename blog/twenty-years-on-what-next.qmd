@@ -32,3 +32,19 @@ I would highly encourage you to work with an LLM in setting up a GitHub site. I 
 
 I’m using Gemini for general guidance and hand-holding for the site rebuild, and heavily using Claude Code for the actual coding in VS Code -- which is frankly pretty amazing to a newbie. (I can say, roughly, duplicate such-and-such chunk of the existing site, making new pages, preserving links, tidying away all the Wordpress cruft, and lo and behold, off it goes and does the job, with only a few minor tweaks needed to get it right. I just can’t imagine doing this without an LLM assistant.)
 :::
+<p></p> 
+::: {.hanging}
+*Rowsety Moid comments* I’m curious about what coding Claude did and what language(s) it used.
+
+Also, how understandable is the code.
+
+(I’m not a fan of “coding” as a term, btw. It’s largely replaced “programming” but makes the whole thing sound like low-level clerical work.)
+:::
+<p></p>
+::: {.hanging}
+*PS replies* Claude’s coding tasks were mainly (I think) writing Python scripts to bulk process old WordPress posts, using the data to build new nice Markdown files, and otherwise to wrangle with CSS. Low level tasks no doubt, but beyond my pay grade!
+:::
+<p></p>
+::: {.hanging}
+*Aron T comments* As someone who has worked in the software technology field for over fifty years, the “coding” vs “programming” distinction you make is actually an excellent way to describe the difference between LLMs and humans. LLMs are extremely useful at taking over low-level clerical tasks from programmers. Human programmers are the thinkers, architects and designers. The increase in productivity LLMs bring is equivalent to the large increase in productivity I felt in college when I moved from punched cards to green screen terminals. The hype that LLMs will replace human programmers is just that-hype.
+:::
