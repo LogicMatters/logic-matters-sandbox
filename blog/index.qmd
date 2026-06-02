@@ -9,7 +9,6 @@ listing:
   page-size: 8       # Creates pagination with 8 posts per page
   fields: [date, title, author, description]
   categories: true   # Optional: Adds a clickable category list on the side
-  category-title: "Blog Topics"  # Change the title
   sort-ui: false     # Hides the sort dropdown menu
   filter-ui: false   # Hides the search bar
 ---
