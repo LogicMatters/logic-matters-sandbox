@@ -91,6 +91,12 @@ main.content {
   align-self: start;
 }
 
+@media (max-width: 767px) {
+  main.content {
+    padding-top: 1.25rem !important;
+  }
+}
+
 main.content p:first-child {
   margin-top: 0;
 }
