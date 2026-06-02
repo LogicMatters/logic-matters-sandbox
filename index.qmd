@@ -18,7 +18,7 @@ format:
 
 [**INTRO TO FORMAL LOGIC**](ifl) A corrected version of the second edition of *An Introduction to Formal Logic* is freely available here. There are also links to answers to exercises and to various supplementary materials.
 
-[**GÖDEL’S THEOREMS**](igt).Two books are freely available here, *An Introduction to Gödel’s Theorems* and the much shorter *Gödel Without (Too Many) Tears*, along with related materials.
+[**GÖDEL’S THEOREMS**](igt) Two books are freely available here, *An Introduction to Gödel’s Theorems* and the much shorter *Gödel Without (Too Many) Tears*, along with related materials.
 
 [**CATEGORY THEORY**](categories) Links to resources at an introductory/intermediate level, such as lecture notes and freely available books, including my *Introducing Category Theory*.
 

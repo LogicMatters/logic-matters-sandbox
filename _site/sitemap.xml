@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://your-website-url.example.com/categories/index.html</loc>
-    <lastmod>2026-05-25T10:15:02.882Z</lastmod>
+    <lastmod>2026-06-02T07:09:11.911Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/categories/phil-cats.html</loc>
@@ -10,11 +10,11 @@
   </url>
   <url>
     <loc>https://your-website-url.example.com/ifl/exercises.html</loc>
-    <lastmod>2026-05-25T13:11:28.819Z</lastmod>
+    <lastmod>2026-05-28T16:20:21.756Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/ifl/logical-snippets.html</loc>
-    <lastmod>2026-06-01T19:42:31.822Z</lastmod>
+    <lastmod>2026-06-02T06:03:57.067Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/igt/exercises/index.html</loc>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://your-website-url.example.com/igt/index.html</loc>
-    <lastmod>2026-06-01T18:51:03.773Z</lastmod>
+    <lastmod>2026-06-01T14:23:30.344Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/blog/great-expectations.html</loc>
@@ -74,11 +74,11 @@
   </url>
   <url>
     <loc>https://your-website-url.example.com/index.html</loc>
-    <lastmod>2026-05-30T13:56:10.203Z</lastmod>
+    <lastmod>2026-06-02T07:01:26.076Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/tyl/index.html</loc>
-    <lastmod>2026-05-28T16:20:21.813Z</lastmod>
+    <lastmod>2026-06-02T07:13:31.533Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/tyl/booknotes/hilberts-foundationslogic-lectures.html</loc>
@@ -150,7 +150,7 @@
   </url>
   <url>
     <loc>https://your-website-url.example.com/tyl/booknotes/zach.html</loc>
-    <lastmod>2026-05-28T16:20:21.813Z</lastmod>
+    <lastmod>2026-06-02T07:18:37.545Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/tyl/booknotes/category-books-conceptions_of_set-search-order-asc.html</loc>
@@ -330,7 +330,7 @@
   </url>
   <url>
     <loc>https://your-website-url.example.com/archive/more-logic.html</loc>
-    <lastmod>2026-06-01T18:51:03.770Z</lastmod>
+    <lastmod>2026-06-01T15:22:29.803Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/latex-for-logicians/fonts.html</loc>
@@ -382,7 +382,7 @@
   </url>
   <url>
     <loc>https://your-website-url.example.com/archive/index.html</loc>
-    <lastmod>2026-05-28T16:20:21.737Z</lastmod>
+    <lastmod>2026-06-02T07:21:26.375Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/archive/pages/peter-cropper.html</loc>
@@ -634,7 +634,7 @@
   </url>
   <url>
     <loc>https://your-website-url.example.com/books/index.html</loc>
-    <lastmod>2026-05-24T16:47:40.188Z</lastmod>
+    <lastmod>2026-06-02T06:54:41.170Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/blog/another-categorical-update.html</loc>
@@ -682,7 +682,7 @@
   </url>
   <url>
     <loc>https://your-website-url.example.com/blog/godels-theorems-and-logicisms-revisited.html</loc>
-    <lastmod>2026-06-01T18:51:03.772Z</lastmod>
+    <lastmod>2026-06-01T15:29:13.410Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/about.html</loc>
@@ -698,7 +698,7 @@
   </url>
   <url>
     <loc>https://your-website-url.example.com/ifl/index.html</loc>
-    <lastmod>2026-06-01T19:16:59.172Z</lastmod>
+    <lastmod>2026-06-02T06:03:57.066Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/categories/comments.html</loc>
@@ -714,6 +714,6 @@
   </url>
   <url>
     <loc>https://your-website-url.example.com/ifl/logicbites.html</loc>
-    <lastmod>2026-06-01T19:14:58.939Z</lastmod>
+    <lastmod>2026-06-02T06:03:57.067Z</lastmod>
   </url>
 </urlset>

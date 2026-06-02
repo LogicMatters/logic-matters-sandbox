@@ -13,7 +13,7 @@ In just a little more detail:
 
 ### Book notes from the blog
 
-Over the years, I have written up over sixty short notes on a variety of books on logic broadly construed, either as posts on the blog or as entries to the Appendix to the Study Guide. [The book notes page has two lists.](/tyl/booknotes/) The first contains links to webpages on the books that appear in that Appendix, i.e. wider ranging texts on mathematical logic. The second list contains links mostly to webpages on a variety of other logic books or books on the philosophy of mathematics.
+Over the years, I have written up over seventy short notes on a variety of books on logic broadly construed, either as posts on the blog or as entries to the Appendix to the Study Guide. [The book notes page has two lists.](/tyl/booknotes/) The first contains links to webpages on the books that appear in that Appendix, i.e. wider ranging texts on mathematical logic. The second list contains links mostly to webpages on a variety of other logic books or books on the philosophy of mathematics.
 
 ### Other logical notes and papers
 

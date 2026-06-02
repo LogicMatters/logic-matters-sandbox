@@ -4,7 +4,7 @@ title: "The Study Guide and Book Notes"
 
 ### A Study Guide
 
-A re-titled, expanded version of the old *Teach Yourself Logic* study guide. This is a book length guide to the main topics and some suitable texts either for teaching yourself logic by individual self-study, or to supplement a university course. You only need to read just the first half-dozen pages to see if this is for you.
+A re-titled, expanded version of my old *Teach Yourself Logic* notes, this is a book length Study Guide to the main topics and some suitable texts either for teaching yourself logic by individual self-study, or to supplement a university course. You only need to read just the first half-dozen pages to see if this is for you.
 
 - [Beginning Mathematical Logic: A Study Guide](pdfs/LogicStudyGuide.pdf) _"Beginning Mathematical Logic: A Study Guide"_ [corrected reprint 5 Jan 2024]
 

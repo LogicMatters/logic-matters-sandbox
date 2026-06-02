@@ -44,7 +44,7 @@ For encouragement to dip into the PDF to see whether the book might work for you
 And for those like me who prefer to work from a printed text,
 
 - There is new paperback version, Amazon print-on-demand, ISBN 1068346728.
-- A hardback version for libraries will appear on or around 1 June. 
+- A hardback version for libraries is also available, ISBN 106834671X. 
 
 
 
@@ -89,8 +89,6 @@ In addition, then, to the books already mentioned at the top of this page by Gol
 Page of links to reprints, including some classic articles
 
 - [Reprints in Theory and Applications of Categories](http://www.tac.mta.ca/tac/reprints/)
-
-Wiki
 
 I can’t finish listing text resources without mentioning the massively useful wiki,
 

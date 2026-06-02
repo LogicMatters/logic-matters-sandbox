@@ -3,7 +3,7 @@ title: "Open Logic Text"
 ---
 
 
- Richard Zach et al.: Open Logic Text (2015)
+ Richard Zach et al.: Open Logic Text (2015) **NB then, these notes are about an old version of the text. I hope to return to look more closely at the current version.**
 
 This is a collaborative, open-source, enterprise, and very much work in progress. The book’s website originally described the project like this:** The Open Logic Text is an open-source, collaborative textbook of formal (meta)logic and formal methods, starting at an intermediate level (i.e., after an introductory formal logic course). It is aimed at a non-mathematical audience (in particular, students of philosophy and computer science), but is completely rigorous.
 
