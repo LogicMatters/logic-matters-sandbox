@@ -56,10 +56,12 @@
 
 /* Rename the sidebar categories heading from "Categories" to "Topics" */
 .quarto-listing-category-title {
-  font-size: 0;
+  visibility: hidden;
+  position: relative;
 }
 .quarto-listing-category-title::before {
   content: "Topics";
-  font-size: 1rem;
-  font-weight: 600;
+  visibility: visible;
+  position: absolute;
+  left: 0;
 }
