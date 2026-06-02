@@ -72,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -193,7 +222,7 @@ window.addEventListener('load', function () {
 <li><a href="http://math.stackexchange.com/questions/432482/best-method-to-determine-if-a-first-order-formula-is-logically-valid">What’s the best method to determine whether a first order formula is logically valid or not?</a></li>
 <li><a href="http://math.stackexchange.com/questions/873237/relations-and-functions-with-valence-0/873385#873385">What is a zero-place predicate? a 0-adic function, etc.?</a></li>
 <li><a href="http://math.stackexchange.com/questions/505239/do-semantic-tableaux-show-syntactic-or-semantic-entailment">Do tableaux proofs show syntactic or semantic entailment?</a></li>
-<li><a href="https://math.stackexchange.com/questions/2694701/is-there-a-purely-syntactic-proof-of-modus-ponens-with-tableau">How do we prove for a tableaux system that if (S X) and (S X Y) that (S Y)?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2694701/is-there-a-purely-syntactic-proof-of-modus-ponens-with-tableau">How do we prove for a tableaux system that if <span class="math inline">\(S \vdash X\)</span> and <span class="math inline">\(S \vdash X \to Y\)</span> that <span class="math inline">\(S \vdash Y\)</span>?</a></li>
 <li><a href="http://math.stackexchange.com/questions/577072/virtues-of-presentation-of-fo-logic-in-kleenes-mathematical-logic/577175#577175">How about marrying the axiomatic approach and natural deduction as Kleene does</a></li>
 <li><a href="http://math.stackexchange.com/questions/432522/object-language-and-meta-language">How does the meta-language relate to the object-language?</a></li>
 <li><a href="http://math.stackexchange.com/questions/311871/what-are-the-rules-for-the-use-of-dots-rather-than-parentheses-in-logical-formul">What are the rules for the use of dots rather than parentheses in logical formulae?</a></li>
@@ -206,13 +235,13 @@ window.addEventListener('load', function () {
 <li><a href="http://math.stackexchange.com/questions/232309/how-to-interpret-material-conditional-and-explain-it-to-freshmen/232490#232490">Why do we use the material conditional in logic?</a></li>
 <li><a href="https://math.stackexchange.com/questions/2611358/when-does-material-implication-supposedly-not-work">When does material implication supposedly not “work?”</a></li>
 <li><a href="http://math.stackexchange.com/questions/1243056/reconstructing-the-conditionals-truth-table-from-natural-deduction">Do the usual natural deduction rules for the conditional determine its truth-table?</a></li>
-<li><a href="https://math.stackexchange.com/questions/2596766/arguments-pro-material-implication/2596921#2596921">Why is <em>if P then Q</em> equivalent to (P Q)?</a></li>
-<li><a href="https://math.stackexchange.com/questions/2611358/when-does-material-implication-supposedly-not-work/2611456#2611456">Why is <em>if P then Q</em> not equivalent to (P Q)?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2596766/arguments-pro-material-implication/2596921#2596921">Why is <em>if P then Q</em> equivalent to <span class="math inline">\(\neg P \lor Q\)</span>?</a></li>
+<li><a href="https://math.stackexchange.com/questions/2611358/when-does-material-implication-supposedly-not-work/2611456#2611456">Why is <em>if P then Q</em> not equivalent to <span class="math inline">\(\neg P \lor Q\)</span>?</a></li>
 <li><a href="http://math.stackexchange.com/questions/287142/modus-ponens-implication-versus-entailment/287179#287179">Can we replace the modus ponens rule with a conditional proposition?</a></li>
 <li><a href="http://math.stackexchange.com/questions/244001/whats-the-sense-in-implies-logic/244027#244027">What’s the sense of ‘implies’ in logic?</a></li>
-<li><a href="http://math.stackexchange.com/questions/539096/difference-between-if-vdash-p-then-vdash-q-and-vdashp-rightarrow-q">What is the difference between “if (P), then (Q)” and “((P Q))”?</a></li>
-<li><a href="http://math.stackexchange.com/questions/238872/difference-between-implies-and-therefore/238952#238952">What is the difference between (,&nbsp;,&nbsp;) etc. (i)?</a></li>
-<li><a href="http://math.stackexchange.com/questions/286077/implies-vs-entails-vs-provable/286106#286106">What is the difference between (,&nbsp;,&nbsp;) etc. (ii)?</a></li>
+<li><a href="http://math.stackexchange.com/questions/539096/difference-between-if-vdash-p-then-vdash-q-and-vdashp-rightarrow-q">What is the difference between “if <span class="math inline">\(\vdash P\)</span>, then <span class="math inline">\(\vdash Q\)</span>” and “<span class="math inline">\(\vdash (P \Rightarrow Q)\)</span>”?</a></li>
+<li><a href="http://math.stackexchange.com/questions/238872/difference-between-implies-and-therefore/238952#238952">What is the difference between <span class="math inline">\(\to,\ \vdash,\ \vDash\)</span> etc. (i)?</a></li>
+<li><a href="http://math.stackexchange.com/questions/286077/implies-vs-entails-vs-provable/286106#286106">What is the difference between <span class="math inline">\(\to,\ \vdash,\ \vDash\)</span> etc. (ii)?</a></li>
 </ul>
 </section>
 <section id="help-for-beginners-with-translation-into-first-order-logic" class="level2">
@@ -222,33 +251,34 @@ window.addEventListener('load', function () {
 <li><a href="http://math.stackexchange.com/questions/243699/misinterpreting-logic-expression/243729#243729">Translate “Every person who dislikes all vegetarians is smart”</a></li>
 <li><a href="http://math.stackexchange.com/questions/499021/nested-quantifiers-in-english-translation/499097#499097">Translate “There is exactly one person whom everybody can fool”</a></li>
 <li><a href="http://math.stackexchange.com/questions/695742/some-ql-translations/695946#695946">Translate “Anyone who knows everyone Alma knows knows Alma”</a></li>
-<li><a href="http://math.stackexchange.com/questions/312238/trivial-question-about-nested-quantifiers/312727#312727">Can we translate ‘Everyone loves themself’ as (xy(x = y Lxy))?</a></li>
+<li><a href="http://math.stackexchange.com/questions/312238/trivial-question-about-nested-quantifiers/312727#312727">Can we translate ‘Everyone loves themself’ as <span class="math inline">\(\forall x\forall y(x = y \to Lxy)\)</span>?</a></li>
 <li><a href="http://math.stackexchange.com/questions/635299/formalising-definite-description-russell/635545#635545">When regimenting an argument with a definite description in first-order logic, when must we use Russell’s theory of descriptions?</a></li>
 </ul>
 </section>
 <section id="help-for-beginners-with-natural-deduction-proofs-etc.-how-to-think-strategically" class="level2">
 <h2 class="anchored" data-anchor-id="help-for-beginners-with-natural-deduction-proofs-etc.-how-to-think-strategically">Help for beginners with natural deduction proofs etc.: how to think strategically!</h2>
 <ul>
-<li><a href="http://math.stackexchange.com/questions/203995/proof-p-vdash-q-rightarrow-p/204010#204010">How to show (P Q P)</a></li>
-<li><a href="http://math.stackexchange.com/questions/82188/propositional-logic-proof-of-vdash-lnot-p-supset-q-supset-p-land-lnot/305560#305560">How to show ((P Q) (P Q))</a></li>
-<li><a href="http://math.stackexchange.com/questions/477313/natural-deduction-proof/477432#477432">How to show ((P Q) R) and (P (Q R)) are equivalent</a></li>
-<li><a href="http://math.stackexchange.com/questions/516291/prove-using-inference-rules/516329#516329">How to show ((P (Q R)) (Q (R P)))</a></li>
-<li><a href="http://math.stackexchange.com/questions/207185/tautology-proof-without-truth-table/207207#207207">How to show (((P Q) R) (R (P Q)))</a></li>
-<li><a href="http://math.stackexchange.com/questions/693711/a-couple-natural-deduction-proofs/693739#693739">How to show ((P P))</a></li>
-<li><a href="http://math.stackexchange.com/questions/1139873/⊢p-land-q-to-p-to-q-natural-deduction-proof-confusion">How to show ((P Q) (P Q))</a></li>
-<li><a href="http://math.stackexchange.com/questions/519711/natural-deduction-p-lor-q-to-r-vdash-p-to-r-and-p-to-neg-q-leftrightarro">How to show (P(Q(RS)),S(PQ)R)</a></li>
-<li><a href="http://math.stackexchange.com/questions/222160/how-to-prove-the-distributive-property-without-using-truth-tables/222186#222186">How to show ((P (Q R)) ((P Q) (P R)))</a></li>
-<li><a href="http://math.stackexchange.com/questions/670607/logic-formal-proofs/670731#670731">How to show ((A B) C, C (D A), B (A E) E F)</a></li>
-<li><a href="https://math.stackexchange.com/questions/2529653/using-natural-deduction-to-prove-p-rightarrow-q-wedge-r-vdash-q-rightarrow/2530062#2530062">How to show (p (q r) (q r) (p r))</a></li>
-<li><a href="http://math.stackexchange.com/questions/432388/t-f-vdash-ndfol-forall-xb-to-a-to-exists-x-b-to-a/432400#432400">How to show (x((x) P) (x(x) P))</a></li>
-<li><a href="https://math.stackexchange.com/a/3016485/35151">How to show (x((x) P))</a> entails ((x(x) P))</li>
-<li><a href="https://math.stackexchange.com/questions/3593034/prove-exists-x-exists-yay-to-ax-is-a-theorem/3593579#3593579">How to show (x (yA(y) A(x))) is a theorem.</a></li>
-<li><a href="http://math.stackexchange.com/questions/573458/proof-of-exists-x-exists-y-varphix-rightarrow-psiy-rightarrow-exist/573921#573921">How to show (x y ((x) (y)) x ((x) (x)))</a></li>
-<li><a href="http://math.stackexchange.com/questions/520775/natural-deduction-and-identity/521369#521369">How to show (x y,x = y x y,x = y)</a></li>
-<li><a href="http://math.stackexchange.com/questions/761818/how-to-prove-vdash-forall-v-1-exists-v-2-fv-1-v-2/761846#761846">How to prove (xy f(x) = y) in FOL</a></li>
-<li><a href="http://math.stackexchange.com/questions/767862/proofs-for-relational-predicate-logic-difficult-question/767970#767970">How to show (x(y Rxy yRyx), Rab xy Rxy)</a></li>
+<li><a href="http://math.stackexchange.com/questions/203995/proof-p-vdash-q-rightarrow-p/204010#204010">How to show <span class="math inline">\(P \vdash Q \to P\)</span></a></li>
+<li><a href="http://math.stackexchange.com/questions/82188/propositional-logic-proof-of-vdash-lnot-p-supset-q-supset-p-land-lnot/305560#305560">How to show <span class="math inline">\(\lnot (P \supset Q) \supset (P \land \lnot Q)\)</span></a></li>
+<li><a href="http://math.stackexchange.com/questions/477313/natural-deduction-proof/477432#477432">How to show <span class="math inline">\((P \land Q) \to R\)</span> and <span class="math inline">\(P \to (Q \to R)\)</span> are equivalent</a></li>
+<li><a href="http://math.stackexchange.com/questions/516291/prove-using-inference-rules/516329#516329">How to show <span class="math inline">\((P \to (Q \to R)) \to (Q \to (\lnot R \to \lnot P))\)</span></a></li>
+<li><a href="http://math.stackexchange.com/questions/207185/tautology-proof-without-truth-table/207207#207207">How to show <span class="math inline">\(((P \lor Q) \to R) \to (\lnot R \to (\lnot P \land \lnot Q))\)</span></a></li>
+<li><a href="http://math.stackexchange.com/questions/693711/a-couple-natural-deduction-proofs/693739#693739">How to show <span class="math inline">\(\vdash (P \lor \neg P)\)</span>, and another problem</a></li>
+<li><a href="https://math.stackexchange.com/questions/2588556/how-to-proof-¬p∨q-entails-p→q-by-natural-deduction/2588568#2588568">How to show <span class="math inline">\((\neg P \lor Q) \vdash (P \to Q)\)</span></a></li>
+<li><a href="http://math.stackexchange.com/questions/1139873/⊢p-land-q-to-p-to-q-natural-deduction-proof-confusion">How to show <span class="math inline">\(\vdash (P \land Q) \to (P \to Q)\)</span></a></li>
+<li><a href="http://math.stackexchange.com/questions/519711/natural-deduction-p-lor-q-to-r-vdash-p-to-r-and-p-to-neg-q-leftrightarro">How to show <span class="math inline">\(P\to (\neg Q\leftrightarrow(R\lor S)),\neg S\vdash (P\land \neg Q)\to R\)</span></a></li>
+<li><a href="http://math.stackexchange.com/questions/222160/how-to-prove-the-distributive-property-without-using-truth-tables/222186#222186">How to show <span class="math inline">\((P \land (Q \lor R)) \leftrightarrow ((P \land Q) \lor (P \land R))\)</span></a></li>
+<li><a href="http://math.stackexchange.com/questions/670607/logic-formal-proofs/670731#670731">How to show <span class="math inline">\((A \lor B) \land \neg C, \neg C \to (D \lor \neg A), B \to (A \lor E) \vdash E \lor F\)</span></a></li>
+<li><a href="https://math.stackexchange.com/questions/2529653/using-natural-deduction-to-prove-p-rightarrow-q-wedge-r-vdash-q-rightarrow/2530062#2530062">How to show <span class="math inline">\(p \to (q \land r) \vdash (q \to r) \lor \neg(p \lor r)\)</span></a></li>
+<li><a href="http://math.stackexchange.com/questions/432388/t-f-vdash-ndfol-forall-xb-to-a-to-exists-x-b-to-a/432400#432400">How to show <span class="math inline">\(\forall x(\varphi(x) \to P) \to (\exists x\varphi(x) \to P)\)</span></a></li>
+<li><a href="https://math.stackexchange.com/a/3016485/35151">How to show <span class="math inline">\(\exists x(\varphi(x) \to P)\)</span> entails <span class="math inline">\((\forall x\varphi(x) \to P)\)</span></a></li>
+<li><a href="https://math.stackexchange.com/questions/3593034/prove-exists-x-exists-yay-to-ax-is-a-theorem/3593579#3593579">How to show <span class="math inline">\(\exists x (\exists yA(y) \to A(x))\)</span> is a theorem.</a></li>
+<li><a href="http://math.stackexchange.com/questions/573458/proof-of-exists-x-exists-y-varphix-rightarrow-psiy-rightarrow-exist/573921#573921">How to show <span class="math inline">\(\exists x \exists y (\varphi(x) \to \psi(y)) \rightarrow \exists x (\varphi(x) \to \psi(x))\)</span></a></li>
+<li><a href="http://math.stackexchange.com/questions/520775/natural-deduction-and-identity/521369#521369">How to show <span class="math inline">\(\exists x \forall y\,x = y \to \forall x \forall y\,x = y\)</span></a></li>
+<li><a href="http://math.stackexchange.com/questions/761818/how-to-prove-vdash-forall-v-1-exists-v-2-fv-1-v-2/761846#761846">How to prove <span class="math inline">\(\forall x\exists y f(x) = y\)</span> in FOL</a></li>
+<li><a href="http://math.stackexchange.com/questions/767862/proofs-for-relational-predicate-logic-difficult-question/767970#767970">How to show <span class="math inline">\(\forall x(\exists y Rxy \to \forall yRyx), Rab \vdash \forall x\forall y Rxy\)</span></a></li>
 <li><a href="https://math.stackexchange.com/a/3032651/35151">Strategy for another tricky proof with multiple quantifiers!</a></li>
-<li><a href="http://math.stackexchange.com/questions/882850/deriving-a-rightarrow-b-rightarrow-c-rightarrow-a-rightarrow-b-r/883080#883080">How to derive (A (B C) ((A B) (A C))) in the sequent calculus</a></li>
+<li><a href="http://math.stackexchange.com/questions/882850/deriving-a-rightarrow-b-rightarrow-c-rightarrow-a-rightarrow-b-r/883080#883080">How to derive <span class="math inline">\(A \to (B \to C) \to ((A \to B) \to (A \to C))\)</span> in the sequent calculus</a></li>
 </ul>
 </section>
 <section id="paradoxes" class="level2">
@@ -275,7 +305,7 @@ window.addEventListener('load', function () {
 <h2 class="anchored" data-anchor-id="arithmetic-and-computability">Arithmetic and computability</h2>
 <ul>
 <li><a href="http://math.stackexchange.com/questions/1259198/what-are-numbers">Natural numbers, real numbers, complex numbers, p-adic numbers …. what makes them all numbers?</a></li>
-<li><a href="http://math.stackexchange.com/questions/259584/why-dont-we-define-imaginary-numbers-for-every-impossibility">We allow “imaginary” numbers such as (x^2 = -1); why not other imaginary numbers such that (x + 1 = 1)?</a></li>
+<li><a href="http://math.stackexchange.com/questions/259584/why-dont-we-define-imaginary-numbers-for-every-impossibility">We allow “imaginary” numbers such as <span class="math inline">\(x^2 = -1\)</span>; why not other imaginary numbers such that <span class="math inline">\(x + 1 = 1\)</span>?</a></li>
 <li><a href="http://math.stackexchange.com/questions/338370/is-there-an-numeric-arithmetic-with-a-single-operator">Can we define the usual arithmetic operations in terms of a single operator?</a></li>
 <li><a href="http://math.stackexchange.com/questions/195556/examples-of-partial-functions-outside-recursive-function-theory/195573#195573">Are partial functions interesting (outside recursion theory)?</a></li>
 <li><a href="http://math.stackexchange.com/questions/415725/how-is-the-standard-model-of-number-theory-specified-and-why-cant-we-use-that">How is the standard model of number theory specified and why can’t we use that?</a></li>
@@ -310,7 +340,10 @@ window.addEventListener('load', function () {
 <li><a href="http://math.stackexchange.com/questions/182961/is-the-negation-of-the-godel-sentence-always-unprovable-too">Is the negation of the Gödel sentence always unprovable too?</a></li>
 <li><a href="http://math.stackexchange.com/questions/448527/are-the-proofs-of-incompleteness-theorems-valid-for-both-classical-and-intuitionis">Are the proofs of incompleteness theorems valid for an intuitionist?</a></li>
 <li><a href="http://math.stackexchange.com/questions/203299/are-there-non-standard-models-of-arithmetic-in-second-order-arithmetic/203372#203372">Does Gödel’s Theorem also show that are non-standard models of second-order arithmetic?</a></li>
-<li><a href="http://math.stackexchange.com/questions/228806/does-godels-incompleteness-theorem-really-say-anything-about-the-limitations-of">What’s so great about Gödel’s Theorem, since incompleteness is pervasive?</a></li>
+<li><a href="http://math.stackexchange.com/questions/228806/does-godels-incompleteness-theorem-really-say-anything-about-the-limitations-of">Does Gödel’s Theorem say anything about the limitations of theoretical physics?</a></li>
+<li><a href="http://math.stackexchange.com/questions/756287/gödels-incompleteness-theorems-where-to-learn-is-there-a-straightforward-rela/756441#756441">What is the relation between the original proofs of Gödel’s two incompleteness theorems?</a></li>
+<li><a href="http://math.stackexchange.com/questions/1181151/is-there-a-relationship-between-turings-halting-theorem-and-gödel-incompletenes">What is the relation between Turing’s theorem about the halting problem and Gödelian incompleteness?</a></li>
+<li><a href="http://math.stackexchange.com/questions/191099/axiomatic-system-and-hilberts-2nd-problem/191122#191122">Are the axioms of arithmetic consistent?</a> [Gödel’s second theorem]</li>
 <li><a href="http://math.stackexchange.com/questions/372037/is-there-more-than-one-rosser-sentence">Is there more than one Rosser sentence?</a></li>
 </ul>
 </section>

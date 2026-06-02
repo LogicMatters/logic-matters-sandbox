@@ -17,15 +17,15 @@ description: "Links to the book and related resources."
 
 <img src="../books/book-covers/SmithIFL.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;"/>
 
-*An Introduction to Formal Logic* was originally published by Cambridge University Press (1st edition 2003; 2nd edition 2020). It began life as lecture notes for a course for first-year philosophers which I taught for many years. As a small contribution to students in the tough Covid era, a corrected version of the second edition is now available as [a freely downloadable PDF](pdfs/IFL2_LM.pdf).
+*An Introduction to Formal Logic* was originally published by Cambridge University Press (1st edition 2003; 2nd edition 2020). It began life as lecture notes for a course for first-year philosophers which I taught for many years. Initially as a small contribution to students in the tough Covid era, a corrected version of the second edition is now available as [a freely downloadable PDF](pdfs/IFL2_LM.pdf).
 
 Many people, however, prefer to work from a physical book. And you can get a print-on-demand copy of *IFL* as an inexpensive large-format paperback from Amazon: [UK link](https://www.amazon.co.uk/dp/B08GB4BDPG/) or [US link](https://www.amazon.com/dp/B08GB4BDPG/) or find on your local Amazon by using the ASIN identifier B08GB4BDPG in their search field.
 
 There is also a slightly nicer but still inexpensive hardback version intended for libraries, available from bookshops and library suppliers as well as from online sellers, with the ISBN 978-1916906327.
 
-<img src="CUPifl.jpg" style="float: right; width: 200px; margin-right: 20px; margin-bottom: 10px;"/>
+<img src="CUPifl.jpg" style="float: right; width: 200px; margin-left: 20px; margin-bottom: 10px;"/>
 
-This second edition has been very extensively revised and rewritten, and one particular difference from the first edition should be highlighted here. The book now focuses on a *natural deduction* proof system done Fitch-style, while the previous edition introduced so-called *truth trees* (tableaux). However, revised versions of the old chapters on truth trees for propositional and for predicate logic are still available, but now as freely available online supplements here; so those teaching a tree-based course based on the first edition aren’t being cut adrift.
+This second edition has been very extensively revised and rewritten, and one major difference from the first edition should be highlighted here. The book now focuses on a *natural deduction* proof system done Fitch-style, while the previous edition introduced so-called *truth trees* (tableaux). However, revised versions of the old chapters on truth trees for propositional and for predicate logic are still available, but now as freely available online supplements here; so those teaching a tree-based course based on the first edition aren’t being cut adrift.
 
 If you want to get an idea of the way the book proceeds without skimming the whole PDF, then the section-by-section table of contents should give you a good indication:
 
@@ -64,7 +64,7 @@ Ideally beginners should end up knowing about both ND and truth trees (tableaux)
 
 In lieu of podcasts introducing chapters or pairs of chapters (it’s too difficult to handle symbols in an audio format!), I wrote a series of bitesized informal written introductions giving some orientation in a reasonably relaxed way to early chapters:
 
-- [Logicbites](/ifl/logicbites/)
+- [Logicbites](logicbites.qmd) — a series of short introductions to early chapters, and some related topics.
 
 
 Over the years, I have answered a lot of logic-related questions on the exceedingly useful [math.stackexchange](https://math.stackexchange.com) site. Here are some of my efforts -- and many should be accessible to (near) beginners:

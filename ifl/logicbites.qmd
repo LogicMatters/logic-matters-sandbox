@@ -1,0 +1,30 @@
+---
+title: "Logicbites"
+description: "Bite-sized introductions to the topics of IFL2 chapters."
+---
+
+A series of short, relatively relaxed, bite-sized introductions to the topics of chapters (or small groups of chapters) from *IFL2*. Rather than summarize myself in my own words, I often quote (sometimes at length, sometimes critically) from other textbook authors making relevant points, so you get to hear more than one voice:
+
+0. [Introduction](pdfs/logicbite00.pdf)
+1. [What is logic?](pdfs/logicbite01.pdf) (Chapters 1, 2)
+2. [Forms of argument](pdfs/logicbite02.pdf) (Chapter 3)
+3. [Proofs](pdfs/logicbite03.pdf) (Chapter 4)
+4. [The counterexample method](pdfs/logicbite04.pdf) (Chapter 5)
+5. [Deductive validity, logical validity](pdfs/logicbite05.pdf) (Chapter 6)
+6. [Propositions](pdfs/logicbite06.pdf) (Chapter 7)
+7. [Before going formal](pdfs/logicbite07.pdf) (Interlude)
+8. ['And', 'Or', 'Not'](pdfs/logicbite08.pdf) (Chapter 8)
+9. [Introducing PL languages](pdfs/logicbite09.pdf) (Chapters 9 and 10)
+10. [PL languages: variations](pdfs/logicbite10.pdf)
+11. [Quotation](pdfs/logicbite11.pdf) (Chapter 11)
+12. [Truth functions](pdfs/logicbite12.pdf) (Chapter 12)
+13. ['All possible valuations'](pdfs/logicbite13.pdf)
+14. [Our first interesting 'metatheorem'](pdfs/logicbite14.pdf) (Chapter 13)
+15. [Tautologies](pdfs/logicbite15.pdf) (Chapter 14)
+16. [Tautological entailment](pdfs/logicbite16.pdf) (Chapters 15 and 16)
+17. [Contradiction!](pdfs/logicbite17.pdf) (Chapter 17)
+18. [Introducing the material conditional](pdfs/logicbite18.pdf) (Chapters 18 and 19)
+19. [More about conditionals](pdfs/logicbite19.pdf)
+20. [Truth trees: another way of testing for validity](pdfs/logicbite20.pdf) (see these [additional draft chapters](pdfs/TruthTreesPL1.pdf))
+
+[Back to the main IFL page](/ifl/)
