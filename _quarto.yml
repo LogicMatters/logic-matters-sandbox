@@ -20,6 +20,6 @@ format:
   html:
     theme: cosmo
     mainfont: "STIX Two Text, serif"
-    fontsize: 1.1em
+    fontsize: 1.2em
     css: styles.css
 
