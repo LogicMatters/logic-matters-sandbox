@@ -8,10 +8,24 @@ website:
   site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
   title: "Logic Matters"
   navbar:
+    left:
+      - text: "Blog"
+        href: blog/index.qmd
+      - text: "IFL"
+        href: ifl/index.qmd
+      - text: "Gödel"
+        href: igt/index.qmd
+      - text: "Categories"
+        href: categories/index.qmd
+      - text: "Guide"
+        href: tyl/index.qmd
+      - text: "Archive"
+        href: archive/index.qmd
+      - text: "LaTeX"
+        href: latex-for-logicians/index.qmd
     right:
       - text: "About"
         href: about.qmd
-      - site-news.qmd
       - icon: bluesky
         href: https://bsky.app/profile/logicmatters.bsky.social
 format:

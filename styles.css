@@ -6,8 +6,12 @@
   color: #5353ac !important;
 }
 
-#lfl-nav, #site-nav {
+#lfl-nav {
   padding-left: 2em;
+}
+
+#site-nav {
+  display: none;
 }
 
 /* collapse the forced 60px grid row below <main> so footer sits close */
@@ -98,13 +102,17 @@ main.content {
 }
 
 @media (max-width: 767px) {
+  .navbar-container {
+    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
+  }
   main.content {
     grid-column: 1 / -1 !important;
     border-radius: 0;
     border-left: none;
     border-right: none;
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 }
 

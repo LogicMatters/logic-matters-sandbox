@@ -8,7 +8,7 @@ format:
 ---
 
 
-[**LOGIC MATTERS BLOG**](blog) 09.47 Peter Smith’s occasional blog posts on logic, music, and other enthusiasms.
+[**LOGIC MATTERS BLOG**](blog) 10.43 Peter Smith’s occasional blog posts on logic, music, and other enthusiasms.
 
 {{< include _recent_posts.md >}}
 
