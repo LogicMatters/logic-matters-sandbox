@@ -112,6 +112,10 @@ main.content {
   #lfl-nav {
     display: none;
   }
+  .navbar-collapse .nav-link {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+  }
   main.content {
     grid-column: 1 / -1 !important;
     border-radius: 0;
