@@ -97,6 +97,15 @@ main.content {
   }
 }
 
+@media (max-width: 767px) {
+  main.content {
+    grid-column: 1 / -1;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+}
+
 main.content p:first-child {
   margin-top: 0;
 }

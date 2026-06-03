@@ -13,7 +13,7 @@ website:
         href: about.qmd
       - site-news.qmd
       - icon: bluesky
-        href: https://bsky.app/profile/logicmatters.bsky.socialquarto
+        href: https://bsky.app/profile/logicmatters.bsky.social
 format:
   html:
     theme: cosmo
