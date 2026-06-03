@@ -57,6 +57,6 @@ if new_content != old_content:
     with open("_recent_posts.md", "w", encoding="utf-8") as f:
         f.write(new_content)
 
-render_time = datetime.now().strftime("%-d.%-m @ %H.%M")
+render_time = datetime.now().strftime("%B %-d @ %H.%M")
 with open("_render_time.md", "w", encoding="utf-8") as f:
     f.write(f"*Site updated: {render_time}*\n")
