@@ -1,7 +1,6 @@
 ---
 title: "The Big Red Logic Books – last year, this year."
 date: "2026-01-01"
-categories: ["This and that"]
 ---
 
 

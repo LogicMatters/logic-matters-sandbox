@@ -1,7 +1,6 @@
 ---
 title: "ICT, the third edition"
 date: "2026-01-13"
-categories: ["Books", "Category theory"]
 ---
 
 

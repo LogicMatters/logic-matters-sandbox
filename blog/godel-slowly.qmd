@@ -1,7 +1,6 @@
 ---
 title: "Gödel, slowly ..."
 date: "2026-02-28"
-categories: ["Gödel's theorems", "Music"]
 ---
 
 

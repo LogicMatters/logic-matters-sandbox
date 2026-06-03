@@ -1,7 +1,6 @@
 ---
 title: "A new version of ICT"
 date: "2026-05-14"
-categories: ["This and that"]
 ---
 
 

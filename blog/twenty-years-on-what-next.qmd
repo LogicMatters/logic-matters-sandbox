@@ -1,7 +1,6 @@
 ---
 title: "Twenty years on, what next?"
 date: "2026-05-23"
-categories: ["This and that"]
 ---
 
 

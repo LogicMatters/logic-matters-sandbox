@@ -1,7 +1,6 @@
 ---
 title: "ICT paperback is out!"
 date: "2026-05-18"
-categories: ["Books", "Category theory"]
 ---
 
 

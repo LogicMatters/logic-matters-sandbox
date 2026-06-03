@@ -1,7 +1,6 @@
 ---
 title: "On the mathematical abilities of LLMs"
 date: "2026-05-09"
-categories: ["This and that"]
 ---
 
 

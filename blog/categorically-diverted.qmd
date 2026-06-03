@@ -1,7 +1,6 @@
 ---
 title: "Categorically diverted"
 date: "2026-04-19"
-categories: ["This and that"]
 ---
 
 

@@ -1,7 +1,6 @@
 ---
 title: "Great expectations"
 date: "2026-04-02"
-categories: ["This and that"]
 ---
 
 

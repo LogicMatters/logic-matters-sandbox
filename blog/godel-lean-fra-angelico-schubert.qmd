@@ -1,7 +1,6 @@
 ---
 title: "Gödel, Lean, Fra Angelico, Schubert"
 date: "2026-01-26"
-categories: ["Gödel's theorems", "This and that"]
 ---
 
 

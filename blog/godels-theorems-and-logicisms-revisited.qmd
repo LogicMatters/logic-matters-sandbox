@@ -1,7 +1,6 @@
 ---
 title: "Gödel's Theorems (and logicisms) revisited"
 date: "2026-01-19"
-categories: ["This and that"]
 ---
 
 

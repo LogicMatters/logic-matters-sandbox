@@ -1,7 +1,6 @@
 ---
 title: "Proof-reading, with a bit of help from LLMs"
 date: "2026-05-17"
-categories: ["This and that"]
 ---
 
 

@@ -1,7 +1,6 @@
 ---
 title: "Hoffmann, Limits of Mathematics"
 date: "2026-03-16"
-categories: ["Books", "Logic"]
 ---
 
 

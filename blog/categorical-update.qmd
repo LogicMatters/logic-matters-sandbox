@@ -1,7 +1,6 @@
 ---
 title: "Categorical update"
 date: "2026-05-02"
-categories: ["This and that"]
 ---
 
 

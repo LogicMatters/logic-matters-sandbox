@@ -1,7 +1,6 @@
 ---
 title: "New Issue: Journal for the Philosophy of Mathematics"
 date: "2026-01-05"
-categories: ["This and that"]
 ---
 
 

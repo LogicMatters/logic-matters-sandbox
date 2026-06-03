@@ -1,7 +1,6 @@
 ---
 title: "Another categorical update"
 date: "2026-05-07"
-categories: ["Category theory"]
 ---
 
 

@@ -1,7 +1,6 @@
 ---
 title: "Partial functions and Church’s Thesis"
 date: "2026-04-06"
-categories: ["This and that"]
 ---
 
 

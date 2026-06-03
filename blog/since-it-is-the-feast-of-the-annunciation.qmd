@@ -1,7 +1,6 @@
 ---
 title: "Since it is the Feast of the Annunciation ..."
 date: "2026-03-25"
-categories: ["This and that"]
 ---
 
 ![](../images/Crivelli.png)

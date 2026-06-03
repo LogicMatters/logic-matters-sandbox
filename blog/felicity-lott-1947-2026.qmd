@@ -1,7 +1,6 @@
 ---
 title: "Felicity Lott, 1947 – 2026"
 date: "2026-05-18"
-categories: ["This and that"]
 ---
 
 {{< video https://www.youtube.com/watch?v=97QndmYbwtE >}}

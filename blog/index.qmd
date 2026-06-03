@@ -8,7 +8,7 @@ listing:
   max-description-length: 600  # Increases the text snippet length
   page-size: 8       # Creates pagination with 8 posts per page
   fields: [date, title, author, description]
-  categories: true   # Optional: Adds a clickable category list on the side
+  categories: false
   sort-ui: false     # Hides the sort dropdown menu
   filter-ui: false   # Hides the search bar
 ---
