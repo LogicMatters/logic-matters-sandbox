@@ -8,7 +8,7 @@ format:
 ---
 
 
-[**LOGIC MATTERS BLOG**](blog) 11.05 Peter Smith’s occasional blog posts on logic, music, and other enthusiasms.
+[**LOGIC MATTERS BLOG**](blog) Peter Smith’s occasional blog posts on logic, music, and other enthusiasms.
 
 {{< include _recent_posts.md >}}
 
@@ -27,3 +27,6 @@ format:
 [**ARCHIVE**](archive) Links to various old blog posts, papers, more reviews and other pieces.
 
 [**LaTeX FOR LOGICIANS**](latex-for-logicians) Pages pointing to a wide range of resources of interest to logicians, philosophers and others using LaTeX.
+
+{{< include _render_time.md >}}
+
