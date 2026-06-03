@@ -232,6 +232,12 @@ window.addEventListener('load', function () {
 <div id="site-footer">
 <p>Send comments via Bluesky or email ps [at] logicmatters [dot] net</p>
 </div>
+<script>
+document.querySelectorAll('a[href*="bsky.app"]').forEach(function(a) {
+  a.target = '_blank';
+  a.rel = 'noopener noreferrer';
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

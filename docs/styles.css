@@ -99,10 +99,12 @@ main.content {
 
 @media (max-width: 767px) {
   main.content {
-    grid-column: 1 / -1;
+    grid-column: 1 / -1 !important;
     border-radius: 0;
     border-left: none;
     border-right: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
