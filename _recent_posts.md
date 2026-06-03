@@ -1,1 +1,1 @@
-Recent posts: [Twenty years on, what next?](blog/twenty-years-on-what-next.qmd) (23 May 2026), [Felicity Lott, 1947 – 2026](blog/felicity-lott-1947-2026.qmd) (18 May 2026), [ICT paperback is out!](blog/ict-paperback-is-out.qmd) (18 May 2026)
+Recent posts: [New version website](blog/new-version-website.qmd) (3 June 2026), [Twenty years on, what next?](blog/twenty-years-on-what-next.qmd) (23 May 2026), [Felicity Lott, 1947 – 2026](blog/felicity-lott-1947-2026.qmd) (18 May 2026)

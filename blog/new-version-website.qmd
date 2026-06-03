@@ -1,0 +1,22 @@
+---
+title: "New version website"
+date: "2026-06-03"
+categories: ["This and that"]
+---
+
+I said a week or so ago that I was going to investigate moving the Logic Matters website from its current expensively hosted Wordpress incarnation to a (slimmer?) version hosted for free on GitHub. With a lot of help from Gemini and Claude I have a working version up and running here. Check it out: all comments welcome! I will no doubt tinker with the look and feel of the pages, but for a minimalist first attempt, I am pretty pleased.
+
+<hr>
+
+As you will see, I have only transferred this year’s blog posts from the old Wordpress site to this new site. So one major task that remains to be done is to archive whatever not-yet-archived old posts seem worth preserving.
+
+Another task is to update the LaTeX for Logicians pages. These have been in existence in one form or another since about 2004, and initially I thought that I would gracefully retire them as I built the new site. After all, there are now so many other LaTeX resources out there, and I thought that these days AI assistants could surely quickly give information or problem-solve. Except when I did some spot-checking, I found AI giving some surprisingly flakey responses. And Google Analytics tells me that more than 200 users actively engage with the LaTeX for Logicians front page every month. So maybe there is still a small role for a curated list of links likely to be of particular interest to logicians.
+
+<hr>
+
+You will also see that this new site hasn’t got an active comments system: this is due to the limitations of a website built with a static site generator like Quarto.  Rather, readers are invited to engage on Bluesky or to send comments by email (which I will add to blog posts if of general interest). But these days -- as is very much the way with blogs and other social media -- comments are few and far between (apart from one or two stalwarts who also email anyway!). And again, no more costly spam-filtering! 
+
+<hr>
+
+If you are familiar with using the Claude Code extension in VS Code, you don’t  need me to tell you how capable it is. This site got built with no serious input from me -- “do this”, “tweak that” say I, and off goes Claude, bulk processing old pages, wrangling with CSS, explaining what it is up to  with seemingly infinite patience. As a neophyte, I am daily astonished. 
+
