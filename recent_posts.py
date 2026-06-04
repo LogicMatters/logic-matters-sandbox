@@ -38,7 +38,7 @@ for fname in os.listdir(blog_dir):
             "slug": fname[:-4],
         })
 
-posts.sort(key=lambda p: p["date"], reverse=True)
+posts.sort(key=lambda p: p["date"])
 
 parts = []
 for post in posts[:3]:

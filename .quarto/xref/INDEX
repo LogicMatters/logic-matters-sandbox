@@ -538,5 +538,8 @@
   },
   "blog/new-version-website.qmd": {
     "new-version-website.html": "d69d4e57"
+  },
+  "blog/new-hardback.qmd": {
+    "new-hardback.html": "e832ed18"
   }
 }

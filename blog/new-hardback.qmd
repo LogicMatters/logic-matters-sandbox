@@ -1,0 +1,13 @@
+---
+title: "A new hardback!"
+date: "2026-06-04"
+---
+
+
+<img src="../books/book-covers/SmithICT.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
+
+As promised, a hardback of *Introducing Category Theory* was published on June 1st, and is beginning to appear listed on booksellers’ online sites -- search with the ISBN 106834671X.
+
+It looks pleasing enough,  though the Amazon-only paperback is if anything nicer. But the hardback is intended for libraries. 
+
+Yes, of course, the book is freely available online. But many do find working from a five hundred page PDF irksome, and much prefer a physical book. So do please ask your local university library to order to a copy (it certainly won’t dent their budgets too much, being listed at $35, £31.50, etc.).
