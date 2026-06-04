@@ -10,9 +10,7 @@ For a document on bussproofs for Gentzen-style proofs, two Fitch-style packages,
 
 **Natural deduction and sequent proofs, Gentzen-style**
 
-- The standard package in recent years has been [bussproofs.sty](http://math.ucsd.edu/%7Esbuss/ResearchWeb/bussproofs/) (Sam Buss: download the latest version, 1.1, June 2011). Note that there is a LaTeX for Logicians [User Guide to bussproofs.sty](pdfs/BussGuide2.pdf). There is an add-on by Richard Zach for adding vertical or diagonal lines of dots for "missing" parts of proofs, [see here](http://www.ucalgary.ca/rzach/blog/2014/05/bpextra-entire-deductions-in-bussproofssty.html).
-
-*Two ways of aligning sequents provided by Bussproofs*
+- The standard package in recent years has been [bussproofs.sty](http://math.ucsd.edu/%7Esbuss/ResearchWeb/bussproofs/) (Sam Buss: download the latest version, 1.1, June 2011). Note that there is a LaTeX for Logicians [User Guide to bussproofs.sty](pdfs/BussGuide2.pdf). A [bussproofs-extra](https://ctan.org/pkg/bussproofs-extra?lang=en) add-on by Richard Zach enables you to add vertical or diagonal lines of dots for "missing" parts of proofs. 
 
 - Some prefer the following similar package: [ebproof](https://www.ctan.org/pkg/ebproof?lang=en) (Emmanuel Beffara, 2015-21).
 
@@ -20,17 +18,12 @@ For a document on bussproofs for Gentzen-style proofs, two Fitch-style packages,
 
 - For old times' sake, a much older, less flexible though still highly functional, alternative is provided by [proof.sty](http://research.nii.ac.jp/%7Etatsuta/proof-sty.html) (Makoto Tatsuta, originally 1990, and now in version 3.1). Again there is an old LaTeX for Logicians [User Guide to proof.sty](http://logicmatters.net/resources/ndexamples/proofsty.html).
 
-*A derivation of one of De Morgan's Laws, set using proof.sty*
-
 - If you like to cancel discharged premisses by slashing through a wff, the  [cancel](https://www.ctan.org/tex-archive/macros/latex/contrib/cancel?lang=en)  package is for you. Example of it in use [here](http://tex.stackexchange.com/questions/280103/can-i-typeset-a-proof-tree-in-exercise-2-4-3c-from-mathematical-logic-by-ian-c).
 
-*Using ebproof and cancel*
 
 **Natural deduction, Fitch-style**
 
 - The best of the older packages is [fitch.sty](/resources/fitch.sty) (Johan Klüwer, 2003): there is also a [short guide](/resources/fitchguide.txt) to the first steps of using this package (Ang Tong, 2005), and a [demonstration here](pdfs/Fitchexamples.pdf) of how to set the sort of example illustrated below.  But you'll need to dig inside the style file to see further commands. (Warning: fitch.sty loads a package which is not fully compatible with the standard tabular environment, producing unpredictable side effects; in particular, you need to ensure, if you want to make tables in the same document, that you don't define more columns in those tables than are actually used.)
-
-*Set using Klüwer's version of fitch.sty*
 
 - An alternative producing similar output is [fitch.sty](http://www.mathstat.dal.ca/~selinger/fitch/) (Peter Selinger, 2005; Richard Zach, 2023).
 
@@ -59,3 +52,6 @@ For a document on bussproofs for Gentzen-style proofs, two Fitch-style packages,
 - The [logix package](https://ctan.org/pkg/logix) (Michael Finney 2001-2022) provides commands for setting Hilbert-style linear proofs.
 
 Updated 8 October 2024*
+
+
+

@@ -10,13 +10,13 @@ format:
 
 - Here’s a [minimal list of common symbols and the Greek alphabet](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols). (You will find a lot of useful information from the sidebar of this Overleaf site.)
 
-- Consult the [AMS short guide to maths setting](http://tug.ctan.org/info/short-math-guide/short-math-guide.pdf) for lots of basic symbols.
+- The [AMS LaTeX page](https://www.ams.org/arc/resources/amslatex-about.html) tells you about some key standard packages, including the ams symbols package: [mathtools.sty](https://www.ctan.org/pkg/mathtools) adds possibly useful functionality. Consult the [AMS short guide to maths setting](http://tug.ctan.org/info/short-math-guide/short-math-guide.pdf) for lots of basic symbols. 
 
 - A quick way of finding symbols is provided by [Detexify](http://detexify.kirelabs.org/classify.html) -- you draw a symbol in a box in your browser, and it cleverly finds LaTeX matches!
 
 **The symbol bible**
 
-- Scott Pakin's wonderful [Comprehensive LaTeX Symbol List](https://www.ctan.org/tex-archive/info/symbols/comprehensive/?lang=en)-- now a mere 20000+ to choose from. For example, consult the List's massive index under ...
+- Scott Pakin's wonderful [Comprehensive LaTeX Symbol List](https://www.ctan.org/tex-archive/info/symbols/comprehensive/?lang=en)-- now a mere 20000+ to choose from. For example, consult the index for
 
     - "definite description" for two solutions for an inverted iota definite description operator (or a slight tweak is to put `\usepackage{kpfonts}` in the preamble and then use `{\text{\rotatebox[origin=c]{180}{$\iotaup$}}`).
 
@@ -32,6 +32,8 @@ format:
 
 - *Corner quotes*: A page on how to set [corner quotes](corner-quotes.qmd) (e.g. for Gödel numbers) at the right height (Sam Buss, Heiko Oberdiek).
 
+ - *Double square brackets* (indicating semantic evaluation): "\llbracket"  and "\rrbracket" are in the stmaryrd package, so you can use them by putting `\usepackage{stmaryrd}` in the preamble. 
+
 - *More conditionals*: e.g. the "strictif" for the fish-hook sign for strict implication, "boxright" for Lewis's symbol for the counterfactual, and other Lewisian symbols. These are part of the txfonts and pxfonts packages, which are intended for use with the Times Roman and Palatino fonts, respectively. But (thanks to Richard Zach for this), you can access them e.g. while still using Computer Modern by having the txfont package available and putting this in the preamble to declare the commands `\strictif` and `\boxright`:
 
     ```
@@ -40,11 +42,12 @@ format:
     \DeclareMathSymbol{\boxright}{\mathrel}{symbolsC}{128}
     \DeclareMathSymbol{\boxRight}{\mathrel}{symbolsC}{136} % 'would' 
     \DeclareMathSymbol{\diamondRight}{\mathrel}{symbolsC}{140} % 'might'
-    \DeclareMathSymbol{\diamonddot}{\mathord}{symbolsC}{144} % inner necessity
+    \DeclareMathSymbol{\diamonddot}{\mathord}{symbolsC}{144} 
    ```
 Similarly of course for invoking other symbols you want. To get the number for a symbol to use with \DeclarMathSymbol you can use AI.
 
 - *A triple turnstile* to match the usual single and double turnstiles?  A [solution here](https://tex.stackexchange.com/questions/502411/triple-turnstile-symbol/502415#502415).
 
-- *Other turnstiles*: For constructing a considerable variety of turnstile symbol, there is a dedicated [turnstile](https://www.ctan.org/pkg/turnstile?lang=en) package. If you want a mirror-image of  a turnstile (or indeed other symbols) [see also here](http://tex.stackexchange.com/questions/114364/what-command-to-use-for-reversed-vdash/). 
-*Updated 31 May 2026*
+- *Other turnstiles*: For constructing a considerable variety of turnstile symbol, there is a dedicated [turnstile](https://www.ctan.org/pkg/turnstile?lang=en) package. 
+ 
+*Updated 3 June 2026*

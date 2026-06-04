@@ -6,9 +6,9 @@ format:
     include-before-body: _lfl-nav.html
 ---
 
-There is a wealth of general material available online about LaTeX (and AI assistants can now offer invaluable help too). So these pages focus on assembling links to specific resources of particular interest to logicians, philosophers and others using LaTeX to produce papers, teaching materials, theses or books, and perhaps needing to include logical matter such as natural deduction proofs.
+There is a wealth of general material available online about LaTeX (and AI assistants can now offer invaluable help too). But perhaps there is still a role for some pages assembling links to specific resources of particular interest to logicians, philosophers and others using LaTeX.
 
-- *[Logic symbols](symbols.qmd)*. For lists of available logic and other symbols.
+- *[Logic symbols](symbols.qmd)*. Lists of available logic and other symbols.
 
 - *[Natural deduction proofs](nd.qmd)*. Packages for laying out natural deduction and sequent proofs in Gentzen style, and natural deduction proofs in Fitch style.
 
@@ -16,7 +16,7 @@ There is a wealth of general material available online about LaTeX (and AI assis
 
 - *[Diagrams](diagrams.qmd)*. General programs for diagram construction. How to produce commutative diagrams for category theory in particular.
 
-- *[In the classroom](classroom.qmd)*. This page gives links to resources which are especially useful for lectureroom and classroom use (e.g., packages for producing slides for data projectors, for constructing problem sheets, etc.).
+- *[In the classroom](classroom.qmd)*. This page gives links to resources which are especially useful for classroom use (e.g., packages for producing slides for data projectors, for constructing problem sheets, etc.).
 
 - *[Logicians' miscellany](miscellany.qmd)*. Links to a variety of other resources which could be particularly useful for logicians.
 
