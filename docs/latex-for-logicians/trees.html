@@ -146,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 <div id="lfl-nav">
-<p><a href="../index.html">⇧</a>&nbsp;·&nbsp;<a href="index.html">LaTeX</a>&nbsp;·&nbsp;<a href="symbols.html">SYMBOLS</a>&nbsp;·&nbsp;<a href="nd.html">PROOFS</a>&nbsp;·&nbsp;<a href="trees.html">TREES</a>&nbsp;·&nbsp;<a href="diagrams.html">DIAGRAMS</a>&nbsp;·&nbsp;<a href="classroom.html">CLASS</a>&nbsp;·&nbsp;<a href="miscellany.html">MISC</a>&nbsp;·&nbsp;<a href="fonts.html">FONTS</a></p>
+<p><a href="../index.html">⇧</a>&nbsp;·&nbsp;<a href="index.html">LaTeX</a>&nbsp;·&nbsp;<a href="symbols.html">SYMBOLS</a>&nbsp;·&nbsp;<a href="nd.html">PROOFS</a>&nbsp;·&nbsp;<a href="trees.html">TREES</a>&nbsp;·&nbsp;<a href="diagrams.html">DIAGRAMS</a>&nbsp;·&nbsp;<a href="varia.html">VARIA</a></p>
 </div>
 <script>
 window.addEventListener('load', function () {
@@ -177,29 +177,22 @@ window.addEventListener('load', function () {
 </header>
 
 
-<p><em>A non-closing tree</em></p>
-<p>The task is to set proof-trees in the style of the tree alongside, i.e.&nbsp;tableaux of the sort that appear in e.g.&nbsp;Richard Jeffrey’s classic <em>Formal Logic </em>or the first edition of my own <em>Introduction to Formal Logic</em>.</p>
-<p>A very flexible package, allowing you also to add line numbers (if you want) and line-by-line justifications is provided by</p>
+<p>The task is to set proof-trees, i.e.&nbsp;tableaux, of the sort that appear in e.g.&nbsp;Richard Jeffrey’s classic <em>Formal Logic</em> or in the first edition of my own <em>Introduction to Formal Logic</em>.</p>
+<p>A very flexible modern package, allowing you also to add line numbers (if you want) and line-by-line justifications is provided by</p>
 <ul>
-<li><a href="http://ctan.org/pkg/prooftrees">Prooftrees</a> (Clea Rees, 2016–24). Read the package documentation for many examples of its power and flexibility (example below, and also see my document <a href="pdfs/L4LProoftrees.pdf">Setting Tableaux using&nbsp;Prooftrees</a>).</li>
+<li><a href="http://ctan.org/pkg/prooftrees">Prooftrees</a> (Clea Rees). Read the package documentation for many examples of its power and flexibility (also see my older document <a href="pdfs/L4LProoftrees.pdf">Setting Tableaux using&nbsp;Prooftrees</a>).</li>
 </ul>
-<p>Because of issues with the complex packages that prooftrees.sty invokes, a document with many trees does become slow to typeset. However the 2024 version of prooftrees allows you to use the “memoize” package so that (unchanged) diagrams are not re-processed every time you re-typeset your document, considerably speeding things up.</p>
-<p>Older options for setting tableaux often require bits of trickery to get nice-looking trees&nbsp;(and don’t supply the option of line numbers etc.). &nbsp;I’ll mention them, however, in case&nbsp;they may be enough for your purposes. Two first options are</p>
+<p>Here’s an example of its output, taken from the package documentation, and there are simpler examples in my document:</p>
+<p><img src="../images/prooftrees.jpg" class="img-fluid"></p>
+<p>Because of issues with the complex packages that prooftrees.sty invokes, a document with many trees does become slow to typeset. However you can use the “memoize” package so that (unchanged) diagrams are not re-processed every time you re-typeset your document, considerably speeding things up.</p>
+<p>Compatibility note: prooftrees can be used alongside bussproofs — either load bussproofs first, or load prooftrees with the tableaux option.</p>
+<p>Older options for setting tableaux often require bits of trickery to get nice-looking trees&nbsp;(and don’t supply the option of line numbers etc.). &nbsp;I’ll mention them, however, in case&nbsp;they may be enough for your purposes. Two options are</p>
 <ul>
-<li><p>The <a href="http://www.ling.upenn.edu/advice/latex/qtree/">qtree.sty</a> package (Jeff Siskind and Alexis Dimitriadis),&nbsp;written for typesetting linguists’ syntactic trees, can also be adapted to logicians’ purposes.</p></li>
-<li><p><a href="http://sourceforge.net/projects/pgf/">pgf and TikZ</a> (Till Tantau 2005-: a general TeX macro package for generating graphics, with a user-friendly syntax layer called TikZ).&nbsp;<a href="http://www.ctan.org/tex-archive/graphics/pgf/contrib/tikz-qtree/">tikz-qtree</a> provides a macro for drawing trees with TikZ using the easy syntax of qtree.</p></li>
-<li><p>For a document with some illustrations of trees set with these, see <a href="http://www.actual.world/resources/tex/doc/Proofs.pdf">Proofs in LaTeX</a> (Alex Kocurek, 2017).</p></li>
+<li><p>The <a href="ctan.org/pkg/qtree">qtree.sty</a> package,&nbsp;written for typesetting linguists’ syntactic trees, can also be adapted to logicians’ purposes.</p></li>
+<li><p><a href="http://sourceforge.net/projects/pgf/">pgf and TikZ</a> (a general TeX macro package for generating graphics, with a user-friendly syntax layer called TikZ).&nbsp;<a href="http://www.ctan.org/tex-archive/graphics/pgf/contrib/tikz-qtree/">tikz-qtree</a> provides a macro for drawing trees with TikZ using an easy syntax.</p></li>
 </ul>
-<p>Further options include</p>
-<ul>
-<li><p>The pst-tree package, used for the illustration above. This package is part of the powerful <a href="http://www.tug.org/applications/PSTricks/">pstricks</a> family of packages. But this can be a little cumbersome to use, e.g.&nbsp;to fine-tune the placing of the diagonal lines.</p></li>
-<li><p>Another package originally written for linguists is <a href="http://www.ctan.org/tex-archive/macros/latex/contrib/synttree/">synttree</a>, which has a pleasing simple syntax in use (Matijs van Zuijlen).</p></li>
-<li><p>Then&nbsp;there is&nbsp;<a href="https://www.ctan.org/pkg/forest?lang=en">forest</a> (Sašo Ži­vanović, 2012–2017). This is another package that&nbsp;&nbsp;pro­vides PGF/TikZ-based apparatus for draw­ing trees, and looks very flexible. There is a nice worked example in <a href="http://tex.stackexchange.com/questions/282092/analytic-tableaux-smullyans-style">the first answer&nbsp;here</a> which&nbsp;shows how to fine-tune the output.</p></li>
-</ul>
-<p>Clea Rees’s prooftrees&nbsp;package is based on&nbsp;forest. Here’s a fully annotated&nbsp;tree produced by this&nbsp;package:</p>
-<p><a href="../wp-content/uploads/2010/04/Screengrab-copy-1.jpg"></a></p>
-<p>See my document for more examples.</p>
-<p><em>Links checked 8 October 2024</em></p>
+<p>For something about setting trees with these two packages see Alex Kocurek’s document <a href="http://www.actual.world/resources/tex/doc/Proofs.pdf">Proofs in LaTeX</a>.</p>
+<p><em>Last updated 4 June 2026</em></p>
 
 
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Proofs – Logic Matters</title>
+<title>Natural deduction and sequent proofs – Logic Matters</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -146,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 <div id="lfl-nav">
-<p><a href="../index.html">⇧</a>&nbsp;·&nbsp;<a href="index.html">LaTeX</a>&nbsp;·&nbsp;<a href="symbols.html">SYMBOLS</a>&nbsp;·&nbsp;<a href="nd.html">PROOFS</a>&nbsp;·&nbsp;<a href="trees.html">TREES</a>&nbsp;·&nbsp;<a href="diagrams.html">DIAGRAMS</a>&nbsp;·&nbsp;<a href="classroom.html">CLASS</a>&nbsp;·&nbsp;<a href="miscellany.html">MISC</a>&nbsp;·&nbsp;<a href="fonts.html">FONTS</a></p>
+<p><a href="../index.html">⇧</a>&nbsp;·&nbsp;<a href="index.html">LaTeX</a>&nbsp;·&nbsp;<a href="symbols.html">SYMBOLS</a>&nbsp;·&nbsp;<a href="nd.html">PROOFS</a>&nbsp;·&nbsp;<a href="trees.html">TREES</a>&nbsp;·&nbsp;<a href="diagrams.html">DIAGRAMS</a>&nbsp;·&nbsp;<a href="varia.html">VARIA</a></p>
 </div>
 <script>
 window.addEventListener('load', function () {
@@ -160,7 +160,7 @@ window.addEventListener('load', function () {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Proofs</h1>
+<h1 class="title">Natural deduction and sequent proofs</h1>
 </div>
 
 
@@ -177,20 +177,18 @@ window.addEventListener('load', function () {
 </header>
 
 
-<p>For a document on bussproofs for Gentzen-style proofs, two Fitch-style packages, and also mentioning Lemmon style proofs, see <a href="http://www.actual.world/resources/tex/doc/Proofs.pdf">Proofs in LaTeX</a> (Alex Kocurek 2019).</p>
+<p>For a document on bussproofs for Gentzen-style proofs, two Fitch-style packages, and also mentioning Lemmon style proofs, see Alex Kocurek’s document <a href="http://www.actual.world/resources/tex/doc/Proofs.pdf">Proofs in LaTeX</a>.</p>
 <p><strong>Natural deduction and sequent proofs,&nbsp;Gentzen-style</strong></p>
 <ul>
-<li><p>The standard&nbsp;package in recent years has been&nbsp;<a href="http://math.ucsd.edu/%7Esbuss/ResearchWeb/bussproofs/">bussproofs.sty</a> (Sam Buss: download the latest version, 1.1, June 2011). Note that there is a LaTeX for Logicians&nbsp;<a href="pdfs/BussGuide2.pdf">User Guide to bussproofs.sty</a>.&nbsp;A <a href="https://ctan.org/pkg/bussproofs-extra?lang=en">bussproofs-extra</a> add-on by Richard Zach enables you to add vertical or diagonal lines of dots for “missing” parts of proofs.</p></li>
-<li><p>Some prefer the following similar&nbsp;package: <a href="https://www.ctan.org/pkg/ebproof?lang=en">ebproof</a> (Emmanuel Beffara, 2015-21).</p></li>
-<li><p>And there is another package, which is designed to be even more flexible:&nbsp;<a href="http://ctan.org/pkg/prftree">prftree</a> (Marco Benini, 2016–19).</p></li>
-<li><p>For old times’ sake, a&nbsp;much older, less flexible though still highly functional, alternative is provided by <a href="http://research.nii.ac.jp/%7Etatsuta/proof-sty.html">proof.sty</a> (Makoto Tatsuta, originally 1990, and now in version 3.1). Again there is an old LaTeX for Logicians <a href="http://logicmatters.net/resources/ndexamples/proofsty.html">User Guide to proof.sty</a>.</p></li>
+<li><p>The standard&nbsp;package in recent years has been&nbsp;<a href="http://math.ucsd.edu/%7Esbuss/ResearchWeb/bussproofs/">bussproofs.sty</a>. Note that there is a LaTeX for Logicians&nbsp;<a href="pdfs/BussGuide2.pdf">User Guide to bussproofs.sty</a>.&nbsp;A <a href="https://ctan.org/pkg/bussproofs-extra?lang=en">bussproofs-extra</a> add-on by Richard Zach enables you to add vertical or diagonal lines of dots for “missing” parts of proofs.</p></li>
+<li><p>Bussproofs is old, has some limitations, but is stable. Some now prefer the following similar&nbsp;but more flexible package: <a href="https://www.ctan.org/pkg/ebproof?lang=en">ebproof</a>.</p></li>
+<li><p>And there is another package, which is designed to be even more flexible, unnecessarily so for most uses:&nbsp;<a href="http://ctan.org/pkg/prftree">prftree</a>.</p></li>
 <li><p>If you like to cancel discharged premisses by slashing through a wff, the &nbsp;<a href="https://www.ctan.org/tex-archive/macros/latex/contrib/cancel?lang=en">cancel</a> &nbsp;package is for you. Example of it in use <a href="http://tex.stackexchange.com/questions/280103/can-i-typeset-a-proof-tree-in-exercise-2-4-3c-from-mathematical-logic-by-ian-c">here</a>.</p></li>
 </ul>
 <p><strong>Natural deduction,&nbsp;Fitch-style</strong></p>
 <ul>
-<li><p>The best of the older packages is <a href="../resources/fitch.sty">fitch.sty</a> (Johan Klüwer, 2003): there is also a&nbsp;<a href="../resources/fitchguide.txt">short guide</a> to the first steps of using this package (Ang Tong, 2005), and a&nbsp;<a href="pdfs/Fitchexamples.pdf">demonstration here</a>&nbsp;of how to set the sort of example illustrated below.&nbsp;&nbsp;But you’ll need to dig inside the style file to see further commands. (Warning: fitch.sty loads a package which is not&nbsp;fully compatible with the standard tabular environment, producing unpredictable side effects; in particular, you need to ensure, if you want to make tables&nbsp;in the same document, that you don’t define more columns in those tables than are actually used.)</p></li>
-<li><p>An alternative producing similar output is&nbsp;<a href="http://www.mathstat.dal.ca/~selinger/fitch/">fitch.sty</a> (Peter Selinger, 2005; Richard Zach, 2023).</p></li>
-<li><p><a href="https://www.ctan.org/pkg/lplfitch?lang=en">lplfitch</a> is a package for typesetting Fitch-style proofs a la <em>Language, Proof,&nbsp;and Logic</em>, the logic textbook by Jon Barwise and John Etchemendy. It was&nbsp;originally written by John Etchemendy, with modifications by&nbsp;Dave Barker-Plummer and Richard Zach: the documentation is good and contains a section compared its output to the varieties of fitch.sty. (See <a href="https://tex.stackexchange.com/questions/239183/changing-the-logic-symbols-in-lplfitch-sty">here</a> for how to change the pre-set suite of logic symbols.)</p></li>
+<li><p>The original version of fitch.sty by Johan Klüwer is described in Kocurek’s document linked above. But there is now a better later version by Peter Selinger (maintained by Richard Zach), producing similar output: <a href="https://ctan.org/pkg/fitch">fitch.sty</a>.</p></li>
+<li><p><a href="https://www.ctan.org/pkg/lplfitch?lang=en">lplfitch</a> is a package for typesetting Fitch-style proofs a la <em>Language, Proof,&nbsp;and Logic</em>, the logic textbook by Jon Barwise and John Etchemendy. The documentation is good and contains a section comparing its output to the varieties of fitch.sty. (See <a href="https://tex.stackexchange.com/questions/239183/changing-the-logic-symbols-in-lplfitch-sty">here</a> for how to change the pre-set suite of logic symbols.)</p></li>
 <li><p>There is also a package&nbsp;<a href="https://www.ctan.org/pkg/natded?lang=en">natded.sty</a> &nbsp;for Jaśkowski-style and Kalish-Montague-style natural deduction (similar to Fitch-style, but with boxes around subproofs).</p></li>
 <li><p><a href="https://www.ctan.org/tex-archive/macros/latex/contrib/logicproof?lang=en">logicproof</a>&nbsp; is another&nbsp;package for setting proofs, &nbsp;in which subproofs have boxes round them in the style of e.g.&nbsp;<em>Logic in Com­puter Science</em> by Huth and Ryan (Alan Davidson, 2014). See also <a href="https://tex.stackexchange.com/questions/268079/fitch-style-predicate-logic-proof">here</a> for how to declare variables.</p></li>
 </ul>
@@ -198,16 +196,7 @@ window.addEventListener('load', function () {
 <ul>
 <li>There is a package <a href="../resources/nd3.sty">nd3.sty</a> for setting Lemmon-style proofs, with a <a href="pdfs/nd-manual2a.pdf">short manual</a> (Alex Steinberg 2010: see <a href="http://phloxgroup.wordpress.com/2010/03/22/lemmon-style-natural-deduction-proofs-in-latex/">here</a> for the original post about this).</li>
 </ul>
-<p><strong>Other relevant packages</strong></p>
-<ul>
-<li><p>Another older available package&nbsp;for Gentzen-style proofs: <a href="https://www.ctan.org/tex-archive/macros/generic/proofs/taylor?lang=en">prooftree.sty</a> (Paul Taylor, 1996)</p></li>
-<li><p><a href="http://cristal.inria.fr/~remy/latex/">mathpartir</a> provides the mathpar environment, &nbsp;a “paragraph mode for formulas”,&nbsp;and also&nbsp;the inferrule macro designed to typeset inference rules (Didier Rémy 2005)</p></li>
-<li><p>More flexibly (but probably also requiring a more sophisticated user), there is now <a href="http://tug.ctan.org/tex-archive/graphics/metapost/contrib/macros/drv/">Derivation trees with MetaPost</a> (Laurent Méhats, 2010 – these don’t need a knowledge of MetaPost to use).</p></li>
-<li><p>The <a href="http://alessio.guglielmi.name/res/vl/">Virginia Lake</a> package offers macros aimed at “writing papers in the area of&nbsp;deep inference and the calculus of structures” but which could be adopted for other proof theoretic purposes.</p></li>
-<li><p>The <a href="https://www.ctan.org/pkg/flagderiv?lang=en">flagderiv</a> package can be used to set the variant kind of “flag” proofs some computer scientists like.</p></li>
-<li><p>The <a href="https://ctan.org/pkg/logix">logix package</a>&nbsp;(Michael Finney 2001-2022) provides commands for setting Hilbert-style linear proofs.</p></li>
-</ul>
-<p>Updated 8 October 2024*</p>
+<p>Updated 4 June 2026</p>
 
 
 

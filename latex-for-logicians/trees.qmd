@@ -6,36 +6,28 @@ format:
     include-before-body: _lfl-nav.html
 ---
 
-*A non-closing tree*
+The task is to set proof-trees, i.e. tableaux, of the sort that appear in e.g. Richard Jeffrey's classic *Formal Logic* or in the first edition of my own *Introduction to Formal Logic*.
 
-The task is to set proof-trees in the style of the tree alongside, i.e. tableaux of the sort that appear in e.g. Richard Jeffrey's classic *Formal Logic *or the first edition of my own *Introduction to Formal Logic*.
+A very flexible modern package, allowing you also to add line numbers (if you want) and line-by-line justifications is provided by
 
-A very flexible package, allowing you also to add line numbers (if you want) and line-by-line justifications is provided by
+- [Prooftrees](http://ctan.org/pkg/prooftrees) (Clea Rees). Read the package documentation for many examples of its power and flexibility (also see my older document [Setting Tableaux using Prooftrees](pdfs/L4LProoftrees.pdf)).
 
-- [Prooftrees](http://ctan.org/pkg/prooftrees) (Clea Rees, 2016–24). Read the package documentation for many examples of its power and flexibility (example below, and also see my document [Setting Tableaux using Prooftrees](pdfs/L4LProoftrees.pdf)).
+Here's an example of its output, taken from the package documentation, and there are simpler examples in my document:
 
-Because of issues with the complex packages that prooftrees.sty invokes, a document with many trees does become slow to typeset. However the 2024 version of prooftrees allows you to use the "memoize" package so that (unchanged) diagrams are not re-processed every time you re-typeset your document, considerably speeding things up.
+![](../images/prooftrees.jpg)
 
-Older options for setting tableaux often require bits of trickery to get nice-looking trees (and don't supply the option of line numbers etc.).  I'll mention them, however, in case they may be enough for your purposes. Two first options are
 
-- The [qtree.sty](http://www.ling.upenn.edu/advice/latex/qtree/) package (Jeff Siskind and Alexis Dimitriadis), written for typesetting linguists' syntactic trees, can also be adapted to logicians' purposes.
+Because of issues with the complex packages that prooftrees.sty invokes, a document with many trees does become slow to typeset. However you can use the "memoize" package so that (unchanged) diagrams are not re-processed every time you re-typeset your document, considerably speeding things up.
 
-- [pgf and TikZ](http://sourceforge.net/projects/pgf/) (Till Tantau 2005-: a general TeX macro package for generating graphics, with a user-friendly syntax layer called TikZ). [tikz-qtree](http://www.ctan.org/tex-archive/graphics/pgf/contrib/tikz-qtree/) provides a macro for drawing trees with TikZ using the easy syntax of qtree.
+Compatibility note: prooftrees can be used alongside bussproofs — either load bussproofs first, or load prooftrees with the tableaux option. 
 
-- For a document with some illustrations of trees set with these, see [Proofs in LaTeX](http://www.actual.world/resources/tex/doc/Proofs.pdf) (Alex Kocurek, 2017).
+Older options for setting tableaux often require bits of trickery to get nice-looking trees (and don't supply the option of line numbers etc.).  I'll mention them, however, in case they may be enough for your purposes. Two options are
 
-Further options include
+- The [qtree.sty](ctan.org/pkg/qtree) package, written for typesetting linguists' syntactic trees, can also be adapted to logicians' purposes.
 
-- The pst-tree package, used for the illustration above. This package is part of the powerful [pstricks](http://www.tug.org/applications/PSTricks/) family of packages. But this can be a little cumbersome to use, e.g. to fine-tune the placing of the diagonal lines.
+- [pgf and TikZ](http://sourceforge.net/projects/pgf/) (a general TeX macro package for generating graphics, with a user-friendly syntax layer called TikZ). [tikz-qtree](http://www.ctan.org/tex-archive/graphics/pgf/contrib/tikz-qtree/) provides a macro for drawing trees with TikZ using an easy syntax.
 
-- Another package originally written for linguists is [synttree](http://www.ctan.org/tex-archive/macros/latex/contrib/synttree/), which has a pleasing simple syntax in use (Matijs van Zuijlen).
+For something about setting trees with these two packages see Alex Kocurek's document [Proofs in LaTeX](http://www.actual.world/resources/tex/doc/Proofs.pdf).
 
-- Then there is [forest](https://www.ctan.org/pkg/forest?lang=en) (Sašo Ži­vanović, 2012–2017). This is another package that  pro­vides PGF/TikZ-based apparatus for draw­ing trees, and looks very flexible. There is a nice worked example in [the first answer here](http://tex.stackexchange.com/questions/282092/analytic-tableaux-smullyans-style) which shows how to fine-tune the output.
 
-Clea Rees's prooftrees package is based on forest. Here's a fully annotated tree produced by this package:
-
-[](/wp-content/uploads/2010/04/Screengrab-copy-1.jpg)
-
-See my document for more examples.
-
-*Links checked 8 October 2024*
+*Last updated 4 June 2026*

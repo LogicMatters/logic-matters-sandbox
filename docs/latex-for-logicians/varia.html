@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Logicians’ miscellany – Logic Matters</title>
+<title>Varia – Logic Matters</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -146,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 <div id="lfl-nav">
-<p><a href="../index.html">⇧</a>&nbsp;·&nbsp;<a href="index.html">LaTeX</a>&nbsp;·&nbsp;<a href="symbols.html">SYMBOLS</a>&nbsp;·&nbsp;<a href="nd.html">PROOFS</a>&nbsp;·&nbsp;<a href="trees.html">TREES</a>&nbsp;·&nbsp;<a href="diagrams.html">DIAGRAMS</a>&nbsp;·&nbsp;<a href="classroom.html">CLASS</a>&nbsp;·&nbsp;<a href="miscellany.html">MISC</a>&nbsp;·&nbsp;<a href="fonts.html">FONTS</a></p>
+<p><a href="../index.html">⇧</a>&nbsp;·&nbsp;<a href="index.html">LaTeX</a>&nbsp;·&nbsp;<a href="symbols.html">SYMBOLS</a>&nbsp;·&nbsp;<a href="nd.html">PROOFS</a>&nbsp;·&nbsp;<a href="trees.html">TREES</a>&nbsp;·&nbsp;<a href="diagrams.html">DIAGRAMS</a>&nbsp;·&nbsp;<a href="varia.html">VARIA</a></p>
 </div>
 <script>
 window.addEventListener('load', function () {
@@ -160,7 +160,7 @@ window.addEventListener('load', function () {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Logicians’ miscellany</h1>
+<h1 class="title">Varia</h1>
 </div>
 
 
@@ -177,39 +177,46 @@ window.addEventListener('load', function () {
 </header>
 
 
-<p><strong>Help for generating truth-tables</strong></p>
-<p>Of the available resources, this has been recommended:</p>
+<p>Assorted resources which may be of interest to logicians using LaTeX.</p>
+<section id="theorems-and-proofs" class="level3">
+<h3 class="anchored" data-anchor-id="theorems-and-proofs">Theorems and proofs</h3>
 <ul>
-<li><a href="http://mrieppel.net/prog/truthtable.html">Truth Table Generator</a> (Michael Rieppel) is a webpage containing a JavaScript program which generates full truth-tables for one or more wffs, and also the LaTeX code for them.</li>
+<li><p><a href="https://ctan.org/pkg/amsthm">amsthm.sty</a> (the theorem setup of the AMS document classes amsart, amsbook, etc., in stand-alone package form, which should be in any LaTeX distribution) defines environments which are much more configurable than the basic LaTeX ‘theorem’ environment. There’s&nbsp;<a href="https://ctan.org/pkg/amscls">a description here</a>.</p></li>
+<li><p><a href="http://www.ctan.org/pkg/ntheorem">ntheorem.sty</a> is another, even more flexible, package for customizing theorem layouts.</p></li>
+<li><p>The <a href="https://ctan.org/pkg/thmtools">thmtools bundle</a> contains a number of useful packages. In particular, it provides athm-restate.sty which allows you to label a theorem and then restate it later (with the same number).</p></li>
 </ul>
-<p><strong>Laying out theorems, lemmas etc., and marking succeeding proofs:</strong></p>
+</section>
+<section id="problem-sets-and-exercise-sheets" class="level3">
+<h3 class="anchored" data-anchor-id="problem-sets-and-exercise-sheets">Problem sets and exercise sheets</h3>
 <ul>
-<li><p><a href="http://www.ctan.org/pkg/amsthm">amsthm.sty</a> (the theorem setup of the AMS document classes amsart, amsbook, etc., in stand-alone package form, which should be in any LaTeX distribution) defines environments which are much more configurable than the basic LaTeX ‘theorem’ environment. There’s&nbsp;<a href="http://anorien.csc.warwick.ac.uk/mirrors/CTAN/macros/latex/required/amscls/doc/amsthdoc.pdf">a description here</a>.</p></li>
-<li><p><a href="http://www.ctan.org/pkg/ntheorem">ntheorem.sty</a> (Wolfgang May and Andreas Schedler) is another, even more flexible, package.</p></li>
-<li><p>The <a href="https://ctan.org/pkg/thmtools">thmtools bundle</a> (Ulrich M. Schwarz 2010, Yukai Chou 2023)) contains a number of useful packages, in particular thm-restate.sty which allows you to label a theorem and then restate it later (with the same number).</p></li>
-<li><p>If you just need a correctly-placed end-of-proof marker, then <a href="http://www.ctan.org/pkg/qed">QED.sty</a> (Paul Taylor, 1993-2003) supplies right-justified marks.</p></li>
+<li><p><a href="https://www.ctan.org/pkg/probsoln?lang=en">probsoln.sty</a>: simple package for generating problems sheets – and answer sheets – by selecting from problems and solutions defined in another file.</p></li>
+<li><p><a href="http://www.ctan.org/tex-archive/macros/latex/contrib/exam">exam.sty</a>: a nice option if you want to maintain a single document which, with a single toggle, &nbsp;both prints a preamble-and-exercises set, and a set of exercises-and-solutions.</p></li>
+<li><p><a href="https://ctan.org/pkg/xsim">xsim.sty</a> is another option for creating exercises and the corresponding solutions, probably with more features that you will ever need.</p></li>
 </ul>
-<p><strong>Setting algorithms</strong></p>
+</section>
+<section id="fonts" class="level3">
+<h3 class="anchored" data-anchor-id="fonts">Fonts!</h3>
+<p>You can fritter away an inordinate amount of time deciding what combinations of fonts and what page layouts to use for longer documents. So read on at your peril …!</p>
+<p><strong>Enhancements to Computer Modern</strong></p>
+<p>There really is a lot to be said for sticking to the tried and tested LaTeX default font family, Computer Modern. However, it does have to be acknowledged that the Type 1 Postscript implementation of the font is not entirely true to Donald Knuth’s original design, and can produce rather too light-weight a look to the printed page. Two solutions:</p>
 <ul>
-<li>Use&nbsp;<a href="http://www.ctan.org/tex-archive/macros/latex/contrib/algorithms/">algorithms.sty</a> (Peter Williams, 1996, 2004, Rogério Brito 2005) for laying out algorithms in a standard form).</li>
+<li><p>The <a href="https://ctan.org/pkg/mlmodern?lang=en">mlmodern package</a> provides a better implementation, avoiding the spindliness of most other Type 1 versions of Computer Modern. This works with LaTeX.</p></li>
+<li><p>Using the default option of the <a href="https://ctan.org/pkg/fontsetup?lang=en">fontsetup package</a> will provide a ‘Book’ weight version of Computer Modern, slightly heavier than the familiar default. The package also provides a number of other font options – but since it is working with Unicode OpenType versions, you will need to use the XeLaTeX engine or similar.</p></li>
 </ul>
-<p><strong>Branching &nbsp;quantifiers</strong></p>
+<p><strong>Other&nbsp;fonts?</strong></p>
+<p>Of course, XeLaTeX and LuaLaTeX can handle any OpenType font you want. But here we are mostly concerned with the limited number of fonts which play nicely with suitably matching symbol fonts in standard LaTeX, of which a significant number are freely available.</p>
 <ul>
-<li>The neatest way of setting these is suggested by Colin McClarty: use the pmatrix structure available in amsmath package, illustrated here:&nbsp;<a href="../resources/branching.html">branching quantifiers</a>.</li>
+<li><p>NB <a href="https://ctan.org/pkg/newtx">newtx</a>: For standard LaTeX users who want an alternative to Computer Modern, <code>newtxtext</code> and <code>newtxmath</code> bundle provides professional-level Times-style typography with complete mathematical symbol coverage.</p></li>
+<li><p>This page from TUG (the Tex Users Group) lists <a href="https://tug.org/FontCatalogue/mathfonts.html">LaTeX fonts with maths support</a>. Click on the individual fonts for more info.</p></li>
+<li><p>For additional comments, see these pages about <a href="https://texfaq.org/FAQ-psfchoice">Choice of Type 1 fonts for typesetting Maths</a>&nbsp;and <a href="https://texfaq.org/FAQ-otf-maths">Unicode maths using OpenType fonts</a>.</p></li>
+<li><p>A now rather old survey of&nbsp;<a href="https://ctan.org/pkg/free-math-font-survey">free maths fonts for LaTeX</a>&nbsp;is still worth consulting.</p></li>
+<li><p>See also the later <a href="http://math.ucsd.edu/~msharpe/RecentTexFonts.pdf">recent LaTeX fonts</a>.</p></li>
+<li><p>Finally, there is then an extensive links page&nbsp;<a href="http://luc.devroye.org/math.html">Fonts for mathematics</a>&nbsp;(Luc Devroye, 2014-2024).</p></li>
 </ul>
-<p><strong>Back to Frege</strong></p>
-<ul>
-<li><p><a href="http://www.ctan.org/pkg/begriff">begriff.sty</a> (Josh Parsons, 2003) sets Begriffsschrift-style expressions.</p></li>
-<li><p><a href="https://ctan.org/pkg/frege">frege.sty</a> (Quirin Pamp, 2012)&nbsp;loosely based on the begriff.sty pack­age, and of­fers a num­ber of im­prove­ments.</p></li>
-<li><p><a href="https://ctan.org/pkg/grundgesetze">grundgesetze.sty</a> (Mar­cus Ross­berg 2016-21), com­mands for type­set­ting Got­t­lob Frege’s con­cept-script in the style of his “Grundge­setze der Arith­metik”</p></li>
-</ul>
-<p><strong>Counting</strong></p>
-<ul>
-<li>For word counting,&nbsp;<a href="https://ctan.org/pkg/texcount">TeXcount&nbsp;</a>has been recommended (allows you to do things like mark bits of a document to be omitted from the word count).&nbsp;(Einar Andreas Rødland, 2008-18)</li>
-</ul>
-<p><em>Links checked 8 October 2024</em></p>
+<p><em>Updated 4 June 2026</em></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <div id="site-footer">

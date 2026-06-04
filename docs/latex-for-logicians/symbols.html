@@ -71,35 +71,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -175,7 +146,7 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 <div id="lfl-nav">
-<p><a href="../index.html">⇧</a>&nbsp;·&nbsp;<a href="index.html">LaTeX</a>&nbsp;·&nbsp;<a href="symbols.html">SYMBOLS</a>&nbsp;·&nbsp;<a href="nd.html">PROOFS</a>&nbsp;·&nbsp;<a href="trees.html">TREES</a>&nbsp;·&nbsp;<a href="diagrams.html">DIAGRAMS</a>&nbsp;·&nbsp;<a href="classroom.html">CLASS</a>&nbsp;·&nbsp;<a href="miscellany.html">MISC</a>&nbsp;·&nbsp;<a href="fonts.html">FONTS</a></p>
+<p><a href="../index.html">⇧</a>&nbsp;·&nbsp;<a href="index.html">LaTeX</a>&nbsp;·&nbsp;<a href="symbols.html">SYMBOLS</a>&nbsp;·&nbsp;<a href="nd.html">PROOFS</a>&nbsp;·&nbsp;<a href="trees.html">TREES</a>&nbsp;·&nbsp;<a href="diagrams.html">DIAGRAMS</a>&nbsp;·&nbsp;<a href="varia.html">VARIA</a></p>
 </div>
 <script>
 window.addEventListener('load', function () {
@@ -206,37 +177,38 @@ window.addEventListener('load', function () {
 </header>
 
 
+<p>NB: The <a href="https://www.ams.org/arc/resources/amslatex-about.html">AMS LaTeX page</a> tells you about some key standard packages, including the ams symbols packag. And <a href="https://www.ctan.org/pkg/mathtools">mathtools.sty</a> adds possibly useful functionality.</p>
 <p><strong>Basics on symbols</strong></p>
 <ul>
-<li><p>Here’s a <a href="https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols">minimal list of common symbols and the Greek alphabet</a>. (You will find a lot of useful information from the sidebar of this Overleaf site.)</p></li>
-<li><p>The <a href="https://www.ams.org/arc/resources/amslatex-about.html">AMS LaTeX page</a> tells you about some key standard packages, including the ams symbols package: <a href="https://www.ctan.org/pkg/mathtools">mathtools.sty</a> adds possibly useful functionality. Consult the&nbsp;<a href="http://tug.ctan.org/info/short-math-guide/short-math-guide.pdf">AMS short guide to maths setting</a>&nbsp;for lots of basic symbols.</p></li>
+<li><p>Here’s a <a href="https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols">minimal list of common symbols and the Greek alphabet</a>. (You will find a lot of other useful information from the sidebar of this Overleaf site.)</p></li>
+<li><p>Consult the&nbsp;old <a href="http://tug.ctan.org/info/short-math-guide/short-math-guide.pdf">AMS short guide to maths setting</a>&nbsp;for lots of basic symbols.</p></li>
 <li><p>A quick way of finding symbols is provided by&nbsp;<a href="http://detexify.kirelabs.org/classify.html">Detexify</a> – you draw a symbol in a box in your browser, and it cleverly finds LaTeX matches!</p></li>
 </ul>
 <p><strong>The symbol bible</strong></p>
 <ul>
-<li><p>Scott Pakin’s wonderful&nbsp;<a href="https://www.ctan.org/tex-archive/info/symbols/comprehensive/?lang=en">Comprehensive LaTeX Symbol List</a>– now a mere 20000+ to choose from. For example, consult the index for</p>
-<ul>
-<li><p>“definite description” for two solutions for an inverted iota definite description operator (or a slight tweak is to put <code>\usepackage{kpfonts}</code> in the preamble and then use <code>{\text{\rotatebox[origin=c]{180}{$\iotaup$}}</code>).</p></li>
-<li><p>“par” for inverted “&amp;” for linear logicians.</p></li>
-<li><p>“iddots” for&nbsp;<a href="https://www.ctan.org/pkg/mathdots?lang=en">mathdots</a> command to get three dots going up from south-west to north-east.</p></li>
-<li><p>“alphabets, math” for more alphabets for symbols [in particular, note the package mathrsfs which provides script capitals]..</p></li>
-</ul></li>
+<li>Scott Pakin’s wonderful&nbsp;<a href="https://www.ctan.org/tex-archive/info/symbols/comprehensive/?lang=en">Comprehensive LaTeX Symbol List</a> – now offers a mere 20000+ symbols to choose from.</li>
 </ul>
 <p><strong>Special symbol solutions</strong></p>
 <ul>
-<li><p><em>Negation</em>: To use old-style “~” for negation, define a command such as <code>\oldneg"</code> in the preamble &nbsp;by <code>\newcommand*{\oldneg}{\mathord{\sim}}</code>. (NB The <code>\sim</code> symbol is pre-defined as a relation symbol and writing <code>$\sim P$</code> will produce an unwanted space between the symbols, while <code>$\oldneg P$</code>will now, as wanted, produce <span class="math inline">\(\sim\!\!P\)</span>.)</p></li>
-<li><p><em>Corner quotes</em>: A page on how to set&nbsp;<a href="../latex-for-logicians/corner-quotes.html">corner quotes</a>&nbsp;(e.g.&nbsp;for Gödel numbers) at the right height (Sam Buss, Heiko Oberdiek).</p></li>
-<li><p><em>Double square brackets</em> (indicating semantic evaluation): “” and “” are in the stmaryrd package, so you can use them by putting <code>\usepackage{stmaryrd}</code> in the preamble.</p></li>
-<li><p><em>More conditionals</em>: e.g.&nbsp;the “strictif” for the fish-hook sign for strict implication, “boxright” for Lewis’s symbol for the counterfactual, and other Lewisian symbols. These are part of the txfonts and pxfonts packages, which are intended for use with the Times Roman and Palatino fonts, respectively. But (thanks to Richard Zach for this), you can access them e.g.&nbsp;while still using Computer Modern by having the txfont package available and putting this in the preamble to declare the commands <code>\strictif</code> and <code>\boxright</code>:</p>
+<li><p><em>Negation</em>: To use old-style “~” for negation, define a command such as <code>\oldneg"</code> in the preamble &nbsp;by <code>\newcommand*{\oldneg}{\mathord{\sim}}</code>.</p></li>
+<li><p><em>Corner quotes</em>: Here’s a page on how to set&nbsp;<a href="../latex-for-logicians/corner-quotes.html">corner quotes</a>&nbsp;(e.g.&nbsp;for Gödel numbers) at the right height.</p></li>
+<li><p><em>Double square brackets</em> (indicating semantic evaluation): <code>\llbracket</code> and <code>\rrbracket</code> are in the stmaryrd package, so you can use them by putting <code>\usepackage{stmaryrd}</code> in the preamble.</p></li>
+<li><p><em>More conditionals</em>: A “strictif” for the fish-hook sign for strict implication, “boxright” for Lewis’s symbol for the counterfactual, and other Lewisian symbols, are part of the txfonts and pxfonts packages. You can access them while still using Computer Modern by having the txfont package available and putting this in the preamble to declare the commands <code>\strictif</code> and <code>\boxright</code>:</p>
 <pre><code>\DeclareSymbolFont{symbolsC}{U}{txsyc}{m}{n}
 \DeclareMathSymbol{\strictif}{\mathrel}{symbolsC}{74}
-\DeclareMathSymbol{\boxright}{\mathrel}{symbolsC}{128}
-\DeclareMathSymbol{\boxRight}{\mathrel}{symbolsC}{136} % 'would' 
-\DeclareMathSymbol{\diamondRight}{\mathrel}{symbolsC}{140} % 'might'
-\DeclareMathSymbol{\diamonddot}{\mathord}{symbolsC}{144} </code></pre>
-<p>Similarly of course for invoking other symbols you want. To get the number for a symbol to use with you can use AI.</p></li>
+\DeclareMathSymbol{\boxright}{\mathrel}{symbolsC}{128}</code></pre>
+<p>Similarly of course for invoking other symbols you want. To get the slot number for a txfonts symbol to use with you can simply use AI.</p></li>
 <li><p><em>A triple turnstile</em> to match the usual single and double turnstiles? &nbsp;A <a href="https://tex.stackexchange.com/questions/502411/triple-turnstile-symbol/502415#502415">solution here</a>.</p></li>
-<li><p><em>Other turnstiles</em>: For constructing a considerable variety of turnstile symbol, there is a dedicated&nbsp;<a href="https://www.ctan.org/pkg/turnstile?lang=en">turnstile</a> package.&nbsp; &nbsp; <em>Updated 3 June 2026</em></p></li>
+<li><p><em>Other turnstiles</em>: For constructing a considerable variety of turnstile symbols, there is a dedicated&nbsp;<a href="https://www.ctan.org/pkg/turnstile?lang=en">turnstile</a> package.&nbsp;</p></li>
+<li><p><em>Branching quantifiers</em>: Use the pmatrix structure available in amsmath package, <a href="../latex-for-logicians/pdfs/branching2.pdf">illustrated here</a>.</p></li>
+</ul>
+<p><strong>Back to Frege</strong></p>
+<ul>
+<li><p><a href="https://ctan.org/pkg/frege">frege.sty</a> is based on the old begriff.sty pack­age for setting Begriffsschrift-style symbolism, and of­fers a num­ber of im­prove­ments.</p></li>
+<li><p><a href="https://ctan.org/pkg/grundgesetze">grundgesetze.sty</a> provides com­mands for type­set­ting Got­t­lob Frege’s con­cept-script in the style of his “Grundge­setze der Arith­metik” &nbsp;</p>
+<p>
+</p>
+<p><em>Updated 4 June 2026</em></p></li>
 </ul>
 
 

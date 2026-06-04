@@ -5,49 +5,49 @@ format:
   html:
     include-before-body: _lfl-nav.html
 ---
+NB: The [AMS LaTeX page](https://www.ams.org/arc/resources/amslatex-about.html) tells you about some key standard packages, including the ams symbols packag. And [mathtools.sty](https://www.ctan.org/pkg/mathtools) adds possibly useful functionality. 
+
 
 **Basics on symbols**
 
-- Here’s a [minimal list of common symbols and the Greek alphabet](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols). (You will find a lot of useful information from the sidebar of this Overleaf site.)
+- Here’s a [minimal list of common symbols and the Greek alphabet](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols). (You will find a lot of other useful information from the sidebar of this Overleaf site.)
 
-- The [AMS LaTeX page](https://www.ams.org/arc/resources/amslatex-about.html) tells you about some key standard packages, including the ams symbols package: [mathtools.sty](https://www.ctan.org/pkg/mathtools) adds possibly useful functionality. Consult the [AMS short guide to maths setting](http://tug.ctan.org/info/short-math-guide/short-math-guide.pdf) for lots of basic symbols. 
+- Consult the old [AMS short guide to maths setting](http://tug.ctan.org/info/short-math-guide/short-math-guide.pdf) for lots of basic symbols. 
 
 - A quick way of finding symbols is provided by [Detexify](http://detexify.kirelabs.org/classify.html) -- you draw a symbol in a box in your browser, and it cleverly finds LaTeX matches!
 
 **The symbol bible**
 
-- Scott Pakin's wonderful [Comprehensive LaTeX Symbol List](https://www.ctan.org/tex-archive/info/symbols/comprehensive/?lang=en)-- now a mere 20000+ to choose from. For example, consult the index for
-
-    - "definite description" for two solutions for an inverted iota definite description operator (or a slight tweak is to put `\usepackage{kpfonts}` in the preamble and then use `{\text{\rotatebox[origin=c]{180}{$\iotaup$}}`).
-
-    - "par" for inverted "&" for linear logicians.
-
-    - "iddots" for [mathdots](https://www.ctan.org/pkg/mathdots?lang=en) command to get three dots going up from south-west to north-east.
-
-    - "alphabets, math" for more alphabets for symbols [in particular, note the package mathrsfs which provides script capitals]..
+- Scott Pakin's wonderful [Comprehensive LaTeX Symbol List](https://www.ctan.org/tex-archive/info/symbols/comprehensive/?lang=en) -- now offers a mere 20000+ symbols to choose from. 
 
 **Special symbol solutions**
 
-- *Negation*: To use old-style "~" for negation, define a command such as `\oldneg"` in the preamble  by `\newcommand*{\oldneg}{\mathord{\sim}}`. (NB The `\sim` symbol is pre-defined as a relation symbol and writing `$\sim P$` will produce an unwanted space between the symbols, while `$\oldneg P$`will now, as wanted, produce $\sim\!\!P$.)
+- *Negation*: To use old-style "~" for negation, define a command such as `\oldneg"` in the preamble  by `\newcommand*{\oldneg}{\mathord{\sim}}`.
 
-- *Corner quotes*: A page on how to set [corner quotes](corner-quotes.qmd) (e.g. for Gödel numbers) at the right height (Sam Buss, Heiko Oberdiek).
+- *Corner quotes*: Here's a page on how to set [corner quotes](corner-quotes.qmd) (e.g. for Gödel numbers) at the right height.
 
- - *Double square brackets* (indicating semantic evaluation): "\llbracket"  and "\rrbracket" are in the stmaryrd package, so you can use them by putting `\usepackage{stmaryrd}` in the preamble. 
+ - *Double square brackets* (indicating semantic evaluation): `\llbracket`  and `\rrbracket` are in the stmaryrd package, so you can use them by putting `\usepackage{stmaryrd}` in the preamble. 
 
-- *More conditionals*: e.g. the "strictif" for the fish-hook sign for strict implication, "boxright" for Lewis's symbol for the counterfactual, and other Lewisian symbols. These are part of the txfonts and pxfonts packages, which are intended for use with the Times Roman and Palatino fonts, respectively. But (thanks to Richard Zach for this), you can access them e.g. while still using Computer Modern by having the txfont package available and putting this in the preamble to declare the commands `\strictif` and `\boxright`:
+- *More conditionals*:  A "strictif" for the fish-hook sign for strict implication, "boxright" for Lewis's symbol for the counterfactual, and other Lewisian symbols, are part of the txfonts and pxfonts packages. You can access them while still using Computer Modern by having the txfont package available and putting this in the preamble to declare the commands `\strictif` and `\boxright`:
 
     ```
     \DeclareSymbolFont{symbolsC}{U}{txsyc}{m}{n}
     \DeclareMathSymbol{\strictif}{\mathrel}{symbolsC}{74}
     \DeclareMathSymbol{\boxright}{\mathrel}{symbolsC}{128}
-    \DeclareMathSymbol{\boxRight}{\mathrel}{symbolsC}{136} % 'would' 
-    \DeclareMathSymbol{\diamondRight}{\mathrel}{symbolsC}{140} % 'might'
-    \DeclareMathSymbol{\diamonddot}{\mathord}{symbolsC}{144} 
    ```
-Similarly of course for invoking other symbols you want. To get the number for a symbol to use with \DeclarMathSymbol you can use AI.
+Similarly of course for invoking other symbols you want. To get the slot number for a txfonts symbol to use with \DeclarMathSymbol you can simply use AI.
 
 - *A triple turnstile* to match the usual single and double turnstiles?  A [solution here](https://tex.stackexchange.com/questions/502411/triple-turnstile-symbol/502415#502415).
 
-- *Other turnstiles*: For constructing a considerable variety of turnstile symbol, there is a dedicated [turnstile](https://www.ctan.org/pkg/turnstile?lang=en) package. 
+- *Other turnstiles*: For constructing a considerable variety of turnstile symbols, there is a dedicated [turnstile](https://www.ctan.org/pkg/turnstile?lang=en) package. 
+
+- *Branching quantifiers*: Use the pmatrix structure available in amsmath package, [illustrated here](../latex-for-logicians/pdfs/branching2.pdf).
+
+**Back to Frege**
+
+- [frege.sty](https://ctan.org/pkg/frege) is based on the old begriff.sty pack­age for setting Begriffsschrift-style symbolism, and of­fers a num­ber of im­prove­ments.
+
+- [grundgesetze.sty](https://ctan.org/pkg/grundgesetze) provides com­mands for type­set­ting Got­t­lob Frege’s con­cept-script in the style of his “Grundge­setze der Arith­metik”
  
-*Updated 3 June 2026*
+<p></p>
+*Updated 4 June 2026*

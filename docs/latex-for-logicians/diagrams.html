@@ -146,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 <div id="lfl-nav">
-<p><a href="../index.html">⇧</a>&nbsp;·&nbsp;<a href="index.html">LaTeX</a>&nbsp;·&nbsp;<a href="symbols.html">SYMBOLS</a>&nbsp;·&nbsp;<a href="nd.html">PROOFS</a>&nbsp;·&nbsp;<a href="trees.html">TREES</a>&nbsp;·&nbsp;<a href="diagrams.html">DIAGRAMS</a>&nbsp;·&nbsp;<a href="classroom.html">CLASS</a>&nbsp;·&nbsp;<a href="miscellany.html">MISC</a>&nbsp;·&nbsp;<a href="fonts.html">FONTS</a></p>
+<p><a href="../index.html">⇧</a>&nbsp;·&nbsp;<a href="index.html">LaTeX</a>&nbsp;·&nbsp;<a href="symbols.html">SYMBOLS</a>&nbsp;·&nbsp;<a href="nd.html">PROOFS</a>&nbsp;·&nbsp;<a href="trees.html">TREES</a>&nbsp;·&nbsp;<a href="diagrams.html">DIAGRAMS</a>&nbsp;·&nbsp;<a href="varia.html">VARIA</a></p>
 </div>
 <script>
 window.addEventListener('load', function () {
@@ -177,32 +177,34 @@ window.addEventListener('load', function () {
 </header>
 
 
-<p><strong>General-purpose packages for drawing diagrams</strong></p>
+<section id="general-purpose-packages-for-drawing-diagrams" class="level3">
+<h3 class="anchored" data-anchor-id="general-purpose-packages-for-drawing-diagrams">General-purpose packages for drawing diagrams</h3>
 <ul>
-<li><p><a href="https://ctan.org/pkg/pgf">pgf and TikZ</a>(Till Tantau 2005–16, now The PGF/TikZ Team): a general TeX macro package for generating graphics, with a user-friendly syntax layer called TikZ.</p></li>
-<li><p><a href="http://www.tug.org/applications/Xy-pic/">XY-pic</a> (Kristoffer Rose and Ross Moore 1991–2013; extremely powerful and versatile: there’s a chapter on this in&nbsp;<em><a href="http://www.amazon.com/exec/obidos/tg/detail/-/0201854694/qid=1089801075/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/103-8930024-8299019?v=glance&amp;s=books&amp;n=507846">The LaTeX Graphics Companion</a></em>)</p></li>
+<li><strong><a href="https://ctan.org/pkg/pgf">pgf and TikZ</a></strong>: The modern standard for generating vector graphics natively in LaTeX. It uses an intuitive syntax layer (TikZ) and is capable of drawing everything from simple graphs to complex geometric figures.</li>
+<li><strong><a href="http://www.tug.org/applications/Xy-pic/">XY-pic</a></strong>: A powerful legacy alternative. While exceptionally versatile, its syntax is famously dense and cryptic compared to TikZ. There is an extensive chapter detailing its use in <em>The LaTeX Graphics Companion</em>.</li>
 </ul>
-<p><strong>Diagrams for modal logicians</strong></p>
+</section>
+<section id="diagrams-for-modal-logicians-kripke-frames-etc." class="level3">
+<h3 class="anchored" data-anchor-id="diagrams-for-modal-logicians-kripke-frames-etc.">Diagrams for modal logicians (Kripke frames etc.)</h3>
 <ul>
-<li><p><a href="http://www.actual.world/resources/tex/doc/TikZ.pdf">A Quick TikZ Guide for Modal Logicians</a> (Alex Kocurek, 2020)</p></li>
-<li><p><a href="https://github.com/rzach/ptolemaic-astronomy">Diagrams of sphere models for variably strict conditionals</a> (Richard Zach 2018)</p></li>
+<li><strong><a href="http://www.actual.world/resources/tex/doc/TikZ.pdf">A Quick TikZ Guide for Modal Logicians</a></strong> (Alex Kocurek): A tutorial on how to use TikZ specifically for drawing Kripke frames, accessibility relations, etc.</li>
+<li><strong><a href="https://github.com/rzach/ptolemaic-astronomy">Diagrams of sphere models for variably strict conditionals</a></strong> (Richard Zach): Offers TikZ templates for drawing Lewis-style sphere semantics.</li>
 </ul>
-<p><strong>Commutative diagrams for &nbsp;category theory</strong></p>
-<p>There is a useful <a href="http://www.jmilne.org/not/CDGuide.pdf">Guide to commutative diagrams packages</a>&nbsp;(J.S. Milne). But the headline recommendations are</p>
+</section>
+<section id="commutative-diagrams-for-category-theory" class="level3">
+<h3 class="anchored" data-anchor-id="commutative-diagrams-for-category-theory">Commutative diagrams for category theory</h3>
+<p>For an extensive historical overview, see J.S. Milne’s <a href="http://www.jmilne.org/not/CDGuide.pdf">Guide to commutative diagrams packages</a>. However, the undisputed modern standard is:</p>
 <ul>
-<li><p><a href="http://www.paultaylor.eu/diagrams/">diagrams.tex</a> (Paul Taylor 1986–2019), classic macros: much used and usually highly rated – though not so much by Milne – for drawing simple or very complicated commutative diagrams for category theory.</p></li>
-<li><p><a href="http://www.ctan.org/pkg/tikz-cd">tikz-cd</a> (Florencio Neves, Augusto Stoffel 2012–21). This package facilitates the creation of commutative diagrams in TikZ by providing a convenient set of macros and reasonable default settings. This is what I use: but (a TikZ issue, I believe) a diagram-heavy document can be slow to generate a PDF: you might want to investigate and use the “memoize” package so that (unchanged) diagrams are not re-processed every time you re-typeset your document, considerably speeding things up.</p></li>
+<li><strong><a href="http://www.ctan.org/pkg/tikz-cd">tikz-cd</a></strong>: This package simplifies the creation of commutative diagrams by layering a convenient syntax over TikZ. It delivers beautiful default spacing and arrow styles out of the box.</li>
 </ul>
-<p><strong>Other resources</strong></p>
+<p>Because TikZ must calculate complex vector paths, diagram-heavy documents can slow down compilation significantly. To fix this, try pairing it with the <strong><a href="https://ctan.org/pkg/memoize">memoize</a></strong> package. <code>memoize</code> automatically caches compiled graphics, meaning unchanged diagrams aren’t re-processed every time you typeset, speeding up your workflow.</p>
 <ul>
-<li><p><a href="http://www.essex.ac.uk/linguistics/external/clmt/latex4ling/">Tree drawing in LaTeX</a> (from LaTeX for Linguists)</p></li>
-<li><p>The <a href="http://www.ctan.org/pkg/semantic">semantics</a> package supplies T-diagrams and other resources.</p></li>
-<li><p><a href="http://angg.twu.net/dednat6.html">Dednat</a> (Eduardo Ochs, 2019) processes proofs or diagrams written without markup, using LuaLaTeX.</p></li>
-<li><p><a href="https://ctan.org/pkg/logix">The logix package</a>&nbsp;(Michael Finney 2001-2022) provides knot symbols for constructing knot diagrams.</p></li>
+<li><strong><a href="http://www.paultaylor.eu/diagrams/">diagrams.tex</a></strong> (Paul Taylor): A classic macro package for drawing commutative diagrams. While highly rated in the past, it has been almost entirely superseded by <code>tikz-cd</code> in modern LaTeX workflows.</li>
 </ul>
-<p><em>Checked 9 October 2024</em></p>
+<p><em>Updated 4 June 2026</em></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <div id="site-footer">

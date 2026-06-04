@@ -1,0 +1,61 @@
+---
+title: "Varia"
+page-layout: article
+format:
+  html:
+    include-before-body: _lfl-nav.html
+---
+
+Assorted resources which may be of interest to logicians using LaTeX.
+
+### Theorems and proofs
+
+- [amsthm.sty](https://ctan.org/pkg/amsthm) (the theorem setup of the AMS document classes amsart, amsbook, etc., in stand-alone package form, which should be in any LaTeX distribution) defines environments which are much more configurable than the basic LaTeX 'theorem' environment. There's [a description here](https://ctan.org/pkg/amscls).
+
+- [ntheorem.sty](http://www.ctan.org/pkg/ntheorem)  is another, even more flexible, package for customizing theorem layouts.
+
+- The [thmtools bundle](https://ctan.org/pkg/thmtools) contains a number of useful packages. In particular, it provides athm-restate.sty which allows you to label a theorem and then restate it later (with the same number).
+
+
+
+### Problem sets and exercise sheets
+
+- [probsoln.sty](https://www.ctan.org/pkg/probsoln?lang=en): simple package for generating problems sheets -- and answer sheets -- by selecting from problems and solutions defined in another file.
+
+- [exam.sty](http://www.ctan.org/tex-archive/macros/latex/contrib/exam): a nice option if you want to maintain a single document which, with a single toggle,  both prints a preamble-and-exercises set, and a set of exercises-and-solutions.
+
+- [xsim.sty](https://ctan.org/pkg/xsim) is another option for creating exercises and the corresponding solutions, probably with more features that you will ever need.
+
+
+
+### Fonts!
+
+You can fritter away an inordinate amount of time deciding what combinations of fonts and what page layouts to use for longer documents. So read on at your peril ...!
+
+**Enhancements to Computer Modern**
+
+There really is a lot to be said for sticking to the tried and tested LaTeX default font family, Computer Modern. However, it does have to be acknowledged that the Type 1 Postscript implementation of the font is not entirely true to Donald Knuth’s original design, and can produce rather too light-weight a look to the printed page. Two solutions:
+
+- The [mlmodern package](https://ctan.org/pkg/mlmodern?lang=en) provides a better implementation, avoiding the spindliness of most other Type 1 versions of Computer Modern. This works with LaTeX.
+
+- Using the default option of the [fontsetup package](https://ctan.org/pkg/fontsetup?lang=en) will provide a ‘Book’ weight version of Computer Modern, slightly heavier than the familiar default. The package also provides a number of other font options -- but since it is working with Unicode OpenType versions, you will need to use the XeLaTeX engine or similar.
+
+**Other fonts?** 
+
+Of course, XeLaTeX and LuaLaTeX can handle any OpenType font you want. But here we are mostly concerned with the limited number of fonts which play nicely with suitably matching symbol fonts in standard LaTeX, of which a significant number are freely available.
+
+- NB [newtx](https://ctan.org/pkg/newtx): For standard LaTeX users who want an alternative to Computer Modern, `newtxtext` and `newtxmath` bundle provides professional-level Times-style typography with complete mathematical symbol coverage.
+
+- This page from TUG (the Tex Users Group) lists [LaTeX fonts with maths support](https://tug.org/FontCatalogue/mathfonts.html). Click on the individual fonts for more info.
+
+- For additional comments, see these pages about [Choice of Type 1 fonts for typesetting Maths](https://texfaq.org/FAQ-psfchoice) and [Unicode maths using OpenType fonts](https://texfaq.org/FAQ-otf-maths).
+
+- A now rather old survey of [free maths fonts for LaTeX](https://ctan.org/pkg/free-math-font-survey) is still worth consulting.
+
+- See also the later [recent LaTeX fonts](http://math.ucsd.edu/~msharpe/RecentTexFonts.pdf).
+
+- Finally, there is then an extensive links page [Fonts for mathematics](http://luc.devroye.org/math.html) (Luc Devroye, 2014-2024).
+
+*Updated 4 June 2026*
+
+
