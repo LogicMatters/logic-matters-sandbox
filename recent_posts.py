@@ -38,10 +38,10 @@ for fname in os.listdir(blog_dir):
             "slug": fname[:-4],
         })
 
-posts.sort(key=lambda p: p["date"])
+posts.sort(key=lambda p: p["date"], reverse=True)
 
 parts = []
-for post in posts[:3]:
+for post in posts[:3][::-1]:
     dt = datetime.strptime(post["date"], "%Y-%m-%d")
     date_fmt = dt.strftime("%-d %B %Y")
     parts.append(f"[{post['title']}](blog/{post['slug']}.qmd) ({date_fmt})")
