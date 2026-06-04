@@ -10,24 +10,29 @@ format:
 
 It is standard to use corner quotes in denoting Gödel numbers. The simple way of setting corner quotes in LaTeX is as follows:
 
-$\ulcorner\phi\urcorner$ is the G\"odel number of $\phi$.
+> `$\ulcorner\phi\urcorner$ is the G\"odel number of $\phi$.`
 
-This usually works just fine. But suppose (to follow another standard convention) that we also use corner quotes round a (metalinguistic) designator for *n* to signify the Gödel number for the standard formal numeral for the number *n*. So ...
+This usually works just fine, to give
 
-$\ulcorner 2^2 \urcorner = \ulcorner \mathsf{SSSS0} \urcorner$
+> $\ulcorner\phi\urcorner$ is the Gödel number of $\phi$.
+
+But suppose (to follow another standard convention) that we also use corner quotes round a (metalinguistic) designator for *n* to signify the Gödel number for the standard formal numeral for the number *n*. So ...
+
+> $\ulcorner 2^2 \urcorner = \ulcorner \mathsf{SSSS0} \urcorner$
 
 The setting of the corner quotes on the left of the equation is ugly. We'd like to raise them to the height of the exponent.
 
-And if we need to set a lot of corner-quoted expressions, we'd also like to define a snappier command to cut down keystrokes. So, we'd *like *to be able to type something like below to get the result displayed.
+And if we need to set a lot of corner-quoted expressions, we'd also like to define a snappier command to cut down keystrokes. So, we'd *like *to be able to type something like below to get a nice result.
 
-$\Godelnum{2^2} = \Godelnum{\mathsf{SSSS0}}$
+> `$\Godelnum{2^2} = \Godelnum{\mathsf{SSSS0}}$`
 
 ---
 
-**2. One solution**
+**2. The solution**
 
-Use Sam Buss's nice macro. Simply paste into your document preamble the following:
+Use Sam Buss's nice macro defining `\Godelnum` (change the name to taste!). Simply paste into your document preamble the following:
 
+```
 \newbox\gnBoxA
 \newdimen\gnCornerHgt
 \setbox\gnBoxA=\hbox{$\ulcorner$}
@@ -36,50 +41,22 @@ Use Sam Buss's nice macro. Simply paste into your document preamble the followi
 \def\Godelnum #1{%
 \setbox\gnBoxA=\hbox{$#1$}%
 \gnArgHgt=\ht\gnBoxA%
-\ifnum     \gnArgHgt
-
+\ifnum     \gnArgHgt<\gnCornerHgt \gnArgHgt=0pt%
+\else \advance \gnArgHgt by -\gnCornerHgt%
+\fi \raise\gnArgHgt\hbox{$\ulcorner$} \box\gnBoxA %
+\raise\gnArgHgt\hbox{$\urcorner$}}
+```
 Exactly as we wanted, in math mode,
 
-> \Godelnum{...}
+> `$\Godelnum{...}$`
 
-sets the contents of the brackets between corner quotes (positioned so their top edges are level with the top of the box containing the contents).
+sets the contents of the brackets between corner quotes, now positioned so their top edges are level with the top of the box containing the contents.
+
+![](../images/godelquotes.jpg) 
+
 
 When single letters or symbols are to be set in corner quotes, you can of course drop the brackets, thus
 
-> \Godelnum A, \Godelnum \phi, ...
+> `$\Godelnum A$, $\Godelnum \phi$, ...`
 
-**3. Another solution**
-
-An alternative solution is proposed [here](https://tex.stackexchange.com/questions/109390/typesetting-quine-quotes) by Heiko Oberdiek, and has been recommended as giving preferable spacing.  Putting it together with a check whether MnSymbol is already loaded and adding a different definition of the command \Godelnum (thanks to Peter Gerdes) we get:
-
-\makeatletter
-\RequirePackage{ltxcmds}
-\ltx@ifpackageloaded{MnSymbol}{}{
-\DeclareFontFamily{OMX}{MnSymbolE}{}
-\DeclareSymbolFont{MnLargeSymbols}{OMX}{MnSymbolE}{m}{n}
-\SetSymbolFont{MnLargeSymbols}{bold}{OMX}{MnSymbolE}{b}{n}
-\DeclareFontShape{OMX}{MnSymbolE}{m}{n}{
- MnSymbolE5
- MnSymbolE6
- MnSymbolE7
- MnSymbolE8
- MnSymbolE9
- MnSymbolE10
- MnSymbolE12
-}{}
-\DeclareFontShape{OMX}{MnSymbolE}{b}{n}{
- MnSymbolE-Bold5
- MnSymbolE-Bold6
- MnSymbolE-Bold7
- MnSymbolE-Bold8
- MnSymbolE-Bold9
- MnSymbolE-Bold10
- MnSymbolE-Bold12
-}{}
-\DeclareMathDelimiter{\ulcorner}
-{\mathopen}{MnLargeSymbols}{'036}{MnLargeSymbols}{'036}
-\DeclareMathDelimiter{\urcorner}
-{\mathclose}{MnLargeSymbols}{'043}{MnLargeSymbols}{'043}
-}
-\newcommand*{\Godelnum}[1]{\left\ulcorner #1 \right\urcorner}
-\makeatother
+*Updated 3 June 2026*

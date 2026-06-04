@@ -208,27 +208,48 @@ window.addEventListener('load', function () {
 
 <p><strong>1. The problem</strong></p>
 <p>It is standard to use corner quotes in denoting Gödel numbers.&nbsp;The simple way of setting corner quotes in LaTeX is as follows:</p>
-<p><span class="math inline">\(\ulcorner\phi\urcorner\)</span> is the G"odel number of <span class="math inline">\(\phi\)</span>.</p>
-<p>This usually works just fine. But suppose (to follow another standard&nbsp;convention) that we also use corner quotes round a (metalinguistic) designator&nbsp;for <em>n</em> to signify the Gödel number for the standard formal numeral&nbsp;for the number <em>n</em>. So …</p>
+<blockquote class="blockquote">
+<p><code>$\ulcorner\phi\urcorner$ is the G\"odel number of $\phi$.</code></p>
+</blockquote>
+<p>This usually works just fine, to give</p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\ulcorner\phi\urcorner\)</span> is the Gödel number of <span class="math inline">\(\phi\)</span>.</p>
+</blockquote>
+<p>But suppose (to follow another standard&nbsp;convention) that we also use corner quotes round a (metalinguistic) designator&nbsp;for <em>n</em> to signify the Gödel number for the standard formal numeral&nbsp;for the number <em>n</em>. So …</p>
+<blockquote class="blockquote">
 <p><span class="math inline">\(\ulcorner 2^2 \urcorner = \ulcorner \mathsf{SSSS0} \urcorner\)</span></p>
+</blockquote>
 <p>The setting of the corner quotes on the left of the equation is&nbsp;ugly. We’d like to raise them to the height of the exponent.</p>
-<p>And if we need to set a lot of corner-quoted expressions, we’d&nbsp;also like to define a snappier command to cut down keystrokes. So, we’d <em>like </em>to be able to type something like below to get the result displayed.</p>
-<p><span class="math inline">\(\Godelnum{2^2} = \Godelnum{\mathsf{SSSS0}}\)</span></p>
+<p>And if we need to set a lot of corner-quoted expressions, we’d&nbsp;also like to define a snappier command to cut down keystrokes. So, we’d <em>like </em>to be able to type something like below to get a nice result.</p>
+<blockquote class="blockquote">
+<p><code>$\Godelnum{2^2} = \Godelnum{\mathsf{SSSS0}}$</code></p>
+</blockquote>
 <hr>
-<p><strong>2. One solution</strong></p>
-<p>Use Sam Buss’s nice macro. Simply paste into your document&nbsp;preamble the following:</p>
-<p>= \global= \def#1{% =% =% &nbsp; &nbsp; </p>
+<p><strong>2. The solution</strong></p>
+<p>Use Sam Buss’s nice macro defining <code>\Godelnum</code> (change the name to taste!). Simply paste into your document&nbsp;preamble the following:</p>
+<pre><code>\newbox\gnBoxA
+\newdimen\gnCornerHgt
+\setbox\gnBoxA=\hbox{$\ulcorner$}
+\global\gnCornerHgt=\ht\gnBoxA
+\newdimen\gnArgHgt
+\def\Godelnum #1{%
+\setbox\gnBoxA=\hbox{$#1$}%
+\gnArgHgt=\ht\gnBoxA%
+\ifnum     \gnArgHgt&lt;\gnCornerHgt \gnArgHgt=0pt%
+\else \advance \gnArgHgt by -\gnCornerHgt%
+\fi \raise\gnArgHgt\hbox{$\ulcorner$} \box\gnBoxA %
+\raise\gnArgHgt\hbox{$\urcorner$}}</code></pre>
 <p>Exactly as we wanted, in math mode,</p>
 <blockquote class="blockquote">
-
+<p><code>$\Godelnum{...}$</code></p>
 </blockquote>
-<p>sets the contents of the brackets between corner quotes (positioned so their top edges are level with the top of the box containing the contents).</p>
+<p>sets the contents of the brackets between corner quotes, now positioned so their top edges are level with the top of the box containing the contents.</p>
+<p><img src="../images/godelquotes.jpg" class="img-fluid"></p>
 <p>When single letters&nbsp;or symbols are to be set in corner quotes, you can of course drop the brackets,&nbsp;thus</p>
 <blockquote class="blockquote">
-<p>A, , …</p>
+<p><code>$\Godelnum A$, $\Godelnum \phi$, ...</code></p>
 </blockquote>
-<p><strong>3. Another solution</strong></p>
-<p>An alternative solution is proposed <a href="https://tex.stackexchange.com/questions/109390/typesetting-quine-quotes">here</a> by Heiko Oberdiek, and has been recommended as giving preferable spacing. &nbsp;Putting it together with a check whether MnSymbol is already loaded and adding a different definition of the command (thanks to Peter Gerdes) we get:</p>
+<p><em>Updated 3 June 2026</em></p>
 
 
 

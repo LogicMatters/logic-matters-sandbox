@@ -6,7 +6,7 @@ format:
     include-before-body: _lfl-nav.html
 ---
 
-There is a wealth of general material available online about LaTeX (and AI assistants can now offer invaluable help too). But perhaps there is still a role for some pages assembling links to specific resources of particular interest to logicians, philosophers and others using LaTeX.
+These LaTeX for Logicians pages started life in 2004, before there was such a wealth of general material available online about LaTeX. Internet searches -- and AI assistants -- can now give all the information and help you could need. But perhaps there is still a small role for some pages assembling selected links to specific resources of particular interest to logicians using LaTeX. 
 
 - *[Logic symbols](symbols.qmd)*. Lists of available logic and other symbols.
 
@@ -22,4 +22,4 @@ There is a wealth of general material available online about LaTeX (and AI assis
 
 - *[Fonts, etc.](fonts.qmd)* Links to additional information about fonts suitable for texts with a substantial amount of maths/symbols. Also a note on resources for long documents.
 
-LaTeX for Logicians started mid 2004: thanks to all the contributors over the years! Suggestions for relevant additions always most welcome.
+Thanks to all the contributors to LaTeX for Logicians over the years! I don't aim to be completist, but suggestions for relevant additions arealways welcome.
