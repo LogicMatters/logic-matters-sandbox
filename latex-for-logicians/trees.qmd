@@ -14,7 +14,7 @@ A very flexible modern package, allowing you also to add line numbers (if you wa
 
 Here's an example of its output, taken from the package documentation, and there are simpler examples in my document:
 
-![](../images/prooftrees.jpg)
+![](../images/prooftrees.jpg){.img-half}
 
 
 Because of issues with the complex packages that prooftrees.sty invokes, a document with many trees does become slow to typeset. However you can use the "memoize" package so that (unchanged) diagrams are not re-processed every time you re-typeset your document, considerably speeding things up.

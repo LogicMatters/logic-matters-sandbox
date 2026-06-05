@@ -1,5 +1,12 @@
 /* css styles */
 
+.img-half {
+  display: block;
+  width: 425px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 .navbar-title {
   font-size: 2.1rem;
   font-weight: bold;
