@@ -8,6 +8,7 @@ project:
 website:
   description: "Logic, philosophy of mathematics, and related topics."
   site-url: https://logicmatters.net  # you must change this appropriately for RSS feeds to work properly
+  google-analytics: G-NJWC5RLRWV
   title: "Logic Matters"
   navbar:
     left:
