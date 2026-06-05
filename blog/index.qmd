@@ -14,6 +14,6 @@ listing:
   filter-ui: false   # Hides the search bar
 ---
 
-*Welcome to the new-style blog. Click on a title to see the full post.*
+*Click on a title to see the full post. RSS feed: https://logicmatters.net/blog/index.xml *
 
 <hr>
