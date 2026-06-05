@@ -4,8 +4,8 @@ project:
   pre-render: recent_posts.py
 
 website:
-  description: "A blog built with Quarto"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
+  description: "Logic, philosophy of mathematics, and related topics."
+  site-url: https://logicmatters.net  # you must change this appropriately for RSS feeds to work properly
   title: "Logic Matters"
   navbar:
     left:
@@ -28,6 +28,8 @@ website:
         href: about.qmd
       - icon: bluesky
         href: https://bsky.app/profile/logicmatters.bsky.social
+      - icon: rss
+        href: /blog/index.xml
 format:
   html:
     theme: cosmo

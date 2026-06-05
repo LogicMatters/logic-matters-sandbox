@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Logic Matters</title>
+<link>https://logicmatters.net/blog/</link>
+<atom:link href="https://logicmatters.net/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Logic, philosophy of mathematics, and related topics.</description>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Wed, 03 Jun 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>A new hardback!</title>
+  <link>https://logicmatters.net/blog/new-hardback.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://logicmatters.net/books/book-covers/SmithICT.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;"></p>
+<p>As promised, a hardback of <em>Introducing Category Theory</em> was published on June 1st, and is beginning to appear listed on booksellers’ online sites – search with the ISBN 106834671X.</p>
+<p>It looks pleasing enough, though the Amazon-only paperback is if anything nicer. But the hardback is intended for libraries.</p>
+<p>Yes, of course, the book is freely available online. But many do find working from a five hundred page PDF irksome, and much prefer a physical book. So do please ask your local university library to order to a copy (it certainly won’t dent their budgets too much, being listed at $35, £31.50, etc.).</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/new-hardback.html</guid>
+  <pubDate>Wed, 03 Jun 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>New version website</title>
+  <link>https://logicmatters.net/blog/new-version-website.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I said a week or so ago that I was going to investigate moving the Logic Matters website from its current expensively hosted Wordpress incarnation to a (slimmer?) version hosted for free on GitHub. With a lot of help from Gemini and Claude I have a working version up and running, which you are now reading! Check it out: all comments most welcome. I will no doubt tinker with the look and feel of the pages, but for a minimalist first attempt, I am pretty pleased.</p>
+<hr>
+<p>As you will see, I have only transferred this year’s blog posts from the old Wordpress site to this new site. So one major task that remains to be done is to archive whatever not-yet-archived old posts seem worth preserving.</p>
+<p>Another task is to update the LaTeX for Logicians pages. These have been in existence in one form or another since about 2004, and initially I thought that I would gracefully retire them as I built the new site. After all, there are now so many other LaTeX resources out there, and I thought that these days AI assistants could surely quickly give information or problem-solve. Except when I did some spot-checking, I found AI giving some surprisingly flakey responses. And Google Analytics tells me that more than 200 users actively engage with the LaTeX for Logicians front page every month. So maybe there is still a small role for a curated list of links likely to be of particular interest to logicians.</p>
+<hr>
+<p>You will also see that this new site hasn’t got an active comments system: this is due to the limitations of a website built with a static site generator like Quarto. Rather, readers are invited to engage on Bluesky or to send comments by email (which I will add to blog posts if of general interest). But these days – as is very much the way with blogs and other social media – comments are few and far between (apart from one or two stalwarts who also email anyway!). And again, no more costly spam-filtering!</p>
+<hr>
+<p>If you are familiar with using the Claude Code extension in VS Code, you don’t need me to tell you how capable it is. This site got built with no serious input from me – “do this”, “tweak that” say I, and off goes Claude, bulk processing old pages, wrangling with CSS, explaining what it is up to with seemingly infinite patience. As a neophyte, I am daily astonished.</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/new-version-website.html</guid>
+  <pubDate>Tue, 02 Jun 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Twenty years on, what next?</title>
+  <link>https://logicmatters.net/blog/twenty-years-on-what-next.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>
+The Logic Matters blog started on 9 March 2006. Bother! – I missed its twentieth birthday. Raise a belated glass, as that was a milestone of sorts.
+</p>
+<p>
+I do plan to continue with the blog and website. But I am going to experiment (initially in a local sandbox) with moving from having an expensively hosted WordPress site to using a Static Site Generator like Quarto for a site freely hosted on Github. Three reasons:
+</p>
+<ul class="wp-block-list">
+<li>
+As I say, expense. Hosting plus various paid WordPress plug-ins for security etc. costs in the region of £400 a year. This cost is only partially met by the small royalties I get from the Logic Matters books (the prices are set at the minimum possible, just rounded up, and I’d like to continue that student-friendly policy).
+</li>
+<li>
+WordPress bloat. Managing and trouble-shooting can occasionally be annoying.
+</li>
+<li>
+But mainly, future-proofing. A legacy Github website can continue to serve up Logic Matters pdfs for as long as there is any interest, without needing someone to maintain an expensive WordPress site.
+</li>
+</ul>
+<p>
+Predictably, after twenty years, there is a real mess behind the scenes here, and Something Ought To Be Done to tidy things up. A year or two ago I wouldn’t have wanted to devote the time and learning effort to moving to Github, wrangling with CSS, and the like. But one thing that Gemini and friends really excel at is patiently holding your hand through such nerdy tasks. So I think now could be the time at least to experiment.
+</p>
+<hr>
+<div class="hanging">
+<p><em>Aron T comments:</em> Congrats on this twentieth anniversary. I have only been following you for less than half that time, but this site and all your work is fantastic. Thanks so much and wishing you many more productive years.</p>
+<p>I would highly encourage you to work with an LLM in setting up a GitHub site. I did that for my personal math studies site (Julia and LaTex all around) and it saved me tons of work. Just remember to always verify/carefully check everything it suggests and builds.</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>PS replies:</em> Thanks, Aron. Glad you find the site useful!</p>
+<p>I’m using Gemini for general guidance and hand-holding for the site rebuild, and heavily using Claude Code for the actual coding in VS Code – which is frankly pretty amazing to a newbie. (I can say, roughly, duplicate such-and-such chunk of the existing site, making new pages, preserving links, tidying away all the Wordpress cruft, and lo and behold, off it goes and does the job, with only a few minor tweaks needed to get it right. I just can’t imagine doing this without an LLM assistant.)</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>Rowsety Moid comments</em> I’m curious about what coding Claude did and what language(s) it used.</p>
+<p>Also, how understandable is the code.</p>
+<p>(I’m not a fan of “coding” as a term, btw. It’s largely replaced “programming” but makes the whole thing sound like low-level clerical work.)</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>PS replies</em> Claude’s coding tasks were mainly (I think) writing Python scripts to bulk process old WordPress posts, using the data to build new nice Markdown files, and otherwise to wrangle with CSS. Low level tasks no doubt, but beyond my pay grade!</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>Aron T comments</em> As someone who has worked in the software technology field for over fifty years, the “coding” vs “programming” distinction you make is actually an excellent way to describe the difference between LLMs and humans. LLMs are extremely useful at taking over low-level clerical tasks from programmers. Human programmers are the thinkers, architects and designers. The increase in productivity LLMs bring is equivalent to the large increase in productivity I felt in college when I moved from punched cards to green screen terminals. The hype that LLMs will replace human programmers is just that-hype.</p>
+</div>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/twenty-years-on-what-next.html</guid>
+  <pubDate>Fri, 22 May 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Felicity Lott, 1947 – 2026</title>
+  <link>https://logicmatters.net/blog/felicity-lott-1947-2026.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/97QndmYbwtE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>
+There have been so many moving obituaries and fond tributes. Here, to mark her passing, is Felicity Lott at the start of her stellar career, singing Pamina at Glyndebourne, almost fifty years ago. How joyous. And there was, by the way, a wonderful episode of <a href="https://www.bbc.co.uk/sounds/play/m002w61d">This Cultural Life on the BBC a few days ago</a>, a conversation with Felicity Lott, broadcast the day before she died: a life well lived.
+</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/felicity-lott-1947-2026.html</guid>
+  <pubDate>Sun, 17 May 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>ICT paperback is out!</title>
+  <link>https://logicmatters.net/blog/ict-paperback-is-out.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://logicmatters.net/books/book-covers/SmithICT.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;"></p>
+<p>
+The revised/corrected third edition of <em>Introducing Category Theory</em> is now available as a paperback. To keep the cost minimal, this is again via print-on-demand from <a href="https://www.amazon.com/Introducing-Category-Theory-Peter-Smith/dp/1068346728/">Amazon US</a>, <a href="https://www.amazon.co.uk/Introducing-Category-Theory-Peter-Smith/dp/1068346728/">Amazon UK</a>, and of course other Amazons too, with ISBN 1068346728.
+</p>
+<p>
+There are many corrections of typos, and quite a few minor expositional improvements. Is it worth getting the new paperback if you already have the January printing of the third edition? Well why not? It is only the cost of three cappuccinos … And, for many of us, a physical book is so much easier to work with than a very long PDF. Treat yourself!
+</p>
+<p>
+A hardback for libraries (and for Amazon refuseniks) should become available on June 1st: more details to follow.
+</p>
+<p>
+</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/ict-paperback-is-out.html</guid>
+  <pubDate>Sun, 17 May 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Proof-reading, with a bit of help from LLMs</title>
+  <link>https://logicmatters.net/blog/proof-reading-with-a-bit-of-help-from-llms.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>
+What have I learnt over recent weeks, preparing a corrected version of <em>Introducing Category Theory</em>, invoking – at various stages – my friends Claude, Gemini and ChatGPT as proof-reading assistants? Not very helpfully, the take-home message is that LLMs are both extremely useful and also surprisingly bad at proof-reading. To explain …
+</p>
+<p>
+Let me backtrack. At the beginning of the year I called a halt to tinkering with a revised version of my notes <em>Introducing Category Theory</em>, and set-up a new Amazon print-on-demand paperback, officially as a third edition. In putting together that edition I had made use of all three of those LLMs, uploading the LaTeX files a chapter at a time, asking to hear in particular about (1) definite typos, definite grammatical errors, (2) obscure/ill-written sentences, and (3) mathematical and other errors. I made it clear that the relaxed prose style was entirely intentional, which didn’t stop the LLMs giving a lot of stylistic advice which I largely ignored.
+</p>
+<p>
+I was (foolishly it turns out) fairly confident that the book was in good shape as far as typos and elementary thinkos were concerned. And so I’d planned to set up a hardback-for-libraries version as well. But (for reasons that don’t at all matter here) this got delayed. But eventually, in early April, I found myself starting to re-check the third edition of&nbsp;<em>Introducing Category Theory</em> before making a hardback edition.&nbsp;Initially I returned to Claude (and remember it was looking at files that had already been checked over by three LLMs, including an earlier version of itself). Rather depressingly, it found more errors. Speculatively, I then asked Gemini, giving it the same uncorrected files, which found <em>more</em> errors (with markedly less than 50% overlap). Hey ho! Off we go again …
+</p>
+<p>
+So over recent weeks the whole book was checked again by both Claude and Gemini. On the positive side, they both spotted errors that were not exactly trivial (if a human proof-reader had spotted them, you would say that showed some level of understanding of what was supposed to be going on). On the downside, the failure of the two LLMs to spot the <em>same</em> mistakes wasn’t exactly confidence-inspiring.
+</p>
+<p>
+So (neurotically?) when I’d cross-checked to the end of the book again, I decided to spot sample a couple of chapters with ChatGPT. The prompt was brisk, basically “Please let me know about any definite typos, grammatical mistakes, logical or mathematical errors.” And back came a list of yet <em>more</em> errors missed by Claude and Gemini. So we went through the whole book yet again. Sigh. (Oddly, ChatGPT couldn’t stably settle on a format for its chapter-by-chapter reports – successive reports could be arranged quite differently. Claude, I think, wins the prize for elegant usability.)<br><br>A list of the worst mistakes in the original printing of the third edition, meaning mistakes that could have led a reader astray or caused puzzlement, <a href="https://www.logicmatters.net/resources/pdfs/corrections_ICT3_1.pdf">is online her</a>e. That final trawl using ChatGPT is responsible for over a quarter of the long list, so – tedious though it was – I am glad I made that effort.
+</p>
+<p>
+Along with those listed mistakes, our LLMs also found about three times as many trivial mistakes – missing punctuation, inverted word order, etc., the kind of mistake which it is so easy for a human reader to miss and which will cause no trouble. But remember, Claude and co. <em>were</em> working from a source text which they had already checked over previously. How come they had missed these errors before?<br><br>I am embarrassed (a little, anyway) that that printed third edition had so many errors. But at least my LLM friends found few outright thinkos. So there you have it. The LLMs were indeed very useful and found lots of typos, and also those few thinkos, mistakes that I had repeatedly missed (or which I had introduced by making other changes). And some of their reports of unnecessary obscurities were helpful too, leading to expositional improvements. But each of the three LLMs was quite surprisingly unreliable at finding even bog basic elementary typos: their pattern-matching skills are far from stunningly accurate.
+</p>
+<p>
+My advice, then, if you <em>are</em> faced with a proof-reading task, is: use all three LLMs (certainly don’t rely on just one). And if it is a book-length and/or maths-heavy task, do get a Pro-level subscription to each for a month or so.
+</p>
+<p>
+And, after all that, a new cleaner version of <em>ICT </em>(paperback, hardback and free PDF) will be out shortly. I can then get back to real logical matters …
+</p>
+<hr>
+<div class="hanging">
+<p><em>Rowsety Moid comments:</em> When “Claude and co. were working from a source text which they had already checked over previously”, was it the very same, character-by-character identical, text, or had some changes been made (such as fixing the errors they’d found earlier)? (If think it would be an interesting experiment to give them the very same, unaltered, text, if you haven’t already done that.)</p>
+<p>Even when they’re given the very same text, I wouldn’t expect them to produce exactly the same output (or find exactly the same errors) as before. They’re stochastic parrots, after all, not deterministic ones.</p>
+<p>In any case, I think that behaviour such as missing errors, then finding them on a later attempt, or being “unreliable at finding even bog basic elementary typos”, might seem less mysterious if, instead of thinking of them as having an error-finding or pattern-matching ability, you think of them just as generating text based on the input you’ve given them along with everything that’s in their model, with some randomness involved in the process.</p>
+<p>Perhaps that just makes their error-finding behaviour mysterious in a different way, but I think that’s the mystery we actually have.</p>
+<p>Pattern-matching is a form of Good Old-Fashioned AI (GOFAI). I don’t think it will be the best way to think about what LLMs are doing.</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>PS replies:</em> You are right! Of course stochastic parrots will be … stochastic. After posting this, I had the conversation with Gemini and Claude and ChatGPT that I should have had before, about the chancy nature of their error-finding which makes it unsurprising that they might miss errors in one pass and find them in another. I’ll write up what I learnt some time, if only to save other people from making the same mistake of expecting the LLMs to be more reliable editorial assistants than they are.</p>
+</div>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/proof-reading-with-a-bit-of-help-from-llms.html</guid>
+  <pubDate>Sat, 16 May 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>A new version of ICT</title>
+  <link>https://logicmatters.net/blog/a-new-version-of-ict.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>
+The end is in sight. I have just uploaded <a href="../resources/pdfs/SmithCat.pdf">another PDF of <em>Introducing Category Theory</em></a> (now identified as Version 3.4 on the verso of the title page – you might need to clear your brower’s cache to force a download of the latest, greatest, version). Never say never, but I hope no further significant changes will be needed before I set up a paperback version. Fingers crossed.
+</p>
+<p>
+I have yet to do a final visual check for layout issues. But meanwhile, I will write a separate post about my rather mixed experiences with using LLMs as proof-reading assistants, which might be of some more general interest to others with academic book projects.
+</p>
+<p>
+</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/a-new-version-of-ict.html</guid>
+  <pubDate>Wed, 13 May 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>On the mathematical abilities of LLMs</title>
+  <link>https://logicmatters.net/blog/on-the-mathematical-abilities-of-llms.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>
+<a href="https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/">A very interesting new blog post by Tim Gowers</a> on his recent experiences with ChatGPT 5.5 Pro. A headline: “I would judge the level of the result that ChatGPT found in under two hours to be that of a perfectly reasonable chapter in a combinatorics PhD.” Well worth reading.
+</p>
+<p>
+<em>Added</em>. Of the comments to Gowers’ post, <a href="https://chadtopaz.com/essays/gowers-response">the most sensible I have so far seen is this one</a> by Chad Topaz.
+</p>
+<hr>
+<div class="hanging">
+<p><em>Daniel M Gessell comments:</em> I’m retired and choose to avoid using ML generated AI software as much as I can. I’m neutral on it – it’s a hobby to try to solve problems without using what, to me, are “black box” solutions found through ML.</p>
+<p>But it sure looks like more and more new proofs are going to be discovered with the help of ML based AI, and it makes me wonder about the future of Mathematics as an academic pursuit – and about the future of academic pursuits in general.</p>
+<p>My suspicion is massive change is coming, but maybe not in my lifetime. If it’s not this “wave” of AI advancements, in a few decades another wave will come.</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>Márcio Palmares comments:</em> Ian Stewart, prophetically, in 1975, in a book on modern mathematics (before we dismiss him for now writing popular science and recreational mathematics, let us remember that Saunders Mac Lane himself recommends Stewart’s book on Galois Theory among the references in his Algebra textbook):</p>
+<p>“Even in pure mathematics the computer has scored some notable triumphs, especially in the study of finite groups. However, very few problems are suitable for computation; and even some of those that are would take too long to perform, even for today’s very fast machines (or tomorrow’s, for that matter).</p>
+<p>The uses of computers are not confined to numerical problems. Computers have been programmed to play draughts (well) and chess (badly), to translate from one language to another (execrably), to compose music (of sorts) and poetry. Some of the recent advances in producing ‘intelligent’ machines are quite remarkable.</p>
+<p>This brings me naturally to the oft-asked question ‘Can computers think?’ As Joad would have said, it all depends what you mean by ‘think’. As yet, the computer can perform some of the functions of the human brain faster and more accurately; others it cannot perform at all. But if we ask, ‘Is there something special about the way in which human beings think which in principle can never be performed by some kind of machine?’ then my personal opinion is that the answer is ‘No’. Certainly we cannot duplicate the functions of the brain at the present time; and it is fairly certain that the resemblance between the brain and existing computers is about as close as that between a cow and a milk-lorry. Our technology may well never get anywhere near making a truly ‘intelligent’ machine: the human brain may well be too stupid. But I don’t think there is any obstacle to the production of a machine which performs the functions of the human brain; not any logical obstacle such as prevents √2 from being rational or a man from lifting himself by his bootstraps; for the following reason: the human body is visibly a machine, in the sense that it composed out of matter and the components obey the same laws as other matter. It is a very complicated and wonderful machine which we don’t understand. If there were in principle an obstacle to the construction of machines which behaved like people, then there would be no people.</p>
+<p>This is not to reduce humanity to the level of a can-opener. Many people insist that the complexities of human behaviour, the emotional, creative, and spiritual attributes, must be consequences of something ‘greater’ than physical laws. This is a wonderful concept. How much more wonderful it would be, however, if these very attributes were consequences of physical laws. Far from demeaning humanity, this would elevate physics!”</p>
+<p>Concepts of Modern Mathematics, pp.&nbsp;267-268. Dover Books.*M</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>Rowsety Moid comments:</em> There’s now a more impressive result. Tim Gowers:</p>
+<div class="quoted">
+<p>AI has now solved a major open problem — one of the best known Erdos problems called the unit distance problem, one of Erdos’s favourite questions and one that many mathematicians had tried.</p>
+<p>Solved by finding a counterexample. That matters because one of the reasons human mathematicians didn’t find it may be that they thought the conjecture was true.</p>
+</div>
+<p>OpenAI:</p>
+<div class="quoted">
+<p>The result is also notable for how it was found. The proof came from a new general purpose reasoning model, rather than from a system trained specifically for mathematics, scaffolded to search through proof strategies, or targeted at the unit distance problem in particular. As part of a broader effort to test whether advanced models can contribute to frontier research, we evaluated it on a collection of Erdős problems. In this case, it produced a proof resolving the open problem.</p>
+</div>
+<p>Useful comment from Thomas Bloom in the companion paper, Remarks on the Disproof of the Unit Distance Conjecture:</p>
+<div class="quoted">
+<p>On examining the construction, it becomes more clear how people had missed this before – it requires the confluence of several different unlikely events: that a good mathematician is (1) spending significant time in thinking about the unit distance conjecture in the first place; (2) seriously trying to disprove it, despite the oft-repeated belief of Erdős that it is true; (3) believes that there is mileage in generalising the original construction to other number fields, and so is willing to expend significant time in exploring such constructions; and (4) sufficiently familiar with the relevant parts of class field theory to recognise that the appropriately phrased question about infinite towers of number fields with appropriate parameters can be solved using existing theory.*</p>
+<p>The AI met all of these criteria, and its success here echoes previous achievements: it often produces the most surprising results by persevering down paths that a human may have dismissed as not worth their time to explore, combining superhuman levels of patience with familiarity with a vast array of technical machinery.</p>
+</div>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>Daniel M Gessell comments:</em> Márcio Palmares, thank you for sharing that quote from Ian Stewart – the questions it address are now being asked almost daily in major newspapers. And you’ve given me another book for my TBR pile. I also view biology as machinery – one day, physical devices we call “computers” may be literally grown in the factory, perhaps guided or seeded with the 3D printing approach being explored for synthetic organs.</p>
+<p>From a formal computational perspective, it seems the human brain, augmented with an infinite lifetime and supply of pencils and paper, would be Turing Complete. Can it do more? Can the laws of physics, whatever they may truly be, compute the incomputable?</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>Rowsety Moid comments:</em> More Erdos problems fall. Przemek Chojecki on Twitter:</p>
+<div class="quoted">
+<p>Another 9 open Erdos problems solved, this time by DeepMind team.</p>
+<p>Interesting loop of LLM – Lean agents working autonomously, and only after it’s verified formally, going through human review.</p>
+</div>
+<p>Paper: Advancing Mathematics Research with AI-Driven Formal Proof Search</p>
+<p>I think this is less “intelligent” than the disproof of the Unit Distance Conjecture, because it looks like it relies more on search, generating proofs until it finds one that isn’t rejected by Lean. Also, the proofs thus found come already checked. I suspect that’s where we’re headed, with human mathematicians not checking AI-written proofs and instead just trying to understand them.</p>
+</div>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/on-the-mathematical-abilities-of-llms.html</guid>
+  <pubDate>Fri, 08 May 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Another categorical update</title>
+  <link>https://logicmatters.net/blog/another-categorical-update.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://logicmatters.net/blog/2026/Isabella-tile.jpg" class="img-fluid"></p>
+<p>
+The Victorian floor of my tiny study slopes and dips quite badly and it would have been expensive to engineer a flat, level, surface. So, to finish the redecoration, it has had to be new carpet. No majolica tiles for me. Not like this one (now in the Fitzwilliam Museum), from the series which Isabella d’Este used in her <i>stu</i><em><i>dio</i>lo</em>.
+</p>
+<p>
+As I said, when first back to work in my own much improved <i>stu</i><em><i>dio</i>lo</em>, I decided to check through the third edition of the category theory notes again before making a hardback edition. I am very glad that I did. With (indispensable) help from both Claude and Gemini, I have found over 75 errors in the printed paperback version (Version 3.1) that are <em>not</em> just trivial and obvious spelling errors, grammatical mishaps, omitted punctuation etc. Not too many should cause real confusion, I hope: but that’s still a rather embarrassing number (with careless cutting’n’pasting responsible for too many mistakes).
+</p>
+<p>
+So the state of play is this. There is a PDF Version 3.3 now freely available for download. There is a corrections list, also linked on the categories page. No doubt if I now asked ChatGPT to do another late proof-reading, I could discover more (micro?) errors – but I think my patience is exhausted. But I will now do a visual check for bad page breaks and so forth (which of course are not caught by AI looking at LaTeX code). And then I will have to take a deep breath and send a revised paperback and new hardback out into the world.
+</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/another-categorical-update.html</guid>
+  <pubDate>Wed, 06 May 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Categorical update</title>
+  <link>https://logicmatters.net/blog/categorical-update.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>
+I am still working again through the third edition of the category theory book, correcting typos in the first printed version (fortunately, relatively few are possibly misleading), correcting thinkos (cheeringly not many), rewording a few too-contorted sentences (again pleasingly few), slightly improving some sign-posting, and deleting a few over enthusiastic exclamation marks and the like.
+</p>
+<p>
+I’m three quarters of the way through (I have reached the end of Chapter 42). And the right thing to do is to now post <a href="https://www.logicmatters.net/resources/pdfs/SmithCat.pdf">an updated PDF (version 3.2</a>) and also to temporarily halt the availability of the paperback. I have reached the tipping point where I know about too many errors (even if minor ones) to feel comfortable about people buying a printed copy when a new corrected version of the whole book should be available within a month or so.
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<p>
+As I’ve said, my companion in the proof-reading task is the estimable Claude. I’m ignoring the great majority of stylistic suggestions which would make my authorial tone of voice more conservative, and the prose occasionally leaden. But my AI assistant – as you would hope! – patiently spots typos and notational inconsistencies (and hallucinated errors are notably fewer than even six months ago). The proof-checking is often impressively good. But what sometimes startles me are the more general comments that Claude offers. For just one recent example, and far from the most surprising, what about this?
+</p>
+<blockquote class="wp-block-quote blockquote">
+<p>
+The closing §40.7&nbsp;is brief but philosophically interesting and provides a genuinely satisfying end to the chapter. The honest acknowledgement that the abstract categorical notion of “initial/terminal in a category of elements” may not illuminate the intuitive idea of a universal mapping property as much as one might hope is exactly the kind of meta-mathematical honesty that distinguishes these notes.
+</p>
+</blockquote>
+<p>
+Nice to hear, of course! But <em>how</em> does Claude reach this sort of judgement? It isn’t universal praise-giving (on the contrary, assessments chapter by chapter are pretty judicious). It isn’t pattern-matching on some local chunks of text (as when “following” a standard proof in elementary category theory that can found in a dozen textbooks). The first sentence might be near routine boiler-plate stuff. But the second is picking up on a thought that Claude won’t have encountered elsewhere, and relates the thought to other distant episodes in the book where I offer similarly deflationary appraisals of some categorial claims. This is not mere stochastic parroting! But nor does it seem to be the kind of thing that is going to be the direct result of focused training to make Claude (say) good at coding or other constrained tasks. I’d like to understand more about what’s going on!
+</p>
+<hr>
+<div class="hanging">
+<p><em>Aron T comments</em> It’s not reaching a judgement. Don’t get too excited! I have the similar experiences but it’s just a variant of its pattern matching capabilities and intrinsic need to please. Here is the pattern: I ask Claude to research a particular topic. I push back on its initial mainstream take. It even explains (when pushed) why it gives that take (a majority of its sources obviously follow the “mainstream’.). I ask it to find more sources and evidence and slowly it emerges there is evidence to support my view, and there are, indeed, other scholars who take a similar view. Then, when we move onto another related topic and it sees the pattern of how the evidence there can also match my hypothesis, it pats me on the back with a comment praising my brilliant insight, looping back to my original hypothesis, along with using domain terminology to make the praise seem “real”. It’s still a sycophantic pattern matching parrot, just a bit more sophisticated going about it.</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>PS replies</em> Oh I’m not too excited! “Nice to hear, of course” was tongue in cheek, of course. Sycophantic pattern matching parrot, maybe — but then the question arises: how far are we too (usually keen to please) pattern matching parrots?</p>
+</div>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/categorical-update.html</guid>
+  <pubDate>Fri, 01 May 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Categorically diverted</title>
+  <link>https://logicmatters.net/blog/categorically-diverted.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>
+Another six large-carrier bags of books have gone to Oxfam. And my tiny redecorated study is at last put together again, and – a miracle! – with no books in piles on the floor. Rather late in the day, it is the nicest-looking room I have ever had. The Morris paper is a real delight. A new dim-out blind works a treat, radically reducing distracting reflections in my large Apple monitor. Gemini has explained how to reassemble a better minimalist music system from kit I already had. So suitably inspired, back to work!
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<p>
+I didn’t at all plan this, though. I seem to be re-checking the third edition of <em>Introducing Category Theory</em> for typos and thinkos before making a hardback edition. A third of the way through, I have so far found only few (with a bit of help from claude.ai) – and the only significant errors are now <a href="https://www.logicmatters.net/resources/pdfs/corrections_ICT3_1.pdf">listed here</a>. As I slowly proceed, however, I’m occasionally tinkering with the exposition in small ways, and also removing a few over-excited exclamation marks and such like. So there will be an updated PDF and reprint of the paperback in a few weeks, as well as the promised hardback for libraries.
+</p>
+<p>
+This is displacement activity. Revising the Gödel book – maintaining the same level of accessibility while improving some exposition and removing some handwaving – is causing me a bit more grief than I was expecting. I am taking that slowly.
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<p>
+“How does it do <em>that</em>?” – I am still amazed by Claude’s ability as a proofreading and editorial assistant (I will write more about this some time). But I am not in the least inclined to attribute mental states to the LLM I am interacting with, and it hasn’t occurred to me to get fussed about the ontological status of my “interlocutor”. <a href="https://philarchive.org/rec/CHAWWT-8">Here’s the philosopher David Chalmers tangling with the issue</a>. But I can’t get excited.
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<p>
+Have I mentioned how much Schubert’s piano music means to me? Have I mentioned how much I admire Elisabeth Brauß among younger pianists? Have I mentioned that, a few years ago, she gave a quite wonderful performance of Schubert’s first set of Impromptus at a Birmingham concert? I rather think I may have done! But I’ll say it again, <a href="https://www.bbc.co.uk/sounds/play/m002tm8f">because the BBC has rebroadcast that performance</a> (from 5.12.40 in). Do listen: it will make your day better.
+</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/categorically-diverted.html</guid>
+  <pubDate>Sat, 18 Apr 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Three books, no toast</title>
+  <link>https://logicmatters.net/blog/no-toast.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://logicmatters.net/images/Andre.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;"></p>
+<p>
+With my mind partly on revising the Study Guide, I have been browsing through three relatively recently published logic books. None of them impress as candidates for self-study. I will be brief (unfairly? life is short …).
+</p>
+<p>
+Robert André’s <em>Set Theory: An Introduction to Axiomatic Reasoning</em> was published at an outrageous price by CRC Press in 2025. The world is not short of attractively written, reader-friendly, introductions to set theory. But this effort seems clumsily written, and decidedly tedious. A pointless addition that we can ignore.
+</p>
+<p><img src="https://logicmatters.net/images/Cenzer.jpg" style="float: right; width: 200px; margin-left: 20px; margin-bottom: 10px;"></p>
+<p>
+Also on set theory, we have a revised edition of <em>Set Theory And Foundations Of Mathematics: An Introduction to Mathematical Logic. Volume I: Set Theory</em> by Douglas Cenzer, Chris Porter and Jindra Zapletal (World Scientific, 2025). This short book (some 180 pages) is a pretty brusque review of some basics of set theory in fairly compressed style. It could perhaps make for useful material to consolidate understanding, but surely it is not for most beginners.
+</p>
+<p><img src="https://logicmatters.net/images/Rizza.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;"></p>
+<p>
+The third book is Davide Rizza’s <em>Model Theory: The Algebraic Basics</em> (Springer, 2025). It aims to be particularly accessible. “This book offers a gentle introduction to model theory that stresses basic applications to algebra. Although the book might be used by any mathematically minded reader as a ﬁrst point of contact with this area of mathematical logic, its main motivation is to provide philosophers with an entry point into model theory.” But I find it very difficult indeed to believe that a philosopher without some significant background in modern algebra is going to cope, what with Noetherian rings by p.&nbsp;73, and all that. And the book is uninvitingly written – Rizza isn’t a mathematician and it shows. If I can’t happily push through a chapter with ready understanding and enjoyment, then certainly the intended reader will struggle.
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<p>
+Yes, writing is, or should be, hard work, so that reading isn’t. I have been two days on a couple of Gödelian paragraphs, trying to get the balance and rhythm of some easy exposition right, with words and word order, the relations between the sentences, what precedes them and what is to come, all needing to be shaped into careful patterns,
+</p>
+<blockquote class="wp-block-quote blockquote">
+<p>
+And time yet for a hundred indecisions, <br>And for a hundred visions and revisions <br>Before the taking of a toast and tea.
+</p>
+</blockquote>
+<p>
+(to quote Eliot). There is little sign of real writerly care, of vision and revisions, in those three books: the reader gets dry rusks rather than toast and tea.
+</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/no-toast.html</guid>
+  <pubDate>Thu, 09 Apr 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Partial functions and Church’s Thesis</title>
+  <link>https://logicmatters.net/blog/partial-functions-and-churchs-thesis.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>
+Alex Oliver and Tim Smiley’s magnum opus <em>Plural Logic</em> runs to some 340 pages before the end matter in the second edition. The final chapters are heavy going, involving detailed developments of some cumbersome (indeed, uninviting) formal theories. I wouldn’t be surprised if few readers have made it to the ‘Postscript’ touching on unfinished business.
+</p>
+<p>
+So perhaps not many have read the discussion on p.&nbsp;324 in which O&amp;S argue that “a proper understanding of partial functions shows that the supposedly ‘easy part’ of Church’s Thesis is wrong”. They aim, then, to cast doubt on the standard claim that partial recursive functions (in the technical sense) are effectively, algorithmically, computable (in an intuitive, informal, sense). I am unpersuaded.
+</p>
+<p>
+To start from their own example, suppose we have effectively Gödel-numbered the formulas of our favourite version of the predicate calculus. Consider two functions from [katex][/katex] to {0, 1}. First, <em>g(x)</em> is defined to equal 1 if <em>x</em> numbers a theorem, and to equal 0 otherwise. Second, <em>h(x)</em> is defined to equal 1 if <em>x</em> numbers a theorem, and is undefined otherwise. Uncontentiously, the total function <em>g</em> is not recursive (as shown by Church and Turing). While the partial function <em>h</em> is partial recursive (for example, there is a Turing machine which given input <em>x</em>, churns way to enumerate the Gödel-numbers of theorems, halting with output 1 if and only if<em>x</em> turns up in the enumeration).
+</p>
+<p>
+Now, O&amp;S note that by Church’s Thesis <em>h</em>, being partial recursive, is therefore algorithmic computable. But they continue:
+</p>
+<blockquote class="wp-block-quote blockquote">
+<p>
+To our minds, this cannot be right. There cannot be an algorithm for computing <em>h</em> for the same reason that there cannot be an algorithm for computing <em>g</em>. Just as waiting to see whether <em>g(x)</em> is 1 or 0 would provide a decision procedure for the predicate calculus, so waiting to see whether <em>h(x)</em> is 1 or else has no value (however that may be encoded) would do the same. As we see it there is only a partial algorithm. When we ask ‘what is <em>h(x)</em>?’ we may get an answer, but we may be kept waiting, and waiting, and waiting . . .
+</p>
+</blockquote>
+<p>
+This is the first time in the book that O&amp;S talk about algorithms, and they don’t explicitly tell us what they mean by a “partial algorithm”. And standard accounts of the informal notion of an algorithm like the one at the beginning of Hartley Rogers’s classic book don’t help.
+</p>
+<p>
+I suppose that one natural idea of a partial algorithm (but not O&amp;S’s) would be illustrated by an algorithm which along the way says “Goto line 101” although there is no line 101: so in executing this partial algorithm we grind to a halt, not by gracefully executing a line such as “101: Halt!”, but by running out of instructions. But note that the Turing machine routine which we just imagined for computing <em>h</em> doesn’t implement a partial algorithm in <em>that</em> sense. Here the algorithm tells us what to do at every step – we are to keep on enumerating the Gödel-numbers of theorems until we get a match. We never run out of instructions, though in the case where <em>x</em> numbers a non-theorem the execution doesn’t terminate.
+</p>
+<p>
+O&amp;S regard the sketched algorithm as a partial algorithm for computing <em>h</em> in another sense. For they think of an algorithmic computation for <em>h</em>, properly so called, as one which for each <em>x</em> either delivers the output 1 or tells us that it “has no value (however that may be encoded)”. More generally, they stipulate that an algorithm for a partial function [katex]f [/katex] should answer the question ‘what is <em>f(x</em>)’ for every <em>x</em>, by either giving us the value of <em>f(x)</em> when that is defined or else telling us that <em>f(x)</em> has no value. Emphatically: “We say that if the function has no value, an adequate algorithm should always say so.” By that standard, our Turing machine routine for computing <em>h</em> isn’t “adequate”, it doesn’t deliver the full goods, and only implements a partial algorithm in the sense that it gives the value of <em>h(x)</em> when it has one but otherwise falls short by remaining silent in the other cases when <em>h(x)</em> is undefined.<br><br>Say that a c-algorithm (“c” for conventional) for computing a partial function <em>f</em> is one which returns the (correct!) value of <em>f(x) </em>whenever that is defined and is otherwise remains silent; while a n-algorithm (“n” for non-partial according to O&amp;S) for computing a partial function <em>f</em> returns the value of <em>f(x) </em>whenever that is defined and returns “undefined” otherwise. We know that a c-algorithm for a partial function can’t always be upgraded to n-algorithm. This is in fact a standard result – there’s a related result in my Gödel book, and O&amp;S have given us another example, by noting that there is an c-algorithm for computing <em>h</em> but there can’t be an n-algorithm for computing <em>h</em> (or else we could turn it into a c-algorithm for computing the total function <em>g</em>, which there can’t be). So yes, there can be partial recursive functions which aren’t computable by an “adequate” n-algorithm.
+</p>
+<p>
+But so what? Why fuss? There is only some reason to suppose that we’ve found a flaw in Church’s Thesis that a partial recursive function is effectively computable by an algorithm if that Thesis is implicitly understood as a claim about computability by an n-algorithm, i.e.&nbsp;by a mechanical procedure which always terminates (either with a value for the computed function or a report that there isn’t a value). But is the Thesis understood that way?<br><br>O&amp;S quote as typical Alan Hamilton’s remark “It is reasonable to say that a partial function is computable by algorithm if there is an algorithm which yields the value of the function whenever it is defined”, and they respond that such authors “confuse a partial algorithm with an algorithm for a partial function”. But to talk of <em>confusion</em> is only fair comment if these authors should be assuming that execution of a genuine algorithm for a partial function must always terminate (either giving us a value or reporting that no value is to be had).
+</p>
+<p>
+But it is more than fifty years since Hao Wang wrote in his <em>From Mathematics to Philosophy</em> (p.&nbsp;84):
+</p>
+<blockquote class="wp-block-quote blockquote">
+<p>
+Gödel points out that the precise notion of mechanical procedures is brought out clearly by Turing machines producing partial rather than general recursive functions. In other words, the intuitive notion does not require that a mechanical procedure should always terminate or succeed. A sometimes unsuccessful procedure, if sharply defined, still is a procedure, i.e.&nbsp;a well determined manner of proceeding. Hence we have an excellent example here of a concept which did not appear sharp to us but has become so as a result of a careful reflection. The resulting definition of the concept of mechanical by the sharp concept of ‘performable by a Turing machine’ is both correct and unique. Unlike the more complex concept of always-terminating mechanical procedures, the unqualified concept, seen clearly now, has the same meaning for the intuitionists as for the classicists. Moreover it is absolutely impossible that anybody who understands the question and knows Turing’s definition should decide for a different concept.
+</p>
+</blockquote>
+<p>
+I’ll buy this: in so far as there is a widely-shared, intuitive, informally explicated, idea of an algorithmic procedure, it is by now <em>not</em> built in the very notion of such a procedure that it should always deliver an answer (a value or a “no value” output). It is nice, no doubt, when an n-algorithm is available; but the now-embedded-because-more-useful notion is that of a c-algorithm, and I don’t think authors are typically confused about this. Church’s Thesis doesn’t go wrong in claiming that partial recursive functions are algorithmically computable in that conventional sense.
+</p>
+<p>
+</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/partial-functions-and-churchs-thesis.html</guid>
+  <pubDate>Sun, 05 Apr 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Great expectations</title>
+  <link>https://logicmatters.net/blog/great-expectations.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://logicmatters.net/images/room-decor.jpg" class="img-fluid"></p>
+<p>
+Well, that all took rather longer than expected … A <em>lot</em> of repairing and filling and preparation (the joys of a late Victorian house). But at last the miniature room that counts as my study is redecorated. A carpet remains to be laid in ten days, but I’ll be able to reshelve the books in logic corner before then, once the new paint is safely “cured”. A pity to hide the William Morris wallpaper mutters Mrs Logic Matters: but needs must.
+</p>
+<p>
+It <em>will</em> be good to have the room back, and my spendid decorative efforts will no doubt inspire some equally splendid writing. I have great expectations …
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<p>
+An early task, when my desk is re-assembled and the Mac mini and monitor are back in action, will be to fire up the software I use for cover design and set up the promised hardback-for-libraries version of <em>Introducing Category Theory</em>. If I can trust at least the comparative stats, this was in fact the most downloaded of the Big Red Logic Books this month, and the paperback is selling tolerably. I can only hope that the intended readers are finding it useful.
+</p>
+<p>
+Then it is back to work on the Gödel book. I seem now to be entangled in a rather more substantial rewrite than I originally planned – not (yet!) changing the general structure and the chapter-by-chapter take-home messages, but I hope significantly improving the presentation. For whatever reason, the first two editions tended to weave (sometimes rather rough and ready) definitions into the general prose between theorems: the discipline of giving numbered definitions in a more conventional textbook style is forcing some greater clarity at a few key points (but I’m trying to achieve this without losing readability). As an expository challenge, so far, so enjoyable.
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<p>
+Some aspects of the writing are being made noticeably easier with a bit of help from my friends Gemini and Claude. They offer patient, repeated, proof-reading as I go, check for consistency of terminology and tone, comment on accessibility, help clean up the LaTeX: I’m increasingly impressed. Using the LLMs is psychologically interesting too – I find it very difficult not to say “please” and “thank you”, and note that I am cheered to an irrational degree by positive feed-back. I see how users can only too easily get hooked.
+</p>
+<p>
+On the more serious use of AI, I spotted a blog post by Terence Tao about a piece he has just written (with Tanya Klowden) for a forthcoming <em>Blackwell Companion to the Philosophy of Mathematics</em> on “Mathematical methods and human thought in the age of AI”. <a href="https://arxiv.org/abs/2603.26524">There is an unabridged version here on the arXiv</a>. But to my surprise this seems a surprisingly thin and insubstantial piece. Am I missing something?
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<p>
+Three months of the year gone already. What have I been reading?
+</p>
+<p>
+The non-fiction I have most enjoyed (and learnt the most from) is Stephen Greenblatt’s immensely readable <em>The Swerve </em>about the rediscovery of Lucretius’ <em>De Rerum Natura</em>. I had been meaning to read the book for a while, so thanks to James Marriott’s always-interesting Substack <a href="https://jmarriott.substack.com"><em>Cultural Capital</em></a> for providing the final prompt to get a copy. The book has its critics, but I found it gripping and hugely enlightening.
+</p>
+<p>
+And new fiction? I much enjoyed Ali Smith’s <em>Glyph</em> – and that prompted me to reread, with great pleasure, what I still think is her best book, <em>How to be Both</em>. Evidently, though, Ali Smith divides her readers – she is one of the few authors that Mrs Logic Matters and I just don’t at all see eye to eye on.
+</p>
+<p>
+I also raced through Julian Barnes’ latest book <em>Departure(s)</em> – I have long been a great fan of Barnes’ writing, fiction and non-fiction alike. And reading this – his last book (or so he announces) – I realised that we had never got a copy of Barnes’ first book, <em>Metroland</em>. The omission has been rectified. And period piece though it is, we both very much enjoyed it.
+</p>
+<p>
+But the stand-out book for me in the last months of winter was this year’s Dickens, <em>Great Expectations</em>. There just are so many wonderful set pieces, episodes that really demand to be declaimed and read out loud round a fire … I resisted, while hugely admiring. The very ending, however? Dickens’ first thoughts were surely the truer.
+</p>
+<hr>
+<div class="hanging">
+<p><em>Andrei comments</em> There is also Ada Palmer’s more scholarly treatment of the Lucretius story in</p>
+<p>https://www.adapalmer.com/publication/reading-lucretius-renaissance/</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>Rowsety Moid comments</em> One concern I’d have about using an LLM as a writing assistant is that you’d be subtly led towards blandness, and towards losing any distinctive style.</p>
+<p>However, it hadn’t occurred to me that LLMs might “insert themselves into the narrative unsolicited”, as Klowden and Tao say happened to them while using “three different digital agents” and “standard tools”. (They don’t say which tools or how or why those agents were allowed to modify their text.)</p>
+<p>In any case, I find it hard to see how anyone who cared about mathematics could propose using it as a “sandbox” for AI use. Proposing it suggests they either don’t care what damage might be done to mathematics or don’t understand what a “sandbox” is supposed to be. (The idea is that things can go wrong in the sandbox without causing wider or real-world damage; things inside the sandbox can still be damaged or destroyed.)</p>
+<p>That paper’s discussion of “Modern AI” (pp 4-5) is also questionable. They start by saying that the ability of modern AI to “automate large portions of the creative process … has created an unprecedented decoupling between the outward form of such products, and the values and thought processes used to create these products.” Perhaps that’s so (though I’d question whether AI has automated any part of the creative process rather than using a different process).</p>
+<p>However, their example is that “A diffusion model may now create an aesthetically pleasing landscape … which was not directly inspired by any particular location in the physical world”. Wait a minute! That’s not unprecedented. Human artists can do that too, and have done so. So why is that the example?</p>
+<p>The important difference about diffusion models isn’t that they create pictures “not directly inspired by any particular location”: it’s that when they create pictures no values or thought processes are involved at all. It’s strange that they come so close to saying that but still, somehow, don’t.</p>
+<p>Or perhaps it’s not so strange, given what they say elsewhere. For they deploy rhetorical artillery against the idea that there’s a fundamental difference between the ways that humans and AIs accomplish what they do: “ineffable special status”, “No True Scotsman”, ” human-chauvinistic”, “God of the Gaps” (p 22), and “geocentric model” (p 24).</p>
+<p>Back in the section on “Modern AI”, they talk of “goalposts” being moved.</p>
+<p>Now let’s be clear: saying someone moved the goalposts is saying they cheated. It’s not how you describe something you regard as a legitimate move. What actually happened, though, with chess for example?</p>
+<p>There were people who thought that playing chess well required intelligence. There may even have been people who thought that, if computers could be made to play chess well, the same approach would work in other areas. No one thought that a program that could play chess well would be intelligent in any other way. So it was at most a test for intelligence of a very limited sort. (We can compare this to tests used with animals: running mazes, for example, or extracting food from a complicated box. There we do think the mouse or crow or whatever will show intelligence in other ways.)</p>
+<p>And part of thinking that playing chess well required intelligence was thinking it couldn’t be done through brute-force search. When it turned out that it could be done through brute-force search after all, that showed that chess didn’t actually require intelligence. Finding that a test didn’t actually test for what you thought it did is a perfectly legitimate move, not cheating.</p>
+<p>(It’s telling, imo, that the authors don’t give any reference for their claim that there was a “chess test” for intelligence or that we moved the goalposts “on what intelligence, understanding, and creativity actually are”. And one of their references for discussion of the Turning Test — the unpublished preprint by H. Chen et al — mistakenly claims the person in the Chinese Room just used “a look-up table to determine an appropriate written response in Chinese”. No, the person in the room follows instructions written in English that can be equivalent to whatever program you’d like.)</p>
+<p>The paper uses chess in another way as well: as a precedent for “emerging paradigms of cooperation and complementary coexistence between humans and AI agents.” (p 23). (Here again there is no reference for any of the claims.) It explains that, even though chess engines can defeat even the best human chess players, “chess remains a popular and thriving human activity”. It’s worth reflecting on why this is so and on what it suggests for mathematics.</p>
+<p>It suggests that people could continue to learn and play maths for fun or as intellectual exercise. There could still be competitions such as Olympiads. There could even be competitions and other activities (analogous to ‘advanced’ / ‘centaur’ chess) that allowed degrees of AI assistance. However, at the highest leves of human chess competition, AI is not allowed during matches. It can be used in training and to analyse games, but a player using it during a match would be cheating.</p>
+<p>How would that work in maths? Would mathematicians somehow be barred from using AI to prove significant new theorems, allowing it only for practice and to analyse proofs that have already been made? Would they be allowed to use AI for proving such theorems but then be barred from getting a Fields Medal or Abel Prize? Would there somehow be an AI-free where, if an AI had proved a theorem, human mathematicians would act as if it hadn’t been proved?</p>
+<p>Chess is not a good model for what might happen in mathematics, and I think that people who are sanguine about the effects of AI on mathematics either don’t care how little of the development of new mathematics continues to be done by human mathematicians or else are thinking AI won’t get much better.</p>
+<p>It’s still easy, for now, to think the interesting parts of developing new mathematics will continue to be done by humans. They’ll have the key insights and big ideas; they’ll make the bold conjectures and devise the main steps in important proofs. Sure, there might occasionally be a stubborn theorem that’s proved by an AI after human mathematicians failed; there might sometimes be a key idea in such a proof that mathematicians kick themselves for failing to notice. But that will be the exception. Human mathematicians won’t be reduced to trying to understand the mathematics being developed by machines.</p>
+<p>I hope that remains true. I’m not sure it will.</p>
+</div>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/great-expectations.html</guid>
+  <pubDate>Wed, 01 Apr 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Since it is the Feast of the Annunciation …</title>
+  <link>https://logicmatters.net/blog/since-it-is-the-feast-of-the-annunciation.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://logicmatters.net/images/Crivelli.png" class="img-fluid"></p>
+<p>
+Some of my very favourite paintings are Annunciations … the stunning Leonardo and Botticelli in the Uffizi, the lovely small painting from a predella by Domenico Veneziano close to home in the Fitzwilliam, the wonderful Filippo Lippi in the National Gallery. <br><br>But here instead is the rather strange but still very striking <em>Annunciation, with Saint Emidius</em>&nbsp;by Carlo Crivelli, also in the National Gallery.
+</p>
+<hr>
+<div class="hanging">
+<p><em>Rowsety Moid comments:</em> Carlo Crivelli’s Annunciation is one of my favourite paintings. There are many intriguing details, and the architecture reminds me of Escher.</p>
+<p>I like in general the way saints are often depicted together with something that represents an important element of their story, here with Saint Emidius holding a model of what’s presumably the town of Ascoli Piceno. Mary naturally has a book. In the National Gallery of Scotland, there’s a painting that includes Saint Catherine holding and pointing to a small wheel.</p>
+<p><a href="https://www.nationalgalleries.org/art-and-artists/5544">Vitale da Bologna (Vitale dAimo de Cavalli) The Adoration of the Magi</a></p>
+</div>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/since-it-is-the-feast-of-the-annunciation.html</guid>
+  <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Hoffmann, Limits of Mathematics</title>
+  <link>https://logicmatters.net/blog/hoffmann-limits-of-mathematics.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://logicmatters.net/images/Hoffman.jpg" style="float: left; width: 240px; margin-right: 20px; margin-bottom: 10px;"></p>
+<p>
+In the last couple of years, Dirk Hoffmann has published English translations of two of his books which originally appeared in German. In 2024, he gave us <em>Gödel’s Incompleteness Theorems</em> (Springer), which I will discuss in a future post. And then last year he published <em>Limits of Mathematics: A Journey Through the Key Areas of Mathematical Logic </em>(Springer), translating the third edition of his <em>Grenzen der Mathematik</em>.
+</p>
+<p>
+Spoiler: the Gödel book is much the better. The more recent book, by contrast, is not to be recommended.
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<p>
+<em>Limits</em> appears in a series titled ‘Mathematics Study Resources’ and aims – to quote Hoffmann’s Preface – “to present the concepts, methods, and findings of [mathematical logic] as clearly as possible without sacrificing depth.” He adds “Wherever appropriate, I have motivated definitions and theorems with examples and placed them in their factual and historical context through numerous side notes. Additionally, I have chosen to present theorems that play only a marginal role in a sketchy manner or to indicate where an elaborated proof can be found. In this sense, the book cannot replace the formally precise literature in mathematical logic in all aspects – and it does not intend to.” <br><br>Hoffmann is trying, then, to write a particularly reader-friendly introduction, with sufficient depth but without unnecessarily distracting detail. An admirable ambition. So I wanted to take a look at this book with a view to seeing whether it should get a mention in whole or in part in the next iteration of the <em>Study Guide</em>.
+</p>
+<p>
+What does the book discuss? Chapter 1, ‘Historical Notes’ recounts a familiar story, with the usual characters, a foundational crisis, the birth of set theory, Hilbert’s Programme, Gödelian troubles. In Chapter 2, ‘Formal Systems’, we meet the propositional calculus and first-order predicate calculus. Chapter 3, ‘Foundations of Mathematics’, has substantial sections on Peano Arithmetic and Axiomatic Set Theory. Chapter 4 is called ‘Proof Theory’ but is in fact about Gödel’s incompleteness theorems. Chapter 5 is on ‘Computability Theory’, and introduces various models of computation, and discusses e.g.&nbsp;the Halting Problem, Rice’s Theorem and Hilbert’s Tenth Problem. <br><br>These first five chapters are all about sixty pages long. There follows a much shorter Chapter 6 which departs in an interesting way from the usual introductory menu of topics by discussing ‘Algorithmic Information Theory’, talking about Chaitin’s work and his incompleteness theorem. Then the final Chapter 7, ‘Model Theory’ is back on the familiar tracks, mentioning compactness, the L-S Theorem, non-standard models of PA, Skolem’s Paradox and (more surprisingly) a little about Boolean-valued models.
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<p>
+How well does all this work? Let’s distinguish the more formal expository material from the surrounding chat. For some of the chat should strike anyone as decidedly below par.
+</p>
+<p>
+For example, how about this on p.&nbsp;1: “Until the beginning of the twentieth century, no one seriously doubted that nature follows elementary rules.”? Really? How about that co-author of what was the standard text on physics in German around the beginning of the nineteenth century, Georg Christoph Lichtenberg – who frequently remarks on our tendency to try to impose order and laws onto what may simply be random, messy, non-systematic natural phenomena.&nbsp;
+</p>
+<p>
+How about this on p.&nbsp;36: “Russell and Whitehead created a monumental work that far surpassed Frege’s account in scope and depth.” Really? Isn’t the usual judgement just the opposite, that <em>Principia</em> marks a significant step down in rigour from <em>Grundgesetze</em>, with skipped steps, inadequately defined terms, etc.?
+</p>
+<p>
+For a different sort of mishap, how about this on p.&nbsp;376: “At present, there is little discussion on the philosophical significance of [Skolem’s] paradox.” Really? Was the Stanford Encyclopaedia article (not to mention all the papers it refers to) invisible?
+</p>
+<p>
+It would be boring to continue: but Hoffmann’s handwaving asides are not the most reliable guide to the wider context of the technical material in the book.
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<p>
+But what about the main events, expounding some core mathematical logic? Obviously, with a book of this kind, aiming to convey some of the Big Ideas without too much distracting detail, it is a judgement call what to include, at what level. I can only report that I don’t find Hoffmann’s choices particularly well judged.
+</p>
+<p>
+Take the sections on the propositional calculus. On p.&nbsp;80, the “syntax of propositional logic” is defined like this:
+</p>
+<blockquote class="wp-block-quote blockquote">
+<p>
+Let <img src="https://latex.codecogs.com/png.latex?V%20=%20%5C%7BA_1,%20A_2,%20A_3%20,%20%5Cldots%5C%7D"> be a set of variables. The set of propositional formulas over V is recursively defined:
+</p>
+<p>
+■ 0 and 1 are formulas.
+</p>
+<p>
+■ Each variable in <img src="https://latex.codecogs.com/png.latex?V"> is a formula.
+</p>
+<p>
+■ If ϕ and ψ are formulas, so are (¬ϕ),(ϕ ∧ ψ),(ϕ ∨ ψ),(ϕ → ψ), …
+</p>
+</blockquote>
+<p>
+But then Hoffmann immediately refers to 0 and 1 here as truth-values (and this is the first serious occurrence of “truth value” in the book)! Which is just to engender confusion between the falsum and verum as formulas and the values which are their interpretations. To be sure, we can take truth-values to be whatever we like; but taking them to be formulas is certainly not a wise move to make for beginners.&nbsp;
+</p>
+<p>
+When it comes to a proof-system for propositional logic, we get a linear axiomatic calculus. Hoffmann does note on p.&nbsp;94 that alternative axiomatisations in the same style are possible. But there is not a whisper about natural deduction, the sequent calculus or any other proof-system. By all means concentrate on one style of proof-system to make various points (e.g.&nbsp;about completeness). But if the aim is to to present “the concepts, methods, and findings of mathematical logic” in an introductory survey, then we might expect to be told something about the breadth of logical options here. As it is, we get four pages of tedious axiomatic proofs but nothing e.g.&nbsp;about expressive completeness. And as for completeness, all we get is “… all universally valid formulas are indeed derivable from the axioms. We do not want to delve deeper into the more involved details here and refer the interested reader to the elaborated proofs in [Kalmár’s original paper!!] or [Mendelson (also Kalmár-style)] instead.” So not a hint about the lovely idea of a Henkin/Hintikka proof.
+</p>
+<p>
+This is not a helpful introduction to propositional logic. And similarly when it comes to predicate logic. In the final chapter where we might expect at least to be introduced to the main ideas of a completeness proof, the reader will again draw a blank. Yet Hoffmann is shortly going to be talking about non-standard models of PA and ultrafilters … a reader who can cope with that could certainly cope with a friendly exposition of the leading ideas in a proof of the crucial completeness theorem.
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<p>
+Moving on to the chapter on Peano arithmetic and on set theory, I again can’t really recommend either treatment.
+</p>
+<p>
+On arithmetic we get a historical box introducing Peano’s own axioms with the formal statement of his induction axiom given as schema (compare the top of p.&nbsp;134 with box on p.&nbsp;135 and the immediate commentary). This is odd, to say the least, as back on p.&nbsp;110 and following, we have in fact already met second-order logic, so we actually have available the apparatus to formalize Peano’s second-order axiom (and that’s what Hoffman must actually mean as he immediately mentions Dedekind’s categoricity theorem). The careful reader will be unnecessarily puzzled. We then get four pages of boring proofs in first-order PA (which is oddly presented with <em>all </em>the axioms given as schemas) – but someone new to formal arithmetics might have been better served by some mention of variant arithmetics with different strengths of induction available.
+</p>
+<p>
+On set theory we get presented with the ZFC axioms, clearly enough explained. But as for motivation? There is nothing about the cumulative hierarchy, and the preamble to the chapter on p.&nbsp;141 could well leave the reader with the impression that imposing a hierarchy of levels on sets is “widely considered obsolete”.
+</p>
+<p>
+To be fair, Hoffmann has put admirable effort into making his accounts of formal arithmetic and formal set theory pretty accessible. But it has to be said that there are many more well-balanced accounts to be had out there.
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<p>
+My impression of some of the later chapters is much the same. They are quite good in parts (perhaps particularly the computability chapter) but better options are available – though the distinctive chapter on algorithmic information theory has few competitors (and I’ll want to revisit that for the next version of the <em>Study Guide</em>). I can imagine some weaker students finding the book helpful preliminary reading, but overall I can’t be rushing to recommend it.
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<div class="hanging">
+<p><em>Tankut Beygu comments:</em> Overall, Hoffmann’s textbooks are quite good at accessibility: they are markedly clear in design, example-rich, and engaging to read. These qualities make them particularly valuable for self-study and for readers seeking an intuitive entry into complex subjects. His strong emphasis on diagrams and visual learning—methods more commonly associated with earlier stages of education—can feel out of place in expositions of relatively advanced subjects. Nonetheless, diagrammatic expositions have pedagogic merit on their own and also make the books reader-friendly. While his effort to include historical pointers is commendable and often helpful for orientation, his judgements on historical matters are unnecessary and Hoffmann could do just as well without them. So, Hoffmann’s books are perhaps best used in tandem with more rigorous and scholarly texts.</p>
+</div>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/hoffmann-limits-of-mathematics.html</guid>
+  <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Gödel, slowly …</title>
+  <link>https://logicmatters.net/blog/godel-slowly.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>
+As I said some weeks ago, I am slowly revising my <em>Introduction to Gödel’s Theorems</em>; I am still only about a third of the way through. I haven’t yet spotted any real horrors, but I’ve found some ways of re-arranging the material for the better, and there are quite a few sections which now strike me as not quite as relaxed and accessible as they should be. I started off planning a mildly revised reprint; but it looks as though the book will end up sufficiently changed for the result to count as a new edition later this year.
+</p>
+<p>
+I suppose, then, that if there <em>is</em> going to be a new edition, I should revisit the question of whether, this time around, to give a full-dress proof of the second incompleteness theorem for PA. It could a nice expository challenge to see how smooth I can make this … I’ll need to do some homework!
+</p>
+<p>
+This project is proving a really rather enjoyable one as there is no time pressure, I am happy with the book’s existing basic framework and, while the material is not exactly challenging, it is certainly more than interesting enough to be worth revisiting and thinking about again. And it gives me something productive to do between the mornings spent doing the serious stuff, redecorating my study …
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<p>
+Some music recommendations. Radu Lupu is one of my favourite pianists of all time and there are some sheer marvels in the new box set of his <em>Unreleased Recordings</em>, including absolutely compelling performances of Schubert’s D. 840 and D. 850 sonatas.
+</p>
+<p>
+And the ever-more-impressive Elisabeth Brauß has been on BBC Radio in three concerts. Her <a href="https://www.bbc.co.uk/programmes/m002rf42">Wigmore Hall concert this week with the exceptional young violinist Hana Chang </a>included pieces by Clara Schumann, Brahms, Lili Boulanger, working up to a terrific performance of the César Franck Sonata. Also Elisabeth’s recent much acclaimed Manchester performance of the <a href="https://www.bbc.co.uk/programmes/m002rhtt">Ravel Piano Concerto with the BBC Philharmonic</a> is now online (from 14.10). And not least, for a few more days, you can also hear an excerpt from another recital with Hana Chang, where<a href="https://www.bbc.co.uk/sounds/play/m002qh4t">they play Mozart’s B flat Sonata K. 454</a> (from 23.00) – quite outstanding.
+</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/godel-slowly.html</guid>
+  <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>A Wittgenstein problem …</title>
+  <link>https://logicmatters.net/blog/a-wittgenstein-problem.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>
+It is time at last to redecorate my small but now rather depressingly shabby study.
+</p>
+<p>
+Already books from the top shelves are piled in a hallway, and the rest are covered in plastic sheeting as I start tackling the late Victorian ceiling (which isn’t in a great shape). This explains, by the way, why I’m not currently revising the <em>Beginning Mathematical Logic Study Guide</em> as I originally planned to be doing now – for a couple of months, it will be just too much of a fuss to get at my library to check what I think about this or that recommended textbook.
+</p>
+<p>
+Soon, the rest of shelves will have to be emptied too, in sequence, more than twenty-five metres(!) of them in all. And so I might as well take the opportunity to have another bash at the Book Problem (as the shelves are crammed and there is a growing pile or two on the floor). I really, really, need to sort out and pass on – what? – surely at least another couple of metres of books.
+</p>
+<p>
+I hope it won’t be too painful! But I’ve been here before. And I’ll heed this advice about coping with the Book Problem …
+</p>
+<blockquote class="blockquote">
+<p>
+“A little library, growing larger every year, is an honourable part of a man’s history. It is a man’s duty to have books. A library is not a luxury, but one of the necessaries of life.” Yes. But let “little” be the operative word!
+</p>
+<p>
+Or so I now tell myself. It was — at the beginning — not exactly painless to let old friends go, or relinquish books that I’d never got that friendly with but always meant to, or give away those reproachful books that I&nbsp;<em>ought</em>&nbsp;to have read, and all the rest. After all, there goes my philosophical past, or at any rate the past I would have wanted to have (and similar rather depressing thoughts).
+</p>
+<p>
+But I think I’ve now got a grip&nbsp;(so here’s my advice to anyone else in the same position, needing to downsize).&nbsp;It’s a question of stopping looking backwards and instead thinking, realistically, about what I might want to think about seriously over the coming few years, and then aiming to cut right down to (a still pretty generous) working library around and about&nbsp;<em>that</em>. So instead of daunting shelves of books reminding me about what I’m not going to do, there’ll be a smaller and more cheering collection of books to encourage me in what I might really want to do. The power of positive thinking, eh?
+</p>
+</blockquote>
+<p>
+Wise words from my earlier self! So what should go?
+</p>
+<p>
+I’d solve the problem almost in one fell swoop if I give away all the Wittgenstein books and the secondary literature, and the biographies, memoirs and reminiscences. Tempting! In fact losing the fat biographies, etc., is a pretty easy decision, they are already in the Oxfam pile. I really have no wish at all to spend any more time with the man himself. But what about the philosophy – especially if (as is the case) the philosophy of mind and of language are really no longer my thing?
+</p>
+<p>
+Yes, the later Wittgenstein wrote a lot about the philosophy of mathematics. But what more can we extract, eighty or ninety years on, from the rambling, inconsistent, half-baked, thoughts, scattered through the <em>Nachlass</em> (some published, some not)?
+</p>
+<p>
+As far as one can tell, Wittgenstein knew almost no modern mathematics at all (and nowhere evinces the slightest real feel or appreciation of mathematics – he seems to have basically had an engineer’s view of a box of tricks for applications). He didn’t even know much about logic post <em>Principia</em>. The wonderful explosion of work on logic and foundations from the early 1930s on seems to have largely passed him by (he encountered fragments e.g.&nbsp;by having Turing in a class, and later though a friendship with Kreisel, but did he ever open one of those classic early issues of <em>JSL</em>? would he have understood it?). His opaque, ill-worked-out, remarks in his ‘middle’ and ‘late’ phases leave even his sympathetic readers struggling to find interpretations which are both coherent and half-way sensible accounts of anything beyond primitive recursive arithmetic. Some think that in the end no such accounts are to be had; others offer stories, but quite vigorously disagree with each other about what they should be. How revisionary? How constructivist? How finitist? Who is to say? Why care?
+</p>
+<p>
+I did recently happen across Juliet Floyd and Felix Mühlhölzer’s book <em>Wittgenstein’s Annotations to Hardy’s Course of Pure Mathematics: An Investigation of Wittgenstein’s Non-Extensionalist Understanding of the Real Numbers</em> (Springer, 2020). Based on a (very, very) few scattered remarks in the margins of a copy of Hardy’s book and some related passages elsewhere, the authors construct – ex pede Herculem – some three hundred pages of commentary about Wittgenstein on varieties of irrationals, on the continuum of reals, on reals, and (at quite inordinate length) on Cantor’s diagonal argument. I’d say: read it only if you enjoy trekking through a muddy field: it’s slow, sticky, and exhausting work … and the view remains muddy.
+</p>
+<p>
+It might be a while before I want to dive down that rabbit hole again (to crashingly mix my metaphors). If ever. But I suppose, I suppose, some of the Wittgenstein books will yet find their way back onto the shelves … Then we aren’t entirely rational about such things.
+</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/a-wittgenstein-problem.html</guid>
+  <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Gödel, Lean, Fra Angelico, Schubert</title>
+  <link>https://logicmatters.net/blog/godel-lean-fra-angelico-schubert.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>
+So far – but then I am still in the foothills, tinkering with early chapters – I have found just a couple of minor expositional stumbles in <em>An Introduction to Gödel’s Theorems</em>. I have spotted, though, quite a few places where I can make the text run just that bit more smoothly. And my friend Gemini Pro has also chipped in with perhaps two or three helpful small suggestions per chapter.
+</p>
+<p>
+There is just one passage in the book, however, which now strikes me as just wrong. It’s not a technical error (phew!). But I do write on p.&nbsp;25, talking about projects of formalization, that “outside the logic classroom we almost never set out deductive arguments in fully formalized versions”. That was perhaps more or less true enough when I first wrote it about twenty years ago; but it certainly isn’t today, with the exponential growth of work using formal computer proof assistants like Lean.
+</p>
+<p>
+So I have just been looking around for a reference or two to Lean and its cousins for a possible footnote. And I found <a href="https://arxiv.org/abs/2411.11885">this piece by Jeremy Avigad and others</a> which appeared last year in <em>Notices of the AMS</em>, which I thought was enlightening and might be of wider interest.
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<img src="https://logicmatters.net/images/MathProvedCon.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
+<p>
+I’m much enjoying getting back into thinking a little about Gödelian matters. And as I get to the point of revising the main chapters on the arguments for the first incompleteness theorem, one task for me will be actually to read Gödel 1931 again to see if I want to add more references to the paper. I must also take another look at the volume Jan von Plato published in 2020, as the result of his detective work grappling with Gödel’s shorthand notes written in the months leading up to his publishing the epoch-making paper. (Apart from a review by John Dawson in <em>Philosophia Mathematica</em>, that volume seems to have received surprisingly little attention. Perhaps because it does seem to take some effort to dig out the more interesting material – I’ll perhaps write something brief about that here.)
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<p>
+So it turned out that we couldn’t get to the Fra Angelico exhibition at Palazzo Strozzi and the convent of San Marco. By all accounts, it was wonderful to see – there is <a href="https://www.lrb.co.uk/the-paper/v48/n01/anna-mcgee/at-the-palazzo-strozzi">a very readable piece by Anna McGee in the <em>London Review of Books</em> here</a>.
+</p>
+<p>
+Getting the volume published to accompany the exhibition is – of course – a poor second best. Though it is wonderful to have. There are some very interesting essays. And you can revisit more often and can pause longer over some of the works in splendid illustrations (though the decisions over which panels and which frescos get really detailed reproductions are sometimes frustrating too).
+</p>
+<p>
+But though the exhibition finishes, San Marco of course remains, and we must return one day. And as Anna McGee writes, “The convent and its art encourage a sort of contemplation different from that of a museum. Henry James, who visited in 1873, put it well: ‘You may be as little of a formal Christian as Fra Angelico was much of one, you yet feel admonished by spiritual decency to let so yearning a view of the Christian story work its utmost will on you.’”
+</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/godel-lean-fra-angelico-schubert.html</guid>
+  <pubDate>Mon, 26 Jan 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Gödel’s Theorems (and logicisms) revisited</title>
+  <link>https://logicmatters.net/blog/godels-theorems-and-logicisms-revisited.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>
+I didn’t at all intend to return to my <em>Introduction to Gödel’s Theorems</em> (which I’ve not really read for a dozen years, apart from correcting a small handful of typos in the PDF). But I had occasion to look something up, and – hey, ho! – I’ve found myself over the last week beginning to tinker with early chapters (so far in very minor ways, for added clarity). And having started, I guess will intermittently continue. Not that I’m planning any major changes: I much like the structure of the book as it is. I’ll just be maximising accessibility, and perhaps adding footnotes pointing to a few more recent publications.
+</p>
+<p>
+But I wonder, I wonder, … I can envisage a tempting project, a follow-up <em>Incomplete Variations</em> (say) with a series of independent essays on specific topics. As well as more technical fun, there could be chapters on ‘What actually happens in Gödel 1931?’, ‘Ten different ways of proving the first incompleteness theorem’, ‘How to prove the second theorem’, ‘Wittgenstein on Gödel’ (oh dear!), ‘Gödel and the dialetheists’ (really?!), ‘Kripke and Gödel’, maybe ‘Gödel’s disjunction’ (i.e.&nbsp;more about Gödel, minds and machines), ‘What should a contemporary logicist about arithmetic make of incompleteness?’, etc. Oh, what to prioritize?
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<p>
+By coincidence, Richard Kimberly Heck has just posted a comment today on an old blogpost on the last topic I just mentioned, about how someone who is still inclined to find truth in logicism should respond to the incompleteness theorems. <a href="../archive/pages/logicism-godel.html">I do find Heck’s line here congenial</a>.
+</p>
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
+<p>
+Let me add another musical interlude. There were some starry performers at the &nbsp;XX Cartagena Festival de Música earlier this month, including the Pavel Haas Quartet – and not least Elisabeth Brauß, who played her favourite Mozart Piano Concerto, the 23rd. Here she is, very engaging as always [from 39.20].
+</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/rX5cienR_Ek" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<hr>
+<div class="hanging">
+<p><em>Daniel Nagase comments:</em> Speaking of which, what are your impressions on the recent scholarship viz.&nbsp;Gödel’s relationship with von Neumann, particularly the claim that (1) Gödel got the ida of arithmetization from him and (2) Gödel never really had a proof of the 2nd incompleteness theorem and so kind of lied or at least seriously misled von Neumann in their correapondence, so that he wouldn’t publish his results?</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>PS replies:</em> Does von Plato (whose work on the Gödel notes and drafts I guess you are referring to) say anything as strong as (1)?</p>
+<p>On (2), the evidence von Plato gives does look strong. As the cautious John Dawson in his Philosophia Mathematica review puts it “In his correspondence with von Neumann … [Gödel’s] circumspection with regard to the second incompleteness theorem in the original manuscript he sent to the printer —- despite his having forthrightly announced the formal unprovability of consistency in his Anzeiger abstract — was due to his discovery, after receiving von Neumann’s letter, that a detailed formal proof of that theorem was much harder to execute than he had anticipated.”</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>Rowsety Moid comments:</em> ’m wondering who it is who thinks Gödel got the idea of arithmetization from von Neumann? Or (which seems to be what (2) suggests) that Gödel didn’t know how to prove the 2nd incompleteness theorem?</p>
+<p>A search turned up a two-part blog post by Ananyo Bhattacharya, the author of The Man from the Future: The Visionary Life of John von Neumann:</p>
+<p>Was Gödel’s second incompleteness theorem really von Neumann’s? Part I Was Gödel’s second incompleteness theorem really von Neumann’s? Part II</p>
+<p>He makes both claims. I can’t say I find his reasoning convincing, though, especially on (1), and I don’t think he quite understands what Gödel was doing.</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>PS replies:</em> See Jan von Plato’s book, Can Mathematics be Proved Consistent (Springer), which very interestingly translates Gödel’s shorthand notes, and also translates the original typescript of the incompleteness paper. The book can be freely downloaded here.</p>
+<p>On (1), it does seem that the way that Gödel handled arithmetization changed after a conversation with von Neumann — see von Plato pp.&nbsp;16-17. But the change isn’t a deep one.</p>
+<p>However, on (2), von Plato concludes (p.&nbsp;27) that indeed Gödel “was unable to prove the second theorem to his satisfaction”. And he also concludes that Gödel wasn’t straightforwardly honest in his exchanges with von Neumann: “Gödel panicked at the prospect of von Neumann publishing his second theorem”. The evidence does seem to point that way.</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>Anderson Nakano comments:</em> This is a very enticing list of possibilities! I was particularly struck by the mention of a chapter on “Wittgenstein on Gödel” (oh dear indeed…). By coincidence, a paper of mine (co-authored with Rafael Ongaratto) on Wittgenstein’s remarks on Gödel’s theorems has just been published today, where I try to disentangle some persistent misunderstandings in the literature and to offer a more charitable reconstruction of Wittgenstein’s position.</p>
+<p>If that topic does make it onto your list of priorities, you might find the paper of interest: https://www.scielo.br/j/man/a/jcN8DxrL97NpYHYTTxBY7sJ/?lang=en</p>
+<p>In any case, the idea of a follow-up volume with focused essays ranging from technical proofs to broader philosophical reactions sounds extremely attractive. I very much look forward to seeing where this tinkering leads.</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>Rowsety Moid comments:</em> “On (1), it does seem that the way that Gödel handled arithmetization changed after a conversation with von Neumann — see von Plato pp.&nbsp;16-17. But the change isn’t a deep one.”</p>
+<p>I’m not completely sure what the change is thought to be. My best guess is that it’s the change from using a series of numbers to represent a formula (and a series of series for a proof) to using single numbers for such things (by employing “the famous Gödel numbering through the uniqueness of prime decomposition”, as it’s put on von Plato’s p 17).</p>
+<p>If so, then it looks like another part of p 17 shows Godel did not get that idea from von Neumann at the Königsberg conference:</p>
+<p>“The cancelled page 329L, written well before the Königsberg meeting, develops the idea of Gödel numbering, with the comment that by the mapping of series of numbers to numbers through a product of powers of primes, “metamathematical concepts earlier defined that concern the system S, go over into properties and relations between natural numbers.” This mapping is put aside, however, and series of numbers continue to represent formulas and proofs until the final shorthand version that was written after the Königsberg meeting. There, on pages 254L-R, Gödel writes that by taking products of powers of primes, “a natural number is associated in a one-to-one way, not just to each basic sign but also to each finite series of basic signs” – an idea described as “trivial” in Gödel’s recollections about his meeting with von Neumann.”</p>
+</div>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/godels-theorems-and-logicisms-revisited.html</guid>
+  <pubDate>Mon, 19 Jan 2026 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
