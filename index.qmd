@@ -28,5 +28,7 @@ format:
 
 [**LaTeX FOR LOGICIANS**](latex-for-logicians) Pages pointing to a wide range of resources of interest to logicians, philosophers and others using LaTeX.
 
+::: {.small .text-muted .fst-italic}
 {{< include _render_time.md >}}
+:::
 
