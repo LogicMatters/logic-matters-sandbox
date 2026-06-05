@@ -28,8 +28,6 @@ website:
         href: about.qmd
       - icon: bluesky
         href: https://bsky.app/profile/logicmatters.bsky.social
-      - icon: rss
-        href: /blog/index.xml
 format:
   html:
     theme: cosmo
