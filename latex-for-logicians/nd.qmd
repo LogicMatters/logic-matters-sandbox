@@ -34,7 +34,7 @@ For a document on bussproofs for Gentzen-style proofs, two Fitch-style packages,
 - There is a package [nd3.sty](/resources/nd3.sty) for setting Lemmon-style proofs, with a [short manual](pdfs/nd-manual2a.pdf) (Alex Steinberg 2010: see [here](http://phloxgroup.wordpress.com/2010/03/22/lemmon-style-natural-deduction-proofs-in-latex/) for the original post about this).
 
 
-Updated 4 June 2026
+Revised 4 June 2026.
 
 
 
