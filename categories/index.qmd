@@ -1,6 +1,5 @@
 ---
 title: "Category theory: online lecture notes, etc."
-description: "A selection of freely available online category theory resources."
 ---
 
 The links below are to a selection of freely (and legitimately!) available online resources for those interested in category theory at an elementary/intermediate level.

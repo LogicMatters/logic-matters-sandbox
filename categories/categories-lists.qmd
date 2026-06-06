@@ -1,6 +1,6 @@
 ---
 title: "Categories — fuller list of lecture notes and books"
-description: "A more comprehensive collection of freely available category theory resources."
+description: "*A more comprehensive collection of links*"
 ---
 
 The links below are to various freely (and legitimately!) available online resources for those interested in category theory at an elementary/intermediate level. On this page, they are presented without much comment, for you to delve into. For a suggested selection, return to the main [category theory page here](/categories).
