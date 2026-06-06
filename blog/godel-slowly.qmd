@@ -3,6 +3,8 @@ title: "Gödel, slowly ..."
 date: "2026-02-28"
 ---
 
+<span style="display:none">Brauss</span>
+
 
 <p>As I said some weeks ago, I am slowly revising my <em>Introduction to Gödel’s Theorems</em>; I am still only about a third of the way through. I haven’t yet spotted any real horrors, but I’ve found some ways of re-arranging the material for the better, and there are quite a few sections which now strike me as not quite as relaxed and accessible as they should be. I started off planning a mildly revised reprint; but it looks as though the book will end up sufficiently changed for the result to count as a new edition later this year. </p>
 
