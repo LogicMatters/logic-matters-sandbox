@@ -10,7 +10,34 @@
 <atom:link href="https://logicmatters.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Logic, philosophy of mathematics, and related topics.</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Wed, 03 Jun 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 05 Jun 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Settling in – and a PHQ concert</title>
+  <link>https://logicmatters.net/blog/settling-in.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The domain name logicmatters.net now points to this new site freely hosted on GitHub. Which was quick! It has indeed been quite a fun, fast, mildly nerdy, journey from the old WordPress site. So here are brief notes about the state of play (though sensible readers will probably want to skip straight on to the terrific new Pavel Haas Quartet video linked below).</p>
+<ul>
+<li><p>As you will see, only recent blog posts (and comments) have been copied across from the old WordPress site. However, you can find some of the more interesting(?) <a href="../archive/">older posts archived here</a>. And I will add more to the archive when the spirit moves me – there are only about 1850 posts from twenty years of blogging to read through again, with rather mixed feelings too.</p></li>
+<li><p>As you will also see, there is no longer a Wordpress-style comment system. I could set up the heavy-duty GitHub-based app, but this in fact seems wild overkill for a blog which gets only a few comments a month. Instead, every blog post invites you to send comments by email or to discuss on Mastodon, and I’ll manually copy in any contributions of general intrest. We’ll see how that works.</p></li>
+<li><p>The blog preview page gives the new RSS feed address, though I have set up a redirect on Cloudflare and so the old feed address should still work.</p></li>
+<li><p>I have preserved a lot of the old site’s folder structure, so external links that pointed to the old site should mostly still work. When the initial dust has settled I will set up redirects for any frequently used broken links.</p></li>
+<li><p>As mentioned before, I did wonder about pensioning off the LaTeX for Logicians pages (dating originally from way back). But, somewhat to my surprise, Google Analytics reported that they have still in fact been getting signifcant traffic. So there is now a revised, somewhat leaner, suite of pages which may still have some use.</p></li>
+</ul>
+<p>But no more nerdy procrastination, then: I have no excuse not to get back to revising <em>Beginning Mathematical Logic</em>.</p>
+<hr>
+<p>And now for something outstanding. At Wigmore Hall, The Pavel Haas Quartet with – after the interval – Boris Giltburg (piano) and Petr Ries (double bass) perform Dvorak’s ‘American’ Quartet and Schubert’s Trout Quintet. Simply wonderful perfomances.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/Qj2cPuj6vro" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/settling-in.html</guid>
+  <pubDate>Fri, 05 Jun 2026 23:00:00 GMT</pubDate>
+</item>
 <item>
   <title>A new hardback!</title>
   <link>https://logicmatters.net/blog/new-hardback.html</link>
@@ -833,76 +860,6 @@ But though the exhibition finishes, San Marco of course remains, and we must ret
  ]]></description>
   <guid>https://logicmatters.net/blog/godel-lean-fra-angelico-schubert.html</guid>
   <pubDate>Mon, 26 Jan 2026 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Gödel’s Theorems (and logicisms) revisited</title>
-  <link>https://logicmatters.net/blog/godels-theorems-and-logicisms-revisited.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>
-I didn’t at all intend to return to my <em>Introduction to Gödel’s Theorems</em> (which I’ve not really read for a dozen years, apart from correcting a small handful of typos in the PDF). But I had occasion to look something up, and – hey, ho! – I’ve found myself over the last week beginning to tinker with early chapters (so far in very minor ways, for added clarity). And having started, I guess will intermittently continue. Not that I’m planning any major changes: I much like the structure of the book as it is. I’ll just be maximising accessibility, and perhaps adding footnotes pointing to a few more recent publications.
-</p>
-<p>
-But I wonder, I wonder, … I can envisage a tempting project, a follow-up <em>Incomplete Variations</em> (say) with a series of independent essays on specific topics. As well as more technical fun, there could be chapters on ‘What actually happens in Gödel 1931?’, ‘Ten different ways of proving the first incompleteness theorem’, ‘How to prove the second theorem’, ‘Wittgenstein on Gödel’ (oh dear!), ‘Gödel and the dialetheists’ (really?!), ‘Kripke and Gödel’, maybe ‘Gödel’s disjunction’ (i.e.&nbsp;more about Gödel, minds and machines), ‘What should a contemporary logicist about arithmetic make of incompleteness?’, etc. Oh, what to prioritize?
-</p>
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
-<p>
-By coincidence, Richard Kimberly Heck has just posted a comment today on an old blogpost on the last topic I just mentioned, about how someone who is still inclined to find truth in logicism should respond to the incompleteness theorems. <a href="../archive/pages/logicism-godel.html">I do find Heck’s line here congenial</a>.
-</p>
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
-<p>
-Let me add another musical interlude. There were some starry performers at the &nbsp;XX Cartagena Festival de Música earlier this month, including the Pavel Haas Quartet – and not least Elisabeth Brauß, who played her favourite Mozart Piano Concerto, the 23rd. Here she is, very engaging as always [from 39.20].
-</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/rX5cienR_Ek" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<hr>
-<div class="hanging">
-<p><em>Daniel Nagase comments:</em> Speaking of which, what are your impressions on the recent scholarship viz.&nbsp;Gödel’s relationship with von Neumann, particularly the claim that (1) Gödel got the ida of arithmetization from him and (2) Gödel never really had a proof of the 2nd incompleteness theorem and so kind of lied or at least seriously misled von Neumann in their correapondence, so that he wouldn’t publish his results?</p>
-</div>
-<p>
-</p>
-<div class="hanging">
-<p><em>PS replies:</em> Does von Plato (whose work on the Gödel notes and drafts I guess you are referring to) say anything as strong as (1)?</p>
-<p>On (2), the evidence von Plato gives does look strong. As the cautious John Dawson in his Philosophia Mathematica review puts it “In his correspondence with von Neumann … [Gödel’s] circumspection with regard to the second incompleteness theorem in the original manuscript he sent to the printer —- despite his having forthrightly announced the formal unprovability of consistency in his Anzeiger abstract — was due to his discovery, after receiving von Neumann’s letter, that a detailed formal proof of that theorem was much harder to execute than he had anticipated.”</p>
-</div>
-<p>
-</p>
-<div class="hanging">
-<p><em>Rowsety Moid comments:</em> ’m wondering who it is who thinks Gödel got the idea of arithmetization from von Neumann? Or (which seems to be what (2) suggests) that Gödel didn’t know how to prove the 2nd incompleteness theorem?</p>
-<p>A search turned up a two-part blog post by Ananyo Bhattacharya, the author of The Man from the Future: The Visionary Life of John von Neumann:</p>
-<p>Was Gödel’s second incompleteness theorem really von Neumann’s? Part I Was Gödel’s second incompleteness theorem really von Neumann’s? Part II</p>
-<p>He makes both claims. I can’t say I find his reasoning convincing, though, especially on (1), and I don’t think he quite understands what Gödel was doing.</p>
-</div>
-<p>
-</p>
-<div class="hanging">
-<p><em>PS replies:</em> See Jan von Plato’s book, Can Mathematics be Proved Consistent (Springer), which very interestingly translates Gödel’s shorthand notes, and also translates the original typescript of the incompleteness paper. The book can be freely downloaded here.</p>
-<p>On (1), it does seem that the way that Gödel handled arithmetization changed after a conversation with von Neumann — see von Plato pp.&nbsp;16-17. But the change isn’t a deep one.</p>
-<p>However, on (2), von Plato concludes (p.&nbsp;27) that indeed Gödel “was unable to prove the second theorem to his satisfaction”. And he also concludes that Gödel wasn’t straightforwardly honest in his exchanges with von Neumann: “Gödel panicked at the prospect of von Neumann publishing his second theorem”. The evidence does seem to point that way.</p>
-</div>
-<p>
-</p>
-<div class="hanging">
-<p><em>Anderson Nakano comments:</em> This is a very enticing list of possibilities! I was particularly struck by the mention of a chapter on “Wittgenstein on Gödel” (oh dear indeed…). By coincidence, a paper of mine (co-authored with Rafael Ongaratto) on Wittgenstein’s remarks on Gödel’s theorems has just been published today, where I try to disentangle some persistent misunderstandings in the literature and to offer a more charitable reconstruction of Wittgenstein’s position.</p>
-<p>If that topic does make it onto your list of priorities, you might find the paper of interest: https://www.scielo.br/j/man/a/jcN8DxrL97NpYHYTTxBY7sJ/?lang=en</p>
-<p>In any case, the idea of a follow-up volume with focused essays ranging from technical proofs to broader philosophical reactions sounds extremely attractive. I very much look forward to seeing where this tinkering leads.</p>
-</div>
-<p>
-</p>
-<div class="hanging">
-<p><em>Rowsety Moid comments:</em> “On (1), it does seem that the way that Gödel handled arithmetization changed after a conversation with von Neumann — see von Plato pp.&nbsp;16-17. But the change isn’t a deep one.”</p>
-<p>I’m not completely sure what the change is thought to be. My best guess is that it’s the change from using a series of numbers to represent a formula (and a series of series for a proof) to using single numbers for such things (by employing “the famous Gödel numbering through the uniqueness of prime decomposition”, as it’s put on von Plato’s p 17).</p>
-<p>If so, then it looks like another part of p 17 shows Godel did not get that idea from von Neumann at the Königsberg conference:</p>
-<p>“The cancelled page 329L, written well before the Königsberg meeting, develops the idea of Gödel numbering, with the comment that by the mapping of series of numbers to numbers through a product of powers of primes, “metamathematical concepts earlier defined that concern the system S, go over into properties and relations between natural numbers.” This mapping is put aside, however, and series of numbers continue to represent formulas and proofs until the final shorthand version that was written after the Königsberg meeting. There, on pages 254L-R, Gödel writes that by taking products of powers of primes, “a natural number is associated in a one-to-one way, not just to each basic sign but also to each finite series of basic signs” – an idea described as “trivial” in Gödel’s recollections about his meeting with von Neumann.”</p>
-</div>
-
-
-
- ]]></description>
-  <guid>https://logicmatters.net/blog/godels-theorems-and-logicisms-revisited.html</guid>
-  <pubDate>Mon, 19 Jan 2026 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

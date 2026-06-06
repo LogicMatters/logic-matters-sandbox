@@ -4,14 +4,13 @@ page-layout: article
 format:
   html:
     include-before-body: _site-nav.html
-    include-after-body: _site-footer.html
 ---
 
 
-These Logic Matters pages are by me, Peter Smith. Before I retired, I used to teach logic and related things in the University of Cambridge.
+These Logic Matters pages are by me, Peter Smith. Email: ps [at] logicmatters [dot] net.
 
 <img src="books/book-covers/SmithBML.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
-And indeed, it was my greatest good fortune to have secure, decently paid, university posts for forty years in leisurely times, with a very great deal of freedom to follow my philosophical and mathematical interests wherever they led. Like many of my generation, I am quite sure I didn't at the time really appreciate just how very lucky I and my contemporaries were. So the more student-orientated areas of this site, such as the Study Guide section, including the freely downloadable [***Beginning Mathematical Logic***](/tyl/), constitute my small but heartfelt effort to give something back by way of thanks. I've also been able to make some previously published books open access.
+Before I retired, I used to teach logic and related things in the University of Cambridge. And indeed, it was my greatest good fortune to have secure, decently paid, university posts for forty years in leisurely times, with a very great deal of freedom to follow my philosophical and mathematical interests wherever they led. Like many of my generation, I am quite sure I didn't at the time really appreciate just how very lucky I and my contemporaries were. So the more student-orientated areas of this site, such as the Study Guide section, including the freely downloadable [***Beginning Mathematical Logic***](/tyl/), constitute my small but heartfelt effort to give something back by way of thanks. I've also been able to make some previously published books open access.
 
 Before returning to Cambridge in 1998, I was in the Philosophy Department at the University of Sheffield for ten years, and before that was at UCW Aberystwyth (as it then was called, and where there was once a small but rather good department, closed as a result of the 'Thatcher cuts'). In ancient history, I was at [Trinity](http://www.trin.cam.ac.uk/) for eight years, where I took Part II Maths at the end of my second year, and then in my third year got a distinction in [Part III Maths](https://www.maths.cam.ac.uk/postgrad/part-iii/prospective.html) (it has really been downhill all the way since). In my fourth year, I took Part II Moral Sciences for light relief. Then, instead of going back to [DAMTP](http://www.damtp.cam.ac.uk/), I stayed on trying to become a philosopher, for not-very-good reasons, and thereby perhaps rather foolishly missed out on some of the glory days of elementary particle physics.
 

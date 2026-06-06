@@ -1,6 +1,10 @@
 ---
 title: "Blog"
 css: styles.css
+format:
+  html:
+    include-after-body:
+      - ../_site-nav.html
 listing:
   contents: "."      # Tells Quarto where to look for the posts
   sort: "date desc"  # Replicates the reverse chronological order

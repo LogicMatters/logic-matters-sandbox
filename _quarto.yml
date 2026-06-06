@@ -29,8 +29,8 @@ website:
     right:
       - text: "About"
         href: about.qmd
-      - icon: bluesky
-        href: https://bsky.app/profile/logicmatters.bsky.social
+      - icon: mastodon
+        href: https://mathstodon.xyz/@PeterSmith
 format:
   html:
     theme: cosmo
