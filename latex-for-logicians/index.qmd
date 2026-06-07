@@ -18,4 +18,4 @@ These LaTeX for Logicians pages started life in 2004, before there was such a we
 
 - *[Varia](varia.qmd)*. Links to a variety of other resources which could useful for logicians using LaTeX.
 
-Thanks to all the contributors to LaTeX for Logicians over the years! I don't aim to be completist, but suggestions for relevant additions arealways welcome.
+Thanks to all the contributors to LaTeX for Logicians over the years! I certainly don't aim to be completist, but suggestions for relevant additions are always welcome.

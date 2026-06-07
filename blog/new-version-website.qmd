@@ -13,7 +13,7 @@ Another task is to update the LaTeX for Logicians pages. These have been in exis
 
 <hr>
 
-You will also see that this new site hasn’t got an active comments system: this is due to the limitations of a website built with a static site generator like Quarto.  Rather, readers are invited to engage on Bluesky or to send comments by email (which I will add to blog posts if of general interest). But these days -- as is very much the way with blogs and other social media -- comments are few and far between (apart from one or two stalwarts who also email anyway!). And again, no more costly spam-filtering! 
+You will also see that this new site hasn’t got an active comments system: this is due to the limitations of a website built with a static site generator like Quarto.  Rather, readers are invited to engage on Bluesky or to send comments by email (which I will add to blog posts if of general interest). [*Added* Bluesky was probably a silly idea, given the length limitation on posts there: Mastodon is a better bet, given its take-up with mathematicians and others.] But these days -- as is very much the way with blogs and other social media -- comments are few and far between (apart from one or two stalwarts who also email anyway!). And again, no more costly spam-filtering! 
 
 <hr>
 
