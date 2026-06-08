@@ -35,7 +35,7 @@ NB: The [AMS LaTeX page](https://www.ams.org/arc/resources/amslatex-about.html) 
     \DeclareMathSymbol{\strictif}{\mathrel}{symbolsC}{74}
     \DeclareMathSymbol{\boxright}{\mathrel}{symbolsC}{128}
    ```
-Similarly of course for invoking other symbols you want. To get the slot number for a txfonts symbol to use with \DeclarMathSymbol you can simply use AI.
+Similarly of course for invoking other symbols you want. To get the slot number for a txfonts symbol to use with `\DeclarMathSymbol` you can simply use AI.
 
 - *A triple turnstile* to match the usual single and double turnstiles?  A [solution here](https://tex.stackexchange.com/questions/502411/triple-turnstile-symbol/502415#502415).
 
