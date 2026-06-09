@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Mileti, Modern Mathematical Logic – Logic Matters</title>
+<title>Roman Kossak’s Model Theory for Beginners – Logic Matters</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -80,35 +80,6 @@ gtag('js', new Date());
 gtag('config', 'G-NJWC5RLRWV', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -198,7 +169,7 @@ window.addEventListener('load', function () {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Mileti, Modern Mathematical Logic</h1>
+<h1 class="title">Roman Kossak’s Model Theory for Beginners</h1>
 </div>
 
 
@@ -215,30 +186,16 @@ window.addEventListener('load', function () {
 </header>
 
 
-<p><img src="covers/Mileti-209x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;"></p>
-<p>Joseph Mileti’s <em>Modern Mathematical Logic</em> (CUP 2023, 502 pp.) is announced as being aimed at advanced undergraduates or beginning graduates.(Mileti says he assumes familiarity with some basic abstract algebra; however, this seems perhaps more needed to best appreciate some illustrative examples rather than as necessary background for grasping core content.)</p>
-<p>Despite the title, the coverage is old-school and the approach thoroughly conventional. Mileti starts with basic first-order logic (though there’s no real proof theory). Then there’s a little model theory, entry-level axiomatic set theory, some computability theory, and the book ends with a treatment of incompleteness.</p>
-<p>A familiar menu, then: how well is it served it up? There is friendly signposting and some nice turns of phrase. But …</p>
-<hr>
-<p><em>Some details</em> Chapter 2, the first substantial chapter, is thirty pages on ‘Induction and Recursion’. We get a pretty dense treatment of what Mileti calls ‘generating systems’, three different ways of defining the set of generated whatnots, proofs that these definitions come to the same, then a criterion for free generating systems, a proof that we can do recursive definitions over the free systems, and so on. This is all done in what strikes me as a rather heavy-handed way which could be pretty off-putting as a way of starting out. Many students, I would have thought, will just feel they have been made to labour unnecessarily hard at this point for small returns. And when the very general apparatus is applied e.g.&nbsp;in the next chapter to prove, e.g., unique parsing results, I don’t think that what we get is more illuminating than a more local argument. (I suppose my pedagogic inclination in such cases is to motivate a general proof idea by proving an interesting local case first and then, at an appropriate point later, saying “Hey, we can generalize …”.)</p>
-<p>Chapter 3, the next fifty pages, is on propositional logic. A minor complaint is that the arrow connective is initially introduce in the preface as meaning ‘implies’ (oh dear), and then we get not a word of discussion of the truth-functional treatment of the connective (unless my attention flickered). But my main beef here is with the chosen formal proof system. This is advertised as natural deduction, but it is a sequent system, where on the left of sequents we get sequences rather than sets (why?). And although the rules are set out in a way that would naturally invite tree-shaped proofs, they are actually applied to produce linear proofs (why?). Moreover, the chosen rule-set is not happily motivated. We have disjunctive syllogism rather than a proper vE rule; double negation elimination is called ¬E (so intuitionistic logic doesn’t have negation elimination? — Mileti’s system doesn’t have a nice inituitionistic subsystem). OK: Mileti isn’t going to be interested in proof theory; but he should at least have chosen a modern(!) proof system with proof-theoretic virtues!</p>
-<p>We then get the sort of propositional completeness proof that (a) involves building up a maximal consistent set starting from some given wffs by looking at every possible wff in turn to see if it can next be chucked into our growing collection while maintaining consistency, rather than the sort of proof that (b) chucks in simpler truth-makers only as needed, Hintikka style. We are not told what might make the Henkin strategy better than the more economical Hintikka one.</p>
-<p>Perhaps the best/most interesting thing in this chapter is the final section (and the accompanying exercises) on compactness for propositional logic, which gives a nice range of applications.</p>
-<p>Chapter 4 is on ‘First-order logic: languages and structures’ — so some 40 pages on basic semantics. Chapter 5 is on ‘Relationships between structures’ — another longish chapter, 35 pages on substructures, homomorphisms between structures, embeddings, and the like. Chapter 6 , ‘Implications and compactness’, is an even longer chapter — some 48 pages introducing a proof system for FOL and proving soundness and completeness, then drawing out some consequences of compactness, before going on to talk about theories framed in a first-order language, with a substantial final section on random graphs.</p>
-<p>In headline terms: I found the basic treatment of the semantics, and again of the formal proof-system and completeness for FOL, pretty unattractive. On the other hand, the more model-theoretic Chapter 5, and the second half of Chapter 6 strike me as notably more readable.</p>
-<p>In just a bit more detail, we get a highly conventional story about the syntax of FOL languages. In particular, the same symbols are recruited for double duty, as part of the construction of a quantifier operator, and for use as parameters/temporary names. Of course, this means we have to fuss about rules for distinguishing free from bound occurrences of variables, and fuss at length about avoiding unwanted variable capture when substituting terms for variables (§4.4 on substitution is no less than eleven rather dense pages long). Why do things this way? It’s only ninety years since Gentzen taught us how to do better, in ways that have become more and more familiar as modern proof-theorists spread the word!</p>
-<p>In the middle of Chapter 4, though, there is a nice short first section on definability. Issues of definability and related topics about what classes of structures can be captured by which languages, and so on, are then taken up in the next chapter — which ends with a nice section §5.5 which introduces the Tarski-Vaught test and shows how to get from there to a version of the downward L-S theorem for a countable language. §4.3 and Chapter 5 could I think be tackled standalone by someone who knows some basic FOL from other sources; and these sections do work pretty well.</p>
-<p>After a section defining semantic entailment for FOL, Chapter 6 introduces a deductive system for quantificational logic, far too briskly (it seems to me) to be of much use to anyone who is encountering one for the first time. And the soundness and completeness results are done no more attractively than for the earlier propositional logic case. I can’t really recommend these sections. But then §6.4 on applications of compactness and §6.5 on theories are nice (and the concluding section on random graphs is an interesting bonus).</p>
-<p>Chapter 7 is titled ‘Model theory’. Of the five sections, the first three can’t be recommended. In particular, §7.2 makes unnecessarily heavy weather of that fun topic, nonstandard models of arithmetic and analysis. By contrast, I thought §7.4 on quantifier elimination did a notably better-than-often job at explaining the key ideas and working through examples. §7.5 on algebraically closed fields worked pretty well too.</p>
-<p>And now we get two chapters on set theory, together amounting to almost a hundred pages. There’s a major oddity. The phrase ‘cumulative hierarchy’ is never mentioned: nor is there any talk of sets being found at levels indexed by the ordinals. The usual V-shaped diagram of the universe with ordinals running up the spine is nowhere to be seen. I do find this very strange — and not very ‘modern’ either! There are minor oddities too. For example, the usual way of showing that the Cartesian product of <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> (defined as the set of Kuratowski pairs <span class="math inline">\(\langle a, b\rangle\)</span>) is a set according to the ZFC axioms is to use Separation to carve it out of the set <span class="math inline">\(\mathcal{P}(\mathcal{P}(A \cup B))\)</span> in the obvious way. Mileti instead uses an unobvious construction using Replacement. Why? A reader might well come away from the discussion with the impression that Replacement is <em>required</em> to get Cartesian products and hence all the constructions of relations and functions which depend on that. (I rather suspect that Mileti isn’t much interested in ‘modern’ finer-tuned discussions of what depends on what, such as the question of &nbsp;which set-theoretic claims really do depend on something as strong as replacement.)</p>
-<p>So: Chapter 8 gives us ZFC, and the usual sort of story about how to develop arithmetic and analysis in set theory. The mentioned oddities apart it is generally OK: but the recommendations for entry-level set theory in the Study Guide do the job better and in a friendlier way. However I should mention that, at the end of the chapter, §8.7 on models, sets and classes, does explain the role of class talk rather nicely.</p>
-<p>Chapter 9 is on ordinals, cardinals, and the axiom of choice; and I thought this chapter worked comparatively well. Finally in this group, Chapter 10 is much shorter, just two sections on “Set-theoretic methods in model theory”. The first, just four pages, is on sizes of models; and then the second is an opaque and to my mind misjudged ten pages on ultraproducts.</p>
-<p>We are now on the home straight … only 117 pages to go. The last two long chapters &nbsp;are on ‘Computable sets and functions’ and ‘Logic, computation, and incompleteness’.</p>
-<p>In broad-brush terms, the content is pretty much the sort of thing you could predict. So Chapter 11, some seventy pages, introduces the primitive recursive functions, shows they are not all the intuitively computable functions, and so goes on to discuss partial recursive functions. Then we get a machine model of computation, with Mileti choosing URM machines over Turing machines. We find out that the URM computable partial functions are just the partial recursive functions, and there is some sensible discussion of the Church-Turing Thesis. The chapter concludes by looking at computably enumerable (but perhaps not computable) sets.</p>
-<p>Then Chapter 12 starts by talking about coding expressions and deductions, and about arithmetic definability. §12.3 shows that the set of true sentences of formal first-order arithmetic is undecidable. Mileti then starts looking at Robinson Arithmetic in particular and shows that it can represent computable functions. The final section of the book gives us a proof of incompleteness.</p>
-<p>So these final two chapters cover material which is already beautifully covered in some classic books from e.g.&nbsp;the early editions of Boolos and Jeffrey &nbsp;onwards. To be sure, these chapters are perfectly respectable, perhaps the best in the book, and Mileti can write with an engaging turn of phrase. But are they particularly attractively done, especially accessible, splendidly clear, plainly to be preferred to the existing entry-level recommendations in the Study Guide? I rather think not.</p>
-<hr>
-<p><em>Summary verdict</em> Some parts of this book can be recommended for supplementary reading for self-study. But to be frank, I’m still not quite sure what the point of Mileti’s text is. The title rather belies the content — what’s so ‘modern’ here? The treatments of the various topics do usually seem thoroughly conventional and often even rather old-school. And I’m not persuaded that — sixty years on from Mendelson! — there is still any special additional virtue in having core FOL, some model theory, set theory, and some computability theory all done between the same covers. So, I’m afraid I can’t jump to join in the chorus of rather extravagant praise printed at the front of the book.</p>
+<p><img src="covers/616h6g3xamL._AC_UY436_QL65_-200x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;"></p>
+<p>Following on from his <em>Mathematical Logic&nbsp;</em>(2018), Roman Kossak has now published <em>Model Theory for Beginners: 15 Lectures</em> (College Publications, 2021). As the title indicates, the fifteen chapters of this short book — just 138 pages — have their origin in introductory lectures given to graduate students in CUNY. Roughly speaking, the topics of the first half of this new book overlap quite closely with the second half of his previous book. And after grumbling a bit about Part I of that earlier book, I did warm considerably to the&nbsp;model-theoretic Part II, which I think makes for a very approachable elementary introduction to a cluster of issues about definability.</p>
+<p>The new treatment is aimed at a rather more sophisticated reader, the writing is a bit less relaxed, and indeed becomes increasingly terse as the book progresses (in later chapters, I could often have done with a sentence or two more motivational chat). But overall, this strikes me as a welcome book. Though I’m at all not sure it is <em>all</em> suitable for beginners.</p>
+<p>In a little more detail, after initial chapters on structures and (first-order) languages, Chapters 3 and 4 are on definability and on simple results such as that ordering is not definable in (Z, +). Chapter 5 introduces the notion of types, and e.g.&nbsp;gives Cantor’s back-and-forth proof that countable dense linearly ordered sets without endpoints are isomorphic to (Q, &lt;). Chapter 6 defines elementary equivalence and elementary extension, and establishes the Tarski-Vaught test. Then Chapter 7 proves the compactness theorem, Henkin-style, with Chapter 8 using compactness to establish some results about non-standard models of arithmetic and set theory.</p>
+<p>So there is a somewhat different arrangement of initial topics here, compared with books whose first steps in model theory are applications of &nbsp;compactness. But the early chapters are indeed nicely done. However, I don’t think that Kossak’s Chapter 8 will be found an outstandingly clear and helpful first introduction to applications of compactness — it will probably be best read after e.g.&nbsp;Goldrei’s nice final chapter in his logic text.</p>
+<p>Chapter 9 is on categoricity — in particular, &nbsp;countable categoricity. (Very sensibly, Kossak wants to keep his use of set theory in this book to a minimum; but he does have a section here looking at κ-categoricity for larger cardinals κ.)&nbsp;And now the book starts requiring rather more of its reader. Chapter 10 is on indiscernibility and the Ehrenfeucht-Mostowski Theorem: but it is difficult to get a sense from this chapter of quite why this matters.</p>
+<p>Up to this point, the structures we’ve been looking at are all officially relational. Chapter 11 adds functions, and discusses Skolem functions and Skolemization (this could have been more relaxed and helpful). We return to arithmetic in Chapter 12; there’s a compressed &nbsp;discussion leading up to a version of Robinson’s model-theoretic proof of Tarski’s theorem of the arithmetic undefinability of arithmetic truth. But I rather doubt that this will be readily accessible to someone who hasn’t already read e.g.&nbsp;some of Kaye’s book on non-standard models of PA and met ideas like overspill.</p>
+<p>The last three chapters are more advanced still, on saturation, automorphisms of recursively saturated structures, and (very briefly) stability. Are these&nbsp;<em>topics</em> for those just starting out on model theory? That’s a judgement call. But I suspect that the mode of <em>presentation</em>&nbsp;could be found quite challenging by many beginners — for me, more classroom asides in later chapters would have been welcome.</p>
+<p>So as with Kossak’s earlier <em>Mathematical Logic</em>, then, I have rather different reactions to the two halves of <em>Beginning Model Theory</em>. But I’d say that the first eight or nine chapters <em>do</em> work very well under the advertised title (and I’ll be recommending them in the Study Guide). Later chapters are probably to be read in parallel with familiar moderately advanced texts like Marker’s classic.</p>
+<p>Finally, bonus points for publishing very inexpensively with College Publications, and with tidy LaTeX layout too (however, they still can’t design a nice title page and verso!). But dock half a point for the number of minor typos …</p>
 
 
 

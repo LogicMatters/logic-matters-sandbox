@@ -1,0 +1,22 @@
+---
+title: "Book note: The Open Logic FOL texts"
+date: "2026-06-12"
+draft: true
+---
+
+
+ 
+Richard Zach has been the prime mover of the admirable Open Logic Project. The [project's website](https://openlogicproject.org) offers an "open-source, modular, collaboratively authored collection of teaching materials for formal (meta)logic and formal methods, starting at an intermediate level (i.e., after an introductory formal logic course). It is aimed at a non-mathematical audience (in particular, students of philosophy and computer science), but is completely rigorous."
+
+There are two selections of chapters which cover core topics on First-Order Logic. One is "remixed" by Richard Zach under the title [*Sets, Logic, Computation: An Open Introduction to Metalogic*](https://slc.openlogicproject.org/slc-screen.pdf). The other is "remixed" by Michael Hallett and Richard Zach under the title [*Intermediate Logic: An Open Introduction*](https://builds.openlogicproject.org/courses/"s"-logic/il-screen.pdf). 
+
+Part I in each case contains the same four chapters providing an introduction to informal "naive" set theory. This material was originally written by Tim Button (though as I will briefly point out in a moment, these remixes omit a couple of short passages which ought to matter to philosophers).
+
+Part II of each remix again contains the same material, this time eight chapters on FOL with an added ninth chapter "Beyond First-order Logic". 
+
+Then the two remixes diverge. Zach's original version adds a short two -chapter Part III, "Turing Machines". The Hallet and Zach remix instead has a long six-chapter Part III, "Incompleteness". I will return to discuss these divergent final parts in due course. For now I will very briefly consider Part I on set theory, and then concentrate on the coverage of FOL.
+
+<hr>
+
+
+
