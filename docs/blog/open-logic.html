@@ -82,6 +82,35 @@ gtag('config', 'G-NJWC5RLRWV', { 'anonymize_ip': true});
 </script>
 <meta name="quarto:status" content="draft">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -182,12 +211,16 @@ gtag('config', 'G-NJWC5RLRWV', { 'anonymize_ip': true});
 </header>
 
 
-<p>Richard Zach has been the prime mover of the admirable Open Logic Project. The <a href="https://openlogicproject.org">project’s website</a> offers an “open-source, modular, collaboratively authored collection of teaching materials for formal (meta)logic and formal methods, starting at an intermediate level (i.e., after an introductory formal logic course). It is aimed at a non-mathematical audience (in particular, students of philosophy and computer science), but is completely rigorous.”</p>
-<p>There are two selections of chapters which cover core topics on First-Order Logic. One is “remixed” by Richard Zach under the title <a href="https://slc.openlogicproject.org/slc-screen.pdf"><em>Sets, Logic, Computation: An Open Introduction to Metalogic</em></a>. The other is “remixed” by Michael Hallett and Richard Zach under the title <a href="https://builds.openlogicproject.org/courses/%22s%22-logic/il-screen.pdf"><em>Intermediate Logic: An Open Introduction</em></a>.</p>
+<p><a href="https://openlogicproject.org">The Open Logic Project</a> offers an “open-source, modular, collaboratively authored collection of teaching materials for formal (meta)logic and formal methods, starting at an intermediate level (i.e., after an introductory formal logic course). It is aimed at a non-mathematical audience (in particular, students of philosophy and computer science), but is completely rigorous.”</p>
+<p>Verious texts have been “mixed” from (versions of) chapters available on the project site. And there are, in particular, two selections of chapters which cover core topics on First-Order Logic. One is “remixed” by Richard Zach – the original prime mover of the whole project – under the title <a href="https://slc.openlogicproject.org/slc-screen.pdf"><em>Sets, Logic, Computation: An Open Introduction to Metalogic</em></a>. The other is “remixed” by Michael Hallett and Richard Zach under the title <a href="https://builds.openlogicproject.org/courses/%22s%22-logic/il-screen.pdf"><em>Intermediate Logic: An Open Introduction</em></a>.</p>
 <p>Part I in each case contains the same four chapters providing an introduction to informal “naive” set theory. This material was originally written by Tim Button (though as I will briefly point out in a moment, these remixes omit a couple of short passages which ought to matter to philosophers).</p>
 <p>Part II of each remix again contains the same material, this time eight chapters on FOL with an added ninth chapter “Beyond First-order Logic”.</p>
-<p>Then the two remixes diverge. Zach’s original version adds a short two -chapter Part III, “Turing Machines”. The Hallet and Zach remix instead has a long six-chapter Part III, “Incompleteness”. I will return to discuss these divergent final parts in due course. For now I will very briefly consider Part I on set theory, and then concentrate on the coverage of FOL.</p>
+<p>Then the two remixes diverge. Zach’s original version adds a short two-chapter Part III, “Turing Machines”. The Hallet and Zach remix instead has a long six-chapter Part III, Here I will very briefly consider Part I on set theory, and then concentrate on the coverage of FOL in Part II.</p>
 <hr>
+<p>In the Study Guide, I have already warmly praised Tim Button’s original versions of the chapters in Part I as written with exceptional clarity and covering more or less just the set theory that the beginning logician should know. You will find the material as Chapters 2 to 5 of <a href="https://builds.openlogicproject.org/courses/set-theory/settheory-screen.pdf">Set Theory: An Open Introduction</a>. And I recommend reading the chapters there, for two reasons. First, you can also read the short preceding chapter of historical background (very illuminating if you don’t know it). And second, there are a couple of very worthwhile short episodes which are (oddly) deleted in Zach’s version.</p>
+<p>For example, in his §3.2, having defined relations as certain sets in the standard way, Button continues: “We should pause and ask a quick philosophical question: what is such a definition <em>doing</em>? It is extremely doubtful that we should want to say that we have <em>discovered</em> some metaphysical identity facts; that, for example, the order relation on <span class="math inline">\(\mathbb{N}\)</span> <em>turned out</em> to be the set <span class="math inline">\(R = \{\langle n,m\rangle : n,m \in \mathbb{N}\ \text{and}\ n &lt; m\}\)</span>.” And he goes on to give three good reasons to reject any idea that the definition of relations as sets tells us what relations really are. “So where does this leave us? Well, there is nothing wrong with our saying that the relations on the numbers are sets. We just have to understand the spirit in which that remark is made. We are not stating a metaphysical identity fact. We are simply noting that, in certain contexts, we can (and will) <em>treat</em> (certain) relations as certain sets.” (Of course, I would add “treat” here in turn really needs further explicating – but the negative point is the important one.)</p>
+<hr>
+<p>qur</p>
 
 
 
