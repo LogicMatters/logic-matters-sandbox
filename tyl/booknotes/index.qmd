@@ -90,4 +90,3 @@ Over the years, I have written over a hundred short notes (or occasionally rathe
 43. [Robert Trueman, _Properties and Propositions_, 2021.](properties-propositions-and-the-concept-horse.qmd)
 44. [Weingartner & Leeb, _Kreisel’s Interests: On the Foundations of Logic and Mathematics_, 2020.](kreisels-interests.qmd)
 45. [Weir, _A Truth Through Proof_, 2010.](../pdfs/WeirReview.pdf) Also see [a series of blog posts](tag-ttp-search-order-asc.qmd).
-46. [Zach, et al. _Open Logic Text_, 2015.](zach.qmd)

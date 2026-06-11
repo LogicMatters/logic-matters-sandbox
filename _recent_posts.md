@@ -1,1 +1,1 @@
-Recent posts: [A new hardback!](blog/new-hardback.qmd) (4 June 2026), [Settling in -- and a PHQ concert](blog/settling-in.qmd) (6 June 2026), [Book note: The Open Logic FOL texts](blog/open-logic.qmd) (12 June 2026)
+Recent posts: [A new hardback!](blog/new-hardback.qmd) (4 June 2026), [Settling in -- and a PHQ concert](blog/settling-in.qmd) (6 June 2026), [Book note: The Open Logic FOL texts](blog/open-logic.qmd) (11 June 2026)

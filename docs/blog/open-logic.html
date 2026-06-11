@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-06-12">
+<meta name="dcterms.date" content="2026-06-11">
 
 <title>Book note: The Open Logic FOL texts – Logic Matters</title>
 <style>
@@ -80,7 +80,6 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-NJWC5RLRWV', { 'anonymize_ip': true});
 </script>
-<meta name="quarto:status" content="draft">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -118,7 +117,7 @@ window.Quarto = {
 <body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><div id="quarto-draft-alert" class="alert alert-warning"><i class="bi bi-pencil-square"></i>Draft</div>
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -199,7 +198,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 12, 2026</p>
+      <p class="date">June 11, 2026</p>
     </div>
   </div>
   
@@ -211,18 +210,40 @@ window.Quarto = {
 </header>
 
 
+<p>I am thinking about recommendations for the Study Guide for readings on first-order logic, and it has been a while since I looked at the offering from the admirable Open Logic Project. So here’s a draft of a new book note.</p>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
 <p><a href="https://openlogicproject.org">The Open Logic Project</a> offers an “open-source, modular, collaboratively authored collection of teaching materials for formal (meta)logic and formal methods, starting at an intermediate level (i.e., after an introductory formal logic course). It is aimed at a non-mathematical audience (in particular, students of philosophy and computer science), but is completely rigorous.”</p>
-<p>Verious texts have been “mixed” from (versions of) chapters available on the project site. And there are, in particular, two selections of chapters which cover core topics on First-Order Logic. One is “remixed” by Richard Zach – the original prime mover of the whole project – under the title <a href="https://slc.openlogicproject.org/slc-screen.pdf"><em>Sets, Logic, Computation: An Open Introduction to Metalogic</em></a>. The other is “remixed” by Michael Hallett and Richard Zach under the title <a href="https://builds.openlogicproject.org/courses/%22s%22-logic/il-screen.pdf"><em>Intermediate Logic: An Open Introduction</em></a>.</p>
-<p>Part I in each case contains the same four chapters providing an introduction to informal “naive” set theory. This material was originally written by Tim Button (though as I will briefly point out in a moment, these remixes omit a couple of short passages which ought to matter to philosophers).</p>
+<p>Various texts have been “mixed” from (versions of) chapters available on the project site. And there are, in particular, two selections of chapters which cover core topics on First-Order Logic. One is “remixed” by Richard Zach – the original prime mover of the whole project – under the title <a href="https://slc.openlogicproject.org/slc-screen.pdf"><em>Sets, Logic, Computation: An Open Introduction to Metalogic</em></a>. The other is “remixed” by Michael Hallett and Richard Zach under the title <a href="https://builds.openlogicproject.org/courses/intermediate-logic/il-screen.pdf"><em>Intermediate Logic: An Open Introduction</em></a>.</p>
+<p>Part I in each case contains the same four chapters providing an introduction to informal “naive” set theory. This material was originally written by Tim Button (though as I will briefly point out in a moment, these remixes omit an initial chapter and a couple of short passages which ought to matter to philosophers).</p>
 <p>Part II of each remix again contains the same material, this time eight chapters on FOL with an added ninth chapter “Beyond First-order Logic”.</p>
-<p>Then the two remixes diverge. Zach’s original version adds a short two-chapter Part III, “Turing Machines”. The Hallet and Zach remix instead has a long six-chapter Part III, Here I will very briefly consider Part I on set theory, and then concentrate on the coverage of FOL in Part II.</p>
-<hr>
+<p>Then the two remixes diverge. Zach’s original version adds a short two-chapter Part III, “Turing Machines”. The Hallet and Zach remix instead has a long six-chapter Part III. Here I will very briefly consider Part I on set theory, and then concentrate on the coverage of FOL in Part II.</p>
+</section>
+<section id="part-i" class="level3">
+<h3 class="anchored" data-anchor-id="part-i">Part I</h3>
 <p>In the Study Guide, I have already warmly praised Tim Button’s original versions of the chapters in Part I as written with exceptional clarity and covering more or less just the set theory that the beginning logician should know. You will find the material as Chapters 2 to 5 of <a href="https://builds.openlogicproject.org/courses/set-theory/settheory-screen.pdf">Set Theory: An Open Introduction</a>. And I recommend reading the chapters there, for two reasons. First, you can also read the short preceding chapter of historical background (very illuminating if you don’t know it). And second, there are a couple of very worthwhile short episodes which are (oddly) deleted in Zach’s version.</p>
-<p>For example, in his §3.2, having defined relations as certain sets in the standard way, Button continues: “We should pause and ask a quick philosophical question: what is such a definition <em>doing</em>? It is extremely doubtful that we should want to say that we have <em>discovered</em> some metaphysical identity facts; that, for example, the order relation on <span class="math inline">\(\mathbb{N}\)</span> <em>turned out</em> to be the set <span class="math inline">\(R = \{\langle n,m\rangle : n,m \in \mathbb{N}\ \text{and}\ n &lt; m\}\)</span>.” And he goes on to give three good reasons to reject any idea that the definition of relations as sets tells us what relations really are. “So where does this leave us? Well, there is nothing wrong with our saying that the relations on the numbers are sets. We just have to understand the spirit in which that remark is made. We are not stating a metaphysical identity fact. We are simply noting that, in certain contexts, we can (and will) <em>treat</em> (certain) relations as certain sets.” (Of course, I would add “treat” here in turn really needs further explicating – but the negative point is the important one.)</p>
-<hr>
-<p>qur</p>
+<p>For example, in his §3.2, having defined relations as certain sets in the standard way, Button continues: “We should pause and ask a quick philosophical question: what is such a definition <em>doing</em>? It is extremely doubtful that we should want to say that we have <em>discovered</em> some metaphysical identity facts; that, for example, the order relation on <span class="math inline">\(\mathbb{N}\)</span> <em>turned out</em> to be the set <span class="math inline">\(R = \{\langle n,m\rangle : n, m \in \mathbb{N}\ \text{and}\ n &lt; m\}\)</span>.” And he goes on to give three good reasons to reject any idea that the definition of relations as sets in some sense tells us what relations really are. “So where does this leave us? Well, there is nothing wrong with our saying that the relations on the numbers are sets. We just have to understand the spirit in which that remark is made. We are not stating a metaphysical identity fact. We are simply noting that, in certain contexts, we can (and will) <em>treat</em> (certain) relations as certain sets.” (Of course, I would add that “treat” here in turn really needs further explicating – but the negative point is the important one to get across.)</p>
+</section>
+<section id="part-ii" class="level3">
+<h3 class="anchored" data-anchor-id="part-ii">Part II</h3>
+<p>As the project’s prospectus makes clear, and the FOL material reiterates at the outset, these chapters are officially aimed at non-mathematicians, especially philosophers, who have already done a logic course with a significant formal component – following, perhaps, a textbook with content like P.D. Magnus’s open source <em>forall x</em> (see <a href="https://www.homepages.ucl.ac.uk/~uctytbu/forallxcam.pdf">Tim Button’s splendid version</a>), or indeed my own <em>IFL</em>. And the official description is right: not a text for mathematicians. But how might it work as a self-study text for the intended reader?</p>
+<p>Chapter 5 provides a useful enough introductory overview, outlining various syntactic and semantic notions, ideas about structures, models and theories, and explaining in general terms what soundness and completeness are.</p>
+<p>Then Chapters 6 and 7 are on the syntax and semantics of FOL. The syntax chapter should be pretty accessible to someone who has already come across first-order languages in their elementary logic course (though the student might reasonably wonder what the point is of the supposed “full, standard” language of FOL, with infinite supplies of predicates and functions of every possible arity). The semantics chapter is rather harder going, not entirely helped by some perhaps unnecessarily heavy symbolism.</p>
+<p>Those two chapters are all very conventional. Too conventional perhaps? For example: a few chapters later, the proof systems that are discussed are Gentzen-style natural deduction and sequent calculi – so why not also follow Gentzen in another respect and make life a bit easier for everyone by syntactically distinguishing fixed constants from parameters (temporary names) from proper (bound) variables, rather than having just two types of symbols which then, one way or another, have to play three roles?</p>
+<p>Chapter 8, ‘Theories and their models’ is shorter, less dense, and nicely done.</p>
+<p>We now move on to three chapters on what the book calls “Derivation Systems”. Chapter 9 gives a very snappy overview of a familiar quartet, old-school axiomatic systems, tableaux systems as often taught in first logic courses for philosophers, natural deduction, and sequent calculi. Then Chapter 10 develops a Gentzen-style sequent calculus where sequents have the form <span class="math inline">\(\Delta \Rightarrow \Gamma\)</span>, with ordered sequences of formulas on both the left and right. Why sequences rather than sets, I don’t know.</p>
+<p>Now, I am as appreciative as the next logician of the great mathematical elegance of a two-sided sequent calculus: but why <em>this</em> as the first proof system given an extended treatment in what is intended as a relatively gentle book for the non-mathematical? I suspect many a philosophy student might be puzzled.</p>
+<p>Chapter 11 then introduces a Gentzen-style natural deduction system (why are the chapters in this order?). The philosopher whose first logic course used Fitch-style natural deduction should cope well with the transition, though as with the previous chapter it is all pretty brisk and quick. There are better presentations out there.</p>
+<p>Chapters 10 and 11 already give us soundness proofs for the sequent and natural deduction calculi. Completeness (along with compactness and Löwenheim-Skolem) is then the topic of Chapter 12. And the Henkin-style proof is done clearly enough – for languages without identity first, and then adding the usual trick to cope with the identity. Though I am never entirely sure why at this level a tricksy-looking term model is preferred to an honest-to-goodness model in the natural numbers.</p>
+<p>Finally in Part II, Chapter 13 is a rather rushed tour “Beyond first-order logic”, touching on many-sorted logic, second-order logic, type theories, intuitionistic logic, and modal logics, and more, all in just twenty pages, which might provide useful initial orientation for some.</p>
+</section>
+<section id="summary-verdict" class="level3">
+<h3 class="anchored" data-anchor-id="summary-verdict">Summary verdict?</h3>
+<p>Of course, this text is entirely respectable. It is also quite short (the 200 onscreen pages probably correspond to 100 large format printed pages). Some readers will indeed like it. But is it my top recommendation for its intended audience?</p>
+<p>Well, there is that central oddity, of dealing with sequent calculi rather than (say) developing the axiomatic calculi that students will encounter in slightly more advanced, more mathematically oriented, texts. So I do significantly prefer the coverage of FOL in another recent text that is also aimed at a wide range of readers, who might ideally have already done a first course in formal logic, namely <a href="../tyl/booknotes/westerstahl.html">Dag Westerståhl’s <em>Foundations of Logic</em></a>. This covers Gentzen-style natural deduction and a Hilbert-style axiomatic calculus as its two main derivation systems. And overall I think it quite exceptionally clear. Perhaps the comparison isn’t entirely a fair one as Westerståhl’s is the more expansive, traditional-style, text: but I think that more serious students would do better to tackle that.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <div id="site-nav">
