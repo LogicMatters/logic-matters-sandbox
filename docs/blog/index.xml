@@ -10,7 +10,55 @@
 <atom:link href="https://logicmatters.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Logic, philosophy of mathematics, and related topics.</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Fri, 05 Jun 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 10 Jun 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Book note: The Open Logic FOL texts</title>
+  <link>https://logicmatters.net/blog/open-logic.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I am thinking about recommendations for the Study Guide for readings on first-order logic, and it has been a while since I looked at the offering from the admirable Open Logic Project. So here’s a draft of a new book note.</p>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p><img src="https://logicmatters.net/images/Zach.jpg" style="float: left; width: 240px; margin-right: 20px; margin-bottom: 10px;"></p>
+<p><a href="https://openlogicproject.org">The Open Logic Project</a> offers an “open-source, modular, collaboratively authored collection of teaching materials for formal (meta)logic and formal methods, starting at an intermediate level (i.e., after an introductory formal logic course). It is aimed at a non-mathematical audience (in particular, students of philosophy and computer science), but is completely rigorous.”</p>
+<p>Various texts have been “mixed” from (versions of) chapters available on the project site. And there are, in particular, two selections of chapters which cover core topics on First-Order Logic. One is “remixed” by Richard Zach – the original prime mover of the whole project – under the title <a href="https://slc.openlogicproject.org/slc-screen.pdf"><em>Sets, Logic, Computation: An Open Introduction to Metalogic</em></a>. The other is “remixed” by Michael Hallett and Richard Zach under the title <a href="https://builds.openlogicproject.org/courses/intermediate-logic/il-screen.pdf"><em>Intermediate Logic: An Open Introduction</em></a>.</p>
+<p>Part I in each case contains the same four chapters providing an introduction to informal “naive” set theory. This material was originally written by Tim Button (though as I will briefly point out in a moment, these remixes omit an initial chapter and a couple of short passages which ought to matter to philosophers).</p>
+<p>Part II of each remix again contains the same material, this time eight chapters on FOL with an added ninth chapter “Beyond First-order Logic”.</p>
+<p>Then the two remixes diverge. Zach’s original version adds a short two-chapter Part III, “Turing Machines”. The Hallet and Zach remix instead has a long six-chapter Part III. Here I will very briefly consider Part I on set theory, and then concentrate on the coverage of FOL in Part II.</p>
+</section>
+<section id="part-i" class="level3">
+<h3 class="anchored" data-anchor-id="part-i">Part I</h3>
+<p>In the Study Guide, I have already warmly praised Tim Button’s original versions of the chapters in Part I as written with exceptional clarity and covering more or less just the set theory that the beginning logician should know. You will find the material as Chapters 2 to 5 of <a href="https://builds.openlogicproject.org/courses/set-theory/settheory-screen.pdf">Set Theory: An Open Introduction</a>. And I recommend reading the chapters there, for two reasons. First, you can also read the short preceding chapter of historical background (very illuminating if you don’t know it). And second, there are a couple of very worthwhile short episodes which are (oddly) deleted in Zach’s version.</p>
+<p>For example, in his §3.2, having defined relations as certain sets in the standard way, Button continues: “We should pause and ask a quick philosophical question: what is such a definition <em>doing</em>? It is extremely doubtful that we should want to say that we have <em>discovered</em> some metaphysical identity facts; that, for example, the order relation on <img src="https://latex.codecogs.com/png.latex?%5Cmathbb%7BN%7D"> <em>turned out</em> to be the set <img src="https://latex.codecogs.com/png.latex?R%20=%20%5C%7B%5Clangle%20n,m%5Crangle%20:%20n,%20m%20%5Cin%20%5Cmathbb%7BN%7D%5C%20%5Ctext%7Band%7D%5C%20n%20%3C%20m%5C%7D">.” And he goes on to give three good reasons to reject any idea that the definition of relations as sets in some sense tells us what relations really are. “So where does this leave us? Well, there is nothing wrong with our saying that the relations on the numbers are sets. We just have to understand the spirit in which that remark is made. We are not stating a metaphysical identity fact. We are simply noting that, in certain contexts, we can (and will) <em>treat</em> (certain) relations as certain sets.” (Of course, I would add that “treat” here in turn really needs further explicating – but the negative point is the important one to get across.)</p>
+</section>
+<section id="part-ii" class="level3">
+<h3 class="anchored" data-anchor-id="part-ii">Part II</h3>
+<p>As the project’s prospectus makes clear, and the FOL material reiterates at the outset, these chapters are officially aimed at non-mathematicians, especially philosophers, who have already done a logic course with a significant formal component – following, perhaps, a textbook with content like P.D. Magnus’s open source <em>forall x</em> (see <a href="https://www.homepages.ucl.ac.uk/~uctytbu/forallxcam.pdf">Tim Button’s splendid version</a>), or indeed my own <em>IFL</em>. And the official description is right: not a text for mathematicians. But how might it work as a self-study text for the intended reader?</p>
+<p>Chapter 5 provides a useful enough introductory overview, outlining various syntactic and semantic notions, ideas about structures, models and theories, and explaining in general terms what soundness and completeness are.</p>
+<p>Then Chapters 6 and 7 are on the syntax and semantics of FOL. The syntax chapter should be pretty accessible to someone who has already come across first-order languages in their elementary logic course (though the student might reasonably wonder what the point is of the supposed “full, standard” language of FOL, with infinite supplies of predicates and functions of every possible arity). The semantics chapter is rather harder going, not entirely helped by some perhaps unnecessarily heavy symbolism.</p>
+<p>Those two chapters are all very conventional. Too conventional perhaps? For example: a few chapters later, the proof systems that are discussed are Gentzen-style natural deduction and sequent calculi – so why not also follow Gentzen in another respect and make life a bit easier for everyone by syntactically distinguishing fixed constants from parameters (temporary names) from proper (bound) variables, rather than having just two types of symbols which then, one way or another, have to play three roles?</p>
+<p>Chapter 8, ‘Theories and their models’ is shorter, less dense, and nicely done.</p>
+<p>We now move on to three chapters on what the book calls “Derivation Systems”. Chapter 9 gives a very snappy overview of a familiar quartet, old-school axiomatic systems, tableaux systems as often taught in first logic courses for philosophers, natural deduction, and sequent calculi. Then Chapter 10 develops a Gentzen-style sequent calculus where sequents have the form <img src="https://latex.codecogs.com/png.latex?%5CDelta%20%5CRightarrow%20%5CGamma">, with ordered sequences of formulas on both the left and right. Why sequences rather than sets, I don’t know.</p>
+<p>Now, I am as appreciative as the next logician of the great mathematical elegance of a two-sided sequent calculus: but why <em>this</em> as the first proof system given an extended treatment in what is intended as a relatively gentle book for the non-mathematical? I suspect many a philosophy student might be puzzled.</p>
+<p>Chapter 11 then introduces a Gentzen-style natural deduction system (why are the chapters in this order?). The philosopher whose first logic course used Fitch-style natural deduction should cope well with the transition, though as with the previous chapter it is all pretty brisk and quick. There are better presentations out there.</p>
+<p>Chapters 10 and 11 already give us soundness proofs for the sequent and natural deduction calculi. Completeness (along with compactness and Löwenheim-Skolem) is then the topic of Chapter 12. And the Henkin-style proof is done clearly enough – for languages without identity first, and then adding the usual trick to cope with the identity. Though I am never entirely sure why at this level a tricksy-looking term model is preferred to an honest-to-goodness model in the natural numbers.</p>
+<p>Finally in Part II, Chapter 13 is a rather rushed tour “Beyond first-order logic”, touching on many-sorted logic, second-order logic, type theories, intuitionistic logic, and modal logics, and more, all in just twenty pages, which might provide useful initial orientation for some.</p>
+</section>
+<section id="summary-verdict" class="level3">
+<h3 class="anchored" data-anchor-id="summary-verdict">Summary verdict?</h3>
+<p>Of course, this text is entirely respectable. It is also quite short (the 200 onscreen pages probably correspond to not more than 120 large format printed pages). Some readers will indeed like it. But is it a top recommendation for its intended audience?</p>
+<p>Well, there is that central oddity, of dealing with sequent calculi rather than (say) developing the axiomatic calculi that students will encounter in slightly more advanced, more mathematically oriented, texts. So I do significantly prefer the coverage of FOL in another recent text that is also aimed at a wide range of readers, who might ideally have already done a first course in formal logic, namely <a href="../tyl/booknotes/westerstahl.html">Dag Westerståhl’s <em>Foundations of Logic</em></a>. This covers Gentzen-style natural deduction and a Hilbert-style axiomatic calculus as its two main derivation systems. And overall I think it quite exceptionally clear. Perhaps the comparison isn’t entirely a fair one as Westerståhl’s is the more expansive, traditional-style, text: but I think that serious students would do better to tackle that.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/open-logic.html</guid>
+  <pubDate>Wed, 10 Jun 2026 23:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Settling in – and a PHQ concert</title>
   <link>https://logicmatters.net/blog/settling-in.html</link>
@@ -823,45 +871,6 @@ It might be a while before I want to dive down that rabbit hole again (to crashi
  ]]></description>
   <guid>https://logicmatters.net/blog/a-wittgenstein-problem.html</guid>
   <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Gödel, Lean, Fra Angelico, Schubert</title>
-  <link>https://logicmatters.net/blog/godel-lean-fra-angelico-schubert.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>
-So far – but then I am still in the foothills, tinkering with early chapters – I have found just a couple of minor expositional stumbles in <em>An Introduction to Gödel’s Theorems</em>. I have spotted, though, quite a few places where I can make the text run just that bit more smoothly. And my friend Gemini Pro has also chipped in with perhaps two or three helpful small suggestions per chapter.
-</p>
-<p>
-There is just one passage in the book, however, which now strikes me as just wrong. It’s not a technical error (phew!). But I do write on p.&nbsp;25, talking about projects of formalization, that “outside the logic classroom we almost never set out deductive arguments in fully formalized versions”. That was perhaps more or less true enough when I first wrote it about twenty years ago; but it certainly isn’t today, with the exponential growth of work using formal computer proof assistants like Lean.
-</p>
-<p>
-So I have just been looking around for a reference or two to Lean and its cousins for a possible footnote. And I found <a href="https://arxiv.org/abs/2411.11885">this piece by Jeremy Avigad and others</a> which appeared last year in <em>Notices of the AMS</em>, which I thought was enlightening and might be of wider interest.
-</p>
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
-<img src="https://logicmatters.net/images/MathProvedCon.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
-<p>
-I’m much enjoying getting back into thinking a little about Gödelian matters. And as I get to the point of revising the main chapters on the arguments for the first incompleteness theorem, one task for me will be actually to read Gödel 1931 again to see if I want to add more references to the paper. I must also take another look at the volume Jan von Plato published in 2020, as the result of his detective work grappling with Gödel’s shorthand notes written in the months leading up to his publishing the epoch-making paper. (Apart from a review by John Dawson in <em>Philosophia Mathematica</em>, that volume seems to have received surprisingly little attention. Perhaps because it does seem to take some effort to dig out the more interesting material – I’ll perhaps write something brief about that here.)
-</p>
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
-<p>
-So it turned out that we couldn’t get to the Fra Angelico exhibition at Palazzo Strozzi and the convent of San Marco. By all accounts, it was wonderful to see – there is <a href="https://www.lrb.co.uk/the-paper/v48/n01/anna-mcgee/at-the-palazzo-strozzi">a very readable piece by Anna McGee in the <em>London Review of Books</em> here</a>.
-</p>
-<p>
-Getting the volume published to accompany the exhibition is – of course – a poor second best. Though it is wonderful to have. There are some very interesting essays. And you can revisit more often and can pause longer over some of the works in splendid illustrations (though the decisions over which panels and which frescos get really detailed reproductions are sometimes frustrating too).
-</p>
-<p>
-But though the exhibition finishes, San Marco of course remains, and we must return one day. And as Anna McGee writes, “The convent and its art encourage a sort of contemplation different from that of a museum. Henry James, who visited in 1873, put it well: ‘You may be as little of a formal Christian as Fra Angelico was much of one, you yet feel admonished by spiritual decency to let so yearning a view of the Christian story work its utmost will on you.’”
-</p>
-
-
-
- ]]></description>
-  <guid>https://logicmatters.net/blog/godel-lean-fra-angelico-schubert.html</guid>
-  <pubDate>Mon, 26 Jan 2026 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

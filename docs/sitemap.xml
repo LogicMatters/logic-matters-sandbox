@@ -77,32 +77,36 @@
     <lastmod>2026-06-03T13:00:22.988Z</lastmod>
   </url>
   <url>
-    <loc>https://logicmatters.net/blog/another-categorical-update.html</loc>
-    <lastmod>2026-06-03T13:00:22.953Z</lastmod>
+    <loc>https://logicmatters.net/blog/proof-reading-with-a-bit-of-help-from-llms.html</loc>
+    <lastmod>2026-06-03T13:00:22.986Z</lastmod>
   </url>
   <url>
-    <loc>https://logicmatters.net/books/index.html</loc>
-    <lastmod>2026-06-02T06:54:41.170Z</lastmod>
+    <loc>https://logicmatters.net/index.html</loc>
+    <lastmod>2026-06-06T12:56:00.583Z</lastmod>
   </url>
   <url>
-    <loc>https://logicmatters.net/tyl/booknotes/blog-category-name-ipt-search-orderby-post-date-order-asc.html</loc>
-    <lastmod>2026-05-28T16:20:21.801Z</lastmod>
+    <loc>https://logicmatters.net/tyl/index.html</loc>
+    <lastmod>2026-06-02T07:13:31.533Z</lastmod>
   </url>
   <url>
-    <loc>https://logicmatters.net/tyl/booknotes/enderton.html</loc>
+    <loc>https://logicmatters.net/tyl/booknotes/hilberts-foundationslogic-lectures.html</loc>
     <lastmod>2026-05-28T16:20:21.810Z</lastmod>
   </url>
   <url>
-    <loc>https://logicmatters.net/tyl/booknotes/berto.html</loc>
-    <lastmod>2026-05-28T16:20:21.801Z</lastmod>
+    <loc>https://logicmatters.net/tyl/booknotes/kleene_ml.html</loc>
+    <lastmod>2026-05-28T16:20:21.811Z</lastmod>
   </url>
   <url>
-    <loc>https://logicmatters.net/tyl/booknotes/tag-catwp-search-order-asc.html</loc>
+    <loc>https://logicmatters.net/tyl/booknotes/tag-absgen-search-order-asc.html</loc>
     <lastmod>2026-05-28T16:20:21.812Z</lastmod>
   </url>
   <url>
-    <loc>https://logicmatters.net/tyl/booknotes/leary.html</loc>
-    <lastmod>2026-05-28T16:20:21.811Z</lastmod>
+    <loc>https://logicmatters.net/tyl/booknotes/hedman.html</loc>
+    <lastmod>2026-05-28T16:20:21.810Z</lastmod>
+  </url>
+  <url>
+    <loc>https://logicmatters.net/tyl/booknotes/roman-kossaks-model-theory-for-beginners copy.html</loc>
+    <lastmod>2026-06-09T15:35:10.044Z</lastmod>
   </url>
   <url>
     <loc>https://logicmatters.net/tyl/booknotes/kossak.html</loc>
@@ -171,10 +175,6 @@
   <url>
     <loc>https://logicmatters.net/tyl/booknotes/kleene-metamath.html</loc>
     <lastmod>2026-05-28T16:20:21.811Z</lastmod>
-  </url>
-  <url>
-    <loc>https://logicmatters.net/tyl/booknotes/oleary-a-first-course-in-mathematical-logic-and-set-theory.html</loc>
-    <lastmod>2026-06-09T18:44:49.322Z</lastmod>
   </url>
   <url>
     <loc>https://logicmatters.net/tyl/booknotes/forster.html</loc>
@@ -621,32 +621,36 @@
     <lastmod>2026-05-28T16:20:21.802Z</lastmod>
   </url>
   <url>
-    <loc>https://logicmatters.net/tyl/booknotes/hedman.html</loc>
-    <lastmod>2026-05-28T16:20:21.810Z</lastmod>
-  </url>
-  <url>
-    <loc>https://logicmatters.net/tyl/booknotes/tag-absgen-search-order-asc.html</loc>
-    <lastmod>2026-05-28T16:20:21.812Z</lastmod>
-  </url>
-  <url>
-    <loc>https://logicmatters.net/tyl/booknotes/kleene_ml.html</loc>
+    <loc>https://logicmatters.net/tyl/booknotes/leary.html</loc>
     <lastmod>2026-05-28T16:20:21.811Z</lastmod>
   </url>
   <url>
-    <loc>https://logicmatters.net/tyl/booknotes/hilberts-foundationslogic-lectures.html</loc>
+    <loc>https://logicmatters.net/tyl/booknotes/tag-catwp-search-order-asc.html</loc>
+    <lastmod>2026-05-28T16:20:21.812Z</lastmod>
+  </url>
+  <url>
+    <loc>https://logicmatters.net/tyl/booknotes/berto.html</loc>
+    <lastmod>2026-05-28T16:20:21.801Z</lastmod>
+  </url>
+  <url>
+    <loc>https://logicmatters.net/tyl/booknotes/enderton.html</loc>
     <lastmod>2026-05-28T16:20:21.810Z</lastmod>
   </url>
   <url>
-    <loc>https://logicmatters.net/tyl/index.html</loc>
-    <lastmod>2026-06-02T07:13:31.533Z</lastmod>
+    <loc>https://logicmatters.net/tyl/booknotes/blog-category-name-ipt-search-orderby-post-date-order-asc.html</loc>
+    <lastmod>2026-05-28T16:20:21.801Z</lastmod>
   </url>
   <url>
-    <loc>https://logicmatters.net/index.html</loc>
-    <lastmod>2026-06-06T12:56:00.583Z</lastmod>
+    <loc>https://logicmatters.net/books/index.html</loc>
+    <lastmod>2026-06-02T06:54:41.170Z</lastmod>
   </url>
   <url>
-    <loc>https://logicmatters.net/blog/proof-reading-with-a-bit-of-help-from-llms.html</loc>
-    <lastmod>2026-06-03T13:00:22.986Z</lastmod>
+    <loc>https://logicmatters.net/blog/another-categorical-update.html</loc>
+    <lastmod>2026-06-03T13:00:22.953Z</lastmod>
+  </url>
+  <url>
+    <loc>https://logicmatters.net/blog/open-logic.html</loc>
+    <lastmod>2026-06-11T19:20:33.299Z</lastmod>
   </url>
   <url>
     <loc>https://logicmatters.net/blog/felicity-lott-1947-2026.html</loc>
@@ -719,13 +723,5 @@
   <url>
     <loc>https://logicmatters.net/categories/categories-lists.html</loc>
     <lastmod>2026-06-06T09:05:06.123Z</lastmod>
-  </url>
-  <url>
-    <loc>https://logicmatters.net/tyl/booknotes/roman-kossaks-model-theory-for-beginners copy.html</loc>
-    <lastmod>2026-06-09T15:35:10.044Z</lastmod>
-  </url>
-  <url>
-    <loc>https://logicmatters.net/blog/open-logic.html</loc>
-    <lastmod>2026-06-11T19:04:45.656Z</lastmod>
   </url>
 </urlset>
