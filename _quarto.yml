@@ -2,6 +2,7 @@ project:
   type: website
   output-dir: docs
   pre-render: recent_posts.py
+  post-render: write_config.py
   resources:
     - CNAME
 
