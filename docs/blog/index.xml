@@ -10,7 +10,37 @@
 <atom:link href="https://logicmatters.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Logic, philosophy of mathematics, and related topics.</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Wed, 10 Jun 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 11 Jun 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Apologies</title>
+  <link>https://logicmatters.net/blog/apologies.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>
+Two apologies are in order. First, those clicking on saved links pointing to Logic Matters will often have been getting “Page not found” errors since the site moved to GitHub. This was inevitable, given that the ramshackle old folder structure got cleaned up in the move, so URLs for many particular pages will have changed.
+</p>
+<p>
+But what was not inevitable is that I didn’t have the gumption (until Gemini gave me a talking-to) to set up a friendly 404.html page that actually <em>tells you</em> that things have moved around, so you should simply go to the new front page and, if necessary, use the search button. Sorry about that!
+</p>
+<p>
+That glitch was due to ignorance. Another was due to sheer forgetfulness. A small number of people still used the old-tech facility on the WordPress site to have email notices automatically sent whenever the blog was updated. There isn’t a built-in facility for a Quarto site on GitHub to do that; and to keep things simple and cost-free, I decided against using an external service.
+</p>
+<p>
+I had intended, then, to send out a last email or two, before I lost functional access to the WordPress site, saying “These emails will cease: if you want to continue to get alerts of updates, why not use the RSS feed?”. But I simply forgot in the kerfuffle of moving. Sorry about that too!
+</p>
+<p>
+Hardly very grave foul-ups, perhaps. But annoying, when otherwise the move has gone so smoothly.
+</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/apologies.html</guid>
+  <pubDate>Thu, 11 Jun 2026 23:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Book note: The Open Logic FOL texts</title>
   <link>https://logicmatters.net/blog/open-logic.html</link>
@@ -815,62 +845,6 @@ And the ever-more-impressive Elisabeth Brauß has been on BBC Radio in three con
  ]]></description>
   <guid>https://logicmatters.net/blog/godel-slowly.html</guid>
   <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>A Wittgenstein problem …</title>
-  <link>https://logicmatters.net/blog/a-wittgenstein-problem.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>
-It is time at last to redecorate my small but now rather depressingly shabby study.
-</p>
-<p>
-Already books from the top shelves are piled in a hallway, and the rest are covered in plastic sheeting as I start tackling the late Victorian ceiling (which isn’t in a great shape). This explains, by the way, why I’m not currently revising the <em>Beginning Mathematical Logic Study Guide</em> as I originally planned to be doing now – for a couple of months, it will be just too much of a fuss to get at my library to check what I think about this or that recommended textbook.
-</p>
-<p>
-Soon, the rest of shelves will have to be emptied too, in sequence, more than twenty-five metres(!) of them in all. And so I might as well take the opportunity to have another bash at the Book Problem (as the shelves are crammed and there is a growing pile or two on the floor). I really, really, need to sort out and pass on – what? – surely at least another couple of metres of books.
-</p>
-<p>
-I hope it won’t be too painful! But I’ve been here before. And I’ll heed this advice about coping with the Book Problem …
-</p>
-<blockquote class="blockquote">
-<p>
-“A little library, growing larger every year, is an honourable part of a man’s history. It is a man’s duty to have books. A library is not a luxury, but one of the necessaries of life.” Yes. But let “little” be the operative word!
-</p>
-<p>
-Or so I now tell myself. It was — at the beginning — not exactly painless to let old friends go, or relinquish books that I’d never got that friendly with but always meant to, or give away those reproachful books that I&nbsp;<em>ought</em>&nbsp;to have read, and all the rest. After all, there goes my philosophical past, or at any rate the past I would have wanted to have (and similar rather depressing thoughts).
-</p>
-<p>
-But I think I’ve now got a grip&nbsp;(so here’s my advice to anyone else in the same position, needing to downsize).&nbsp;It’s a question of stopping looking backwards and instead thinking, realistically, about what I might want to think about seriously over the coming few years, and then aiming to cut right down to (a still pretty generous) working library around and about&nbsp;<em>that</em>. So instead of daunting shelves of books reminding me about what I’m not going to do, there’ll be a smaller and more cheering collection of books to encourage me in what I might really want to do. The power of positive thinking, eh?
-</p>
-</blockquote>
-<p>
-Wise words from my earlier self! So what should go?
-</p>
-<p>
-I’d solve the problem almost in one fell swoop if I give away all the Wittgenstein books and the secondary literature, and the biographies, memoirs and reminiscences. Tempting! In fact losing the fat biographies, etc., is a pretty easy decision, they are already in the Oxfam pile. I really have no wish at all to spend any more time with the man himself. But what about the philosophy – especially if (as is the case) the philosophy of mind and of language are really no longer my thing?
-</p>
-<p>
-Yes, the later Wittgenstein wrote a lot about the philosophy of mathematics. But what more can we extract, eighty or ninety years on, from the rambling, inconsistent, half-baked, thoughts, scattered through the <em>Nachlass</em> (some published, some not)?
-</p>
-<p>
-As far as one can tell, Wittgenstein knew almost no modern mathematics at all (and nowhere evinces the slightest real feel or appreciation of mathematics – he seems to have basically had an engineer’s view of a box of tricks for applications). He didn’t even know much about logic post <em>Principia</em>. The wonderful explosion of work on logic and foundations from the early 1930s on seems to have largely passed him by (he encountered fragments e.g.&nbsp;by having Turing in a class, and later though a friendship with Kreisel, but did he ever open one of those classic early issues of <em>JSL</em>? would he have understood it?). His opaque, ill-worked-out, remarks in his ‘middle’ and ‘late’ phases leave even his sympathetic readers struggling to find interpretations which are both coherent and half-way sensible accounts of anything beyond primitive recursive arithmetic. Some think that in the end no such accounts are to be had; others offer stories, but quite vigorously disagree with each other about what they should be. How revisionary? How constructivist? How finitist? Who is to say? Why care?
-</p>
-<p>
-I did recently happen across Juliet Floyd and Felix Mühlhölzer’s book <em>Wittgenstein’s Annotations to Hardy’s Course of Pure Mathematics: An Investigation of Wittgenstein’s Non-Extensionalist Understanding of the Real Numbers</em> (Springer, 2020). Based on a (very, very) few scattered remarks in the margins of a copy of Hardy’s book and some related passages elsewhere, the authors construct – ex pede Herculem – some three hundred pages of commentary about Wittgenstein on varieties of irrationals, on the continuum of reals, on reals, and (at quite inordinate length) on Cantor’s diagonal argument. I’d say: read it only if you enjoy trekking through a muddy field: it’s slow, sticky, and exhausting work … and the view remains muddy.
-</p>
-<p>
-It might be a while before I want to dive down that rabbit hole again (to crashingly mix my metaphors). If ever. But I suppose, I suppose, some of the Wittgenstein books will yet find their way back onto the shelves … Then we aren’t entirely rational about such things.
-</p>
-
-
-
- ]]></description>
-  <guid>https://logicmatters.net/blog/a-wittgenstein-problem.html</guid>
-  <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

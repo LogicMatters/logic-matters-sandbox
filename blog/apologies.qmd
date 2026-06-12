@@ -1,0 +1,18 @@
+---
+title: "Apologies"
+date: "2026-06-12"
+---
+
+
+<p>Two apologies are in order. First, those clicking on saved links pointing to Logic Matters will often have been getting "Page not found" errors since the site moved to GitHub. This was inevitable, given that the ramshackle old folder structure got cleaned up in the move, so URLs for many particular pages will have changed.</p>
+
+<p>But what was not inevitable is that I didn't have the gumption (until Gemini gave me a talking-to) to set up a friendly 404.html page that actually *tells you* that things have moved around, so you should simply go to the new front page and, if necessary, use the search button. Sorry about that!</p>
+
+<p>That glitch was due to ignorance. Another was due to sheer forgetfulness. A small number of people still used the old-tech facility on the WordPress site to have email notices automatically sent whenever the blog was updated. There isn't a built-in facility for a Quarto site on GitHub to do that; and to keep things simple and cost-free, I decided against using an external service.</p>
+
+<p>I had intended, then, to send out a last email or two, before I lost functional access to the WordPress site, saying "These emails will cease: if you want to continue to get alerts of updates, why not use the RSS feed?". But I simply forgot in the kerfuffle of moving. Sorry about that too!</p>
+
+<p>Hardly very grave foul-ups, perhaps. But annoying, when otherwise the move has gone so smoothly. </p>
+
+
+
