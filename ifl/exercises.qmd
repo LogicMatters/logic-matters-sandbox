@@ -103,7 +103,7 @@ In the right columns there are links to PDFs with worked answers. Many of these 
 | [Exercises 32](pdfs/Exercises_for_web_32.pdf) (Formal QL proofs) | [Answers to Exercises 32](pdfs/Exercises_solutions_32.pdf) |
 | [Exercises 33](pdfs/Exercises_for_web_33.pdf) (More QL proofs) | [Answers to Exercises 33](pdfs/Exercises_solutions_33.pdf) |
 | [Exercises 35](pdfs/Exercises_for_web_35.pdf) (QL-valuations) | [Answers to Exercises 35](pdfs/Exercises_solutions_35.pdf) |
-| [Exercises 36](pdfs/Exercises_for_web_36.pdf) (QL validity) | [Answers to Exercises 36](pdfs/Exercises_solutions_36.pdf) |
+
 
 ## Adding identity to QL
 
