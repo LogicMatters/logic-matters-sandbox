@@ -30,8 +30,6 @@ website:
     right:
       - text: "About"
         href: about.qmd
-      - icon: mastodon
-        href: https://mathstodon.xyz/@PeterSmith
 format:
   html:
     theme: cosmo
