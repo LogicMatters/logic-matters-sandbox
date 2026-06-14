@@ -1,14 +1,14 @@
 @media (min-width: 768px) {
   /* Shrinks the column holding the date and author */
   .quarto-listing-default .quarto-post .metadata {
-    flex-basis: 15%;
-    max-width: 15%;
+    flex-basis: 10%;
+    max-width: 10%;
   }
-  
+
   /* Expands the column holding the title and preview text */
   .quarto-listing-default .quarto-post .body {
-    flex-basis: 85%;
-    max-width: 85%;
+    flex-basis: 90%;
+    max-width: 90%;
   }
 }
 /* Changes the color of the blog post titles in the feed */
