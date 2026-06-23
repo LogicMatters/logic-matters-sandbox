@@ -10,7 +10,28 @@
 <atom:link href="https://logicmatters.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Logic, philosophy of mathematics, and related topics.</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Thu, 11 Jun 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 21 Jun 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Postcard from Ljubljana</title>
+  <link>https://logicmatters.net/blog/postcard-fron-ljubljana.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://logicmatters.net/images/Ljubljana2.jpg" class="img-fluid"></p>
+<p>Back from six days in Ljubljana. Very hot – too hot to want to pause long to take carefully composed photos! So this is just a quick glipse of the long riverside walk that runs through the centre of the city.</p>
+<p>We were there mostly to hang out with the Digital Nomad Daughter, and the heat restricted the amount of exploration we felt like doing. But from what we saw, Ljubljana seems a delightful place, a very liveable city with a markedly relaxed feel (perhaps not unconnected with the fact that Slovenia has not enouraged the kind of mass tourism which spoils so many cities). By the cathedral, a stunning market with large stall after large stall with a wonderful range of produce, with some days small stalls too where locals bring in what they have grown and made (a table of berries and jams here, a table of honey there). Along the river, well-frequented café after café, with such friendly welcomes at least in the ones we tried. Cyclists everywhere, but few cars in the centre.</p>
+<p>A paradigm of a very pleasing inner city environment, with the river and green spaces and lots of trees, without any sense of being a museum piece – some of the modern buildings scattered around are, shall we say, not so successful, but the patchwork gives a sense of life. We would very much like to return in spring, DV.</p>
+<p>Another glimpse, walking down to the river. And note the beautiful paving again! – sigh, such a shaming contrast to the visual mess of central Cambridge …</p>
+<p><img src="https://logicmatters.net/images/Ljubljana3.jpg" class="img-fluid"></p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/postcard-fron-ljubljana.html</guid>
+  <pubDate>Sun, 21 Jun 2026 23:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Apologies</title>
   <link>https://logicmatters.net/blog/apologies.html</link>
@@ -813,38 +834,6 @@ My impression of some of the later chapters is much the same. They are quite goo
  ]]></description>
   <guid>https://logicmatters.net/blog/hoffmann-limits-of-mathematics.html</guid>
   <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Gödel, slowly …</title>
-  <link>https://logicmatters.net/blog/godel-slowly.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><span style="display:none">Brauss</span></p>
-<p>
-As I said some weeks ago, I am slowly revising my <em>Introduction to Gödel’s Theorems</em>; I am still only about a third of the way through. I haven’t yet spotted any real horrors, but I’ve found some ways of re-arranging the material for the better, and there are quite a few sections which now strike me as not quite as relaxed and accessible as they should be. I started off planning a mildly revised reprint; but it looks as though the book will end up sufficiently changed for the result to count as a new edition later this year.
-</p>
-<p>
-I suppose, then, that if there <em>is</em> going to be a new edition, I should revisit the question of whether, this time around, to give a full-dress proof of the second incompleteness theorem for PA. It could a nice expository challenge to see how smooth I can make this … I’ll need to do some homework!
-</p>
-<p>
-This project is proving a really rather enjoyable one as there is no time pressure, I am happy with the book’s existing basic framework and, while the material is not exactly challenging, it is certainly more than interesting enough to be worth revisiting and thinking about again. And it gives me something productive to do between the mornings spent doing the serious stuff, redecorating my study …
-</p>
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
-<p>
-Some music recommendations. Radu Lupu is one of my favourite pianists of all time and there are some sheer marvels in the new box set of his <em>Unreleased Recordings</em>, including absolutely compelling performances of Schubert’s D. 840 and D. 850 sonatas.
-</p>
-<p>
-And the ever-more-impressive Elisabeth Brauß has been on BBC Radio in three concerts. Her <a href="https://www.bbc.co.uk/programmes/m002rf42">Wigmore Hall concert this week with the exceptional young violinist Hana Chang </a>included pieces by Clara Schumann, Brahms, Lili Boulanger, working up to a terrific performance of the César Franck Sonata. Also Elisabeth’s recent much acclaimed Manchester performance of the <a href="https://www.bbc.co.uk/programmes/m002rhtt">Ravel Piano Concerto with the BBC Philharmonic</a> is now online (from 14.10). And not least, for a few more days, you can also hear an excerpt from another recital with Hana Chang, where<a href="https://www.bbc.co.uk/sounds/play/m002qh4t">they play Mozart’s B flat Sonata K. 454</a> (from 23.00) – quite outstanding.
-</p>
-
-
-
- ]]></description>
-  <guid>https://logicmatters.net/blog/godel-slowly.html</guid>
-  <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
