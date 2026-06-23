@@ -1,1 +1,1 @@
-Recent posts: [Settling in -- and a PHQ concert](blog/settling-in.qmd) (6 June 2026), [Book note: The Open Logic FOL texts](blog/open-logic.qmd) (11 June 2026), [Apologies](blog/apologies.qmd) (12 June 2026)
+Recent posts: [Book note: The Open Logic FOL texts](blog/open-logic.qmd) (11 June 2026), [Apologies](blog/apologies.qmd) (12 June 2026), [Postcard from Ljubljana](blog/postcard-fron-ljubljana.qmd) (22 June 2026)
