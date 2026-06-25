@@ -1,0 +1,16 @@
+---
+title: "To begin at the beginning"
+date: "2006-03-09"
+---
+
+*The blog began in 2006 (so in ancient history, before Covid, before the war in Ukraine, before Trump ...).*
+
+To blog or not to blog? I’m in two minds. But why not just dive in and see how it goes?
+
+Today was my second outing this academic year to talk to non-philosophers in Cambridge about Gödel, incompleteness and the like. The first time was at a meeting of the Trinity Math. Society. Rather staggeringly, there were more than eighty people there. Perhaps not a brilliantly judged talk, but I did have good fun e.g. telling them about Goodstein’s Theorem. (Having a lot of bright mathmos getting the point and smiling at the cheek of the Goodstein proof made a nice change.)
+
+Today’s outing was a talk at the Centre for Mathematical Sciences to another society with a very mixed audience, which meets approximately fortnightly for talks on the philosophy of mathematics, broadly construed. Rather perversely, I suppose, there was less philosophy than in the Trinity talk. In the event, I was explaining one pretty way of proving (a version of) Gödel’s First Theorem without explicitly constructing a Gödel sentence that codes up ‘I am unprovable’. The point of doing this is to counteract that familiar tendency to think that the Gödelian result must be fishy because it depends on something too close to the Liar paradox for comfort.
+
+Paul Erdös had the fantasy of a Book in which God records the smartest and most elegant proofs of mathematical results (have a look at the terrific Proofs from the Book by Aigner, Hofmann and Ziegler). So I was aiming to outline one Book proof: [here is a version of the talk](../archive/pdfs/GodelBookPrf.pdf).
+
+*There were then another eighteen hundred or so blog posts up to the beginning of this year, which have not been simply copied across to this new incarnation of Logic Matters. Of course, most have have no lasting interest. However, over the coming months, I will select some of the more interesting old blog posts, to make available again in [the archive](../archive/index.qmd).*
