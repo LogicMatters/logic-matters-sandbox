@@ -13,4 +13,4 @@ Today’s outing was a talk at the Centre for Mathematical Sciences to another s
 
 Paul Erdös had the fantasy of a Book in which God records the smartest and most elegant proofs of mathematical results (have a look at the terrific Proofs from the Book by Aigner, Hofmann and Ziegler). So I was aiming to outline one Book proof: [here is a version of the talk](../archive/pdfs/GodelBookPrf.pdf).
 
-*There were then another eighteen hundred or so blog posts up to the beginning of this year, which have not been simply copied across to this new incarnation of Logic Matters. Of course, most have have no lasting interest. However, over the coming months, I will select some of the more interesting old blog posts, to make available again in [the archive](../archive/index.qmd).*
+*There were then another eighteen hundred or so blog posts up to the beginning of this year, which have not been simply copied across to this new incarnation of Logic Matters. Of course, most of them have no lasting interest. However, over the coming months, I will look through some of the more interesting old blog posts, and make them available again in [the archive](../archive/index.qmd).*
