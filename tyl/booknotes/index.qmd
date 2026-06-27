@@ -1,6 +1,5 @@
 ---
 title: "Book Notes on Logic and the Philosophy of Mathematics"
-description: "A local mirror of the old Logic Matters Book Notes page, with PDF assets stored under tyl/pdfs."
 ---
 
 Over the years, I have written over a hundred short notes (or occasionally rather long) notes on a variety of books, either as posts on the blog or as entries to the Appendix to the Study Guide; some are perhaps interesting enough to be worth listing here. So this page in fact has two lists. The first one contains links to webpages on the books that appear in that Appendix so these books are, roughly speaking, wider-ranging texts on mathematical logic ([a PDF version of the complete Appendix, differently ordered, can also be downloaded here](../pdfs/Appendix.pdf)). The second list contains links mostly to blog posts on a variety of other logic books or books on the philosophy of mathematics.
