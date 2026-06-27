@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A local mirror of the old Logic Matters Book Notes page, with PDF assets stored under tyl/pdfs.">
 
-<title>Book Notes on Logic and the Philosophy of Mathematics – Logic Matters</title>
+<title>Bjorndahl: An Introduction to Classical and Modal Logics – Logic Matters</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -81,6 +80,35 @@ gtag('js', new Date());
 gtag('config', 'G-NJWC5RLRWV', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -165,14 +193,9 @@ window.addEventListener('load', function () {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Book Notes on Logic and the Philosophy of Mathematics</h1>
+<h1 class="title">Bjorndahl: An Introduction to Classical and Modal Logics</h1>
 </div>
 
-<div>
-  <div class="description">
-    A local mirror of the old Logic Matters Book Notes page, with PDF assets stored under tyl/pdfs.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -187,99 +210,17 @@ window.addEventListener('load', function () {
 </header>
 
 
-<p>Over the years, I have written over a hundred short notes (or occasionally rather long) notes on a variety of books, either as posts on the blog or as entries to the Appendix to the Study Guide; some are perhaps interesting enough to be worth listing here. So this page in fact has two lists. The first one contains links to webpages on the books that appear in that Appendix so these books are, roughly speaking, wider-ranging texts on mathematical logic (<a href="../pdfs/Appendix.pdf">a PDF version of the complete Appendix, differently ordered, can also be downloaded here</a>). The second list contains links mostly to blog posts on a variety of other logic books or books on the philosophy of mathematics.</p>
-<hr>
-<section id="some-wider-ranging-mathematical-logic-books" class="level3">
-<h3 class="anchored" data-anchor-id="some-wider-ranging-mathematical-logic-books">Some wider-ranging mathematical logic books</h3>
-<ol type="1">
-<li><a href="../../tyl/booknotes/avigad-full.html">Avigad, <em>Mathematical Logic and Computation</em>, 2023.</a></li>
-<li><a href="../../tyl/booknotes/bellmach.html">Bell &amp; Machover, <em>A Course in Mathematical Logic</em>, 1977</a></li>
-<li><a href="../../tyl/booknotes/chiswellandhodges.html">Chiswell &amp; Hodges, <em>Mathematical Logic</em>, 2007.</a></li>
-<li><a href="../../tyl/booknotes/cori-lascar-mathematical-logic.html">Cori &amp; Lascar, <em>Mathematical Logic</em>, 1993, 2000.</a></li>
-<li><a href="../../tyl/booknotes/eft.html">Ebbinghaus, Flum &amp; Thomas, <em>Mathematical Logic</em>, 1978, 2021.</a></li>
-<li><a href="../../tyl/booknotes/enderton.html">Enderton, <em>A Mathematical Introduction to Logic</em>, 1972, 2002.</a></li>
-<li><a href="../../tyl/booknotes/forster.html">Forster, <em>Logic, Induction and Sets</em>, 2003.</a></li>
-<li><a href="../../tyl/booknotes/goldsternandjudah.html">Goldstern &amp; Judah, <em>The Incompleteness Phenomenon: A New Course in Mathematical Logic</em>, 1995.</a></li>
-<li><a href="../../tyl/booknotes/halbeisen-krapf-g-del-s-theorems-and-zermelo-s-axioms.html">Halbeisen &amp; Kraft, <em>Gödel’s Theorems and Zermelo’s Axioms</em>, 2020.</a></li>
-<li><a href="../../tyl/booknotes/hedman.html">Hedman, <em>A First Course in Logic</em>, 2004.</a></li>
-<li><a href="../../tyl/booknotes/hinman.html">Hinman, <em>Fundamentals of Mathematical Logic</em>, 2005.</a></li>
-<li><a href="../../tyl/booknotes/hodel.html">Hodel, <em>An Introduction to Mathematical Logic</em>, 1995.</a></li>
-<li><a href="../../tyl/booknotes/johnstone.html">Johnstone, <em>Notes on Logic and Set Theory</em>, 1987.</a></li>
-<li><a href="../../tyl/booknotes/kleene-metamath.html">Kleene, <em>Introduction to Metamathematics</em>, 1952.</a></li>
-<li><a href="../../tyl/booknotes/kleene_ml.html">Kleene, <em>Mathematical Logic</em>, 1967.</a></li>
-<li><a href="../../tyl/booknotes/kossak.html">Kossak, <em>Mathematical Logic</em>, 2018.</a></li>
-<li><a href="../../tyl/booknotes/kunen-FM.html">Kunen, <em>Foundations of Mathematics</em>, 2009, 2012.</a></li>
-<li><a href="../../tyl/booknotes/leary.html">Leary &amp; Kristiansen, <em>A Friendly Introduction to Mathematical Logic</em>, 2015.</a></li>
-<li><a href="../../tyl/booknotes/machover.html">Machover, <em>Set Theory, Logic and their Limitations</em>, 1996</a></li>
-<li><a href="../../tyl/booknotes/marker-an-invitation-to-mathematical-logic.html">Marker, <em>An Invitation to Mathematical Logic</em>, 2024.</a></li>
-<li><a href="../../tyl/booknotes/Mendelson.html">Mendelson, <em>Introduction to Mathematical Logic</em>, 1964, 2015.</a></li>
-<li><a href="../../tyl/booknotes/mileti-modern-mathematical-logic.html">Mileti, <em>Modern Mathematical Logic</em>, 2023.</a></li>
-<li>O’Leary, &lt;em&gt;A First Course in Mathematical Logic and Set Theory&lt;/em&gt;, 2016.</li>
-<li><a href="../../tyl/booknotes/prestelldelzell.html">Prestel &amp; Delzell, <em>Mathematical Logic and Model Theory</em>, 1986, 2011.</a></li>
-<li><a href="../../tyl/booknotes/rautenberg-a-concise-introduction-to-mathematical-logic.html">Rautenberg, <em>A Concise Introduction to Mathematical Logic</em>, 1995, 2010.</a></li>
-<li><a href="../../tyl/booknotes/robbin.html">Robbin, <em>Mathematical Logic: A First Course</em>, 1969.</a></li>
-<li><a href="../../tyl/booknotes/schoenfield.html">Shoenfield, <em>Mathematical Logic</em>, 1967.</a></li>
-<li><a href="../../tyl/booknotes/smullyan-a-beginners-guide-to-mathematical-logic.html">Smullyan, <em>A Beginner’s Guide to Mathematical Logic</em>, 2014.</a></li>
-<li><a href="../../tyl/booknotes/srivastava-a-course-on-mathematical-logic.html">Srivastava, <em>A Course on Mathematical Logic</em>, 2008, 2013.</a></li>
-<li><a href="../../tyl/booknotes/vdalen.html">Van Dalen, <em>Logic and Structure</em>, 1980, 2012.</a></li>
-<li><a href="../../tyl/booknotes/westerstahl.html">Westerståhl, <em>Foundations of Logic</em>, 2024.</a></li>
-</ol>
-<hr>
-</section>
-<section id="other-books-on-logic-the-philosophy-of-mathematics-etc." class="level3">
-<h3 class="anchored" data-anchor-id="other-books-on-logic-the-philosophy-of-mathematics-etc.">Other books on logic, the philosophy of mathematics, etc.</h3>
-<ol type="1">
-<li><a href="../../tyl/booknotes/arbeiter-kennedy.html">Arbeiter &amp; Kennedy, <em>The Philosophy of Penelope Maddy</em>, 2024</a></li>
-<li><a href="../pdfs/Baaz-Godelreview.pdf">Baaz et al.&nbsp;(eds), <em>Kurt Gödel and the Foundations of Mathematics: Horizons of Truth</em>, 2011.</a> See also <a href="../../tyl/booknotes/tag-kgfm-search-order-asc.html">the earlier blog posts.</a></li>
-<li><a href="../../tyl/booknotes/formal-theories-truth.html">Beall, Glanzberg &amp; Ripley, <em>Formal Theories of Truth</em>, 2018.</a></li>
-<li><a href="../../tyl/booknotes/berto.html">Berto, <em>There’s Something About Gödel</em>, 2009.</a></li>
-<li><a href="../../tyl/booknotes/bjorndahl.html">Bjorndahl, <em>An Introduction to Classical and Modal Logics</em>, 2024</a></li>
-<li><a href="../../tyl/booknotes/bridge.html">Bridge, <em>Beginning Model Theory</em>, 1977.</a></li>
-<li><a href="../../tyl/booknotes/john-burgess-set-theory.html">Burgess, <em>Set Theory</em>, 2022.</a></li>
-<li><a href="../../tyl/booknotes/buechner.html">Buechner, <em>Gödel, Putnam, and Functionalism</em>, 2007.</a></li>
-<li><a href="../../tyl/booknotes/mathematical-logic-exercises-and-solutions.html">Csirmaz &amp; Gyenis, <em>Mathematical Logic: Exercises and Solutions</em>, 2022.</a></li>
-<li><a href="../../tyl/booknotes/colyvan.html">Colyvan, <em>An Introduction to the Philosophy of Mathematics</em>, 2012.</a></li>
-<li><a href="../../tyl/booknotes/logic-works.html">Falkenstein, Stapleford &amp; Kao, <em>Logic Works: A Rigorous Introduction to Formal Logic</em>, 2021.</a></li>
-<li><a href="../../tyl/booknotes/tag-f-l-search-order-asc.html">Florio &amp; Linnebo, <em>The One and The Many: A Philosophical Study of Plural Logic</em>, 2021.</a></li>
-<li><a href="../../tyl/booknotes/tag-autonomy-search-order-asc.html">Franks, <em>The Autonomy of Mathematical Knowledge</em>, 2009.</a></li>
-<li><a href="../pdfs/Halbach-Horsten.pdf">Halbach, <em>Axiomatic Theories of Truth</em>, 2011.</a></li>
-<li><a href="../../tyl/booknotes/hellman-and-shapiro-on-mathematical-stucturalism.html">Hellman &amp; Shapiro, <em>Mathematical Structuralism</em>, 2018.</a></li>
-<li><a href="../../tyl/booknotes/hilberts-foundationslogic-lectures.html">Hilbert, <em>Lectures on the Foundations of Arithmetic and Logic 1917-1933</em>, 2013.</a></li>
-<li><a href="../../tyl/booknotes/hills-loeser.html">Hills &amp; Loeser, <em>A First Journey through Logic</em>, 2019.</a></li>
-<li><a href="../pdfs/Halbach-Horsten.pdf">Horsten, <em>The Tarskian Turn: Deflationism and Axiomatic Truth</em>, 2011.</a></li>
-<li><a href="../../tyl/booknotes/category-books-conceptions_of_set-search-order-asc.html">Incurvati, <em>Conceptions of Set and the Foundations of Mathematics</em>, 2020.</a></li>
-<li><a href="../../tyl/booknotes/jacquettes-frege.html">Jacquette, <em>Frege: A Philosophical Biography</em>, 2019.</a></li>
-<li><a href="../../tyl/booknotes/kaye-the-mathematics-of-logic.html">Kaye, <em>The Mathematics of Logic</em>, 2007.</a></li>
-<li><a href="../../tyl/booknotes/kirby.html">Kirby, <em>An Invitation to Model Theory</em>, 2019.</a></li>
-<li><a href="../../tyl/booknotes/roman-kossaks-model-theory-for-beginners.html">Kossak, <em>Model Theory for Beginners: 15 Lectures</em>, 2021.</a></li>
-<li><a href="../../tyl/booknotes/kromer.html">Krömer, <em>Tool and Object: A History and Philosophy of Category Theory</em>, 2007.</a></li>
-<li><a href="../../tyl/booknotes/tag-catwp-search-order-asc.html">Landry, E. (ed), <em>Categories for the Working Philosopher</em>, 2017.</a></li>
-<li><a href="../../tyl/booknotes/loveland-hodel-sterrett-three-views-of-logic.html">Loveland, Hodel &amp; Sterrett, <em>Three Views of Logic</em>, 2013.</a></li>
-<li><a href="../pdfs/MaddyReview.pdf">Maddy, <em>Defending the Axioms: On the Philosophical Foundations of Set Theory</em>, 2011.</a></li>
-<li><a href="../../tyl/booknotes/blog-category-name-ipt-search-orderby-post-date-order-asc.html">Mancosu, Galvan &amp; Zach, <em>An Introduction to Proof Theory</em>, 2021.</a></li>
-<li><a href="../../tyl/booknotes/manzano.html">Manzano, <em>Model Theory</em>, 1999.</a></li>
-<li><a href="../../tyl/booknotes/moerdijk-and-van-oosten-sets-models-and-proofs.html">Moerdijk &amp; van Oosten, <em>Sets, Models and Proofs</em>, 2018.</a></li>
-<li><a href="../../tyl/booknotes/adrian-moore-on-godels-theorem-briefly.html">Moore, <em>Gödel’s Theorem: A Very Short Introduction</em>, 2022.</a></li>
-<li><a href="../pdfs/CTT.pdf">Olszewski et al.&nbsp;(eds), <em>Church’s Thesis after 70 Years</em>, 2006.</a></li>
-<li><a href="../pdfs/ParsonsReview.pdf">Parsons, <em>Mathematical Thought and Its Objects</em>, 2008.</a> Much longer (52 page!) <a href="../pdfs/ParsonsLongReview.pdf">review notes</a>.</li>
-<li><a href="../../tyl/booknotes/quick-book-note-pollard.html">Pollard, <em>A Mathematical Prelude to the Philosophy of Mathematics</em>, 2014.</a></li>
-<li><a href="../../tyl/booknotes/the-annotated-godel.html">Prince, <em>The Annotated Gödel</em>, 2022.</a></li>
-<li><a href="../pdfs/AbsGenReviewBSL.pdf">Rayo &amp; Uzquiano (eds), <em>Absolute Generality</em>, 2006.</a> Also see <a href="../../tyl/booknotes/tag-absgen-search-order-asc.html">a long series of blog posts</a>.</li>
-<li><a href="../../tyl/booknotes/tag-r-s-search-order-asc.html">Restall &amp; Standefer, <em>Logical Methods</em>, 2022.</a></li>
-<li><a href="../../tyl/booknotes/greg-restall-proofs-and-models-in-philosophical-logic.html">Restall, <em>Proofs and Models in Philosophical Logic</em>, 2022.</a></li>
-<li><a href="../../tyl/booknotes/roy-symbolic-logic.html">Roy, <em>Symbolic Logic</em>, 2023.</a></li>
-<li><a href="../../tyl/booknotes/the-metaphysics-of-logic.html">Rush, <em>The Metaphysics of Logic</em>, 2014.</a></li>
-<li><a href="../../tyl/booknotes/shapirov.html">Shapiro, <em>Varieties of Logic</em>, 2014.</a></li>
-<li><a href="../../tyl/booknotes/sider.html">Sider, <em>Logic for Philosophy</em>, 2012.</a></li>
-<li><a href="../../tyl/booknotes/smith-the-laws-of-truth.html">Smith, N., <em>Logic: The Laws of Truth</em>, 2012.</a></li>
-<li><a href="../../tyl/booknotes/de-swart.html">de Swart, H., <em>Philosophical and Mathematical Logic</em>, 2018.</a></li>
-<li><a href="../../tyl/booknotes/properties-propositions-and-the-concept-horse.html">Robert Trueman, <em>Properties and Propositions</em>, 2021.</a></li>
-<li><a href="../../tyl/booknotes/kreisels-interests.html">Weingartner &amp; Leeb, <em>Kreisel’s Interests: On the Foundations of Logic and Mathematics</em>, 2020.</a></li>
-<li><a href="../pdfs/WeirReview.pdf">Weir, <em>A Truth Through Proof</em>, 2010.</a> Also see <a href="../../tyl/booknotes/tag-ttp-search-order-asc.html">a series of blog posts</a>.</li>
-</ol>
+<p><img src="covers/bjorndahl.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;"></p>
+<p>Adam Bjorndahl’s contribution to the Cambridge Introductions to Philosophy series, <em>An Introduction to Classical and Modal Logics</em> strikes me as a rather odd book, both in terms of level and in terms of coverage. So before getting critical, let me say that I <em>do</em> like its approachable style and tone. And there is a page-layout device which works rather well, of having mini-comments and further explanations in the margins, keeping the main flow of text more economically focused. (Unfortunately, the version made available online through the Cambridge Core system completely fouled-up this aspect of the text when I saw it.)</p>
+<p>This is a short book. So after a brief Introduction, propositional logic and predicate logic are polished off in two chapters, just 80 pages (with relatively narrow columns of main text, set quite generously spaced). And yet we get as far as a completeness proof for predicate logic. So who is the intended reader? A philosophical newbie with no mathematical background will most surely struggle.</p>
+<p>In fact, the book really seems aimed at students also doing maths (or maths as well as philosophy). The very first words of the Introduction are “Mathematics is the systematic structure of patterns and structure … What if we turn this focus inward, and engaged in the systematic study of mathematics itself? This is one way of understanding what logic is.” Later, to take just one example, we are told to take the domain of interpretation in a completeness proof for FOL with identity to be the quotient of the set of terms by the equivalence relation of provable equality. This is the first mention of the idea of a quotient. A marginal comment to the rescue? “For a refresher on equivalence relations and quotients, see Appendix A2”. Refresher? So the reader is already supposed to have encountered such ideas.</p>
+<p>I could continue; but I suggest we just forget that this book is officially masquerading as an introduction for philosophers. Would the chapters on PL and FOL work for suitably mathematically primed students? As I said, the presentational style is congenial. But to my mind we get rather too little, rather too fast. On propositional logic, we get a speedy account of the two-valued connectives and truth-tables, an introduction to a Hilbert-style deductive calculus (!), followed by soundness and completeness proofs. Topics that should give the thoughtful student pause – e.g.&nbsp;the truth-functional conditional, explosion – can whizz by. On FOL, we meet the syntax, semantics and a Hilbert-style deductive calculus all within 24 pages, before proceeding to soundness and completeness proofs. Technically fine, as far as I can see: but less accessible than the best alternatives. And by my lights, someone working at this level would do significantly better with a more expansive treatment as in Enderton’s classic book or other options suggested in the Guide; and there is now Westerståhl’s excellent text as well (where you’ll also learn e.g.&nbsp;about natural deduction).</p>
+<p>The second part of Bjorndahl’s book starts with a chapter on propositional modal logic. This gets quite technical quite quickly and is all given what strikes me as a strangely epistemic twist. Indeed the traditional interpretation S5 in terms of logical necessity is – unless my attention flickered – never discussed. The official audience of philosophy students would want a gentler account that links up better to discussions of logical and metaphysical necessity.</p>
+<p>In passing, I note that Bjorndahl suggests that “Alice believes <span class="math inline">\(\varphi\)</span>” can be interpreted as saying something like “<span class="math inline">\(\varphi\)</span> is true in all configurations of the world that Alice considers possible”. Really? For a start, what does “considers possible” mean here if not “believes to be possible”. And “possible” in what sense? Consistent with what she believes?</p>
+<p>The chapter on modal logic is followed by, of all things, a chapter on Group Knowledge (an interest of Bjorndahl’s but for me way off the menu of initial topics you need to meet when starting out on modal logic). Then, crunching the gears, there is a 14 page final chapter on topological semantics. If you are going there, you’d expect to hear about intuitionistic logic; yet that only gets a glancing mention back on p.3. Odd.</p>
+<p>There are lots of of good treatments out there of PL and FOL; there are lots of good treatments of modal logic too (also covering the sorts of quantified logics of current interest to philosophers). Despite its often reader-friendly tone, Bjorndahl’s book won’t be joining, let alone displacing, existing recommendations in the Guide.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

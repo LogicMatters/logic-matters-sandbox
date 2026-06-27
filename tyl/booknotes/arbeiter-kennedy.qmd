@@ -1,0 +1,34 @@
+---
+title: "Arbeiter & Kennedy, *The Philosophy of Penelope Maddy*, 2024"
+---
+
+This is a volume in Springer's iongoing series ‘Outstanding Contributions to Logic’, edited by Sophia Arbeiter and Juliette Kennedy. 
+
+I have to report that I found this mostly disappointing -- which is no faulty of Maddy’s: she writes illuminating replies to (nearly all) the essays, which are probably the best thing about the book. But too many of the papers she is replying to strike me as, shall we say, unexciting. And not models of writing to be emulated.
+
+I come to this volume with mixed views about Maddy’s work. For example, I was very engaged by her short book *Defending the Axioms*: *On the Philosophical Foundations of Set Theory* (2011); Luca Incurvati and I wrote [an unpersuaded but not unfriendly review for *Mind*](../pdfs/MaddyReview.pdf). On the other hand, I thought her later book *The Logical Must: Wittgenstein on Logic* (2014) quite misguided. Maddy says in her Introduction that her primary aim is “simply historical -- to understand Wittgenstein better”. But a number of reviewers noted just how far Maddy seems to be from understanding the thrust of Wittgenstein’s thinking about logic (see, for example, [Martin Gustafsson’s review here](https://ndpr.nd.edu/reviews/the-logical-must-wittgenstein-on-logic/)).
+
+Of course, it could be that the naturalistic view of logic Maddy adumbrates there is defensible even if she has gone badly wrong in thinking of it is as where Wittgenstein, properly understood, leads us. But I’m not persuaded. And I’m not helped to come to terms with her view by any of the papers contributed to this collection: the one that most engages with Maddy on Wittgenstein on logic is a 26 page ramble by Curtis Franks, “Wittgenstein’s Wayward Student: The Unauthorized Autobiography”. Not my cup of tea, to put it mildly.
+
+No, the primary foci of the contributions (as you’d in fact expect) are firstly set theory (and in particular, ways of extending ZFC), and then Maddy’s contrasts between varieties of realisms and arealism about sets. 
+
+<hr>
+
+When they get down to the nitty gritty, a number of the more technical contributions related to set theory are (to be honest) beyond my pay grade. For example, I’m not in a great position to engage usefully with e.g. John Steel writing on the generic multiverse (and he doesn’t make things easy for his reader -- [the paper he is replying to by Maddy and Toby Meadows](https://sites.socsci.uci.edu/~pjmaddy/bio/RSMP%20v20.pdf) is considerably more accessible and helpful).
+
+One interesting theme: the dust has yet to settle on recent debates about varieties of multiversism. For more debates, there are three “Conversations” involving set theorists reproduced at the end of the book. Then Maddy herself offers as the final essay in the collection a new piece which aims to “isolate a surprising range of multiverse positions, revealing their sometimes-dubious metaphysical underpinnings and demonstrating that the distinction between multiversism and universism is often muddier than it might appear”. This is indeed helpful.
+
+One much older, less exotic, issue in the philosophy of set theory is how to construe talk of proper classes as contrasted with sets -- which is arguably tied up with the question of how to regard logical classes (property-extensions) as contrasted with sets as explicated in the iterative conception. Maddy discussed the general problem long since in her 1983 *JSL* paper ‘[Proper Classes](https://sites.socsci.uci.edu/~pjmaddy/bio/proper%20classes.pdf)’, where she reaches the interim conclusion that “In our search for a realistic theory of sets and classes, we [should] begin with two desiderata:
+(1) classes should be real, well-defined entities;
+(2) classes should be significantly different from sets.
+The central problem is that it is hard to satisfy both of these.” She then proposed a theory to meet these desiderata, inspired by the structure of Kripke’s theory of truth.
+
+Considerably later, Øystein Linnebo has a particularly insightful discussion in his ‘Pluralities and sets’ (*J. Phil.* 2010), again aiming for an account satisfying (1) and (2). So it intriguing to find him returning to the theme in the present collection in his contribution ‘Maddy on classes’. Here he argues that while Maddy’s original approach had promising features, her own development of the core idea was problematic. However, potential repairs run into more trouble, and Linnebo’s ultimate verdict is that “the picture that emerges is thus one of a failed research program”. But negative results are good to have! -- and he concludes by suggesting another approach which (he argues) looks as if it should work better. This is a contribution worth reading and thinking about.
+
+<hr>
+
+What about the discussions of Maddy on (anti)-realisms in this volume (see the review by Luca and myself for brief headlines about the issues)? I’ll mention the two best pieces. In rough terms, John Burgess complains (not entirely clearly) that Maddy strays too far in the direction of a nominalism and fictionalism about mathematics; going in the opposite direction Mary Leng (writing with her characteristic transparency) wants to push Maddy to take a step or two further towards her own brand of fictionalism. The replies perhaps help to better locate Maddy’s position -- but puzzles remain.
+
+<hr>
+
+Finally, although it is tedious to mention this, like others of the ‘Outstanding Contributions to Logic’ volumes, this one is outstandingly -- not to say outlandishly, outrageously -- expensive. Perhaps your university library has an e-copy available. Otherwise ...

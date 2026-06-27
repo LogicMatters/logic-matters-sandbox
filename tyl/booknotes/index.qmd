@@ -45,9 +45,11 @@ Over the years, I have written over a hundred short notes (or occasionally rathe
 
 ### Other books on logic, the philosophy of mathematics, etc.
 
+1. [Arbeiter & Kennedy, *The Philosophy of Penelope Maddy*, 2024](arbeiter-kennedy.qmd)
 1. [Baaz et al. (eds), _Kurt Gödel and the Foundations of Mathematics: Horizons of Truth_, 2011.](../pdfs/Baaz-Godelreview.pdf) See also [the earlier blog posts.](tag-kgfm-search-order-asc.qmd)
 2. [Beall, Glanzberg & Ripley, _Formal Theories of Truth_, 2018.](formal-theories-truth.qmd)
 3. [Berto, _There’s Something About Gödel_, 2009.](berto.qmd)
+4. [Bjorndahl, _An Introduction to Classical and Modal Logics_, 2024](bjorndahl.qmd)
 4. [Bridge, _Beginning Model Theory_, 1977.](bridge.qmd)
 5. [Burgess, _Set Theory_, 2022.](john-burgess-set-theory.qmd)
 6. [Buechner, _Gödel, Putnam, and Functionalism_, 2007.](buechner.qmd)
