@@ -565,5 +565,8 @@
   },
   "blog/begin-at-beginning.qmd": {
     "begin-at-beginning.html": "18ef17ed"
+  },
+  "archive/pages/godel-logicisms.qmd": {
+    "godel-logicisms.html": "4511a332"
   }
 }

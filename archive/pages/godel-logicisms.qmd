@@ -1,0 +1,68 @@
+---
+title: "Gödel and (neo)logicisms"
+date: "2022-12-17"
+page-layout: article
+---
+
+
+Russell famously announced “All mathematics deals exclusively with concepts definable in terms of a very small number of logical concepts and ... all its propositions are decidable from a very small number of fundamental logical principles.” That wildly ambitious version of logicism is evidently sabotaged by Gödel’s Theorem which shows that, fix on a small number of logical principles and definitions as you will, you won’t even be able to derive from them all arithmetical truths let alone the rest of mathematics. But how do things stand with latter-day, perhaps less ambitious, forms of neo-logicism?
+
+Second-order logic plus Hume's Principle gives us second-order Peano arithmetic, and True Arithmetic is a semantic consequence. Buy, for the sake of argument, that Hume’s Principle is in some sense as-good-as-analytic. But how does that help with the epistemological ambitions of a logicism once we see that Gödel’s Theorem shows that second-order semantic consequence is not axiomatizable? Fabian Pregel at Oxford has a very nice piece ‘Neo-Logicism and Gödelian Incompleteness’ in <em>Mind</em> (2022), arguing first that the earlier Wright/Hale canonical writings on their neo-logicism unhappily vacillate, and then that Wright’s more extended discussion of the issue in his 2020 ‘Replies’ (in the volume of essays on his work edited by Alexander Miller) is also unsatisfactory.
+
+I’ll leave Pregel to speak for himself, and just recommend you read his piece when you can. But I was prompted  to look again at Neil Tennant’s recent discussion of his deviant form of neo-logicism (which isn’t Pregel’s concern). Right at the outset of his <em>The Logic of Number </em>(OUP, 2022), Tennant is emphatic that (a) respecting what he calls the Gödel phenomena must be absolutely central in any sort of foundationalist story. But he still wants (b) to defend a version of logicism about the natural numbers (using introduction and elimination rules in a first-order context).  So how does <em>he</em> square his ambition (b) with his vivid recognition that (a)?
+
+Tennant  writes:
+
+<blockquote>Logicism maintains that Logic (in some suitably general and powerful sense that will have to be deﬁned) is capable of furnishing deﬁnitions of the primitive concepts of this main branch of mathematics. These deﬁnitions allow one to derive the mathematician’s ‘ﬁrst principles’ of number theory as results within logic itself. The logicist is therefore purporting to uncover a deeper source of justiﬁcation for these ‘ﬁrst principles’ than just that they seem obvious or self-evident to mathematicians working in the branch of mathematics in question, ... [p. 5]</blockquote>
+
+So he is out to defend what Wright 2020 calls the “Core logicist thesis” that at least we can get to the mathematician’s familiar Peano Axioms starting from logic-plus-definitions.  And the methods of <em>his</em> version of logicism, Tennant says,
+
+<blockquote>can be used to determine to what extent the truths in a particular branch of mathematics might be logical in their provenance. So it is more nuanced and discerning than logicism in its original and ambitious form, even when conﬁned to number theory. [pp 5–6]</blockquote>
+
+<blockquote>the formulation of mathematical theories in terms of introduction and elimination rules for the main logico-mathematical operators furnishe[s] a principled basis for drawing an analytic/synthetic distinction within those mathematical theories. [p. 13]</blockquote>
+
+So Tennant is quite happy with an analytic/synthetic distinction being applied <em>within</em> the class of first-order arithmetical truths. In fact, that was already his view back in 1987, when his version of logicism in <em>Anti-Realism and Logic </em>dropped more or less stone-dead from the press (Neil has a terrible habit of trying to take on too much at once, as I’d say he does in his latest book -- so that earlier book had something to annoy everyone, and I doubt that very many got to the final chapters!)
+
+Whether Tennant should be happy about the idea of non-logical arithmetical truths concerning logical objects is another question, of course, but that’s the line.
+
+OK: so the criterion of success, for Tennant, is that the logicist
+
+<blockquote>accounts for what kind of things the natural numbers are, and thereby also enables one rigorously (and constructively, and relevantly) to derive as theorems the postulates of ‘pure’ Dedekind–Peano arithmetic, which the pure mathematician takes as ﬁrst principles for the pure theory of the natural numbers. [p. 51]</blockquote>
+
+NB ‘derive’ — it is syntactic provability as against semantic consequence more generally that is in question.
+
+<blockquote>To be sure, we share Frege’s logicist aspiration to establish at least the natural numbers as logical objects, and to derive the Dedekind–Peano postulates that govern them from a deeper, purely logical foundation. Moreover, we claim to have succeeded where Frege himself had failed, for want of a consistent foundational logical theory. The natural numbers, though sui generis, are logical objects. They are recognizable and identiﬁable as such because of the role they play in our thoughts about objects that fall under sortal concepts. Our logico-genetic path to the natural numbers has proved to be fully logicist. And it does not take Hume’s Principle as its point of departure. [pp 54–55]</blockquote>
+
+And a bit later — and here we interestingly link up with some remarks of Pregel’s which also touch on what has come to be called “Isaacson's Thesis” -- Tennant writes
+
+<blockquote>Note that it will suﬃce, for the natural logicist to be able to claim substantial success in this project, to recover the axioms of Dedekind–Peano arithmetic. Indeed, if the natural logicist manages to succeed only on Dedekind–Peano arithmetic, this might oﬀer the explanation sought by Isaacson [1987] of why it is that the axioms of Dedekind–Peano arithmetic are so very ‘natural’. As Isaacson puts it,
+<blockquote>... Peano Arithmetic occupies an intrinsic, conceptually well-deﬁned region of arithmetical truth. ... it consists of those truths which can be perceived directly from the purely arithmetical content of a categorical conceptual analysis of the notion of natural number.</blockquote>
+We have already acknowledged Gödelian incompleteness in arithmetic, and we fully recognize the logical and epistemological challenge posed by it. [p. 69]</blockquote>
+
+So, for Tennant it is an open question how far logicist methods will take us into arithmetic. But that doesn’t impugn, he thinks, its success in giving us the mathematician’s ‘first principles’ for arithmetic. And indeed it might be conceptually important that the logicist method takes us just so far into arithmetic and no further, in the spirit of something like Isaacson’s ideas.
+
+Pregel very reasonably asks the Wright-style neo-logicist
+
+<blockquote>In particular, what account is the Neo-Logicist to offer of the analyticity status of the semantic consequences of HP that are not deductive consequences? Are they analytic as well, though for a different reason? Or synthetic? And how do we account for the fact that different possible choices of second-order deductive systems mean different formulas get categorised as ‘core’?</blockquote>
+
+Tennant would bite the bullet for his version of logicism — they’re synthetic. And his logical framework is first order, so he doesn’t hit the second problem.
+
+OK, that’s all mostly tangential to Pregel’s concerns with the canonical version of neo-logicism. But the point at which they both touch on Isaacson is interesting and suggestive -- though since Tennant isn’t tangling with second-order logic, he avoids some of the worries Pregel rightly raise about whether we can deploy something like  Isaacson’s Thesis in the canonical second order framework.
+
+Now, I hasten to add, all this isn’t to say that I outright endorse Tennant’s version of logicism. But do I find myself suspecting that his way with Gödel by limiting the ambitions of a logicism is a “best buy” for someone who wants to rescue something of substantive interest out of a latter-day version of logicism.
+
+<hr>
+
+::: {.hanging}
+
+*Richard Kimberly Heck comments (2026-01-19)* I just stumbled upon Pregel's paper and then stumbled upon this post. It really seems to me that Tennant's reply is pretty obviously the right one for a neo-logicist to make. Just deny that it's any part of logicism that ALL arithmetical truths are logical. Granted, that was Frege's view. But of course he was writing before Gödel, so it's just not at all obvious that one has to hold such a view to count as some kind of modern logicist.
+
+I'm not sure whether I've actually said this in print, but I've at least toyed with the idea that only a 'relational' form of Robinson arithmetic (which isn't committed to the existence and uniqueness of successor, sums, and products, as a general principle, but only in the specific cases of finite numbers) is 'analytic'. You get something like that view if you think that (i) HP is itself some kind of conceptual truth but (ii) only <em>predicative</em> second-order logic counts as 'analytic'. Induction, on this view, is <em>not</em> 'analytic', but has some other status. You can still state Frege's definition of natural number and even make use of it, if you like. But the proof of induction needs Pi-1-1 comprehension, and on this view impredicative comprehension is not 'analytic'.
+
+I don't see why that's not a perfectly coherent view. But note that there isn't any independent specification of what the set of 'analytic' arithmetical truths is. They are just whatever the theorems of the mentioned system are.
+
+Scare quotes around 'analytic' because I am not at all sure that's the right notion here (largely because it's very unclear to me what that notion is). But I'm not sure what the right notion is for framing modern 'logicism'.
+
+In other work, I've suggested that Pi-1-1 comprehension <em>is</em> 'analytic', but that no more is. Or actually, that there's a system that's more or less equivalent to Pi-1-1 second-order logic, and it's 'analytic'. Wright can perfectly well hold a structurally similar view: Full impredicative comprehension counts as 'analytic', but maybe that's all that does (e.g., choice principles do not). Granted, one needs to tell some story about why the limit of 'analyticity' is found there, but it's not obvious there is no such story to be told.
+
+:::

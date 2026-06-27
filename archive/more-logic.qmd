@@ -43,3 +43,4 @@ These old pieces written round about the time I retired are of very varying leve
 1. [There are sea-serpents, Jim, but not as we know them](pdfs/Believingin.pdf) (talk given to a metaphysics group in Cambridge, commenting on Zoltan Szabo's "Believing in things").
 1. [Ancestral arithmetic and Isaacson's thesis](pdfs/Isaacson_paper.pdf) (stand-alone paper published in *Analysis*, reworking ideas in my Gödel book).
 1. [Induction, more or less](pdfs/SubsystemsRevised.pdf) (expanded version of talk given at Dan Isaacson's seminar in Oxford in 2007, mostly on ACA~0~).
+1. [G¨odel’s Theorem: A Proof from The Book?](pdfs/GodelBookPrf.pdf) (Cambridge talk to mathematics students)
