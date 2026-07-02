@@ -1,1 +1,1 @@
-Recent posts: [Book note: The Open Logic FOL texts](blog/open-logic.qmd) (11 June 2026), [Apologies](blog/apologies.qmd) (12 June 2026), [Postcard from Ljubljana](blog/postcard-fron-ljubljana.qmd) (22 June 2026)
+Recent posts: [Apologies](blog/apologies.qmd) (12 June 2026), [Postcard from Ljubljana](blog/postcard-fron-ljubljana.qmd) (22 June 2026), [Incurvati's *Conceptions of Set*, revisited](blog/luca1.qmd) (2 July 2026)
