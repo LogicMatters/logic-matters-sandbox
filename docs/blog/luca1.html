@@ -81,6 +81,35 @@ gtag('js', new Date());
 gtag('config', 'G-NJWC5RLRWV', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -199,7 +228,7 @@ gtag('config', 'G-NJWC5RLRWV', { 'anonymize_ip': true});
 <p>I’d say that much common-or-garden set talk can be construed as no more than non-committal class-as-many talk, i.e.&nbsp;it is singular talk of pluralities. Luca cheerfully claims “if I say that the set of books on my table has two elements, you [as an English speaker] understand what I am saying”. But I rather suspect that the non-mathematician, non-philosopher (i) is going to find the talk of ‘elements’ here really a little peculiar. And as Luca would agree, (ii) humdrum talk of a set of books often falls short of referring to a class-as-one, to something over and above the books there on the table.</p>
 <p>There’s little to be gained, though, in spending more time wondering just how much set talk “as it occurs in everyday parlance” (as Luca puts it) really is <em>set</em> talk in Finsler’s sense, as characterised by Luca’s (1). This is a minor issue. Rather, let’s move on to ask the key question: what is the cash value of the claim that a <em>set</em> (the real thing, not a mere class) is a “genuine [bangs the table!] individual entity” [Finsler], is “a single object, over and above its members” [Luca]?</p>
 <hr>
-<p>Surely <em>one</em> essential thought here is that sets (in the sense which contrasts with classes) are themselves objects which can be collected together to form new sets. At the most basic, starting with Gottlob, Bertrand, and Kurt, we can form the two-membered sets {Gottlob, Bertrand} and {Bertrand, Kurt}; and from those two sets we can then form another two-membered set {{Gottlob, Bertrand}, {Bertrand, Kurt}}. Someone who hasn’t grasped that sets can straightforwardly be members of other sets arguably hasn’t grasped the concept of set that we are after.</p>
+<p>Surely <em>one</em> essential thought here is that sets (in the sense which contrasts with classes) are themselves objects which can be collected together to form new sets. At the most basic, starting with Gottlob, Bertrand, and Kurt, we can form the two-membered sets {Gottlob, Bertrand} and {Bertrand, Kurt}; and from those two sets we can then form another two-membered set <span class="math inline">\(\{\{Gottlob, Bertrand\}, \{Bertrand, Kurt\}\}\)</span>. Someone who hasn’t grasped that sets can straightforwardly be members of other sets arguably hasn’t grasped the concept of set that we are after.</p>
 <p>Luca would agree, making the point particularly clearly when commenting on my earlier blog post. He wrote that to replace ‘object’ with a more colourless term like ‘item’ in Unity would “leave out an important aspect of Unity, which is precisely the one that serves to ensure that sets are the kinds of things that can themselves be collected together.”</p>
 <p>I would add another related, equally fundamental, thought: that subsets are the same kind of object as sets – and hence the very same object can be both a subset (of <em>X</em>, say) and also a member of another set (e.g.&nbsp;of the powerset of <em>X</em>).</p>
 <hr>

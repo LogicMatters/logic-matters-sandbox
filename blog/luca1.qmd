@@ -39,7 +39,7 @@ There’s little to be gained, though, in spending more time wondering just how 
 
 <hr>
 
-Surely *one* essential thought here is that sets (in the sense which contrasts with classes) are themselves objects which can be collected together to form new sets. At the most basic, starting with Gottlob, Bertrand, and Kurt, we can form the two-membered sets {Gottlob, Bertrand} and {Bertrand, Kurt}; and from those two sets we can then form another two-membered set {{Gottlob, Bertrand}, {Bertrand, Kurt}}. Someone who hasn’t grasped that sets can straightforwardly be members of other sets arguably hasn't grasped the concept of set that we are after.
+Surely *one* essential thought here is that sets (in the sense which contrasts with classes) are themselves objects which can be collected together to form new sets. At the most basic, starting with Gottlob, Bertrand, and Kurt, we can form the two-membered sets {Gottlob, Bertrand} and {Bertrand, Kurt}; and from those two sets we can then form another two-membered set $\{\{Gottlob, Bertrand\}, \{Bertrand, Kurt\}\}$. Someone who hasn’t grasped that sets can straightforwardly be members of other sets arguably hasn't grasped the concept of set that we are after.
 
 Luca would agree, making the point particularly clearly when commenting on my earlier blog post. He wrote that to replace 'object' with a more colourless term like 'item' in Unity would "leave out an important aspect of Unity, which is precisely the one that serves to ensure that sets are the kinds of things that can themselves be collected together."
 
