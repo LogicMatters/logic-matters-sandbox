@@ -1,6 +1,7 @@
 ---
 title: "To begin at the beginning"
 date: "2006-03-09"
+description: "The very first blog post, from March 2006 (with a link to a talk about Gödel's incompleteness theorem which I gave to mathematics students)"
 ---
 
 *The blog began in 2006 (so in ancient history, before Covid, before the war in Ukraine, before Trump ...).*
