@@ -1,12 +1,13 @@
 ---
 title: "The Big Red Logic Books – last year, this year."
 date: "2026-01-01"
+description: "Self-publishing was exactly appropriate for the Big Red Logic Books. I am way past the stage of needing the brownie points that are gained by continuing conventional publication. The books are aimed at students, so why not make them available as widely as can be? — free to download as PDFs, for those happy to work from their screens, and at minimal-cost as print-on-demand paperbacks for the still significant number who (faced with a long text) prefer to work from a physical copy. But what plans for updating them?"
 ---
 
 
 <p>As I have said more than once before, self-publishing was exactly appropriate for the Big Red Logic Books. I am way past the stage of needing the brownie points that are gained by continuing conventional publication. The books are aimed at students, so why not make them available as widely as can be? — free to download as PDFs, for those happy to work from their screens, and at minimal-cost as print-on-demand paperbacks for the still significant number who (faced with a long text) prefer to work from a physical copy. What’s not to like?</p>
 
-
+s
 
 <p>How did downloads and sales go in 2025? The headline news is that downloads of PDFs significantly increased while sales of paperbacks were significantly down. I’m pleased enough by the former, and not at all surprised by the latter (if only because fewer and fewer students buy books quite generally, while more and more must surely arrive at university totally used to reading everything onscreen, and with better and better screens to work on too). <em>IFL</em> was the most often downloaded, but was closely followed by both the Study Guide and by <em>ICT</em>. 
 

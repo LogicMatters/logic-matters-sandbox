@@ -1,6 +1,7 @@
 ---
 title: "Two books to miss? Brandom and Bardi"
 date: "2026-01-04"
+description: "Two books I have been asked about. Robert Brandom's <em>Reasons for Logic, Logic for Reasons</em>, co-written with Ulf Hlobil. And Jason Socrates Bardi’s <em>The Great Math War: How Three Brilliant Minds Fought for the Foundations of Mathematics </em>about Russell, Hilbert and Brouwer. Oh dear ..."
 ---
 
 

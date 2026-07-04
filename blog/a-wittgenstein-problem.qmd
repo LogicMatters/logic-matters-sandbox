@@ -1,6 +1,7 @@
 ---
 title: "A Wittgenstein problem ..."
 date: "2026-02-18"
+description: "It is time at last to redecorate my small but now rather depressingly shabby study. And I'll need to take the opportunity to have another bash at the Book Problem. I really, really, need to sort out and pass on -- what? -- surely at least another couple of metres of books. I’d solve the problem almost in one fell swoop if I give away all the Wittgenstein books and the secondary literature, and the biographies, memoirs and reminiscences. Tempting! For really, what more can we extract, eighty or ninety years on, from the rambling, ignorant, inconsistent, half-baked thoughts about mathematics, scattered through the <em>Nachlass</em>? ..." 
 ---
 
 
