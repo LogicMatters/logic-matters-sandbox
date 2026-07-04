@@ -1,6 +1,7 @@
 ---
 title: "New Issue: Journal for the Philosophy of Mathematics"
 date: "2026-01-05"
+description: "A new issue of the journal -- and, quite unrelatedly, links to some wonderful performances by the fortepianist Els Biesemans."
 ---
 
 
