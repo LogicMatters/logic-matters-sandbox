@@ -1,6 +1,7 @@
 ---
 title: "Postcard from Ljubljana"
 date: "2026-06-22"
+description: "A quick postcard from the delightful Ljubljana."
 ---
 
 ![](../images/Ljubljana2.jpg)

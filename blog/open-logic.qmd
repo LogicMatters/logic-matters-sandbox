@@ -1,6 +1,7 @@
 ---
 title: "Book note: The Open Logic FOL texts"
 date: "2026-06-11"
+description: "I am thinking about recommendations for the Study Guide for readings on first-order logic, and it has been a while since I looked at the offering from the admirable Open Logic Project. So here's a draft of a new book note on the FOL coverage in Richard Zach's *Sets, Logic, Computation: An Open Introduction to Metalogic*."
 ---
 
 I am thinking about recommendations for the Study Guide for readings on first-order logic, and it has been a while since I looked at the offering from the admirable Open Logic Project. So here's a draft of a new book note. 

@@ -1,6 +1,7 @@
 ---
 title: "Apologies"
 date: "2026-06-12"
+description: "Apologies for two (relatively minor) glitches in moving the Logic Matters website to its new home."
 ---
 
 
