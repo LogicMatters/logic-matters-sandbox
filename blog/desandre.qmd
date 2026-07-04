@@ -1,6 +1,6 @@
 ---
 title: "Lea Desandre sings Handel"
-date: "2026-02-18"
+date: "2026-07-04"
 description: "On a very hot night, when it must have been hard to keep the gut strings in tune, a Wigmore Hall concert with the always wondrous Lea Desandre, Thomas Dunford and the Jupiter Ensemble singing and playing Handel" 
 ---
 

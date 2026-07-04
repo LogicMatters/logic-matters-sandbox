@@ -10,7 +10,24 @@
 <atom:link href="https://logicmatters.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Logic, philosophy of mathematics, and related topics.</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Wed, 01 Jul 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 03 Jul 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Lea Desandre sings Handel</title>
+  <link>https://logicmatters.net/blog/desandre.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>On a very hot night, when it must have been so hard to keep the gut strings in tune, a Wigmore Hall concert with the always wondrous Lea Desandre, Thomas Dunford and the Jupiter Ensemble singing and playing Handel.</p>
+<p><a href="https://www.wigmore-hall.org.uk/whats-on/202606241930">The direct link to the Wigmore site is here</a>, and the page also links to the programme details. If you haven’t done so before, you may need to register for free to see the video. It is a sheer delight.</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/desandre.html</guid>
+  <pubDate>Fri, 03 Jul 2026 23:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Incurvati’s Conceptions of Set, revisited</title>
   <link>https://logicmatters.net/blog/luca1.html</link>
@@ -766,31 +783,6 @@ But the stand-out book for me in the last months of winter was this year’s Dic
  ]]></description>
   <guid>https://logicmatters.net/blog/great-expectations.html</guid>
   <pubDate>Wed, 01 Apr 2026 23:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Since it is the Feast of the Annunciation …</title>
-  <link>https://logicmatters.net/blog/since-it-is-the-feast-of-the-annunciation.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><img src="https://logicmatters.net/images/Crivelli.png" class="img-fluid"></p>
-<p>
-Some of my very favourite paintings are Annunciations … the stunning Leonardo and Botticelli in the Uffizi, the lovely small painting from a predella by Domenico Veneziano close to home in the Fitzwilliam, the wonderful Filippo Lippi in the National Gallery. <br><br>But here instead is the rather strange but still very striking <em>Annunciation, with Saint Emidius</em>&nbsp;by Carlo Crivelli, also in the National Gallery.
-</p>
-<hr>
-<div class="hanging">
-<p><em>Rowsety Moid comments:</em> Carlo Crivelli’s Annunciation is one of my favourite paintings. There are many intriguing details, and the architecture reminds me of Escher.</p>
-<p>I like in general the way saints are often depicted together with something that represents an important element of their story, here with Saint Emidius holding a model of what’s presumably the town of Ascoli Piceno. Mary naturally has a book. In the National Gallery of Scotland, there’s a painting that includes Saint Catherine holding and pointing to a small wheel.</p>
-<p><a href="https://www.nationalgalleries.org/art-and-artists/5544">Vitale da Bologna (Vitale dAimo de Cavalli) The Adoration of the Magi</a></p>
-</div>
-
-
-
- ]]></description>
-  <guid>https://logicmatters.net/blog/since-it-is-the-feast-of-the-annunciation.html</guid>
-  <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -2,6 +2,7 @@
   {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/desandre.html",
       "/blog/luca1.html",
       "/blog/postcard-fron-ljubljana.html",
       "/blog/apologies.html",
@@ -24,7 +25,6 @@
       "/blog/since-it-is-the-feast-of-the-annunciation.html",
       "/blog/hoffmann-limits-of-mathematics.html",
       "/blog/godel-slowly.html",
-      "/blog/desandre.html",
       "/blog/a-wittgenstein-problem.html",
       "/blog/godel-lean-fra-angelico-schubert.html",
       "/blog/godels-theorems-and-logicisms-revisited.html",
