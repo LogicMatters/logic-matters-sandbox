@@ -1,6 +1,7 @@
 ---
 title: "Three books, no toast"
 date: "2026-04-10"
+description: "Very short, and unfriendly, booknotes on Robert André's <em>Set Theory: An Introduction to Axiomatic Reasoning</em>, on <em>Set Theory And Foundations Of Mathematics: An Introduction to Mathematical Logic. Volume I: Set Theory</em> by Cenzer et al., and on Davide Rizza’s <em>Model Theory: The Algebraic Basics</em>. Take away message? Don't bother."
 ---
 
 

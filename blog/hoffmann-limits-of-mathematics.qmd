@@ -1,6 +1,7 @@
 ---
 title: "Hoffmann, Limits of Mathematics"
 date: "2026-03-16"
+description: "In the last couple of years, Dirk Hoffmann has published English translations of two of his books which originally appeared in German. In 2024, he gave us <em>Gödel’s Incompleteness Theorems</em> (Springer). And then last year he published <em>Limits of Mathematics: A Journey Through the Key Areas of Mathematical Logic </em>(Springer), translating the third edition of his <em>Grenzen der Mathematik</em>. Spoiler: the Gödel book is much the better.  The more recent book, by contrast, is not to be recommended, as I explain in this post."
 ---
 
 

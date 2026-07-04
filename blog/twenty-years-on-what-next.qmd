@@ -1,12 +1,13 @@
 ---
 title: "Twenty years on, what next?"
 date: "2026-05-23"
+description: "The Logic Matters blog started on 9 March 2006. Bother! -- I missed its twentieth birthday. I do plan to continue with the blog and website. But I am going to experiment (initially in a local sandbox) with moving from having a WordPress site to using a Static Site Generator like Quarto, for reasons I explain in this post. Watch this space."
 ---
 
 
 <p>The Logic Matters blog started on 9 March 2006. Bother! -- I missed its twentieth birthday. Raise a belated glass, as that was a milestone of sorts.</p>
 
-<p>I do plan to continue with the blog and website. But I am going to experiment (initially in a local sandbox) with moving from having an expensively hosted WordPress site to using a Static Site Generator like Quarto for a site freely hosted on Github. Three reasons:</p>
+<p>I do plan to continue with the blog and website, maybe in a less active way. But I am going to experiment (initially in a local sandbox) with moving from having an expensively hosted WordPress site to using a Static Site Generator like Quarto for a site freely hosted on Github. Three reasons:</p>
 
 <ul class="wp-block-list">
 <li>As I say, expense. Hosting plus various paid WordPress plug-ins for security etc. costs in the region of £400 a year. This cost is only partially met by the small royalties I get from the Logic Matters books (the prices are set at the minimum possible, just rounded up, and I’d like to continue that student-friendly policy).  </li>
