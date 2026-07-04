@@ -1,5 +1,8 @@
 /* css styles */
 
+/* Hide description field from post body (it belongs in listing/meta only) */
+div.description { display: none; }
+
 .img-half {
   display: block;
   width: 425px;
