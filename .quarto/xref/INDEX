@@ -580,5 +580,8 @@
   },
   "blog/desandre.qmd": {
     "desandre.html": "bb704c55"
+  },
+  "blog/set-theoretic.qmd": {
+    "set-theoretic.html": "c5dd168a"
   }
 }

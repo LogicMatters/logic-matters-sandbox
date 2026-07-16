@@ -1,0 +1,15 @@
+---
+title: "Set theoretic troubles"
+date: "2026-07-16"
+description: "Warm recommendations for Luca Incurvati's book *Conceptions of Set and the Foundations of Mathematics* and for Tim Button's papers on Level Theory."
+---
+
+There have been considerable distractions ... 
+
+So I have had less time and inclination for logical matters in the last couple of weeks. And much less patience too. I did, for example, look at a recent Cambridge Elements on logic; but it struck me as really very badly written. I also, for example, found myself struggling though a couple of recent papers by an author I have admired; again, this ex-editor of *Analysis* would never have let them pass in their current state. No names, no pack drill: but rather depressing, actually. 
+
+But mainly, when I have been in a logical mood, I have been re-reading Luca Incurvati's  excellent  *Conceptions of Set and the Foundations of Mathematics* (CUP, 2020). I did have it in mind to rework some old blog posts on Luca's book. But the more I re-read those posts, and the more I re-read some of the rich surrounding literature, the more embarrassingly thin (and occasionally misguided) my efforts seemed. Also rather depressing, in a different way! So I will abandon that plan and just repeat the Study Guide's warm recommendation for Luca's book.
+
+Let me also recommend again a set-theoretic trilogy that I have just re-read. This is perhaps the most important recent work on the idea of the cumulative hierarchy of sets, [Tim Button's tour de force on what he calls Level Theory](https://arxiv.org/pdf/2103.06715) (bringing, it seems, to their ideal form set theories due to Scott, Montague, Derrick, and Potter -- the first paper, Level Theory Part I, is key). I have been trying to write some introductory notes on this, to make the pivotal concepts Tim defines (potentiation, history, level etc.) strike us as even more compellingly natural: but this is proving a bit more troublesome than I hoped -- reflecting on me, rather than Tim's achievement, I am sure. 
+
+... Must do better if I can, when I feel less distracted!

@@ -1,1 +1,1 @@
-Recent posts: [Postcard from Ljubljana](blog/postcard-fron-ljubljana.qmd) (22 June 2026), [Incurvati's *Conceptions of Set*, revisited](blog/luca1.qmd) (2 July 2026), [Lea Desandre sings Handel](blog/desandre.qmd) (4 July 2026)
+Recent posts: [Incurvati's *Conceptions of Set*, revisited](blog/luca1.qmd) (2 July 2026), [Lea Desandre sings Handel](blog/desandre.qmd) (4 July 2026), [Set theoretic troubles](blog/set-theoretic.qmd) (16 July 2026)
