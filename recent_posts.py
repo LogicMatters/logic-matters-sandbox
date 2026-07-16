@@ -31,7 +31,9 @@ for fname in os.listdir(blog_dir):
 
     date_m = re.search(r'^date:\s*"?(\d{4}-\d{2}-\d{2})"?', yaml_text, re.MULTILINE)
 
-    if title_m and date_m:
+    draft_m = re.search(r'^draft:\s*true', yaml_text, re.MULTILINE)
+
+    if title_m and date_m and not draft_m:
         posts.append({
             "title": title_m.group(1).strip().strip("'\""),
             "date": date_m.group(1),
