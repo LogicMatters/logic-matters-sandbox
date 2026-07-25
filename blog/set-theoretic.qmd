@@ -1,5 +1,5 @@
 ---
-title: "Set theoretic troubles"
+title: "Set-theoretic troubles"
 date: "2026-07-16"
 description: "Warm recommendations for Luca Incurvati's book *Conceptions of Set and the Foundations of Mathematics* and for Tim Button's papers on Level Theory."
 ---

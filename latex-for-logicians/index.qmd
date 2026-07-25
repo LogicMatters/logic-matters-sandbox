@@ -6,7 +6,9 @@ format:
     include-before-body: _lfl-nav.html
 ---
 
-These LaTeX for Logicians pages started life in 2004, before there was such a wealth of general material available online about LaTeX. Internet searches -- and AI assistants -- can now give all the information and help you could need. But perhaps there is still a small role for some pages assembling selected links to specific resources of particular interest to logicians using LaTeX. 
+The LaTeX for Logicians pages started life in 2004, before there was such a wealth of general material available online about LaTeX. Internet searches -- and AI assistants -- can now give all the information and help you could need. 
+
+But perhaps there is a residual small role for some pages assembling selected links to specific resources of particular interest to logicians using LaTeX. 
 
 - *[Logic symbols](symbols.qmd)*. Lists of available logic and other symbols.
 
