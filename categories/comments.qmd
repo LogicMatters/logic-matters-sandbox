@@ -8,9 +8,13 @@ Let me toot my own trumpet. There are some cheeringly nice remarks about the cat
 For example
 
 > “I think Peter Smith’s book on category theory … is probably the best introduction there is. It’s very carefully written (Smith is a logician), and Smith is very good at explaining what is actually going on.”
+>
 > “My favourite introduction to category theory is Peter Smith’s notes. They are *very* gentle, and Smith does a good job of highlighting conceptual and foundational issues without it detracting from the mathematics.”
+>
 > “By far the best place to start, I think, is Peter Smith’s category theory notes.”
+>
 > “If you do struggle with the category theory, I really recommend Peter Smith’s notes. Smith is a logician and philosopher, and he is really good at explicating the conceptual aspects of category theory, not just the technical parts.”
+>
 > “Smith’s notes are probably the best way to begin learning category theory.”
 
 There’s an Amazon review of the book version of Part I:
