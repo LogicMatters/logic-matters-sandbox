@@ -1,1 +1,1 @@
-Recent posts: [Postcard from Ljubljana](blog/postcard-fron-ljubljana.qmd) (22 June 2026), [Lea Desandre sings Handel](blog/desandre.qmd) (4 July 2026), [Set-theoretic troubles](blog/set-theoretic.qmd) (16 July 2026)
+Recent posts: [Lea Desandre sings Handel](blog/desandre.qmd) (4 July 2026), [Set-theoretic troubles](blog/set-theoretic.qmd) (16 July 2026), [BML: I need a plan ...](blog/need-BML-plan.qmd) (5 August 2026)

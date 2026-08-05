@@ -3,7 +3,7 @@ title: "A few comments on (precursors to) Introducing Category Theory"
 description: "Friendly remarks about early draft PDF versions of Introducing Category Theory."
 ---
 
-Let me toot my own trumpet. There are some cheeringly nice remarks about the category theory book (or at least about earlier draft PDF versions) out there in discussion forums, e.g. on Reddit. I’ll quote a few here, at least because they provide *some* evidence that the book could work for other readers.
+Let me toot my own trumpet. There are some cheeringly nice remarks about the category theory book (or at least about earlier draft PDF versions) out there in discussion forums, e.g. on Reddit. I’ll quote a few here, at least because they provide *some* evidence that the book could work for some other readers.
 
 For example
 

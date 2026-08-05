@@ -583,5 +583,11 @@
   },
   "blog/set-theoretic.qmd": {
     "set-theoretic.html": "c5dd168a"
+  },
+  "blog/need_a plan.qmd": {
+    "need_a plan.html": "5bf16ea7"
+  },
+  "blog/need-BML-plan.qmd": {
+    "need-BML-plan.html": "aa5783fa"
   }
 }
