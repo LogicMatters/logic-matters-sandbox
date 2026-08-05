@@ -6,11 +6,11 @@ description: "About plans for updating *Beginning Mathematical Logic*, and about
 
 A month full of distractions, fatigue, brain fog. Great. But it *has* made one thing clear. It wouldn't be wise for the time being to embark (or continue) on a large-scale project like a new edition of the Gödel book or of my intro logic text. 
 
-What I need are some relatively unchallenging small-scale projects. Such as revising some of the chapters of *Beginning Mathematical Logic* (which are largely independent of each other).
+What I need are some relatively unchallenging small-scale projects. Such as revising some of the individual chapters of *Beginning Mathematical Logic* (which are largely independent of each other).
 
-Since I moved Logic Matters to its new incarnation on GitHub Pages, I am getting much more helpful and reliable statistics; and the *BML* Study Guide is consistently revealed as the most downloaded PDF (shading the logic book). So updating chapters certainly won't be wasted effort, and needn't be too effortful. 
+Since I moved Logic Matters to its new incarnation on GitHub Pages, I am getting much more helpful and reliable statistics; and the *BML* Study Guide is consistently revealed as the most downloaded PDF (shading the logic book). So updating chapters certainly won't be wasted effort, and needn't be too effortful, tackled piecemeal.
 
-But how best to handle a rolling, chapter by occasional chapter, update of *BML*?  The cleanest plan, methinks, would be simply to withdraw the paperback once updates get going (reinstating it if and when the new version of the Guide settles again into a steady state). Then I can be relaxed about updating the PDF at intervals without worrying that work-in-progress stages have chapters of different dates/levels of polish (as long as the status of each chapter is clearly signalled).
+But how best to handle a rolling, chapter-by-occasional-chapter, update of *BML*?  The cleanest plan, methinks, would be simply to withdraw the paperback once updates get going (reinstating it if and when the new version of the Guide settles again into a steady state). Then I needn't try to keep paperback and on-line version in sync. And I can be more relaxed about updating the on-line PDF at intervals without worrying that work-in-progress stages have chapters of different dates/levels of polish (as long as the status of each chapter is clearly signalled).
 
 So that's a plan. Watch this space.
 
