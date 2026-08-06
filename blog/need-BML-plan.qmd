@@ -6,7 +6,7 @@ description: "About plans for updating *Beginning Mathematical Logic*, and about
 
 A month full of distractions, fatigue, brain fog. Great. But it *has* made one thing clear. It wouldn't be wise for the time being to embark (or continue) on a large-scale project like a new edition of the Gödel book or of my intro logic text. 
 
-What I need are some relatively unchallenging small-scale projects. Such as revising some of the individual chapters of *Beginning Mathematical Logic* (which are largely independent of each other).
+What I need are some relatively unchallenging small-scale projects as rival distractions. Such as revising some of the individual chapters of *Beginning Mathematical Logic* (which are largely independent of each other).
 
 Since I moved Logic Matters to its new incarnation on GitHub Pages, I am getting much more helpful and reliable statistics; and the *BML* Study Guide is consistently revealed as the most downloaded PDF (shading the logic book). So updating chapters certainly won't be wasted effort, and needn't be too effortful, tackled piecemeal.
 
