@@ -19,8 +19,8 @@ The links below are to a selection of freely (and legitimately!) available onlin
 Where to start? That must depend on your mathematical background, and one size won’t fit all. Here are three highlights among freely available books, which would I think be widely agreed to be excellent in their different ways:
 
 - Over the years, many have found the very accessible early chapters — say the first three, 74pp. — of Robert Goldblatt’s [Topoi](https://projecteuclid.org/euclid.bia/1403013939#toc-idx?c=math;idno=gold010) (originally published 1979, now a Dover pbk) a particularly helpful entry-point.
-- Then, a step up, Tom Leinster’s short [Basic Category Theory](https://arxiv.org/abs/1612.09375) (CUP 2014) is indeed basic and is rightly very well-regarded.
-- Emily Riehl’s [Category Theory in Context](https://emilyriehl.github.io/files/context.pdf) (Dover 2017) is more challenging, in part because it assumes rather more mathematical background, but is also outstanding.
+- Then, a significant step up, Tom Leinster’s short [Basic Category Theory](https://arxiv.org/abs/1612.09375) (CUP 2014) is indeed basic and is rightly very well-regarded.
+- Emily Riehl’s [Category Theory in Context](https://emilyriehl.github.io/files/context.pdf) (Dover 2017) is more challenging again, in part because it assumes rather more mathematical background, but is also outstanding.
 
 
 ## Another gentle introduction {#gentle}
