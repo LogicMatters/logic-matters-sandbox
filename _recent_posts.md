@@ -1,1 +1,1 @@
-Recent posts: [Lea Desandre sings Handel](blog/desandre.qmd) (4 July 2026), [Set-theoretic troubles](blog/set-theoretic.qmd) (16 July 2026), [BML: I need a plan ...](blog/need-BML-plan.qmd) (5 August 2026)
+Recent posts: [Set-theoretic troubles](blog/set-theoretic.qmd) (16 July 2026), [BML: I need a plan ...](blog/need-BML-plan.qmd) (5 August 2026), [A new chapter of recommended readings on FOL](blog/fol.qmd) (13 August 2026)

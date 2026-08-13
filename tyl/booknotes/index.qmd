@@ -30,7 +30,7 @@ Over the years, I have written more than a hundred short notes (or occasionally 
 20. [Marker, _An Invitation to Mathematical Logic_, 2024.](marker-an-invitation-to-mathematical-logic.qmd)
 21. [Mendelson, _Introduction to Mathematical Logic_, 1964, 2015.](Mendelson.qmd)
 22. [Mileti, _Modern Mathematical Logic_, 2023.](mileti-modern-mathematical-logic.qmd)
-23. [O’Leary, _A First Course in Mathematical Logic and Set Theory_, 2016.](oleary-a-first-course-in-mathematical-logic-and-set-theory.qmd)
+23. [O’Leary, _A First Course in Mathematical Logic and Set Theory_, 2016.](oleary-a-first-course.qmd)
 24. [Prestel & Delzell, _Mathematical Logic and Model Theory_, 1986, 2011.](prestelldelzell.qmd)
 25. [Rautenberg, _A Concise Introduction to Mathematical Logic_, 1995, 2010.](rautenberg-a-concise-introduction-to-mathematical-logic.qmd)
 26. [Robbin, _Mathematical Logic: A First Course_, 1969.](robbin.qmd)

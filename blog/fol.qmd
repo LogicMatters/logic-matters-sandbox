@@ -1,0 +1,9 @@
+---
+title: "A new chapter of recommended readings on FOL"
+date: "2026-08-13"
+description: "As announced, I am beginning to revise the 2022 *Beginning Mathematical Logic*. Here is the first updated chapter, of recommended (and not-so-recommended) readings on standard First Order Logic." 
+---
+
+As announced, I am beginning to revise the 2022 *Beginning Mathematical Logic*. Here is the first updated chapter, of recommended (and not-so-recommended) [readings on standard First Order Logic](../tyl/pdfs/FOL.pdf).
+
+All comments, corrections, suggestions will of course be very welcome.

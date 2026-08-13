@@ -6,22 +6,26 @@ title: "The Study Guide and Book Notes"
 
 A re-titled, expanded version of my old *Teach Yourself Logic* notes, this is a book length Study Guide to the main topics and some suitable texts either for teaching yourself logic by individual self-study, or to supplement a university course. You only need to read just the first half-dozen pages to see if this is for you.
 
-- [Beginning Mathematical Logic: A Study Guide](pdfs/LogicStudyGuide.pdf) _"Beginning Mathematical Logic: A Study Guide"_ [corrected reprint 5 Jan 2024]
+- [Beginning Mathematical Logic: A Study Guide](pdfs/LogicStudyGuide.pdf) _"Beginning Mathematical Logic: A Study Guide"_ [2022 Version]
 
-The *Guide* is also available as a very inexpensive paperback, about the price of a couple of coffees, but only direct from Amazon (sorry!) as this minimizes the price for you: ISBN 1916906338.
+The 2022 *Guide* is also available as a very inexpensive paperback, about the price of a couple of coffees, but only direct from Amazon (sorry!) as this minimizes the price for you: ISBN 1916906338.
 
-- [Corrections to early 2022 printed version.](pdfs/Corrections_BML.pdf)
+- [Corrections to 2022 printed version.](pdfs/Corrections_BML.pdf)
+
+I am now just beginning working on a 2026  updated version of the *Guide*. So far there is just one revised chapter:
+
+- [New chapter of recommended readings on FOL](pdfs/FOL.pdf)
 
 In addition there is an Appendix to the Guide saying more about some Big Books on mathematical logic:
 
 - [Appendix to the Guide](pdfs/Appendix.pdf) (a 79 page PDF, discussing 30 books).
-- [Book Notes](/tyl/booknotes/) (a page of links to separate webpages on some 76 books, including those covered in the Appendix)
+
 
 ### A little more about the Study Guide and its Appendix
 
 Most philosophy departments, and many maths departments too, teach little or no serious logic, despite the centrality of the subject. Many students will therefore need to teach themselves, either solo or by organizing study groups. But what to read? Students need annotated reading lists for self-study, giving advice about the available texts. In around 2012, I started the *Teach Yourself Logic* Study Guide, which aimed to provide the needed advice by suggesting some stand-out books on various areas of mathematical logic. NB: it covered *mathematical* logic — so we are working a step up from what’s rudely called “baby logic” (that philosophers may encounter in their first year courses).
 
-The Guide has now been radically rewritten. After a couple of preliminary chapters, Chapters 3 to 9 introduce core topics from the mathematical logic curriculum, and suggest suitable entry-level reading. Chapters 10 and 11 broaden the scope just a bit. And then there is a final Chapter 12 pointing to more advanced texts on the core topics.
+The 2022 *Guide* has now been radically rewritten. After a couple of preliminary chapters, Chapters 3 to 9 introduce core topics from the mathematical logic curriculum, and suggest suitable entry-level reading. Chapters 10 and 11 broaden the scope just a bit. And then there is a final Chapter 12 pointing to more advanced texts on the core topics.
 
 Mathematical logic is indeed a big subject, and different people have different backgrounds and/or requirements. So you’ll want detailed advice from which you can work out which books on which areas might be suitable for you. That’s why the Guide is so long. But there are a lot of pointers to help you find your way around.
 
@@ -29,4 +33,8 @@ The recommendations in the *Guide* are organised topic by topic. The *Appendix* 
 
 ### The Book Notes
 
-The same reviews in the *Appendix* can also be found as separate webpages in linked to [this page of Book Notes](/tyl/booknotes/), which also links to comments/reviews about some forty(!) more books on logic and the philosophy of mathematics. These range from half-pages to (in one case) a 52 page essay. Most are a useful two or three pages!
+The same reviews in the *Appendix* can also be found as separate webpages linked to 
+
+- [Book Notes](/tyl/booknotes/) (a page of links to separate webpages on some 81 books, including those covered in the Appendix)
+
+These webpages range from half-pages to (in one case) a 52 page essay. Most are a useful two or three pages!

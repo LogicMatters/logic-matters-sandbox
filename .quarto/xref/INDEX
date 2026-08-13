@@ -589,5 +589,14 @@
   },
   "blog/need-BML-plan.qmd": {
     "need-BML-plan.html": "aa5783fa"
+  },
+  "tyl/booknotes/oleary-a-first-course.qmd": {
+    "oleary-a-first-course.html": "94dbe634"
+  },
+  "tyl/booknotes/mendelson.qmd": {
+    "mendelson.html": "bb40a70b"
+  },
+  "blog/fol.qmd": {
+    "fol.html": "d6cfb6d8"
   }
 }
