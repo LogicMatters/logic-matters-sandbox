@@ -12,7 +12,7 @@ The 2022 *Guide* is also available as a very inexpensive paperback, about the pr
 
 - [Corrections to 2022 printed version.](pdfs/Corrections_BML.pdf)
 
-I am now just beginning working on a 2026  updated version of the *Guide*. So far there is just one revised chapter:
+I am now starting to work on a 2026  updated version of the *Guide*. So far there is just one revised chapter:
 
 - [New chapter of recommended readings on FOL](pdfs/FOL.pdf)
 

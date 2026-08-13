@@ -4,7 +4,7 @@ title: "Avigad’s MLC: The full story …"
 
 <img src="covers/51P08fnxeL-214x300.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;">
 
-I have at last returned to finish reading Jeremy Avigad’s *Mathematical Logic and Computation*, which was published last year by CUP. Here, now put together into one post, are some thoughts about the book (increasingly less per chapter, as I came to realise that — despite Avigad’s intentions and despite the many virtues of the book — this isn’t really a book for beginners, and so it won’t in the end feature largely in main part of the *Beginning Mathematical Logic* Study Guide).
+I have at last returned to finish reading Jeremy Avigad’s *Mathematical Logic and Computation*, which was published last year by CUP. Here, now put together into one post, are some thoughts about the book (increasingly less per chapter, as I came to realise that — despite Avigad’s intentions and despite the many virtues of the book — this isn’t really a book for beginners, and so it won’t in the end feature largely in the main part of the *Beginning Mathematical Logic* Study Guide).
 
 ---
 
@@ -13,12 +13,17 @@ The first seven chapters, some 190 pages, form a book within the book, on core F
 To get down to details. Chapter 1 of *MLC* is on “Fundamentals”, aiming to “develop a foundation for reasoning about syntax”. So we get the usual kinds of definitions of inductively defined sets, structural recursion, definitions of trees, etc. and applications of the abstract machinery to defining the terms and formulas of FOL languages, proving unique parsing, etc., but all done in a quite hard-core way. But as Avigad notes, the reader can skim and skip and return to the details later on a need-to-know basis.
 
 But there is one stand-out decision that is perhaps worth commenting on. Take the two expressions $\forall xFx$ and $\forall yFy.$ The choice of bound variable is of course arbitrary. It seems we have two choices here:
-- Just live with the arbitrariness. Allow such expressions as distinct formulas, but prove that  formulas like these which are can be turned into each other by the renaming of bound variables (formulas which are $\alpha$-equivalent, as they say) are always interderivable, are logically equivalent too.
+
+- Just live with the arbitrariness. Allowquarto such expressions as distinct formulas, but prove that  formulas like these which are can be turned into each other by the renaming of bound variables (formulas which are $\alpha$-equivalent, as they say) are always interderivable, are logically equivalent too.
+
 - Say that formulas proper are what we get by quotienting expressions by $\alpha$-equivalence, and lift our first-shot definitions of e.g. wellformedness for expressions of FOL to become definitions of wellformedness for the more abstract formulas proper of FOL.
 
 Now, as Avigad says, there is in the end not much difference between these two options; but he plumps for the second option, and for a reason. The thought is this. If we work at expression level, we will need a story about allowable substitutions of terms for variables that blocks unwanted variable-capture. And it is suggested there are three ways of doing this, none of which is entirely free from trouble according to him.
+
 - Distinguish free from bound occurrences of variables, define what it is for a term to be free for a variable, and only allow a term to be substituted when it is free to be substituted. Trouble: “involves inserting qualiﬁcations everywhere and checking that they are maintained.”
+
 - Modify the definition of substitution so that bound variables first get renamed as needed — so that the result of substituting $y + 1$ for $x$ in $\exists y(y > x)$ is something like $\exists z(z > y + 1)$. Trouble: “Even though we can ﬁx a recipe for executing the renaming, the choice is somewhat arbitrary. Moreover, because of the renamings, statements we make about substitutions will generally hold only up to $\alpha$-equivalence, cluttering up our statements.”
+
 - Maintain separate stocks of free and bound variables, so that the problem never arises. Trouble: “Requires us to rename a variable whenever we wish to apply a binder.”
 
 But the supposed trouble counting against the third option is, by my lights, no trouble at all. Why so?
@@ -120,49 +125,14 @@ Ch. 16 is on subsystems of second-order arithmetic. And of course, I’m all for
 
 Finally, *MLC* has a concluding chapter on “Foundations” — a very speedy 16 page tour through simple type theory, set theory, dependent type theory and more. This sits rather oddly with what’s gone before.
 
-I have kept remarking on the differences in level (sometimes quite radical) between different chapters, and quite often between sections within a chapter. They do make me wonder. Does this book in fact have a number of different archaeological layers, with different parts having their ultimate origins in handouts for differently paced, different level courses? I wonder! It certainly makes, as I said before, for an uneven ride. But there is, for all that, a great deal of highly interesting material here in *MLC*: you’ll just need to be primed to a suitable level (different for different episodes) to really appreciate it.← Previous PostNext Post → 3 comments:
-- **Philippe Eyssidieux** April 20, 2025 at 2:22 pm
+I have kept remarking on the differences in level (sometimes quite radical) between different chapters, and quite often between sections within a chapter. They do make me wonder. Does this book in fact have a number of different archaeological layers, with different parts having their ultimate origins in handouts for differently paced, different level courses? I wonder! It certainly makes, as I said before, for an uneven ride. But there is, for all that, a great deal of highly interesting material here in *MLC*: you’ll just need to be primed to a suitable level (different for different episodes) to really appreciate it.
+
+<hr>
+
+::: {.hanging}
+
+*Philippe Eyssidieux comments*:
 
 I am reading this very good book. You’re right, it is way too hard for beginners.
 
-It is a terrible mistake to give a first course on logic featuring natural deduction, and even sequent calculi, for minimal, intuitionnistic and classical Fol.
-
-My daughter, who is majoring in philosophy and knows no mathematics beyond the elementary level, had to follow such a course this year and was utterly disgusted. It seems that every student in her class was. She would have benefited much more from a simple-minded course approaching  classical Fol semantically finishing with just enough proof theory to state without proof Gödel’s completeness theorem.  And perhaps the first incompleteness theorems. Reply
-- **Emanuele** November 3, 2025 at 12:37 am
-
-Hi Professor Smith** I noticed that this book is nowhere recommend in the proof theory section of your guide.** Since its proof theorical approach and, even if its not really beginning level, i was wondering if you recommend this book to a mathematical minded student interested in proof theory and, if so, where to place this reads respect the others cited in your guide (IPL and structural proof theory).** Thank you for your work.** Best regards Reply
-- **Peter Smith** November 3, 2025 at 10:03 pm
-
-Avigad’s book is not recommended in the current edition of the Guide because it was published after that edition was finalised. But it will certainly get mentioned and recommended in the next edition — though I’d need to take another look at the book to decide where it best fits in with other readings. If I remember it rightly, is perhaps a little more challenging than the early chapters of IPL and of Negri & von Plato. Reply
-
-Leave a Comment Cancel Reply
-
-Your email address will not be published. Required fields are marked *Type here. You can use *italics* and **bold**. To use LaTeX, start your comment with the shortcode [latexpage].
-
- Name* *
-
- Email* *
-
- Website *
-
-* Save my name, email, and website in this browser for the next time I comment.
-
-* * *
-
-*
-
-Δ* SubscribeGet email notifications ** RSS feedSocial networksFollow on Mastodon ** Follow on BlueskyRecent comments
-- Daniel M Gessel on On the mathematical abilities of LLMs
-- Rowsety Moid on On the mathematical abilities of LLMs
-- Rowsety Moid on Proof-reading, with a bit of help from LLMs
-- Márcio Palmares on On the mathematical abilities of LLMs
-- Daniel M Gessel on On the mathematical abilities of LLMs
-- Rowsety Moid on Great expectations
-- Peter Smith on Another categorical update
-- Rowsety Moid on Another categorical update
-- Nico Formánek on Categorical update
-- Peter Smith on Categorical update
-
-Site newsMay 17. Revised PDF of *ICT* uploaded. New paperback available.
-
- May 15. Corrections page for first printing of *ICT * further expanded.
+:::
