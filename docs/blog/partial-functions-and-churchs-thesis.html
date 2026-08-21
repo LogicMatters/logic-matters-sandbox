@@ -82,6 +82,35 @@ gtag('js', new Date());
 gtag('config', 'G-NJWC5RLRWV', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -189,7 +218,7 @@ Alex Oliver and Tim Smiley’s magnum opus <em>Plural Logic</em> runs to some 34
 So perhaps not many have read the discussion on p.&nbsp;324 in which O&amp;S argue that “a proper understanding of partial functions shows that the supposedly ‘easy part’ of Church’s Thesis is wrong”. They aim, then, to cast doubt on the standard claim that partial recursive functions (in the technical sense) are effectively, algorithmically, computable (in an intuitive, informal, sense). I am unpersuaded.
 </p>
 <p>
-To start from their own example, suppose we have effectively Gödel-numbered the formulas of our favourite version of the predicate calculus. Consider two functions from [katex][/katex] to {0, 1}. First, <em>g(x)</em> is defined to equal 1 if <em>x</em> numbers a theorem, and to equal 0 otherwise. Second, <em>h(x)</em> is defined to equal 1 if <em>x</em> numbers a theorem, and is undefined otherwise. Uncontentiously, the total function <em>g</em> is not recursive (as shown by Church and Turing). While the partial function <em>h</em> is partial recursive (for example, there is a Turing machine which given input <em>x</em>, churns way to enumerate the Gödel-numbers of theorems, halting with output 1 if and only if<em>x</em> turns up in the enumeration).
+To start from their own example, suppose we have effectively Gödel-numbered the formulas of our favourite version of the predicate calculus. Consider two functions from <span class="math inline">\(\mathbb{N}\)</span> to {0, 1}. First, <em>g(x)</em> is defined to equal 1 if <em>x</em> numbers a theorem, and to equal 0 otherwise. Second, <em>h(x)</em> is defined to equal 1 if <em>x</em> numbers a theorem, and is undefined otherwise. Uncontentiously, the total function <em>g</em> is not recursive (as shown by Church and Turing). While the partial function <em>h</em> is partial recursive (for example, there is a Turing machine which given input <em>x</em>, churns way to enumerate the Gödel-numbers of theorems, halting with output 1 if and only if<em>x</em> turns up in the enumeration).
 </p>
 <p>
 Now, O&amp;S note that by Church’s Thesis <em>h</em>, being partial recursive, is therefore algorithmic computable. But they continue:
@@ -203,10 +232,10 @@ To our minds, this cannot be right. There cannot be an algorithm for computing <
 This is the first time in the book that O&amp;S talk about algorithms, and they don’t explicitly tell us what they mean by a “partial algorithm”. And standard accounts of the informal notion of an algorithm like the one at the beginning of Hartley Rogers’s classic book don’t help.
 </p>
 <p>
-I suppose that one natural idea of a partial algorithm (but not O&amp;S’s) would be illustrated by an algorithm which along the way says “Goto line 101” although there is no line 101: so in executing this partial algorithm we grind to a halt, not by gracefully executing a line such as “101: Halt!”, but by running out of instructions. But note that the Turing machine routine which we just imagined for computing <em>h</em> doesn’t implement a partial algorithm in <em>that</em> sense. Here the algorithm tells us what to do at every step – we are to keep on enumerating the Gödel-numbers of theorems until we get a match. We never run out of instructions, though in the case where <em>x</em> numbers a non-theorem the execution doesn’t terminate.
+I suppose that one natural idea of a partial algorithm (but not O&amp;S’s) would be illustrated by an algorithm which along the way says “Goto line 101” although there is no line 101: so in executing this partial algorithm we can sometimes grind to a halt, not by running out of instructions. But note that the Turing machine routine which we just imagined for computing <em>h</em> doesn’t implement a partial algorithm in <em>that</em> sense. Here the algorithm tells us what to do at every step – we are to keep on enumerating the Gödel-numbers of theorems until we get a match. We never run out of instructions, though in the case where <em>x</em> numbers a non-theorem the execution doesn’t terminate.
 </p>
 <p>
-O&amp;S regard the sketched algorithm as a partial algorithm for computing <em>h</em> in another sense. For they think of an algorithmic computation for <em>h</em>, properly so called, as one which for each <em>x</em> either delivers the output 1 or tells us that it “has no value (however that may be encoded)”. More generally, they stipulate that an algorithm for a partial function [katex]f [/katex] should answer the question ‘what is <em>f(x</em>)’ for every <em>x</em>, by either giving us the value of <em>f(x)</em> when that is defined or else telling us that <em>f(x)</em> has no value. Emphatically: “We say that if the function has no value, an adequate algorithm should always say so.” By that standard, our Turing machine routine for computing <em>h</em> isn’t “adequate”, it doesn’t deliver the full goods, and only implements a partial algorithm in the sense that it gives the value of <em>h(x)</em> when it has one but otherwise falls short by remaining silent in the other cases when <em>h(x)</em> is undefined.<br><br>Say that a c-algorithm (“c” for conventional) for computing a partial function <em>f</em> is one which returns the (correct!) value of <em>f(x) </em>whenever that is defined and is otherwise remains silent; while a n-algorithm (“n” for non-partial according to O&amp;S) for computing a partial function <em>f</em> returns the value of <em>f(x) </em>whenever that is defined and returns “undefined” otherwise. We know that a c-algorithm for a partial function can’t always be upgraded to n-algorithm. This is in fact a standard result – there’s a related result in my Gödel book, and O&amp;S have given us another example, by noting that there is an c-algorithm for computing <em>h</em> but there can’t be an n-algorithm for computing <em>h</em> (or else we could turn it into a c-algorithm for computing the total function <em>g</em>, which there can’t be). So yes, there can be partial recursive functions which aren’t computable by an “adequate” n-algorithm.
+O&amp;S regard the sketched algorithm as a partial algorithm for computing <em>h</em> in another sense. For they think of an algorithmic computation for <em>h</em>, properly so called, as one which for each <em>x</em> either delivers the output 1 or tells us that it “has no value (however that may be encoded)”. More generally, they stipulate that an algorithm for a partial function $f $ should answer the question ‘what is <em>f(x)</em>’ for every <em>x</em>, by either giving us the value of <em>f(x)</em> when that is defined or else telling us that <em>f(x)</em> has no value. Emphatically: “We say that if the function has no value, an adequate algorithm should always say so.” By that standard, our Turing machine routine for computing <em>h</em> isn’t “adequate”, it doesn’t deliver the full goods, and only implements a partial algorithm in the sense that it gives the value of <em>h(x)</em> when it has one but otherwise falls short by remaining silent in the other cases when <em>h(x)</em> is undefined.<br><br>Say that a c-algorithm (“c” for conventional) for computing a partial function <em>f</em> is one which returns the (correct!) value of <em>f(x) </em>whenever that is defined and is otherwise remains silent; while a n-algorithm (“n” for non-partial according to O&amp;S) for computing a partial function <em>f</em> returns the value of <em>f(x) </em>whenever that is defined and returns “undefined” otherwise. We know that a c-algorithm for a partial function can’t always be upgraded to n-algorithm. This is in fact a standard result – there’s a related result in my Gödel book, and O&amp;S have given us another example, by noting that there is an c-algorithm for computing <em>h</em> but there can’t be an n-algorithm for computing <em>h</em> (or else we could turn it into a c-algorithm for computing the total function <em>g</em>, which there can’t be). So yes, there can be partial recursive functions which aren’t computable by an “adequate” n-algorithm.
 </p>
 <p>
 But so what? Why fuss? There is only some reason to suppose that we’ve found a flaw in Church’s Thesis that a partial recursive function is effectively computable by an algorithm if that Thesis is implicitly understood as a claim about computability by an n-algorithm, i.e.&nbsp;by a mechanical procedure which always terminates (either with a value for the computed function or a report that there isn’t a value). But is the Thesis understood that way?<br><br>O&amp;S quote as typical Alan Hamilton’s remark “It is reasonable to say that a partial function is computable by algorithm if there is an algorithm which yields the value of the function whenever it is defined”, and they respond that such authors “confuse a partial algorithm with an algorithm for a partial function”. But to talk of <em>confusion</em> is only fair comment if these authors should be assuming that execution of a genuine algorithm for a partial function must always terminate (either giving us a value or reporting that no value is to be had).
@@ -221,8 +250,6 @@ Gödel points out that the precise notion of mechanical procedures is brought ou
 </blockquote>
 <p>
 I’ll buy this: in so far as there is a widely-shared, intuitive, informally explicated, idea of an algorithmic procedure, it is by now <em>not</em> built in the very notion of such a procedure that it should always deliver an answer (a value or a “no value” output). It is nice, no doubt, when an n-algorithm is available; but the now-embedded-because-more-useful notion is that of a c-algorithm, and I don’t think authors are typically confused about this. Church’s Thesis doesn’t go wrong in claiming that partial recursive functions are algorithmically computable in that conventional sense.
-</p>
-<p>
 </p>
 
 
