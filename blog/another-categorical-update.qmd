@@ -1,7 +1,7 @@
 ---
 title: "Another categorical update"
 date: "2026-05-07"
-description: "On another corrected update of *ICT*, with thanka to Claude and Gemmini."
+description: "On another corrected update of *ICT*, with thanks to Claude and Gemmini."
 ---
 
 

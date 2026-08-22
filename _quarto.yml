@@ -5,6 +5,7 @@ project:
   post-render: write_config.py
   resources:
     - CNAME
+    - post-nav.js
 
 website:
   description: "Logic, philosophy of mathematics, and related topics."
@@ -36,4 +37,5 @@ format:
     mainfont: "STIX Two Text, serif"
     fontsize: 1.15em
     css: styles.css
+    include-after-body: _post-nav.html
 
