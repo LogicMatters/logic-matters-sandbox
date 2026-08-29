@@ -1,0 +1,9 @@
+---
+title: "*BML* on computable functions, formal arithmetic, and Gödel's theorems"
+date: "2026-08-29"
+description: "As announced, I am beginning to revise the 2022 *Beginning Mathematical Logic*. Here is the second updated chapter. There are brisk overviews on computable functions, formal arithmetic, and Gödel's theorems, following by recommended readings."
+---
+
+As announced, I am beginning to revise the 2022 *Beginning Mathematical Logic*. Here is the second  updated chapter: [on computable functions, formal arithmetics, and Gödel's theorems](../tyl/pdfs/Arithcomp.pdf). There are brisk overviews of our interrelated topics, following by reading lists (five main recommendations, and then a short list of possible parallel/further reading).
+
+All comments, corrections, suggestions will of course be very welcome.

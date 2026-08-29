@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-08-29">
+<meta name="description" content="As announced, I am beginning to revise the 2022 Beginning Mathematical Logic. Here is the second updated chapter. There are brisk overviews on computable functions, formal arithmetic, and Gödel’s theorems, following by recommended readings.">
 
-<title>Logic Matters</title>
+<title>BML on computable functions, formal arithmetic, and Gödel’s theorems – Logic Matters</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +28,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-95449aacf37e771314470083f52a962e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-95449aacf37e771314470083f52a962e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,7 +83,7 @@ gtag('config', 'G-NJWC5RLRWV', { 'anonymize_ip': true});
 </script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -91,7 +93,7 @@ gtag('config', 'G-NJWC5RLRWV', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Logic Matters</span>
     </a>
   </div>
@@ -102,37 +104,37 @@ gtag('config', 'G-NJWC5RLRWV', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./blog/index.html"> 
+    <a class="nav-link" href="../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./ifl/index.html"> 
+    <a class="nav-link" href="../ifl/index.html"> 
 <span class="menu-text">IFL</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./igt/index.html"> 
+    <a class="nav-link" href="../igt/index.html"> 
 <span class="menu-text">Gödel</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./categories/index.html"> 
+    <a class="nav-link" href="../categories/index.html"> 
 <span class="menu-text">Categories</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tyl/index.html"> 
+    <a class="nav-link" href="../tyl/index.html"> 
 <span class="menu-text">Guide</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./archive/index.html"> 
+    <a class="nav-link" href="../archive/index.html"> 
 <span class="menu-text">Archive</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./latex-for-logicians/index.html"> 
+    <a class="nav-link" href="../latex-for-logicians/index.html"> 
 <span class="menu-text">LaTeX</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -148,9 +150,47 @@ gtag('config', 'G-NJWC5RLRWV', { 'anonymize_ip': true});
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><em>BML</em> on computable functions, formal arithmetic, and Gödel’s theorems</h1>
+</div>
+
+<div>
+  <div class="description">
+    As announced, I am beginning to revise the 2022 <em>Beginning Mathematical Logic</em>. Here is the second updated chapter. There are brisk overviews on computable functions, formal arithmetic, and Gödel’s theorems, following by recommended readings.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 29, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>As announced, I am beginning to revise the 2022 <em>Beginning Mathematical Logic</em>. Here is the second updated chapter: <a href="../tyl/pdfs/Arithcomp.pdf">on computable functions, formal arithmetics, and Gödel’s theorems</a>. There are brisk overviews of our interrelated topics, following by reading lists (five main recommendations, and then a short list of possible parallel/further reading).</p>
+<p>All comments, corrections, suggestions will of course be very welcome.</p>
+
+
+
+</main> <!-- /main -->
+<script src="../post-nav.js"></script>
 <div id="site-nav">
-<p><a href="./blog/index.html">BLOG</a>&nbsp;·&nbsp;<a href="./ifl/index.html">IFL</a>&nbsp;·&nbsp;<a href="./igt/index.html">GÖDEL</a>&nbsp;·&nbsp;<a href="./categories/index.html">CATEGORIES</a>&nbsp;·&nbsp;<a href="./tyl/index.html">STUDY GUIDE</a>&nbsp;·&nbsp;<a href="./archive/index.html">ARCHIVE</a>&nbsp;·&nbsp;<a href="./latex-for-logicians/index.html">LaTeX</a></p>
+<p><a href="../blog/index.html">BLOG</a>&nbsp;·&nbsp;<a href="../ifl/index.html">IFL</a>&nbsp;·&nbsp;<a href="../igt/index.html">GÖDEL</a>&nbsp;·&nbsp;<a href="../categories/index.html">CATEGORIES</a>&nbsp;·&nbsp;<a href="../tyl/index.html">STUDY GUIDE</a>&nbsp;·&nbsp;<a href="../archive/index.html">ARCHIVE</a>&nbsp;·&nbsp;<a href="../latex-for-logicians/index.html">LaTeX</a></p>
 </div>
 <script>
 window.addEventListener('load', function () {
@@ -161,28 +201,9 @@ window.addEventListener('load', function () {
   }
 });
 </script>
-
-
-
-
-<p><a href="blog"><strong>LOGIC MATTERS BLOG</strong></a> Peter Smith’s occasional blog posts on logic, music, and other enthusiasms.</p>
-<p>Recent posts: <a href="./blog/fol.html">A new chapter of recommended readings on FOL</a> (13 August 2026), <a href="./blog/aug26_varia.html">Shostakovich on Sunday</a> (23 August 2026), <a href="./blog/arithcomp.html"><em>BML</em> on computable functions, formal arithmetic, and Gödel’s theorems</a> (29 August 2026)</p>
-<hr>
-<p><a href="books"><strong>THE FIVE BIG RED LOGIC BOOKS</strong></a> The headline news — they are open access.</p>
-<p><a href="ifl"><strong>INTRO TO FORMAL LOGIC</strong></a> A corrected version of the second edition of <em>An Introduction to Formal Logic</em> is freely available here. There are also links to answers to exercises and to various supplementary materials.</p>
-<p><a href="igt"><strong>GÖDEL’S THEOREMS</strong></a> Two books are freely available here, <em>An Introduction to Gödel’s Theorems</em> and the much shorter <em>Gödel Without (Too Many) Tears</em>, along with related materials.</p>
-<p><a href="categories"><strong>CATEGORY THEORY</strong></a> Links to resources at an introductory/intermediate level, such as lecture notes and freely available books, including my <em>Introducing Category Theory</em>.</p>
-<p><a href="tyl"><strong>THE STUDY GUIDE AND BOOK NOTES</strong></a> You will find here the much-downloaded <em>Beginning Mathematical Logic: A Study Guide</em>, its <em>Appendix</em> reviewing some of the wider-ranging books on mathematical logic, together with links to some forty further book notes.</p>
-<p><a href="archive"><strong>ARCHIVE</strong></a> Links to various old blog posts, papers, more reviews and other pieces.</p>
-<p><a href="latex-for-logicians"><strong>LaTeX FOR LOGICIANS</strong></a> Pages pointing to a wide range of resources of interest to logicians, philosophers and others using LaTeX.</p>
-<div class="small text-muted fst-italic">
-<p><em>Site updated: August 29 @ 15.50</em></p>
+<div id="site-footer">
+<p class="small text-muted fst-italic">Send comments via <a href="https://mathstodon.xyz/@PeterSmith" target="_blank" rel="noopener noreferrer">Mastodon</a> or email ps [at] logicmatters [dot] net</p>
 </div>
-
-
-
-</main> <!-- /main -->
-<script src="./post-nav.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

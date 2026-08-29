@@ -1,1 +1,1 @@
-Recent posts: [BML: I need a plan ...](blog/need-BML-plan.qmd) (5 August 2026), [A new chapter of recommended readings on FOL](blog/fol.qmd) (13 August 2026), [Shostakovich on Sunday](blog/aug26_varia.qmd) (23 August 2026)
+Recent posts: [A new chapter of recommended readings on FOL](blog/fol.qmd) (13 August 2026), [Shostakovich on Sunday](blog/aug26_varia.qmd) (23 August 2026), [*BML* on computable functions, formal arithmetic, and Gödel's theorems](blog/arithcomp.qmd) (29 August 2026)

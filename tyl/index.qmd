@@ -12,9 +12,11 @@ The 2022 *Guide* is also available as a very inexpensive paperback, about the pr
 
 - [Corrections to 2022 printed version.](pdfs/Corrections_BML.pdf)
 
-I am now starting to work on a 2026  updated version of the *Guide*. So far there is just one revised chapter:
+I am now starting to work on a 2026  updated version of the *Guide*. So far there are just two revised chapters:
 
 - [New chapter of recommended readings on FOL](pdfs/FOL.pdf)
+
+- [Revised chapter on computable functions, formal arithmetics, and Gödel's theorems](pdfs/Arithcomp.pdf)
 
 In addition there is an Appendix to the Guide saying more about some Big Books on mathematical logic:
 

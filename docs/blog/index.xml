@@ -10,7 +10,24 @@
 <atom:link href="https://logicmatters.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Logic, philosophy of mathematics, and related topics.</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sat, 22 Aug 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 28 Aug 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>BML on computable functions, formal arithmetic, and Gödel’s theorems</title>
+  <link>https://logicmatters.net/blog/arithcomp.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>As announced, I am beginning to revise the 2022 <em>Beginning Mathematical Logic</em>. Here is the second updated chapter: <a href="../tyl/pdfs/Arithcomp.pdf">on computable functions, formal arithmetics, and Gödel’s theorems</a>. There are brisk overviews of our interrelated topics, following by reading lists (five main recommendations, and then a short list of possible parallel/further reading).</p>
+<p>All comments, corrections, suggestions will of course be very welcome.</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/arithcomp.html</guid>
+  <pubDate>Fri, 28 Aug 2026 23:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Shostakovich on Sunday</title>
   <link>https://logicmatters.net/blog/aug26_varia.html</link>
@@ -19,10 +36,11 @@
 
 
 
-<p><img src="https://logicmatters.net/images/PHQ_Shost.jpg" style="float: left; width: 360px; margin-right: 20px; margin-bottom: 10px;"></p>
 <p>In the most recent issue of the BBC Music Magazine, the “Building a Library” feature is devoted to Shostakovich’s much played, much recorded, 8th String Quartet.</p>
 <p>And the chosen top recommended recording is – not surprisingly – the astonishing performance by the Pavel Haas Quartet. “There’s a total commitment to Shostakovich’s vision, with every interpretative decision somehow thoroughly considered yet entirely spontaneous in the moment. Above all, the Pavel Haas Quartet present this quartet not as a chilling suicide note or an abstract web of ciphers but as a deeply human portrait of an artist.”</p>
 <p>I hadn’t listened to this recording for perhaps a couple of years, but I was absolutely transfixed, hearing it again. Utterly extraordinary music, stupendously well played. Unmissable.</p>
+<p>A short teaser for the CD:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/EsuHDGpkJZI?si=Oy0POvRP22gMoVRY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 
 
 
@@ -598,39 +616,6 @@ Nice to hear, of course! But <em>how</em> does Claude reach this sort of judgeme
  ]]></description>
   <guid>https://logicmatters.net/blog/categorical-update.html</guid>
   <pubDate>Fri, 01 May 2026 23:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Categorically diverted</title>
-  <link>https://logicmatters.net/blog/categorically-diverted.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>
-Another six large-carrier bags of books have gone to Oxfam. And my tiny redecorated study is at last put together again, and – a miracle! – with no books in piles on the floor. Rather late in the day, it is the nicest-looking room I have ever had. The Morris paper is a real delight. A new dim-out blind works a treat, radically reducing distracting reflections in my large Apple monitor. Gemini has explained how to reassemble a better minimalist music system from kit I already had. So suitably inspired, back to work!
-</p>
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
-<p>
-I didn’t at all plan this, though. I seem to be re-checking the third edition of <em>Introducing Category Theory</em> for typos and thinkos before making a hardback edition. A third of the way through, I have so far found only few (with a bit of help from claude.ai) – and the only significant errors are now <a href="https://www.logicmatters.net/resources/pdfs/corrections_ICT3_1.pdf">listed here</a>. As I slowly proceed, however, I’m occasionally tinkering with the exposition in small ways, and also removing a few over-excited exclamation marks and such like. So there will be an updated PDF and reprint of the paperback in a few weeks, as well as the promised hardback for libraries.
-</p>
-<p>
-This is displacement activity. Revising the Gödel book – maintaining the same level of accessibility while improving some exposition and removing some handwaving – is causing me a bit more grief than I was expecting. I am taking that slowly.
-</p>
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
-<p>
-“How does it do <em>that</em>?” – I am still amazed by Claude’s ability as a proofreading and editorial assistant (I will write more about this some time). But I am not in the least inclined to attribute mental states to the LLM I am interacting with, and it hasn’t occurred to me to get fussed about the ontological status of my “interlocutor”. <a href="https://philarchive.org/rec/CHAWWT-8">Here’s the philosopher David Chalmers tangling with the issue</a>. But I can’t get excited.
-</p>
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide">
-<p>
-Have I mentioned how much Schubert’s piano music means to me? Have I mentioned how much I admire Elisabeth Brauß among younger pianists? Have I mentioned that, a few years ago, she gave a quite wonderful performance of Schubert’s first set of Impromptus at a Birmingham concert? I rather think I may have done! But I’ll say it again, <a href="https://www.bbc.co.uk/sounds/play/m002tm8f">because the BBC has rebroadcast that performance</a> (from 5.12.40 in). Do listen: it will make your day better.
-</p>
-
-
-
- ]]></description>
-  <guid>https://logicmatters.net/blog/categorically-diverted.html</guid>
-  <pubDate>Sat, 18 Apr 2026 23:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
