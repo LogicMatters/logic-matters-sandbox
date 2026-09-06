@@ -4,11 +4,11 @@ title: "The *BML* Study Guide and Book Notes"
 
 ### Beginning Mathematical Logic
 
-A re-titled, expanded version of my old *Teach Yourself Logic* notes, this is a Study Guide to mathematical logic. It introduces the main topics, and it suggests some suitable texts either for teaching yourself logic by individual self-study, or to supplement a university course. (It is book length, but you only need to read the first half-dozen pages or ao to see if this is for you.)
+A re-titled, expanded version of my old *Teach Yourself Logic* notes, this is a Study Guide to mathematical logic. It introduces the main topics, and it suggests some suitable texts either for teaching yourself logic by individual self-study or to supplement a university course. (It is book length, but you only need to read the first half-dozen pages to see if this is for you.)
 
 - [Beginning Mathematical Logic: A Study Guide](pdfs/LogicStudyGuide.pdf) _"Beginning Mathematical Logic: A Study Guide"_ [2022 Version]
 
-The 2022 *Guide* is also available as a very inexpensive paperback, about the price of a couple of coffees, but only direct from Amazon (sorry!) as this minimizes the price for you: ISBN 1916906338.
+This version of the *Guide* is also available as a *very* inexpensive paperback direct from Amazon (sorry!) as this minimizes the price for you: ISBN 1916906338.
 
 - [Corrections to 2022 printed version.](pdfs/Corrections_BML.pdf)
 
