@@ -604,5 +604,8 @@
   },
   "blog/arithcomp.qmd": {
     "arithcomp.html": "905695d1"
+  },
+  "blog/proof-theory-revised.qmd": {
+    "proof-theory-revised.html": "100fefe5"
   }
 }

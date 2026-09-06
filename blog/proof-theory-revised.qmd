@@ -1,0 +1,13 @@
+---
+title: "*BML* on proof theory, revised"
+date: "2026-09-06"
+description: "Here is the third updated chapter of the 2022 *Beginning Mathematical Logic* Study Guide. There are brisk overviews on proof theory (only slightly revised), following by recommended readings."
+---
+
+Here is the third updated chapter of the 2022 *Beginning Mathematical Logic* Study Guide, this time [on proof theory](../tyl/pdfs/ProofTheory.pdf). There are brisk overviews of three key topics, only slightly revised, followed by improved reading suggestions.
+
+As always, all comments, corrections, suggestions will of course be very welcome.
+
+<hr>
+
+I am giving the LaTeX files, section by section, to ChatGPT, asking for corrections for typos, and then asking for any stylistic suggestions in keeping with the general tone and approach of the Guide. I have to report that, even compared with just six months ago, ChatGPT's performance is impressively better on both counts. Life is too short to try marking its homework on typo-catching using other LLMs; but ChatGPT's performance seems much improved. And its stylistic suggestions (catching clunky sentences, ugly repetitions, etc.) are now almost always improvements while in keeping with the intended relaxed style. Remarkable.

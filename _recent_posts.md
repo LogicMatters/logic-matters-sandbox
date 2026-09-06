@@ -1,1 +1,1 @@
-Recent posts: [A new chapter of recommended readings on FOL](blog/fol.qmd) (13 August 2026), [Shostakovich on Sunday](blog/aug26_varia.qmd) (23 August 2026), [*BML* on computable functions, formal arithmetic, and Gödel's theorems](blog/arithcomp.qmd) (29 August 2026)
+Recent posts: [Shostakovich on Sunday](blog/aug26_varia.qmd) (23 August 2026), [*BML* on computable functions, formal arithmetic, and Gödel's theorems](blog/arithcomp.qmd) (29 August 2026), [*BML* on proof theory, revised](blog/proof-theory-revised.qmd) (6 September 2026)
