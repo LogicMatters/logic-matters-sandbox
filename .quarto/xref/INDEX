@@ -607,5 +607,8 @@
   },
   "blog/proof-theory-revised.qmd": {
     "proof-theory-revised.html": "100fefe5"
+  },
+  "blog/recent-readings.qmd": {
+    "recent-readings.html": "8f73f2fb"
   }
 }

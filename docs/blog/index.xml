@@ -10,7 +10,32 @@
 <atom:link href="https://logicmatters.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Logic, philosophy of mathematics, and related topics.</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sat, 05 Sep 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 08 Sep 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Three reading recommendations</title>
+  <link>https://logicmatters.net/blog/recent-readings.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://logicmatters.net/images/Marriott.jpg" style="float: left; width: 240px; margin-right: 20px; margin-bottom: 10px;"></p>
+<p>I try not to spend too much time reading substacks (though there is much good, if depressing, writing to be found). But I always enjoy the weekly <a href="https://jmarriott.substack.com">‘Cultural Capital’</a> posts by the <em>Times</em> columnist James Marriott. So I just had to buy his new book, <em>The New Dark Ages: The End of Reading and the Dawn of a Post-Literate Society</em> (Bodley Head). It isn’t long – I devoured it almost in a single sitting – and it isn’t exactly cheering. Though indeed, I might well be even more pessimistic than Marriott about the way that ‘people everywhere are losing the ability to read deeply or think rationally’. But for all that, it is an enjoyable read (in the way that having your prejudices confirmed can be!), and it is written with verve and wit, and with a lot of intriguing background knowledge lightly worn. Warmly recommended.</p>
+<hr>
+<p><img src="https://logicmatters.net/images/Cooper.jpg" style="float:right; width: 240px; margin-left: 20px; margin-bottom: 10px;"></p>
+<p>A recent substack by the author <a href="https://devonhalliday.substack.com/p/literary-fiction-has-lost-the-plot">Devon Halliday</a> amusingly lambasted some bad writing in a couple of forthcoming efforts at ‘literary fiction’. I agree – self-consciously literary fiction can be dismal. So what fiction <em>have</em> I most enjoyed recently?</p>
+<p>By some distance, Lettice Cooper’s 1953 novel <em>Fenny</em> (Penguin). Set in Tuscany and Florence between 1933 and 1949, it is the story of Ellen Fenwick, who – bored with a teaching job in England – takes a job as a governess in Italy, and it tells of her loves and losses, played out against the backdrop of rising fascism. This is republished in the (fairly new) Penguin ‘Mermaids’ series of books by women authors first published in the 1930s, 40s and 50s. Some other titles in the series look pretty attractive too, but I thought <em>Fenny</em> hugely readable and beautifully written. Again warmly recommended.</p>
+<hr>
+<p><img src="https://logicmatters.net/images/Overhaul.jpeg" style="float: left; width: 240px; margin-right: 20px; margin-bottom: 10px;"></p>
+<p>My poetry reading is sporadic and random. And I confess that I have only recently encountered Kathleen Jamie (who was Scotland’s national poet for a while). But over the last couple of weeks I have come to very much admire and enjoy her <em>The Overhaul</em> (Picador). This won the 2012 Costa Poetry Award and was shortlisted for the 2012 T.S. Eliot prize.</p>
+<p>Here, from that collection, is <a href="https://www.scottishpoetrylibrary.org.uk/poem/ospreys/">Ospreys</a>. This is surely immediately appealing. But then on a second or third reading, we see the poetic artifice: the long initial sentence reflecting the birds’ long flight, the half toppled away line ‘half toppled away’, the multiplicity of ‘beating’ (wing beats? fighting? overcoming?). And so it goes. This so rewards close reading, as do many poems in the whole book.</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/recent-readings.html</guid>
+  <pubDate>Tue, 08 Sep 2026 23:00:00 GMT</pubDate>
+</item>
 <item>
   <title>BML on proof theory, revised</title>
   <link>https://logicmatters.net/blog/proof-theory-revised.html</link>
@@ -568,31 +593,6 @@ I have yet to do a final visual check for layout issues. But meanwhile, I will w
  ]]></description>
   <guid>https://logicmatters.net/blog/on-the-mathematical-abilities-of-llms.html</guid>
   <pubDate>Fri, 08 May 2026 23:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Another categorical update</title>
-  <link>https://logicmatters.net/blog/another-categorical-update.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><img src="https://logicmatters.net/blog/2026/Isabella-tile.jpg" class="img-fluid"></p>
-<p>
-The Victorian floor of my tiny study slopes and dips quite badly and it would have been expensive to engineer a flat, level, surface. So, to finish the redecoration, it has had to be new carpet. No majolica tiles for me. Not like this one (now in the Fitzwilliam Museum), from the series which Isabella d’Este used in her <i>stu</i><em><i>dio</i>lo</em>.
-</p>
-<p>
-As I said, when first back to work in my own much improved <i>stu</i><em><i>dio</i>lo</em>, I decided to check through the third edition of the category theory notes again before making a hardback edition. I am very glad that I did. With (indispensable) help from both Claude and Gemini, I have found over 75 errors in the printed paperback version (Version 3.1) that are <em>not</em> just trivial and obvious spelling errors, grammatical mishaps, omitted punctuation etc. Not too many should cause real confusion, I hope: but that’s still a rather embarrassing number (with careless cutting’n’pasting responsible for too many mistakes).
-</p>
-<p>
-So the state of play is this. There is a PDF Version 3.3 now freely available for download. There is a corrections list, also linked on the categories page. No doubt if I now asked ChatGPT to do another late proof-reading, I could discover more (micro?) errors – but I think my patience is exhausted. But I will now do a visual check for bad page breaks and so forth (which of course are not caught by AI looking at LaTeX code). And then I will have to take a deep breath and send a revised paperback and new hardback out into the world.
-</p>
-
-
-
- ]]></description>
-  <guid>https://logicmatters.net/blog/another-categorical-update.html</guid>
-  <pubDate>Wed, 06 May 2026 23:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
