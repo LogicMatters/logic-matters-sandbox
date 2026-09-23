@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2011-07-11">
 
-<title>Logic Matters</title>
+<title>What is so great about Kuratowski pairs? – Logic Matters</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +27,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-95449aacf37e771314470083f52a962e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-95449aacf37e771314470083f52a962e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,8 +81,37 @@ gtag('js', new Date());
 gtag('config', 'G-NJWC5RLRWV', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -91,7 +121,7 @@ gtag('config', 'G-NJWC5RLRWV', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Logic Matters</span>
     </a>
   </div>
@@ -102,37 +132,37 @@ gtag('config', 'G-NJWC5RLRWV', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./blog/index.html"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./ifl/index.html"> 
+    <a class="nav-link" href="../../ifl/index.html"> 
 <span class="menu-text">IFL</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./igt/index.html"> 
+    <a class="nav-link" href="../../igt/index.html"> 
 <span class="menu-text">Gödel</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./categories/index.html"> 
+    <a class="nav-link" href="../../categories/index.html"> 
 <span class="menu-text">Categories</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tyl/index.html"> 
+    <a class="nav-link" href="../../tyl/index.html"> 
 <span class="menu-text">Guide</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./archive/index.html"> 
+    <a class="nav-link" href="../../archive/index.html"> 
 <span class="menu-text">Archive</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./latex-for-logicians/index.html"> 
+    <a class="nav-link" href="../../latex-for-logicians/index.html"> 
 <span class="menu-text">LaTeX</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -148,9 +178,9 @@ gtag('config', 'G-NJWC5RLRWV', { 'anonymize_ip': true});
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 <div id="site-nav">
-<p><a href="./blog/index.html">BLOG</a>&nbsp;·&nbsp;<a href="./ifl/index.html">IFL</a>&nbsp;·&nbsp;<a href="./igt/index.html">GÖDEL</a>&nbsp;·&nbsp;<a href="./categories/index.html">CATEGORIES</a>&nbsp;·&nbsp;<a href="./tyl/index.html">STUDY GUIDE</a>&nbsp;·&nbsp;<a href="./archive/index.html">ARCHIVE</a>&nbsp;·&nbsp;<a href="./latex-for-logicians/index.html">LaTeX</a></p>
+<p><a href="../../blog/index.html">BLOG</a>&nbsp;·&nbsp;<a href="../../ifl/index.html">IFL</a>&nbsp;·&nbsp;<a href="../../igt/index.html">GÖDEL</a>&nbsp;·&nbsp;<a href="../../categories/index.html">CATEGORIES</a>&nbsp;·&nbsp;<a href="../../tyl/index.html">STUDY GUIDE</a>&nbsp;·&nbsp;<a href="../../archive/index.html">ARCHIVE</a>&nbsp;·&nbsp;<a href="../../latex-for-logicians/index.html">LaTeX</a></p>
 </div>
 <script>
 window.addEventListener('load', function () {
@@ -162,27 +192,81 @@ window.addEventListener('load', function () {
 });
 </script>
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">What is so great about Kuratowski pairs?</h1>
+</div>
 
 
 
-<p><a href="blog"><strong>LOGIC MATTERS BLOG</strong></a> Peter Smith’s occasional blog posts on logic, music, and other enthusiasms.</p>
-<p>Recent posts: <a href="./blog/arithcomp.html"><em>BML</em> on computable functions, formal arithmetic, and Gödel’s theorems</a> (29 August 2026), <a href="./blog/proof-theory-revised.html"><em>BML</em> on proof theory, revised</a> (6 September 2026), <a href="./blog/recent-readings.html">Three reading recommendations</a> (9 September 2026)</p>
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 11, 2011</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>I was writing about countable order types – kinds of orderings of the naturals – and for various reasons wanted to do as much as possible without explicit talk about sets. But I obviously needed to talk about ordered pairs of numbers so I can talk about “adding” and “multiplying” order types. So the trick I adopted is the good old device of coding up the pair <em>m</em>, <em>n</em> by using the code <span class="math inline">\(2^m3^n\)</span> as ‘pair numbers’ (I also used the same powers-of-primes trick to code up finite sequences.)</p>
+<p>It was put to me that the fact I had to resort to cheap tricks like this simply shows that there is something really a bit perverse about trying to do without sets.</p>
+<p>But not so, say I. And perhaps it is worth explaining why (though I guess the following line of thought <em>ought</em> to be familiar – so don’t expect novelties).</p>
 <hr>
-<p><a href="books"><strong>THE FIVE BIG RED LOGIC BOOKS</strong></a> The headline news — they are open access.</p>
-<p><a href="ifl"><strong>INTRO TO FORMAL LOGIC</strong></a> A corrected version of the second edition of <em>An Introduction to Formal Logic</em> is freely available here. There are also links to answers to exercises and to various supplementary materials.</p>
-<p><a href="igt"><strong>GÖDEL’S THEOREMS</strong></a> Two books are freely available here, <em>An Introduction to Gödel’s Theorems</em> and the much shorter <em>Gödel Without (Too Many) Tears</em>, along with related materials.</p>
-<p><a href="categories"><strong>CATEGORY THEORY</strong></a> Links to resources at an introductory/intermediate level, such as lecture notes and freely available books, including my <em>Introducing Category Theory</em>.</p>
-<p><a href="tyl"><strong>THE STUDY GUIDE AND BOOK NOTES</strong></a> You will find here the much-downloaded <em>Beginning Mathematical Logic: A Study Guide</em>, its <em>Appendix</em> reviewing some of the wider-ranging books on mathematical logic, together with links to some forty further book notes.</p>
-<p><a href="archive"><strong>ARCHIVE</strong></a> Links to various old blog posts, papers, more reviews and other pieces.</p>
-<p><a href="latex-for-logicians"><strong>LaTeX FOR LOGICIANS</strong></a> Pages pointing to a wide range of resources of interest to logicians, philosophers and others using LaTeX.</p>
-<div class="small text-muted fst-italic">
-<p><em>Site updated: September 23 @ 15.02</em></p>
+<p>Why should handling ordered pairs of natural numbers by a coding trick be regarded as somehow inferior to other, albeit more familiar, devices? It might be said that (i) a single pair-number is really neither ordered nor a twosome; (ii) while a number <em>m</em> is one of the pair <em>m</em>, <em>n</em>, a number can’t be one of (or a member of) a pair-number; and in any case (iii) our construction was pretty arbitrary (we could equally well have used, e.g., <span class="math inline">\(17^m16^n\)</span> to code the pair).</p>
+<p>Which is all true. But of course we can lay exactly analogous complaints against e.g.&nbsp;the Kuratowski definition that we all know and love, which treats the ordered pair (<em>m</em>, <em>n</em>) as the set {{<em>m</em>}, {<em>m</em>, <em>n</em>}}. For (i) that set is not intrinsically ordered (it is a <em>set</em>!), nor is it always two-membered (consider the case where <em>m</em> = <em>n</em>). (ii) Even when it is a twosome, its members are not the members of the pair: in standard set theories, <em>m</em> cannot be a member of {{<em>m</em>}, {<em>m</em>, <em>n</em>}}. And (iii) the construction again involves pretty arbitrary choices: thus {{<em>n</em>}, {<em>m</em>, <em>n</em>}} or {{{<em>m</em>}}, {{<em>m</em>, <em>n</em>}}} etc., etc., would have done just as well. Thus far, then, our coding of pairs of numbers using pair-numbers involves no worse a trick than coding them using Kuratowski’s gadget.</p>
+<p>To pursue the point further, suppose you are working in standard ZF (for example). Pure ZF knows only about pure sets. So to get natural numbers into the story – and hence to get Kuratowski pair-sets of natural numbers – you have to choose some omega-sequence of sets to implement the numbers (or ‘stand proxy’ for them, ‘simulate’ them, ‘play the role’ of numbers, or even ‘define’ them – whatever your favourite way of describing the situation is). But someone who has opted to treat natural numbers within set theory by selecting some convenient sets to implement them is hardly in a position to complain about our opting to treat ordered pairs in arithmetic by choosing some convenient numbers to implement <em>them</em>. Suppose, alternatively, that you are working in ZFU, a set theory with urelements (so that at the base level of the iterative hierarchy you have not just the empty set but sets whose members are non-sets). You can then allow natural numbers as sui generis urelements, and then form Kuratowski pair-sets of these elements. But given the prior commitment to numbers as urelements and the availability of the numerical coding device, you don’t <em>need</em> the extra commitment to sets to do the job of representing pairs of numbers. So why shoulder the extra ontological load?</p>
+<p>You might respond that the Kuratowski trick at least has the virtue of being an all-purpose way of getting pairs of anything, while you can only use the powers-of-primes trick for coding pairs of numbers. But that’s like saying that you can use a large hammer to crack all sorts of things, while you can only use nutcrackers for nuts; true, but not to the point if it happens to be nuts that you currently want to crack using light-weight resources.</p>
+<p>Putting the point more abstractly, suppose X are some objects and Y are some objects (maybe the same, maybe different). Then we’ll say a <em>pairing scheme</em> for X with Y comprises some ‘pair objects’ O and a surjective two-place function <em>pr</em> from X and Y to O, such that there are functions <em>fst</em> from O to X, and <em>snd</em> from O to Y which ‘recover’ the first and second items in a pair object in the obvious way. Set things up right, and pairing schemes are unique up to unique isomorphism. Then the ‘pair numbers’ trick and Kuratowski trick (with their obvious respective functions <em>pr</em>, <em>fst</em>, <em>snd</em>) yield equally good pairing schemes.</p>
+<p>This is a common situation: we specify conditions on some mathematical gadgets, and then show that we have pinned them down uniquely up to unique isomorphism. And doing this, i.e.&nbsp;fixing gadgets up to unique structure-preserving bijection, arguably gives us all that we will normally need for mathematical purposes.</p>
+<p>To take the case of natural numbers as the trite example, we might reasonably suppose that for mathematical purposes one omega-sequence is as good as another for implementing the numbers. True, to continue with the example, we will only be concerned as number-theorists with what holds true of numbers irrespective of the implementation. So, following Dedekind, perhaps we might insist that we should go on to abstract from the various ‘concrete’ implementations within richer frameworks (implementations which give numbers unwanted extraneous properties), and say that numbers themselves are distinguished as having no properties other than those they get in virtue of their place in the structure shared by different more concrete implementations. Well, say that if you like: it doesn’t matter one way or the other for most purposes.</p>
+<p>And my present point is that we can be equally insouciant about what pairs of numbers ‘really’ are. My preferred low-cost scheme for pairing numbers and the more familiar set-theoretic Kuratowski scheme are just as good as each other, in that both ‘define’ pairs equally well for mathematical purposes. But if you <em>do</em> remain minded to go on in a Dedekinian spirit to say that, still, neither our pair-numbers nor the Kuratowski sets are <em>really</em> pairs (because both schemes treat pairs as objects with too much irrelevant structure), and we ought really to abstract away from these concrete implementations, then so be it. But that certainly doesn’t spoil the symmetry and make my way of treating pairs of numbers any worse than the familiar standard way.</p>
+<div class="hanging">
+<p><em>Aldo Antonelli comments:</em> I agree that there is nothing special about Kuratowski pairs, and in fact for some purposes other implementations of pairing might be preferable (e.g., Kuratowski pairs do not collapse well under in an extensional quotient).</p>
+<p>I think there is a lot to be said for one of the options you mention, that of taking pairing as primitive and specifying the properties of the pairing function via suitable axioms. Doing so brings to the foreground something that is not always obvious, viz., the consistency strength of adopting a pairing scheme, because once you actually write down the axioms it becomes clear that they are satisfiable only over infinite domains. Thus the consistency strength of pairing is exactly the same as that of the axiom of infinity (in the sense of equi-satisfiability).</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>PS replies:</em> Yes indeed, though I’d perhaps put it just a bit differently. For if the objects X and objects Y are both finite in number, then we of course only need a finite pairing scheme, i.e.&nbsp;a finite number of objects O and a suitable two-place pairing function <em>pr</em> from X, Y to O. But true enough, trivial cases aside, O can’t then be the same objects as X or Y. Where an assumption that we can do pairing becomes an axiom of infinity is e.g.&nbsp;when we assume that we can pair X with X again, using a suitable <em>pr</em> from X, X to X. But I think I prefer to start by characterizing pairing quite generally, before focusing in on cases where we do pairing without going outside the objects we start with.</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>Sam Alexander comments:</em> Yes, using unique prime composition to encode pairs is totally non-controversial and used everywhere in logic.</p>
+<p>One minor point RE: representing naturals in ZF: there is a good reason for the choice we make, namely, to ensure the naturals are ordinals. At first glance, it might seem like emptyset=0, {emptyset}=1, {{emptyset}}=2, etc., would be a simpler way to construct the naturals, but then they would not be ordinals because they would not be transitive!</p>
+<p>But to build on the weirdness of the construction of the naturals, it’s worth noting that naturals are ambiguous, in the following sense. When we construct the integers from the naturals, we do so in such a way that we create “copies” of the naturals, but the copies are not identical as sets. Thus, we have the natural number 1, and the integer 1, and these are NOT identical sets. It gets worse: we construct the rationals from the integers, and get <em>another</em> set which we call “1” (the rational). Then we construct the reals, and get yet another “1”. And then we construct the complex numbers for yet another “1”. That’s five different sets, all commonly called “1”!</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>PS replies:</em> As you say, there’s <em>nothing</em> novel about rely on prime composition to implement pairing. What was in my sights was the tendency of some philosophers and some mathmos to fall too quickly into thinking that there is some sense in which that is a “mere” trick while the Kuratowski implementation isn’t.</p>
+<p>Your remark about ordinals assumes that we are implementing ordinals in ZF as transitive sets. That’s a neat way of doing things, but remember it is one implementation among others.</p>
+<p>The point about 1-as-a-natural, vs 1-as-an-integer, vs 1-as-a-rational etc. raises some nice issues. I guess I’m with those who’d strongly type their mathematical universe, and would assign these to different types. But that’s a whole other story!</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>Greg Lavers comments:</em> In §53 of <em>Word and Object</em>, Quine comes to the same conclusion as you do here, and sees this case as demonstrating something important about philosophical analysis in general.</p>
+</div>
+<p>
+</p>
+<div class="hanging">
+<p><em>PS replies:</em> Indeed! And I confess to have forgotten that discussion in Quine when I wrote my post above. I think I only depart from Quine in emphasis – I’d want to stress that what matters is a whole pairing scheme (pair objects, whatever they are, and pairing function and unpairing functions). See the discussion of pairing schemes in Chapter 11 of my <em>Introducing Category Theory</em>.</p>
 </div>
 
 
 
 </main> <!-- /main -->
-<script src="./post-nav.js"></script>
+<script src="../../post-nav.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

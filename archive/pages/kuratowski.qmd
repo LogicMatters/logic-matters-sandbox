@@ -1,0 +1,69 @@
+---
+title: "What is so great about Kuratowski pairs?"
+date: "2011-07-11"
+page-layout: article
+draft: false
+---
+
+I was writing about countable order types -- kinds of orderings of the naturals -- and for various reasons wanted to do as much as possible without explicit talk about sets. But I obviously needed to talk about ordered pairs of numbers so I can talk about "adding" and "multiplying" order types. So the trick I adopted is the good old device of coding up the pair *m*, *n* by using the code $2^m3^n$ as 'pair numbers' (I also used the same powers-of-primes trick to code up finite sequences.)
+
+It was put to me that the fact I had to resort to cheap tricks like this simply shows that there is something really a bit perverse about trying to do without sets. 
+
+But not so, say I. And perhaps it is worth explaining why (though I guess the following line of thought *ought* to be familiar -- so don't expect novelties).
+
+<hr>
+
+Why should handling ordered pairs of natural numbers by a coding trick be regarded as somehow inferior to other, albeit more familiar, devices? It might be said that (i) a single pair-number is really neither ordered nor a twosome; (ii) while a number *m* is one of the pair *m*, *n*, a number can't be one of (or a member of) a pair-number; and in any case (iii) our construction was pretty arbitrary (we could equally well have used, e.g., $17^m16^n$ to code the pair).
+
+Which is all true. But of course we can lay exactly analogous complaints against e.g. the Kuratowski definition that we all know and love, which treats the ordered pair (*m*, *n*) as the set {{*m*}, {*m*, *n*}}. For (i) that set is not intrinsically ordered (it is a *set*!), nor is it always two-membered (consider the case where *m* = *n*). (ii) Even when it is a twosome, its members are not the members of the pair: in standard set theories, *m* cannot be a member of {{*m*}, {*m*, *n*}}. And (iii) the construction again involves pretty arbitrary choices: thus {{*n*}, {*m*, *n*}} or {{{*m*}}, {{*m*, *n*}}} etc., etc., would have done just as well. Thus far, then, our coding of pairs of numbers using pair-numbers involves no worse a trick than coding them using Kuratowski's gadget.
+
+To pursue the point further, suppose you are working in standard ZF (for example). Pure ZF knows only about pure sets. So to get natural numbers into the story -- and hence to get Kuratowski pair-sets of natural numbers -- you have to choose some omega-sequence of sets to implement the numbers (or 'stand proxy' for them, 'simulate' them, 'play the role' of numbers, or even 'define' them -- whatever your favourite way of describing the situation is). But someone who has opted to treat natural numbers within set theory by selecting some convenient sets to implement them is hardly in a position to complain about our opting to treat ordered pairs in arithmetic by choosing some convenient numbers to implement *them*. Suppose, alternatively, that you are working in ZFU, a set theory with urelements (so that at the base level of the iterative hierarchy you have not just the empty set but sets whose members are non-sets). You can then allow natural numbers as sui generis urelements, and then form Kuratowski pair-sets of these elements. But given the prior commitment to numbers as urelements and the availability of the numerical coding device, you don't *need* the extra commitment to sets to do the job of representing pairs of numbers. So why shoulder the extra ontological load?
+
+You might respond that the Kuratowski trick at least has the virtue of being an all-purpose way of getting pairs of anything, while you can only use the powers-of-primes trick for coding pairs of numbers. But that's like saying that you can use a large hammer to crack all sorts of things, while you can only use nutcrackers for nuts; true, but not to the point if it happens to be nuts that you currently want to crack using light-weight resources.
+
+Putting the point more abstractly, suppose X are some objects and Y are some objects (maybe the same, maybe different). Then we'll say a *pairing scheme* for X with Y comprises some 'pair objects' O and a surjective two-place function *pr* from X and Y to O, such that there are functions *fst* from O to X, and *snd* from O to Y which 'recover' the first and second items in a pair object in the obvious way. Set things up right, and pairing schemes are unique up to unique isomorphism. Then the 'pair numbers' trick and Kuratowski trick (with their obvious respective functions *pr*, *fst*, *snd*) yield equally good pairing schemes.
+
+This is a common situation: we specify conditions on some mathematical gadgets, and then show that we have pinned them down uniquely up to unique isomorphism. And doing this, i.e. fixing gadgets up to unique structure-preserving bijection, arguably gives us all that we will normally need for mathematical purposes.
+
+To take the case of natural numbers as the trite example, we might reasonably suppose that for mathematical purposes one omega-sequence is as good as another for implementing the numbers. True, to continue with the example, we will only be concerned as number-theorists with what holds true of numbers irrespective of the implementation. So, following Dedekind, perhaps we might insist that we should go on to abstract from the various 'concrete' implementations within richer frameworks (implementations which give numbers unwanted extraneous properties), and say that numbers themselves are distinguished as having no properties other than those they get in virtue of their place in the structure shared by different more concrete implementations. Well, say that if you like: it doesn't matter one way or the other for most purposes.
+
+And my present point is that we can be equally insouciant about what pairs of numbers 'really' are. My preferred low-cost scheme for pairing numbers and the more familiar set-theoretic Kuratowski scheme are just as good as each other, in that both 'define' pairs equally well for mathematical purposes. But if you *do* remain minded to go on in a Dedekinian spirit to say that, still, neither our pair-numbers nor the Kuratowski sets are *really* pairs (because both schemes treat pairs as objects with too much irrelevant structure), and we ought really to abstract away from these concrete implementations, then so be it. But that certainly doesn't spoil the symmetry and make my way of treating pairs of numbers any worse than the familiar standard way.
+
+::: {.hanging}
+
+*Aldo Antonelli comments:* I agree that there is nothing special about Kuratowski pairs, and in fact for some purposes other implementations of pairing might be preferable (e.g., Kuratowski pairs do not collapse well under in an extensional quotient). 
+
+I think there is a lot to be said for one of the options you mention, that of taking pairing as primitive and specifying the properties of the pairing function via suitable axioms. Doing so brings to the foreground something that is not always obvious, viz., the consistency strength of adopting a pairing scheme, because once you actually write down the axioms it becomes clear that they are satisfiable only over infinite domains. Thus the consistency strength of pairing is exactly the same as that of the axiom of infinity (in the sense of equi-satisfiability).
+:::
+<p></p>
+::: {.hanging}
+*PS replies:* Yes indeed, though I'd perhaps put it just a bit differently. For if the objects X and objects Y are both finite in number, then we of course only need a finite pairing scheme, i.e. a finite number of objects O and a suitable two-place pairing function <em>pr</em> from X, Y to O. But true enough, trivial cases aside, O can't then be the same objects as X or Y. Where an assumption that we can do pairing becomes an axiom of infinity is e.g. when we assume that we can pair X with X again, using a suitable <em>pr</em> from X, X to X. But I think I prefer to start by characterizing pairing quite generally, before focusing in on cases where we do pairing without going outside the objects we start with.
+
+:::
+<p></p>
+::: {.hanging}
+
+*Sam Alexander comments:* Yes, using unique prime composition to encode pairs is totally non-controversial and used everywhere in logic.
+
+One minor point RE: representing naturals in ZF:  there is a good reason for the choice we make, namely, to ensure the naturals are ordinals.  At first glance, it might seem like emptyset=0, {emptyset}=1, {{emptyset}}=2, etc., would be a simpler way to construct the naturals, but then they would not be ordinals because they would not be transitive!
+
+But to build on the weirdness of the construction of the naturals, it's worth noting that naturals are ambiguous, in the following sense.  When we construct the integers from the naturals, we do so in such a way that we create "copies" of the naturals, but the copies are not identical as sets.  Thus, we have the natural number 1, and the integer 1, and these are NOT identical sets.  It gets worse: we construct the rationals from the integers, and get *another* set which we call "1" (the rational).  Then we construct the reals, and get yet another "1".  And then we construct the complex numbers for yet another "1".  That's five different sets, all commonly called "1"!
+:::
+<p></p>
+::: {.hanging}
+*PS replies:* As you say, there's <em>nothing</em> novel about rely on prime composition to implement pairing. What was in my sights was the tendency of some philosophers and some mathmos to fall too quickly into thinking that there is  some sense in which that is a "mere" trick while the Kuratowski implementation isn't. 
+
+Your remark about ordinals assumes that we are implementing ordinals in ZF as transitive sets. That's a neat way of doing things, but remember it is one implementation among others.
+
+The point about 1-as-a-natural, vs 1-as-an-integer, vs 1-as-a-rational etc. raises some nice issues. I guess I'm with those who'd strongly type their mathematical universe, and would assign these to different types. But that's a whole other story!
+
+:::
+<p></p>
+::: {.hanging}
+*Greg Lavers comments:* In §53 of *Word and Object*, Quine comes to the same conclusion as you do here, and sees this case as demonstrating something important about philosophical analysis in general.
+:::
+
+<p></p>
+::: {.hanging}
+*PS replies:* Indeed! And I confess to have forgotten that discussion in Quine when I wrote my post above. I think I only depart from Quine in emphasis -- I'd want to stress that what matters is a whole pairing scheme (pair objects, whatever they are, and pairing function and unpairing functions). See the discussion of pairing schemes in Chapter 11 of my *Introducing Category Theory*.
+:::

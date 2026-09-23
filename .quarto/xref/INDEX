@@ -610,5 +610,8 @@
   },
   "blog/recent-readings.qmd": {
     "recent-readings.html": "8f73f2fb"
+  },
+  "archive/pages/kuratowski.qmd": {
+    "kuratowski.html": "7e7527ec"
   }
 }

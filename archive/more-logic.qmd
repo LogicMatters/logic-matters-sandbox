@@ -18,6 +18,7 @@ page-layout: article
 1. [Logicisms and Godel's Theorems](pages/logicism-godel.qmd)
 1. [A query about countability](pages/countability.qmd)
 1. [Negative type theory](pages/negative-type-theory.qmd)
+1. [What is so great about Kuratowski pairs?](pages/kuratowski.qmd)
 
 ### A few papers and handouts
 

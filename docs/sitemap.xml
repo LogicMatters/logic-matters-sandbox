@@ -402,7 +402,7 @@
   </url>
   <url>
     <loc>https://logicmatters.net/archive/more-logic.html</loc>
-    <lastmod>2026-06-27T10:40:30.937Z</lastmod>
+    <lastmod>2026-09-23T15:36:57.165Z</lastmod>
   </url>
   <url>
     <loc>https://logicmatters.net/archive/pages/godel-logicisms.html</loc>
@@ -779,5 +779,9 @@
   <url>
     <loc>https://logicmatters.net/blog/recent-readings.html</loc>
     <lastmod>2026-09-09T15:39:17.804Z</lastmod>
+  </url>
+  <url>
+    <loc>https://logicmatters.net/archive/pages/kuratowski.html</loc>
+    <lastmod>2026-09-23T15:32:43.992Z</lastmod>
   </url>
 </urlset>
