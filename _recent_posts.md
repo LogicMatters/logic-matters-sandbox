@@ -1,1 +1,1 @@
-Recent posts: [*BML* on computable functions, formal arithmetic, and Gödel's theorems](blog/arithcomp.qmd) (29 August 2026), [*BML* on proof theory, revised](blog/proof-theory-revised.qmd) (6 September 2026), [Three reading recommendations](blog/recent-readings.qmd) (9 September 2026)
+Recent posts: [*BML* on proof theory, revised](blog/proof-theory-revised.qmd) (6 September 2026), [Three reading recommendations](blog/recent-readings.qmd) (9 September 2026), [Elisabeth Brauß at Wigmore Hall](blog/elisabeth-brauss-wigmore-concert.qmd) (29 September 2026)
