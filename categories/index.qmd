@@ -34,7 +34,8 @@ Part I of the notes says something about what can be found inside individual cat
 I have gone for a fairly conventional mode of presentation but at a very gentle (painfully slow?) pace. This makes for a long book — but I make no apology for that: faster-track alternatives are available if you want them! The current version is linked here:
 
 - [Introducing Category Theory](SmithCat.pdf) (3rd edition, version 3.4a, May 2026: pp. xvii+510).
-- [A corrections page](corrections_ICT3_1.pdf) for the first printing of 3rd edition (version 3.1, January 2026).
+- [A few added notes](corrections_ICT3_1.pdf).
+- [A corrections page](corrections.pdf) for the first printing of 3rd edition (version 3.1, January 2026).
 
 For encouragement to dip into the PDF to see whether the book might work for you,
 
