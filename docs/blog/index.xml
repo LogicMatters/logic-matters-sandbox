@@ -10,7 +10,22 @@
 <atom:link href="https://logicmatters.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Logic, philosophy of mathematics, and related topics.</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Mon, 28 Sep 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 23 Oct 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Timothy Smiley, 1930-2026</title>
+  <link>https://logicmatters.net/blog/smiley.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/smiley.html</guid>
+  <pubDate>Fri, 23 Oct 2026 23:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Elisabeth Brauß at Wigmore Hall</title>
   <link>https://logicmatters.net/blog/elisabeth-brauss-wigmore-concert.html</link>
@@ -20,8 +35,9 @@
 
 
 <p><img src="https://logicmatters.net/blog/2026/brauss.jpg" class="img-fluid"></p>
-<p>Not the greatest month, so it wasn’t possible to get to London to attend Elisabeth Brauß’s lunchtime concert in the Wigmore Hall Autumn International Piano Festival at Wigmore Hall on Monday. But it was broadcast live on BBC Sounds, and you can <a href="https://www.bbc.co.uk/sounds/play/m0031pyj">download it for a month</a>.</p>
-<p>Elisabeth started with her beloved Mozart, this time the Piano Sonata in F, K332. Next nos II to VI of Bartók’s 14 Bagatelles Op. 6, and then XV Le baiser de l’Enfant-Jésus from Messaien’s Vingt regards sur l’Enfant-Jésus (all new to me, and I was much taken). There followed Chopin’s Fantasy in F minor Op. 49.</p>
+<p>Not the greatest month, hence the relative silence on logical matters. And hence it wasn’t possible to get to London to attend Elisabeth Brauß’s lunchtime concert in the Wigmore Hall Autumn International Piano Festival at Wigmore Hall on Monday. But – a delight – the concert was broadcast live on BBC Sounds.</p>
+<p>Elisabeth began with her beloved Mozart, this time the Piano Sonata in F, K332. Next she played numbers II to VI of Bartók’s 14 Bagatelles Op. 6, and then XV ‘Le baiser de l’Enfant-Jésus’ from Messaien’s <em>Vingt regards sur l’Enfant-Jésus</em> (the Bartók and Messaien were both new to me, and I was much taken).</p>
+<p>There followed Chopin’s Fantasy in F minor Op. 49. Beautifully played of course, but not a piece particularly to my taste. Perhaps as I listen again (and again?) Elisabeth will convince me – very happily, we can <a href="https://www.bbc.co.uk/sounds/play/m0031pyj">download the concert for a month</a></p>
 <p>At the end of the live broadcast at 57.39, I was then completely poleaxed by her encore … if I’d been in the hall would I have held it together …?</p>
 
 
@@ -517,29 +533,6 @@ And, after all that, a new cleaner version of <em>ICT </em>(paperback, hardback 
  ]]></description>
   <guid>https://logicmatters.net/blog/proof-reading-with-a-bit-of-help-from-llms.html</guid>
   <pubDate>Sat, 16 May 2026 23:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>A new version of ICT</title>
-  <link>https://logicmatters.net/blog/a-new-version-of-ict.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>
-The end is in sight. I have just uploaded <a href="../resources/pdfs/SmithCat.pdf">another PDF of <em>Introducing Category Theory</em></a> (now identified as Version 3.4 on the verso of the title page – you might need to clear your brower’s cache to force a download of the latest, greatest, version). Never say never, but I hope no further significant changes will be needed before I set up a paperback version. Fingers crossed.
-</p>
-<p>
-I have yet to do a final visual check for layout issues. But meanwhile, I will write a separate post about my rather mixed experiences with using LLMs as proof-reading assistants, which might be of some more general interest to others with academic book projects.
-</p>
-<p>
-</p>
-
-
-
- ]]></description>
-  <guid>https://logicmatters.net/blog/a-new-version-of-ict.html</guid>
-  <pubDate>Wed, 13 May 2026 23:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
