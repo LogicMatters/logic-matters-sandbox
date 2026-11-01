@@ -1,1 +1,1 @@
-Recent posts: [Three reading recommendations](blog/recent-readings.qmd) (9 September 2026), [Elisabeth Brauß at Wigmore Hall](blog/elisabeth-brauss-wigmore-concert.qmd) (29 September 2026), [Timothy Smiley, 1930-2026](blog/smiley.qmd) (24 October 2026)
+Recent posts: [Elisabeth Brauß at Wigmore Hall](blog/elisabeth-brauss-wigmore-concert.qmd) (29 September 2026), [Timothy Smiley, 1930-2026](blog/smiley.qmd) (24 October 2026), [Heart troubles ...](blog/heart-troubles.qmd) (1 November 2026)
