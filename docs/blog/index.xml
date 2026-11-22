@@ -10,7 +10,27 @@
 <atom:link href="https://logicmatters.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Logic, philosophy of mathematics, and related topics.</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sun, 01 Nov 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 22 Nov 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Writing from K3</title>
+  <link>https://logicmatters.net/blog/writing-from-k3.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>After near-emergency open-heart at Papworth two and a half weeks ago, I am back across the road on the cardiac ward K3 in Addenbrooke’s hospital. The surgery went very well according to the medics, and left me in remarkable little discomfort. I am back in Addenbrooke’s for perhaps another four weeks because I still need six-times-a-day intravenous antibiotics to clear residual pockets of infection round the heart. One gets institutionalized so quickly that the prospect of a continuing long stay is quite manageable.</p>
+<p>And I’ll say little more here – too many further details would be tedious, except perhaps to others facing similar surgery, who are very welcome to get in touch.</p>
+<p>But I’ll add this. When you sign the final consent form for surgery the night before, you are given an algorithmic estimate of the chances of various unwelcome outcomes. This time – for it is the second time for valve-replacement surgery – the chance of mortality was set pretty high, shall we say. How does one spend what might well be your last evening? In my case it was by listening intently to the wondrous Mitsuko Uchida playing some of the late Schubert piano music I have loved so much. What better? After which, surprising to relate, I slept really soundly: how strangely unpredictable are the ways of the mind!</p>
+<p>Post-operation, there is an amount of brain-fog. So for a while I wasn’t up to doing much more than aimless browsing, listening to more music, streaming some (lighter!) opera and ballet from the Royal Opera House site, and re-reading Dorothy Sayers for the first time in decades. But suddenly a few days ago I found myself moved to read the long introduction to a new logic book (isn’t that sad?): more about this soon. So I have had my big laptop brought back to hospital, meaning I can more easily write about this and that, and in particular can start occasionally posting here again.</p>
+<p>Onwards, then!</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/writing-from-k3.html</guid>
+  <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Heart troubles …</title>
   <link>https://logicmatters.net/blog/heart-troubles.html</link>
@@ -19,10 +39,10 @@
 
 
 
-<p>If you follow my blog (or the now-very-occasional postings on Blue Sky or Mathstodon), you might have noticed the near-silence. For indeed I have had almost nothing to say about logical matters.</p>
-<p>Rather, I am currently over three weeks into a stay in Addenbrooke’s hospital — having four-hourly intravenous antibiotics. Why so? — because by ill-fortune there is an infection on the artificial heart valve which I received a bit over two years ago. And that valve, it turns out, will have to be replaced in Papworth hospital next door this week.</p>
-<p>I am being very well looked after in Addenbrooke’s by the kindest of nurses and by equally kind and confidence-inspiring doctors. And Papworth is world-class. The National Health Service at its best is a marvel! (Apart from the food perhaps …).</p>
-<p>I hope to be back online! Wish me good fortune …</p>
+<p>If you follow this blog (or the now-very-occasional postings on Blue Sky or Mathstodon), you might have noticed the near-silence. For indeed I have had almost nothing to say about logical matters recently.</p>
+<p>Rather, I am currently over three weeks into a stay in Addenbrooke’s hospital — having four-hourly intravenous antibiotics. Why so? — because by ill luck there is an infection on the artificial heart valve which I received a bit over two years ago. And that valve, it turns out, will have to be replaced in Papworth hospital next door this week.</p>
+<p>I am being very well looked after in Addenbrooke’s by the kindest of nurses and by kind and confidence-inspiring doctors. And Papworth is truly world-class. The National Health Service at its best is a marvel! (Apart from the food perhaps …).</p>
+<p>I hope to be back online after! So wish me good fortune …</p>
 
 
 
@@ -475,33 +495,6 @@ There have been so many moving obituaries and fond tributes. Here, to mark her p
 
  ]]></description>
   <guid>https://logicmatters.net/blog/felicity-lott-1947-2026.html</guid>
-  <pubDate>Sun, 17 May 2026 23:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>ICT paperback is out!</title>
-  <link>https://logicmatters.net/blog/ict-paperback-is-out.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><img src="https://logicmatters.net/books/book-covers/SmithICT.jpg" style="float: left; width: 200px; margin-right: 20px; margin-bottom: 10px;"></p>
-<p>
-The revised/corrected third edition of <em>Introducing Category Theory</em> is now available as a paperback. To keep the cost minimal, this is again via print-on-demand from <a href="https://www.amazon.com/Introducing-Category-Theory-Peter-Smith/dp/1068346728/">Amazon US</a>, <a href="https://www.amazon.co.uk/Introducing-Category-Theory-Peter-Smith/dp/1068346728/">Amazon UK</a>, and of course other Amazons too, with ISBN 1068346728.
-</p>
-<p>
-There are many corrections of typos, and quite a few minor expositional improvements. Is it worth getting the new paperback if you already have the January printing of the third edition? Well why not? It is only the cost of three cappuccinos … And, for many of us, a physical book is so much easier to work with than a very long PDF. Treat yourself!
-</p>
-<p>
-A hardback for libraries (and for Amazon refuseniks) should become available on June 1st: more details to follow.
-</p>
-<p>
-</p>
-
-
-
- ]]></description>
-  <guid>https://logicmatters.net/blog/ict-paperback-is-out.html</guid>
   <pubDate>Sun, 17 May 2026 23:00:00 GMT</pubDate>
 </item>
 </channel>
