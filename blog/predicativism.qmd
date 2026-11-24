@@ -1,0 +1,32 @@
+---
+title: "New book on predicativism"
+date: "2026-11-24"
+description: "A new book of essays on predicativism -- its history and its contemporary varieties -- is forthcoming from OUP. The editors' introduction is already freely available online."
+---
+
+>I've developed the ability\
+to revise\
+what I'm waiting for\
+\
+so that letter\
+becomes dinner\
+gradually\
+\
+while the contrapuntal\
+nodding\
+of the Chinese elm leaves\
+\
+redistributes\
+ennui
+
+<span style="margin-left: 1in;">Rae Armantrout, "Results"</span>
+
+<hr>
+
+I have been temporarily banishing, or at least redistributing, ennui in hospital by looking at the Introduction and Overview to a forthcoming book of essays on predicativism edited by Laura Crosilla,  Øystein Linnebo, and Michael Rathjen. [It is freely available here.](https://academic.oup.com/book/63460/chapter/577772313)
+
+Laura Cosilla contributes two sections. She first sketches Weyl's evolving and varying ideas on the foundations of mathematics, though his predicativism will be the focus of this book. Then she has a section on Predicativity Beyond Weyl.
+
+The remaining long section gives thumbnail sketches of the sixteen contributions in the book, with indications of many intriguing papers for anyone with a prior interest in predicativism. This looks a very worthwile collection.
+
+(Those relatively new to predicativism, or sceptical about its current significance, might want to see if their interest is piqued by two *SEP* contribitions: [the elementary Section §2.4 in the general entry on the Philosophy of Mathematics](https://plato.stanford.edu/entries/philosophy-mathematics/) And then for the setting for modern concerns with predicativism see the entry on [Reverse Mathematics](https://plato.stanford.edu/entries/reverse-mathematics/.))

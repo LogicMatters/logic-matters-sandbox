@@ -10,7 +10,44 @@
 <atom:link href="https://logicmatters.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Logic, philosophy of mathematics, and related topics.</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sun, 22 Nov 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 24 Nov 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>New book on predicativism</title>
+  <link>https://logicmatters.net/blog/predicativism.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<blockquote class="blockquote">
+<p>I’ve developed the ability<br>
+to revise<br>
+what I’m waiting for<br>
+<br>
+so that letter<br>
+becomes dinner<br>
+gradually<br>
+<br>
+while the contrapuntal<br>
+nodding<br>
+of the Chinese elm leaves<br>
+<br>
+redistributes<br>
+ennui</p>
+</blockquote>
+<p><span style="margin-left: 1in;">Rae Armantrout, “Results”</span></p>
+<hr>
+<p>I have been temporarily banishing, or at least redistributing, ennui in hospital by looking at the Introduction and Overview to a forthcoming book of essays on predicativism edited by Laura Crosilla, Øystein Linnebo, and Michael Rathjen. <a href="https://academic.oup.com/book/63460/chapter/577772313">It is freely available here.</a></p>
+<p>Laura Cosilla contributes two sections. She first sketches Weyl’s evolving and varying ideas on the foundations of mathematics, though his predicativism will be the focus of this book. Then she has a section on Predicativity Beyond Weyl.</p>
+<p>The remaining long section gives thumbnail sketches of the sixteen contributions in the book, with indications of many intriguing papers for anyone with a prior interest in predicativism. This looks a very worthwile collection.</p>
+<p>(Those relatively new to predicativism, or sceptical about its current significance, might want to see if their interest is piqued by two <em>SEP</em> contribitions: <a href="https://plato.stanford.edu/entries/philosophy-mathematics/">the elementary Section §2.4 in the general entry on the Philosophy of Mathematics</a> And then for the setting for modern concerns with predicativism see the entry on <a href="https://plato.stanford.edu/entries/reverse-mathematics/.">Reverse Mathematics</a>)</p>
+
+
+
+ ]]></description>
+  <guid>https://logicmatters.net/blog/predicativism.html</guid>
+  <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Writing from K3</title>
   <link>https://logicmatters.net/blog/writing-from-k3.html</link>
@@ -19,10 +56,10 @@
 
 
 
-<p>After near-emergency open-heart at Papworth two and a half weeks ago, I am back across the road on the cardiac ward K3 in Addenbrooke’s hospital. The surgery went very well according to the medics, and left me in remarkable little discomfort. I am back in Addenbrooke’s for perhaps another four weeks because I still need six-times-a-day intravenous antibiotics to clear residual pockets of infection round the heart. One gets institutionalized so quickly that the prospect of a continuing long stay is quite manageable.</p>
+<p>After near-emergency open-heart surgery at Papworth two and a half weeks ago, I am back across the road on the cardiac ward K3 in Addenbrooke’s hospital. The surgery went very well according to the medics, and left me in remarkably little discomfort. I am back in Addenbrooke’s for perhaps another four weeks because I still need six-times-a-day intravenous antibiotics to clear residual pockets of infection around the heart. One gets institutionalized so quickly that the prospect of a continuing long stay is quite manageable.</p>
 <p>And I’ll say little more here – too many further details would be tedious, except perhaps to others facing similar surgery, who are very welcome to get in touch.</p>
-<p>But I’ll add this. When you sign the final consent form for surgery the night before, you are given an algorithmic estimate of the chances of various unwelcome outcomes. This time – for it is the second time for valve-replacement surgery – the chance of mortality was set pretty high, shall we say. How does one spend what might well be your last evening? In my case it was by listening intently to the wondrous Mitsuko Uchida playing some of the late Schubert piano music I have loved so much. What better? After which, surprising to relate, I slept really soundly: how strangely unpredictable are the ways of the mind!</p>
-<p>Post-operation, there is an amount of brain-fog. So for a while I wasn’t up to doing much more than aimless browsing, listening to more music, streaming some (lighter!) opera and ballet from the Royal Opera House site, and re-reading Dorothy Sayers for the first time in decades. But suddenly a few days ago I found myself moved to read the long introduction to a new logic book (isn’t that sad?): more about this soon. So I have had my big laptop brought back to hospital, meaning I can more easily write about this and that, and in particular can start occasionally posting here again.</p>
+<p>But I will add this. When I signed the final consent form for surgery the afternoon before, I was given an algorithmic estimate of the chances of various unwelcome outcomes. This time – for it is the second time for valve-replacement surgery – the chance of mortality was set pretty high, shall we say. How does one then spend what might well be your last evening? In my case it was by listening intently to the wondrous Mitsuko Uchida playing some of the late Schubert piano music I have loved so much. What better? After which, very surprising to relate, I slept really soundly: how strangely unpredictable are the ways of the mind!</p>
+<p>Post-operation, there was an amount of brain-fog. So for a while I wasn’t up to doing much more than aimless browsing, listening to more music, streaming to the iPad some (lighter!) opera and ballet from the Royal Opera House site, and re-reading Dorothy Sayers for the first time in decades. But suddenly a few days ago I found myself moved to read the long introduction to a new logic book (isn’t that sad?): more about this soon. So I have had my big laptop brought back to hospital, meaning I can more easily write about this and that, and in particular can start occasionally posting here again.</p>
 <p>Onwards, then!</p>
 
 
@@ -477,25 +514,6 @@ Predictably, after twenty years, there is a real mess behind the scenes here, an
  ]]></description>
   <guid>https://logicmatters.net/blog/twenty-years-on-what-next.html</guid>
   <pubDate>Fri, 22 May 2026 23:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Felicity Lott, 1947 – 2026</title>
-  <link>https://logicmatters.net/blog/felicity-lott-1947-2026.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/97QndmYbwtE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p>
-There have been so many moving obituaries and fond tributes. Here, to mark her passing, is Felicity Lott at the start of her stellar career, singing Pamina at Glyndebourne, almost fifty years ago. How joyous. And there was, by the way, a wonderful episode of <a href="https://www.bbc.co.uk/sounds/play/m002w61d">This Cultural Life on the BBC a few days ago</a>, a conversation with Felicity Lott, broadcast the day before she died: a life well lived.
-</p>
-
-
-
- ]]></description>
-  <guid>https://logicmatters.net/blog/felicity-lott-1947-2026.html</guid>
-  <pubDate>Sun, 17 May 2026 23:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

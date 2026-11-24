@@ -1,1 +1,1 @@
-Recent posts: [Timothy Smiley, 1930-2026](blog/smiley.qmd) (24 October 2026), [Heart troubles ...](blog/heart-troubles.qmd) (1 November 2026), [Writing from K3](blog/writing-from-k3.qmd) (22 November 2026)
+Recent posts: [Heart troubles ...](blog/heart-troubles.qmd) (1 November 2026), [Writing from K3](blog/writing-from-k3.qmd) (22 November 2026), [New book on predicativism](blog/predicativism.qmd) (24 November 2026)
